@@ -1,6 +1,8 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+// eslint-disable-next-line no-unused-vars
+import { motion } from "motion/react";
 
 gsap.registerPlugin(ScrollTrigger);
 

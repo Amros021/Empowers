@@ -3,6 +3,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+// eslint-disable-next-line no-unused-vars
+import { motion } from "motion/react";
 import { TrendingUp, MousePointer2, Target, BarChart3 } from "lucide-react";
 
 export default function OrangeGraphic() {
