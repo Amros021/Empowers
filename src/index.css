@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2E4036;
+  --color-accent: #CC5833;
+  --color-background: #F2F0E9;
+  --color-dark: #1A1A1A;
+  
+  --font-sans: "Plus Jakarta Sans", "Outfit", system-ui, sans-serif;
+  --font-drama: "Cormorant Garamond", serif;
+  --font-mono: "IBM Plex Mono", monospace;
+
+  --radius-2rem: 2rem;
+  --radius-3rem: 3rem;
+  --radius-4rem: 4rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-dark font-sans;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .noise-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 50;
+    opacity: 0.05;
+  }
+}
+
+/* Base interactive transitions */
+.btn-magnetic {
+  @apply relative overflow-hidden transition-transform duration-300 ease-in-out;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.btn-magnetic:hover {
+  transform: scale(1.03);
+}
+
+/* Hide scrollbar for clean look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: theme('colors.primary');
+  border-radius: 4px;
+}
