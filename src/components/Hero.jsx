@@ -40,12 +40,12 @@ export default function Hero() {
     }, []);
 
     return (
-        <section ref={containerRef} className="relative w-full h-[100dvh] overflow-hidden flex items-end">
+        <section ref={containerRef} className="relative w-full min-h-[100dvh] overflow-hidden flex items-end pt-32 lg:pt-0">
             {/* Clean Background to let Graphic shine */}
             <div className="absolute inset-0 z-0 bg-background" />
 
             {/* Content Container (Split Grid) */}
-            <div className="relative z-20 w-full max-w-7xl mx-auto px-6 pb-24 md:pb-32 flex flex-col lg:flex-row items-center justify-between gap-12">
+            <div className="relative z-20 w-full max-w-7xl mx-auto px-6 pb-12 sm:pb-24 md:pb-32 flex flex-col lg:flex-row items-center justify-between gap-12">
 
                 {/* Left side text */}
                 <div className="flex flex-col items-start gap-4 lg:w-1/2">
@@ -66,12 +66,12 @@ export default function Hero() {
 
                     <p
                         ref={addToRefs}
-                        className="font-sans text-primary/80 text-lg md:text-xl mt-6 font-medium tracking-wide max-w-xl"
+                        className="font-sans text-primary/80 text-lg md:text-xl mt-4 sm:mt-6 font-medium tracking-wide max-w-xl"
                     >
                         Wij combineren slimme advertenties met sterke organische groei — zodat jouw bedrijf niet alleen zichtbaar is, maar ook converteert. Geen loze beloftes, gewoon resultaten.
                     </p>
 
-                    <div ref={addToRefs} className="mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 sm:gap-4 w-full">
+                    <div ref={addToRefs} className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 sm:gap-4 w-full">
                         <Link to="/contact" className="btn-magnetic w-full sm:w-auto text-center block bg-accent text-background font-sans font-bold text-base sm:text-lg px-6 lg:px-8 py-3 lg:py-4 rounded-[2rem] hover:bg-accent/90 transition-colors whitespace-nowrap">
                             Start jouw groei
                         </Link>
