@@ -47,15 +47,20 @@ export default function Navbar() {
         <>
             <nav
                 ref={navRef}
-                className={`fixed top-4 md:top-6 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] px-4 md:px-6 py-3 md:py-4 rounded-[4rem] flex items-center justify-between gap-4 md:gap-12 w-[calc(100%-2rem)] md:w-auto
-            ${isScrolled || isMobileMenuOpen
-                        ? 'bg-background/90 backdrop-blur-xl border border-primary/10 shadow-lg md:min-w-[600px] text-primary'
-                        : 'bg-transparent text-primary max-w-[1200px]'
+                className={`fixed z-50 transition-all duration-300 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] flex items-center justify-between gap-4 md:gap-12 
+                    left-0 w-full px-6 md:left-1/2 md:-translate-x-1/2 md:w-[calc(100%-2rem)] md:max-w-max md:px-6 md:rounded-[4rem]
+            ${(isScrolled || isMobileMenuOpen)
+                        ? 'top-0 py-3 md:py-4 bg-background/95 backdrop-blur-xl border-b md:border border-primary/10 shadow-sm md:shadow-lg md:top-6 md:min-w-[600px] text-primary rounded-b-[20px] md:rounded-[4rem]'
+                        : 'top-0 pt-6 pb-4 md:py-4 bg-transparent border-b md:border border-transparent shadow-none md:top-6 md:max-w-[1200px] text-primary rounded-none md:rounded-[4rem]'
                     }
           `}
             >
                 <div className={`shrink-0 select-none flex items-center transition-all duration-300 ${isScrolled || isMobileMenuOpen ? 'h-8' : 'h-8 md:h-14'}`}>
-                    <Link to="/" className="flex items-center h-full" onClick={() => setIsMobileMenuOpen(false)}>
+                    <Link
+                        to="/"
+                        className={`flex items-center h-full origin-left transition-transform duration-300 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] ${!isScrolled && !isMobileMenuOpen ? 'scale-[1.35] md:scale-100' : 'scale-100'}`}
+                        onClick={() => setIsMobileMenuOpen(false)}
+                    >
                         <img
                             src="/empowers-logo-color.svg"
                             alt="Empowers Logo"
