@@ -108,7 +108,7 @@ export default function FAQ() {
                     {/* Header */}
                     <div className="mb-16 md:mb-24 text-center md:text-left">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">Kennisbank</span>
-                        <h1 className="font-drama italic text-primary text-5xl md:text-7xl mb-6">
+                        <h1 className="font-drama italic text-primary text-4xl sm:text-5xl md:text-7xl mb-6">
                             Veelgestelde vragen
                         </h1>
                         <p className="font-sans text-primary/70 text-lg max-w-2xl mx-auto md:mx-0">
@@ -129,13 +129,13 @@ export default function FAQ() {
                     </div>
 
                     {/* Call to action below FAQ */}
-                    <div className="mt-24 p-10 md:p-14 bg-primary rounded-[3rem] text-center relative overflow-hidden flex flex-col items-center">
+                    <div className="mt-24 p-8 sm:p-10 md:p-14 bg-primary rounded-[2rem] sm:rounded-[3rem] text-center relative overflow-hidden flex flex-col items-center">
                         <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
 
-                        <h3 className="relative z-10 font-drama italic text-background text-4xl md:text-5xl mb-4">Staat je vraag er niet tussen?</h3>
+                        <h3 className="relative z-10 font-drama italic text-background text-3xl sm:text-4xl md:text-5xl mb-4">Staat je vraag er niet tussen?</h3>
                         <p className="relative z-10 font-sans text-background/70 mb-8 max-w-md mx-auto">Stuur ons direct een bericht en we beantwoorden hem zo snel mogelijk.</p>
 
-                        <Link to="/contact" className="relative z-10 btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-lg px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
+                        <Link to="/contact" className="relative z-10 btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
                             Neem contact op
                         </Link>
                     </div>

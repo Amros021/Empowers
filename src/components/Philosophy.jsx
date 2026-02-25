@@ -83,19 +83,19 @@ export default function Philosophy() {
 
                 <h2
                     ref={text2Ref}
-                    className="font-sans font-bold text-background text-3xl md:text-5xl lg:text-6xl tracking-[-0.05em] flex flex-wrap items-baseline gap-x-3 lg:gap-x-5 gap-y-2 mt-4 leading-none"
+                    className="font-sans font-bold text-background text-2xl sm:text-3xl md:text-5xl lg:text-6xl tracking-[-0.05em] flex flex-wrap items-baseline gap-x-2 sm:gap-x-3 lg:gap-x-5 gap-y-2 mt-4 leading-none"
                 >
                     <span className="philosophy-word inline-block">Meer</span>
-                    <span className="philosophy-word inline-block font-drama italic font-normal text-accent text-5xl md:text-7xl lg:text-[7.5rem] leading-[0.85] tracking-tight -translate-y-1 lg:-translate-y-2">omzet</span>
+                    <span className="philosophy-word inline-block font-drama italic font-normal text-accent text-4xl sm:text-5xl md:text-7xl lg:text-[7.5rem] leading-[0.85] tracking-tight -translate-y-1 lg:-translate-y-2">omzet</span>
                     <span className="philosophy-word inline-block">uit</span>
                     <span className="philosophy-word inline-block">je</span>
                     <span className="philosophy-word inline-block">marketing.</span>
                     <span className="philosophy-word inline-block mt-2 lg:mt-4">Dat</span>
                     <span className="philosophy-word inline-block mt-2 lg:mt-4">is</span>
                     <span className="philosophy-word inline-block mt-2 lg:mt-4">het</span>
-                    <span className="philosophy-word inline-block mt-2 lg:mt-4 font-drama italic font-normal text-accent text-5xl md:text-7xl lg:text-[7.5rem] leading-[0.85] tracking-tight -translate-y-1 lg:-translate-y-2">enige</span>
-                    <span className="philosophy-word inline-block mt-2 lg:mt-4 font-drama italic font-normal text-accent text-5xl md:text-7xl lg:text-[7.5rem] leading-[0.85] tracking-tight -translate-y-1 lg:-translate-y-2">wat</span>
-                    <span className="philosophy-word inline-block mt-2 lg:mt-4 font-drama italic font-normal text-accent text-5xl md:text-7xl lg:text-[7.5rem] leading-[0.85] tracking-tight -translate-y-1 lg:-translate-y-2">telt.</span>
+                    <span className="philosophy-word inline-block mt-2 lg:mt-4 font-drama italic font-normal text-accent text-4xl sm:text-5xl md:text-7xl lg:text-[7.5rem] leading-[0.85] tracking-tight -translate-y-1 lg:-translate-y-2">enige</span>
+                    <span className="philosophy-word inline-block mt-2 lg:mt-4 font-drama italic font-normal text-accent text-4xl sm:text-5xl md:text-7xl lg:text-[7.5rem] leading-[0.85] tracking-tight -translate-y-1 lg:-translate-y-2">wat</span>
+                    <span className="philosophy-word inline-block mt-2 lg:mt-4 font-drama italic font-normal text-accent text-4xl sm:text-5xl md:text-7xl lg:text-[7.5rem] leading-[0.85] tracking-tight -translate-y-1 lg:-translate-y-2">telt.</span>
                 </h2>
             </div>
         </section >

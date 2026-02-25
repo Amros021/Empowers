@@ -52,13 +52,13 @@ export default function Hero() {
                     <h1 className="flex flex-col gap-2 w-full">
                         <span
                             ref={addToRefs}
-                            className="block font-sans font-bold text-primary text-3xl md:text-5xl lg:text-7xl tracking-tighter"
+                            className="block font-sans font-bold text-primary text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-tighter"
                         >
                             We empower
                         </span>
                         <span
                             ref={addToRefs}
-                            className="block font-drama italic text-accent text-6xl md:text-8xl lg:text-[11rem] leading-[0.85] tracking-tight pr-4 -mt-2 md:-mt-6"
+                            className="block font-drama italic text-accent text-5xl sm:text-6xl md:text-8xl lg:text-[11rem] leading-[0.85] tracking-tight pr-4 -mt-1 sm:-mt-2 md:-mt-6"
                         >
                             growth.
                         </span>

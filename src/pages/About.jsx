@@ -98,7 +98,7 @@ export default function About() {
             <section className="w-full py-24 px-6 bg-primary text-background relative overflow-hidden">
                 <div className="max-w-5xl mx-auto animate-section">
                     <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Onze Missie</span>
-                    <h2 className="font-drama italic text-4xl md:text-5xl lg:text-6xl leading-[1.1] mb-8">
+                    <h2 className="font-drama italic text-4xl sm:text-5xl lg:text-6xl leading-[1.1] mb-8">
                         Bedrijven laten groeien via marketing die écht werkt.
                     </h2>
                     <p className="font-sans text-background/80 text-lg md:text-xl leading-relaxed max-w-2xl">
@@ -109,7 +109,7 @@ export default function About() {
 
             <section className="w-full py-24 px-6">
                 <div className="max-w-5xl mx-auto animate-section">
-                    <h2 className="font-sans font-bold text-4xl md:text-5xl text-primary tracking-tight mb-8">Hoe wij werken</h2>
+                    <h2 className="font-sans font-bold text-3xl sm:text-4xl md:text-5xl text-primary tracking-tight mb-8">Hoe wij werken</h2>
                     <p className="font-sans text-primary/70 text-lg md:text-xl leading-relaxed max-w-3xl">
                         Wij geloven niet in standaardpakketten. Elke business is anders, elke doelgroep is anders en elk budget vraagt om een andere aanpak. Daarom starten we altijd met een grondige analyse voordat we ook maar één campagne lanceren. Strategie eerst, actie daarna.
                     </p>
@@ -119,7 +119,7 @@ export default function About() {
             <section className="w-full py-24 px-6 bg-[#FAFAFA]">
                 <div className="max-w-6xl mx-auto">
                     <div className="mb-16 animate-section">
-                        <h2 className="font-sans font-bold text-4xl md:text-5xl text-primary tracking-tight">Wat ons anders maakt</h2>
+                        <h2 className="font-sans font-bold text-3xl sm:text-4xl md:text-5xl text-primary tracking-tight">Wat ons anders maakt</h2>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 anders-container">
                         {andersPoints.map((pt, idx) => (
@@ -158,7 +158,7 @@ export default function About() {
                 <div className="max-w-5xl mx-auto bg-primary rounded-[3rem] p-12 md:p-20 text-center relative overflow-hidden animate-section">
                     <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
                     <div className="absolute bottom-0 left-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] translate-y-1/2 -translate-x-1/2" />
-                    <h2 className="relative z-10 font-drama italic text-background text-5xl md:text-6xl lg:text-7xl mb-10 leading-tight">Ben je klaar om te groeien?</h2>
+                    <h2 className="relative z-10 font-drama italic text-background text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-10 leading-tight">Ben je klaar om te groeien?</h2>
                     <Link to="/contact" className="relative z-10 btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-lg px-10 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors gap-3">
                         Plan een gratis strategiegesprek <ArrowRight className="w-5 h-5" />
                     </Link>

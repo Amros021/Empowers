@@ -3,7 +3,7 @@ import { Mail, Phone } from 'lucide-react';
 export default function Footer() {
     return (
         <footer className="w-full bg-dark text-background pt-24 pb-12 px-6 rounded-t-[4rem] relative z-30 mt-[-2rem]">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8 mb-20">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-8 mb-20">
 
                 {/* Brand & Status */}
                 <div className="col-span-1 md:col-span-5 flex flex-col items-start pr-8">
@@ -25,7 +25,7 @@ export default function Footer() {
                 </div>
 
                 {/* Navigation Grid */}
-                <div className="col-span-1 md:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-8">
+                <div className="col-span-1 md:col-span-7 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-8">
                     <div>
                         <h4 className="font-mono text-xs tracking-widest text-background/40 uppercase mb-6">Expertise</h4>
                         <ul className="space-y-6 font-sans text-base text-background/90 font-medium">

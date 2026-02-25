@@ -34,7 +34,7 @@ export default function BlogPostMetaAds() {
                         <div className="inline-block px-3 py-1 bg-accent/10 text-accent font-mono text-xs uppercase tracking-widest rounded-full mb-6">
                             Meta Ads
                         </div>
-                        <h1 className="font-drama italic text-primary text-5xl md:text-6xl lg:text-7xl leading-[1.1] tracking-tight mb-8">
+                        <h1 className="font-drama italic text-primary text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.1] tracking-tight mb-8">
                             Waarom jouw Meta Ads niet converteren (en hoe je dat oplost)
                         </h1>
 
@@ -182,7 +182,7 @@ export default function BlogPostMetaAds() {
             <section className="w-full pb-32 px-6">
                 <div className="max-w-4xl mx-auto bg-primary rounded-[3rem] p-12 md:p-20 text-center relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
-                    <h2 className="relative z-10 font-drama italic text-background text-4xl md:text-5xl mb-6">Meta Ads direct verbeteren?</h2>
+                    <h2 className="relative z-10 font-drama italic text-background text-3xl sm:text-4xl md:text-5xl mb-6">Meta Ads direct verbeteren?</h2>
                     <p className="relative z-10 font-sans text-background/70 text-lg mb-10 max-w-xl mx-auto">
                         Plan een gratis gesprek met onze experts. We bespreken jouw huidige account en de kansen voor jouw specifieke situatie in tools als Meta Business Manager.
                     </p>

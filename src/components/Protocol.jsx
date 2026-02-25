@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 const RadarAnimation = () => {
     return (
         <div className="relative w-full h-full flex items-center justify-center bg-[#D65A31]/5 overflow-hidden">
-            <div className="relative w-[300px] h-[300px] md:w-[360px] md:h-[360px]">
+            <div className="relative w-[240px] h-[240px] sm:w-[300px] sm:h-[300px] md:w-[360px] md:h-[360px]">
                 {/* Buitenste roterende cirkel (custom SVG dashed border ressembling the original image) */}
                 <motion.svg
                     viewBox="0 0 100 100"
@@ -59,7 +59,7 @@ const ProgressBarsAnimation = () => {
     ];
 
     return (
-        <div className="w-full h-full p-8 md:p-12 flex flex-col justify-center gap-6 md:gap-8">
+        <div className="w-full h-full p-6 sm:p-8 md:p-12 flex flex-col justify-center gap-6 md:gap-8">
             {channels.map((channel, i) => (
                 <div key={i} className="space-y-2 md:space-y-3">
                     <div className="flex justify-between text-[10px] md:text-xs font-bold text-primary/50 uppercase tracking-widest">
@@ -82,7 +82,7 @@ const ProgressBarsAnimation = () => {
 };
 
 const Fase03Growth = () => (
-    <div className="w-full h-full bg-primary/5 px-8 md:px-12 flex items-center justify-center overflow-hidden">
+    <div className="w-full h-full bg-primary/5 px-4 sm:px-8 md:px-12 flex items-center justify-center overflow-hidden">
         <div className="w-full h-32 md:h-48 flex items-center justify-center">
             <svg className="w-[120%] h-full text-accent" viewBox="0 0 100 40" preserveAspectRatio="none">
                 <motion.path
@@ -166,7 +166,7 @@ export default function Protocol() {
 
                 <div className="text-center mb-10 protocol-card">
                     <h2 className="font-sans font-bold text-sm tracking-widest uppercase text-accent mb-4">Het Systeem</h2>
-                    <p className="font-drama italic text-5xl md:text-6xl text-primary leading-tight">
+                    <p className="font-drama italic text-4xl sm:text-5xl md:text-6xl text-primary leading-tight">
                         Ons Groeimodel
                     </p>
                 </div>
@@ -174,12 +174,12 @@ export default function Protocol() {
                 {steps.map((step, i) => (
                     <div
                         key={i}
-                        className="protocol-card relative w-full bg-white rounded-[3rem] p-10 lg:p-16 shadow-[0_10px_40px_rgb(0,0,0,0.04)] border border-primary/10 flex flex-col lg:flex-row items-center gap-12 overflow-hidden"
+                        className="protocol-card relative w-full bg-white rounded-[2rem] sm:rounded-[3rem] p-6 sm:p-10 lg:p-16 shadow-[0_10px_40px_rgb(0,0,0,0.04)] border border-primary/10 flex flex-col lg:flex-row items-center gap-8 sm:gap-12 overflow-hidden"
                     >
                         {/* Content */}
                         <div className="relative z-10 w-full lg:w-1/2 flex flex-col justify-center">
                             <span className="font-mono text-xs uppercase tracking-widest text-accent mb-4 block">Fase {step.id}</span>
-                            <h3 className="font-sans font-bold text-4xl lg:text-5xl text-primary leading-tight tracking-tight mb-6">
+                            <h3 className="font-sans font-bold text-3xl sm:text-4xl lg:text-5xl text-primary leading-tight tracking-tight mb-4 sm:mb-6">
                                 {step.title}
                             </h3>
                             <p className="font-sans text-lg text-primary/70 font-medium leading-relaxed">
@@ -188,7 +188,7 @@ export default function Protocol() {
                         </div>
 
                         {/* Background / Animation Visualizer */}
-                        <div className="w-full lg:w-1/2 h-[300px] lg:h-[400px] relative bg-background/50 rounded-[2rem] overflow-hidden flex items-center justify-center">
+                        <div className="w-full lg:w-1/2 h-[250px] sm:h-[300px] lg:h-[400px] relative bg-background/50 rounded-[1.5rem] sm:rounded-[2rem] overflow-hidden flex items-center justify-center">
                             <div className="absolute inset-0 flex items-center justify-center scale-100 opacity-100">
                                 <step.Animation />
                             </div>

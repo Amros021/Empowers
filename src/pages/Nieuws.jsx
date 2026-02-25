@@ -67,11 +67,11 @@ export default function Nieuws() {
 
             <section className="w-full pt-48 pb-24 px-6 relative overflow-hidden">
                 <div className="absolute top-0 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-[100px] pointer-events-none" />
-                <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-12 lg:items-end">
+                <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-8 lg:gap-12 lg:items-end">
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Kennis & Vooruitgang</span>
-                        <h1 className="font-drama italic text-primary text-6xl md:text-8xl leading-none tracking-tight mb-6">
-                            Nieuws & <span className="font-sans font-bold text-5xl md:text-7xl not-italic">Insights.</span>
+                        <h1 className="font-drama italic text-primary text-5xl sm:text-6xl md:text-8xl leading-none tracking-tight mb-6">
+                            Nieuws & <span className="font-sans font-bold text-4xl sm:text-5xl md:text-7xl not-italic">Insights.</span>
                         </h1>
                     </div>
                     <div className="flex-1 lg:pb-3">
@@ -120,7 +120,7 @@ export default function Nieuws() {
 
             {/* Newsletter / CTA */}
             <section className="w-full pb-32 px-6">
-                <div className="max-w-4xl mx-auto bg-primary rounded-[3rem] p-12 md:p-20 text-center relative overflow-hidden flex flex-col items-center">
+                <div className="max-w-4xl mx-auto bg-primary rounded-[2rem] sm:rounded-[3rem] p-8 sm:p-12 md:p-20 text-center relative overflow-hidden flex flex-col items-center">
                     <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
 
                     <h3 className="relative z-10 font-drama italic text-background text-4xl md:text-5xl mb-4">Blijf vooroplopen.</h3>
@@ -128,7 +128,7 @@ export default function Nieuws() {
                         Ontvang inzichten rechtstreeks van onze experts over de toekomst van online autoriteit en AI-search.
                     </p>
 
-                    <Link to="/contact" className="relative z-10 btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-lg px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
+                    <Link to="/contact" className="relative z-10 btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
                         Samenwerken met Empowers
                     </Link>
                 </div>

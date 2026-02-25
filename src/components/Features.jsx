@@ -23,7 +23,7 @@ function DiagnosticShuffler() {
     }, []);
 
     return (
-        <div className="bg-background rounded-[2rem] p-8 shadow-sm border border-primary/10 flex flex-col h-full min-h-[400px]">
+        <div className="bg-background rounded-[2rem] p-6 sm:p-8 shadow-sm border border-primary/10 flex flex-col h-full min-h-[350px] lg:min-h-[400px]">
             <div className="mb-12">
                 <h3 className="font-sans font-bold text-2xl mb-2 text-dark">Directe Lijn</h3>
                 <p className="font-sans text-primary/70 text-sm">Geen tussenpersonen. Jij praat altijd rechtstreeks met de expert die aan jouw campagnes werkt.</p>
@@ -33,7 +33,7 @@ function DiagnosticShuffler() {
                 {cards.map((card, i) => (
                     <div
                         key={card.id}
-                        className="absolute w-full max-w-[280px] bg-white rounded-2xl p-6 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-primary/5 transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)] flex items-center gap-4"
+                        className="absolute w-[90%] sm:w-full max-w-[280px] bg-white rounded-2xl p-4 sm:p-6 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-primary/5 transition-all duration-700 ease-[cubic-bezier(0.34,1.56,0.64,1)] flex items-center gap-3 sm:gap-4"
                         style={{
                             transform: `translateY(${i * 20}px) scale(${1 - i * 0.05})`,
                             opacity: 1 - i * 0.2,
@@ -78,7 +78,7 @@ function TelemetryTypewriter() {
     }, [isTyping, fullText]);
 
     return (
-        <div className="bg-dark rounded-[2rem] p-8 shadow-xl border border-white/5 flex flex-col h-full min-h-[400px]">
+        <div className="bg-dark rounded-[2rem] p-6 sm:p-8 shadow-xl border border-white/5 flex flex-col h-full min-h-[350px] lg:min-h-[400px]">
             <div className="flex justify-between items-start mb-8">
                 <div>
                     <h3 className="font-sans font-bold text-2xl mb-2 text-background">Volledige expertise</h3>
@@ -146,7 +146,7 @@ function CursorProtocolScheduler() {
     }, []);
 
     return (
-        <div ref={containerRef} className="bg-background rounded-[2rem] p-8 shadow-sm border border-primary/10 flex flex-col h-full min-h-[400px] overflow-hidden relative">
+        <div ref={containerRef} className="bg-background rounded-[2rem] p-6 sm:p-8 shadow-sm border border-primary/10 flex flex-col h-full min-h-[350px] lg:min-h-[400px] overflow-hidden relative">
             <div className="mb-8 z-10 relative">
                 <h3 className="font-sans font-bold text-2xl mb-2 text-dark">Conversie First</h3>
                 <p className="font-sans text-primary/70 text-sm">Een mooie website is mooi, maar een website die verkoopt is beter. Wij optimaliseren elke stap van het klanttraject.</p>
@@ -157,7 +157,7 @@ function CursorProtocolScheduler() {
                     <path className="path-line" d="M180,140 C180,180 180,220 180,260" fill="none" stroke="var(--color-primary)" strokeWidth="2" strokeDasharray="4 4" opacity="0.2" />
                 </svg>
 
-                <div className="w-full max-w-[280px] flex flex-col items-center gap-12 z-10">
+                <div className="w-[90%] sm:w-full max-w-[280px] flex flex-col items-center gap-8 sm:gap-12 z-10">
                     <div className="grid grid-cols-5 gap-2 w-full">
                         {randomStats.map((statVal, i) => (
                             <div
@@ -219,12 +219,12 @@ export default function Features() {
             <div className="max-w-7xl mx-auto">
                 <div className="mb-20 max-w-2xl">
                     <h2 className="font-sans font-bold text-sm tracking-widest uppercase text-accent mb-4">Onze Aanpak</h2>
-                    <p className="font-drama italic text-5xl md:text-6xl text-primary leading-tight">
+                    <p className="font-drama italic text-4xl sm:text-5xl md:text-6xl text-primary leading-tight">
                         Zo halen wij meer uit jouw marketing.
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <div className="feature-card">
                         <DiagnosticShuffler />
                     </div>

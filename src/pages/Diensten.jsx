@@ -35,7 +35,7 @@ function GoogleAdsAnim() {
                     duration: 1.5,
                     onUpdate: function () {
                         if (ctrRef.current) {
-                            ctrRef.current.innerText = (this.ratio() * 8.4 + 2.1).toFixed(1) + '%';
+                            ctrRef.current.innerText = (this.progress() * 8.4 + 2.1).toFixed(1) + '%';
                         }
                     },
                     ease: 'power2.out'
@@ -102,7 +102,7 @@ function MetaAdsAnim() {
                 val: 100,
                 duration: 2.5,
                 onUpdate: function () {
-                    const ratio = this.ratio();
+                    const ratio = this.progress();
                     if (likesRef.current) likesRef.current.innerText = Math.floor(ratio * 1240);
                     if (clicksRef.current) clicksRef.current.innerText = Math.floor(ratio * 342);
                 },
@@ -170,7 +170,7 @@ function TikTokAdsAnim() {
                 val: 100,
                 duration: 2.5,
                 onUpdate: function () {
-                    const val = (this.ratio() * 3.2).toFixed(1);
+                    const val = (this.progress() * 3.2).toFixed(1);
                     if (viewsRef.current) viewsRef.current.innerText = val === "0.0" ? "0" : val + "M bereikt";
                 },
                 ease: 'power3.out'
@@ -249,7 +249,7 @@ function SEOAnim() {
                     val: 100,
                     duration: 2,
                     onUpdate: function () {
-                        const ratio = this.ratio();
+                        const ratio = this.progress();
                         if (trafficRef.current) trafficRef.current.innerText = '+' + Math.floor(ratio * 584) + '%';
                     },
                     ease: 'power2.out'
@@ -314,7 +314,7 @@ function GEOAnim() {
                 text: questionText,
                 ease: 'none',
                 onUpdate: function () {
-                    const progress = Math.floor(this.ratio() * questionText.length);
+                    const progress = Math.floor(this.progress() * questionText.length);
                     if (questionRef.current) questionRef.current.innerText = questionText.substring(0, progress);
                 }
             })
@@ -465,8 +465,8 @@ export default function Diensten() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-12 lg:items-end">
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Onze Diensten</span>
-                        <h1 className="font-drama italic text-primary text-6xl md:text-8xl lg:text-[7rem] leading-[0.9] tracking-tight mb-6">
-                            Fundamenten <br /><span className="font-sans font-bold text-5xl md:text-7xl lg:text-[6rem] not-italic">voor groei.</span>
+                        <h1 className="font-drama italic text-primary text-5xl sm:text-6xl md:text-8xl lg:text-[7rem] leading-[0.9] tracking-tight mb-6">
+                            Fundamenten <br /><span className="font-sans font-bold text-4xl sm:text-5xl md:text-7xl lg:text-[6rem] not-italic">voor groei.</span>
                         </h1>
                     </div>
                     <div className="flex-1 lg:pb-4">
@@ -483,7 +483,7 @@ export default function Diensten() {
                     {dienstenData.map((dienst, idx) => {
                         const { title, description, AnimComponent, reversed } = dienst;
                         return (
-                            <div key={idx} className={`flex flex-col ${reversed ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-12 lg:gap-24`}>
+                            <div key={idx} className={`flex flex-col ${reversed ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-8 lg:gap-24`}>
                                 {/* Context/Text */}
                                 <div className="flex-1 w-full flex flex-col items-start">
                                     <div className="font-mono text-xs text-background bg-primary px-3 py-1 rounded-full mb-6">
@@ -502,7 +502,7 @@ export default function Diensten() {
                                 </div>
 
                                 {/* Animation/Visual */}
-                                <div className="w-full lg:w-[45%] h-[400px] shrink-0">
+                                <div className="w-full lg:w-[45%] h-[350px] md:h-[400px] shrink-0">
                                     <AnimComponent />
                                 </div>
                             </div>
@@ -513,11 +513,11 @@ export default function Diensten() {
 
             {/* Bottom CTA */}
             <section className="w-full pb-32 px-6">
-                <div className="max-w-4xl mx-auto bg-primary rounded-[3rem] p-12 md:p-20 text-center relative overflow-hidden">
+                <div className="max-w-4xl mx-auto bg-primary rounded-[2rem] sm:rounded-[3rem] p-8 sm:p-12 md:p-20 text-center relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
                     <h2 className="relative z-10 font-drama italic text-background text-5xl md:text-6xl mb-6">Welke mix past bij jou?</h2>
                     <p className="relative z-10 font-sans text-background/70 text-lg mb-10 max-w-xl mx-auto">Elk bedrijf is anders. Laten we samen kijken welke combinatie van deze diensten zorgt voor de hoogste ROI in jouw markt.</p>
-                    <Link to="/contact" className="relative z-10 btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-lg px-10 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
+                    <Link to="/contact" className="relative z-10 btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base sm:text-lg px-6 sm:px-10 py-3 sm:py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
                         Plan een strategisch overleg
                     </Link>
                 </div>
