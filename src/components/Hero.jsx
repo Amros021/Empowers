@@ -58,7 +58,7 @@ export default function Hero() {
                         </span>
                         <span
                             ref={addToRefs}
-                            className="block font-drama italic text-accent text-5xl sm:text-6xl md:text-8xl lg:text-[11rem] leading-[0.85] tracking-tight pr-4 -mt-1 sm:-mt-2 md:-mt-6"
+                            className="block font-drama italic text-accent text-5xl sm:text-6xl md:text-8xl lg:text-[11rem] leading-[0.85] tracking-tight pr-0 sm:pr-4 -mt-1 sm:-mt-2 md:-mt-6"
                         >
                             growth.
                         </span>
@@ -71,8 +71,8 @@ export default function Hero() {
                         Wij combineren slimme advertenties met sterke organische groei — zodat jouw bedrijf niet alleen zichtbaar is, maar ook converteert. Geen loze beloftes, gewoon resultaten.
                     </p>
 
-                    <div ref={addToRefs} className="mt-8 flex items-center gap-4">
-                        <Link to="/contact" className="btn-magnetic block bg-accent text-background font-sans font-bold text-lg px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors whitespace-nowrap">
+                    <div ref={addToRefs} className="mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 sm:gap-4 w-full">
+                        <Link to="/contact" className="btn-magnetic w-full sm:w-auto text-center block bg-accent text-background font-sans font-bold text-base sm:text-lg px-6 lg:px-8 py-3 lg:py-4 rounded-[2rem] hover:bg-accent/90 transition-colors whitespace-nowrap">
                             Start jouw groei
                         </Link>
                         <a
@@ -81,9 +81,9 @@ export default function Hero() {
                                 e.preventDefault();
                                 document.getElementById('proces')?.scrollIntoView({ behavior: 'smooth' });
                             }}
-                            className="font-mono text-xs uppercase tracking-widest text-primary/50 hover:text-primary transition-colors flex items-center gap-2 whitespace-nowrap cursor-pointer"
+                            className="font-mono text-xs uppercase tracking-widest text-primary/50 hover:text-primary transition-colors flex items-center gap-2 whitespace-normal cursor-pointer text-left"
                         >
-                            <div className="w-8 h-[1px] bg-primary/30" />
+                            <div className="w-8 h-[1px] bg-primary/30 shrink-0" />
                             Ontdek onze werkwijze
                         </a>
                     </div>

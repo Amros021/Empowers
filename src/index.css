@@ -5,7 +5,7 @@
   --color-accent: #CC5833;
   --color-background: #F2F0E9;
   --color-dark: #1A1A1A;
-  
+
   --font-sans: "Plus Jakarta Sans", "Outfit", system-ui, sans-serif;
   --font-drama: "Cormorant Garamond", serif;
   --font-mono: "IBM Plex Mono", monospace;
@@ -16,9 +16,13 @@
 }
 
 @layer base {
+
+  html,
   body {
     @apply bg-background text-dark font-sans;
     overflow-x: hidden;
+    width: 100%;
+    position: relative;
   }
 }
 
@@ -49,9 +53,11 @@
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-track {
   background: transparent;
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: theme('colors.primary');
   border-radius: 4px;
