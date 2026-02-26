@@ -424,7 +424,7 @@ const dienstenData = [
     },
     {
         title: "Meta Ads",
-        description: "Facebook en Instagram zijn nog steeds de krachtigste platformen voor het bereiken van jouw ideale klant. Wij bouwen campagnes die niet alleen gezien worden, maar ook converteren.",
+        description: <>Facebook en Instagram zijn de krachtigste platformen<br />om jouw ideale klant te bereiken. Wij bouwen campagnes<br />die niet alleen gezien worden, maar ook converteren.</>,
         AnimComponent: MetaAdsAnim,
         reversed: true
     },
@@ -436,7 +436,7 @@ const dienstenData = [
     },
     {
         title: "SEO",
-        description: "Gevonden worden zonder te betalen per klik. Dat is de kracht van SEO. Wij optimaliseren jouw website zodat Google jou ziet als de meest relevante speler in jouw branche.",
+        description: <>Gevonden worden zonder te betalen per klik. Dat is<br />de kracht van SEO. Wij optimaliseren jouw website<br />zodat Google jou ziet als het meest relevante bedrijf<br />in jouw markt.</>,
         AnimComponent: SEOAnim,
         reversed: true
     },
@@ -471,7 +471,7 @@ export default function Diensten() {
                     </div>
                     <div className="flex-1 lg:pb-4">
                         <p className="font-sans text-primary/70 text-lg md:text-xl max-w-lg leading-relaxed font-medium">
-                            Geen losse flodders, maar een geïntegreerd systeem. We combineren betaalde zichtbaarheid met organische resonantie om elke centimeter van jouw markt te domineren.
+                            Geen losse acties, maar een aanpak die klopt.<br />Wij combineren betaalde advertenties met<br className="hidden md:block" /> organische vindbaarheid zodat je op meerdere<br className="hidden md:block" /> plekken tegelijk zichtbaar bent.
                         </p>
                     </div>
                 </div>
@@ -487,7 +487,7 @@ export default function Diensten() {
                                 {/* Context/Text */}
                                 <div className="flex-1 w-full flex flex-col items-start">
                                     <div className="font-mono text-xs text-background bg-primary px-3 py-1 rounded-full mb-6">
-                                        Fase / {(idx + 1).toString().padStart(2, '0')}
+                                        {(idx + 1).toString().padStart(2, '0')}
                                     </div>
                                     <h2 className="font-sans font-bold text-4xl md:text-5xl text-primary tracking-tight mb-6">
                                         {title}
@@ -516,9 +516,9 @@ export default function Diensten() {
                 <div className="max-w-4xl mx-auto bg-primary rounded-[2rem] sm:rounded-[3rem] p-8 sm:p-12 md:p-20 text-center relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
                     <h2 className="relative z-10 font-drama italic text-background text-5xl md:text-6xl mb-6">Welke mix past bij jou?</h2>
-                    <p className="relative z-10 font-sans text-background/70 text-lg mb-10 max-w-xl mx-auto">Elk bedrijf is anders. Laten we samen kijken welke combinatie van deze diensten zorgt voor de hoogste ROI in jouw markt.</p>
+                    <p className="relative z-10 font-sans text-background/70 text-lg mb-10 max-w-xl mx-auto">Elk bedrijf is anders. Laten we samen kijken welke combinatie van deze diensten het meeste rendement oplevert voor jouw situatie.</p>
                     <Link to="/contact" className="relative z-10 btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base sm:text-lg px-6 sm:px-10 py-3 sm:py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
-                        Plan een strategisch overleg
+                        Plan een gratis gesprek
                     </Link>
                 </div>
             </section>

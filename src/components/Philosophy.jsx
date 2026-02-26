@@ -78,7 +78,7 @@ export default function Philosophy() {
                     ref={text1Ref}
                     className="font-sans font-medium text-background/60 text-xl md:text-2xl mb-12 md:mb-20 tracking-wide max-w-2xl"
                 >
-                    Veel bureaus leveren mooie rapporten op. Maar geen omzet.
+                    Marketing werkt pas als het meetbaar bijdraagt aan je omzet.
                 </p>
 
                 <h2

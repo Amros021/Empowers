@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const faqs = [
     {
         q: "Wat maakt Empowers anders dan andere marketingbureaus?",
-        a: "Bij Empowers werk je altijd rechtstreeks met de expert die aan jouw campagnes werkt. Geen accountmanagers, geen doorspelen van informatie. Daarbij combineren we betaalde advertenties met SEO en GEO, zodat je zowel op de korte als lange termijn groeit."
+        a: "Bij Empowers werk je altijd rechtstreeks met de specialist die aan jouw campagnes werkt. Daarnaast combineren we betaalde advertenties met SEO en GEO, zodat je zowel snel resultaat ziet als op de lange termijn blijft groeien."
     },
     {
         q: "Voor welke bedrijven werken jullie?",

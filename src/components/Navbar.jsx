@@ -40,7 +40,6 @@ export default function Navbar() {
         { name: 'Over ons', path: '/over-ons' },
         { name: 'Nieuws', path: '/nieuws' },
         { name: 'FAQ', path: '/faq' },
-        { name: 'Contact', path: '/contact' },
     ];
 
     return (

@@ -58,7 +58,7 @@ export default function About() {
         },
         {
             title: "Volledig spectrum",
-            desc: "Van Google en Meta tot TikTok, van SEO tot GEO. Alles wat jouw online groei raakt, beheren wij onder één dak.",
+            desc: <>Van Google en Meta tot TikTok, van SEO tot GEO.<br />Alles wat jouw online marketing betreft,<br />regelen wij voor je.</>,
             icon: <Target className="w-6 h-6" />
         },
         {
@@ -68,12 +68,12 @@ export default function About() {
         },
         {
             title: "Transparant",
-            desc: "Je weet altijd wat we doen, waarom we het doen en wat het kost. Geen verrassingen op de factuur.",
+            desc: <>Je ziet altijd waar je budget naartoe gaat en wat het oplevert. Geen vage rapporten,<br />gewoon duidelijke cijfers.</>,
             icon: <Shield className="w-6 h-6" />
         },
         {
             title: "Resultaatgericht",
-            desc: "Mooie rapporten zijn leuk, maar omzet is wat telt. Wij meten alles en sturen bij waar nodig.",
+            desc: <>Elke beslissing is gebaseerd op data. Wij sturen bij op wat werkt en stoppen<br />met wat geld kost zonder resultaat.</>,
             icon: <TrendingUp className="w-6 h-6" />
         }
     ];
@@ -90,7 +90,8 @@ export default function About() {
                         Het verhaal
                     </h1>
                     <p className="font-sans text-primary/80 text-xl md:text-2xl leading-relaxed max-w-3xl font-medium">
-                        Empowers is ontstaan uit frustratie. Frustratie over bureaus die veel beloven, weinig uitleggen en moeilijk bereikbaar zijn zodra het contract getekend is. We zagen bedrijven geld verliezen aan campagnes die niemand goed beheerde. Dat kon beter. Dat moest beter.
+                        Empowers is opgericht met één doel: marketing die écht resultaat oplevert. Niet campagnes die er mooi uitzien op papier, maar advertenties die omzet genereren. We geloven dat elke ondernemer recht heeft op een aanpak die transparant is, meetbaar en volledig afgestemd op zijn situatie.<br /><br />
+                        Dat is waarom we doen wat we doen.
                     </p>
                 </div>
             </section>
@@ -111,7 +112,7 @@ export default function About() {
                 <div className="max-w-5xl mx-auto animate-section">
                     <h2 className="font-sans font-bold text-3xl sm:text-4xl md:text-5xl text-primary tracking-tight mb-8">Hoe wij werken</h2>
                     <p className="font-sans text-primary/70 text-lg md:text-xl leading-relaxed max-w-3xl">
-                        Wij geloven niet in standaardpakketten. Elke business is anders, elke doelgroep is anders en elk budget vraagt om een andere aanpak. Daarom starten we altijd met een grondige analyse voordat we ook maar één campagne lanceren. Strategie eerst, actie daarna.
+                        Wij geloven niet in een standaard aanpak. Elke business is anders, elke doelgroep is anders en elk budget vraagt om andere keuzes. Daarom starten we altijd met een analyse voordat we ook maar één campagne lanceren. Strategie eerst, actie daarna.
                     </p>
                 </div>
             </section>

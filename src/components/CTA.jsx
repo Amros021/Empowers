@@ -19,7 +19,7 @@ export default function CTA() {
                     </h2>
 
                     <p className="font-sans text-background/70 text-lg md:text-xl font-medium mb-12 max-w-xl mx-auto">
-                        Geen accountmanagers, geen gedoe. Direct contact met de expert die jouw groei realiseert.
+                        Geen accountmanagers, geen gedoe. Direct contact<br />met de specialist die aan jouw groei werkt.
                     </p>
 
                     <div className="flex justify-center w-full">

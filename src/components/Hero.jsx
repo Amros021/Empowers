@@ -68,7 +68,8 @@ export default function Hero() {
                         ref={addToRefs}
                         className="font-sans text-primary/80 text-lg md:text-xl mt-4 sm:mt-6 font-medium tracking-wide max-w-xl"
                     >
-                        Wij combineren slimme advertenties met sterke organische groei — zodat jouw bedrijf niet alleen zichtbaar is, maar ook converteert. Geen loze beloftes, gewoon resultaten.
+                        Advertenties die groeien. Resultaten die tellen.<br /><br />
+                        Wij nemen je marketing over, van strategie tot optimalisatie. Jij focust op je business. Wij zorgen dat je advertenties het werk doen.
                     </p>
 
                     <div ref={addToRefs} className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-6 sm:gap-4 w-full">

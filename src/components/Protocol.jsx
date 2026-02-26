@@ -117,7 +117,7 @@ const steps = [
     {
         id: "01",
         title: "Analyse & Doelstelling",
-        description: "Wij starten met een grondige audit van jouw huidige situatie. Waar sta je nu, waar wil je naartoe en wat zijn de concrete KPI's? Samen definiëren we wat succes voor jóuw business betekent zodat elke euro die je investeert een doel heeft.",
+        description: <>We starten met een eerlijke analyse van waar je nu staat.<br />Wat werkt al, wat kost geld zonder resultaat en waar ligt de kans? Op basis daarvan stellen we concrete doelen op. Geen vage plannen, maar een duidelijke koers.</>,
         Animation: () => <RadarAnimation />
     },
     {
@@ -129,7 +129,7 @@ const steps = [
     {
         id: "03",
         title: "Meten, Bijsturen & Opschalen",
-        description: "Maandelijks sparren we samen over de resultaten. We analyseren conversies, sturen bij waar het kan én schalen op wat werkt. Marketing is een doorlopend proces — wij zorgen dat het elke maand beter presteert.",
+        description: "Maandelijks sparren we samen over de resultaten. We analyseren wat werkt, sturen bij waar nodig en schalen op wat het meeste oplevert. Marketing is een doorlopend proces. Wij zorgen dat het elke maand beter presteert.",
         Animation: () => <Fase03Growth />
     }
 ];
