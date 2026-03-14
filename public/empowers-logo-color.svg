@@ -1,0 +1,8 @@
+<svg viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="80" fill="#373546" style="font-family: 'Quicksand', sans-serif; font-size: 64px; font-weight: 600; letter-spacing: -0.02em">empowers</text>
+  <g transform="translate(335, 30)">
+    <path d="M15 50L55 10M55 10H30M55 10V35" stroke="#D65A31" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M5 40L25 20" stroke="#D65A31" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+    <circle cx="5" cy="55" r="4" fill="#D65A31" opacity="0.4"/>
+  </g>
+</svg>
