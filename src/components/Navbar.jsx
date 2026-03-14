@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Link } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -94,13 +93,17 @@ export default function Navbar() {
                         <span className="relative z-10 whitespace-nowrap">Plan een gesprek</span>
                     </Link>
 
-                    {/* Mobile Menu Toggle */}
+                    {/* Mobile Menu Toggle — tekst pill */}
                     <button
-                        className={`md:hidden p-1.5 -mr-2 rounded-lg text-background transition-colors ${isScrolled || isMobileMenuOpen ? 'bg-accent hover:bg-accent/90' : 'bg-primary hover:bg-primary/90'}`}
+                        className={`md:hidden px-4 py-2 rounded-full font-sans font-bold text-xs tracking-[0.15em] uppercase transition-colors duration-300
+                            ${isMobileMenuOpen
+                                ? 'bg-primary text-background'
+                                : isScrolled ? 'bg-accent text-background' : 'bg-primary text-background'
+                            }`}
                         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                         aria-label="Toggle menu"
                     >
-                        {isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
+                        {isMobileMenuOpen ? 'SLUIT ×' : 'MENU'}
                     </button>
                 </div>
             </nav>
@@ -113,37 +116,38 @@ export default function Navbar() {
                 onClick={() => setIsMobileMenuOpen(false)}
             />
 
-            {/* Mobile Menu — uitklappen vanuit de knop rechtsboven */}
+            {/* Mobile Menu — slideDown vanuit navbar */}
             <div
-                className="fixed right-0 z-40 md:hidden bg-background flex flex-col shadow-2xl"
+                className="fixed left-0 z-40 md:hidden bg-background flex flex-col shadow-2xl"
                 style={{
                     top: navBottom,
-                    height: `calc(100dvh - ${navBottom}px)`,
-                    width: '88vw',
-                    maxWidth: '400px',
-                    transformOrigin: 'top right',
-                    transform: isMobileMenuOpen ? 'scale(1)' : 'scale(0)',
-                    transition: 'transform 0.4s cubic-bezier(0.25,0.46,0.45,0.94)',
-                    borderRadius: '1rem',
+                    width: '100%',
+                    transform: isMobileMenuOpen ? 'translateY(0)' : 'translateY(-100%)',
+                    visibility: isMobileMenuOpen ? 'visible' : 'hidden',
+                    transitionProperty: 'transform, visibility',
+                    transitionDuration: isMobileMenuOpen ? '0.45s, 0s' : '0.45s, 0s',
+                    transitionDelay: isMobileMenuOpen ? '0s, 0s' : '0s, 0.45s',
+                    transitionTimingFunction: 'cubic-bezier(0.25,0.46,0.45,0.94)',
+                    borderRadius: '0 0 1.5rem 1.5rem',
                 }}
             >
                 {/* Links */}
-                <div className="flex flex-col px-8 pt-8 gap-1">
+                <div className="flex flex-col px-7 pt-7 gap-0">
                     {navLinks.map((link) => (
                         <Link
                             key={link.name}
                             to={link.path}
                             onClick={() => setIsMobileMenuOpen(false)}
-                            className="font-sans font-medium text-xl text-primary py-3 border-b border-primary/10 flex items-center justify-between hover:text-accent transition-colors"
+                            className="font-sans font-bold text-2xl text-primary py-3.5 border-b border-primary/10 flex items-center justify-between hover:text-accent transition-colors"
                         >
                             {link.name}
-                            <span className="text-primary/30 text-base">›</span>
+                            <span className="text-primary/25 text-xl font-light">›</span>
                         </Link>
                     ))}
                 </div>
 
-                {/* Quote kaart — groeit om lege ruimte op te vullen */}
-                <div className="px-8 pt-6 pb-4 flex-1 flex flex-col justify-end">
+                {/* Quote kaart */}
+                <div className="px-7 pt-5 pb-4 flex flex-col">
                     <div
                         className="rounded-2xl p-5 relative overflow-hidden w-full"
                         style={{ background: 'linear-gradient(135deg, #2E4036 0%, #1a2620 100%)' }}
@@ -157,7 +161,7 @@ export default function Navbar() {
                 </div>
 
                 {/* CTA knop onderaan */}
-                <div className="px-8 pb-8">
+                <div className="px-7 pb-7 pt-3">
                     <Link
                         to="/contact"
                         onClick={() => setIsMobileMenuOpen(false)}
