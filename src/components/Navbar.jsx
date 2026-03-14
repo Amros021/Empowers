@@ -10,12 +10,16 @@ export default function Navbar() {
     const navRef = useRef(null);
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const [navBottom, setNavBottom] = useState(72);
 
 
-    // Prevent scrolling when mobile menu is open
+    // Prevent scrolling when mobile menu is open + meet navbar hoogte
     useEffect(() => {
         if (isMobileMenuOpen) {
             document.body.style.overflow = 'hidden';
+            if (navRef.current) {
+                setNavBottom(navRef.current.getBoundingClientRect().bottom);
+            }
         } else {
             document.body.style.overflow = 'unset';
         }
@@ -46,19 +50,19 @@ export default function Navbar() {
         <>
             <nav
                 ref={navRef}
-                className={`fixed z-50 transition-all duration-500 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] 
+                className={`fixed z-50 transition-all duration-500 ease-[cubic-bezier(0.25,0.46,0.45,0.94)]
                     flex items-center justify-between md:grid md:grid-cols-[1fr_auto_1fr] md:items-center gap-4 md:gap-8
-                    left-0 w-full px-6 md:left-1/2 md:-translate-x-1/2 md:w-[calc(100%-3rem)] lg:w-[calc(100%-6rem)] md:max-w-[1440px] md:px-8 lg:px-10 md:rounded-[4rem]
+                    md:left-1/2 md:-translate-x-1/2 md:w-[calc(100%-3rem)] lg:w-[calc(100%-6rem)] md:max-w-[1440px] md:px-8 lg:px-10 md:rounded-[4rem]
             ${(isScrolled || isMobileMenuOpen)
-                        ? 'top-0 py-3 md:py-4 bg-background/95 backdrop-blur-xl border-b md:border border-primary/10 shadow-sm md:shadow-lg md:top-6 text-primary rounded-b-[20px] md:rounded-[4rem]'
-                        : 'top-0 pt-6 pb-4 md:py-5 bg-transparent border-b md:border border-transparent shadow-none md:top-6 text-primary rounded-none md:rounded-[4rem]'
+                        ? 'top-3 py-3 md:py-4 bg-background/95 backdrop-blur-xl border border-primary/10 shadow-lg md:shadow-lg md:top-6 text-primary rounded-[2rem] md:rounded-[4rem] left-3 w-[calc(100%-1.5rem)] px-5 md:left-1/2 md:w-[calc(100%-3rem)] md:px-8'
+                        : 'top-0 pt-6 pb-4 md:py-5 bg-transparent border border-transparent shadow-none md:top-6 text-primary rounded-none md:rounded-[4rem] left-0 w-full px-6 md:left-1/2 md:w-[calc(100%-3rem)] md:px-8'
                     }
           `}
             >
                 <div className="shrink-0 select-none flex items-center justify-start h-8 md:h-10 lg:h-10">
                     <Link
                         to="/"
-                        className={`flex items-center h-full origin-left transition-transform duration-500 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] ${!isScrolled && !isMobileMenuOpen ? 'scale-[1.35] md:scale-[1.3]' : 'scale-100 md:scale-[0.85]'}`}
+                        className={`flex items-center h-full origin-left transition-transform duration-500 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] ${!isScrolled && !isMobileMenuOpen ? 'scale-[1.35] md:scale-[1.3]' : 'scale-[1.125] md:scale-[0.85]'}`}
                         onClick={() => setIsMobileMenuOpen(false)}
                     >
                         <img
@@ -92,49 +96,73 @@ export default function Navbar() {
 
                     {/* Mobile Menu Toggle */}
                     <button
-                        className="md:hidden p-2 -mr-2 rounded-full text-primary hover:bg-primary/5 transition-colors"
+                        className={`md:hidden p-1.5 -mr-2 rounded-lg text-background transition-colors ${isScrolled || isMobileMenuOpen ? 'bg-accent hover:bg-accent/90' : 'bg-primary hover:bg-primary/90'}`}
                         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                         aria-label="Toggle menu"
                     >
-                        {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+                        {isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
                     </button>
                 </div>
             </nav>
 
-            {/* Mobile Fullscreen Menu Overlay */}
+            {/* Mobile Menu — donker overlay achtergrond */}
             <div
-                className={`fixed inset-0 z-40 bg-background/95 backdrop-blur-2xl transition-all duration-500 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] flex flex-col items-center justify-center md:hidden
+                className={`fixed inset-0 z-30 bg-primary/60 md:hidden transition-opacity duration-400
                     ${isMobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}
                 `}
+                onClick={() => setIsMobileMenuOpen(false)}
+            />
+
+            {/* Mobile Menu — uitklappen vanuit de knop rechtsboven */}
+            <div
+                className="fixed right-0 z-40 md:hidden bg-background flex flex-col shadow-2xl"
+                style={{
+                    top: navBottom,
+                    height: `calc(100dvh - ${navBottom}px)`,
+                    width: '88vw',
+                    maxWidth: '400px',
+                    transformOrigin: 'top right',
+                    transform: isMobileMenuOpen ? 'scale(1)' : 'scale(0)',
+                    transition: 'transform 0.4s cubic-bezier(0.25,0.46,0.45,0.94)',
+                    borderRadius: '1rem',
+                }}
             >
-                <div className="flex flex-col items-center w-full px-8 gap-6 mt-16">
-                    {navLinks.map((link, index) => (
+                {/* Links */}
+                <div className="flex flex-col px-8 pt-8 gap-1 flex-1">
+                    {navLinks.map((link) => (
                         <Link
                             key={link.name}
                             to={link.path}
                             onClick={() => setIsMobileMenuOpen(false)}
-                            className="font-sans font-medium text-3xl text-primary hover:text-accent transition-colors w-full text-center py-2"
-                            style={{
-                                transitionDelay: isMobileMenuOpen ? `${index * 50}ms` : '0ms',
-                                transform: isMobileMenuOpen ? 'translateY(0)' : 'translateY(20px)',
-                                opacity: isMobileMenuOpen ? 1 : 0,
-                                transition: 'all 0.4s cubic-bezier(0.25,0.46,0.45,0.94)'
-                            }}
+                            className="font-sans font-medium text-xl text-primary py-4 border-b border-primary/10 flex items-center justify-between hover:text-accent transition-colors"
                         >
                             {link.name}
+                            <span className="text-primary/30 text-base">›</span>
                         </Link>
                     ))}
+                </div>
 
+                {/* Quote kaart */}
+                <div className="px-8 pb-6 flex-1 flex items-end">
+                    <div
+                        className="rounded-2xl p-6 relative overflow-hidden w-full"
+                        style={{ background: 'linear-gradient(135deg, #2E4036 0%, #1a2620 100%)' }}
+                    >
+                        <p className="font-sans text-xs font-semibold tracking-[0.15em] uppercase mb-4" style={{ color: 'rgba(255,255,255,0.4)' }}>Onze aanpak</p>
+                        <p className="font-serif text-2xl leading-snug text-white mb-1">"Groei is geen toeval,</p>
+                        <p className="font-sans text-base font-bold tracking-wide mb-6" style={{ color: '#CC5833' }}>HET IS EEN STRATEGIE."</p>
+                        <p className="font-sans text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.5)' }}>Wij zorgen dat jouw advertenties structureel presteren.</p>
+                        {/* Decoratief element */}
+                        <div className="absolute -bottom-6 -right-6 w-28 h-28 rounded-full" style={{ background: 'rgba(204,88,51,0.12)' }} />
+                    </div>
+                </div>
+
+                {/* CTA knop onderaan */}
+                <div className="px-8 pb-12">
                     <Link
                         to="/contact"
                         onClick={() => setIsMobileMenuOpen(false)}
-                        className="mt-8 bg-accent text-background font-sans font-bold text-lg w-full max-w-sm py-4 rounded-[2rem] text-center hover:scale-[1.02] transition-transform shadow-lg"
-                        style={{
-                            transitionDelay: isMobileMenuOpen ? `${navLinks.length * 50}ms` : '0ms',
-                            transform: isMobileMenuOpen ? 'translateY(0)' : 'translateY(20px)',
-                            opacity: isMobileMenuOpen ? 1 : 0,
-                            transition: 'all 0.4s cubic-bezier(0.25,0.46,0.45,0.94)'
-                        }}
+                        className="block w-full bg-accent text-background font-sans font-bold text-base py-4 rounded-[2rem] text-center"
                     >
                         Plan een gesprek
                     </Link>
