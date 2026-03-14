@@ -525,13 +525,13 @@ const dienstenData = [
         reversed: true
     },
     {
-        title: "SEO",
+        title: <>SEO <span className="block font-mono text-sm uppercase tracking-widest text-primary/40 mt-1 font-normal">Search Engine Optimization</span></>,
         description: <>Gevonden worden zonder te betalen per klik. Dat is<br />de kracht van SEO. Wij optimaliseren jouw website<br />zodat Google jou ziet als het meest relevante bedrijf<br />in jouw markt.</>,
         AnimComponent: SEOAnim,
         reversed: false
     },
     {
-        title: "GEO",
+        title: <>GEO <span className="block font-mono text-sm uppercase tracking-widest text-primary/40 mt-1 font-normal">Generative Engine Optimization</span></>,
         description: "De manier waarop mensen zoeken verandert. Steeds meer mensen stellen hun vragen aan ChatGPT, Gemini of Claude in plaats van aan Google. GEO zorgt ervoor dat jouw bedrijf ook daar wordt aanbevolen.",
         AnimComponent: GEOAnim,
         reversed: true
@@ -636,8 +636,8 @@ export default function Diensten() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-12 lg:items-end">
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Onze Diensten</span>
-                        <h1 className="font-drama italic text-primary text-5xl sm:text-6xl md:text-8xl lg:text-[7rem] leading-[0.9] tracking-tight mb-6">
-                            Fundamenten <br /><span className="font-sans font-bold text-4xl sm:text-5xl md:text-7xl lg:text-[6rem] not-italic">voor groei.</span>
+                        <h1 className="font-drama italic text-accent text-5xl sm:text-6xl md:text-8xl lg:text-[7rem] leading-[0.9] tracking-tight mb-6">
+                            Fundamenten <br /><span className="font-sans font-bold text-primary text-4xl sm:text-5xl md:text-7xl lg:text-[6rem] not-italic">voor groei.</span>
                         </h1>
                     </div>
                     <div className="flex-1 lg:pb-4">
@@ -666,7 +666,7 @@ export default function Diensten() {
                                     <p className="font-sans text-primary/70 text-lg md:text-xl leading-relaxed max-w-lg mb-8">
                                         {description}
                                     </p>
-                                    <Link to="/contact" className="group font-sans font-bold text-accent flex items-center gap-2 hover:text-primary transition-colors">
+                                    <Link to="/contact" className="group font-mono text-sm uppercase tracking-widest text-accent flex items-center gap-2 hover:text-primary transition-colors">
                                         Bespreek de mogelijkheden
                                         <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
                                     </Link>

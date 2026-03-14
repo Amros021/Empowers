@@ -44,10 +44,10 @@ export default function Contact() {
             <section className="flex-1 w-full bg-background pt-40 pb-32 px-6 flex flex-col items-center">
                 <div className="w-full max-w-5xl">
                     <div className="text-center mb-16">
-                        <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">Contact</span>
-                        <h1 className="font-drama italic text-primary text-4xl sm:text-5xl md:text-7xl mb-6">Laten we praten over groei.</h1>
-                        <p className="font-sans text-primary/70 text-lg mb-0 max-w-2xl mx-auto">
-                            Kies hoe je contact wilt opnemen. We reageren altijd binnen 24 uur.
+                        <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">Kom in contact</span>
+                        <h1 className="font-drama italic text-primary text-5xl sm:text-6xl md:text-8xl leading-tight tracking-tight mb-4">Contact.</h1>
+                        <p className="font-sans text-primary/70 text-lg md:text-xl mb-0 max-w-2xl mx-auto">
+                            Kies hoe je contact wilt opnemen, we reageren altijd binnen 24 uur.
                         </p>
                     </div>
 
