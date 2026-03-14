@@ -43,7 +43,7 @@ function DiagnosticShuffler() {
                         <div className="w-10 h-10 rounded-full bg-background flex items-center justify-center flex-shrink-0">
                             <card.icon className="w-5 h-5 text-accent" />
                         </div>
-                        <span className="font-mono text-sm font-medium text-dark flex-grow">{card.text}</span>
+                        <span className="font-sans font-medium text-sm text-dark flex-grow">{card.text}</span>
                         <div className="w-2 h-2 rounded-full bg-accent animate-pulse" />
                     </div>
                 ))}

@@ -10,7 +10,7 @@ export default function CTA() {
                 <div className="absolute bottom-0 left-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] translate-y-1/2 -translate-x-1/2" />
 
                 <div className="relative z-20 flex flex-col items-center">
-                    <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 bg-accent/10 px-4 py-1.5 rounded-full inline-block">
+                    <span className="font-sans font-bold text-sm tracking-widest uppercase text-accent mb-6 bg-accent/10 px-4 py-1.5 rounded-full inline-block">
                         KLAAR OM TE GROEIEN?
                     </span>
 

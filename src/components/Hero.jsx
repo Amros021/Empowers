@@ -77,7 +77,7 @@ export default function Hero() {
                                 e.preventDefault();
                                 document.getElementById('proces')?.scrollIntoView({ behavior: 'smooth' });
                             }}
-                            className="font-mono text-xs uppercase tracking-widest text-primary/50 hover:text-primary transition-colors flex items-center gap-2 whitespace-normal cursor-pointer text-left"
+                            className="font-sans font-bold text-xs uppercase tracking-widest text-primary/50 hover:text-primary transition-colors flex items-center gap-2 whitespace-normal cursor-pointer text-left"
                         >
                             <div className="w-8 h-[1px] bg-primary/30 shrink-0" />
                             Ontdek onze werkwijze

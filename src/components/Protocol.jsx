@@ -178,7 +178,7 @@ export default function Protocol() {
                     >
                         {/* Content */}
                         <div className="relative z-10 w-full lg:w-1/2 flex flex-col justify-center">
-                            <span className="font-mono text-xs uppercase tracking-widest text-accent mb-4 block">Fase {step.id}</span>
+                            <span className="font-sans font-bold text-xs uppercase tracking-widest text-accent mb-4 block">Fase {step.id}</span>
                             <h3 className="font-sans font-bold text-3xl sm:text-4xl lg:text-5xl text-primary leading-tight tracking-tight mb-4 sm:mb-6">
                                 {step.title}
                             </h3>

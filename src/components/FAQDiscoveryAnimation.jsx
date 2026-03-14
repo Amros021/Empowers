@@ -10,7 +10,7 @@ export const FAQDiscoveryAnimation = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        className="relative w-full max-w-3xl aspect-[21/9] bg-[#373546]/[0.02] rounded-[32px] md:rounded-[48px] flex items-center justify-center overflow-hidden border border-[#373546]/5"
+        className="relative w-full max-w-3xl aspect-[21/9] bg-[#EFEFED] rounded-[32px] md:rounded-[48px] flex items-center justify-center overflow-hidden border border-[#373546]/8"
       >
         {/* Achtergrond Grid */}
         <div className="absolute inset-0 opacity-[0.03] pointer-events-none"
