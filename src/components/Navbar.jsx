@@ -128,13 +128,13 @@ export default function Navbar() {
                 }}
             >
                 {/* Links */}
-                <div className="flex flex-col px-8 pt-8 gap-1 flex-1">
+                <div className="flex flex-col px-8 pt-8 gap-1">
                     {navLinks.map((link) => (
                         <Link
                             key={link.name}
                             to={link.path}
                             onClick={() => setIsMobileMenuOpen(false)}
-                            className="font-sans font-medium text-xl text-primary py-4 border-b border-primary/10 flex items-center justify-between hover:text-accent transition-colors"
+                            className="font-sans font-medium text-xl text-primary py-3 border-b border-primary/10 flex items-center justify-between hover:text-accent transition-colors"
                         >
                             {link.name}
                             <span className="text-primary/30 text-base">›</span>
@@ -142,23 +142,22 @@ export default function Navbar() {
                     ))}
                 </div>
 
-                {/* Quote kaart */}
-                <div className="px-8 pb-6 flex-1 flex items-end">
+                {/* Quote kaart — groeit om lege ruimte op te vullen */}
+                <div className="px-8 pt-6 pb-4 flex-1 flex flex-col justify-end">
                     <div
-                        className="rounded-2xl p-6 relative overflow-hidden w-full"
+                        className="rounded-2xl p-5 relative overflow-hidden w-full"
                         style={{ background: 'linear-gradient(135deg, #2E4036 0%, #1a2620 100%)' }}
                     >
-                        <p className="font-sans text-xs font-semibold tracking-[0.15em] uppercase mb-4" style={{ color: 'rgba(255,255,255,0.4)' }}>Onze aanpak</p>
-                        <p className="font-serif text-2xl leading-snug text-white mb-1">"Groei is geen toeval,</p>
-                        <p className="font-sans text-base font-bold tracking-wide mb-6" style={{ color: '#CC5833' }}>HET IS EEN STRATEGIE."</p>
+                        <p className="font-sans text-xs font-semibold tracking-[0.15em] uppercase mb-3" style={{ color: 'rgba(255,255,255,0.4)' }}>Onze aanpak</p>
+                        <p className="font-serif text-xl leading-snug text-white mb-1">"Groei is geen toeval,</p>
+                        <p className="font-sans text-sm font-bold tracking-wide mb-4" style={{ color: '#CC5833' }}>HET IS EEN STRATEGIE."</p>
                         <p className="font-sans text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.5)' }}>Wij zorgen dat jouw advertenties structureel presteren.</p>
-                        {/* Decoratief element */}
                         <div className="absolute -bottom-6 -right-6 w-28 h-28 rounded-full" style={{ background: 'rgba(204,88,51,0.12)' }} />
                     </div>
                 </div>
 
                 {/* CTA knop onderaan */}
-                <div className="px-8 pb-12">
+                <div className="px-8 pb-8">
                     <Link
                         to="/contact"
                         onClick={() => setIsMobileMenuOpen(false)}
