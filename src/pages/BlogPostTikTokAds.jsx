@@ -20,6 +20,16 @@ export default function BlogPostTikTokAds() {
                 <meta property="og:description" content="Lees of TikTok Ads passen bij jouw bedrijf, wat de kosten zijn en hoe je een succesvolle eerste campagne opzet om nieuwe klanten te bereiken." />
                 <meta property="og:url" content="https://www.empowers.nl/blog/tiktok-ads-voor-bedrijven" />
                 <meta property="og:type" content="article" />
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "TikTok Ads voor bedrijven: is het iets voor jou?",
+                    "description": "Lees of TikTok Ads passen bij jouw bedrijf, wat de kosten zijn en hoe je een succesvolle eerste campagne opzet om nieuwe klanten te bereiken.",
+                    "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                    "datePublished": "2026-02-15",
+                    "url": "https://www.empowers.nl/blog/tiktok-ads-voor-bedrijven"
+                })}</script>
             </Helmet>
             <Navbar />
 
@@ -39,7 +49,7 @@ export default function BlogPostTikTokAds() {
                         <div className="inline-block px-3 py-1 bg-accent/10 text-accent font-mono text-xs uppercase tracking-widest rounded-full mb-6">
                             TikTok Ads
                         </div>
-                        <h1 className="font-drama italic text-primary text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.1] tracking-tight mb-8">
+                        <h1 className="font-sans font-bold text-primary text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight tracking-tight mb-8">
                             TikTok Ads voor bedrijven: is het iets voor jou?
                         </h1>
 

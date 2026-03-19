@@ -79,7 +79,7 @@ export default function Nieuws() {
                 <div className="absolute top-0 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-[100px] pointer-events-none" />
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-8 lg:gap-12 lg:items-end">
                     <div className="flex-1">
-                        <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Kennis & Vooruitgang</span>
+                        <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Marketing Inzichten</span>
                         <h1 className="font-sans font-bold text-primary text-5xl sm:text-6xl md:text-8xl leading-none tracking-tight mb-6">
                             Nieuws &<br /><span className="font-drama italic font-normal text-accent">Insights.</span>
                         </h1>

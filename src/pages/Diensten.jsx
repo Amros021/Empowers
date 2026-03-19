@@ -528,13 +528,15 @@ const dienstenData = [
         title: <>SEO <span className="block font-mono text-sm uppercase tracking-widest text-primary/40 mt-1 font-normal">Search Engine Optimization</span></>,
         description: <>Gevonden worden zonder te betalen per klik. Dat is<br />de kracht van SEO. Wij optimaliseren jouw website<br />zodat Google jou ziet als het meest relevante bedrijf<br />in jouw markt.</>,
         AnimComponent: SEOAnim,
-        reversed: false
+        reversed: false,
+        learnMoreLink: '/seo'
     },
     {
         title: <>GEO <span className="block font-mono text-sm uppercase tracking-widest text-primary/40 mt-1 font-normal">Generative Engine Optimization</span></>,
         description: "De manier waarop mensen zoeken verandert. Steeds meer mensen stellen hun vragen aan ChatGPT, Gemini of Claude in plaats van aan Google. GEO zorgt ervoor dat jouw bedrijf ook daar wordt aanbevolen.",
         AnimComponent: GEOAnim,
-        reversed: true
+        reversed: true,
+        learnMoreLink: '/geo'
     },
     {
         title: "Landingspagina Optimalisatie",
@@ -652,7 +654,7 @@ export default function Diensten() {
             <section className="w-full pb-32 px-6">
                 <div className="max-w-6xl mx-auto flex flex-col gap-24 md:gap-32">
                     {dienstenData.map((dienst, idx) => {
-                        const { title, description, AnimComponent, reversed } = dienst;
+                        const { title, description, AnimComponent, reversed, learnMoreLink } = dienst;
                         return (
                             <div key={idx} className={`flex flex-col ${reversed ? 'lg:flex-row-reverse' : 'lg:flex-row'} items-center gap-8 lg:gap-24`}>
                                 {/* Context/Text */}
@@ -666,10 +668,18 @@ export default function Diensten() {
                                     <p className="font-sans text-primary/70 text-lg md:text-xl leading-relaxed max-w-lg mb-8">
                                         {description}
                                     </p>
-                                    <Link to="/contact" className="group font-mono text-sm uppercase tracking-widest text-accent flex items-center gap-2 hover:text-primary transition-colors">
-                                        Bespreek de mogelijkheden
-                                        <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
-                                    </Link>
+                                    <div className="flex flex-wrap items-center gap-6">
+                                        <Link to="/contact" className="group font-mono text-sm uppercase tracking-widest text-accent flex items-center gap-2 hover:text-primary transition-colors">
+                                            Bespreek de mogelijkheden
+                                            <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
+                                        </Link>
+                                        {learnMoreLink && (
+                                            <Link to={learnMoreLink} className="group font-mono text-sm uppercase tracking-widest text-primary/40 flex items-center gap-2 hover:text-primary transition-colors">
+                                                Meer informatie
+                                                <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
+                                            </Link>
+                                        )}
+                                    </div>
                                 </div>
 
                                 {/* Animation/Visual */}

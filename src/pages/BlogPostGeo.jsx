@@ -20,6 +20,16 @@ export default function BlogPost() {
                 <meta property="og:description" content="GEO is de opvolger van SEO voor het AI-tijdperk. Leer wat Generative Engine Optimization is, hoe het werkt in ChatGPT, Perplexity & Google SGE, en hoe jij zichtbaar wordt." />
                 <meta property="og:url" content="https://www.empowers.nl/blog/wat-is-geo-generative-engine-optimization" />
                 <meta property="og:type" content="article" />
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "Wat is GEO en waarom loopt jouw bedrijf het mis als je nu niks doet?",
+                    "description": "GEO is de opvolger van SEO voor het AI-tijdperk. Leer wat Generative Engine Optimization is, hoe het werkt in ChatGPT, Perplexity & Google SGE, en hoe jij zichtbaar wordt.",
+                    "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                    "datePublished": "2026-02-01",
+                    "url": "https://www.empowers.nl/blog/wat-is-geo-generative-engine-optimization"
+                })}</script>
             </Helmet>
             <Navbar />
 
@@ -39,7 +49,7 @@ export default function BlogPost() {
                         <div className="inline-block px-3 py-1 bg-accent/10 text-accent font-mono text-xs uppercase tracking-widest rounded-full mb-6">
                             GEO
                         </div>
-                        <h1 className="font-drama italic text-primary text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.1] tracking-tight mb-8">
+                        <h1 className="font-sans font-bold text-primary text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight tracking-tight mb-8">
                             Wat is GEO en waarom loopt jouw bedrijf het mis als je nu niks doet?
                         </h1>
 

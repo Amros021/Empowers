@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const RadarAnimation = () => {
     return (
-        <div className="relative w-full h-full flex items-center justify-center bg-[#D65A31]/5 overflow-hidden">
+        <div className="relative w-full h-full flex items-center justify-center bg-primary/5 overflow-hidden">
             <div className="relative w-[240px] h-[240px] sm:w-[300px] sm:h-[300px] md:w-[360px] md:h-[360px]">
                 {/* Buitenste roterende cirkel (custom SVG dashed border ressembling the original image) */}
                 <motion.svg

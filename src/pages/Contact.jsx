@@ -45,7 +45,7 @@ export default function Contact() {
                 <div className="w-full max-w-5xl">
                     <div className="text-center mb-16">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">Kom in contact</span>
-                        <h1 className="font-drama italic text-primary text-5xl sm:text-6xl md:text-8xl leading-tight tracking-tight mb-4">Contact.</h1>
+                        <h1 className="font-sans font-bold text-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[0.9] tracking-tight mb-4">Contact.</h1>
                         <p className="font-sans text-primary/70 text-lg md:text-xl mb-0 max-w-2xl mx-auto">
                             Kies hoe je contact wilt opnemen, we reageren altijd binnen 24 uur.
                         </p>

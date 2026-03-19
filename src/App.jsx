@@ -11,6 +11,8 @@ import BlogPostGeo from './pages/BlogPostGeo';
 import BlogPostMetaAds from './pages/BlogPostMetaAds';
 import BlogPostTikTokAds from './pages/BlogPostTikTokAds';
 import BlogPostTracking from './pages/BlogPostTracking';
+import GeoPage from './pages/GeoPage';
+import SeoPage from './pages/SeoPage';
 import NotFound from './pages/NotFound';
 
 // Scroll to top on route change
@@ -72,6 +74,8 @@ function App() {
         <Route path="/blog/waarom-meta-ads-niet-converteren" element={<BlogPostMetaAds />} />
         <Route path="/blog/tiktok-ads-voor-bedrijven" element={<BlogPostTikTokAds />} />
         <Route path="/blog/marketing-tracking-conversies-meten" element={<BlogPostTracking />} />
+        <Route path="/geo" element={<GeoPage />} />
+        <Route path="/seo" element={<SeoPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

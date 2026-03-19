@@ -13,13 +13,23 @@ export default function BlogPostMetaAds() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>Waarom Je Meta Ads Niet Converteren</title>
+                <title>Waarom Je Meta Ads Niet Converteren | Empowers</title>
                 <meta name="description" content="Slechte resultaten met Meta Ads? Ontdek de meest gemaakte fouten en hoe je ze direct oplost. Van doelgroepen en creatives tot budget en pixel-tracking." />
                 <link rel="canonical" href="https://www.empowers.nl/blog/waarom-meta-ads-niet-converteren" />
-                <meta property="og:title" content="Waarom Je Meta Ads Niet Converteren" />
+                <meta property="og:title" content="Waarom Je Meta Ads Niet Converteren | Empowers" />
                 <meta property="og:description" content="Slechte resultaten met Meta Ads? Ontdek de meest gemaakte fouten en hoe je ze direct oplost. Van doelgroepen en creatives tot budget en pixel-tracking." />
                 <meta property="og:url" content="https://www.empowers.nl/blog/waarom-meta-ads-niet-converteren" />
                 <meta property="og:type" content="article" />
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Article",
+                    "headline": "Waarom jouw Meta Ads niet converteren (en hoe je dat oplost)",
+                    "description": "Slechte resultaten met Meta Ads? Ontdek de meest gemaakte fouten en hoe je ze direct oplost. Van doelgroepen en creatives tot budget en pixel-tracking.",
+                    "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                    "datePublished": "2026-02-15",
+                    "url": "https://www.empowers.nl/blog/waarom-meta-ads-niet-converteren"
+                })}</script>
             </Helmet>
             <Navbar />
 
@@ -39,7 +49,7 @@ export default function BlogPostMetaAds() {
                         <div className="inline-block px-3 py-1 bg-accent/10 text-accent font-mono text-xs uppercase tracking-widest rounded-full mb-6">
                             Meta Ads
                         </div>
-                        <h1 className="font-drama italic text-primary text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.1] tracking-tight mb-8">
+                        <h1 className="font-sans font-bold text-primary text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight tracking-tight mb-8">
                             Waarom jouw Meta Ads niet converteren (en hoe je dat oplost)
                         </h1>
 

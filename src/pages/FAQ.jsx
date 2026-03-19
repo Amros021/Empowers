@@ -133,8 +133,8 @@ export default function FAQ() {
                     {/* Header */}
                     <div className="mb-16 md:mb-24 text-center md:text-left">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">Kennisbank</span>
-                        <h1 className="font-drama italic text-primary text-4xl sm:text-5xl md:text-7xl mb-6">
-                            Veelgestelde vragen
+                        <h1 className="font-sans font-bold text-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[0.9] tracking-tight mb-6">
+                            Veelgestelde vragen over online marketing
                         </h1>
                         <p className="font-sans text-primary/70 text-lg max-w-2xl mx-auto md:mx-0">
                             Alles wat je wilt weten over onze werkwijze, prijzen en de integratie van betaalde en organische groei via SEO & GEO.

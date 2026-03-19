@@ -96,8 +96,8 @@ export default function About() {
                 <div className="absolute top-0 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-[100px] pointer-events-none" />
                 <div className="max-w-5xl mx-auto animate-section">
                     <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Over Ons</span>
-                    <h1 className="font-drama italic text-primary text-6xl md:text-8xl leading-tight tracking-tight mb-8">
-                        Het verhaal
+                    <h1 className="font-sans font-bold text-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[0.9] tracking-tight mb-8">
+                        Het verhaal achter Empowers
                     </h1>
                     <p className="font-sans text-primary/80 text-xl md:text-2xl leading-relaxed max-w-3xl font-medium">
                         Empowers is opgericht met één doel: marketing die écht resultaat oplevert. Niet campagnes die er mooi uitzien op papier, maar advertenties die omzet genereren. We geloven dat elke ondernemer recht heeft op een aanpak die transparant is, meetbaar en volledig afgestemd op zijn situatie. Dat is waarom we doen wat we doen.
