@@ -122,6 +122,8 @@ export default function Navbar() {
                 style={{
                     top: navBottom,
                     width: '100%',
+                    maxHeight: `calc(100vh - ${navBottom}px)`,
+                    overflowY: 'auto',
                     transform: isMobileMenuOpen ? 'translateY(0)' : 'translateY(-100%)',
                     visibility: isMobileMenuOpen ? 'visible' : 'hidden',
                     transitionProperty: 'transform, visibility',
