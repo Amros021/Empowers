@@ -37,5 +37,9 @@ Allow: /
 User-agent: Meta-ExternalAgent
 Allow: /
 
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
 # Sitemap
 Sitemap: https://www.empowers.nl/sitemap.xml
