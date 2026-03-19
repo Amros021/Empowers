@@ -10,38 +10,54 @@ import { ArrowRight, Download, CheckCircle, Search, TrendingUp, BarChart2, Globe
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Animatie: Google zoekresultaten
-const SearchResultAnim = () => {
-    const results = [
-        { pos: 1, title: 'Jouw bedrijf – de beste keuze', url: 'www.jouwebsite.nl', highlight: true },
-        { pos: 2, title: 'Concurrent A – oplossingen', url: 'www.concurrent-a.nl', highlight: false },
-        { pos: 3, title: 'Concurrent B – diensten', url: 'www.concurrent-b.nl', highlight: false },
+// Animatie: keyword ranking tracker
+const KeywordRankingAnim = () => {
+    const keywords = [
+        { term: 'marketing bureau amsterdam', before: 18, after: 2 },
+        { term: 'google ads specialist', before: 11, after: 1 },
+        { term: 'seo optimalisatie mkb', before: 24, after: 4 },
+        { term: 'online adverteren', before: 15, after: 3 },
     ];
     return (
-        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center p-6 gap-3">
-            <div className="flex items-center gap-2 bg-white rounded-xl px-4 py-2.5 border border-primary/10 mb-2">
-                <Search className="w-4 h-4 text-primary/40" />
-                <span className="font-sans text-sm text-primary/50">beste marketingbureau nederland</span>
-                <div className="ml-auto w-5 h-5 rounded-full bg-accent flex items-center justify-center">
-                    <Search className="w-3 h-3 text-white" />
+        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center p-4 sm:p-6 gap-3 sm:gap-4">
+            <div className="flex items-center justify-between mb-1">
+                <span className="font-mono text-xs uppercase tracking-widest text-primary/40">Keyword rankings</span>
+                <div className="flex items-center gap-1.5">
+                    <div className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
+                    <span className="font-mono text-[10px] text-primary/50">na 90 dagen</span>
                 </div>
             </div>
-            {results.map((r, i) => (
-                <motion.div
-                    key={i}
-                    initial={{ opacity: 0, y: 10 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: i * 0.2 + 0.3 }}
-                    className={`rounded-xl p-3.5 border ${r.highlight ? 'bg-accent/5 border-accent/30' : 'bg-white border-primary/10'}`}
-                >
-                    <div className="flex items-center gap-2 mb-1">
-                        <span className={`font-mono text-xs font-bold ${r.highlight ? 'text-accent' : 'text-primary/30'}`}>#{r.pos}</span>
-                        <span className={`font-sans text-xs ${r.highlight ? 'text-accent' : 'text-primary/30'}`}>{r.url}</span>
-                    </div>
-                    <div className={`font-sans text-sm font-medium ${r.highlight ? 'text-primary' : 'text-primary/40'}`}>{r.title}</div>
-                </motion.div>
-            ))}
+            <div className="flex flex-col gap-3">
+                {keywords.map((k, i) => (
+                    <motion.div
+                        key={i}
+                        initial={{ opacity: 0, x: -10 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: i * 0.15 + 0.2 }}
+                        className="flex items-center gap-3 bg-primary/[0.03] rounded-xl px-3.5 py-2.5 border border-primary/5"
+                    >
+                        <div className="flex-1 min-w-0">
+                            <div className="font-sans text-xs text-primary/70 truncate">{k.term}</div>
+                        </div>
+                        <div className="flex items-center gap-1.5 shrink-0">
+                            <span className="font-mono text-xs text-primary/30 line-through">#{k.before}</span>
+                            <TrendingUp className="w-3 h-3 text-accent" />
+                            <span className="font-mono text-xs font-bold text-accent">#{k.after}</span>
+                        </div>
+                    </motion.div>
+                ))}
+            </div>
+            <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: 1.0 }}
+                className="flex items-center justify-center gap-2 bg-accent/5 rounded-xl px-3 py-2.5 border border-accent/10"
+            >
+                <Globe className="w-4 h-4 text-accent shrink-0" />
+                <span className="font-mono text-[10px] text-primary/60">Gemiddeld +12 posities omhoog</span>
+            </motion.div>
         </div>
     );
 };
@@ -55,7 +71,7 @@ const SeoPillarsAnim = () => {
         { label: 'Gebruikerservaring', width: '80%', delay: 0.6 },
     ];
     return (
-        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center p-8 gap-6">
+        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center p-4 sm:p-8 gap-4 sm:gap-6">
             {pillars.map((p, i) => (
                 <div key={i} className="space-y-2">
                     <div className="flex justify-between text-xs font-mono uppercase tracking-widest text-primary/50">
@@ -79,9 +95,9 @@ const SeoPillarsAnim = () => {
 
 // Animatie: organische groei
 const OrganicGrowthAnim = () => (
-    <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex items-center justify-center p-6 overflow-hidden">
+    <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex items-center justify-center p-4 sm:p-6 overflow-hidden">
         <div className="w-full">
-            <div className="text-xs font-mono uppercase tracking-widest text-primary/40 mb-4">Organisch verkeer over tijd</div>
+            <div className="text-xs font-mono uppercase tracking-widest text-primary/40 mb-3 sm:mb-4">Organisch verkeer over tijd</div>
             <svg className="w-full h-32 text-primary" viewBox="0 0 200 60" preserveAspectRatio="none">
                 <motion.path
                     initial={{ pathLength: 0, opacity: 0 }}
@@ -118,7 +134,7 @@ const SeoFasenAnim = () => {
         { nr: '04', title: 'Meten & optimaliseren', desc: 'Maandelijkse rapportage, rankings bijhouden en bijsturen.' },
     ];
     return (
-        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-3 p-6">
+        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-2 sm:gap-3 p-4 sm:p-6">
             {fasen.map((f, i) => (
                 <motion.div
                     key={i}
@@ -126,12 +142,12 @@ const SeoFasenAnim = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.15 }}
-                    className="flex gap-3 items-start bg-white rounded-xl p-3.5 border border-primary/10"
+                    className="flex gap-2.5 items-start bg-white rounded-xl p-2.5 sm:p-3.5 border border-primary/10"
                 >
                     <span className="font-mono text-xs text-background bg-primary px-2 py-0.5 rounded-full shrink-0 mt-0.5">{f.nr}</span>
                     <div>
-                        <div className="font-sans font-bold text-sm text-primary mb-0.5">{f.title}</div>
-                        <div className="font-sans text-xs text-primary/55 leading-relaxed">{f.desc}</div>
+                        <div className="font-sans font-bold text-xs sm:text-sm text-primary mb-0.5">{f.title}</div>
+                        <div className="font-sans text-[10px] sm:text-xs text-primary/55 leading-snug">{f.desc}</div>
                     </div>
                 </motion.div>
             ))}
@@ -162,18 +178,18 @@ export default function SeoPage() {
         <main ref={mainRef} className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
                 <title>SEO – Search Engine Optimization | Empowers</title>
-                <meta name="description" content="Gevonden worden zonder te betalen per klik. Empowers optimaliseert jouw website zodat Google jou ziet als het meest relevante bedrijf in jouw markt." />
+                <meta name="description" content="Gevonden worden zonder te betalen per klik. Wij zorgen dat Google jou ziet als het meest relevante bedrijf in jouw markt. Elke maand meer bezoekers, zonder advertentiebudget." />
                 <link rel="canonical" href="https://www.empowers.nl/seo" />
                 <meta property="og:title" content="SEO – Search Engine Optimization | Empowers" />
-                <meta property="og:description" content="Gevonden worden zonder te betalen per klik. Empowers optimaliseert jouw website zodat Google jou ziet als het meest relevante bedrijf in jouw markt." />
+                <meta property="og:description" content="Gevonden worden zonder te betalen per klik. Wij zorgen dat Google jou ziet als het meest relevante bedrijf in jouw markt. Elke maand meer bezoekers, zonder advertentiebudget." />
                 <meta property="og:url" content="https://www.empowers.nl/seo" />
                 <meta property="og:type" content="website" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "Service",
                     "name": "SEO – Search Engine Optimization",
-                    "serviceType": "Zoekmachineoptimalisatie",
-                    "description": "Empowers verzorgt SEO voor bedrijven in heel Nederland. Organisch hoger ranken in Google door technische optimalisatie, content en linkbuilding.",
+                    "serviceType": "Search Engine Optimization",
+                    "description": "Empowers verzorgt SEO voor bedrijven in heel Nederland. Organisch hoger ranken in Google door technische aanpak, content en linkbuilding.",
                     "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                     "url": "https://www.empowers.nl/seo"
                 })}</script>
@@ -187,10 +203,10 @@ export default function SeoPage() {
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Search Engine Optimization</span>
                         <h1 className="font-sans font-bold text-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[0.9] tracking-tight mb-6">
-                            Gevonden worden<br />zonder te betalen.
+                            Organisch zichtbaar.
                         </h1>
                         <p className="font-sans text-primary/70 text-lg md:text-xl max-w-lg leading-relaxed font-medium mb-8">
-                            SEO is de fundering van duurzame online groei. Wij optimaliseren jouw website zodat Google jou ziet als het meest relevante bedrijf in jouw markt — dag na dag, zonder extra advertentiekosten.
+                            SEO is de fundering van alles wat online werkt. Wij zorgen dat Google jou ziet als de meest relevante speler in jouw markt. Zonder te betalen voor elke klik.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/contact" className="btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
@@ -202,8 +218,8 @@ export default function SeoPage() {
                             </Link>
                         </div>
                     </div>
-                    <div className="flex-1 h-[320px] lg:h-[360px]">
-                        <SearchResultAnim />
+                    <div className="flex-1 w-full h-[280px] sm:h-[320px] lg:h-[360px]">
+                        <KeywordRankingAnim />
                     </div>
                 </div>
             </section>
@@ -213,12 +229,12 @@ export default function SeoPage() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-24">
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">01 — Wat is SEO?</span>
-                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">De fundering van je online zichtbaarheid</h2>
+                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">De spelregels van Google. Wij kennen ze.</h2>
                         <p className="font-sans text-primary/70 text-lg leading-relaxed mb-6">
-                            SEO staat voor <strong className="text-primary">Search Engine Optimization</strong>. Je optimaliseert je website zodat zoekmachines zoals Google jou als meest relevante en betrouwbare bron zien voor jouw doelgroep.
+                            <strong className="text-primary">SEO</strong> is de kunst om Google ervan te overtuigen dat jij de meest relevante speler bent in jouw markt. Dat doe je met techniek, content en autoriteit. Samen.
                         </p>
                         <p className="font-sans text-primary/70 text-lg leading-relaxed mb-8">
-                            In tegenstelling tot betaalde advertenties, bouwt SEO langdurige zichtbaarheid op. Eenmaal goed gepositioneerd in Google, blijf je zichtbaar — ook zonder extra advertentiebudget.
+                            Anders dan betaalde advertenties bouwt SEO iets blijvends. Goed gepositioneerd in Google, blijf je zichtbaar. Zonder extra advertentiebudget.
                         </p>
                         <div className="bg-primary/5 border-l-4 border-primary rounded-r-xl p-5">
                             <p className="font-sans text-primary font-medium italic">
@@ -226,7 +242,7 @@ export default function SeoPage() {
                             </p>
                         </div>
                     </div>
-                    <div className="flex-1 w-full h-[320px]">
+                    <div className="flex-1 w-full h-[260px] sm:h-[300px] lg:h-[320px]">
                         <SeoPillarsAnim />
                     </div>
                 </div>
@@ -237,13 +253,13 @@ export default function SeoPage() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">02 — Waarom SEO?</span>
-                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Organisch verkeer dat blijft groeien</h2>
+                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Meer klikken. Meer bereik. Nul extra advertentiekosten.</h2>
                         <div className="flex flex-col gap-5">
                             {[
-                                { icon: <Search className="w-5 h-5" />, claim: 'Google verwerkt meer dan 8 miljard zoekopdrachten per dag', detail: 'De meerderheid van online ervaringen begint met een zoekopdracht. Wie niet gevonden wordt, bestaat niet.' },
-                                { icon: <TrendingUp className="w-5 h-5" />, claim: 'Organisch verkeer converteert beter dan betaald', detail: 'Bezoekers die via Google op je website komen, hebben al actief gezocht naar jouw oplossing.' },
-                                { icon: <BarChart2 className="w-5 h-5" />, claim: 'De top 3 resultaten krijgen 75% van alle klikken', detail: 'Positie 1 in Google is goud waard. Wij helpen je daar te komen en te blijven.' },
-                                { icon: <Globe className="w-5 h-5" />, claim: 'SEO en GEO versterken elkaar', detail: 'Goede SEO-content scoort ook bij AI-tools. Wie nu in SEO investeert, bouwt ook een GEO-voorsprong op.' },
+                                { icon: <Search className="w-5 h-5" />, claim: 'Elk online avontuur begint met zoeken.', detail: '8 miljard zoekopdrachten per dag op Google. Wie niet gevonden wordt, bestaat niet. Zo simpel is het.' },
+                                { icon: <TrendingUp className="w-5 h-5" />, claim: 'Organisch verkeer converteert beter dan betaald.', detail: 'Bezoekers die via Google komen, hebben al actief gezocht naar jouw oplossing. Ze zijn warm.' },
+                                { icon: <BarChart2 className="w-5 h-5" />, claim: 'De top 3 pakt 75% van alle klikken.', detail: 'Positie 1 in Google is goud. Wij zorgen dat je er komt en dat je er blijft.' },
+                                { icon: <Globe className="w-5 h-5" />, claim: 'SEO en GEO versterken elkaar.', detail: 'Goede SEO-content scoort ook bij AI-tools. Wie nu in SEO investeert, bouwt tegelijk een GEO-voorsprong.' },
                             ].map((item, i) => (
                                 <motion.div
                                     key={i}
@@ -264,7 +280,7 @@ export default function SeoPage() {
                             ))}
                         </div>
                     </div>
-                    <div className="flex-1 w-full h-[280px]">
+                    <div className="flex-1 w-full h-[220px] sm:h-[260px] lg:h-[280px]">
                         <OrganicGrowthAnim />
                     </div>
                 </div>
@@ -275,9 +291,9 @@ export default function SeoPage() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-24">
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">03 — Onze aanpak</span>
-                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Zo pakken wij het aan</h2>
+                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Stap voor stap. Meetbaar vanaf dag één.</h2>
                         <p className="font-sans text-primary/70 text-lg leading-relaxed mb-8">
-                            Van technische audit tot content strategie en autoriteitsopbouw. We bouwen een SEO-aanpak die resultaten oplevert — niet na jaren, maar stap voor stap zichtbaar vanaf de eerste maanden.
+                            Van technische audit tot contentstrategie en autoriteitsopbouw. We bouwen een SEO-aanpak die resultaten levert. Stap voor stap zichtbaar, maand na maand sterker.
                         </p>
                         <div className="flex flex-col gap-3">
                             {[
@@ -293,7 +309,7 @@ export default function SeoPage() {
                             ))}
                         </div>
                     </div>
-                    <div className="flex-1 w-full h-[380px]">
+                    <div className="flex-1 w-full h-[330px] sm:h-[360px] lg:h-[380px]">
                         <SeoFasenAnim />
                     </div>
                 </div>
@@ -303,9 +319,9 @@ export default function SeoPage() {
             <section className="w-full py-24 px-6 bg-primary/[0.03] seo-section">
                 <div className="max-w-4xl mx-auto text-center">
                     <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">04 — SEO + GEO</span>
-                    <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Twee strategieën, één doel</h2>
+                    <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Twee strategieën. Eén doel.</h2>
                     <p className="font-sans text-primary/70 text-lg leading-relaxed mb-12 max-w-2xl mx-auto">
-                        SEO zorgt voor vindbaarheid in Google. GEO zorgt ervoor dat AI-tools zoals ChatGPT en Gemini jouw bedrijf aanbevelen. Samen zijn ze onverslaanbaar.
+                        SEO zorgt voor vindbaarheid in Google. GEO zorgt dat AI-tools zoals ChatGPT en Gemini jouw bedrijf aanbevelen. Samen zijn ze sterker dan elk afzonderlijk.
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
                         <div className="bg-white rounded-[1.5rem] p-8 border border-primary/10">
@@ -345,9 +361,9 @@ export default function SeoPage() {
                     <div className="bg-white rounded-[2rem] border border-primary/10 shadow-[0_8px_40px_rgb(0,0,0,0.06)] p-8 sm:p-12 flex flex-col md:flex-row items-center gap-8 mb-8">
                         <div className="flex-1">
                             <span className="font-mono text-xs uppercase tracking-widest text-accent mb-3 block">Gratis rapport</span>
-                            <h3 className="font-sans font-bold text-2xl text-primary mb-3">De complete SEO gids voor groeiende bedrijven</h3>
+                            <h3 className="font-sans font-bold text-2xl text-primary mb-3">Alles over SEO. Voor bedrijven die willen groeien.</h3>
                             <p className="font-sans text-primary/60 text-sm leading-relaxed mb-6">
-                                Download ons volledige SEO-rapport. Met onze aanpak, concrete stappen en inzichten om jouw website duurzaam hoger te laten ranken in Google.
+                                Download ons SEO-rapport. Onze aanpak, concrete stappen en inzichten om jouw website hoger te laten ranken. Meteen bruikbaar.
                             </p>
                             <a
                                 href="/SEO-Strategie_Empowers.pdf"
@@ -371,7 +387,7 @@ export default function SeoPage() {
                         <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
                         <h3 className="relative z-10 font-drama italic text-background text-3xl sm:text-4xl md:text-5xl mb-4">Klaar om organisch te groeien?</h3>
                         <p className="relative z-10 font-sans text-background/70 mb-8 max-w-md mx-auto">
-                            Plan een vrijblijvend gesprek. We kijken samen naar je huidige situatie en laten zien welke SEO-kansen er liggen.
+                            Plan een gesprek. We kijken samen naar jouw huidige situatie en laten zien waar de groei zit. Zullen we?
                         </p>
                         <Link to="/contact" className="relative z-10 btn-magnetic inline-flex items-center gap-2 bg-accent text-background font-sans font-bold text-base px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
                             Plan een gratis gesprek

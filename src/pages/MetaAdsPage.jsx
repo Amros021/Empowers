@@ -10,65 +10,92 @@ import { ArrowRight, Download, CheckCircle, Heart, Users, TrendingUp, Target } f
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Animatie: social feed met sponsored post
-const SocialFeedAnim = () => (
-    <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex items-center justify-center p-4 overflow-hidden">
-        <div className="w-[200px] h-[340px] bg-[#F0F2F5] rounded-[1.5rem] border-4 border-gray-800 overflow-hidden relative">
-            {/* Header */}
-            <div className="bg-white px-3 py-2 flex items-center justify-between border-b border-gray-100">
-                <div className="w-5 h-5 rounded bg-[#1877F2] flex items-center justify-center">
-                    <span className="text-white font-bold text-[10px]">f</span>
-                </div>
-                <div className="w-16 h-2 bg-gray-200 rounded-full" />
-            </div>
-            {/* Feed */}
-            <div className="p-2 flex flex-col gap-2 overflow-hidden">
-                {/* Organic post (blurred) */}
-                <div className="bg-white rounded-lg p-2 opacity-40">
-                    <div className="flex items-center gap-1.5 mb-1.5">
-                        <div className="w-5 h-5 rounded-full bg-gray-300" />
-                        <div className="w-16 h-1.5 bg-gray-200 rounded-full" />
+// Animatie: campagne metrics dashboard
+const CampaignMetricsAnim = () => {
+    const MAX_H = 64; // pixels (matches h-16)
+    const bars = [
+        { day: 'Ma', pct: 42 },
+        { day: 'Di', pct: 58 },
+        { day: 'Wo', pct: 73 },
+        { day: 'Do', pct: 49 },
+        { day: 'Vr', pct: 86 },
+        { day: 'Za', pct: 100 },
+        { day: 'Zo', pct: 91 },
+    ];
+    return (
+        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] p-4 sm:p-7 flex flex-col gap-3 sm:gap-4 overflow-hidden">
+            {/* Header row */}
+            <div className="flex items-start justify-between">
+                <div>
+                    <div className="font-mono text-[10px] uppercase tracking-widest text-primary/40 mb-1 sm:mb-2">Live campagne</div>
+                    <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 rounded-full bg-[#1877F2] animate-pulse" />
+                        <span className="font-sans text-sm font-semibold text-primary">Empowers · Meta Ads</span>
                     </div>
-                    <div className="w-full h-10 bg-gray-100 rounded" />
                 </div>
-                {/* Sponsored post */}
                 <motion.div
-                    initial={{ opacity: 0, scale: 0.95 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
+                    initial={{ opacity: 0, y: -8 }}
+                    whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    transition={{ delay: 0.4, duration: 0.5 }}
-                    className="bg-white rounded-lg border border-[#1877F2]/20 overflow-hidden shadow-sm"
+                    transition={{ duration: 0.5, delay: 0.2 }}
+                    className="text-right"
                 >
-                    <div className="p-2 flex items-center gap-1.5">
-                        <div className="w-5 h-5 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white text-[8px] font-bold">E</div>
-                        <div>
-                            <div className="text-[8px] font-bold text-primary">Empowers</div>
-                            <div className="text-[7px] text-gray-400">Gesponsord</div>
-                        </div>
-                    </div>
-                    <div className="h-16 bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                        <span className="font-drama italic text-white text-lg">Groei.</span>
-                    </div>
-                    <div className="p-2">
-                        <div className="text-[8px] text-primary/70 mb-1.5">Meer leads, meer omzet. Bekijk hoe wij jouw Meta Ads laten presteren. 🚀</div>
-                        <div className="flex items-center justify-between">
-                            <motion.div
-                                initial={{ scale: 1 }}
-                                animate={{ scale: [1, 1.3, 1] }}
-                                transition={{ delay: 1.2, duration: 0.4 }}
-                                className="flex items-center gap-0.5"
-                            >
-                                <Heart className="w-3 h-3 text-[#E63B2E] fill-[#E63B2E]" />
-                                <span className="text-[7px] font-mono text-gray-500">1.2k</span>
-                            </motion.div>
-                            <span className="text-[7px] text-[#1877F2] font-bold bg-[#1877F2]/10 px-2 py-0.5 rounded">Meer info</span>
-                        </div>
-                    </div>
+                    <div className="font-mono text-[10px] text-primary/30 uppercase tracking-widest">ROAS</div>
+                    <div className="font-sans font-bold text-[#1877F2] text-3xl sm:text-4xl leading-none mt-1">4.8×</div>
                 </motion.div>
             </div>
+
+            {/* Bar chart — pixel heights to avoid Framer Motion unit mismatch */}
+            <div className="flex items-end gap-1.5" style={{ height: MAX_H }}>
+                {bars.map((b, i) => {
+                    const barH = Math.round((b.pct / 100) * MAX_H);
+                    const barOpacity = parseFloat((0.25 + (b.pct / 100) * 0.75).toFixed(2));
+                    return (
+                        <motion.div
+                            key={i}
+                            initial={{ height: 0, opacity: 0 }}
+                            whileInView={{ height: barH, opacity: barOpacity }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.7, delay: 0.3 + i * 0.08, ease: 'easeOut' }}
+                            className="flex-1 rounded-t"
+                            style={{ backgroundColor: '#1877F2' }}
+                        />
+                    );
+                })}
+            </div>
+            {/* Day labels */}
+            <div className="flex gap-1.5">
+                {bars.map((b) => (
+                    <div key={b.day} className="flex-1 text-center">
+                        <span className="font-mono text-[8px] text-primary/30">{b.day}</span>
+                    </div>
+                ))}
+            </div>
+
+            {/* KPI grid */}
+            <div className="grid grid-cols-3 gap-2">
+                {[
+                    { label: 'Bereik', value: '84.2K', delta: '+12%' },
+                    { label: 'CTR', value: '3.4%', delta: '+0.8%' },
+                    { label: 'Conversies', value: '312', delta: '+28%' },
+                ].map((k, i) => (
+                    <motion.div
+                        key={i}
+                        initial={{ opacity: 0, y: 12 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.75 + i * 0.12, duration: 0.4 }}
+                        className="bg-primary/[0.03] border border-primary/10 rounded-xl p-3"
+                    >
+                        <div className="font-mono text-[9px] uppercase tracking-widest text-primary/40 mb-1.5">{k.label}</div>
+                        <div className="font-sans font-bold text-primary text-lg leading-none">{k.value}</div>
+                        <div className="font-mono text-[9px] text-emerald-500 mt-1.5">{k.delta}</div>
+                    </motion.div>
+                ))}
+            </div>
         </div>
-    </div>
-);
+    );
+};
 
 // Animatie: targeting opties
 const TargetingAnim = () => {
@@ -78,8 +105,8 @@ const TargetingAnim = () => {
         { label: 'Gedrag: beslisser', pct: 45 },
     ];
     return (
-        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center p-8 gap-6">
-            <div className="font-mono text-xs uppercase tracking-widest text-primary/40 mb-2">Doelgroep match</div>
+        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center p-4 sm:p-8 gap-4 sm:gap-6">
+            <div className="font-mono text-xs uppercase tracking-widest text-primary/40 mb-1 sm:mb-2">Doelgroep match</div>
             {segments.map((s, i) => (
                 <div key={i} className="space-y-2">
                     <div className="flex justify-between text-xs font-mono uppercase tracking-widest text-primary/50">
@@ -109,7 +136,7 @@ const StatsAnim = () => {
         { value: '€0.50', label: 'gemiddelde cost-per-click NL', color: 'text-primary' },
     ];
     return (
-        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-6 p-8">
+        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-4 sm:gap-6 p-4 sm:p-8">
             {stats.map((s, i) => (
                 <motion.div
                     key={i}
@@ -117,10 +144,10 @@ const StatsAnim = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.2, duration: 0.5 }}
-                    className="flex items-center gap-4"
+                    className="flex items-center gap-3 sm:gap-4"
                 >
-                    <span className={`font-sans font-bold text-3xl md:text-4xl ${s.color} w-24 shrink-0`}>{s.value}</span>
-                    <span className="font-sans text-sm text-primary/60 leading-tight">{s.label}</span>
+                    <span className={`font-sans font-bold text-2xl sm:text-3xl ${s.color} min-w-[4.5rem] sm:min-w-[7.5rem] shrink-0`}>{s.value}</span>
+                    <span className="font-sans text-xs sm:text-sm text-primary/60 leading-tight">{s.label}</span>
                 </motion.div>
             ))}
         </div>
@@ -130,13 +157,13 @@ const StatsAnim = () => {
 // Animatie: aanpak fasen
 const FasenAnim = () => {
     const fasen = [
-        { nr: '01', title: 'Pixel & tracking', desc: 'Meta Pixel correct instellen, conversies koppelen en datakwaliteit borgen.' },
-        { nr: '02', title: 'Doelgroep & creatief', desc: 'Audience research, lookalike audiences bouwen en advertentiecreatives uitwerken.' },
+        { nr: '01', title: 'Pixel & tracking', desc: 'Meta Pixel instellen, conversies koppelen en datakwaliteit borgen.' },
+        { nr: '02', title: 'Doelgroep & creatief', desc: 'Audience research, lookalikes bouwen en advertentiecreatives uitwerken.' },
         { nr: '03', title: 'Campagne lanceren', desc: 'Top-of-funnel, retargeting en conversiecampagnes parallel draaien.' },
-        { nr: '04', title: 'Schalen & optimaliseren', desc: 'Budget verschuiven naar winnende sets. Creative testing. Maandelijkse rapportage.' },
+        { nr: '04', title: 'Schalen & optimaliseren', desc: 'Budget naar winnende sets. Creative testing. Maandelijkse rapportage.' },
     ];
     return (
-        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-3 p-6">
+        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-2 sm:gap-3 p-4 sm:p-6">
             {fasen.map((f, i) => (
                 <motion.div
                     key={i}
@@ -144,12 +171,12 @@ const FasenAnim = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.15 }}
-                    className="flex gap-3 items-start bg-white rounded-xl p-3.5 border border-primary/10"
+                    className="flex gap-2.5 items-start bg-white rounded-xl p-2.5 sm:p-3.5 border border-primary/10"
                 >
                     <span className="font-mono text-xs text-background bg-primary px-2 py-0.5 rounded-full shrink-0 mt-0.5">{f.nr}</span>
                     <div>
-                        <div className="font-sans font-bold text-sm text-primary mb-0.5">{f.title}</div>
-                        <div className="font-sans text-xs text-primary/55 leading-relaxed">{f.desc}</div>
+                        <div className="font-sans font-bold text-xs sm:text-sm text-primary mb-0.5">{f.title}</div>
+                        <div className="font-sans text-[10px] sm:text-xs text-primary/55 leading-snug">{f.desc}</div>
                     </div>
                 </motion.div>
             ))}
@@ -202,10 +229,10 @@ export default function MetaAdsPage() {
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Meta Ads</span>
                         <h1 className="font-sans font-bold text-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[0.9] tracking-tight mb-6">
-                            Jouw ideale klant<br />op Facebook & Instagram.
+                            Ze scrollen voorbij.<br />Wij zorgen dat ze stoppen.
                         </h1>
                         <p className="font-sans text-primary/70 text-lg md:text-xl max-w-lg leading-relaxed font-medium mb-8">
-                            Met meer dan 3,7 miljard gebruikers zijn Facebook en Instagram de krachtigste platformen om jouw doelgroep te bereiken. Wij bouwen campagnes die niet alleen gezien worden, maar ook converteren.
+                            3,7 miljard mensen op Facebook en Instagram. Jouw klant zit ertussen. Wij vinden hem, spreken hem aan en zetten hem in beweging.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/contact" className="btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
@@ -213,8 +240,8 @@ export default function MetaAdsPage() {
                             </Link>
                         </div>
                     </div>
-                    <div className="flex-1 h-[320px] lg:h-[360px]">
-                        <SocialFeedAnim />
+                    <div className="flex-1 w-full h-[300px] sm:h-[320px] lg:h-[360px]">
+                        <CampaignMetricsAnim />
                     </div>
                 </div>
             </section>
@@ -224,12 +251,12 @@ export default function MetaAdsPage() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-24">
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">01 — Wat zijn Meta Ads?</span>
-                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Adverteren waar jouw klant zijn tijd doorbrengt</h2>
+                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Jij scrollt niet. Jouw klant wel.</h2>
                         <p className="font-sans text-primary/70 text-lg leading-relaxed mb-6">
-                            <strong className="text-primary">Meta Ads</strong> zijn advertenties op Facebook, Instagram, Messenger en het Audience Network. Het unieke voordeel: ongekend precieze targeting op basis van interesses, gedrag, demografische gegevens en lookalike audiences.
+                            <strong className="text-primary">Meta Ads</strong> bereiken mensen op Facebook, Instagram en Messenger. Het voordeel: precieze targeting op interesses, gedrag en lookalike audiences. Jij kiest wie jouw advertentie ziet.
                         </p>
                         <p className="font-sans text-primary/70 text-lg leading-relaxed mb-8">
-                            In tegenstelling tot Google Ads wacht je niet tot iemand zoekt — je bereikt mensen proactief op het moment dat ze scrollen. De kunst zit in de juiste doelgroep, het juiste creatief en de juiste boodschap.
+                            Anders dan Google wacht je niet tot iemand zoekt. Jij bereikt jouw klant proactief op het moment dat hij scrolt. De kunst zit in de juiste doelgroep en het juiste creatief.
                         </p>
                         <div className="bg-accent/10 border-l-4 border-accent rounded-r-xl p-5">
                             <p className="font-sans text-primary font-medium italic">
@@ -237,7 +264,7 @@ export default function MetaAdsPage() {
                             </p>
                         </div>
                     </div>
-                    <div className="flex-1 w-full h-[320px]">
+                    <div className="flex-1 w-full h-[260px] sm:h-[300px] lg:h-[320px]">
                         <TargetingAnim />
                     </div>
                 </div>
@@ -248,13 +275,13 @@ export default function MetaAdsPage() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">02 — Waarom Meta Ads?</span>
-                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Bereik, precisie en conversie</h2>
+                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Bereik de juiste mensen.</h2>
                         <div className="flex flex-col gap-5">
                             {[
-                                { icon: <Users className="w-5 h-5" />, claim: '3,7 miljard mensen actief op Meta platforms', detail: 'Ongeacht jouw niche — jouw doelgroep zit op Facebook of Instagram. De schaal is ongeëvenaard.' },
-                                { icon: <Target className="w-5 h-5" />, claim: 'Precisietargeting op gedrag en interesses', detail: 'Bereik mensen op basis van wat ze doen, liken en kopen. Geen verspild bereik op de verkeerde mensen.' },
-                                { icon: <Heart className="w-5 h-5" />, claim: 'Retargeting werkt extreem goed', detail: 'Mensen die jouw website hebben bezocht opnieuw bereiken converteert 9x beter. Wij zetten dit structureel in.' },
-                                { icon: <TrendingUp className="w-5 h-5" />, claim: 'Lage instapkosten, hoge schaalbaarheid', detail: 'Zelfs met een klein budget kun je beginnen. Zodra het werkt, schalen we op en groeien de resultaten mee.' },
+                                { icon: <Users className="w-5 h-5" />, claim: '3,7 miljard mensen actief op Meta platforms.', detail: 'Jouw doelgroep zit op Facebook of Instagram. Ongeacht de niche. De schaal is ongeëvenaard.' },
+                                { icon: <Target className="w-5 h-5" />, claim: 'Targeten op gedrag, interesses en lookalikes.', detail: 'Bereik mensen op basis van wat ze doen, liken en kopen. Geen verspild bereik op de verkeerde personen.' },
+                                { icon: <Heart className="w-5 h-5" />, claim: 'Retargeting werkt. Hard.', detail: 'Mensen die jouw website al bezochten opnieuw bereiken converteert 9x beter. Wij zetten dit structureel in.' },
+                                { icon: <TrendingUp className="w-5 h-5" />, claim: 'Klein beginnen. Groot schalen.', detail: 'Met een klein budget beginnen kan. Zodra het werkt, zetten we meer benzine op het vuur. De resultaten groeien mee.' },
                             ].map((item, i) => (
                                 <motion.div
                                     key={i}
@@ -275,7 +302,7 @@ export default function MetaAdsPage() {
                             ))}
                         </div>
                     </div>
-                    <div className="flex-1 w-full h-[320px]">
+                    <div className="flex-1 w-full h-[240px] sm:h-[300px] lg:h-[320px]">
                         <StatsAnim />
                     </div>
                 </div>
@@ -286,9 +313,9 @@ export default function MetaAdsPage() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-24">
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">03 — Onze aanpak</span>
-                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Van pixel tot schaling</h2>
+                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Van pixel tot aankoop.</h2>
                         <p className="font-sans text-primary/70 text-lg leading-relaxed mb-8">
-                            We beginnen met een solide technische basis: pixel, conversies en tracking. Daarna bouwen we een volledige funnelstrategie — van bewustwording tot aankoop.
+                            We starten met een solide technische basis: pixel, conversies en tracking. Daarna bouwen we een volledige funnelstrategie van bewustwording tot aankoop.
                         </p>
                         <div className="flex flex-col gap-3">
                             {[
@@ -304,7 +331,7 @@ export default function MetaAdsPage() {
                             ))}
                         </div>
                     </div>
-                    <div className="flex-1 w-full h-[400px]">
+                    <div className="flex-1 w-full h-[340px] sm:h-[380px] lg:h-[400px]">
                         <FasenAnim />
                     </div>
                 </div>
@@ -316,9 +343,9 @@ export default function MetaAdsPage() {
                     <div className="bg-white rounded-[2rem] border border-primary/10 shadow-[0_8px_40px_rgb(0,0,0,0.06)] p-8 sm:p-12 flex flex-col md:flex-row items-center gap-8 mb-8">
                         <div className="flex-1">
                             <span className="font-mono text-xs uppercase tracking-widest text-accent mb-3 block">Gratis rapport</span>
-                            <h3 className="font-sans font-bold text-2xl text-primary mb-3">De complete Meta Ads gids</h3>
+                            <h3 className="font-sans font-bold text-2xl text-primary mb-3">Alles over Meta Ads. In één rapport.</h3>
                             <p className="font-sans text-primary/60 text-sm leading-relaxed mb-6">
-                                Download ons volledige Meta Ads rapport. Met onze funnelstrategie, targeting aanpak en concrete stappen om meer te halen uit Facebook en Instagram.
+                                Download ons Meta Ads rapport. Onze funnelstrategie, targeting aanpak en concrete stappen. Zodat jij meer haalt uit Facebook en Instagram.
                             </p>
                             <a
                                 href="/Meta-Ads-Strategie_Empowers.pdf"
@@ -340,7 +367,7 @@ export default function MetaAdsPage() {
                         <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
                         <h3 className="relative z-10 font-drama italic text-background text-3xl sm:text-4xl md:text-5xl mb-4">Klaar voor meer conversies?</h3>
                         <p className="relative z-10 font-sans text-background/70 mb-8 max-w-md mx-auto">
-                            Plan een vrijblijvend gesprek. We kijken samen naar jouw situatie en laten zien welke Meta Ads kansen er liggen.
+                            Plan een gesprek. We kijken samen naar jouw situatie en laten zien hoe jouw merk beweegt op Meta. Zullen we?
                         </p>
                         <Link to="/contact" className="relative z-10 btn-magnetic inline-flex items-center gap-2 bg-accent text-background font-sans font-bold text-base px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
                             Plan een gratis gesprek

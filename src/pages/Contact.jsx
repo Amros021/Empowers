@@ -38,6 +38,14 @@ export default function Contact() {
                 <meta property="og:description" content="Wil je weten hoe Empowers jouw online marketing naar een hoger niveau tilt? Neem contact op en plan een gratis kennismakingsgesprek met ons team." />
                 <meta property="og:url" content="https://www.empowers.nl/contact" />
                 <meta property="og:type" content="website" />
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "ContactPage",
+                    "name": "Contact – Empowers",
+                    "url": "https://www.empowers.nl/contact",
+                    "description": "Neem contact op met Empowers en plan een gratis kennismakingsgesprek over jouw online marketing.",
+                    "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" }
+                })}</script>
             </Helmet>
             <Navbar />
 

@@ -10,49 +10,74 @@ import { ArrowRight, Download, CheckCircle, MousePointer2, TrendingUp, BarChart2
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Animatie: zoekresultaat met Ad badge
-const AdResultAnim = () => {
-    const results = [
-        { pos: 'Ad', title: 'Jouw bedrijf – direct bovenaan', url: 'www.jouwebsite.nl', ctr: '8.4%', highlight: true },
-        { pos: '1', title: 'Concurrent A – organisch', url: 'www.concurrent-a.nl', ctr: '2.1%', highlight: false },
-        { pos: '2', title: 'Concurrent B – organisch', url: 'www.concurrent-b.nl', ctr: '1.2%', highlight: false },
+// Animatie: campagne prestatie dashboard
+const AdPerformanceAnim = () => {
+    const metrics = [
+        { label: 'ROAS', value: '4.2×', sub: 'return on ad spend', color: 'text-green-600', bg: 'bg-green-50 border-green-200' },
+        { label: 'CTR', value: '8.4%', sub: 'click-through rate', color: 'text-blue-600', bg: 'bg-blue-50 border-blue-200' },
+        { label: 'CPC', value: '€0.48', sub: 'cost per click', color: 'text-primary', bg: 'bg-primary/5 border-primary/20' },
     ];
     return (
-        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center p-6 gap-3">
-            <div className="flex items-center gap-2 bg-gray-50 rounded-xl px-4 py-2.5 border border-primary/10 mb-2">
-                <MousePointer2 className="w-4 h-4 text-primary/40" />
-                <span className="font-sans text-sm text-primary/50">zoekterm: marketing bureau nederland</span>
+        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center p-4 sm:p-6 gap-3 sm:gap-4">
+            <div className="flex items-center justify-between mb-1">
+                <span className="font-mono text-xs uppercase tracking-widest text-primary/40">Campagne prestaties</span>
+                <div className="flex items-center gap-1.5">
+                    <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
+                    <span className="font-mono text-[10px] text-green-600">Live</span>
+                </div>
             </div>
-            {results.map((r, i) => (
-                <motion.div
-                    key={i}
-                    initial={{ opacity: 0, y: 10 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: i * 0.2 + 0.3 }}
-                    className={`rounded-xl p-3.5 border ${r.highlight ? 'bg-green-50/60 border-green-200' : 'bg-white border-primary/10'}`}
-                >
-                    <div className="flex items-center justify-between mb-1">
-                        <div className="flex items-center gap-2">
-                            <span className={`font-mono text-xs font-bold px-1.5 py-0.5 rounded ${r.highlight ? 'bg-green-600 text-white' : 'text-primary/30'}`}>{r.pos}</span>
-                            <span className={`font-sans text-xs ${r.highlight ? 'text-green-700' : 'text-primary/30'}`}>{r.url}</span>
-                        </div>
-                        <span className={`font-mono text-xs font-bold ${r.highlight ? 'text-green-700' : 'text-primary/20'}`}>CTR {r.ctr}</span>
-                    </div>
-                    <div className={`font-sans text-sm font-medium ${r.highlight ? 'text-primary' : 'text-primary/40'}`}>{r.title}</div>
-                </motion.div>
-            ))}
+            <div className="grid grid-cols-3 gap-2">
+                {metrics.map((m, i) => (
+                    <motion.div
+                        key={i}
+                        initial={{ opacity: 0, y: 12 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: i * 0.15 + 0.2 }}
+                        className={`rounded-xl p-3 border ${m.bg} flex flex-col gap-1`}
+                    >
+                        <div className="font-mono text-[9px] uppercase tracking-widest text-primary/40">{m.label}</div>
+                        <div className={`font-mono font-bold text-lg ${m.color}`}>{m.value}</div>
+                        <div className="font-sans text-[9px] text-primary/40">{m.sub}</div>
+                    </motion.div>
+                ))}
+            </div>
+            <div className="space-y-2">
+                <div className="flex justify-between font-mono text-[10px] text-primary/50">
+                    <span>Kwaliteitsscore</span>
+                    <span className="text-green-600 font-bold">9/10</span>
+                </div>
+                <div className="h-2.5 w-full bg-primary/5 rounded-full overflow-hidden">
+                    <motion.div
+                        initial={{ width: '0%' }}
+                        whileInView={{ width: '90%' }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 1.4, delay: 0.7, ease: 'easeOut' }}
+                        className="h-full bg-gradient-to-r from-green-400 to-green-600 rounded-full"
+                    />
+                </div>
+            </div>
+            <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: 1.2 }}
+                className="flex items-center gap-2 bg-primary/5 rounded-xl px-3 py-2"
+            >
+                <Target className="w-4 h-4 text-primary/50 shrink-0" />
+                <span className="font-mono text-[10px] text-primary/60">Positie #1 op 3 trefwoorden</span>
+            </motion.div>
         </div>
     );
 };
 
 // Animatie: campagne structuur
 const CampaignStructureAnim = () => (
-    <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex items-center justify-center p-6 overflow-hidden">
-        <div className="w-full flex flex-col gap-3">
+    <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex items-center justify-center p-4 sm:p-6 overflow-hidden">
+        <div className="w-full flex flex-col gap-2 sm:gap-3">
             {[
                 { level: 'Campagne', label: 'Merk & Awareness', color: 'bg-primary text-background' },
-                { level: 'Advertentiegroep', label: 'Productcategorie A', color: 'bg-primary/10 text-primary' },
+                { level: 'Advertentiegroep', label: 'Categorie A', color: 'bg-primary/10 text-primary' },
                 { level: 'Advertentie', label: 'Dynamische zoekadvertentie', color: 'bg-accent/10 text-accent' },
             ].map((item, i) => (
                 <motion.div
@@ -61,11 +86,11 @@ const CampaignStructureAnim = () => (
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.2 }}
-                    style={{ marginLeft: `${i * 20}px` }}
-                    className={`flex items-center gap-3 rounded-xl px-4 py-3 ${item.color}`}
+                    style={{ marginLeft: `${i * 10}px` }}
+                    className={`flex items-center gap-2 rounded-xl px-3 py-2.5 ${item.color}`}
                 >
-                    <div className="font-mono text-[10px] uppercase tracking-widest opacity-60">{item.level}</div>
-                    <div className="font-sans text-sm font-medium">{item.label}</div>
+                    <div className="font-mono text-[9px] uppercase tracking-widest opacity-60 shrink-0">{item.level}</div>
+                    <div className="font-sans text-xs sm:text-sm font-medium truncate">{item.label}</div>
                 </motion.div>
             ))}
             <motion.div
@@ -73,10 +98,11 @@ const CampaignStructureAnim = () => (
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.8 }}
-                className="flex items-center gap-2 ml-12 mt-2"
+                className="flex items-center gap-2 mt-1"
+                style={{ marginLeft: '10px' }}
             >
-                <div className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-                <span className="font-mono text-xs text-primary/40">Live — bijsturing op basis van data</span>
+                <div className="w-2 h-2 rounded-full bg-accent animate-pulse shrink-0" />
+                <span className="font-mono text-[10px] text-primary/40">Live — bijsturing op data</span>
             </motion.div>
         </div>
     </div>
@@ -90,7 +116,7 @@ const ROIAnim = () => {
         { value: '-40%', label: 'kosten per lead na optimalisatie', color: 'text-accent' },
     ];
     return (
-        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-6 p-8">
+        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-4 sm:gap-6 p-4 sm:p-8">
             {stats.map((s, i) => (
                 <motion.div
                     key={i}
@@ -98,10 +124,10 @@ const ROIAnim = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.2, duration: 0.5 }}
-                    className="flex items-center gap-4"
+                    className="flex items-center gap-3 sm:gap-4"
                 >
-                    <span className={`font-sans font-bold text-3xl md:text-4xl ${s.color} w-24 shrink-0`}>{s.value}</span>
-                    <span className="font-sans text-sm text-primary/60 leading-tight">{s.label}</span>
+                    <span className={`font-sans font-bold text-2xl sm:text-3xl ${s.color} w-16 sm:w-24 shrink-0`}>{s.value}</span>
+                    <span className="font-sans text-xs sm:text-sm text-primary/60 leading-tight">{s.label}</span>
                 </motion.div>
             ))}
         </div>
@@ -111,13 +137,13 @@ const ROIAnim = () => {
 // Animatie: aanpak fasen
 const FasenAnim = () => {
     const fasen = [
-        { nr: '01', title: 'Account audit', desc: 'Volledige analyse van bestaande campagnes, verspild budget en kansen.' },
-        { nr: '02', title: 'Structuur & strategie', desc: 'Campagnestructuur opzetten, zoekwoordonderzoek, doelgroepen instellen.' },
-        { nr: '03', title: 'Lanceren & testen', desc: 'Advertenties live zetten, A/B testen op teksten en biedstrategieën.' },
-        { nr: '04', title: 'Bijsturen & schalen', desc: 'Maandelijkse optimalisatie op basis van data. Budget verschuiven naar wat werkt.' },
+        { nr: '01', title: 'Account audit', desc: 'Analyse van bestaande campagnes, verspild budget en kansen.' },
+        { nr: '02', title: 'Structuur & strategie', desc: 'Campagnestructuur opzetten, zoekwoordonderzoek, doelgroepen.' },
+        { nr: '03', title: 'Lanceren & testen', desc: 'Advertenties live, A/B testen op teksten en biedstrategieën.' },
+        { nr: '04', title: 'Bijsturen & schalen', desc: 'Maandelijkse bijsturing op data. Budget naar wat werkt.' },
     ];
     return (
-        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-3 p-6">
+        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-2 sm:gap-3 p-4 sm:p-6">
             {fasen.map((f, i) => (
                 <motion.div
                     key={i}
@@ -125,12 +151,12 @@ const FasenAnim = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.15 }}
-                    className="flex gap-3 items-start bg-white rounded-xl p-3.5 border border-primary/10"
+                    className="flex gap-2.5 items-start bg-white rounded-xl p-2.5 sm:p-3.5 border border-primary/10"
                 >
                     <span className="font-mono text-xs text-background bg-primary px-2 py-0.5 rounded-full shrink-0 mt-0.5">{f.nr}</span>
                     <div>
-                        <div className="font-sans font-bold text-sm text-primary mb-0.5">{f.title}</div>
-                        <div className="font-sans text-xs text-primary/55 leading-relaxed">{f.desc}</div>
+                        <div className="font-sans font-bold text-xs sm:text-sm text-primary mb-0.5">{f.title}</div>
+                        <div className="font-sans text-[10px] sm:text-xs text-primary/55 leading-snug">{f.desc}</div>
                     </div>
                 </motion.div>
             ))}
@@ -169,7 +195,7 @@ export default function GoogleAdsPage() {
                     "@type": "Service",
                     "name": "Google Ads Campagnebeheer",
                     "serviceType": "Google Ads beheer",
-                    "description": "Empowers beheert Google Ads campagnes voor bedrijven in Nederland. Van strategie tot optimalisatie, zodat jouw advertentiebudget maximaal rendeert.",
+                    "description": "Empowers beheert Google Ads campagnes voor bedrijven in Nederland. Gevonden worden op het moment dat iemand klaar is om te kopen, zodat jouw advertentiebudget maximaal rendeert.",
                     "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                     "url": "https://www.empowers.nl/google-ads"
                 })}</script>
@@ -183,10 +209,10 @@ export default function GoogleAdsPage() {
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Google Ads</span>
                         <h1 className="font-sans font-bold text-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[0.9] tracking-tight mb-6">
-                            Bovenaan Google<br />op het juiste moment.
+                            Gevonden worden<br />als iemand klaar is om te kopen.
                         </h1>
                         <p className="font-sans text-primary/70 text-lg md:text-xl max-w-lg leading-relaxed font-medium mb-8">
-                            Google Ads zet jouw bedrijf direct bovenaan de zoekresultaten, precies wanneer iemand zoekt wat jij aanbiedt. Wij beheren jouw campagnes van A tot Z en sturen bij op basis van data, niet op gevoel.
+                            Iemand zoekt precies wat jij aanbiedt. Jij staat bovenaan. Klik. Wij bouwen en beheren jouw campagnes zodat dat elke dag klopt.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/contact" className="btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
@@ -194,8 +220,8 @@ export default function GoogleAdsPage() {
                             </Link>
                         </div>
                     </div>
-                    <div className="flex-1 h-[320px] lg:h-[360px]">
-                        <AdResultAnim />
+                    <div className="flex-1 w-full h-[280px] sm:h-[320px] lg:h-[360px]">
+                        <AdPerformanceAnim />
                     </div>
                 </div>
             </section>
@@ -205,20 +231,20 @@ export default function GoogleAdsPage() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-24">
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">01 — Wat zijn Google Ads?</span>
-                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Zichtbaarheid die je kunt kopen — en optimaliseren</h2>
+                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Betaal per klik. Nooit per vertoning.</h2>
                         <p className="font-sans text-primary/70 text-lg leading-relaxed mb-6">
-                            Met <strong className="text-primary">Google Ads</strong> betaal je alleen voor klikken. Jouw advertentie verschijnt bovenaan de zoekresultaten wanneer iemand actief zoekt naar jouw product of dienst. Dat is het verschil met social media: de intentie is er al.
+                            Met <strong className="text-primary">Google Ads</strong> betaal je alleen als iemand klikt. Jouw advertentie verschijnt bovenaan wanneer iemand actief zoekt naar wat jij biedt. De koopintentie is er al.
                         </p>
                         <p className="font-sans text-primary/70 text-lg leading-relaxed mb-8">
-                            Goed beheer maakt het verschil. Een slecht opgezette campagne verbrandt budget. Een goed geoptimaliseerde campagne levert structureel meer op dan hij kost.
+                            Een slechte campagne verbrandt budget snel. Een goede campagne brengt meer op dan hij kost. Dat verschil zit volledig in de opbouw en de bijsturing.
                         </p>
                         <div className="bg-accent/10 border-l-4 border-accent rounded-r-xl p-5">
                             <p className="font-sans text-primary font-medium italic">
-                                "Wij sturen bij op data. Geen buikgevoel, geen standaard aanpak — elke campagne is uniek."
+                                "Wij sturen bij op data. Geen buikgevoel, geen vaste sjablonen. Elke campagne is gebouwd rondom jouw markt."
                             </p>
                         </div>
                     </div>
-                    <div className="flex-1 w-full h-[340px]">
+                    <div className="flex-1 w-full h-[260px] sm:h-[320px] lg:h-[340px]">
                         <CampaignStructureAnim />
                     </div>
                 </div>
@@ -229,13 +255,13 @@ export default function GoogleAdsPage() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">02 — Waarom Google Ads?</span>
-                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Resultaten die je direct ziet</h2>
+                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Adverteer alleen als iemand al zoekt.</h2>
                         <div className="flex flex-col gap-5">
                             {[
-                                { icon: <Target className="w-5 h-5" />, claim: 'Hoge koopintentie', detail: 'Mensen die zoeken op Google zijn al op zoek naar een oplossing. Dat maakt elke klik waardevoller dan bij elk ander platform.' },
-                                { icon: <MousePointer2 className="w-5 h-5" />, claim: 'Je betaalt alleen voor resultaat', detail: 'Cost-per-click betekent dat je alleen betaalt als iemand daadwerkelijk op jouw advertentie klikt. Geen budget verspillen aan views.' },
-                                { icon: <TrendingUp className="w-5 h-5" />, claim: 'Schaalbaar zonder limiet', detail: 'Zodra het werkt, kun je het budget vergroten en direct meer leads of verkopen genereren. Groei op commando.' },
-                                { icon: <BarChart2 className="w-5 h-5" />, claim: 'Volledig meetbaar', detail: 'Van klik tot aankoop. Elke euro is traceerbaar. Wij rapporteren maandelijks transparant over wat jouw budget oplevert.' },
+                                { icon: <Target className="w-5 h-5" />, claim: 'De intentie is er al.', detail: 'Mensen die zoeken op Google zijn al klaar voor een oplossing. Dat maakt elke klik waardevoller dan op elk ander platform.' },
+                                { icon: <MousePointer2 className="w-5 h-5" />, claim: 'Jij betaalt alleen voor klikken.', detail: 'Geen vertoningen, geen kosten. Alleen als iemand daadwerkelijk klikt, gaat er geld af. Zo werkt eerlijk adverteren.' },
+                                { icon: <TrendingUp className="w-5 h-5" />, claim: 'Klein beginnen. Hard groeien.', detail: 'Zodra de campagne werkt, zet je meer budget op het vuur. Direct meer leads. Direct meer omzet.' },
+                                { icon: <BarChart2 className="w-5 h-5" />, claim: 'Elke euro traceerbaar.', detail: 'Van klik tot aankoop zie je precies wat jouw budget doet. Wij rapporteren helder en zonder verborgen cijfers.' },
                             ].map((item, i) => (
                                 <motion.div
                                     key={i}
@@ -256,7 +282,7 @@ export default function GoogleAdsPage() {
                             ))}
                         </div>
                     </div>
-                    <div className="flex-1 w-full h-[320px]">
+                    <div className="flex-1 w-full h-[240px] sm:h-[300px] lg:h-[320px]">
                         <ROIAnim />
                     </div>
                 </div>
@@ -267,9 +293,9 @@ export default function GoogleAdsPage() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-24">
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">03 — Onze aanpak</span>
-                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Van audit tot groei</h2>
+                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Structuur eerst. Dan pas schalen.</h2>
                         <p className="font-sans text-primary/70 text-lg leading-relaxed mb-8">
-                            We beginnen altijd met een grondige analyse. Daarna bouwen we een campagnestructuur die converteert en blijven we maandelijks bijsturen — zodat je budget steeds harder werkt.
+                            We starten met een grondige audit van alles wat er al staat. Daarna bouwen we een structuur die converteert en sturen we maandelijks bij. Jouw budget werkt elke maand harder.
                         </p>
                         <div className="flex flex-col gap-3">
                             {[
@@ -285,7 +311,7 @@ export default function GoogleAdsPage() {
                             ))}
                         </div>
                     </div>
-                    <div className="flex-1 w-full h-[400px]">
+                    <div className="flex-1 w-full h-[340px] sm:h-[380px] lg:h-[400px]">
                         <FasenAnim />
                     </div>
                 </div>
@@ -297,9 +323,9 @@ export default function GoogleAdsPage() {
                     <div className="bg-white rounded-[2rem] border border-primary/10 shadow-[0_8px_40px_rgb(0,0,0,0.06)] p-8 sm:p-12 flex flex-col md:flex-row items-center gap-8 mb-8">
                         <div className="flex-1">
                             <span className="font-mono text-xs uppercase tracking-widest text-accent mb-3 block">Gratis rapport</span>
-                            <h3 className="font-sans font-bold text-2xl text-primary mb-3">De complete Google Ads gids</h3>
+                            <h3 className="font-sans font-bold text-2xl text-primary mb-3">Alles over Google Ads. In één rapport.</h3>
                             <p className="font-sans text-primary/60 text-sm leading-relaxed mb-6">
-                                Download ons volledige Google Ads rapport. Met onze campagnestrategie, aanpak en concrete stappen om jouw advertentiebudget maximaal te laten renderen.
+                                Download ons Google Ads rapport. Onze strategie, aanpak en concrete stappen uitgelegd. Meteen bruikbaar.
                             </p>
                             <a
                                 href="/Google-Ads-Strategie_Empowers.pdf"
@@ -321,7 +347,7 @@ export default function GoogleAdsPage() {
                         <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
                         <h3 className="relative z-10 font-drama italic text-background text-3xl sm:text-4xl md:text-5xl mb-4">Klaar om te groeien?</h3>
                         <p className="relative z-10 font-sans text-background/70 mb-8 max-w-md mx-auto">
-                            Plan een vrijblijvend gesprek. We kijken samen naar jouw situatie en laten zien welke Google Ads kansen er liggen.
+                            Plan een gesprek. We kijken samen naar jouw situatie en laten zien wat er mogelijk is. Zullen we?
                         </p>
                         <Link to="/contact" className="relative z-10 btn-magnetic inline-flex items-center gap-2 bg-accent text-background font-sans font-bold text-base px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
                             Plan een gratis gesprek

@@ -83,12 +83,22 @@ export default function About() {
         <main ref={mainRef} className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
                 <title>Over Ons – Marketing Bureau Nederland | Empowers</title>
-                <meta name="description" content="Leer het team achter Empowers kennen: een performance marketing bureau dat bedrijven helpt groeien via data-gedreven advertenties, GEO en slimme conversieoptimalisatie." />
+                <meta name="description" content="Leer het team achter Empowers kennen. Wij zijn een performance marketing bureau dat MKB-bedrijven helpt groeien via Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO en GEO." />
                 <link rel="canonical" href="https://www.empowers.nl/over-ons" />
                 <meta property="og:title" content="Over Ons – Marketing Bureau Nederland | Empowers" />
-                <meta property="og:description" content="Leer het team achter Empowers kennen: een performance marketing bureau dat bedrijven helpt groeien via data-gedreven advertenties, GEO en slimme conversieoptimalisatie." />
+                <meta property="og:description" content="Leer het team achter Empowers kennen. Wij zijn een performance marketing bureau dat MKB-bedrijven helpt groeien via Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO en GEO." />
                 <meta property="og:url" content="https://www.empowers.nl/over-ons" />
                 <meta property="og:type" content="website" />
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Organization",
+                    "name": "Empowers",
+                    "url": "https://www.empowers.nl",
+                    "logo": "https://www.empowers.nl/logo.svg",
+                    "description": "Empowers is een performance marketing bureau dat MKB-bedrijven helpt groeien via Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO en GEO.",
+                    "address": { "@type": "PostalAddress", "addressCountry": "NL" },
+                    "knowsAbout": ["Google Ads", "Meta Ads", "LinkedIn Ads", "TikTok Ads", "SEO", "GEO", "Generative Engine Optimization"]
+                })}</script>
             </Helmet>
             <Navbar />
 

@@ -12,40 +12,37 @@ gsap.registerPlugin(ScrollTrigger);
 
 // Animatie: conversie funnel
 const ConversionFunnelAnim = () => (
-    <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center items-center p-6 gap-4 overflow-hidden">
-        <div className="font-mono text-xs uppercase tracking-widest text-primary/40 mb-2">Gemiddelde website</div>
-        <div className="w-full flex flex-col items-center gap-2">
+    <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center p-4 sm:p-6 gap-2 sm:gap-3 overflow-hidden">
+        <div className="font-mono text-xs uppercase tracking-widest text-primary/40 mb-1">Gemiddelde website</div>
+        <div className="w-full flex flex-col gap-2">
             {[
-                { label: '100 bezoekers', width: 'w-full', color: 'bg-primary/10', text: 'text-primary/60' },
-                { label: '38 kijken verder', width: 'w-[60%]', color: 'bg-primary/20', text: 'text-primary/70' },
-                { label: '12 klikken op CTA', width: 'w-[35%]', color: 'bg-primary/40', text: 'text-primary/80' },
-                { label: '3 nemen contact op', width: 'w-[15%]', color: 'bg-accent', text: 'text-background font-bold' },
+                { label: '100 bezoekers', pct: 100, bg: 'bg-primary/10', text: 'text-primary/60' },
+                { label: '38 kijken verder', pct: 62, bg: 'bg-primary/20', text: 'text-primary/70' },
+                { label: '12 klikken op CTA', pct: 36, bg: 'bg-primary/40', text: 'text-primary/80' },
+                { label: '3 nemen contact op', pct: 16, bg: 'bg-accent', text: 'text-background font-bold' },
             ].map((step, i) => (
-                <motion.div
-                    key={i}
-                    initial={{ opacity: 0, scaleX: 0 }}
-                    whileInView={{ opacity: 1, scaleX: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: i * 0.2, duration: 0.6, ease: 'easeOut' }}
-                    style={{ originX: 0 }}
-                    className={`${step.width} rounded-lg px-4 py-2.5 flex items-center justify-between`}
-                    style={{ background: step.color === 'bg-accent' ? 'var(--color-accent)' : undefined }}
-                >
-                    <div className={`${step.width} rounded-lg px-4 py-2.5 flex items-center justify-between ${step.color}`}>
-                        <span className={`font-sans text-xs ${step.text}`}>{step.label}</span>
-                        {i === 3 && <span className="font-mono text-xs text-background">3%</span>}
-                    </div>
-                </motion.div>
+                <div key={i} className="w-full">
+                    <motion.div
+                        initial={{ width: 0, opacity: 0 }}
+                        whileInView={{ width: `${step.pct}%`, opacity: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: i * 0.25, duration: 0.7, ease: 'easeOut' }}
+                        className={`rounded-lg px-4 py-2.5 flex items-center justify-between ${step.bg}`}
+                    >
+                        <span className={`font-sans text-xs whitespace-nowrap ${step.text}`}>{step.label}</span>
+                        {i === 3 && <span className="font-mono text-xs text-background ml-2">3%</span>}
+                    </motion.div>
+                </div>
             ))}
         </div>
         <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ delay: 1 }}
-            className="mt-2 bg-accent/10 rounded-xl px-4 py-2 flex items-center gap-2"
+            transition={{ delay: 1.2 }}
+            className="bg-accent/10 rounded-xl px-4 py-2.5 flex items-center gap-2 mt-1"
         >
-            <Zap className="w-4 h-4 text-accent" />
+            <Zap className="w-4 h-4 text-accent shrink-0" />
             <span className="font-sans text-xs font-bold text-accent">Na optimalisatie: 9% conversie</span>
         </motion.div>
     </div>
@@ -53,7 +50,7 @@ const ConversionFunnelAnim = () => (
 
 // Animatie: A/B test vergelijking
 const ABTestAnim = () => (
-    <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center p-6 gap-4 overflow-hidden">
+    <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center p-4 sm:p-6 gap-3 sm:gap-4 overflow-hidden">
         <div className="font-mono text-xs uppercase tracking-widest text-primary/40 mb-1">A/B Test Monitor</div>
         <div className="grid grid-cols-2 gap-3">
             <div className="bg-primary/5 rounded-xl p-4 border border-primary/10">
@@ -102,7 +99,7 @@ const AIWebsiteAnim = () => {
         { label: 'Live zetten', done: false, active: true },
     ];
     return (
-        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center p-6 gap-4 overflow-hidden">
+        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center p-4 sm:p-6 gap-3 sm:gap-4 overflow-hidden">
             <div className="font-mono text-xs uppercase tracking-widest text-primary/40 mb-1">Website Builder — AI</div>
             <div className="flex flex-col gap-2">
                 {steps.map((step, i) => (
@@ -143,7 +140,7 @@ const StatsAnim = () => {
         { value: '3x', label: 'meer leads door betere CTA plaatsing', color: 'text-primary' },
     ];
     return (
-        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-6 p-8">
+        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-4 sm:gap-6 p-4 sm:p-8">
             {stats.map((s, i) => (
                 <motion.div
                     key={i}
@@ -151,10 +148,10 @@ const StatsAnim = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.2, duration: 0.5 }}
-                    className="flex items-center gap-4"
+                    className="flex items-center gap-3 sm:gap-4"
                 >
-                    <span className={`font-sans font-bold text-3xl md:text-4xl ${s.color} w-20 shrink-0`}>{s.value}</span>
-                    <span className="font-sans text-sm text-primary/60 leading-tight">{s.label}</span>
+                    <span className={`font-sans font-bold text-2xl sm:text-3xl ${s.color} w-14 sm:w-20 shrink-0`}>{s.value}</span>
+                    <span className="font-sans text-xs sm:text-sm text-primary/60 leading-tight">{s.label}</span>
                 </motion.div>
             ))}
         </div>
@@ -180,19 +177,19 @@ export default function LandingspaginaPage() {
     return (
         <main ref={mainRef} className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>Landingspagina Optimalisatie & AI Websites | Empowers</title>
-                <meta name="description" content="Jouw website moet werken. Meer bezoekers omzetten in klanten via CRO en A/B testing. Of een nieuwe website laten bouwen met AI — snel, scherp geprijsd en precies goed." />
+                <title>Landingspagina's die Converteren | Empowers</title>
+                <meta name="description" content="Meer bezoekers die ook echt iets doen. Empowers bouwt en verbetert landingspagina's die bezoekers omzetten in klanten. Van eerste analyse tot conversiegericht resultaat." />
                 <link rel="canonical" href="https://www.empowers.nl/landingspagina" />
-                <meta property="og:title" content="Landingspagina Optimalisatie & AI Websites | Empowers" />
-                <meta property="og:description" content="Jouw website moet werken. Meer bezoekers omzetten in klanten via CRO en A/B testing. Of een nieuwe website laten bouwen met AI — snel, scherp geprijsd en precies goed." />
+                <meta property="og:title" content="Landingspagina's die Converteren | Empowers" />
+                <meta property="og:description" content="Meer bezoekers die ook echt iets doen. Empowers bouwt en verbetert landingspagina's die bezoekers omzetten in klanten. Van eerste analyse tot conversiegericht resultaat." />
                 <meta property="og:url" content="https://www.empowers.nl/landingspagina" />
                 <meta property="og:type" content="website" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "Service",
-                    "name": "Landingspagina Optimalisatie & AI Websites",
-                    "serviceType": "Conversie-optimalisatie en websitebouw",
-                    "description": "Empowers optimaliseert landingspagina's voor meer conversies en bouwt betaalbare AI-websites voor kleine ondernemers in Nederland.",
+                    "name": "Landingspagina's die Converteren",
+                    "serviceType": "Landingspagina bouw en conversie",
+                    "description": "Empowers bouwt en verbetert landingspagina's voor bedrijven in Nederland. Meer bezoekers die ook echt iets doen, van eerste analyse tot conversiegericht resultaat.",
                     "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                     "url": "https://www.empowers.nl/landingspagina"
                 })}</script>
@@ -206,10 +203,10 @@ export default function LandingspaginaPage() {
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Landingspagina & Websites</span>
                         <h1 className="font-sans font-bold text-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[0.9] tracking-tight mb-6">
-                            Je website werkt.<br />Of hij werkt niet.
+                            Meer bezoekers die<br />ook echt iets doen.
                         </h1>
                         <p className="font-sans text-primary/70 text-lg md:text-xl max-w-lg leading-relaxed font-medium mb-8">
-                            De meeste websites zijn mooi maar stil. Geen leads, geen klikken, geen klanten. Wij veranderen dat. Met slimme optimalisatie van wat je hebt, of een nieuwe website die je bedrijf écht vertegenwoordigt.
+                            De meeste websites zien er goed uit maar doen weinig. Geen leads, geen klikken, geen groei. Wij veranderen dat. Met slimme optimalisatie of een frisse start.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/contact" className="btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
@@ -217,7 +214,7 @@ export default function LandingspaginaPage() {
                             </Link>
                         </div>
                     </div>
-                    <div className="flex-1 h-[320px] lg:h-[380px]">
+                    <div className="flex-1 w-full h-[280px] sm:h-[320px] lg:h-[380px]">
                         <ConversionFunnelAnim />
                     </div>
                 </div>
@@ -230,10 +227,10 @@ export default function LandingspaginaPage() {
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">01 — Landingspagina Optimalisatie</span>
                         <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Jouw pagina heeft één taak. Converteren.</h2>
                         <p className="font-sans text-primary/70 text-lg leading-relaxed mb-6">
-                            Gemiddeld verlaat 97% van je bezoekers je website zonder iets te doen. Dat is geen toeval. Dat is een ontwerp- of copykeuze die we kunnen aanpassen.
+                            97% van je bezoekers vertrekt zonder iets te doen. Dat is geen pech. Dat is een ontwerp- of copykeuze die we kunnen aanpassen.
                         </p>
                         <p className="font-sans text-primary/70 text-lg leading-relaxed mb-6">
-                            Wij kijken naar jouw pagina met conversie als enige maatstaf. Wat ziet iemand als eerste? Klikt die knop? Begrijpt een bezoeker binnen drie seconden wat jij doet? Zo niet, dan pakken we dat aan.
+                            We kijken naar jouw pagina met één vraag: wat mist hier? Wat ziet iemand als eerste? Begrijpt een bezoeker binnen drie seconden wat jij doet? Als het antwoord nee is, pakken we dat aan.
                         </p>
                         <p className="font-sans text-primary/70 text-lg leading-relaxed mb-8">
                             Kleine verbeteringen, groot effect. Een stijging van 1% in conversieratio kan al zorgen voor 30 tot 50% meer leads.
@@ -244,7 +241,7 @@ export default function LandingspaginaPage() {
                             </p>
                         </div>
                     </div>
-                    <div className="flex-1 w-full h-[360px]">
+                    <div className="flex-1 w-full h-[300px] sm:h-[340px] lg:h-[360px]">
                         <ABTestAnim />
                     </div>
                 </div>
@@ -282,7 +279,7 @@ export default function LandingspaginaPage() {
                             ))}
                         </div>
                     </div>
-                    <div className="flex-1 w-full h-[320px]">
+                    <div className="flex-1 w-full h-[240px] sm:h-[295px] lg:h-[320px]">
                         <StatsAnim />
                     </div>
                 </div>
@@ -317,7 +314,7 @@ export default function LandingspaginaPage() {
                             ))}
                         </div>
                     </div>
-                    <div className="flex-1 w-full h-[360px]">
+                    <div className="flex-1 w-full h-[300px] sm:h-[340px] lg:h-[360px]">
                         <AIWebsiteAnim />
                     </div>
                 </div>
@@ -329,7 +326,7 @@ export default function LandingspaginaPage() {
                     <div className="text-center mb-16">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">04 — Voor wie?</span>
                         <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight">
-                            Van verborgen held naar herkenbaar merk.
+                            Dit klinkt misschien bekend.
                         </h2>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -361,9 +358,9 @@ export default function LandingspaginaPage() {
                 <div className="max-w-4xl mx-auto">
                     <div className="bg-primary rounded-[2rem] p-8 sm:p-12 text-center relative overflow-hidden">
                         <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
-                        <h3 className="relative z-10 font-drama italic text-background text-3xl sm:text-4xl md:text-5xl mb-4">Zullen we?</h3>
+                        <h3 className="relative z-10 font-drama italic text-background text-3xl sm:text-4xl md:text-5xl mb-4">Je website kan zoveel meer.</h3>
                         <p className="relative z-10 font-sans text-background/70 mb-8 max-w-md mx-auto">
-                            Plan een vrijblijvend gesprek. We kijken samen naar jouw website en vertellen je eerlijk wat er beter kan, en wat het kost.
+                            Plan een gesprek. We kijken samen naar jouw website en vertellen je eerlijk wat er beter kan. Zullen we?
                         </p>
                         <Link to="/contact" className="relative z-10 btn-magnetic inline-flex items-center gap-2 bg-accent text-background font-sans font-bold text-base px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
                             Plan een gratis gesprek

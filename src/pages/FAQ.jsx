@@ -17,7 +17,11 @@ const faqs = [
     },
     {
         q: "Op welke platformen zijn jullie actief?",
-        a: "We beheren campagnes op Google Ads, Meta Ads (Facebook & Instagram) en TikTok Ads. Daarnaast helpen we je met SEO en GEO, zodat je ook organisch gevonden wordt."
+        a: "We beheren campagnes op Google Ads, Meta Ads (Facebook & Instagram), LinkedIn Ads en TikTok Ads. Daarnaast helpen we je met SEO en GEO, zodat je ook organisch gevonden wordt."
+    },
+    {
+        q: "Is LinkedIn Ads ook geschikt voor mijn bedrijf?",
+        a: "LinkedIn Ads zijn vooral krachtig als jouw klant een beslisser is. Denk aan CEO's, marketing managers of inkoopverantwoordelijken. Je kunt targeten op functietitel, bedrijfsgrootte en branche, zo precies als geen enkel ander platform dat kan. Voor B2B is LinkedIn vaak het scherpste kanaal dat er is."
     },
     {
         q: "Wat is GEO en waarom is het belangrijk?",
@@ -44,8 +48,8 @@ const faqs = [
         a: "Ja, we nemen bestaande campagnes regelmatig over. We starten altijd met een grondige audit om te zien wat er al loopt, wat beter kan en waar de grootste kansen liggen."
     },
     {
-        q: "Bouwen jullie ook websites of landingspagina's?",
-        a: "We bouwen geen complete websites, maar we optimaliseren wel bestaande landingspagina's en geven concrete adviezen over wat beter kan qua conversie. Een goede advertentie heeft namelijk een sterke landingspagina nodig om te werken."
+        q: "Bouwen jullie ook landingspagina's?",
+        a: "Ja. Een goede advertentie heeft een sterke landingspagina nodig om te werken. We kijken naar wat jouw pagina mist, bouwen waar nodig en sturen bij op conversie. Geen losse tips, maar echte actie."
     },
     {
         q: "Hoe rapporteren jullie over de resultaten?",
@@ -76,9 +80,9 @@ function FAQItem({ faq, isOpen, onClick }) {
                 onClick={onClick}
                 className="w-full py-6 flex items-start sm:items-center justify-between gap-6 text-left focus:outline-none group"
             >
-                <h3 className="font-sans font-bold text-lg md:text-xl text-primary group-hover:text-accent transition-colors pr-8">
+                <h2 className="font-sans font-bold text-lg md:text-xl text-primary group-hover:text-accent transition-colors pr-8">
                     {faq.q}
-                </h3>
+                </h2>
                 <div className={`shrink-0 text-accent transition-transform duration-300 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] mt-1 sm:mt-0 ${isOpen ? 'rotate-180' : ''}`}>
                     {isOpen ? <Minus className="w-5 h-5" /> : <Plus className="w-5 h-5" />}
                 </div>
@@ -119,10 +123,10 @@ export default function FAQ() {
                     })}
                 </script>
                 <title>Veelgestelde Vragen over Online Marketing | Empowers FAQ</title>
-                <meta name="description" content="Antwoorden op je meest gestelde vragen over Meta Ads, TikTok Ads, GEO en samenwerken met Empowers. Alles wat je wilt weten over performance marketing." />
+                <meta name="description" content="Antwoorden op je meest gestelde vragen over Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO, GEO en samenwerken met Empowers." />
                 <link rel="canonical" href="https://www.empowers.nl/faq" />
                 <meta property="og:title" content="Veelgestelde Vragen over Online Marketing | Empowers FAQ" />
-                <meta property="og:description" content="Antwoorden op je meest gestelde vragen over Meta Ads, TikTok Ads, GEO en samenwerken met Empowers. Alles wat je wilt weten over performance marketing." />
+                <meta property="og:description" content="Antwoorden op je meest gestelde vragen over Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO, GEO en samenwerken met Empowers." />
                 <meta property="og:url" content="https://www.empowers.nl/faq" />
                 <meta property="og:type" content="website" />
             </Helmet>
@@ -134,7 +138,7 @@ export default function FAQ() {
                     <div className="mb-16 md:mb-24 text-center md:text-left">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">Kennisbank</span>
                         <h1 className="font-sans font-bold text-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[0.9] tracking-tight mb-6">
-                            Veelgestelde vragen over online marketing
+                            Jouw vragen.<br />Onze antwoorden.
                         </h1>
                         <p className="font-sans text-primary/70 text-lg max-w-2xl mx-auto md:mx-0">
                             Alles wat je wilt weten over onze werkwijze, prijzen en de integratie van betaalde en organische groei via SEO & GEO.

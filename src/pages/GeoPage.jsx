@@ -12,8 +12,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 // Animatie: AI chat aanbeveling
 const AIChatAnim = () => (
-    <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex items-center justify-center p-6 overflow-hidden">
-        <div className="w-full max-w-sm flex flex-col gap-3">
+    <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex items-center justify-center p-4 sm:p-6 overflow-hidden">
+        <div className="w-full max-w-sm flex flex-col gap-2 sm:gap-3">
             <div className="text-xs font-mono uppercase tracking-widest text-primary/40 mb-2">AI Assistant</div>
             <motion.div
                 initial={{ opacity: 0, x: 40 }}
@@ -61,7 +61,7 @@ const StatsAnim = () => {
         { value: '50%+', label: 'van searches heeft AI Overview', color: 'text-accent' },
     ];
     return (
-        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-6 p-8">
+        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-4 sm:gap-6 p-4 sm:p-8">
             {stats.map((s, i) => (
                 <motion.div
                     key={i}
@@ -69,10 +69,10 @@ const StatsAnim = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.2, duration: 0.5 }}
-                    className="flex items-center gap-4"
+                    className="flex items-center gap-3 sm:gap-4"
                 >
-                    <span className={`font-sans font-bold text-3xl md:text-4xl ${s.color} w-24 shrink-0`}>{s.value}</span>
-                    <span className="font-sans text-sm text-primary/60 leading-tight">{s.label}</span>
+                    <span className={`font-sans font-bold text-2xl sm:text-3xl ${s.color} w-16 sm:w-24 shrink-0`}>{s.value}</span>
+                    <span className="font-sans text-xs sm:text-sm text-primary/60 leading-tight">{s.label}</span>
                 </motion.div>
             ))}
         </div>
@@ -81,9 +81,9 @@ const StatsAnim = () => {
 
 // Animatie: GEO vs SEO vergelijking
 const GeoVsSeoAnim = () => (
-    <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex items-center justify-center p-6 overflow-hidden">
-        <div className="w-full flex flex-col gap-4">
-            <div className="grid grid-cols-2 gap-3">
+    <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex items-center justify-center p-3 sm:p-6 overflow-hidden">
+        <div className="w-full flex flex-col gap-3">
+            <div className="grid grid-cols-2 gap-2 sm:gap-3">
                 {/* SEO kolom */}
                 <div className="bg-white rounded-xl p-4 border border-primary/10">
                     <div className="font-mono text-xs uppercase tracking-widest text-primary/40 mb-3">Traditioneel zoeken (SEO)</div>
@@ -131,7 +131,7 @@ const FasenAnim = () => {
         { nr: '03', title: 'GEO Monitoring', desc: 'Meten welke AI-modellen je citeren. Bijsturen. Maandelijkse rapportage.' },
     ];
     return (
-        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-4 p-6">
+        <div className="w-full h-full bg-white border border-primary/10 rounded-[2rem] flex flex-col justify-center gap-3 sm:gap-4 p-4 sm:p-6">
             {fasen.map((f, i) => (
                 <motion.div
                     key={i}
@@ -139,12 +139,12 @@ const FasenAnim = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.2 }}
-                    className="flex gap-4 items-start bg-white rounded-xl p-4 border border-primary/10"
+                    className="flex gap-3 items-start bg-white rounded-xl p-3 sm:p-4 border border-primary/10"
                 >
-                    <span className="font-mono text-xs text-background bg-primary px-2 py-1 rounded-full shrink-0">{f.nr}</span>
+                    <span className="font-mono text-xs text-background bg-primary px-2 py-0.5 rounded-full shrink-0 mt-0.5">{f.nr}</span>
                     <div>
-                        <div className="font-sans font-bold text-sm text-primary mb-1">{f.title}</div>
-                        <div className="font-sans text-xs text-primary/60 leading-relaxed">{f.desc}</div>
+                        <div className="font-sans font-bold text-xs sm:text-sm text-primary mb-0.5">{f.title}</div>
+                        <div className="font-sans text-[10px] sm:text-xs text-primary/60 leading-snug">{f.desc}</div>
                     </div>
                 </motion.div>
             ))}
@@ -203,7 +203,7 @@ export default function GeoPage() {
                             Aanbevolen worden<br />door AI.
                         </h1>
                         <p className="font-sans text-primary/70 text-lg md:text-xl max-w-lg leading-relaxed font-medium mb-8">
-                            Steeds meer mensen stellen hun vragen aan ChatGPT, Gemini of Claude in plaats van aan Google. GEO zorgt ervoor dat jouw bedrijf ook daar wordt aanbevolen.
+                            ChatGPT, Gemini, Perplexity. Mensen stellen hun vragen steeds vaker aan AI in plaats van aan Google. GEO zorgt dat jij daar als antwoord naar voren komt.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/contact" className="btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
@@ -211,7 +211,7 @@ export default function GeoPage() {
                             </Link>
                         </div>
                     </div>
-                    <div className="flex-1 h-[320px] lg:h-[380px]">
+                    <div className="flex-1 w-full h-[280px] sm:h-[320px] lg:h-[380px]">
                         <AIChatAnim />
                     </div>
                 </div>
@@ -222,12 +222,12 @@ export default function GeoPage() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-24">
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">01 — Wat is GEO?</span>
-                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">De spelregels zijn veranderd</h2>
+                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Googlen is niet meer genoeg.</h2>
                         <p className="font-sans text-primary/70 text-lg leading-relaxed mb-6">
-                            GEO staat voor <strong className="text-primary">Generative Engine Optimization</strong>. Je optimaliseert je content zodat AI-modellen jouw website citeren als bron. Terwijl traditionele SEO draait om hoog scoren in Google, draait GEO om aanbevolen worden door AI.
+                            <strong className="text-primary">GEO</strong> staat voor Generative Engine Optimization. Je optimaliseert jouw content zodat AI-modellen jou citeren als bron. Niet gevonden worden. Aanbevolen worden.
                         </p>
                         <p className="font-sans text-primary/70 text-lg leading-relaxed mb-8">
-                            Bij GEO word je niet gevonden, je wordt <strong className="text-primary">aanbevolen</strong>. Dat verschil is groot. ChatGPT heeft meer dan 300 miljoen actieve gebruikers. Google AI Overviews verschijnt al bij meer dan de helft van alle zoekopdrachten.
+                            ChatGPT heeft meer dan 300 miljoen actieve gebruikers. Google AI Overviews verschijnt al bij meer dan de helft van alle zoekopdrachten. Jouw klant zoekt anders. Jij moet anders zichtbaar zijn.
                         </p>
                         <div className="bg-accent/10 border-l-4 border-accent rounded-r-xl p-5">
                             <p className="font-sans text-primary font-medium italic">
@@ -235,7 +235,7 @@ export default function GeoPage() {
                             </p>
                         </div>
                     </div>
-                    <div className="flex-1 w-full h-[340px]">
+                    <div className="flex-1 w-full h-[280px] sm:h-[320px] lg:h-[340px]">
                         <GeoVsSeoAnim />
                     </div>
                 </div>
@@ -246,13 +246,13 @@ export default function GeoPage() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">02 — Data & feiten</span>
-                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Onderbouwd door cijfers</h2>
+                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">De cijfers spreken.</h2>
                         <div className="flex flex-col gap-5">
                             {[
-                                { icon: <BarChart2 className="w-5 h-5" />, claim: '44% van AI-citaties komt uit blogs', detail: 'SparkToro, jan 2026: blogartikelen zijn veruit de meest geciteerde bron door AI-modellen.' },
-                                { icon: <TrendingUp className="w-5 h-5" />, claim: 'GEO-bezoekers converteren 4 tot 5 keer beter', detail: 'The Washington Post: AI-traffic converteert significant beter dan gewoon zoekverkeer.' },
-                                { icon: <Zap className="w-5 h-5" />, claim: 'AI-traffic groeit elke maand', detail: 'ChatGPT, Gemini en Perplexity groeiden explosief in 2025–2026 en blijven groeien.' },
-                                { icon: <Users className="w-5 h-5" />, claim: 'GEO focust op structuur, niet op linkbuilding', detail: 'WordStream, Contentful en SEO.com bevestigen dit als de kern van GEO.' },
+                                { icon: <BarChart2 className="w-5 h-5" />, claim: '44% van AI-citaties komt uit blogs.', detail: 'SparkToro, jan 2026: blogartikelen zijn veruit de meest geciteerde bron door AI-modellen. Content is de kern van GEO.' },
+                                { icon: <TrendingUp className="w-5 h-5" />, claim: 'GEO-bezoekers converteren 4 tot 5 keer beter.', detail: 'The Washington Post: AI-traffic converteert significant beter dan gewoon zoekverkeer. De ROI is gewoon hoger.' },
+                                { icon: <Zap className="w-5 h-5" />, claim: 'AI-traffic groeit elke maand.', detail: 'ChatGPT, Gemini en Perplexity groeien explosief. Wie nu zichtbaar is in AI, groeit mee.' },
+                                { icon: <Users className="w-5 h-5" />, claim: 'Structuur wint. Niet linkbuilding.', detail: 'WordStream, Contentful en SEO.com bevestigen dit. GEO draait om heldere, gestructureerde content die AI snapt.' },
                             ].map((item, i) => (
                                 <motion.div
                                     key={i}
@@ -273,7 +273,7 @@ export default function GeoPage() {
                             ))}
                         </div>
                     </div>
-                    <div className="flex-1 w-full h-[320px]">
+                    <div className="flex-1 w-full h-[240px] sm:h-[290px] lg:h-[320px]">
                         <StatsAnim />
                     </div>
                 </div>
@@ -290,10 +290,10 @@ export default function GeoPage() {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {[
-                            { nr: '01', title: 'Eerst mover, eerste kans', desc: 'AI-modellen leren van content die al online staat. Wie nu goede blogs schrijft, wordt eerder geciteerd dan concurrenten die later instappen. Die achterstand is moeilijk in te halen.' },
-                            { nr: '02', title: 'SEO alleen is niet meer genoeg', desc: 'Click-through rates dalen structureel. AI beantwoordt de vraag al op de zoekresultatenpagina. GEO vult dit gat op door zichtbaar te zijn in het AI-antwoord zelf.' },
-                            { nr: '03', title: 'Je klant zoekt anders', desc: 'In plaats van korte zoekwoorden typen mensen nu volledige vragen aan AI. GEO optimaliseert precies hierop, terwijl traditionele SEO dit mist.' },
-                            { nr: '04', title: 'ROI is gewoon beter', desc: 'GEO-bezoekers converteren 4 tot 5 keer beter dan gewoon zoekverkeer. Je investering in goede blogcontent verdient zichzelf terug via hogere conversieratio\'s.' },
+                            { nr: '01', title: 'Wie nu begint, heeft straks een voorsprong.', desc: 'AI-modellen leren van content die al online staat. Wie nu goede blogs schrijft, wordt eerder geciteerd. Die achterstand is moeilijk in te halen.' },
+                            { nr: '02', title: 'SEO alleen is niet meer genoeg.', desc: 'Click-through rates dalen structureel. AI beantwoordt de vraag al op de zoekresultatenpagina. GEO zorgt dat jij zichtbaar bent in het antwoord zelf.' },
+                            { nr: '03', title: 'Jouw klant zoekt anders.', desc: 'In plaats van korte zoekwoorden stellen mensen nu volledige vragen aan AI. GEO is gebouwd op precies dat. Traditionele SEO mist dit.' },
+                            { nr: '04', title: 'De ROI is gewoon hoger.', desc: 'GEO-bezoekers converteren 4 tot 5 keer beter dan gewoon zoekverkeer. Goede blogcontent verdient zichzelf terug via hogere conversies.' },
                         ].map((item, i) => (
                             <motion.div
                                 key={i}
@@ -317,9 +317,9 @@ export default function GeoPage() {
                 <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">04 — Onze aanpak</span>
-                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Zo pakken wij het aan</h2>
+                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">Zo bouw je GEO. Stap voor stap.</h2>
                         <p className="font-sans text-primary/70 text-lg leading-relaxed mb-8">
-                            Geen losse tips. Geen vage beloftes. We bouwen een aanpak die je vindbaar maakt in Google én in de AI-tools die jouw klanten dagelijks gebruiken. SEO is de fundering, GEO is de amplificatie.
+                            Geen losse tips. Geen vage beloftes. We bouwen een aanpak die jou vindbaar maakt in Google én zichtbaar in de AI-tools die jouw klanten dagelijks gebruiken.
                         </p>
                         <div className="flex flex-col gap-3">
                             {[
@@ -335,7 +335,7 @@ export default function GeoPage() {
                             ))}
                         </div>
                     </div>
-                    <div className="flex-1 w-full h-[380px]">
+                    <div className="flex-1 w-full h-[300px] sm:h-[340px] lg:h-[380px]">
                         <FasenAnim />
                     </div>
                 </div>
@@ -348,9 +348,9 @@ export default function GeoPage() {
                     <div className="bg-white rounded-[2rem] border border-primary/10 shadow-[0_8px_40px_rgb(0,0,0,0.06)] p-8 sm:p-12 flex flex-col md:flex-row items-center gap-8 mb-8">
                         <div className="flex-1">
                             <span className="font-mono text-xs uppercase tracking-widest text-accent mb-3 block">Gratis rapport</span>
-                            <h3 className="font-sans font-bold text-2xl text-primary mb-3">De toekomst van online gevonden worden</h3>
+                            <h3 className="font-sans font-bold text-2xl text-primary mb-3">Alles over GEO. In één rapport.</h3>
                             <p className="font-sans text-primary/60 text-sm leading-relaxed mb-6">
-                                Download ons volledige GEO-rapport. Met data van SparkToro, WordStream en The Washington Post. Inclusief onze 3-fasen aanpak en concrete stappenplan.
+                                AI zoektools groeien razendsnel. Wij leggen uit hoe je daar nu al van profiteert. Data, strategie en een concreet stappenplan. Gratis te downloaden.
                             </p>
                             <a
                                 href="/GEO-Strategie_Empowers.pdf"
@@ -374,7 +374,7 @@ export default function GeoPage() {
                         <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
                         <h3 className="relative z-10 font-drama italic text-background text-3xl sm:text-4xl md:text-5xl mb-4">Klaar voor de volgende stap?</h3>
                         <p className="relative z-10 font-sans text-background/70 mb-8 max-w-md mx-auto">
-                            Plan een vrijblijvend gesprek. We kijken samen naar je huidige situatie en laten zien welke GEO-kansen er voor jouw bedrijf liggen.
+                            Plan een gesprek. We kijken samen naar jouw situatie en laten zien wat GEO voor jouw bedrijf kan betekenen. Zullen we?
                         </p>
                         <Link to="/contact" className="relative z-10 btn-magnetic inline-flex items-center gap-2 bg-accent text-background font-sans font-bold text-base px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
                             Plan een gratis gesprek
