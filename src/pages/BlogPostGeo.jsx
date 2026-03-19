@@ -28,6 +28,7 @@ export default function BlogPost() {
                     "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                     "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                     "datePublished": "2026-02-01",
+                    "dateModified": "2026-02-01",
                     "url": "https://www.empowers.nl/blog/wat-is-geo-generative-engine-optimization"
                 })}</script>
             </Helmet>

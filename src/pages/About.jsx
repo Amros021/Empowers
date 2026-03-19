@@ -83,10 +83,10 @@ export default function About() {
         <main ref={mainRef} className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
                 <title>Over Ons – Marketing Bureau Nederland | Empowers</title>
-                <meta name="description" content="Leer het team achter Empowers kennen. Wij zijn een performance marketing bureau dat MKB-bedrijven helpt groeien via Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO en GEO." />
+                <meta name="description" content="Leer het team achter Empowers kennen. Wij zijn een marketing bureau dat MKB-bedrijven helpt groeien via Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO en GEO." />
                 <link rel="canonical" href="https://www.empowers.nl/over-ons" />
                 <meta property="og:title" content="Over Ons – Marketing Bureau Nederland | Empowers" />
-                <meta property="og:description" content="Leer het team achter Empowers kennen. Wij zijn een performance marketing bureau dat MKB-bedrijven helpt groeien via Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO en GEO." />
+                <meta property="og:description" content="Leer het team achter Empowers kennen. Wij zijn een marketing bureau dat MKB-bedrijven helpt groeien via Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO en GEO." />
                 <meta property="og:url" content="https://www.empowers.nl/over-ons" />
                 <meta property="og:type" content="website" />
                 <script type="application/ld+json">{JSON.stringify({
