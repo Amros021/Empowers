@@ -29,13 +29,13 @@ export default function Footer() {
                     <div>
                         <h4 className="font-mono text-xs tracking-widest text-background/40 uppercase mb-6">Expertise</h4>
                         <ul className="space-y-4 font-sans text-base text-background/90 font-medium">
-                            <li className="cursor-default">Meta Ads</li>
-                            <li className="cursor-default">Google Ads</li>
-                            <li className="cursor-default">LinkedIn Ads</li>
-                            <li className="cursor-default">TikTok Ads</li>
-                            <li className="cursor-default">SEO</li>
-                            <li className="cursor-default">GEO</li>
-                            <li className="cursor-default">Landingspagina Optimalisatie</li>
+                            <li><Link to="/meta-ads" className="hover:text-accent transition-colors">Meta Ads</Link></li>
+                            <li><Link to="/google-ads" className="hover:text-accent transition-colors">Google Ads</Link></li>
+                            <li><Link to="/linkedin-ads" className="hover:text-accent transition-colors">LinkedIn Ads</Link></li>
+                            <li><Link to="/tiktok-ads" className="hover:text-accent transition-colors">TikTok Ads</Link></li>
+                            <li><Link to="/seo" className="hover:text-accent transition-colors">SEO</Link></li>
+                            <li><Link to="/geo" className="hover:text-accent transition-colors">GEO</Link></li>
+                            <li><Link to="/landingspagina" className="hover:text-accent transition-colors">Landingspagina Optimalisatie</Link></li>
                         </ul>
                     </div>
                     <div>
