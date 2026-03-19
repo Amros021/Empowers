@@ -42,12 +42,12 @@ function App() {
             "url": "https://www.empowers.nl",
             "logo": "https://www.empowers.nl/empowers-logo-color.svg",
             "email": "info@empowers.nl",
-            "description": "Empowers is een online marketingbureau gespecialiseerd in Google Ads, Meta Ads, SEO en GEO voor MKB-bedrijven en webshops in heel Nederland.",
+            "description": "Empowers is een online marketingbureau gespecialiseerd in Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO en GEO voor MKB-bedrijven en webshops in heel Nederland.",
             "areaServed": {
               "@type": "Country",
               "name": "Nederland"
             },
-            "knowsAbout": ["Google Ads", "Meta Ads", "SEO", "GEO", "Generative Engine Optimization", "Online Marketing"]
+            "knowsAbout": ["Google Ads", "Meta Ads", "LinkedIn Ads", "TikTok Ads", "SEO", "GEO", "Generative Engine Optimization", "Online Marketing", "Performance Marketing"]
           }`}
         </script>
         <script type="application/ld+json">
@@ -67,6 +67,8 @@ function App() {
         </script>
         <meta property="og:site_name" content="Empowers" />
         <meta property="og:locale" content="nl_NL" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@empowersnl" />
       </Helmet>
       <Routes>
         <Route path="/" element={<Home />} />
