@@ -25,7 +25,7 @@ function DiagnosticShuffler() {
     return (
         <div className="bg-background rounded-[2rem] p-6 sm:p-8 shadow-sm border border-primary/10 flex flex-col h-full min-h-[350px] lg:min-h-[400px]">
             <div className="mb-12">
-                <h3 className="font-sans font-bold text-2xl mb-2 text-dark">Persoonlijk Contact</h3>
+                <h2 className="font-sans font-bold text-2xl mb-2 text-dark">Persoonlijk Contact</h2>
                 <p className="font-sans text-primary/70 text-sm">Geen tussenpersonen. Jij praat altijd rechtstreeks met de expert die aan jouw campagnes werkt.</p>
             </div>
 
@@ -81,7 +81,7 @@ function TelemetryTypewriter() {
         <div className="bg-dark rounded-[2rem] p-6 sm:p-8 shadow-xl border border-white/5 flex flex-col h-full min-h-[350px] lg:min-h-[400px]">
             <div className="flex justify-between items-start mb-8">
                 <div>
-                    <h3 className="font-sans font-bold text-2xl mb-2 text-background">Volledige expertise</h3>
+                    <h2 className="font-sans font-bold text-2xl mb-2 text-background">Volledige expertise</h2>
                     <p className="font-sans text-background/60 text-sm">Google Ads, Meta ads, TikTok ads, Pinterest ads, SEO en GEO.<br />Alles bij één specialist.</p>
                 </div>
                 <div className="flex items-center gap-2 px-3 py-1 bg-white/5 rounded-full">
@@ -148,7 +148,7 @@ function CursorProtocolScheduler() {
     return (
         <div ref={containerRef} className="bg-background rounded-[2rem] p-6 sm:p-8 shadow-sm border border-primary/10 flex flex-col h-full min-h-[350px] lg:min-h-[400px] overflow-hidden relative">
             <div className="mb-8 z-10 relative">
-                <h3 className="font-sans font-bold text-2xl mb-2 text-dark">Conversie First</h3>
+                <h2 className="font-sans font-bold text-2xl mb-2 text-dark">Conversie First</h2>
                 <p className="font-sans text-primary/70 text-sm">Zichtbaarheid is een begin. Omzet is het doel.<br />Wij optimaliseren elke stap van de customer journey.</p>
             </div>
 
