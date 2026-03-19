@@ -504,25 +504,29 @@ const dienstenData = [
         title: "Google Ads",
         description: "Jouw bedrijf bovenaan Google, precies op het moment dat iemand zoekt wat jij aanbiedt. Wij beheren jouw campagnes van A tot Z en sturen bij op basis van data, niet op gevoel.",
         AnimComponent: GoogleAdsAnim,
-        reversed: false
+        reversed: false,
+        learnMoreLink: '/google-ads'
     },
     {
         title: "Meta Ads",
         description: <>Facebook en Instagram zijn de krachtigste platformen<br />om jouw ideale klant te bereiken. Wij bouwen campagnes<br />die niet alleen gezien worden, maar ook converteren.</>,
         AnimComponent: MetaAdsAnim,
-        reversed: true
+        reversed: true,
+        learnMoreLink: '/meta-ads'
     },
     {
         title: "LinkedIn Ads",
         description: "LinkedIn is het krachtigste platform voor B2B marketing. Bereik directeuren, managers en beslissers op het moment dat ze professioneel actief zijn. Wij bouwen campagnes die échte business leads opleveren.",
         AnimComponent: LinkedInAdsAnim,
-        reversed: false
+        reversed: false,
+        learnMoreLink: '/linkedin-ads'
     },
     {
         title: "TikTok Ads",
         description: "TikTok is niet alleen voor jongeren. Het is een van de snelst groeiende advertentieplatformen ter wereld, met lage kosten per klik en een enorm bereik. Wij zetten jouw merk in motion.",
         AnimComponent: TikTokAdsAnim,
-        reversed: true
+        reversed: true,
+        learnMoreLink: '/tiktok-ads'
     },
     {
         title: <>SEO <span className="block font-mono text-sm uppercase tracking-widest text-primary/40 mt-1 font-normal">Search Engine Optimization</span></>,
@@ -542,7 +546,8 @@ const dienstenData = [
         title: "Landingspagina Optimalisatie",
         description: "Een advertentie is zo goed als de pagina waar hij naartoe leidt. Wij analyseren jouw landingspagina's en geven concrete verbeteringen die direct meer bezoekers omzetten in klanten.",
         AnimComponent: LandingPageAnim,
-        reversed: false
+        reversed: false,
+        learnMoreLink: '/landingspagina'
     }
 ];
 
@@ -674,7 +679,7 @@ export default function Diensten() {
                                             <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
                                         </Link>
                                         {learnMoreLink && (
-                                            <Link to={learnMoreLink} className="group font-mono text-sm uppercase tracking-widest text-primary/40 flex items-center gap-2 hover:text-primary transition-colors">
+                                            <Link to={learnMoreLink} className="group inline-flex items-center gap-2 border border-primary/20 text-primary font-mono text-sm uppercase tracking-widest px-5 py-2.5 rounded-full hover:bg-primary hover:text-background transition-all duration-200">
                                                 Meer informatie
                                                 <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
                                             </Link>
