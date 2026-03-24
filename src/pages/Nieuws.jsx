@@ -153,7 +153,7 @@ export default function Nieuws() {
                     </div>
                     <div className="flex-1 lg:pb-2">
                         <p className="hero-sub font-sans text-primary/70 text-base sm:text-lg md:text-xl max-w-lg leading-relaxed">
-                            De nieuwste strategieën in digitale marketing — van advertentietrends tot de evolutie van AI-zoekmachines.
+                            Praktische artikelen over online marketing. Geen hypes, wel inzichten die je direct kunt gebruiken.
                         </p>
                     </div>
                 </div>

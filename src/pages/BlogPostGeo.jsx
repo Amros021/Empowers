@@ -31,6 +31,16 @@ export default function BlogPost() {
                     "dateModified": "2026-02-01",
                     "url": "https://www.empowers.nl/blogs/geo/wat-is-geo-generative-engine-optimization"
                 })}</script>
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
+                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
+                        { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
+                        { "@type": "ListItem", "position": 4, "name": "Artikel", "item": "https://www.empowers.nl/blogs/geo/wat-is-geo-generative-engine-optimization" }
+                    ]
+                })}</script>
             </Helmet>
             <Navbar />
 

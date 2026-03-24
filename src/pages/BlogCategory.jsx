@@ -101,6 +101,15 @@ export default function BlogCategory() {
                         "url": "https://www.empowers.nl"
                     }
                 })}</script>
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
+                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
+                        { "@type": "ListItem", "position": 3, "name": config.name, "item": canonicalUrl }
+                    ]
+                })}</script>
             </Helmet>
 
             <Navbar />

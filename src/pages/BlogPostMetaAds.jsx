@@ -31,6 +31,16 @@ export default function BlogPostMetaAds() {
                     "dateModified": "2026-02-15",
                     "url": "https://www.empowers.nl/blogs/social-ads/waarom-meta-ads-niet-converteren"
                 })}</script>
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
+                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
+                        { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
+                        { "@type": "ListItem", "position": 4, "name": "Artikel", "item": "https://www.empowers.nl/blogs/social-ads/waarom-meta-ads-niet-converteren" }
+                    ]
+                })}</script>
             </Helmet>
             <Navbar />
 

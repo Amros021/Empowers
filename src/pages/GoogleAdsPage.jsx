@@ -357,6 +357,20 @@ export default function GoogleAdsPage() {
                 </div>
             </section>
 
+
+            {/* Verder lezen — interne link naar blogcategorie */}
+            <section className="w-full px-6 pb-10">
+                <div className="max-w-5xl mx-auto border-t border-primary/10 pt-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                    <div>
+                        <p className="font-mono text-xs uppercase tracking-widest text-primary/40 mb-1">Verder lezen</p>
+                        <p className="font-sans text-primary font-semibold">Praktische Google Ads-artikelen voor bedrijven</p>
+                    </div>
+                    <Link to="/blogs/google-ads" className="flex items-center gap-2 text-accent font-sans font-semibold text-sm hover:gap-3 transition-all whitespace-nowrap flex-shrink-0">
+                        Alle Google Ads-artikelen <ArrowRight className="w-4 h-4" />
+                    </Link>
+                </div>
+            </section>
+
             <Footer />
         </main>
     );
