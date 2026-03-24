@@ -8,4 +8,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  build: {
+    // Schakel automatisch leegmaken uit — .DS_Store op macOS-volumes geeft EPERM
+    // Handmatige cleanup (zonder .DS_Store) wordt gedaan via clean-dist.mjs
+    emptyOutDir: false,
+  },
 })
