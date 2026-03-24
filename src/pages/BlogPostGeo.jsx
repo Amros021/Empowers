@@ -15,10 +15,10 @@ export default function BlogPost() {
             <Helmet>
                 <title>Wat is Generative Engine Optimization (GEO)? | Empowers</title>
                 <meta name="description" content="GEO is de opvolger van SEO voor het AI-tijdperk. Leer wat Generative Engine Optimization is, hoe het werkt in ChatGPT, Perplexity & Google SGE, en hoe jij zichtbaar wordt." />
-                <link rel="canonical" href="https://www.empowers.nl/blog/wat-is-geo-generative-engine-optimization" />
+                <link rel="canonical" href="https://www.empowers.nl/blogs/geo/wat-is-geo-generative-engine-optimization" />
                 <meta property="og:title" content="Wat is Generative Engine Optimization (GEO)? | Empowers" />
                 <meta property="og:description" content="GEO is de opvolger van SEO voor het AI-tijdperk. Leer wat Generative Engine Optimization is, hoe het werkt in ChatGPT, Perplexity & Google SGE, en hoe jij zichtbaar wordt." />
-                <meta property="og:url" content="https://www.empowers.nl/blog/wat-is-geo-generative-engine-optimization" />
+                <meta property="og:url" content="https://www.empowers.nl/blogs/geo/wat-is-geo-generative-engine-optimization" />
                 <meta property="og:type" content="article" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
@@ -29,7 +29,7 @@ export default function BlogPost() {
                     "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                     "datePublished": "2026-02-01",
                     "dateModified": "2026-02-01",
-                    "url": "https://www.empowers.nl/blog/wat-is-geo-generative-engine-optimization"
+                    "url": "https://www.empowers.nl/blogs/geo/wat-is-geo-generative-engine-optimization"
                 })}</script>
             </Helmet>
             <Navbar />

@@ -15,10 +15,10 @@ export default function BlogPostTikTokAds() {
             <Helmet>
                 <title>TikTok Ads voor Bedrijven: Is het Iets voor Jou? | Empowers</title>
                 <meta name="description" content="Lees of TikTok Ads passen bij jouw bedrijf, wat de kosten zijn en hoe je een succesvolle eerste campagne opzet om nieuwe klanten te bereiken." />
-                <link rel="canonical" href="https://www.empowers.nl/blog/tiktok-ads-voor-bedrijven" />
+                <link rel="canonical" href="https://www.empowers.nl/blogs/social-ads/tiktok-ads-voor-bedrijven" />
                 <meta property="og:title" content="TikTok Ads voor Bedrijven: Is het Iets voor Jou? | Empowers" />
                 <meta property="og:description" content="Lees of TikTok Ads passen bij jouw bedrijf, wat de kosten zijn en hoe je een succesvolle eerste campagne opzet om nieuwe klanten te bereiken." />
-                <meta property="og:url" content="https://www.empowers.nl/blog/tiktok-ads-voor-bedrijven" />
+                <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/tiktok-ads-voor-bedrijven" />
                 <meta property="og:type" content="article" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
@@ -29,7 +29,7 @@ export default function BlogPostTikTokAds() {
                     "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                     "datePublished": "2026-02-15",
                     "dateModified": "2026-02-15",
-                    "url": "https://www.empowers.nl/blog/tiktok-ads-voor-bedrijven"
+                    "url": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-voor-bedrijven"
                 })}</script>
             </Helmet>
             <Navbar />

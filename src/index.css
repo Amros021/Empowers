@@ -37,6 +37,15 @@
     z-index: 50;
     opacity: 0.05;
   }
+
+  /* Hide scrollbar but keep scroll functionality */
+  .no-scrollbar {
+    -ms-overflow-style: none;   /* IE/Edge */
+    scrollbar-width: none;      /* Firefox */
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;              /* Chrome/Safari/Opera */
+  }
 }
 
 /* Base interactive transitions */

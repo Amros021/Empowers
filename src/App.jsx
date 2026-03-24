@@ -77,10 +77,19 @@ function App() {
         <Route path="/diensten" element={<Diensten />} />
         <Route path="/over-ons" element={<About />} />
         <Route path="/nieuws" element={<Nieuws />} />
+        {/* Old blog routes - kept for backwards compatibility */}
         <Route path="/blog/wat-is-geo-generative-engine-optimization" element={<BlogPostGeo />} />
         <Route path="/blog/waarom-meta-ads-niet-converteren" element={<BlogPostMetaAds />} />
         <Route path="/blog/tiktok-ads-voor-bedrijven" element={<BlogPostTikTokAds />} />
         <Route path="/blog/marketing-tracking-conversies-meten" element={<BlogPostTracking />} />
+        {/* New category-based blog routes (7 categorieën) */}
+        <Route path="/blogs/geo/wat-is-geo-generative-engine-optimization" element={<BlogPostGeo />} />
+        <Route path="/blogs/social-ads/waarom-meta-ads-niet-converteren" element={<BlogPostMetaAds />} />
+        <Route path="/blogs/social-ads/tiktok-ads-voor-bedrijven" element={<BlogPostTikTokAds />} />
+        <Route path="/blogs/tracking/marketing-tracking-conversies-meten" element={<BlogPostTracking />} />
+        {/* Oude routes — backwards compatibility */}
+        <Route path="/blogs/meta-ads/waarom-meta-ads-niet-converteren" element={<BlogPostMetaAds />} />
+        <Route path="/blogs/tiktok-ads/tiktok-ads-voor-bedrijven" element={<BlogPostTikTokAds />} />
         <Route path="/geo" element={<GeoPage />} />
         <Route path="/seo" element={<SeoPage />} />
         <Route path="/google-ads" element={<GoogleAdsPage />} />

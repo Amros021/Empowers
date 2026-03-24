@@ -15,10 +15,10 @@ export default function BlogPostTracking() {
             <Helmet>
                 <title>Marketing Tracking: Zo Meet Je Conversies Correct | Empowers</title>
                 <meta name="description" content="Leer hoe je marketing tracking correct instelt om conversies nauwkeurig te meten. Van GA4 tot Meta Pixel en TikTok Pixel — zo maak je data-gedreven beslissingen." />
-                <link rel="canonical" href="https://www.empowers.nl/blog/marketing-tracking-conversies-meten" />
+                <link rel="canonical" href="https://www.empowers.nl/blogs/tracking/marketing-tracking-conversies-meten" />
                 <meta property="og:title" content="Marketing Tracking: Zo Meet Je Conversies Correct | Empowers" />
                 <meta property="og:description" content="Leer hoe je marketing tracking correct instelt om conversies nauwkeurig te meten. Van GA4 tot Meta Pixel en TikTok Pixel — zo maak je data-gedreven beslissingen." />
-                <meta property="og:url" content="https://www.empowers.nl/blog/marketing-tracking-conversies-meten" />
+                <meta property="og:url" content="https://www.empowers.nl/blogs/tracking/marketing-tracking-conversies-meten" />
                 <meta property="og:type" content="article" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
@@ -29,7 +29,7 @@ export default function BlogPostTracking() {
                     "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                     "datePublished": "2026-02-15",
                     "dateModified": "2026-02-15",
-                    "url": "https://www.empowers.nl/blog/marketing-tracking-conversies-meten"
+                    "url": "https://www.empowers.nl/blogs/tracking/marketing-tracking-conversies-meten"
                 })}</script>
             </Helmet>
             <Navbar />

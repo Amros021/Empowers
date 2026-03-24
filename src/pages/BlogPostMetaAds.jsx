@@ -15,10 +15,10 @@ export default function BlogPostMetaAds() {
             <Helmet>
                 <title>Waarom Je Meta Ads Niet Converteren | Empowers</title>
                 <meta name="description" content="Slechte resultaten met Meta Ads? Ontdek de meest gemaakte fouten en hoe je ze direct oplost. Van doelgroepen en creatives tot budget en pixel-tracking." />
-                <link rel="canonical" href="https://www.empowers.nl/blog/waarom-meta-ads-niet-converteren" />
+                <link rel="canonical" href="https://www.empowers.nl/blogs/social-ads/waarom-meta-ads-niet-converteren" />
                 <meta property="og:title" content="Waarom Je Meta Ads Niet Converteren | Empowers" />
                 <meta property="og:description" content="Slechte resultaten met Meta Ads? Ontdek de meest gemaakte fouten en hoe je ze direct oplost. Van doelgroepen en creatives tot budget en pixel-tracking." />
-                <meta property="og:url" content="https://www.empowers.nl/blog/waarom-meta-ads-niet-converteren" />
+                <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/waarom-meta-ads-niet-converteren" />
                 <meta property="og:type" content="article" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
@@ -29,7 +29,7 @@ export default function BlogPostMetaAds() {
                     "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                     "datePublished": "2026-02-15",
                     "dateModified": "2026-02-15",
-                    "url": "https://www.empowers.nl/blog/waarom-meta-ads-niet-converteren"
+                    "url": "https://www.empowers.nl/blogs/social-ads/waarom-meta-ads-niet-converteren"
                 })}</script>
             </Helmet>
             <Navbar />
