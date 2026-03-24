@@ -201,7 +201,34 @@ export default function Nieuws() {
                 TOPBAR
             ══════════════════════════════════ */}
             <section className="w-full px-4 sm:px-6 pb-5 sm:pb-6">
-                <div className="max-w-7xl mx-auto flex items-center gap-2 sm:gap-5 border-b border-primary/10 pb-4 sm:pb-5">
+                <div className="max-w-7xl mx-auto relative border-b border-primary/10 pb-4 sm:pb-5">
+
+                    {/* Mobile zoek-overlay — bedekt volledige filterbalk */}
+                    {searchOpen && (
+                        <div className="sm:hidden flex items-center gap-2 w-full">
+                            <div className="flex-1 flex items-center rounded-full border border-primary/20 bg-white overflow-hidden shadow-sm">
+                                <Search className="w-4 h-4 text-primary/30 ml-4 flex-shrink-0" />
+                                <input
+                                    autoFocus
+                                    type="text"
+                                    placeholder="Zoeken..."
+                                    value={searchQuery}
+                                    onChange={e => setSearchQuery(e.target.value)}
+                                    className="flex-1 pl-3 pr-2 py-2.5 font-sans text-primary placeholder:text-primary/30 bg-transparent focus:outline-none"
+                                    style={{ fontSize: '16px' }}
+                                />
+                            </div>
+                            <button
+                                onClick={() => { setSearchOpen(false); setSearchQuery(''); }}
+                                className="flex-shrink-0 w-9 h-9 rounded-full bg-primary/8 flex items-center justify-center hover:bg-primary/15 transition-colors"
+                            >
+                                <X className="w-4 h-4 text-primary/60" />
+                            </button>
+                        </div>
+                    )}
+
+                    {/* Normale filterbalk — verborgen op mobile als zoek open is */}
+                    <div className={`flex items-center gap-2 sm:gap-5 ${searchOpen ? 'hidden sm:flex' : 'flex'}`}>
 
                     {/* Left cluster */}
                     <div className="flex items-center gap-2 sm:gap-4 flex-1 min-w-0">
@@ -263,34 +290,13 @@ export default function Nieuws() {
                     {/* Search */}
                     <div ref={searchRef} className="flex items-center flex-shrink-0">
 
-                        {/* Mobile: icoon dat uitklapt */}
-                        <div className="sm:hidden">
-                            {searchOpen ? (
-                                <div className="flex items-center rounded-full border border-primary/20 bg-white overflow-hidden shadow-sm">
-                                    <input
-                                        autoFocus
-                                        type="text"
-                                        placeholder="Zoeken..."
-                                        value={searchQuery}
-                                        onChange={e => setSearchQuery(e.target.value)}
-                                        className="w-36 pl-4 pr-2 py-2 text-sm font-sans text-primary placeholder:text-primary/30 bg-transparent focus:outline-none"
-                                    />
-                                    <button
-                                        onClick={() => { setSearchOpen(false); setSearchQuery(''); }}
-                                        className="w-8 h-8 m-0.5 rounded-full bg-primary/8 flex items-center justify-center hover:bg-primary/15 transition-colors"
-                                    >
-                                        <X className="w-3.5 h-3.5 text-primary/60" />
-                                    </button>
-                                </div>
-                            ) : (
-                                <button
-                                    onClick={() => setSearchOpen(true)}
-                                    className="w-9 h-9 rounded-full bg-primary flex items-center justify-center hover:bg-accent transition-colors duration-200"
-                                >
-                                    <Search className="w-3.5 h-3.5 text-white" />
-                                </button>
-                            )}
-                        </div>
+                        {/* Mobile: alleen zoekknop (overlay wordt bovenaan getoond) */}
+                        <button
+                            onClick={() => setSearchOpen(true)}
+                            className="sm:hidden w-9 h-9 rounded-full bg-primary flex items-center justify-center hover:bg-accent transition-colors duration-200"
+                        >
+                            <Search className="w-3.5 h-3.5 text-white" />
+                        </button>
 
                         {/* Desktop: altijd zichtbare pill */}
                         <div className="hidden sm:flex items-center rounded-full border border-primary/20 bg-white overflow-hidden shadow-sm w-56 lg:w-72">
@@ -307,6 +313,7 @@ export default function Nieuws() {
                         </div>
                     </div>
 
+                    </div> {/* einde normale filterbalk wrapper */}
                 </div>
             </section>
 
