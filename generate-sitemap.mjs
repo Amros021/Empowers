@@ -49,14 +49,36 @@ function extractArticlesFromFile() {
     const filePath = resolve(__dirname, 'src/data/articles.js');
     const content = readFileSync(filePath, 'utf-8');
 
-    // Haal alle slug + dateTs waarden op via regex
-    const slugMatches = [...content.matchAll(/slug:\s+['"]([^'"]+)['"]/g)];
-    const dateMatches = [...content.matchAll(/dateTs:\s+new Date\(['"]([^'"]+)['"]\)/g)];
+    // Haal alle slug + dateTs + category waarden op via regex
+    const slugMatches    = [...content.matchAll(/slug:\s+['"]([^'"]+)['"]/g)];
+    const dateMatches    = [...content.matchAll(/dateTs:\s+new Date\(['"]([^'"]+)['"]\)/g)];
+    const categoryMatches = [...content.matchAll(/category:\s+['"]([^'"]+)['"]/g)];
 
     return slugMatches.map((m, i) => ({
-        slug: m[1],
-        date: dateMatches[i] ? dateMatches[i][1] : TODAY,
+        slug:     m[1],
+        date:     dateMatches[i]    ? dateMatches[i][1]    : TODAY,
+        category: categoryMatches[i] ? categoryMatches[i][1] : '',
     }));
+}
+
+// Geeft de meest recente artikeldatum terug voor een categorie-slug
+function latestDateForCategory(articles, catSlug) {
+    const CAT_SLUG_MAP = {
+        'seo':        'SEO',
+        'geo':        'GEO',
+        'google-ads': 'Google Ads',
+        'social-ads': 'Social Ads',
+        'tracking':   'Tracking',
+        'strategie':  'Strategie',
+        'algemeen':   'Algemeen',
+    };
+    const catName = CAT_SLUG_MAP[catSlug];
+    const matching = articles
+        .filter(a => a.category === catName)
+        .map(a => a.date.split('T')[0])
+        .sort()
+        .reverse();
+    return matching[0] || TODAY;
 }
 
 // ─── 4. GENEREER XML ────────────────────────────────────────────────────────
@@ -84,7 +106,7 @@ const urlBlocks = [
 
     `\n  <!-- BLOG CATEGORIE PAGINA'S -->`,
     ...BLOG_CATEGORIES.map(cat =>
-        buildUrl(`${BASE_URL}/blogs/${cat}`, TODAY, 'weekly', '0.8')
+        buildUrl(`${BASE_URL}/blogs/${cat}`, latestDateForCategory(articles, cat), 'weekly', '0.8')
     ),
 
     `\n  <!-- BLOG ARTIKELEN -->`,
