@@ -6,55 +6,55 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import articles from '../data/articles';
 
-// Categorie configuratie — slug → display naam, beschrijving, SEO
+// Categorie configuratie - slug naar display naam, beschrijving, SEO
 const CATEGORY_CONFIG = {
     'seo': {
         name: 'SEO',
-        title: 'SEO voor MKB: tips, uitleg en strategie',
-        description: 'Alles over zoekmachineoptimalisatie voor MKB-bedrijven. Van technische SEO tot content en linkbuilding — zo word je beter gevonden in Google.',
-        metaDescription: 'Alles over SEO voor MKB-bedrijven. Lees praktische tips over zoekmachineoptimalisatie, technische SEO, lokale SEO en hoe je hoger rankt in Google.',
+        title: 'SEO voor bedrijven: tips, uitleg en strategie',
+        description: 'Alles over zoekmachineoptimalisatie voor bedrijven. Van technische SEO tot content en linkbuilding.',
+        metaDescription: 'Praktische tips over SEO voor bedrijven. Van technische SEO en lokale SEO tot linkbuilding en hoe je hoger rankt in Google.',
         color: 'bg-blue-50 text-blue-700',
     },
     'geo': {
         name: 'GEO',
         title: 'GEO: zichtbaar zijn in ChatGPT, Perplexity en Google AI',
-        description: 'Generative Engine Optimization is de nieuwe SEO. Zo zorg je dat AI-modellen jouw bedrijf aanbevelen als mensen om een specialist vragen.',
+        description: 'GEO is de nieuwe SEO. Zo zorg je dat ChatGPT, Perplexity en Google AI jouw bedrijf aanbevelen.',
         metaDescription: 'Alles over GEO (Generative Engine Optimization). Lees hoe je zichtbaar wordt in ChatGPT, Perplexity en Google AI Overviews.',
         color: 'bg-purple-50 text-purple-700',
     },
     'google-ads': {
         name: 'Google Ads',
-        title: 'Google Ads: campagnes die rendement opleveren',
-        description: 'Van zoekadvertenties tot Performance Max — alles wat je moet weten over Google Ads voor MKB. Kosten, instellingen en fouten die je budget verspillen.',
-        metaDescription: 'Alles over Google Ads voor MKB. Lees tips over campagne-instellingen, kosten, Smart Bidding en hoe je een ROAS van 3 tot 5 haalt.',
+        title: 'Google Ads: meer rendement uit je advertentiebudget',
+        description: 'Alles over Google Ads voor bedrijven. Van campagne-instellingen tot Smart Bidding, zo haal je meer rendement uit je advertentiebudget.',
+        metaDescription: 'Alles over Google Ads voor bedrijven. Tips over campagne-instellingen, Smart Bidding en hoe je meer rendement haalt uit je advertentiebudget.',
         color: 'bg-green-50 text-green-700',
     },
     'social-ads': {
         name: 'Social Ads',
         title: 'Social Ads: adverteren op Meta, TikTok en LinkedIn',
         description: 'Meta Ads, TikTok Ads en LinkedIn Ads voor meer omzet. Leer hoe je sociale advertenties inzet die klikken omzetten naar klanten.',
-        metaDescription: 'Alles over Social Ads: Meta Ads, TikTok Ads en LinkedIn Ads voor MKB. Tips over doelgroepen, creatief en wat je campagnes kosten.',
+        metaDescription: 'Alles over Social Ads: Meta Ads, TikTok Ads en LinkedIn Ads. Tips over doelgroepen, creatief en wat je campagnes kosten.',
         color: 'bg-pink-50 text-pink-700',
     },
     'tracking': {
         name: 'Tracking',
         title: 'Conversietracking: weet wat je marketing oplevert',
-        description: 'Zonder goede tracking weet je niet welke campagnes geld opleveren. Alles over GA4, Meta Pixel, Conversions API en server-side tracking.',
-        metaDescription: 'Alles over conversietracking voor marketeers. Van GA4 tot Meta Pixel en server-side tracking — zo meet je wat je marketing echt oplevert.',
+        description: 'Zonder tracking weet je niet wat werkt. Alles over GA4, Meta Pixel, Conversions API en server-side tracking.',
+        metaDescription: 'Alles over conversietracking voor marketeers. Van GA4 tot Meta Pixel en server-side tracking: zo meet je wat je marketing echt oplevert.',
         color: 'bg-orange-50 text-orange-700',
     },
     'strategie': {
         name: 'Strategie',
-        title: 'Marketingstrategie: zo groei je structureel',
-        description: 'Een goede marketingstrategie kiest de juiste kanalen, verdeelt het budget slim en meet wat werkt. Praktische artikelen voor MKB-ondernemers.',
-        metaDescription: 'Alles over online marketingstrategie voor MKB. Lees hoe je kanalen kiest, budget verdeelt en een strategie bouwt die meetbaar groeit.',
+        title: 'Marketingstrategie: de juiste keuzes maken',
+        description: 'Goede strategie begint met de juiste keuzes. Artikelen over kanalen, budgetverdeling en meten wat werkt.',
+        metaDescription: 'Alles over online marketingstrategie. Lees hoe je kanalen kiest, budget verdeelt en een strategie bouwt die meetbaar groeit.',
         color: 'bg-yellow-50 text-yellow-700',
     },
     'algemeen': {
         name: 'Algemeen',
         title: 'Online marketing voor ondernemers: praktisch en eerlijk',
         description: 'Brede artikelen over online marketing voor ondernemers. Van zelf adverteren of uitbesteden tot hoe je een bureau kiest dat resultaat levert.',
-        metaDescription: 'Praktische online marketing artikelen voor MKB-ondernemers. Eerlijk, zonder jargon, gericht op meer omzet uit je marketingbudget.',
+        metaDescription: 'Praktische online marketing artikelen voor ondernemers. Eerlijk, zonder jargon, gericht op meer omzet uit je marketingbudget.',
         color: 'bg-gray-50 text-gray-700',
     },
 };
@@ -82,7 +82,7 @@ export default function BlogCategory() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>{config.title} | Empowers</title>
+                <title>{`${config.title} | Empowers`}</title>
                 <meta name="description" content={config.metaDescription} />
                 <link rel="canonical" href={canonicalUrl} />
                 <meta property="og:title" content={`${config.title} | Empowers`} />
