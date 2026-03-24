@@ -11,6 +11,11 @@ import BlogPostGeo from './pages/BlogPostGeo';
 import BlogPostMetaAds from './pages/BlogPostMetaAds';
 import BlogPostTikTokAds from './pages/BlogPostTikTokAds';
 import BlogPostTracking from './pages/BlogPostTracking';
+import BlogPostSeo from './pages/BlogPostSeo';
+import BlogPostGoogleAds from './pages/BlogPostGoogleAds';
+import BlogPostStrategie from './pages/BlogPostStrategie';
+import BlogPostAlgemeen from './pages/BlogPostAlgemeen';
+import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
 import GoogleAdsPage from './pages/GoogleAdsPage';
@@ -87,6 +92,13 @@ function App() {
         <Route path="/blogs/social-ads/waarom-meta-ads-niet-converteren" element={<BlogPostMetaAds />} />
         <Route path="/blogs/social-ads/tiktok-ads-voor-bedrijven" element={<BlogPostTikTokAds />} />
         <Route path="/blogs/tracking/marketing-tracking-conversies-meten" element={<BlogPostTracking />} />
+        <Route path="/blogs/seo/seo-voor-mkb-google-positie-verbeteren" element={<BlogPostSeo />} />
+        <Route path="/blogs/google-ads/google-ads-voor-mkb-campagne-instellen" element={<BlogPostGoogleAds />} />
+        <Route path="/blogs/strategie/online-marketing-strategie-mkb" element={<BlogPostStrategie />} />
+        <Route path="/blogs/algemeen/zelf-adverteren-of-uitbesteden" element={<BlogPostAlgemeen />} />
+
+        {/* Categorie overzichtspagina's — /blogs/:category */}
+        <Route path="/blogs/:category" element={<BlogCategory />} />
         {/* Oude routes — backwards compatibility */}
         <Route path="/blogs/meta-ads/waarom-meta-ads-niet-converteren" element={<BlogPostMetaAds />} />
         <Route path="/blogs/tiktok-ads/tiktok-ads-voor-bedrijven" element={<BlogPostTikTokAds />} />

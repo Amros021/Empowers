@@ -186,10 +186,7 @@ export default function BlogPost() {
                             </div>
                         </div>
 
-                        {/* Footnotes */}
-                        <div className="mt-16 pt-8 border-t border-primary/10 text-xs text-primary/40 font-mono">
-                            Bronnen: OpenAI Usage Statistics januari 2025 (openai.com) / Google Search Generative Experience updates 2025 (blog.google) / Schema.org FAQPage documentation (schema.org/FAQPage)
-                        </div>
+
                     </div>
                 </div>
             </article>

@@ -9,60 +9,13 @@ import {
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Helmet } from 'react-helmet-async';
+import articles from '../data/articles';
 
 gsap.registerPlugin(ScrollTrigger);
 
 /* ── categorie lijst ── */
 const CATEGORIES = [
     'SEO', 'GEO', 'Google Ads', 'Social Ads', 'Tracking', 'Strategie', 'Algemeen',
-];
-
-/* ── artikelen ── */
-const articles = [
-    {
-        title:    'Waarom jouw Meta Ads niet converteren (en hoe je dat oplost)',
-        category: 'Social Ads',
-        date:     '15 feb 2026',
-        dateTs:   new Date('2026-02-15').getTime(),
-        readTime: '6 min',
-        author:   'Empowers Redactie',
-        excerpt:  'Meta Ads die wel klikken maar geen klanten opleveren? Dit zijn de 6 meest voorkomende oorzaken en hoe je ze stap voor stap oplost.',
-        slug:     '/blogs/social-ads/waarom-meta-ads-niet-converteren',
-        image:    'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop',
-    },
-    {
-        title:    'Waarom je zonder goede tracking je marketingbudget verspilt',
-        category: 'Tracking',
-        date:     '15 feb 2026',
-        dateTs:   new Date('2026-02-15').getTime(),
-        readTime: '6 min',
-        author:   'Empowers Redactie',
-        excerpt:  'Zonder tracking weet je niet welke advertenties geld opleveren en welke verspillen. Lees hoe je conversies correct meet.',
-        slug:     '/blogs/tracking/marketing-tracking-conversies-meten',
-        image:    'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop',
-    },
-    {
-        title:    'TikTok Ads voor bedrijven: is het iets voor jou?',
-        category: 'Social Ads',
-        date:     '15 feb 2026',
-        dateTs:   new Date('2026-02-15').getTime(),
-        readTime: '6 min',
-        author:   'Empowers Redactie',
-        excerpt:  'TikTok is niet alleen voor tieners. Ontdek of TikTok Ads passen bij jouw bedrijf en hoe je een eerste campagne opzet.',
-        slug:     '/blogs/social-ads/tiktok-ads-voor-bedrijven',
-        image:    'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1974&auto=format&fit=crop',
-    },
-    {
-        title:    'Wat is GEO en waarom loopt jouw bedrijf het mis als je nu niks doet?',
-        category: 'GEO',
-        date:     '1 feb 2026',
-        dateTs:   new Date('2026-02-01').getTime(),
-        readTime: '6 min',
-        author:   'Empowers Redactie',
-        excerpt:  'GEO zorgt dat AI-tools zoals ChatGPT en Google Gemini jouw bedrijf aanbevelen. Lees wat het is en hoe je er morgen mee begint.',
-        slug:     '/blogs/geo/wat-is-geo-generative-engine-optimization',
-        image:    'https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop',
-    },
 ];
 
 const SORT_OPTIONS = [
