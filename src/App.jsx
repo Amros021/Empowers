@@ -23,6 +23,8 @@ import MetaAdsPage from './pages/MetaAdsPage';
 import LinkedInAdsPage from './pages/LinkedInAdsPage';
 import TikTokAdsPage from './pages/TikTokAdsPage';
 import LandingspaginaPage from './pages/LandingspaginaPage';
+import AlgemeneVoorwaarden from './pages/AlgemeneVoorwaarden';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 import NotFound from './pages/NotFound';
 
 // Scroll to top on route change
@@ -109,6 +111,8 @@ function App() {
         <Route path="/linkedin-ads" element={<LinkedInAdsPage />} />
         <Route path="/tiktok-ads" element={<TikTokAdsPage />} />
         <Route path="/landingspagina" element={<LandingspaginaPage />} />
+        <Route path="/algemene-voorwaarden" element={<AlgemeneVoorwaarden />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
