@@ -20,6 +20,20 @@ const app = (
 
 if (rootElement.hasChildNodes()) {
   hydrateRoot(rootElement, app);
+  // Verwijder duplicate ld+json script tags na hydration
+  // (react-helmet-async voegt server-rendered tags opnieuw toe ondanks data-rh="true")
+  setTimeout(() => {
+    const scripts = document.querySelectorAll('script[type="application/ld+json"]');
+    const seen = new Set();
+    scripts.forEach(script => {
+      const content = script.textContent.trim();
+      if (seen.has(content)) {
+        script.remove();
+      } else {
+        seen.add(content);
+      }
+    });
+  }, 0);
 } else {
   createRoot(rootElement).render(app);
 }
