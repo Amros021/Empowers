@@ -81,37 +81,71 @@ const ProgressBarsAnimation = () => {
     );
 };
 
-const Fase03Growth = () => (
-    <div className="w-full h-full bg-primary/5 px-4 sm:px-8 md:px-12 flex items-center justify-center overflow-hidden">
-        <div className="w-full h-32 md:h-48 flex items-center justify-center">
-            <svg className="w-[120%] h-full text-accent" viewBox="0 0 100 40" preserveAspectRatio="none">
-                <motion.path
-                    initial={{ pathLength: 0, opacity: 0 }}
-                    whileInView={{ pathLength: 1, opacity: 1 }}
-                    viewport={{ once: true }}
-                    animate={{
-                        d: [
-                            "M0,35 Q10,35 20,30 T40,25 T60,15 T80,10 T100,5",
-                            "M0,35 Q10,33 20,32 T40,23 T60,17 T80,8 T100,7",
-                            "M0,35 Q10,35 20,30 T40,25 T60,15 T80,10 T100,5"
-                        ]
-                    }}
-                    transition={{
-                        pathLength: { duration: 2, ease: "easeInOut" },
-                        d: { duration: 4, repeat: Infinity, ease: "easeInOut" }
-                    }}
-                    d="M0,35 Q10,35 20,30 T40,25 T60,15 T80,10 T100,5"
-                    fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round"
-                />
-                <motion.circle
-                    animate={{ scale: [1, 1.5, 1] }}
-                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                    cx="100" cy="5" r="2.5" fill="currentColor"
-                />
-            </svg>
+const Fase03Growth = () => {
+    const bars = [
+        { label: 'Jan', value: 25 },
+        { label: 'Feb', value: 38 },
+        { label: 'Mrt', value: 52 },
+        { label: 'Apr', value: 67 },
+        { label: 'Mei', value: 84 },
+        { label: 'Jun', value: 100 },
+    ];
+
+    const metrics = [
+        { label: 'ROAS', value: '4.8x' },
+        { label: 'Conversies', value: '+124%' },
+        { label: 'CPA', value: '-38%' },
+    ];
+
+    return (
+        <div className="w-full h-full bg-primary/5 p-5 sm:p-7 md:p-10 flex flex-col gap-4 sm:gap-6">
+            {/* Metric pills bovenaan */}
+            <div className="flex gap-2 sm:gap-3 flex-wrap">
+                {metrics.map((m, i) => (
+                    <motion.div
+                        key={i}
+                        initial={{ opacity: 0, y: -8 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.2 + i * 0.15, duration: 0.4 }}
+                        className="flex items-center gap-1.5 bg-white border border-primary/8 rounded-full px-3 py-1 shadow-sm"
+                    >
+                        <span className="font-mono text-[9px] sm:text-[10px] uppercase tracking-widest text-primary/40">{m.label}</span>
+                        <span className="font-bold text-xs sm:text-sm text-accent font-mono">{m.value}</span>
+                    </motion.div>
+                ))}
+            </div>
+
+            {/* Bar chart */}
+            <div className="flex-1 flex items-end gap-1.5 sm:gap-2.5">
+                {bars.map((bar, i) => (
+                    <div key={i} className="flex-1 flex flex-col items-center gap-1.5 h-full">
+                        <div className="w-full flex-1 flex items-end">
+                            <motion.div
+                                initial={{ scaleY: 0 }}
+                                whileInView={{ scaleY: 1 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.7, delay: 0.4 + i * 0.1, ease: [0.33, 1, 0.68, 1] }}
+                                style={{
+                                    height: `${bar.value}%`,
+                                    transformOrigin: 'bottom',
+                                    background: i === bars.length - 1
+                                        ? '#D65A31'
+                                        : `rgba(214, 90, 49, ${0.12 + i * 0.1})`,
+                                }}
+                                className="w-full rounded-t-md sm:rounded-t-lg"
+                            />
+                        </div>
+                        <span className="font-mono text-[8px] sm:text-[9px] uppercase tracking-widest text-primary/35 leading-none">{bar.label}</span>
+                    </div>
+                ))}
+            </div>
+
+            {/* Baseline */}
+            <div className="h-px w-full bg-primary/10 -mt-2" />
         </div>
-    </div>
-);
+    );
+};
 
 const steps = [
     {
