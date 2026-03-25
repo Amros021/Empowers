@@ -53,7 +53,7 @@ export default function BlogPostAlgemeen() {
                         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
                         { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
                         { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                        { "@type": "ListItem", "position": 4, "name": "Artikel", "item": "https://www.empowers.nl/blogs/algemeen/zelf-adverteren-of-uitbesteden" }
+                        { "@type": "ListItem", "position": 4, "name": "Zelf adverteren of uitbesteden: wat is slimmer voor jouw bedrijf?", "item": "https://www.empowers.nl/blogs/algemeen/zelf-adverteren-of-uitbesteden" }
                     ]
                 })}</script>
             </Helmet>
@@ -66,6 +66,8 @@ export default function BlogPostAlgemeen() {
                         <Link to="/" className="hover:text-accent transition-colors">Home</Link>
                         <ChevronRight className="w-3 h-3" />
                         <Link to="/nieuws" className="hover:text-accent transition-colors">Nieuws</Link>
+                        <ChevronRight className="w-3 h-3" />
+                        <Link to="/blogs/algemeen" className="hover:text-accent transition-colors">Algemeen</Link>
                         <ChevronRight className="w-3 h-3" />
                         <span className="text-primary truncate">Zelf adverteren of uitbesteden</span>
                     </nav>

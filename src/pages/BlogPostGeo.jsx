@@ -54,7 +54,7 @@ export default function BlogPost() {
                         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
                         { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
                         { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                        { "@type": "ListItem", "position": 4, "name": "Artikel", "item": "https://www.empowers.nl/blogs/geo/wat-is-geo-generative-engine-optimization" }
+                        { "@type": "ListItem", "position": 4, "name": "Wat is GEO en waarom loopt jouw bedrijf het mis als je nu niks doet?", "item": "https://www.empowers.nl/blogs/geo/wat-is-geo-generative-engine-optimization" }
                     ]
                 })}</script>
             </Helmet>
@@ -66,7 +66,9 @@ export default function BlogPost() {
                     <nav className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-primary/50 mb-12">
                         <Link to="/" className="hover:text-accent transition-colors">Home</Link>
                         <ChevronRight className="w-3 h-3" />
-                        <Link to="/nieuws" className="hover:text-accent transition-colors">Nieuws & Insights</Link>
+                        <Link to="/nieuws" className="hover:text-accent transition-colors">Nieuws</Link>
+                        <ChevronRight className="w-3 h-3" />
+                        <Link to="/blogs/geo" className="hover:text-accent transition-colors">GEO</Link>
                         <ChevronRight className="w-3 h-3" />
                         <span className="text-primary truncate">Wat is GEO...</span>
                     </nav>

@@ -54,7 +54,7 @@ export default function BlogPostGoogleAds() {
                         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
                         { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
                         { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Artikel", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-voor-mkb-campagne-instellen" }
+                        { "@type": "ListItem", "position": 4, "name": "Google Ads voor MKB: zo stel je een campagne in die werkt", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-voor-mkb-campagne-instellen" }
                     ]
                 })}</script>
             </Helmet>
@@ -67,6 +67,8 @@ export default function BlogPostGoogleAds() {
                         <Link to="/" className="hover:text-accent transition-colors">Home</Link>
                         <ChevronRight className="w-3 h-3" />
                         <Link to="/nieuws" className="hover:text-accent transition-colors">Nieuws</Link>
+                        <ChevronRight className="w-3 h-3" />
+                        <Link to="/blogs/google-ads" className="hover:text-accent transition-colors">Google Ads</Link>
                         <ChevronRight className="w-3 h-3" />
                         <span className="text-primary truncate">Google Ads voor MKB</span>
                     </nav>

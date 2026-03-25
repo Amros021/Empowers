@@ -54,7 +54,7 @@ export default function BlogPostSeo() {
                         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
                         { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
                         { "@type": "ListItem", "position": 3, "name": "SEO", "item": "https://www.empowers.nl/blogs/seo" },
-                        { "@type": "ListItem", "position": 4, "name": "Artikel", "item": "https://www.empowers.nl/blogs/seo/seo-voor-mkb-google-positie-verbeteren" }
+                        { "@type": "ListItem", "position": 4, "name": "SEO voor MKB: zo verbeter je je Google-positie", "item": "https://www.empowers.nl/blogs/seo/seo-voor-mkb-google-positie-verbeteren" }
                     ]
                 })}</script>
             </Helmet>
@@ -67,6 +67,8 @@ export default function BlogPostSeo() {
                         <Link to="/" className="hover:text-accent transition-colors">Home</Link>
                         <ChevronRight className="w-3 h-3" />
                         <Link to="/nieuws" className="hover:text-accent transition-colors">Nieuws</Link>
+                        <ChevronRight className="w-3 h-3" />
+                        <Link to="/blogs/seo" className="hover:text-accent transition-colors">SEO</Link>
                         <ChevronRight className="w-3 h-3" />
                         <span className="text-primary truncate">SEO voor MKB</span>
                     </nav>

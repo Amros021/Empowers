@@ -53,7 +53,7 @@ export default function BlogPostStrategie() {
                         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
                         { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
                         { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                        { "@type": "ListItem", "position": 4, "name": "Artikel", "item": "https://www.empowers.nl/blogs/strategie/online-marketing-strategie-mkb" }
+                        { "@type": "ListItem", "position": 4, "name": "Online marketingstrategie voor MKB: waar begin je?", "item": "https://www.empowers.nl/blogs/strategie/online-marketing-strategie-mkb" }
                     ]
                 })}</script>
             </Helmet>
@@ -66,6 +66,8 @@ export default function BlogPostStrategie() {
                         <Link to="/" className="hover:text-accent transition-colors">Home</Link>
                         <ChevronRight className="w-3 h-3" />
                         <Link to="/nieuws" className="hover:text-accent transition-colors">Nieuws</Link>
+                        <ChevronRight className="w-3 h-3" />
+                        <Link to="/blogs/strategie" className="hover:text-accent transition-colors">Strategie</Link>
                         <ChevronRight className="w-3 h-3" />
                         <span className="text-primary truncate">Online marketingstrategie MKB</span>
                     </nav>

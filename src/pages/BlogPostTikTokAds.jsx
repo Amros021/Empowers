@@ -38,7 +38,7 @@ export default function BlogPostTikTokAds() {
                         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
                         { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
                         { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Artikel", "item": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-voor-bedrijven" }
+                        { "@type": "ListItem", "position": 4, "name": "TikTok Ads voor bedrijven: is het iets voor jou?", "item": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-voor-bedrijven" }
                     ]
                 })}</script>
             </Helmet>
@@ -51,6 +51,8 @@ export default function BlogPostTikTokAds() {
                         <Link to="/" className="hover:text-accent transition-colors">Home</Link>
                         <ChevronRight className="w-3 h-3" />
                         <Link to="/nieuws" className="hover:text-accent transition-colors">Nieuws</Link>
+                        <ChevronRight className="w-3 h-3" />
+                        <Link to="/blogs/social-ads" className="hover:text-accent transition-colors">Social Ads</Link>
                         <ChevronRight className="w-3 h-3" />
                         <span className="text-primary truncate">TikTok Ads voor bedrijven...</span>
                     </nav>

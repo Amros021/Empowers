@@ -38,7 +38,7 @@ export default function BlogPostMetaAds() {
                         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
                         { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
                         { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Artikel", "item": "https://www.empowers.nl/blogs/social-ads/waarom-meta-ads-niet-converteren" }
+                        { "@type": "ListItem", "position": 4, "name": "Waarom jouw Meta Ads niet converteren (en hoe je dat oplost)", "item": "https://www.empowers.nl/blogs/social-ads/waarom-meta-ads-niet-converteren" }
                     ]
                 })}</script>
             </Helmet>
@@ -51,6 +51,8 @@ export default function BlogPostMetaAds() {
                         <Link to="/" className="hover:text-accent transition-colors">Home</Link>
                         <ChevronRight className="w-3 h-3" />
                         <Link to="/nieuws" className="hover:text-accent transition-colors">Nieuws</Link>
+                        <ChevronRight className="w-3 h-3" />
+                        <Link to="/blogs/social-ads" className="hover:text-accent transition-colors">Social Ads</Link>
                         <ChevronRight className="w-3 h-3" />
                         <span className="text-primary truncate">Waarom jouw Meta Ads...</span>
                     </nav>
