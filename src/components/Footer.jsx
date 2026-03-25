@@ -59,7 +59,7 @@ export default function Footer() {
             </div>
 
             <div className="max-w-7xl mx-auto pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between font-mono text-[10px] text-background/40 tracking-widest uppercase">
-                <p>&copy; {new Date().getFullYear()} Empowers. All Rights Reserved.</p>
+                <p>&copy; {new Date().getFullYear()} Empowers. Alle rechten voorbehouden. KvK nummer: 78132436</p>
             </div>
         </footer>
     );
