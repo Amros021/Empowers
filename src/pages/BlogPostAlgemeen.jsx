@@ -119,7 +119,7 @@ export default function BlogPostAlgemeen() {
                             We zien regelmatig MKB-accounts binnenkomen waarbij 40 tot 60% van het advertentiebudget naar irrelevante klikken gaat. Dat is niet omdat de ondernemer slecht was, maar omdat er simpelweg geen negatieve zoekwoorden zijn, de campagnestructuur niet klopt en er geen conversietracking aanstaat.
                         </p>
                         <p>
-                            Een campagne zonder goede <Link to="/nieuws/blogs/tracking/marketing-tracking-conversies-meten" className="text-accent hover:underline">conversietracking</Link> is als rijden zonder dashboard. Je weet niet hoe snel je gaat, of je de goede kant op rijdt en wanneer je moet bijtanken.
+                            Een campagne zonder goede <Link to="/blogs/tracking/marketing-tracking-conversies-meten" className="text-accent hover:underline">conversietracking</Link> is als rijden zonder dashboard. Je weet niet hoe snel je gaat, of je de goede kant op rijdt en wanneer je moet bijtanken.
                         </p>
 
                         <h2 className="text-3xl mt-16 mb-6">Wanneer loont het om zelf te adverteren?</h2>

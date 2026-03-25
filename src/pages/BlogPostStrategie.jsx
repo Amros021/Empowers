@@ -151,7 +151,7 @@ export default function BlogPostStrategie() {
 
                         <h2 className="text-3xl mt-16 mb-6">Hoe weet je of je strategie werkt?</h2>
                         <p>
-                            Meten is weten, maar je moet weten wat je moet meten. Bereik en klikken zijn ijdele statistieken. Waar het om gaat is hoeveel conversies elk kanaal oplevert en wat die conversies kosten. Dat vereist goede <Link to="/nieuws/blogs/tracking/marketing-tracking-conversies-meten" className="text-accent hover:underline">conversietracking</Link>.
+                            Meten is weten, maar je moet weten wat je moet meten. Bereik en klikken zijn ijdele statistieken. Waar het om gaat is hoeveel conversies elk kanaal oplevert en wat die conversies kosten. Dat vereist goede <Link to="/blogs/tracking/marketing-tracking-conversies-meten" className="text-accent hover:underline">conversietracking</Link>.
                         </p>
                         <p>
                             Koppel je advertentieplatformen aan Google Analytics 4. Stel doelen in per kanaal. Bekijk maandelijks of de kosten per conversie dalen. Als een kanaal structureel te duur is vergeleken met wat het oplevert, verschuif je budget naar wat beter werkt.

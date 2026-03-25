@@ -139,7 +139,7 @@ export default function BlogPostGoogleAds() {
                             Een andere veelvoorkomende fout: alle zoekwoorden in één advertentiegroep gooien. Een campagne die één boodschap heeft voor tien verschillende zoekwoorden, scoort lager dan campagnes met specifieke advertenties per zoekwoordgroep. De kwaliteitsscore daalt, de klikprijs stijgt.
                         </p>
                         <p>
-                            En tot slot: advertentiebudget instellen zonder conversietracking. Als je niet bijhoudt welke klikken leiden tot aankopen of aanvragen, stuur je campagnes bij op aannames in plaats van feiten. Hoe <Link to="/nieuws/blogs/tracking/marketing-tracking-conversies-meten" className="text-accent hover:underline">goede conversietracking werkt</Link> lees je in ons trackingblog.
+                            En tot slot: advertentiebudget instellen zonder conversietracking. Als je niet bijhoudt welke klikken leiden tot aankopen of aanvragen, stuur je campagnes bij op aannames in plaats van feiten. Hoe <Link to="/blogs/tracking/marketing-tracking-conversies-meten" className="text-accent hover:underline">goede conversietracking werkt</Link> lees je in ons trackingblog.
                         </p>
 
                         <h2 className="text-3xl mt-16 mb-6">Wanneer schakel je een specialist in voor Google Ads?</h2>
