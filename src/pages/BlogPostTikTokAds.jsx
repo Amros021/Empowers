@@ -20,6 +20,7 @@ export default function BlogPostTikTokAds() {
                 <meta property="og:description" content="Lees of TikTok Ads passen bij jouw bedrijf, wat de kosten zijn en hoe je een succesvolle eerste campagne opzet om nieuwe klanten te bereiken." />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/tiktok-ads-voor-bedrijven" />
                 <meta property="og:type" content="article" />
+                <meta property="og:image" content="https://www.empowers.nl/images/blogs/tiktok-ads-bedrijven.jpg" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "Article",

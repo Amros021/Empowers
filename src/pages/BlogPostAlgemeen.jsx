@@ -20,6 +20,7 @@ export default function BlogPostAlgemeen() {
                 <meta property="og:description" content="Zelf adverteren of uitbesteden? Lees wat het verschil is in kosten, tijd en resultaat. En wanneer een marketingbureau echt meer oplevert dan zelf doen." />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/algemeen/zelf-adverteren-of-uitbesteden" />
                 <meta property="og:type" content="article" />
+                <meta property="og:image" content="https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=2074&auto=format&fit=crop" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
                     "@graph": [

@@ -20,6 +20,7 @@ export default function BlogPost() {
                 <meta property="og:description" content="GEO is de opvolger van SEO voor het AI-tijdperk. Leer wat Generative Engine Optimization is, hoe het werkt in ChatGPT, Perplexity & Google SGE, en hoe jij zichtbaar wordt." />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/geo/wat-is-geo-generative-engine-optimization" />
                 <meta property="og:type" content="article" />
+                <meta property="og:image" content="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
                     "@graph": [

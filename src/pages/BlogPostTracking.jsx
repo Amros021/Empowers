@@ -20,6 +20,7 @@ export default function BlogPostTracking() {
                 <meta property="og:description" content="Leer hoe je marketing tracking correct instelt om conversies nauwkeurig te meten. Van GA4 tot Meta Pixel en TikTok Pixel — zo maak je data-gedreven beslissingen." />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/tracking/marketing-tracking-conversies-meten" />
                 <meta property="og:type" content="article" />
+                <meta property="og:image" content="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
                     "@graph": [

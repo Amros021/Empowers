@@ -20,6 +20,7 @@ export default function BlogPostStrategie() {
                 <meta property="og:description" content="Een online marketingstrategie voor MKB hoeft niet ingewikkeld te zijn. Leer welke kanalen werken, hoe je budget verdeelt en hoe je meetbaar groeit." />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/strategie/online-marketing-strategie-mkb" />
                 <meta property="og:type" content="article" />
+                <meta property="og:image" content="https://www.empowers.nl/images/blogs/marketing-strategie.jpg" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
                     "@graph": [

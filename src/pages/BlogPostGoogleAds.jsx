@@ -20,6 +20,7 @@ export default function BlogPostGoogleAds() {
                 <meta property="og:description" content="Google Ads voor MKB werkt als je het goed instelt. Lees wat het kost, hoe je een campagne opzet en wanneer je een specialist inschakelt." />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/google-ads-voor-mkb-campagne-instellen" />
                 <meta property="og:type" content="article" />
+                <meta property="og:image" content="https://www.empowers.nl/images/blogs/google-ads-campagne.jpg" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
                     "@graph": [

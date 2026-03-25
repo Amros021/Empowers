@@ -20,6 +20,7 @@ export default function BlogPostMetaAds() {
                 <meta property="og:description" content="Slechte resultaten met Meta Ads? Ontdek de meest gemaakte fouten en hoe je ze direct oplost. Van doelgroepen en creatives tot budget en pixel-tracking." />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/waarom-meta-ads-niet-converteren" />
                 <meta property="og:type" content="article" />
+                <meta property="og:image" content="https://www.empowers.nl/images/blogs/meta-ads-converteren.jpg" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "Article",
