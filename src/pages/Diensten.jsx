@@ -634,6 +634,14 @@ export default function Diensten() {
                 <meta property="og:description" content="Van Meta Ads en LinkedIn Ads tot TikTok Ads, SEO en GEO. Ontdek hoe Empowers jouw bedrijf laat groeien met performance marketing." />
                 <meta property="og:url" content="https://www.empowers.nl/diensten" />
                 <meta property="og:type" content="website" />
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
+                        { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://www.empowers.nl/diensten" }
+                    ]
+                })}</script>
             </Helmet>
             <Navbar />
 

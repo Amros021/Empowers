@@ -129,6 +129,14 @@ export default function FAQ() {
                 <meta property="og:description" content="Antwoorden op je meest gestelde vragen over Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO, GEO en samenwerken met Empowers." />
                 <meta property="og:url" content="https://www.empowers.nl/faq" />
                 <meta property="og:type" content="website" />
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
+                        { "@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://www.empowers.nl/faq" }
+                    ]
+                })}</script>
             </Helmet>
             <Navbar />
 

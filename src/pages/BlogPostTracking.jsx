@@ -22,14 +22,30 @@ export default function BlogPostTracking() {
                 <meta property="og:type" content="article" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "Article",
-                    "headline": "Waarom je zonder goede tracking je marketingbudget verspilt",
-                    "description": "Leer hoe je marketing tracking correct instelt om conversies nauwkeurig te meten. Van GA4 tot Meta Pixel en TikTok Pixel — zo maak je data-gedreven beslissingen.",
-                    "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "datePublished": "2026-02-15",
-                    "dateModified": "2026-02-15",
-                    "url": "https://www.empowers.nl/blogs/tracking/marketing-tracking-conversies-meten"
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Waarom je zonder goede tracking je marketingbudget verspilt",
+                            "description": "Leer hoe je marketing tracking correct instelt om conversies nauwkeurig te meten. Van GA4 tot Meta Pixel en TikTok Pixel — zo maak je data-gedreven beslissingen.",
+                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "datePublished": "2026-02-15",
+                            "dateModified": "2026-02-15",
+                            "url": "https://www.empowers.nl/blogs/tracking/marketing-tracking-conversies-meten"
+                        },
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                { "@type": "Question", "name": "Wat is conversietracking in marketing?", "acceptedAnswer": { "@type": "Answer", "text": "Conversietracking houdt bij welke acties bezoekers uitvoeren op je website na een advertentieklik, zoals een aankoop, formulierinzending of telefoontje. Die data koppel je aan je campagnes, zodat je weet welke advertenties geld opleveren en welke niet." } },
+                                { "@type": "Question", "name": "Welke tracking tools heb ik nodig als ondernemer?", "acceptedAnswer": { "@type": "Answer", "text": "De basis is Google Analytics 4 voor je website, Google Tag Manager voor het beheren van alle tracking-code, en het pixel plus de Conversions API van elk platform waarop je adverteert." } },
+                                { "@type": "Question", "name": "Wat is ROAS en wat is een goede waarde?", "acceptedAnswer": { "@type": "Answer", "text": "ROAS staat voor Return on Ad Spend. Een ROAS van 3 betekent dat je voor elke euro advertentiebudget drie euro omzet genereert. Voor de meeste webshops is een ROAS van 3 tot 5 gezond, afhankelijk van je marges. Zit je structureel onder de 2? Dan is er ruimte om bij te sturen." } },
+                                { "@type": "Question", "name": "Waarom kloppen mijn Meta-data niet na iOS 14?", "acceptedAnswer": { "@type": "Answer", "text": "Apple's iOS 14-update zorgde ervoor dat meer dan 70% van de iPhone-gebruikers tracking via de browser blokkeerde. Als je alleen de Meta Pixel gebruikt zonder Conversions API, mis je een groot deel van je conversies. Voeg Meta CAPI toe om dit te compenseren." } },
+                                { "@type": "Question", "name": "Kan ik tracking zelf instellen zonder technische kennis?", "acceptedAnswer": { "@type": "Answer", "text": "De basisinstelling van GA4 en een pixel via Google Tag Manager is te doen met een goede handleiding. Maar foutloze instelling van server-side tracking vraagt technische kennis. Een fout in de tracking is erger dan geen tracking, omdat je dan bijstuurt op verkeerde data." } },
+                                { "@type": "Question", "name": "Hoe weet ik welke campagne verantwoordelijk is voor een aankoop?", "acceptedAnswer": { "@type": "Answer", "text": "Via UTM-parameters in je advertentielinks en via de attributiemodellen in GA4 en je advertentieplatformen. Standaard werkt Google Ads met last-click attributie. GA4 biedt ook data-driven attributie, wat een completer beeld geeft van welke kanalen bijdragen aan een conversie." } },
+                                { "@type": "Question", "name": "Wat is het verschil tussen een sessie en een conversie in Google Analytics?", "acceptedAnswer": { "@type": "Answer", "text": "Een sessie is een bezoek aan je website. Een conversie is een specifieke actie die je hebt ingesteld als doel, zoals een aankoop of formulierinzending. Je conversieratio is het percentage sessies dat resulteert in een conversie. Gemiddeld ligt dat voor webshops tussen de 1,5% en 3,5%." } }
+                            ]
+                        }
+                    ]
                 })}</script>
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",

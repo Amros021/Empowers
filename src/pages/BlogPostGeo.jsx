@@ -22,14 +22,30 @@ export default function BlogPost() {
                 <meta property="og:type" content="article" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "Article",
-                    "headline": "Wat is GEO en waarom loopt jouw bedrijf het mis als je nu niks doet?",
-                    "description": "GEO is de opvolger van SEO voor het AI-tijdperk. Leer wat Generative Engine Optimization is, hoe het werkt in ChatGPT, Perplexity & Google SGE, en hoe jij zichtbaar wordt.",
-                    "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "datePublished": "2026-02-01",
-                    "dateModified": "2026-02-01",
-                    "url": "https://www.empowers.nl/blogs/geo/wat-is-geo-generative-engine-optimization"
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Wat is GEO en waarom loopt jouw bedrijf het mis als je nu niks doet?",
+                            "description": "GEO is de opvolger van SEO voor het AI-tijdperk. Leer wat Generative Engine Optimization is, hoe het werkt in ChatGPT, Perplexity & Google SGE, en hoe jij zichtbaar wordt.",
+                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "datePublished": "2026-02-01",
+                            "dateModified": "2026-02-01",
+                            "url": "https://www.empowers.nl/blogs/geo/wat-is-geo-generative-engine-optimization"
+                        },
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                { "@type": "Question", "name": "Wat is het verschil tussen GEO en SEO?", "acceptedAnswer": { "@type": "Answer", "text": "SEO richt zich op vindbaarheid in zoekmachines zoals Google, via keywords en technische optimalisatie. GEO richt zich op zichtbaarheid in AI-tools zoals ChatGPT en Gemini. AI-modellen aanbevelen bedrijven op basis van vertrouwen, autoriteit en de kwaliteit van beschikbare informatie, niet alleen op basis van technische SEO-factoren." } },
+                                { "@type": "Question", "name": "Werkt GEO ook voor kleine bedrijven?", "acceptedAnswer": { "@type": "Answer", "text": "Ja. Kleine bedrijven kunnen juist profiteren van GEO, omdat de concurrentie in AI-aanbevelingen nog lang niet zo hevig is als in Google. Wie nu begint, bouwt een voorsprong op die later moeilijk in te halen is." } },
+                                { "@type": "Question", "name": "Hoe lang duurt het voor GEO resultaat geeft?", "acceptedAnswer": { "@type": "Answer", "text": "Vergelijkbaar met SEO: reken op 3 tot 6 maanden voor de eerste zichtbare effecten. GEO is een langetermijninvestering in digitale autoriteit. De resultaten groeien naarmate je consistent goede content publiceert en vermeldingen opbouwt." } },
+                                { "@type": "Question", "name": "Welke AI-tools zijn het belangrijkst voor GEO?", "acceptedAnswer": { "@type": "Answer", "text": "ChatGPT (OpenAI) en Gemini (Google) zijn nu het grootst in gebruik. Claude (Anthropic) en Perplexity groeien snel. De strategie voor GEO werkt voor alle modellen, omdat ze dezelfde basisprincipes hanteren: betrouwbaarheid, relevantie en autoriteit." } },
+                                { "@type": "Question", "name": "Heeft GEO gevolgen voor mijn positie in Google?", "acceptedAnswer": { "@type": "Answer", "text": "Niet direct. Maar veel van wat je doet voor GEO, zoals betere content, meer externe vermeldingen en een schonere sitestructuur, heeft ook een positief effect op je SEO. De twee strategieën versterken elkaar." } },
+                                { "@type": "Question", "name": "Moet ik stoppen met SEO als ik aan GEO doe?", "acceptedAnswer": { "@type": "Answer", "text": "Absoluut niet. SEO blijft waardevol zolang mensen via Google zoeken, en dat doen ze nog steeds op grote schaal. GEO is een aanvulling op SEO, geen vervanging. De combinatie van beide geeft de meeste online zichtbaarheid." } },
+                                { "@type": "Question", "name": "Kan ik GEO zelf doen?", "acceptedAnswer": { "@type": "Answer", "text": "Gedeeltelijk wel. Betere content schrijven, schema toevoegen en vermeldingen opbouwen kun je zelf oppakken. Voor een gedegen GEO-strategie die ook meetbaar is, is gerichte expertise nodig. We helpen bedrijven hier graag bij." } }
+                            ]
+                        }
+                    ]
                 })}</script>
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
