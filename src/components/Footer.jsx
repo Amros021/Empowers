@@ -58,8 +58,12 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="max-w-7xl mx-auto pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between font-mono text-[10px] text-background/40 tracking-widest uppercase">
-                <p>&copy; {new Date().getFullYear()} Empowers. Alle rechten voorbehouden. KvK nummer: 78132436</p>
+            <div className="max-w-7xl mx-auto pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 font-mono text-[10px] text-background/40 tracking-widest uppercase">
+                <p>&copy; {new Date().getFullYear()} Empowers. Alle rechten voorbehouden.</p>
+                <div className="flex items-center gap-6">
+                    <Link to="/algemene-voorwaarden" className="hover:text-background/70 transition-colors">Algemene Voorwaarden</Link>
+                    <Link to="/privacy-policy" className="hover:text-background/70 transition-colors">Privacy Policy</Link>
+                </div>
             </div>
         </footer>
     );
