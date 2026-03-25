@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Home from './pages/Home';
@@ -99,6 +99,8 @@ function App() {
         <Route path="/blogs/strategie/online-marketing-strategie-mkb" element={<BlogPostStrategie />} />
         <Route path="/blogs/algemeen/zelf-adverteren-of-uitbesteden" element={<BlogPostAlgemeen />} />
 
+        {/* /blogs/ redirect naar /nieuws */}
+        <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
         {/* Categorie overzichtspagina's — /blogs/:category */}
         <Route path="/blogs/:category" element={<BlogCategory />} />
         {/* Oude routes — backwards compatibility */}
