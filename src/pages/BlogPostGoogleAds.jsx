@@ -98,7 +98,7 @@ export default function BlogPostGoogleAds() {
 
                     {/* Featured Image */}
                     <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 relative bg-primary">
-                        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=2074&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+                        <div className="absolute inset-0 bg-[url('/images/blogs/google-ads-campagne.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
 

@@ -253,9 +253,8 @@ export default function Nieuws() {
 
                         {/* Result count */}
                         <span className="font-sans text-[11px] sm:text-sm font-semibold uppercase tracking-widest text-primary/60 whitespace-nowrap">
-                            Toont{' '}
                             <span className="text-accent font-bold">{filtered.length}</span>
-                            <span className="hidden sm:inline"> resultaten</span>
+                            {' '}resultaten
                         </span>
 
                         {/* Sort — alle schermen */}
