@@ -89,16 +89,6 @@ export default function About() {
                 <meta property="og:description" content="Leer het team achter Empowers kennen. Wij zijn een marketing bureau dat MKB-bedrijven helpt groeien via Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO en GEO." />
                 <meta property="og:url" content="https://www.empowers.nl/over-ons" />
                 <meta property="og:type" content="website" />
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "Organization",
-                    "name": "Empowers",
-                    "url": "https://www.empowers.nl",
-                    "logo": "https://www.empowers.nl/logo.svg",
-                    "description": "Empowers is een performance marketing bureau dat MKB-bedrijven helpt groeien via Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO en GEO.",
-                    "address": { "@type": "PostalAddress", "addressCountry": "NL" },
-                    "knowsAbout": ["Google Ads", "Meta Ads", "LinkedIn Ads", "TikTok Ads", "SEO", "GEO", "Generative Engine Optimization"]
-                })}</script>
             </Helmet>
             <Navbar />
 

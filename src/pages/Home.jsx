@@ -18,22 +18,6 @@ export default function Home() {
                 <meta property="og:description" content="Empowers is een marketing bureau gespecialiseerd in Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO en GEO. Wij versnellen jouw groei. Plan een gratis kennismaking." />
                 <meta property="og:url" content="https://www.empowers.nl/" />
                 <meta property="og:type" content="website" />
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "Organization",
-                    "name": "Empowers",
-                    "url": "https://www.empowers.nl",
-                    "logo": "https://www.empowers.nl/logo.svg",
-                    "description": "Empowers is een performance marketing bureau gespecialiseerd in Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO en GEO voor MKB-bedrijven in Nederland.",
-                    "address": { "@type": "PostalAddress", "addressCountry": "NL" },
-                    "sameAs": []
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "WebSite",
-                    "name": "Empowers",
-                    "url": "https://www.empowers.nl"
-                })}</script>
             </Helmet>
             <Navbar />
             <Hero />
