@@ -93,13 +93,19 @@ async function prerender() {
             }
         }
 
+        // Voeg data-rh="true" toe zodat react-helmet-async bij hydration
+        // de server-rendered tags herkent en niet opnieuw toevoegt.
+        const addRh = (s) => s
+            .replace(/<(title|meta|link|script)(\s)/g, '<$1 data-rh="true"$2')
+            .replace(/<(title|meta|link|script)>/g, '<$1 data-rh="true">');
+
         const headTags = [
-            titleTag,
-            helmet?.priority?.toString() || '',
-            helmet?.meta?.toString() || '',
-            helmet?.link?.toString() || '',
-            helmet?.script?.toString() || '',
-            ...extractedTags
+            addRh(titleTag),
+            addRh(helmet?.priority?.toString() || ''),
+            addRh(helmet?.meta?.toString() || ''),
+            addRh(helmet?.link?.toString() || ''),
+            addRh(helmet?.script?.toString() || ''),
+            ...extractedTags.map(addRh)
         ].filter(Boolean).join('\n');
 
         const html = indexShellHtml
