@@ -11,7 +11,7 @@ const articles = [
         author:   'Empowers Redactie',
         excerpt:  'Meta Ads die wel klikken maar geen klanten opleveren? Dit zijn de 6 meest voorkomende oorzaken en hoe je ze stap voor stap oplost.',
         slug:     '/blogs/social-ads/waarom-meta-ads-niet-converteren',
-        image:    'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop',
+        image:    '/images/blogs/meta-ads-converteren.jpg',
     },
     {
         title:    'Waarom je zonder goede tracking je marketingbudget verspilt',
@@ -33,7 +33,7 @@ const articles = [
         author:   'Empowers Redactie',
         excerpt:  'TikTok is niet alleen voor tieners. Ontdek of TikTok Ads passen bij jouw bedrijf en hoe je een eerste campagne opzet.',
         slug:     '/blogs/social-ads/tiktok-ads-voor-bedrijven',
-        image:    'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1974&auto=format&fit=crop',
+        image:    '/images/blogs/tiktok-ads-bedrijven.jpg',
     },
     {
         title:    'Wat is GEO en waarom loopt jouw bedrijf het mis als je nu niks doet?',
@@ -66,7 +66,7 @@ const articles = [
         author:   'Empowers Redactie',
         excerpt:  'Een goed ingestelde Google Ads campagne haalt een ROAS van 3 tot 5. Lees hoe je dat bereikt en welke fouten je budget verbranden.',
         slug:     '/blogs/google-ads/google-ads-voor-mkb-campagne-instellen',
-        image:    'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=2074&auto=format&fit=crop',
+        image:    '/images/blogs/google-ads-campagne.jpg',
     },
     {
         title:    'Online marketingstrategie voor MKB: waar begin je?',
@@ -77,7 +77,7 @@ const articles = [
         author:   'Empowers Redactie',
         excerpt:  'Wie weet via welk kanaal zijn klant het beste te bereiken, geeft zijn marketingbudget gericht uit. Zo bouw je een strategie die werkt.',
         slug:     '/blogs/strategie/online-marketing-strategie-mkb',
-        image:    'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop',
+        image:    '/images/blogs/marketing-strategie.jpg',
     },
     {
         title:    'Zelf adverteren of uitbesteden: wat is slimmer voor jouw bedrijf?',
