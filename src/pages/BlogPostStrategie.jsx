@@ -26,11 +26,12 @@ export default function BlogPostStrategie() {
                         {
                             "@type": "Article",
                             "headline": "Online marketingstrategie voor MKB: waar begin je?",
+                            "image": "https://www.empowers.nl/images/blogs/marketing-strategie.jpg",
                             "description": "Een online marketingstrategie voor MKB hoeft niet ingewikkeld te zijn. Leer welke kanalen werken, hoe je budget verdeelt en hoe je meetbaar groeit.",
                             "author": { "@type": "Person", "name": "Amir Farahani" },
                             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "datePublished": "2026-03-24",
-                            "dateModified": "2026-03-24",
+                            "datePublished": "2026-03-24T00:00:00+01:00",
+                            "dateModified": "2026-03-24T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/strategie/online-marketing-strategie-mkb"
                         },
                         {

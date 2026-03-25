@@ -26,11 +26,12 @@ export default function BlogPostTracking() {
                         {
                             "@type": "Article",
                             "headline": "Waarom je zonder goede tracking je marketingbudget verspilt",
+                            "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
                             "description": "Leer hoe je marketing tracking correct instelt om conversies nauwkeurig te meten. Van GA4 tot Meta Pixel en TikTok Pixel — zo maak je data-gedreven beslissingen.",
                             "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "datePublished": "2026-02-15",
-                            "dateModified": "2026-02-15",
+                            "datePublished": "2026-02-15T00:00:00+01:00",
+                            "dateModified": "2026-02-15T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/tracking/marketing-tracking-conversies-meten"
                         },
                         {

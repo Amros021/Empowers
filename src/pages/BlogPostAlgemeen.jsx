@@ -26,11 +26,12 @@ export default function BlogPostAlgemeen() {
                         {
                             "@type": "Article",
                             "headline": "Zelf adverteren of uitbesteden: wat is slimmer voor jouw bedrijf?",
+                            "image": "https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=2074&auto=format&fit=crop",
                             "description": "Zelf adverteren of uitbesteden? Lees wat het verschil is in kosten, tijd en resultaat. En wanneer een marketingbureau echt meer oplevert dan zelf doen.",
                             "author": { "@type": "Person", "name": "Amir Farahani" },
                             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "datePublished": "2026-03-24",
-                            "dateModified": "2026-03-24",
+                            "datePublished": "2026-03-24T00:00:00+01:00",
+                            "dateModified": "2026-03-24T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/algemeen/zelf-adverteren-of-uitbesteden"
                         },
                         {

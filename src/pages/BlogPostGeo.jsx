@@ -26,11 +26,12 @@ export default function BlogPost() {
                         {
                             "@type": "Article",
                             "headline": "Wat is GEO en waarom loopt jouw bedrijf het mis als je nu niks doet?",
+                            "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop",
                             "description": "GEO is de opvolger van SEO voor het AI-tijdperk. Leer wat Generative Engine Optimization is, hoe het werkt in ChatGPT, Perplexity & Google SGE, en hoe jij zichtbaar wordt.",
                             "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "datePublished": "2026-02-01",
-                            "dateModified": "2026-02-01",
+                            "datePublished": "2026-02-01T00:00:00+01:00",
+                            "dateModified": "2026-02-01T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/geo/wat-is-geo-generative-engine-optimization"
                         },
                         {

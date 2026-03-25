@@ -24,11 +24,12 @@ export default function BlogPostMetaAds() {
                     "@context": "https://schema.org",
                     "@type": "Article",
                     "headline": "Waarom jouw Meta Ads niet converteren (en hoe je dat oplost)",
+                    "image": "https://www.empowers.nl/images/blogs/meta-ads-converteren.jpg",
                     "description": "Slechte resultaten met Meta Ads? Ontdek de meest gemaakte fouten en hoe je ze direct oplost. Van doelgroepen en creatives tot budget en pixel-tracking.",
                     "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                     "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "datePublished": "2026-02-15",
-                    "dateModified": "2026-02-15",
+                    "datePublished": "2026-02-15T00:00:00+01:00",
+                    "dateModified": "2026-02-15T00:00:00+01:00",
                     "url": "https://www.empowers.nl/blogs/social-ads/waarom-meta-ads-niet-converteren"
                 })}</script>
                 <script type="application/ld+json">{JSON.stringify({

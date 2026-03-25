@@ -24,11 +24,12 @@ export default function BlogPostTikTokAds() {
                     "@context": "https://schema.org",
                     "@type": "Article",
                     "headline": "TikTok Ads voor bedrijven: is het iets voor jou?",
+                    "image": "https://www.empowers.nl/images/blogs/tiktok-ads-bedrijven.jpg",
                     "description": "Lees of TikTok Ads passen bij jouw bedrijf, wat de kosten zijn en hoe je een succesvolle eerste campagne opzet om nieuwe klanten te bereiken.",
                     "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                     "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "datePublished": "2026-02-15",
-                    "dateModified": "2026-02-15",
+                    "datePublished": "2026-02-15T00:00:00+01:00",
+                    "dateModified": "2026-02-15T00:00:00+01:00",
                     "url": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-voor-bedrijven"
                 })}</script>
                 <script type="application/ld+json">{JSON.stringify({

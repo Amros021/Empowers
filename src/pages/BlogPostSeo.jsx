@@ -26,11 +26,12 @@ export default function BlogPostSeo() {
                         {
                             "@type": "Article",
                             "headline": "SEO voor MKB: zo verbeter je je Google-positie",
+                            "image": "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?q=80&w=2074&auto=format&fit=crop",
                             "description": "SEO voor MKB loont als je het goed aanpakt. Lees wat het kost, hoe lang het duurt en welke stappen je zet om hoger te ranken in Google.",
                             "author": { "@type": "Person", "name": "Amir Farahani" },
                             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "datePublished": "2026-03-24",
-                            "dateModified": "2026-03-24",
+                            "datePublished": "2026-03-24T00:00:00+01:00",
+                            "dateModified": "2026-03-24T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/seo/seo-voor-mkb-google-positie-verbeteren"
                         },
                         {
