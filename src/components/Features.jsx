@@ -6,7 +6,7 @@ import { MousePointer2, Settings, Zap } from 'lucide-react';
 function DiagnosticShuffler() {
     const [cards, setCards] = useState([
         { id: 1, text: "Direct WhatsApp Contact", icon: Zap },
-        { id: 2, text: "Wekelijkse Sync Calls", icon: Settings },
+        { id: 2, text: "Wekelijkse calls", icon: Settings },
         { id: 3, text: "24/7 Monitoring", icon: MousePointer2 }
     ]);
 
@@ -56,7 +56,7 @@ function DiagnosticShuffler() {
 function TelemetryTypewriter() {
     const [text, setText] = useState('');
     const [isTyping, setIsTyping] = useState(true);
-    const fullText = "Analyzing search intent...\nOptimizing Meta CAPI...\nScaling ROAS vector > 3.4x\nExecuting organic takeover...";
+    const fullText = "ROAS verhoogd naar 3.4x...\nCPA verlaagd van €42 naar €28...\nConversietracking correct ingesteld...\nBudget opgeschaald van €2k naar €8k...";
 
     useEffect(() => {
         let i = 0;
@@ -82,11 +82,11 @@ function TelemetryTypewriter() {
             <div className="flex justify-between items-start mb-8">
                 <div>
                     <h2 className="font-sans font-bold text-2xl mb-2 text-background">Volledige expertise</h2>
-                    <p className="font-sans text-background/60 text-sm">Google Ads, Meta ads, TikTok ads, Pinterest ads, SEO en GEO.<br />Alles bij één specialist.</p>
+                    <p className="font-sans text-background/60 text-sm">Google Ads, Meta ads, TikTok ads, LinkedIn ads, SEO en GEO.<br />Eén specialist die alles runt en optimaliseert.</p>
                 </div>
                 <div className="flex items-center gap-2 px-3 py-1 bg-white/5 rounded-full">
                     <div className="w-2 h-2 rounded-full bg-[#10B981] animate-pulse" />
-                    <span className="font-mono text-[10px] text-background/50 uppercase tracking-widest">Live Feed</span>
+                    <span className="font-mono text-[10px] text-background/50 uppercase tracking-widest">Live</span>
                 </div>
             </div>
 
@@ -148,8 +148,8 @@ function CursorProtocolScheduler() {
     return (
         <div ref={containerRef} className="bg-background rounded-[2rem] p-6 sm:p-8 shadow-sm border border-primary/10 flex flex-col h-full min-h-[350px] lg:min-h-[400px] overflow-hidden relative">
             <div className="mb-8 z-10 relative">
-                <h2 className="font-sans font-bold text-2xl mb-2 text-dark">Conversie First</h2>
-                <p className="font-sans text-primary/70 text-sm">Zichtbaarheid is een begin. Omzet is het doel.<br />Wij optimaliseren elke stap van de customer journey.</p>
+                <h2 className="font-sans font-bold text-2xl mb-2 text-dark">Meer omzet per bezoeker</h2>
+                <p className="font-sans text-primary/70 text-sm">Wij optimaliseren elke stap van de customer journey. Van eerste klik tot betalende klant. Wij halen meer uit elk contactmoment.</p>
             </div>
 
             <div className="relative flex-grow flex items-center justify-center w-full">

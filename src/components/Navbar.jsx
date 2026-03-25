@@ -155,9 +155,8 @@ export default function Navbar() {
                         style={{ background: 'linear-gradient(135deg, #2E4036 0%, #1a2620 100%)' }}
                     >
                         <p className="font-sans text-xs font-semibold tracking-[0.15em] uppercase mb-3" style={{ color: 'rgba(255,255,255,0.4)' }}>Onze aanpak</p>
-                        <p className="font-serif text-xl leading-snug text-white mb-1">"Groei is geen toeval,</p>
-                        <p className="font-sans text-sm font-bold tracking-wide mb-4" style={{ color: '#CC5833' }}>HET IS EEN STRATEGIE."</p>
-                        <p className="font-sans text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.5)' }}>Wij zorgen dat jouw advertenties structureel presteren.</p>
+                        <p className="font-serif text-xl leading-snug text-white mb-4">Meer omzet uit je advertenties</p>
+                        <p className="font-sans text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.5)' }}>Wij zorgen dat elke euro meetbaar resultaat oplevert.</p>
                         <div className="absolute -bottom-6 -right-6 w-28 h-28 rounded-full" style={{ background: 'rgba(204,88,51,0.12)' }} />
                     </div>
                 </div>
