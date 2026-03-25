@@ -20,20 +20,39 @@ const app = (
 
 if (rootElement.hasChildNodes()) {
   hydrateRoot(rootElement, app);
-  // Verwijder duplicate ld+json script tags na hydration
-  // (react-helmet-async voegt server-rendered tags opnieuw toe ondanks data-rh="true")
-  setTimeout(() => {
+
+  // Deduplicatie van ld+json schemas.
+  // react-helmet-async + React 19 voegt scripts opnieuw toe na hydration,
+  // ongeacht data-rh="true". We dedupliceren op @type zodat zelfs bij
+  // kleine whitespace-verschillen duplicaten worden verwijderd.
+  const deduplicateSchemas = () => {
     const scripts = document.querySelectorAll('script[type="application/ld+json"]');
-    const seen = new Set();
+    const seen = new Map();
     scripts.forEach(script => {
-      const content = script.textContent.trim();
-      if (seen.has(content)) {
-        script.remove();
-      } else {
-        seen.add(content);
+      try {
+        const data = JSON.parse(script.textContent);
+        let key;
+        if (data['@graph']) {
+          key = '@graph:' + data['@graph'].map(i => i['@type']).sort().join(',');
+        } else {
+          key = data['@type'] || script.textContent.trim();
+        }
+        if (seen.has(key)) {
+          script.remove();
+        } else {
+          seen.set(key, script);
+        }
+      } catch (e) {
+        // Ongeldige JSON — skip
       }
     });
-  }, 0);
+  };
+
+  // Draai meerdere keren: React 19 concurrent rendering + react-helmet-async
+  // kan scripts toevoegen na setTimeout(0).
+  setTimeout(deduplicateSchemas, 0);
+  setTimeout(deduplicateSchemas, 500);
+  setTimeout(deduplicateSchemas, 1500);
 } else {
   createRoot(rootElement).render(app);
 }
