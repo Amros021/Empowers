@@ -76,16 +76,17 @@ async function prerender() {
         appHtml = appHtml.replace(/<link[^>]*rel="preload"[^>]*>/gis, match => { extractedTags.push(match); return ''; });
         appHtml = appHtml.replace(/<script[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/gis, match => { extractedTags.push(match); return ''; });
 
-        // Haal og:title op als fallback voor een lege <title>
-        const helmetTitle = helmet?.title?.toString() || '';
-        const hasEmptyTitle = /<title[^>]*>\s*<\/title>/i.test(helmetTitle);
-        let titleTag = helmetTitle;
-        if (!helmetTitle || hasEmptyTitle) {
-            // Zoek og:title in extractedTags of helmet meta
-            const allMetaTags = [
-                helmet?.meta?.toString() || '',
-                ...extractedTags,
-            ].join('\n');
+        // extractedTags bevat al title/meta/link/script vanuit de rendered HTML.
+        // helmet.* zou dezelfde tags opleveren → duplicaten. We gebruiken ALLEEN extractedTags.
+        // Title krijgt speciale behandeling: og:title als fallback voor lege/ontbrekende titel.
+
+        const extractedTitle = extractedTags.find(t => /<title/i.test(t)) || '';
+        const hasEmptyTitle = !extractedTitle || /<title[^>]*>\s*<\/title>/i.test(extractedTitle);
+        let titleTag = extractedTitle;
+
+        if (hasEmptyTitle) {
+            // Zoek og:title als fallback (voor categoriepagina's met dynamische title)
+            const allMetaTags = extractedTags.join('\n');
             const ogTitleMatch = allMetaTags.match(/property=["']og:title["'][^>]*content=["']([^"']+)["']/i)
                 || allMetaTags.match(/content=["']([^"']+)["'][^>]*property=["']og:title["']/i);
             if (ogTitleMatch) {
@@ -99,13 +100,11 @@ async function prerender() {
             .replace(/<(title|meta|link|script)(\s)/g, '<$1 data-rh="true"$2')
             .replace(/<(title|meta|link|script)>/g, '<$1 data-rh="true">');
 
+        // Bouw headTags: title eenmalig (met fallback), rest uit extractedTags (geen duplicaten via helmet.*)
+        const nonTitleTags = extractedTags.filter(t => !/<title/i.test(t));
         const headTags = [
             addRh(titleTag),
-            addRh(helmet?.priority?.toString() || ''),
-            addRh(helmet?.meta?.toString() || ''),
-            addRh(helmet?.link?.toString() || ''),
-            addRh(helmet?.script?.toString() || ''),
-            ...extractedTags.map(addRh)
+            ...nonTitleTags.map(addRh)
         ].filter(Boolean).join('\n');
 
         const html = indexShellHtml
