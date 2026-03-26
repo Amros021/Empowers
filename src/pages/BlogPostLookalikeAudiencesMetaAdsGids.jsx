@@ -109,7 +109,7 @@ export default function BlogPostLookalikeAudiencesMetaAdsGids() {
                     {/* Content */}
                     <div className="prose prose-lg prose-headings:font-sans prose-headings:font-bold prose-headings:text-primary prose-p:font-sans prose-p:text-primary/80 prose-p:leading-relaxed max-w-none">
                         <p className="text-xl md:text-2xl font-medium leading-relaxed mb-10 text-primary">
-                            Lookalike audiences zijn je geheim wapen in Meta Ads. In plaats van mensen lukraak advertenties tonen, zoek je naar nieuwe klanten die vrijwel identiek zijn aan je bestaande klanten. Meta doet het zware werk: het analyzeert wie jouw klanten zijn en vindt duizenden andere mensen die op hen lijken. Het resultaat? Hogere conversiepercentages, lagere kosten per resultaat en meer omzet. Dit gaat veel verder dan zomaar je doelgroep verbreden.
+                            Lookalike audiences zijn je geheim wapen in <a href="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Meta Ads</a>. In plaats van mensen lukraak advertenties tonen, zoek je naar nieuwe klanten die vrijwel identiek zijn aan je bestaande klanten. Meta doet het zware werk: het analyzeert wie jouw klanten zijn en vindt duizenden andere mensen die op hen lijken. Het resultaat? Hogere conversiepercentages, lagere kosten per resultaat en meer omzet. Dit gaat veel verder dan zomaar je doelgroep verbreden.
                         </p>
 
                         <p>
@@ -117,7 +117,7 @@ export default function BlogPostLookalikeAudiencesMetaAdsGids() {
                         </p>
 
                         <p>
-                            Deze gids helpt je om lookalikes effectief in te zetten. Stap voor stap, van voorbereiding tot optimalisatie.
+                            Deze gids helpt je om lookalikes effectief in te zetten. Stap voor stap, van voorbereiding tot optimalisatie. Moderne marketing vereist een sterke <a href="/blogs/strategie" className="text-blue-700 underline hover:text-blue-900">strategie</a>.
                         </p>
 
                         <h2 className="text-3xl mt-16 mb-6">Wat is een lookalike audience eigenlijk?</h2>
@@ -136,13 +136,13 @@ export default function BlogPostLookalikeAudiencesMetaAdsGids() {
                             Voor kleine bedrijven zijn lookalikes goud. Hier zijn drie redenen waarom.
                         </p>
                         <p>
-                            <strong>Schaal voorbij je huidige netwerk.</strong> Als je 500 klanten hebt, heb je door organische groei niet veel contact met potentiële nieuwe klanten. Lookalikes brengen je direct in contact met minstens 500 tot 2000 nieuwe mensen die waarschijnlijk hetzelfde willen kopen als jouw huidige klanten. We zien dit bij onze klanten: een lookalike audience brengt gemiddeld 35 tot 50% meer conversies dan dezelfde budget op standaard doelgroepen.
+                            <strong>Schaal voorbij je huidige netwerk.</strong> Als je nu focust op <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads</a>, weet je dat dit model anders werkt.</strong> Als je 500 klanten hebt, heb je door organische groei niet veel contact met potentiële nieuwe klanten. Lookalikes brengen je direct in contact met minstens 500 tot 2000 nieuwe mensen die waarschijnlijk hetzelfde willen kopen als jouw huidige klanten. We zien dit bij onze klanten: een lookalike audience brengt gemiddeld 35 tot 50% meer conversies dan dezelfde budget op standaard doelgroepen. Lees meer tips in ons <a href="/blogs/meta-ads" className="text-blue-700 underline hover:text-blue-900">Meta Ads blog</a>.
                         </p>
                         <p>
-                            <strong>Lager kostprijzen.</strong> Omdat lookalikes al warm zijn, schiet je conversiepercentage omhoog. Waar je met standaard targeting €25 per conversie betaalt, betaal je met lookalikes soms €15 of €12. Dat scheelt flink als je iets verkoopt met lage marge. Een MKB dat met normaal targeting 200 conversies per maand krijgt, haalt met lookalikes makkelijk 270 tot 320. Bij dezelfde uitgaven.
+                            <strong>Lager kostprijzen.</strong> Omdat lookalikes al warm zijn (in tegenstelling tot koude <a href="/blogs/tracking" className="text-blue-700 underline hover:text-blue-900">tracking</a>), schiet je conversiepercentage omhoog. Waar je met standaard targeting €25 per conversie betaalt, betaal je met lookalikes soms €15 of €12. Dat scheelt flink als je iets verkoopt met lage marge. Een MKB dat met normaal targeting 200 conversies per maand krijgt, haalt met lookalikes makkelijk 270 tot 320. Bij dezelfde uitgaven.
                         </p>
                         <p>
-                            <strong>Meer controle over kwaliteit.</strong> Bij reguliere campagnes krijg je veel laagwaardige clicks. Bots, kijkers die niet serieus zijn, mensen met geen koopkracht. Lookalikes filteren dit eruit. Je brongroep bevat alleen jouw echte klanten. Die mensen zijn al gescreend op kwaliteit en koopkracht. Wie op hen lijkt, lijkt ook op echte kopers.
+                            <strong>Meer controle over kwaliteit.</strong> Bij reguliere campagnes krijg je veel laagwaardige clicks. Bots, kijkers die niet serieus zijn, mensen met geen koopkracht. Lookalikes filteren dit eruit. Je brongroep bevat alleen jouw echte klanten. Die mensen zijn al gescreend op kwaliteit en koopkracht. Wie op hen lijkt, lijkt ook op echte kopers. Dit is vergelijkbaar met hoe <a href="/diensten/seo" className="text-blue-700 underline hover:text-blue-900">SEO</a> werkt: je focust op gebruikers met echte intentie.
                         </p>
 
                         <h2 className="text-3xl mt-16 mb-6">Stap 1: Kies je brongroep goed</h2>
@@ -209,16 +209,16 @@ export default function BlogPostLookalikeAudiencesMetaAdsGids() {
 
                         <h2 className="text-3xl mt-16 mb-6">Stap 5: Optimaliseer je lookalike audience</h2>
                         <p>
-                            Na de testfase begint de echte optimalisatie.
+                            Na de testfase begint de echte <a href="/blogs/strategie" className="text-blue-700 underline hover:text-blue-900">optimalisatie</a>.
                         </p>
                         <p>
                             <strong>Test verschillende grootteklassen tegelijk.</strong> Draai dezelfde advertentie op een 1%-lookalike, een 3%-lookalike en een 5%-lookalike. Zet ze in aparte ad sets zodat je de performance apart kan meten. Na twee tot drie weken zie je welke grootteklasse het beste presteert. Meestal is dat 1-2%, maar niet altijd. Bij sommige klanten presteert 3% beter. Focus op wat werkelijk omzet geeft.
                         </p>
                         <p>
-                            <strong>Update je brongroep regelmatig.</strong> Meta's algoritmes verbeteren constant. Een lookalike gemaakt met dezelfde brongroep volgende week is anders dan deze week. Dit is goed. Wis je oude lookalike na een maand en maak een nieuwe van dezelfde brongroep. De nieuwe is bijna altijd beter. Dit noemen we "refreshing your audience". Bij veel transacties (je hebt veel nieuwe klanten) refresh je wekelijks. Bij stabiele bedrijven volstaat maandelijks.
+                            <strong>Update je brongroep regelmatig.</strong> <a href="/blogs/ai-digitale-marketing" className="text-blue-700 underline hover:text-blue-900">Meta's algoritmes verbeteren constant</a>. Een lookalike gemaakt met dezelfde brongroep volgende week is anders dan deze week. Dit is goed. Wis je oude lookalike na een maand en maak een nieuwe van dezelfde brongroep. De nieuwe is bijna altijd beter. Dit noemen we "refreshing your audience". Bij veel transacties (je hebt veel nieuwe klanten) refresh je wekelijks. Bij stabiele bedrijven volstaat maandelijks.
                         </p>
                         <p>
-                            <strong>Combineer lookalikes met retargeting.</strong> Veel bedrijven zien lookalikes als vervanging van retargeting. Fout. Lookalikes halen koude traffic. Retargeting warmt mensen op die al geïnteresseerd zijn. De beste strategie: 60% van je budget naar lookalikes, 40% naar retargeting. Bij onze klanten zien we dat deze combinatie 25 tot 35% meer conversies oplevert dan lookalikes alleen.
+                            <strong>Combineer lookalikes met retargeting.</strong> Veel bedrijven zien lookalikes als vervanging van retargeting. Fout. Ze maken dezelfde fout als met <a href="/blogs/google-ads-vs-seo-wat-werkt-beter" className="text-blue-700 underline hover:text-blue-900">Google Ads versus andere kanalen</a>. Lookalikes halen koude traffic. Retargeting warmt mensen op die al geïnteresseerd zijn. De beste strategie: 60% van je budget naar lookalikes, 40% naar retargeting. Bij onze klanten zien we dat deze combinatie 25 tot 35% meer conversies oplevert dan lookalikes alleen.
                         </p>
                         <p>
                             <strong>Maak meerdere lookalikes van verschillende brongroepen.</strong> Heb je geld voor verschillende lookalikes? Maak er minstens twee. Eén van je best presterende klanten (premium lookalike) en één van je complete klantenlijst (volume lookalike). Test ze tegen elkaar. De premium lookalike is warmer maar kleiner. De volume lookalike is groter maar minder puur. Beiden hebben hun plaats.
@@ -267,7 +267,7 @@ export default function BlogPostLookalikeAudiencesMetaAdsGids() {
 
                         <h3 className="text-xl font-bold mb-2">Fout 3: Je verwarrt lookalikes met zomaar targeting</h3>
                         <p>
-                            Je denkt dat een lookalike perfect is en je vergeet dat de creatieve content nog steeds de grootste rol speelt. Een perfecte lookalike met slechte advertenties presteert niet. Een gemiddelde lookalike met sterke advertenties presteert beter. Test dus eerst je advertenties op een bekend goed doelgroep voordat je ze op nieuwe lookalikes zet. Ook: vergeet je retargeting niet. Alleen lookalikes, geen retargeting, geeft minder omzet dan de combinatie.
+                            Je denkt dat een lookalike perfect is en je vergeet dat de creatieve content nog steeds de grootste rol speelt. Een perfecte lookalike met slechte advertenties presteert niet. Een gemiddelde lookalike met sterke advertenties presteert beter. Test dus eerst je advertenties op een bekend goed doelgroep voordat je ze op nieuwe lookalikes zet. Ook: vergeet je retargeting niet. Alleen lookalikes, geen retargeting, geeft minder omzet dan de combinatie. Dit geldt overigens voor alle social ads-kanalen, inclusief <a href="/blogs/tiktok-ads" className="text-blue-700 underline hover:text-blue-900">TikTok Ads</a>.
                         </p>
 
                         <hr className="my-16 border-primary/10" />

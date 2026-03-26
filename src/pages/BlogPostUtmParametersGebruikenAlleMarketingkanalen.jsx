@@ -113,11 +113,11 @@ export default function BlogPostUtmParametersGebruikenAlleMarketingkanalen() {
                         </p>
 
                         <p>
-                            Veel bedrijven geven geld uit aan Google Ads, Facebook, email-marketing en social media, maar ze hebben geen idee welk kanaal werkelijk werkt. Als je geen UTM-parameters gebruikt, toont Google Analytics veel traffic als "direct" of "organic", wat betekent dat je de echte bron niet weet. UTM-parameters lossen dit op. Ze kosten niets en nemen twee minuten per link in beslag, maar geven je inzichten waard duizenden euro's aan marketing-optimalisatie.
+                            Veel bedrijven geven geld uit aan <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads</a>, <a href="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Facebook</a>, email-marketing en social media, maar ze hebben geen idee welk kanaal werkelijk werkt. Als je geen UTM-parameters gebruikt, toont Google Analytics veel traffic als "direct" of "organic", wat betekent dat je de echte bron niet weet. UTM-parameters lossen dit op. Ze kosten niets en nemen twee minuten per link in beslag, maar geven je inzichten waard duizenden euro's aan marketing-optimalisatie.
                         </p>
 
                         <p>
-                            We zien dit continu bij onze klanten. Een bedrijf geeft 5.000 euro per maand aan marketing uit, maar ziet geen verband tussen de uitgegeven budget en de binnenkomende leads. Ze draaien campagnes en hopen dat het werkt. UTM-parameters veranderen dit volledig. Ineens zie je dat je Google Ads-traffic 3 keer beter converteert dan je social media-traffic. Of dat je nieuwsbrief meer omzet opbrengt dan je verwachtte. Deze inzichten zijn goud waard en helpen je direct je budget beter in te zetten.
+                            We zien dit continu bij onze klanten. Een bedrijf geeft 5.000 euro per maand aan marketing uit, maar ziet geen verband tussen de uitgegeven budget en de binnenkomende leads. Ze draaien campagnes en hopen dat het werkt. UTM-parameters veranderen dit volledig. Ineens zie je dat je <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads-traffic</a> 3 keer beter converteert dan je social media-traffic. Of dat je nieuwsbrief meer omzet opbrengt dan je verwachtte. Deze inzichten zijn goud waard en helpen je direct je budget beter in te zetten.
                         </p>
 
                         <h2 className="text-3xl mt-16 mb-6">Wat zijn UTM-parameters en hoe werken ze?</h2>
@@ -155,7 +155,7 @@ export default function BlogPostUtmParametersGebruikenAlleMarketingkanalen() {
                             We merken in de praktijk dat bedrijven zonder UTM-tracking gemiddeld 30 tot 40% van hun marketing-budget verspillen op kanalen die niet converteren. Ze zien bezoek, maar geen leads of omzet. Met UTM-parameters krijg je duidelijkheid. Je ziet welke campagne het meeste omzet opbracht, welke advertentie het goedkoopste klanten aantrekt, en welk kanaal de beste return on investment geeft. Dit soort inzichten veranderen je hele marketing-aanpak.
                         </p>
                         <p>
-                            Concreet: stel je geeft 2.000 euro per maand uit aan marketing. Zonder UTM's weet je niet of je Facebook-budget beter werkt dan Google Ads. Met UTM's zie je dat Google Ads bijvoorbeeld 8 leads oplevert tegen 150 euro per lead, terwijl Facebook 3 leads geeft tegen 350 euro per lead. Je kunt je budget direct heroriënteren: meer naar Google Ads, minder naar Facebook. Dat scheelt honderden euro's per maand. Over een jaar kan dat 5.000 tot 10.000 euro zijn. Geld dat je kan investeren in andere zaken of als extra winstmarge houden.
+                            Concreet: stel je geeft 2.000 euro per maand uit aan marketing. Zonder UTM's weet je niet of je <a href="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Facebook-budget</a> beter werkt dan <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads</a>. Met UTM's zie je dat Google Ads bijvoorbeeld 8 leads oplevert tegen 150 euro per lead, terwijl Facebook 3 leads geeft tegen 350 euro per lead. Je kunt je budget direct heroriënteren: meer naar Google Ads, minder naar Facebook. Dat scheelt honderden euro's per maand. Over een jaar kan dat 5.000 tot 10.000 euro zijn. Geld dat je kan investeren in andere zaken of als extra winstmarge houden.
                         </p>
                         <p>
                             Voor grotere campagnes, zoals een sales-push of product launch, is het nog belangrijker. Je kunt exacte ROI berekenen per kanaal, per advertentie, zelfs per doelgroep. UTM's maken je marketing transparent en data-driven. Je weet niet alleen wat werkt, je weet ook waarom het werkt en welke elementen je kan verbeteren.
@@ -231,10 +231,10 @@ export default function BlogPostUtmParametersGebruikenAlleMarketingkanalen() {
 
                         <h3 className="text-xl font-bold mb-2">Stap 4: Zorg voor consistentie in je advertentieplatformen</h3>
                         <p>
-                            Bij Google Ads kun je UTM-parameters handmatig aan je landing page URL toevoegen. Zorg dat je dezelfde parameters gebruikt als in je tracking sheet. Let op: Google Ads heeft ook een "auto-tagging" feature. Je kunt beide combineren: Google doet zijn eigen tagging (wat data oplevert), en jij voegt UTM-parameters toe (voor extra details).
+                            Bij <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads</a> kun je UTM-parameters handmatig aan je landing page URL toevoegen. Zorg dat je dezelfde parameters gebruikt als in je tracking sheet. Let op: Google Ads heeft ook een "auto-tagging" feature. Je kunt beide combineren: Google doet zijn eigen tagging (wat data oplevert), en jij voegt UTM-parameters toe (voor extra details).
                         </p>
                         <p>
-                            Bij Facebook Ads werkt het anders. Facebook gebruikt z'n eigen tracking pixels. Maar je kunt ook hier UTM-parameters toevoegen aan je links in je advertenties. Dit helpt je om meer details in je eigen analytics te zien.
+                            Bij <a href="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Facebook Ads</a> werkt het anders. Facebook gebruikt z'n eigen tracking pixels. Maar je kunt ook hier UTM-parameters toevoegen aan je links in je advertenties. Dit helpt je om meer details in je eigen analytics te zien.
                         </p>
                         <p>
                             Voor email-marketing: zet UTM-parameters op elke link in je nieuwsbrief. Zo zie je welke email-campagnes werkelijk clicks en conversies opleveren. Voorbeeld: <code>utm_source=newsletter&utm_medium=email&utm_campaign=maart-aanbieding</code>.
@@ -242,7 +242,7 @@ export default function BlogPostUtmParametersGebruikenAlleMarketingkanalen() {
 
                         <h3 className="text-xl font-bold mb-2">Stap 5: Stel goed in Google Analytics in</h3>
                         <p>
-                            Zorg dat Google Analytics goed gekoppeld is aan je website. Voor Google Analytics 4 (GA4) geldt: UTM-parameters worden automatisch ingelezen. Je hoeft niks extra in te stellen. In je GA4-dashboard ga je naar "Acquisition" en daar zie je onder "Traffic acquisition" een volledig overzicht van je source/medium/campaign-combinaties.
+                            Zorg dat Google Analytics goed gekoppeld is aan je website. Voor Google Analytics 4 (GA4) geldt: UTM-parameters worden automatisch ingelezen. Je hoeft niks extra in te stellen. In je GA4-dashboard ga je naar "Acquisition" en daar zie je onder "Traffic acquisition" een volledig overzicht van je source/medium/campaign-combinaties. Dit is waar je <a href="/diensten/tracking" className="text-blue-700 underline hover:text-blue-900">tracking-strategie</a> werkelijk tot leven komt.
                         </p>
                         <p>
                             Tip: maak filters en aangepaste rapporten aan zodat je alleen relevante data ziet. Bijvoorbeeld: welke campagnes hebben de hoogste conversion rate? Welk medium geeft de laagste cost per conversion?
@@ -258,7 +258,7 @@ export default function BlogPostUtmParametersGebruikenAlleMarketingkanalen() {
 
                         <h3 className="text-xl font-bold mb-2">Stap 7: Integratie met je CRM of verkoopteam</h3>
                         <p>
-                            Als je al wat verder bent, koppel je je analytics-data aan je CRM. Zo kan je verkoopteam zien via welk kanaal en campagne een lead binnenkomt. Dit helpt enorm. Je verkopers weten dat Facebook-leads minder gekwalificeerd zijn en dat ze anders moeten aanpakken dan Google Ads-leads. Of andersom.
+                            Als je al wat verder bent, koppel je je analytics-data aan je CRM. Zo kan je verkoopteam zien via welk kanaal en campagne een lead binnenkomt. Dit helpt enorm. Je verkopers weten dat <a href="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Facebook-leads</a> minder gekwalificeerd zijn en dat ze anders moeten aanpakken dan <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads-leads</a>. Of andersom.
                         </p>
                         <p>
                             Bij sommige klanten zien we dat bepaalde kanalen veel bezoekers brengen, maar weinig leads. Dit zou slecht zijn, maar bij nadere analyse blijkt het kanaal wel veel hogewaardige toekomstige klanten aan te trekken. Die zien de advertentie, gaan weg, komen later terug en converteren pas dan. Zonder UTM's zou je dit nooit zien. Met UTM's plus CRM-data krijg je dit soort nuances in beeld.
@@ -301,7 +301,7 @@ export default function BlogPostUtmParametersGebruikenAlleMarketingkanalen() {
                         <div className="bg-accent/5 rounded-3xl p-8 md:p-12 my-12 border border-accent/10">
                             <h3 className="text-2xl font-bold text-primary mb-4 mt-0">Wil je gelijk zien welke kanalen echt werken?</h3>
                             <p className="mb-6">
-                                Veel bedrijven hebben UTM-parameters ingesteld, maar weten niet hoe ze hun data moeten lezen. We helpen je om je marketing-data juist in te zetten. Bekijk onze diensten op het gebied van <Link to="/diensten" className="text-accent hover:underline">marketing-tracking</Link> of plan een gratis gesprek. We kijken samen naar jouw huidige data en laten zien waar je kansen liggen.
+                                Veel bedrijven hebben UTM-parameters ingesteld, maar weten niet hoe ze hun data moeten lezen. We helpen je om je marketing-data juist in te zetten. Bekijk onze <a href="/diensten/tracking" className="text-blue-700 underline hover:text-blue-900">tracking-diensten</a> of plan een gratis <Link to="/contact" className="text-accent hover:underline">gesprek met onze experts</Link>. We kijken samen naar jouw huidige data en laten zien waar je kansen liggen.
                             </p>
                             <div className="flex flex-wrap gap-4">
                                 <Link to="/contact" className="btn-magnetic bg-accent text-white px-6 py-3 rounded-full font-bold text-sm hover:bg-accent/90 transition-colors inline-block no-underline">
