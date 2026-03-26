@@ -15,6 +15,7 @@ import BlogPostSeo from './pages/BlogPostSeo';
 import BlogPostGoogleAds from './pages/BlogPostGoogleAds';
 import BlogPostStrategie from './pages/BlogPostStrategie';
 import BlogPostAlgemeen from './pages/BlogPostAlgemeen';
+import BlogPostGoogleAdsVsSeoWerkt from './pages/BlogPostGoogleAdsVsSeoWerkt';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -98,6 +99,7 @@ function App() {
         <Route path="/blogs/google-ads/google-ads-voor-mkb-campagne-instellen" element={<BlogPostGoogleAds />} />
         <Route path="/blogs/strategie/online-marketing-strategie-mkb" element={<BlogPostStrategie />} />
         <Route path="/blogs/algemeen/zelf-adverteren-of-uitbesteden" element={<BlogPostAlgemeen />} />
+        <Route path="/blogs/algemeen/google-ads-vs-seo-werkt" element={<BlogPostGoogleAdsVsSeoWerkt />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
