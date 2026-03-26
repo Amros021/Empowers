@@ -112,85 +112,85 @@ export default function BlogPostOptimaliseerContentGoogleAiOverviews() {
                             Google AI Overviews zijn de AI-gegenereerde antwoorden die bovenaan de zoekresultaten verschijnen. Ze worden getoond bij steeds meer zoekopdrachten en bepalen of iemand doorklikt naar jouw website of niet. Als jouw content niet in dat antwoord staat, mis je verkeer. In dit artikel lees je precies hoe je jouw pagina's zo schrijft dat Google jou als bron noemt.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat zijn Google AI Overviews?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat zijn Google AI Overviews?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google AI Overviews zijn samenvattingen die Google genereert met behulp van zijn Gemini AI-model. Wanneer iemand een vraag stelt in Google, verschijnt er bovenaan een blok met een direct antwoord. Dat antwoord bevat bronverwijzingen naar de websites waar Google de informatie vandaan haalt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             In 2026 werden AI Overviews uitgerold naar meer dan 100 landen. In Nederland zijn ze inmiddels zichtbaar bij een groot deel van de informatieve zoekopdrachten. Het gaat niet alleen om simpele vragen. Ook bij vergelijkingen, stappenplannen en complexe onderwerpen toont Google AI-antwoorden.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het verschil met de oude featured snippets is groot. AI Overviews combineren informatie uit meerdere bronnen tot een samenhangend verhaal. Ze nemen meer ruimte in op de pagina en trekken meer aandacht. Voor bedrijven betekent dit: wie erin staat, wint. Wie er niet in staat, wordt minder zichtbaar.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Waarom zijn AI Overviews belangrijk voor jouw bedrijf?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom zijn AI Overviews belangrijk voor jouw bedrijf?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Uit onderzoek van Authoritas blijkt dat websites die als bron worden genoemd in een AI Overview gemiddeld 12 tot 18% meer klikken krijgen dan vergelijkbare posities in de standaard zoekresultaten. Dat is logisch: je naam staat letterlijk in het antwoord dat de zoeker als eerste ziet.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We merken bij onze klanten dat AI Overviews vooral effect hebben bij informatieve zoekopdrachten. Denk aan vragen als "wat kost Google Ads voor een webshop" of "hoe werkt retargeting via Meta". De ondernemer die het antwoord geeft, wordt de vertrouwde bron. En vertrouwen leidt tot klikken, leads en uiteindelijk omzet.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het werkt ook andersom. Als je concurrent wel in een AI Overview staat en jij niet, verlies je zichtbaarheid. Bij onze klanten zien we dat bedrijven die actief aan <Link to="/geo" className="text-accent hover:underline">GEO</Link> werken gemiddeld 25% meer organisch verkeer halen uit informatieve zoekopdrachten dan bedrijven die dat niet doen.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe schrijf je content die in AI Overviews verschijnt?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe schrijf je content die in AI Overviews verschijnt?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Er is geen magische truc. Maar er zijn wel concrete stappen die je kans flink vergroten. Hier zijn de zes belangrijkste.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">1. Beantwoord de zoekvraag in de eerste 40 tot 60 woorden</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">1. Beantwoord de zoekvraag in de eerste 40 tot 60 woorden</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google AI Overviews halen het liefst informatie uit content die direct antwoord geeft. Begin je pagina niet met een lang verhaal over je bedrijf of de geschiedenis van het onderwerp. Start met het antwoord. Een pagina over "wat kost SEO voor MKB" moet in de eerste twee zinnen al een concreet bedrag noemen. Vergelijk het met een gesprek: als iemand je iets vraagt, geef je eerst het antwoord en daarna de uitleg.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">2. Gebruik vraag-koppen als H2 en H3</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">2. Gebruik vraag-koppen als H2 en H3</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Schrijf je tussenkoppen als vragen die jouw doelgroep daadwerkelijk stelt. Niet "Budgetplanning voor Google Ads" maar "Hoeveel budget heb je nodig voor Google Ads?". Google herkent deze vragen en koppelt ze direct aan zoekopdrachten. Bij onze klanten zien we dat pagina's met vraag-koppen tot 35% vaker worden geciteerd in AI Overviews dan pagina's met beschrijvende koppen.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">3. Maak elke sectie zelfstandig leesbaar</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">3. Maak elke sectie zelfstandig leesbaar</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             AI Overviews citeren losse stukken van je pagina, niet het hele artikel. Elke sectie moet daarom op zichzelf kloppen. Vermijd verwijzingen als "zoals hierboven beschreven" of "dit punt". Schrijf elke kop plus tekst alsof het een los antwoord is. Dat klinkt misschien onnatuurlijk, maar het is precies hoe AI-modellen content verwerken en selecteren.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">4. Voeg FAQ-schema markup toe aan je pagina</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">4. Voeg FAQ-schema markup toe aan je pagina</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Pagina's met FAQPage-schema worden aanzienlijk vaker opgenomen in AI Overviews. Het schema vertelt Google exact welke vragen en antwoorden op je pagina staan. Het is relatief simpele code die je webontwikkelaar in een uurtje kan toevoegen. Het effect is meetbaar: we zien bij klanten die FAQ-schema toevoegen een stijging van 40 tot 60% in AI Overview-vermeldingen binnen 4 weken.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">5. Noem concrete cijfers, bedragen en tijdslijnen</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">5. Noem concrete cijfers, bedragen en tijdslijnen</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google geeft voorkeur aan feitelijke content boven vage beschrijvingen. "Een Google Ads campagne kost gemiddeld 500 tot 1500 euro per maand voor MKB" is beter dan "de kosten zijn variabel en afhankelijk van diverse factoren". Cijfers maken je content citeerbaarder. AI-modellen zoeken naar specifieke feiten die ze kunnen doorvertellen aan de zoeker.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">6. Schrijf vanuit echte ervaring</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">6. Schrijf vanuit echte ervaring</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google's E-E-A-T richtlijnen beoordelen of content geschreven is door iemand met ervaring. Verwerk zinnen als "bij onze klanten zien we dat..." of "een webshop die we begeleidden ging van...". Dit geeft je content geloofwaardigheid die zowel Google als de lezer waardeert. Een blogpost met ervaringszinnen scoort beter dan dezelfde tekst zonder.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Welke fouten moet je vermijden?</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Welke fouten moet je vermijden?</h2>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 1: je begint met een lang verhaal voor je het antwoord geeft</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 1: je begint met een lang verhaal voor je het antwoord geeft</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Veel bedrijfsblogs beginnen met drie alinea's context voor ze bij het punt komen. AI Overviews hebben daar geen geduld voor. Als het antwoord niet in de eerste 60 woorden staat, pakt Google een andere bron. Begin altijd met het antwoord. De context komt daarna.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 2: je schrijft voor zoekmachines in plaats van voor mensen</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 2: je schrijft voor zoekmachines in plaats van voor mensen</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Keyword stuffing werkte in 2015. In 2026 herkent Google AI onnatuurlijke tekst en slaat die over. Schrijf zoals je praat. Gebruik je keyword op natuurlijke plekken: in de titel, in de eerste alinea, in een paar tussenkoppen. Maar forceer het niet. Content die prettig leest, wordt vaker geciteerd dan content die alleen technisch goed scoort.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 3: je hebt geen gestructureerde data op je pagina</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 3: je hebt geen gestructureerde data op je pagina</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Zonder schema markup moet Google zelf uitzoeken wat je pagina betekent. Met schema vertel je het expliciet. Het verschil in AI Overview-vermeldingen tussen pagina's met en zonder schema is groot. Voeg minimaal Article-schema en FAQ-schema toe aan elke blogpagina. Het kost weinig tijd en het effect is direct meetbaar.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe verhoudt dit zich tot SEO en GEO?</h2>
-                        <p>
-                            AI Overviews zijn een onderdeel van de bredere <Link to="/geo" className="text-accent hover:underline">GEO-strategie</Link>. Waar <a href="/blogs/geo/chatgpt-bedrijf-aanbeveelt" className="text-blue-700 underline hover:text-blue-900">GEO zich richt op alle AI-tools</a> (ChatGPT, Perplexity, Claude, Google Gemini), zijn AI Overviews specifiek het stuk dat binnen Google zelf draait. De technieken overlappen grotendeels: directe antwoorden, gestructureerde data, feitelijke content en autoriteitsopbouw.
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe verhoudt dit zich tot SEO en GEO?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            AI Overviews zijn een onderdeel van de bredere <Link to="/geo" className="text-accent hover:underline">GEO-strategie</Link>. Waar <a href="/blogs/geo/chatgpt-bedrijf-aanbeveelt" className="text-accent hover:underline">GEO zich richt op alle AI-tools</a> (ChatGPT, Perplexity, Claude, Google Gemini), zijn AI Overviews specifiek het stuk dat binnen Google zelf draait. De technieken overlappen grotendeels: directe antwoorden, gestructureerde data, feitelijke content en autoriteitsopbouw.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het mooie is dat alles wat je doet voor AI Overviews ook je reguliere <Link to="/seo" className="text-accent hover:underline">SEO</Link> versterkt. Betere contentstructuur, FAQ-schema en directe antwoorden helpen je ook in de standaard zoekresultaten. Je investeert in twee kanalen tegelijk. En wie het slim aanpakt, ziet dat terug in meer verkeer, meer leads en meer omzet.
                         </p>
 
@@ -211,7 +211,7 @@ export default function BlogPostOptimaliseerContentGoogleAiOverviews() {
 
                         <hr className="my-16 border-primary/10" />
 
-                        <h2 className="text-3xl mb-8">Veelgestelde vragen over content voor Google AI Overviews</h2>
+                        <h2 className="text-3xl font-bold text-primary mb-8">Veelgestelde vragen over content voor Google AI Overviews</h2>
 
                         <div className="space-y-6 not-prose">
                             <div className="border border-primary/10 rounded-xl p-6">
@@ -228,7 +228,7 @@ export default function BlogPostOptimaliseerContentGoogleAiOverviews() {
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Moet ik mijn SEO-strategie aanpassen voor AI Overviews?</h3>
-                                <p className="font-sans text-primary/70 leading-relaxed">Je hoeft je <a href="/diensten/seo" className="text-blue-700 underline hover:text-blue-900">SEO</a> niet te vervangen, maar wel aan te vullen. De basis blijft hetzelfde: goede content, technische gezondheid en relevante backlinks. Wat je toevoegt is directe antwoorden bovenaan je pagina's, FAQ-schema markup en content die zelfstandig leesbaar is per sectie. Die aanpassingen helpen zowel bij AI Overviews als bij je reguliere zoekposities.</p>
+                                <p className="font-sans text-primary/70 leading-relaxed">Je hoeft je <a href="/seo" className="text-accent hover:underline">SEO</a> niet te vervangen, maar wel aan te vullen. De basis blijft hetzelfde: goede content, technische gezondheid en relevante backlinks. Wat je toevoegt is directe antwoorden bovenaan je pagina's, FAQ-schema markup en content die zelfstandig leesbaar is per sectie. Die aanpassingen helpen zowel bij AI Overviews als bij je reguliere zoekposities.</p>
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Werkt FAQ-schema markup echt voor AI Overviews?</h3>

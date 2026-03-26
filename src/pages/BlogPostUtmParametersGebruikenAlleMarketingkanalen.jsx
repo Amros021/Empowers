@@ -112,31 +112,31 @@ export default function BlogPostUtmParametersGebruikenAlleMarketingkanalen() {
                             UTM-parameters zijn kleine toevoegingen aan je URL waarmee je precies ziet welke marketingkanaal, campagne en bron bezoekers naar je website brengen. Met UTM's krijg je volledig inzicht in welke kanalen werkelijk conversies opleveren. Zonder ze werkt je marketing grotendeels in het donker.
                         </p>
 
-                        <p>
-                            Veel bedrijven geven geld uit aan <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads</a>, <a href="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Facebook</a>, email-marketing en social media, maar ze hebben geen idee welk kanaal werkelijk werkt. Als je geen UTM-parameters gebruikt, toont Google Analytics veel traffic als "direct" of "organic", wat betekent dat je de echte bron niet weet. UTM-parameters lossen dit op. Ze kosten niets en nemen twee minuten per link in beslag, maar geven je inzichten waard duizenden euro's aan marketing-optimalisatie.
+                        <p className="text-primary/80 leading-relaxed mb-4">
+                            Veel bedrijven geven geld uit aan <a href="/google-ads" className="text-accent hover:underline">Google Ads</a>, <a href="/meta-ads" className="text-accent hover:underline">Facebook</a>, email-marketing en social media, maar ze hebben geen idee welk kanaal werkelijk werkt. Als je geen UTM-parameters gebruikt, toont Google Analytics veel traffic als "direct" of "organic", wat betekent dat je de echte bron niet weet. UTM-parameters lossen dit op. Ze kosten niets en nemen twee minuten per link in beslag, maar geven je inzichten waard duizenden euro's aan marketing-optimalisatie.
                         </p>
 
-                        <p>
-                            We zien dit continu bij onze klanten. Een bedrijf geeft 5.000 euro per maand aan marketing uit, maar ziet geen verband tussen de uitgegeven budget en de binnenkomende leads. Ze draaien campagnes en hopen dat het werkt. UTM-parameters veranderen dit volledig. Ineens zie je dat je <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads-traffic</a> 3 keer beter converteert dan je social media-traffic. Of dat je nieuwsbrief meer omzet opbrengt dan je verwachtte. Deze inzichten zijn goud waard en helpen je direct je budget beter in te zetten.
+                        <p className="text-primary/80 leading-relaxed mb-4">
+                            We zien dit continu bij onze klanten. Een bedrijf geeft 5.000 euro per maand aan marketing uit, maar ziet geen verband tussen de uitgegeven budget en de binnenkomende leads. Ze draaien campagnes en hopen dat het werkt. UTM-parameters veranderen dit volledig. Ineens zie je dat je <a href="/google-ads" className="text-accent hover:underline">Google Ads-traffic</a> 3 keer beter converteert dan je social media-traffic. Of dat je nieuwsbrief meer omzet opbrengt dan je verwachtte. Deze inzichten zijn goud waard en helpen je direct je budget beter in te zetten.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat zijn UTM-parameters en hoe werken ze?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat zijn UTM-parameters en hoe werken ze?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             UTM staat voor "Urchin Tracking Module". Het is een standaard die Google Analytics gebruikt om verkeer te tracken. Een UTM-parameter is simpelweg een klein stukje code dat je aan het einde van een URL toevoegt. Deze parameters werken als een tag die je aan je link hangt, zodat Google Analytics exact weet waar die link vandaan komt en welke campagne eraan gekoppeld is.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Normaal ziet een link er zo uit: <code>https://www.jouwsite.nl/producten</code>
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Met UTM-parameters ziet het er zo uit: <code>https://www.jouwsite.nl/producten?utm_source=facebook&utm_medium=cpc&utm_campaign=lente-2026</code>
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Die toevoeging vertelt Google Analytics drie dingen: van waar komt het bezoek (facebook), via welk medium (betaalde advertentie), en wat is de campagne (lente-2026). Zo weet je later in je analytics precies waar die bezoeker vandaan kwam. Je ziet niet alleen het aantal clicks, maar ook welke clickers daadwerkelijk iets kopen, inschrijven of belangstelling tonen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Het systeem werkt heel simpel. Als iemand op je advertentie klikt en de URL heeft UTM-parameters, stuurt Google Analytics deze data door naar je dashboard. Je hoeft niks anders in te stellen. Het gebeurt automatisch. Dit maakt UTM-parameters een van de meest krachtige maar eenvoudige tools voor marketers.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Er zijn vijf mogelijke UTM-parameters. De eerste drie zijn essentieel:
                         </p>
                         <ul className="space-y-4 my-8 pl-6 list-disc marker:text-accent">
@@ -147,30 +147,30 @@ export default function BlogPostUtmParametersGebruikenAlleMarketingkanalen() {
                             <li><strong>utm_term:</strong> (optioneel) Het keyword. Vooral voor Google Ads relevant.</li>
                         </ul>
 
-                        <h2 className="text-3xl mt-16 mb-6">Waarom zijn UTM-parameters onmisbaar voor MKB's?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom zijn UTM-parameters onmisbaar voor MKB's?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Voor veel MKB's is het marketing-budget beperkt. Dat betekent dat elke euro moet tellen. Zonder UTM-tracking weet je niet welk kanaal echt werkt, dus verspil je geld aan kanalen die niks opleveren. Dit is niet alleen jammer, het is zelfs gevaarlijk. Je competitors doen wel UTM-tracking en optimaliseren hun budget veel beter dan jij.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             We merken in de praktijk dat bedrijven zonder UTM-tracking gemiddeld 30 tot 40% van hun marketing-budget verspillen op kanalen die niet converteren. Ze zien bezoek, maar geen leads of omzet. Met UTM-parameters krijg je duidelijkheid. Je ziet welke campagne het meeste omzet opbracht, welke advertentie het goedkoopste klanten aantrekt, en welk kanaal de beste return on investment geeft. Dit soort inzichten veranderen je hele marketing-aanpak.
                         </p>
-                        <p>
-                            Concreet: stel je geeft 2.000 euro per maand uit aan marketing. Zonder UTM's weet je niet of je <a href="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Facebook-budget</a> beter werkt dan <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads</a>. Met UTM's zie je dat Google Ads bijvoorbeeld 8 leads oplevert tegen 150 euro per lead, terwijl Facebook 3 leads geeft tegen 350 euro per lead. Je kunt je budget direct heroriënteren: meer naar Google Ads, minder naar Facebook. Dat scheelt honderden euro's per maand. Over een jaar kan dat 5.000 tot 10.000 euro zijn. Geld dat je kan investeren in andere zaken of als extra winstmarge houden.
+                        <p className="text-primary/80 leading-relaxed mb-4">
+                            Concreet: stel je geeft 2.000 euro per maand uit aan marketing. Zonder UTM's weet je niet of je <a href="/meta-ads" className="text-accent hover:underline">Facebook-budget</a> beter werkt dan <a href="/google-ads" className="text-accent hover:underline">Google Ads</a>. Met UTM's zie je dat Google Ads bijvoorbeeld 8 leads oplevert tegen 150 euro per lead, terwijl Facebook 3 leads geeft tegen 350 euro per lead. Je kunt je budget direct heroriënteren: meer naar Google Ads, minder naar Facebook. Dat scheelt honderden euro's per maand. Over een jaar kan dat 5.000 tot 10.000 euro zijn. Geld dat je kan investeren in andere zaken of als extra winstmarge houden.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Voor grotere campagnes, zoals een sales-push of product launch, is het nog belangrijker. Je kunt exacte ROI berekenen per kanaal, per advertentie, zelfs per doelgroep. UTM's maken je marketing transparent en data-driven. Je weet niet alleen wat werkt, je weet ook waarom het werkt en welke elementen je kan verbeteren.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Een ander voordeel: je krijgt meer controle over je marketing-strategie. In plaats van blind hopen dat je ads werken, weet je precies welke combinatie van kanaal, timing en boodschap je ideale klant bereikt. Dit soort data geeft je concurrentievoordeel.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stappenplan: UTM-parameters implementeren</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stappenplan: UTM-parameters implementeren</h2>
 
-                        <h3 className="text-xl font-bold mb-2">Stap 1: Bepaal je UTM-naamconventie</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Stap 1: Bepaal je UTM-naamconventie</h3>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Dit is de basis. Voor je begint links te maken, zet je op papier hoe je je UTM-parameters noemt. Iedereen in je team moet dezelfde afspraken hanteren, anders krijg je conflicterende data.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Voorbeeld van een goede naamconventie:
                         </p>
                         <ul className="space-y-3 my-6 pl-6 list-disc marker:text-accent">
@@ -179,15 +179,15 @@ export default function BlogPostUtmParametersGebruikenAlleMarketingkanalen() {
                             <li><strong>utm_campaign:</strong> beschrijvend en korte naam. Geen speciale tekens. Voorbeelden: lente-sale-2026, webinar-april, black-friday.</li>
                             <li><strong>utm_content:</strong> als je meerdere creatieve varianten test. Voorbeeld: banner-1, banner-2, video-30sec.</li>
                         </ul>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Zet deze afspraken in een document dat iedereen die links maakt kan raadplegen. Dit scheelt fouten en zorgt dat je data schoon blijft.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Stap 2: Maak een tracking sheet aan</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Stap 2: Maak een tracking sheet aan</h3>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Een simple Excel- of Google Sheets-bestand waarin je alle campagnes en hun UTM-parameters vastlegt. Dit dient meerdere doelen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Kolommen in je sheet:
                         </p>
                         <ul className="space-y-3 my-6 pl-6 list-disc marker:text-accent">
@@ -202,18 +202,18 @@ export default function BlogPostUtmParametersGebruikenAlleMarketingkanalen() {
                             <li>Budget</li>
                             <li>Opmerkingen</li>
                         </ul>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Dit bestand helpt je om consistent te werken. Je ziet meteen of je ergens een fout hebt gemaakt, en het dient later als referentie als je je resultaten analyseert.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Stap 3: Maak je UTM-links</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Stap 3: Maak je UTM-links</h3>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Je kunt UTM-parameters handmatig toevoegen, maar er zijn snellere hulpmiddelen. Google zelf biedt de "Campaign URL Builder", wat handig is. Je vult gewoon de velden in, en Google genereert de volledige link.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Alternatief: gebruik een gratis online UTM-builder. Je plakt je basis-URL, vult je UTM-parameters in, en krijgt meteen je klare link. Het kost je per link niet meer dan 30 seconden.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Voorbeeld: je wilt een Facebook-advertentie linken naar je product-pagina. Je basis-URL is <code>https://www.jouwsite.nl/products/premium</code>. Je vult in:
                         </p>
                         <ul className="space-y-2 my-6 pl-6 list-disc marker:text-accent">
@@ -222,86 +222,86 @@ export default function BlogPostUtmParametersGebruikenAlleMarketingkanalen() {
                             <li>Campaign: lente-2026</li>
                             <li>Content: video-banner</li>
                         </ul>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Resultaat: <code>https://www.jouwsite.nl/products/premium?utm_source=facebook&utm_medium=cpc&utm_campaign=lente-2026&utm_content=video-banner</code>
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Zet die link vervolgens in je Facebook-advertentie.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Stap 4: Zorg voor consistentie in je advertentieplatformen</h3>
-                        <p>
-                            Bij <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads</a> kun je UTM-parameters handmatig aan je landing page URL toevoegen. Zorg dat je dezelfde parameters gebruikt als in je tracking sheet. Let op: Google Ads heeft ook een "auto-tagging" feature. Je kunt beide combineren: Google doet zijn eigen tagging (wat data oplevert), en jij voegt UTM-parameters toe (voor extra details).
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Stap 4: Zorg voor consistentie in je advertentieplatformen</h3>
+                        <p className="text-primary/80 leading-relaxed mb-4">
+                            Bij <a href="/google-ads" className="text-accent hover:underline">Google Ads</a> kun je UTM-parameters handmatig aan je landing page URL toevoegen. Zorg dat je dezelfde parameters gebruikt als in je tracking sheet. Let op: Google Ads heeft ook een "auto-tagging" feature. Je kunt beide combineren: Google doet zijn eigen tagging (wat data oplevert), en jij voegt UTM-parameters toe (voor extra details).
                         </p>
-                        <p>
-                            Bij <a href="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Facebook Ads</a> werkt het anders. Facebook gebruikt z'n eigen tracking pixels. Maar je kunt ook hier UTM-parameters toevoegen aan je links in je advertenties. Dit helpt je om meer details in je eigen analytics te zien.
+                        <p className="text-primary/80 leading-relaxed mb-4">
+                            Bij <a href="/meta-ads" className="text-accent hover:underline">Facebook Ads</a> werkt het anders. Facebook gebruikt z'n eigen tracking pixels. Maar je kunt ook hier UTM-parameters toevoegen aan je links in je advertenties. Dit helpt je om meer details in je eigen analytics te zien.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Voor email-marketing: zet UTM-parameters op elke link in je nieuwsbrief. Zo zie je welke email-campagnes werkelijk clicks en conversies opleveren. Voorbeeld: <code>utm_source=newsletter&utm_medium=email&utm_campaign=maart-aanbieding</code>.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Stap 5: Stel goed in Google Analytics in</h3>
-                        <p>
-                            Zorg dat Google Analytics goed gekoppeld is aan je website. Voor Google Analytics 4 (GA4) geldt: UTM-parameters worden automatisch ingelezen. Je hoeft niks extra in te stellen. In je GA4-dashboard ga je naar "Acquisition" en daar zie je onder "Traffic acquisition" een volledig overzicht van je source/medium/campaign-combinaties. Dit is waar je <a href="/diensten/tracking" className="text-blue-700 underline hover:text-blue-900">tracking-strategie</a> werkelijk tot leven komt.
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Stap 5: Stel goed in Google Analytics in</h3>
+                        <p className="text-primary/80 leading-relaxed mb-4">
+                            Zorg dat Google Analytics goed gekoppeld is aan je website. Voor Google Analytics 4 (GA4) geldt: UTM-parameters worden automatisch ingelezen. Je hoeft niks extra in te stellen. In je GA4-dashboard ga je naar "Acquisition" en daar zie je onder "Traffic acquisition" een volledig overzicht van je source/medium/campaign-combinaties. Dit is waar je <a href="/diensten" className="text-accent hover:underline">tracking-strategie</a> werkelijk tot leven komt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Tip: maak filters en aangepaste rapporten aan zodat je alleen relevante data ziet. Bijvoorbeeld: welke campagnes hebben de hoogste conversion rate? Welk medium geeft de laagste cost per conversion?
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Stap 6: Analyseer regelmatig en optimaliseer</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Stap 6: Analyseer regelmatig en optimaliseer</h3>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             UTM's opzetten is pas het begin. Het echte waarde zit in de analyse. Elke maand ga je je analytics door en kijk je: welke kanalen werken, welke niet? Waar kan ik budget van halen naar waar sturen? Maak hiervan een vast moment in je week, bijvoorbeeld elke maandag ochtend. Besteed hier 30 minuten aan. Dit geeft je voorruitkijkend vermogen op je marketing.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Ook bekijk je welke landing pages het best converteren per kanaal. Soms werkt je Google Ads-traffic beter op je product-pagina, en je Facebook-traffic op je lead-magnet. Deze inzichten laten je je campagnes per kanaal optimaliseren. Je start bijvoorbeeld een nieuwe testcampagne die je B-kanaal was, maar na 100 clicks zie je al dat het 2 keer beter converteert dan je vorige test. Je scaleert dit direct op.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Stap 7: Integratie met je CRM of verkoopteam</h3>
-                        <p>
-                            Als je al wat verder bent, koppel je je analytics-data aan je CRM. Zo kan je verkoopteam zien via welk kanaal en campagne een lead binnenkomt. Dit helpt enorm. Je verkopers weten dat <a href="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Facebook-leads</a> minder gekwalificeerd zijn en dat ze anders moeten aanpakken dan <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads-leads</a>. Of andersom.
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Stap 7: Integratie met je CRM of verkoopteam</h3>
+                        <p className="text-primary/80 leading-relaxed mb-4">
+                            Als je al wat verder bent, koppel je je analytics-data aan je CRM. Zo kan je verkoopteam zien via welk kanaal en campagne een lead binnenkomt. Dit helpt enorm. Je verkopers weten dat <a href="/meta-ads" className="text-accent hover:underline">Facebook-leads</a> minder gekwalificeerd zijn en dat ze anders moeten aanpakken dan <a href="/google-ads" className="text-accent hover:underline">Google Ads-leads</a>. Of andersom.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Bij sommige klanten zien we dat bepaalde kanalen veel bezoekers brengen, maar weinig leads. Dit zou slecht zijn, maar bij nadere analyse blijkt het kanaal wel veel hogewaardige toekomstige klanten aan te trekken. Die zien de advertentie, gaan weg, komen later terug en converteren pas dan. Zonder UTM's zou je dit nooit zien. Met UTM's plus CRM-data krijg je dit soort nuances in beeld.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Stap 8: Automatiseer je UTM-generatie</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Stap 8: Automatiseer je UTM-generatie</h3>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Als je schaal aanneemt en veel campagnes draait, kan handmatig UTM-links maken inefficiënt worden. Overwegen dan een automation tool. Er zijn apps die je koppelt aan je campagne-management, en die genereren je UTM-links automatisch op basis van je instellingen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Voor de meeste MKB's is dit niet nodig. Maar als je meer dan 20 campagnes per maand draait, loon het zeker. Je bespaard uren per maand en elimineert typing errors. Tools zoals Zapier of native integraties in je marketingplatformen kunnen dit regelen. Dit geeft je team meer tijd voor strategische taken en creatiever werk.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Drie veelgemaakte fouten met UTM-parameters</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Drie veelgemaakte fouten met UTM-parameters</h2>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 1: Inconsistente naamgeving</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 1: Inconsistente naamgeving</h3>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Je zet je eerste campagne live met <code>utm_source=facebook</code>, je tweede met <code>utm_source=Facebook</code>. Google Analytics ziet dit als twee verschillende bronnen. Je data fragmenteert. We zien dit constant bij klanten: hun analytics is vol met "facebook", "Facebook", "FB", "social-facebook". Daardoor krijgen ze geen goed beeld van hun Facebook-performance.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Oplossing: zet je naamconventie vast voor je begint en zorg dat iedereen die een UTM-link maakt dit document raadpleegt. Klein voorkomen is beter dan grote rommel opruimen.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 2: Geen documentatie van je UTM's</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 2: Geen documentatie van je UTM's</h3>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Je maakt honderd links en je vergeet op te schrijven wat je hebt gedaan. Drie maanden later kijk je naar je analytics en zeg je: "Wat betekent utm_campaign=promo-xyz eigenlijk?" Of erger: je team maakt willekeurig nieuwe campagnes aan zonder te weten dat je dezelfde campagne al eerder hebt gedraaid. Je kunt je resultaten niet vergelijken.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Oplossing: je tracking sheet die we eerder noemden. Eén centraal document waar alle campagnes worden ingelogd met datum, budget, kanaal en resultaat. Dit kost je 2 minuten per campagne maar bespaard je uren werk later.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 3: UTM's op interne links zetten</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 3: UTM's op interne links zetten</h3>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Je zet UTM-parameters op links tussen je eigen pagina's. Je homepage linkt naar je product-pagina met <code>utm_source=homepage&utm_medium=internal</code>. Dit vervuilt je analytics met interne navigatie die niet relevant is. Je ziet vals traffic dat niet van buiten je website komt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Oplossing: zet UTM's alleen op externe links. Links naar je website van buiten (advertenties, social media, email, partners). Niet op links die je gebruikers binnen je eigen website volgen.
                         </p>
 
                         <div className="bg-accent/5 rounded-3xl p-8 md:p-12 my-12 border border-accent/10">
                             <h3 className="text-2xl font-bold text-primary mb-4 mt-0">Wil je gelijk zien welke kanalen echt werken?</h3>
-                            <p className="mb-6">
-                                Veel bedrijven hebben UTM-parameters ingesteld, maar weten niet hoe ze hun data moeten lezen. We helpen je om je marketing-data juist in te zetten. Bekijk onze <a href="/diensten/tracking" className="text-blue-700 underline hover:text-blue-900">tracking-diensten</a> of plan een gratis <Link to="/contact" className="text-accent hover:underline">gesprek met onze experts</Link>. We kijken samen naar jouw huidige data en laten zien waar je kansen liggen.
+                            <p className="text-primary/80 leading-relaxed mb-6">
+                                Veel bedrijven hebben UTM-parameters ingesteld, maar weten niet hoe ze hun data moeten lezen. We helpen je om je marketing-data juist in te zetten. Bekijk onze <a href="/diensten" className="text-accent hover:underline">tracking-diensten</a> of plan een gratis <Link to="/contact" className="text-accent hover:underline">gesprek met onze experts</Link>. We kijken samen naar jouw huidige data en laten zien waar je kansen liggen.
                             </p>
                             <div className="flex flex-wrap gap-4">
                                 <Link to="/contact" className="btn-magnetic bg-accent text-white px-6 py-3 rounded-full font-bold text-sm hover:bg-accent/90 transition-colors inline-block no-underline">
@@ -315,7 +315,7 @@ export default function BlogPostUtmParametersGebruikenAlleMarketingkanalen() {
 
                         <hr className="my-16 border-primary/10" />
 
-                        <h2 className="text-3xl mb-8">Veelgestelde vragen over UTM-parameters</h2>
+                        <h2 className="text-3xl font-bold text-primary mb-8">Veelgestelde vragen over UTM-parameters</h2>
 
                         <div className="space-y-6 not-prose">
                             <div className="border border-primary/10 rounded-xl p-6">

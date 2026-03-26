@@ -161,109 +161,109 @@ export default function BlogPostWaaromGoogleAdsKlikkenConverteren() {
                             Je Google Ads campagne draait. Er komen klikken binnen. Maar verkopen? Aanvragen? Niks. Dat is een van de meest frustrerende situaties voor ondernemers die adverteren via Google. Het goede nieuws: er is bijna altijd een concrete oorzaak. En die is op te lossen. We lopen de 6 meest voorkomende redenen door en laten zien hoe je ze aanpakt.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat betekent het als Google Ads wel klikken maar niet converteren?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat betekent het als Google Ads wel klikken maar niet converteren?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een conversie is de actie die je wilt dat een bezoeker uitvoert. Een aankoop, een offerteaanvraag, een telefoontje. Klikken zonder conversies betekent dat mensen wel op je advertentie klikken, maar daarna afhaken. Ze verlaten je website zonder iets te doen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dat kost geld. Bij een gemiddelde klikprijs van 2 euro en 100 klikken per dag geef je 6000 euro per maand uit aan bezoekers die niks opleveren. Bij onze klanten zien we dat dit probleem gemiddeld 25 tot 40% van het advertentiebudget opslokt als het niet wordt aangepakt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het probleem zit zelden in Google Ads zelf. De advertentie doet precies wat ze moet doen: klikken genereren. Het probleem zit bijna altijd in wat er daarna gebeurt.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Waarom is dit zo'n groot probleem voor MKB-bedrijven?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom is dit zo'n groot probleem voor MKB-bedrijven?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Als MKB-ondernemer heb je geen marketingbudget om te verspillen. Elke euro die je aan Google Ads uitgeeft moet iets opleveren. Toch zien we wekelijks bedrijven die al maanden adverteren zonder te weten waarom de resultaten tegenvallen. Ze verhogen hun budget in de hoop dat meer klikken tot meer verkopen leiden. Dat werkt niet.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Meer klikken bij een slecht converterende campagne betekent gewoon meer geld dat verdampt. Een gemiddeld MKB-bedrijf verliest volgens onderzoek van WordStream zo'n 25% van het Google Ads budget aan irrelevante klikken. Bij bedrijven zonder goede tracking en landingspagina's loopt dat op tot 50%.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het verschil tussen een campagne die 1% converteert en een die 4% converteert is enorm. Bij hetzelfde budget en dezelfde klikprijs haal je vier keer zoveel klanten. Dat is het verschil tussen verlies draaien en winstgevend groeien.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat zijn de 6 meest voorkomende oorzaken?</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat zijn de 6 meest voorkomende oorzaken?</h2>
 
-                        <h3 className="text-xl font-bold mb-2">1. Je zoekwoorden zijn te breed</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">1. Je zoekwoorden zijn te breed</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit is de nummer een oorzaak. Je adverteert op een zoekwoord als "loodgieter" en krijgt klikken van mensen die zoeken op "loodgieter opleiding", "loodgieter salaris" of "loodgieter worden". Die mensen willen geen loodgieter inhuren. Ze kosten je geld zonder iets op te leveren.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             De oplossing: open je zoektermenrapport in Google Ads. Kijk welke zoekopdrachten daadwerkelijk klikken genereren. Voeg irrelevante termen toe als uitsluitingszoekwoord. Werk met phrase match of exact match in plaats van broad match zonder restricties. We merken in de praktijk dat het toevoegen van 20 tot 30 uitsluitingszoekwoorden in de eerste week al 15 tot 25% meer relevante klikken oplevert.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">2. Je landingspagina sluit niet aan op je advertentie</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">2. Je landingspagina sluit niet aan op je advertentie</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Iemand zoekt op "dakkapel plaatsen kosten" en klikt op jouw advertentie die belooft: "Dakkapel vanaf 4500 euro". Maar de landingspagina toont je hele aanbod: dakkapellen, kozijnen, verbouwingen, isolatie. De bezoeker moet zelf zoeken naar de informatie die je beloofde. Die moeite nemen ze niet. Ze klikken weg.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Elke advertentiegroep verdient een eigen landingspagina die precies aansluit op de belofte in de advertentie. Dezelfde taal, hetzelfde aanbod, dezelfde prijs. Hoe korter de lijn tussen klik en conversie, hoe meer mensen doorzetten.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">3. Je website is te traag of werkt slecht op mobiel</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">3. Je website is te traag of werkt slecht op mobiel</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Meer dan 60% van alle Google-zoekopdrachten komt vanaf een telefoon. Als je website op mobiel traag laadt, moeilijk leesbaar is of knoppen te klein zijn, haakt het merendeel af. Google zelf bevestigt dat 53% van de mobiele bezoekers een pagina verlaat als die langer dan 3 seconden laadt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Test je pagina via Google PageSpeed Insights. Score je onder de 50 op mobiel? Dan verlies je bezoekers. Comprimeer je afbeeldingen, minimaliseer je code en zorg dat je call-to-action bovenaan de pagina staat zonder te scrollen.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">4. Er is geen duidelijke call-to-action</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">4. Er is geen duidelijke call-to-action</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Je bezoeker landt op je pagina, leest je aanbod en denkt: "Interessant." Maar wat nu? Als er geen duidelijke volgende stap is, geen knop, geen formulier, geen telefoonnummer dat eruit springt, dan verdwijnt die bezoeker weer.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Zorg dat je call-to-action direct zichtbaar is. Gebruik een contrasterende kleur. Maak de tekst concreet: "Vraag een gratis offerte aan" werkt beter dan "Meer informatie". En herhaal je CTA meerdere keren op de pagina, niet alleen onderaan.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">5. Je <Link to="/blogs/tracking/marketing-tracking-conversies-meten" className="text-accent hover:underline">conversietracking</Link> staat niet goed ingesteld</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">5. Je <Link to="/blogs/tracking/marketing-tracking-conversies-meten" className="text-accent hover:underline">conversietracking</Link> staat niet goed ingesteld</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Soms converteren je campagnes wel, maar meet je het niet. Als je conversietracking niet correct is ingesteld, rapporteert Google Ads nul conversies terwijl er wel aanvragen of verkopen binnenkomen. Dat vertroebelt je hele beeld.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Controleer of je Google Ads tag correct is geplaatst. Test je formulieren: komt een inzending daadwerkelijk als conversie terug in je Ads-dashboard? Check ook of je dubbele conversies filtert. Slechte tracking is als rijden zonder dashboard: je weet niet hoe hard je gaat en hoeveel brandstof je nog hebt.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">6. Je biedt niet genoeg vertrouwen</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">6. Je biedt niet genoeg vertrouwen</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een bezoeker die je niet kent, gaat niet zomaar zijn contactgegevens achterlaten of zijn creditcard invoeren. Zonder vertrouwenssignalen op je pagina blijft de drempel te hoog. Denk aan klantverhalen, Google Reviews, een KvK-nummer, betaalmethode-logo's, een foto van het team.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We zien bij onze klanten dat het toevoegen van 3 tot 5 klantreviews op de landingspagina het conversiepercentage gemiddeld met 15 tot 20% verhoogt. Mensen kopen van mensen die ze vertrouwen. Laat zien dat anderen je al vertrouwen.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Welke fouten moet je nu meteen stoppen?</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Welke fouten moet je nu meteen stoppen?</h2>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 1: meer budget gooien naar een kapotte campagne</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 1: meer budget gooien naar een kapotte campagne</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Als je conversiepercentage onder de 1% ligt, is meer budget geen oplossing. Je vergroot alleen het lek. Fix eerst de oorzaak. Controleer je zoekwoorden, je landingspagina en je tracking. Pas als die op orde zijn, heeft opschalen zin.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 2: alles naar de homepage sturen</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 2: alles naar de homepage sturen</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Je homepage is gebouwd voor iedereen. Maar een advertentieklikker is niet iedereen. Die zoekt iets specifieks. Een aparte landingspagina per advertentiegroep converteert gemiddeld 2 tot 3 keer beter dan je homepage. Dat is geen mening, dat is wat we in honderden campagnes hebben gemeten.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 3: nooit je zoektermenrapport bekijken</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 3: nooit je zoektermenrapport bekijken</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Minstens een keer per week moet je controleren op welke zoektermen je advertenties vertoond worden. Zonder die controle betaal je voor klikken die niks opleveren. Het is 10 minuten werk dat je honderden euro's per maand kan besparen.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe los je het stap voor stap op?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe los je het stap voor stap op?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Begin met de basis. Stap 1: open je zoektermenrapport en voeg alle irrelevante termen toe als uitsluitingszoekwoord. Stap 2: controleer of je landingspagina aansluit op je advertentie. Zelfde taal, zelfde belofte, zelfde aanbod. Stap 3: test je paginasnelheid op mobiel via PageSpeed Insights en los kritieke problemen op. Stap 4: check of je conversietracking correct werkt door een testconversie uit te voeren. Stap 5: voeg vertrouwenssignalen toe aan je pagina als die er nog niet staan. Stap 6: zorg voor een duidelijke, zichtbare call-to-action bovenaan je pagina.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een webshop in woondecoratie die we begeleidden, had een conversiepercentage van 0,8%. Na het aanscherpen van de zoekwoorden en het bouwen van drie gerichte landingspagina's steeg dat naar 3,4% in zes weken. Hetzelfde budget, vier keer zoveel bestellingen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Wil je weten waarom jouw <Link to="/google-ads" className="text-accent hover:underline">Google Ads campagnes</Link> niet converteren? We analyseren je account gratis en laten zien waar de kansen liggen. <Link to="/contact" className="text-accent hover:underline">Plan een gesprek</Link> en we kijken er samen naar.
                         </p>
 
                         <hr className="my-16 border-primary/10" />
 
-                        <h2 className="text-3xl mb-8">Veelgestelde vragen over Google Ads die niet converteren</h2>
+                        <h2 className="text-3xl font-bold text-primary mb-8">Veelgestelde vragen over Google Ads die niet converteren</h2>
 
                         <div className="space-y-6 not-prose">
                             <div className="border border-primary/10 rounded-xl p-6">

@@ -131,61 +131,61 @@ export default function BlogPostMetaPixelInstellen() {
                         <div className="absolute inset-0 bg-[url('/images/blogs/meta-pixel-instellen-stap-stap.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
-                    <div className="prose prose-lg prose-headings:font-sans prose-headings:font-bold prose-headings:text-primary prose-p:font-sans prose-p:text-primary/80 prose-p:leading-relaxed max-w-none">
-                        <p>De Meta Pixel is een klein stukje code waarmee je ziet wat bezoekers op jouw website doen. Meet conversies, bouw doelgroepen en verbeter je Facebook en Instagram campagnes. In deze guide laat ik je stap voor stap hoe je het instelt.</p>
+                    <div className="max-w-none">
+                        <p className="text-xl leading-relaxed text-primary/80 font-sans font-medium mb-8">De Meta Pixel is een klein stukje code waarmee je ziet wat bezoekers op jouw website doen. Meet conversies, bouw doelgroepen en verbeter je Facebook en Instagram campagnes. In deze guide laat ik je stap voor stap hoe je het instelt.</p>
 
-                        <h2>Wat is de Meta Pixel en waarom heb je die nodig?</h2>
-                        <p>De Meta Pixel is een trackingcode van Meta (eigenaar van Facebook en Instagram). Met deze code verzamel je gegevens over bezoekers: wie ze zijn, wat ze doen op jouw site, en of ze iets kopen.</p>
-                        <p>Waarom is dit belangrijk? Zonder Pixel weet je niet welke <Link to="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Facebook- en Instagram-advertenties</Link> van waarde zijn. Met Pixel zie je exact welke advertentie iemand klikt en daarna koopt. Dat maakt optimaliseren veel makkelijker.</p>
+                        <h2 className="text-3xl font-sans font-bold text-primary mt-16 mb-6">Wat is de Meta Pixel en waarom heb je die nodig?</h2>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">De Meta Pixel is een trackingcode van Meta (eigenaar van Facebook en Instagram). Met deze code verzamel je gegevens over bezoekers: wie ze zijn, wat ze doen op jouw site, en of ze iets kopen.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Waarom is dit belangrijk? Zonder Pixel weet je niet welke <Link to="/meta-ads" className="text-accent hover:underline">Facebook- en Instagram-advertenties</Link> van waarde zijn. Met Pixel zie je exact welke advertentie iemand klikt en daarna koopt. Dat maakt optimaliseren veel makkelijker.</p>
 
-                        <h2>Twee manieren om je Meta Pixel in te stellen</h2>
-                        <p>Je kunt de Pixel op twee manieren installeren: direct via code of via Google Tag Manager. De tweede manier is handiger, vooral als je niet van coderen houdt.</p>
+                        <h2 className="text-3xl font-sans font-bold text-primary mt-16 mb-6">Twee manieren om je Meta Pixel in te stellen</h2>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Je kunt de Pixel op twee manieren installeren: direct via code of via Google Tag Manager. De tweede manier is handiger, vooral als je niet van coderen houdt.</p>
 
-                        <h3>Manier 1: Pixel ID vinden in Meta Ads Manager</h3>
-                        <p>Log in op <strong>Meta Business Suite</strong> en ga naar Pixels. Klik op "Create" en volg de stappen. Na enkele seconden zie je je Pixel ID. Dit is een lang getal waar je nog vaak naar kijkt.</p>
-                        <p>Sla deze ID goed op. Je hebt hem zowel bij Google Tag Manager als voor handmatige installatie nodig.</p>
+                        <h3 className="text-2xl font-sans font-bold text-primary mt-8 mb-4">Manier 1: Pixel ID vinden in Meta Ads Manager</h3>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Log in op <strong>Meta Business Suite</strong> en ga naar Pixels. Klik op "Create" en volg de stappen. Na enkele seconden zie je je Pixel ID. Dit is een lang getal waar je nog vaak naar kijkt.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Sla deze ID goed op. Je hebt hem zowel bij Google Tag Manager als voor handmatige installatie nodig.</p>
 
-                        <h3>Manier 2: Installatie via Google Tag Manager (aanbevolen)</h3>
-                        <p>Log in op Google Tag Manager en ga naar Tags. Klik "New" en selecteer "Meta Pixel" als tag type. Voer je Pixel ID in.</p>
-                        <p>Stel de trigger in op "All pages" zodat je Pixel op elke pagina laadt. Dit is belangrijk. Save en publish je container.</p>
-                        <p>Voordeel: als je later dingen wilt veranderen, hoef je niet in je website-code te graven. Alles gaat via GTM. Voor een dieper inzicht in alle <Link to="/blogs/tracking/google-tag-manager-beginners" className="text-blue-700 underline hover:text-blue-900">Google Tag Manager-instellingen voor beginners</Link>, bekijk onze gedetailleerde gids.</p>
+                        <h3 className="text-2xl font-sans font-bold text-primary mt-8 mb-4">Manier 2: Installatie via Google Tag Manager (aanbevolen)</h3>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Log in op Google Tag Manager en ga naar Tags. Klik "New" en selecteer "Meta Pixel" als tag type. Voer je Pixel ID in.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Stel de trigger in op "All pages" zodat je Pixel op elke pagina laadt. Dit is belangrijk. Save en publish je container.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Voordeel: als je later dingen wilt veranderen, hoef je niet in je website-code te graven. Alles gaat via GTM. Voor een dieper inzicht in alle <Link to="/blogs/tracking/google-tag-manager-beginners" className="text-accent hover:underline">Google Tag Manager-instellingen voor beginners</Link>, bekijk onze gedetailleerde gids.</p>
 
-                        <h3>Manier 3: Handmatige installatie (zonder GTM)</h3>
-                        <p>Wil je GTM niet gebruiken? Kopieer de base code van Meta en plaats deze in de &lt;head&gt; van jouw website. Dit werkt, maar is riskanter als je fouten maakt.</p>
-                        <p>De code ziet er zo uit: je Pixel ID wordt ingevuld waar Meta aangeeft. Zorg dat dit op alle pagina's staat.</p>
+                        <h3 className="text-2xl font-sans font-bold text-primary mt-8 mb-4">Manier 3: Handmatige installatie (zonder GTM)</h3>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Wil je GTM niet gebruiken? Kopieer de base code van Meta en plaats deze in de &lt;head&gt; van jouw website. Dit werkt, maar is riskanter als je fouten maakt.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">De code ziet er zo uit: je Pixel ID wordt ingevuld waar Meta aangeeft. Zorg dat dit op alle pagina's staat.</p>
 
-                        <h2>Events instellen: wanneer wil je data verzamelen?</h2>
-                        <p>Nu je Pixel actief is, gaat hij al basis-informatie verzamelen. Maar je wilt meer specifieke events tracken: aankopen, formulierinzendingen, toevoegingen aan winkelwagen.</p>
-                        <p>In Google Tag Manager voeg je nieuwe tags toe voor elk event. Bijvoorbeeld een tag voor "Purchase" die afvuert als iemand op jouw order-bevestigingspagina terechtkomt.</p>
-                        <p>Dit is cruciaal voor conversie-optimalisatie. Zonder event-tracking weet je niet echt welke advertenties werken.</p>
+                        <h2 className="text-3xl font-sans font-bold text-primary mt-16 mb-6">Events instellen: wanneer wil je data verzamelen?</h2>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Nu je Pixel actief is, gaat hij al basis-informatie verzamelen. Maar je wilt meer specifieke events tracken: aankopen, formulierinzendingen, toevoegingen aan winkelwagen.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">In Google Tag Manager voeg je nieuwe tags toe voor elk event. Bijvoorbeeld een tag voor "Purchase" die afvuert als iemand op jouw order-bevestigingspagina terechtkomt.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Dit is cruciaal voor conversie-optimalisatie. Zonder event-tracking weet je niet echt welke advertenties werken.</p>
 
-                        <h2>Hoe test je je Meta Pixel?</h2>
-                        <p>Na installatie moet je checken of alles werkt. Download de "Meta Pixel Helper" browserextensie. Als je dan jouw website bezoekt, zie je welke Pixel-activiteiten plaatsvinden.</p>
-                        <p>Zie je groen? Dan werkt het. Zie je waarschuwingen of fouten? Dan moet je iets aanpassen.</p>
-                        <p>Wacht 24-48 uur. Daarna kun je in Ads Manager zien hoeveel conversies je Pixel registreert.</p>
+                        <h2 className="text-3xl font-sans font-bold text-primary mt-16 mb-6">Hoe test je je Meta Pixel?</h2>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Na installatie moet je checken of alles werkt. Download de "Meta Pixel Helper" browserextensie. Als je dan jouw website bezoekt, zie je welke Pixel-activiteiten plaatsvinden.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Zie je groen? Dan werkt het. Zie je waarschuwingen of fouten? Dan moet je iets aanpassen.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Wacht 24-48 uur. Daarna kun je in Ads Manager zien hoeveel conversies je Pixel registreert.</p>
 
-                        <h2>Waarom doet je Pixel minder dan verwacht?</h2>
-                        <p>Bezoekers met adblockers worden niet getrackt. Dat scheelt ongeveer 20% van jouw verkeer. Ook cookies van derden verdwijnen steeds meer, dus Meta ziet minder.</p>
-                        <p>Daarom raden we de Conversions API aan. Dit stuurt data rechtstreeks van je server naar Meta, zonder browser-cookies. Veel betrouwbaarder.</p>
+                        <h2 className="text-3xl font-sans font-bold text-primary mt-16 mb-6">Waarom doet je Pixel minder dan verwacht?</h2>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Bezoekers met adblockers worden niet getrackt. Dat scheelt ongeveer 20% van jouw verkeer. Ook cookies van derden verdwijnen steeds meer, dus Meta ziet minder.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Daarom raden we de Conversions API aan. Dit stuurt data rechtstreeks van je server naar Meta, zonder browser-cookies. Veel betrouwbaarder.</p>
 
-                        <h2>Privacy en GDPR: wat moet je weten?</h2>
-                        <p>Tracking vraagt om toestemming. Plaats een cookiebanner op jouw site en vraag expliciet of bezoekers akkoord gaan met tracking. Zonder goedkeuring mag je Meta Pixel niet zetten.</p>
-                        <p>Check jouw privacybeleid. Zet erin dat je Facebook Pixel en gerelateerde diensten gebruikt. Dit beschermt je juridisch.</p>
+                        <h2 className="text-3xl font-sans font-bold text-primary mt-16 mb-6">Privacy en GDPR: wat moet je weten?</h2>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Tracking vraagt om toestemming. Plaats een cookiebanner op jouw site en vraag expliciet of bezoekers akkoord gaan met tracking. Zonder goedkeuring mag je Meta Pixel niet zetten.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Check jouw privacybeleid. Zet erin dat je Facebook Pixel en gerelateerde diensten gebruikt. Dit beschermt je juridisch.</p>
 
-                        <h2>Doelgroepen bouwen met je Pixel</h2>
-                        <p>Na enkele weken heb je genoeg data om doelgroepen te maken. In Ads Manager ga je naar "Audiences" en selecteer "Create Custom Audience". Filteren op Pixel-activiteiten.</p>
-                        <p>Voorbeeld: maak een doelgroep van bezoekers die jouw product-pagina zagen maar niet kochten. Daarop kun je later retargeting-ads zetten.</p>
-                        <p>Dit is waar de echte magie gebeurt. Bezoekers die je al kent, zijn veel sneller bereid te kopen.</p>
+                        <h2 className="text-3xl font-sans font-bold text-primary mt-16 mb-6">Doelgroepen bouwen met je Pixel</h2>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Na enkele weken heb je genoeg data om doelgroepen te maken. In Ads Manager ga je naar "Audiences" en selecteer "Create Custom Audience". Filteren op Pixel-activiteiten.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Voorbeeld: maak een doelgroep van bezoekers die jouw product-pagina zagen maar niet kochten. Daarop kun je later retargeting-ads zetten.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Dit is waar de echte magie gebeurt. Bezoekers die je al kent, zijn veel sneller bereid te kopen.</p>
 
-                        <h2>De Conversions API: het volgende level</h2>
-                        <p>Heb je een e-commerce-site of veel aankopen? De Conversions API is je beste vriend. Dit systeem stuurt aankoop-gegevens direct naar Meta, zonder browser.</p>
-                        <p>Voordeel: meer tracking ondanks adblockers, betere optimalisatie, nauwkeuriger rapportage. Dit vraagt wel technische kennis of hulp van een developer.</p>
+                        <h2 className="text-3xl font-sans font-bold text-primary mt-16 mb-6">De Conversions API: het volgende level</h2>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Heb je een e-commerce-site of veel aankopen? De Conversions API is je beste vriend. Dit systeem stuurt aankoop-gegevens direct naar Meta, zonder browser.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">Voordeel: meer tracking ondanks adblockers, betere optimalisatie, nauwkeuriger rapportage. Dit vraagt wel technische kennis of hulp van een developer.</p>
 
-                        <h2>Veelgestelde vragen over Meta Pixel</h2>
-                        <p><strong>Hoe lang bewaart Meta mijn Pixel-data?</strong><br />Meta bewaart Pixel-data 90 dagen. Dit is lang genoeg voor doelgroepbouw en optimalisatie.</p>
-                        <p><strong>Kan ik meerdere Pixels op één site zetten?</strong><br />Je kunt technisch meerdere Pixels installeren. We raden dit af. Eén Pixel is overzichtelijker en sneller. Maak in plaats daarvan meerdere Events in dezelfde Pixel.</p>
-                        <p><strong>Werkt Meta Pixel op mobiele apps?</strong><br />De standaard Pixel werkt alleen op websites. Voor apps gebruik je Meta SDK's. Dit is apart.</p>
-                        <p><strong>Is mijn Pixel beveiligd?</strong><br />Meta zet veel beveiliging om Pixel-data veilig te houden. Zorg zelf ook dat je website veilig is (HTTPS, sterke wachtwoorden, etc.).</p>
+                        <h2 className="text-3xl font-sans font-bold text-primary mt-16 mb-6">Veelgestelde vragen over Meta Pixel</h2>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4"><strong>Hoe lang bewaart Meta mijn Pixel-data?</strong><br />Meta bewaart Pixel-data 90 dagen. Dit is lang genoeg voor doelgroepbouw en optimalisatie.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4"><strong>Kan ik meerdere Pixels op één site zetten?</strong><br />Je kunt technisch meerdere Pixels installeren. We raden dit af. Eén Pixel is overzichtelijker en sneller. Maak in plaats daarvan meerdere Events in dezelfde Pixel.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4"><strong>Werkt Meta Pixel op mobiele apps?</strong><br />De standaard Pixel werkt alleen op websites. Voor apps gebruik je Meta SDK's. Dit is apart.</p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4"><strong>Is mijn Pixel beveiligd?</strong><br />Meta zet veel beveiliging om Pixel-data veilig te houden. Zorg zelf ook dat je website veilig is (HTTPS, sterke wachtwoorden, etc.).</p>
 
                     </div>
                 </div>
@@ -201,56 +201,35 @@ export default function BlogPostMetaPixelInstellen() {
             <section className="w-full pb-32 px-6">
                 <div className="max-w-4xl mx-auto">
                     <h2 className="font-sans font-bold text-primary text-2xl md:text-3xl mb-12">Veelgestelde vragen</h2>
-                    <div className="space-y-6">
-                        <details className="group border border-primary/10 rounded-2xl p-6 cursor-pointer hover:border-accent/30 transition-colors">
-                            <summary className="font-sans font-bold text-primary text-lg flex items-center justify-between">
-                                Wat is de Meta Pixel en waarom heb ik die nodig?
-                                <span className="transition-transform group-open:rotate-180">+</span>
-                            </summary>
-                            <p className="font-sans text-primary/70 mt-4">De Meta Pixel is een trackingcode van Facebook en Instagram waarmee je bezoekers op je website volgt. Je meet conversies, bouwt doelgroepen en verbetert je advertenties. Zonder Pixel weet je niet welke ads werken.</p>
-                        </details>
-                        <details className="group border border-primary/10 rounded-2xl p-6 cursor-pointer hover:border-accent/30 transition-colors">
-                            <summary className="font-sans font-bold text-primary text-lg flex items-center justify-between">
-                                Kan ik de Meta Pixel via Google Tag Manager installeren?
-                                <span className="transition-transform group-open:rotate-180">+</span>
-                            </summary>
-                            <p className="font-sans text-primary/70 mt-4">Ja, dit is zelfs de aanbevolen manier. Google Tag Manager maakt het installeren en beheren van je Pixel gemakkelijker, vooral als je meerdere trackers hebt. Je hoeft dan niet in je website-code te graven.</p>
-                        </details>
-                        <details className="group border border-primary/10 rounded-2xl p-6 cursor-pointer hover:border-accent/30 transition-colors">
-                            <summary className="font-sans font-bold text-primary text-lg flex items-center justify-between">
-                                Hoe lang duurt het voordat de Meta Pixel data verzamelt?
-                                <span className="transition-transform group-open:rotate-180">+</span>
-                            </summary>
-                            <p className="font-sans text-primary/70 mt-4">Na installatie verzamelt de Pixel direct data. Het duurt echter 24-48 uur voordat je eerste conversies in Meta Ads Manager zichtbaar zijn. Wacht dus geduldig.</p>
-                        </details>
-                        <details className="group border border-primary/10 rounded-2xl p-6 cursor-pointer hover:border-accent/30 transition-colors">
-                            <summary className="font-sans font-bold text-primary text-lg flex items-center justify-between">
-                                Wat is het verschil tussen base code en event code?
-                                <span className="transition-transform group-open:rotate-180">+</span>
-                            </summary>
-                            <p className="font-sans text-primary/70 mt-4">De base code laadt de Pixel op alle pagina's. Event code volgt specifieke acties zoals aankopen, formulierinzendingen of toevoegingen aan winkelwagen. Beide heb je nodig voor volledig tracking.</p>
-                        </details>
-                        <details className="group border border-primary/10 rounded-2xl p-6 cursor-pointer hover:border-accent/30 transition-colors">
-                            <summary className="font-sans font-bold text-primary text-lg flex items-center justify-between">
-                                Hoe test ik of mijn Meta Pixel correct werkt?
-                                <span className="transition-transform group-open:rotate-180">+</span>
-                            </summary>
-                            <p className="font-sans text-primary/70 mt-4">Gebruik de Meta Pixel Helper browserextensie. Deze laat zien welke Pixel-activiteiten op je website plaatsvinden en of deze correct worden geregistreerd. Download deze gratis in de Chrome Web Store.</p>
-                        </details>
-                        <details className="group border border-primary/10 rounded-2xl p-6 cursor-pointer hover:border-accent/30 transition-colors">
-                            <summary className="font-sans font-bold text-primary text-lg flex items-center justify-between">
-                                Wat is de Conversions API en waarom hebben mensen die nodig?
-                                <span className="transition-transform group-open:rotate-180">+</span>
-                            </summary>
-                            <p className="font-sans text-primary/70 mt-4">De Conversions API stuurt data rechtstreeks van je server naar Meta in plaats van via de browser. Dit werkt beter met adblockers en geeft meer accurate tracking. Perfect voor webshops met veel aankopen.</p>
-                        </details>
-                        <details className="group border border-primary/10 rounded-2xl p-6 cursor-pointer hover:border-accent/30 transition-colors">
-                            <summary className="font-sans font-bold text-primary text-lg flex items-center justify-between">
-                                Moet ik toestemming vragen voor de Meta Pixel?
-                                <span className="transition-transform group-open:rotate-180">+</span>
-                            </summary>
-                            <p className="font-sans text-primary/70 mt-4">Ja, volgens AVG/GDPR moet je gebruikers informeren en toestemming vragen voor tracking. Zorg dat je cookiebanners goed zijn ingesteld en je privacybeleid duidelijk is.</p>
-                        </details>
+                    <div className="space-y-6 not-prose">
+                        <div className="border border-primary/10 rounded-xl p-6">
+                            <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is de Meta Pixel en waarom heb ik die nodig?</h3>
+                            <p className="font-sans text-primary/70 leading-relaxed">De Meta Pixel is een trackingcode van Facebook en Instagram waarmee je bezoekers op je website volgt. Je meet conversies, bouwt doelgroepen en verbetert je advertenties. Zonder Pixel weet je niet welke ads werken.</p>
+                        </div>
+                        <div className="border border-primary/10 rounded-xl p-6">
+                            <h3 className="font-sans font-semibold text-primary text-lg mb-3">Kan ik de Meta Pixel via Google Tag Manager installeren?</h3>
+                            <p className="font-sans text-primary/70 leading-relaxed">Ja, dit is zelfs de aanbevolen manier. Google Tag Manager maakt het installeren en beheren van je Pixel gemakkelijker, vooral als je meerdere trackers hebt. Je hoeft dan niet in je website-code te graven.</p>
+                        </div>
+                        <div className="border border-primary/10 rounded-xl p-6">
+                            <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoe lang duurt het voordat de Meta Pixel data verzamelt?</h3>
+                            <p className="font-sans text-primary/70 leading-relaxed">Na installatie verzamelt de Pixel direct data. Het duurt echter 24-48 uur voordat je eerste conversies in Meta Ads Manager zichtbaar zijn. Wacht dus geduldig.</p>
+                        </div>
+                        <div className="border border-primary/10 rounded-xl p-6">
+                            <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is het verschil tussen base code en event code?</h3>
+                            <p className="font-sans text-primary/70 leading-relaxed">De base code laadt de Pixel op alle pagina's. Event code volgt specifieke acties zoals aankopen, formulierinzendingen of toevoegingen aan winkelwagen. Beide heb je nodig voor volledig tracking.</p>
+                        </div>
+                        <div className="border border-primary/10 rounded-xl p-6">
+                            <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoe test ik of mijn Meta Pixel correct werkt?</h3>
+                            <p className="font-sans text-primary/70 leading-relaxed">Gebruik de Meta Pixel Helper browserextensie. Deze laat zien welke Pixel-activiteiten op je website plaatsvinden en of deze correct worden geregistreerd. Download deze gratis in de Chrome Web Store.</p>
+                        </div>
+                        <div className="border border-primary/10 rounded-xl p-6">
+                            <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is de Conversions API en waarom hebben mensen die nodig?</h3>
+                            <p className="font-sans text-primary/70 leading-relaxed">De Conversions API stuurt data rechtstreeks van je server naar Meta in plaats van via de browser. Dit werkt beter met adblockers en geeft meer accurate tracking. Perfect voor webshops met veel aankopen.</p>
+                        </div>
+                        <div className="border border-primary/10 rounded-xl p-6">
+                            <h3 className="font-sans font-semibold text-primary text-lg mb-3">Moet ik toestemming vragen voor de Meta Pixel?</h3>
+                            <p className="font-sans text-primary/70 leading-relaxed">Ja, volgens AVG/GDPR moet je gebruikers informeren en toestemming vragen voor tracking. Zorg dat je cookiebanners goed zijn ingesteld en je privacybeleid duidelijk is.</p>
+                        </div>
                     </div>
                 </div>
             </section>
