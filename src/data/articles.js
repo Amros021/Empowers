@@ -3,6 +3,28 @@
 
 const articles = [
     {
+        title:    'Hoe optimaliseer je content voor Google AI Overviews?',
+        category: 'GEO',
+        date:     '26 mrt 2026',
+        dateTs:   new Date('2026-03-26').getTime(),
+        readTime: '7 min',
+        author:   'Empowers Redactie',
+        excerpt:  'Google AI Overviews tonen AI-antwoorden boven de zoekresultaten. Zo schrijf je content die Google als bron citeert.',
+        slug:     '/blogs/geo/optimaliseer-content-google-ai-overviews',
+        image:    '/images/blogs/optimaliseer-content-google-ai-overviews.jpg',
+    },
+    {
+        title:    'Waarom jouw Google Ads wel klikken maar niet converteren',
+        category: 'Google Ads',
+        date:     '26 mrt 2026',
+        dateTs:   new Date('2026-03-26').getTime(),
+        readTime: '7 min',
+        author:   'Empowers Redactie',
+        excerpt:  'Veel klikken maar geen conversies? Dit zijn de 6 oorzaken en zo los je ze op. Praktische tips voor MKB-ondernemers.',
+        slug:     '/blogs/google-ads/waarom-google-ads-klikken-converteren',
+        image:    '/images/blogs/waarom-google-ads-klikken-converteren.jpg',
+    },
+    {
         title:    'Google Ads vs SEO: wat werkt beter voor jouw bedrijf?',
         category: 'Algemeen',
         date:     '26 mrt 2026',
