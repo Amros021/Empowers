@@ -18,6 +18,13 @@ import BlogPostAlgemeen from './pages/BlogPostAlgemeen';
 import BlogPostGoogleAdsVsSeoWerkt from './pages/BlogPostGoogleAdsVsSeoWerkt';
 import BlogPostWaaromGoogleAdsKlikkenConverteren from './pages/BlogPostWaaromGoogleAdsKlikkenConverteren';
 import BlogPostOptimaliseerContentGoogleAiOverviews from './pages/BlogPostOptimaliseerContentGoogleAiOverviews';
+import BlogPostVerbeterenGoogleAiOverviewsCtr from './pages/BlogPostVerbeterenGoogleAiOverviewsCtr';
+import BlogPostSchrijfBetereGoogleAdsAi from './pages/BlogPostSchrijfBetereGoogleAdsAi';
+import BlogPostLookalikeAudiencesMetaAdsGids from './pages/BlogPostLookalikeAudiencesMetaAdsGids';
+import BlogPostSeoStrategieVervangenDoorGeo from './pages/BlogPostSeoStrategieVervangenDoorGeo';
+import BlogPostUtmParametersGebruikenAlleMarketingkanalen from './pages/BlogPostUtmParametersGebruikenAlleMarketingkanalen';
+import BlogPostAiDigitaleMarketing from './pages/BlogPostAiDigitaleMarketing';
+import BlogPostAiMarketingwereldVerandert2025 from './pages/BlogPostAiMarketingwereldVerandert2025';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -104,6 +111,13 @@ function App() {
         <Route path="/blogs/google-ads/waarom-google-ads-klikken-converteren" element={<BlogPostWaaromGoogleAdsKlikkenConverteren />} />
         <Route path="/blogs/algemeen/google-ads-vs-seo-werkt" element={<BlogPostGoogleAdsVsSeoWerkt />} />
         <Route path="/blogs/geo/optimaliseer-content-google-ai-overviews" element={<BlogPostOptimaliseerContentGoogleAiOverviews />} />
+        <Route path="/blogs/seo/verbeteren-google-ai-overviews-ctr" element={<BlogPostVerbeterenGoogleAiOverviewsCtr />} />
+        <Route path="/blogs/google-ads/schrijf-betere-google-ads-ai" element={<BlogPostSchrijfBetereGoogleAdsAi />} />
+        <Route path="/blogs/social-ads/lookalike-audiences-meta-ads-gids" element={<BlogPostLookalikeAudiencesMetaAdsGids />} />
+        <Route path="/blogs/geo/seo-strategie-vervangen-door-geo" element={<BlogPostSeoStrategieVervangenDoorGeo />} />
+        <Route path="/blogs/tracking/utm-parameters-gebruiken-alle-marketingkanalen" element={<BlogPostUtmParametersGebruikenAlleMarketingkanalen />} />
+        <Route path="/blogs/strategie/ai-digitale-marketing" element={<BlogPostAiDigitaleMarketing />} />
+        <Route path="/blogs/algemeen/ai-marketingwereld-verandert-2025" element={<BlogPostAiMarketingwereldVerandert2025 />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
