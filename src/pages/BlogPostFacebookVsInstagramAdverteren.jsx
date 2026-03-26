@@ -108,80 +108,80 @@ export default function BlogPostFacebookVsInstagramAdverteren() {
                         <div className="absolute inset-0 bg-[url('/images/blogs/facebook-vs-instagram-adverteren-welk.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
-                    <div className="prose prose-lg prose-headings:font-sans prose-headings:font-bold prose-headings:text-primary prose-p:font-sans prose-p:text-primary/80 prose-p:leading-relaxed max-w-none">
-                        <p>
+                    <div className="max-w-none">
+                        <p className="text-xl leading-relaxed text-primary/80 font-sans font-medium mb-8">
                             Facebook en Instagram zijn allebei Meta-producten met krachtige advertentiemogelijkheden, maar ze werken anders.
                             Het verschil zit in wie jouw klanten zijn, hoe zij scrollend actief zijn, en welk format werkt voor jouw product.
                             Dit artikel helpt jij te kiezen welk platform het meest geschikt is voor jouw doelgroep.
                         </p>
 
-                        <h2>Waarom kiezen bedrijven toch voor Facebook óf Instagram?</h2>
-                        <p>
+                        <h2 className="text-3xl font-sans font-bold text-primary mt-12 mb-6">Waarom kiezen bedrijven toch voor Facebook óf Instagram?</h2>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">
                             Hoewel Facebook en Instagram onder één bedrijf vallen, zijn de gebruikers heel anders.
                             Facebook trekken meer ouders, professionals, en mensen op zoek naar informatie.
                             Instagram is waar jongeren en creatieve types hangen, waar visueel alles draait.
                         </p>
-                        <p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">
                             Voor jouw bedrijf betekent dit: op Facebook vindt jij makkelijker klanten die geldproblemen willen oplossen (diensten, tools, kursen).
-                            Op Instagram vindt jij klanten die zich willen inspireren en onderdeel zijn van een community. Lees meer over <Link to="/blogs/social-ads/meta-ads-2025-werkt-na" className="text-blue-700 underline hover:text-blue-900">hoe Meta-advertenties in 2025 en daarna werken</Link> voor de nieuwste inzichten in beide platforms.
+                            Op Instagram vindt jij klanten die zich willen inspireren en onderdeel zijn van een community. Lees meer over <Link to="/blogs/social-ads/meta-ads-2025-werkt-na" className="text-accent hover:underline">hoe Meta-advertenties in 2025 en daarna werken</Link> voor de nieuwste inzichten in beide platforms.
                         </p>
 
-                        <h2>De doelgroepen: wie zit waar?</h2>
-                        <p>
+                        <h2 className="text-3xl font-sans font-bold text-primary mt-12 mb-6">De doelgroepen: wie zit waar?</h2>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">
                             <strong>Facebook:</strong> Gemiddeld ouder publiek (35+), B2B professionals, ouders, veel verschillende interesses.
                             Gebruikers zijn actief op zoek naar informatie, deals, en praktische oplossingen.
                             Ze spenderen langere tijd op het platform en lezen berichten graag volledig.
                         </p>
-                        <p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">
                             <strong>Instagram:</strong> Jongere doelgroep (18-40), veel vrouwen, lifestyle-gericht, visual-minded.
                             Ze scrollen snel en stoppen alleen als iets hen meteen raakt: mooi beeld, grappig filmpje, of puur interesse.
                             Authenticiteit en personlijkheid werken beter dan corporate messaging.
                         </p>
-                        <p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">
                             Dit betekent niet dat je ouderen niet op Instagram kan bereiken, of jongeren niet op Facebook.
                             Maar statistisch gezien: test beide en kijk waar jouw doelgroep actief is en reageert.
                         </p>
 
-                        <h2>Advertentieformaten: wat werkt het best?</h2>
-                        <p>
+                        <h2 className="text-3xl font-sans font-bold text-primary mt-12 mb-6">Advertentieformaten: wat werkt het best?</h2>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">
                             <strong>Facebook-advertenties</strong> kunnen langer zijn. Tekst naast afbeelding werkt goed.
                             Carousel-ads met meerdere producten presteren sterk. Stories werken ook, maar feed-advertenties domineren.
                             Video's langer dan 15 seconden kunnen functioneren, omdat mensen bereid zijn te kijken.
                         </p>
-                        <p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">
                             <strong>Instagram-advertenties</strong> moeten korter zijn. Stoppen in de eerste 3 seconden is essentieel bij video.
                             Verticale formaten (9:16) werken beter dan landscape. Reels (korte video's) zijn de hot-formaat nu.
                             Stories werken goed maar zijn kort-lived. Het doel: visueel stoppen, niet lezen.
                         </p>
-                        <p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">
                             Praktische tip: zet dezelfde campagne op beide platforms via Meta Ads Manager, maar upload verschillende creatieve versies per platform.
                             Instagram-versie: korter, meer beeld, verticaal. Facebook-versie: meer tekst, meer info, kan iets langer zijn.
                         </p>
 
-                        <h2>Budget en kostprijs per platform</h2>
-                        <p>
+                        <h2 className="text-3xl font-sans font-bold text-primary mt-12 mb-6">Budget en kostprijs per platform</h2>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">
                             De vraag "wat is goedkoper" is lastig, want beide platforms gebruiken dezelfde veiling-systeem.
                             Jij geeft budget in, Meta's algoritme vindt de beste plaatsen voor jouw geld.
                             Welk platform goedkoper is hangt af van je industrie en wie je bereikt.
                         </p>
-                        <p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">
                             In de praktijk: Instagram is voor veel e-commerce bedrijven duurder per click, maar geeft meer conversies.
                             Facebook is vaak goedkoper per click, maar niet alle clicks convertiren.
-                            Het gaat niet om de prijs, maar om jouw ROI: wat betaal je per verkoop of lead? Om dit goed te meten, moet je de <Link to="/diensten/tracking" className="text-blue-700 underline hover:text-blue-900">juiste tracking-tools</Link> op orde hebben.
+                            Het gaat niet om de prijs, maar om jouw ROI: wat betaal je per verkoop of lead? Om dit goed te meten, moet je de <Link to="/diensten" className="text-accent hover:underline">juiste tracking-tools</Link> op orde hebben.
                         </p>
-                        <p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">
                             Minimaal budget? Meta adviseert minstens €5-10 per dag per campagne zodat het algoritme kan leren.
                             Met minder geld krijg jij minder data, dus minder optimalisatie. Start dus realistische: minstens €150-200 per week totaal.
                         </p>
 
-                        <h2>Praktische gids: Facebook of Instagram kiezen</h2>
-                        <p>
+                        <h2 className="text-3xl font-sans font-bold text-primary mt-12 mb-6">Praktische gids: Facebook of Instagram kiezen</h2>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">
                             <strong>Kies Facebook als:</strong> Jij B2B diensten verkoopt, jouw doelgroep ouder is (35+), je veel tekst/info nodig hebt voor jouw verhaal, je geen groot budget voor creatieve video's hebt, je brand-awareness wilt opbouwen bij professionals.
                         </p>
-                        <p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">
                             <strong>Kies Instagram als:</strong> Je e-commerce/lifestyle-producten verkoopt, jouw publiek jonger is (18-40), je sterke visuele assets hebt (foto's, video's, Reels), je community wilt bouwen, je influencer-marketing overweegt.
                         </p>
-                        <p>
+                        <p className="font-sans text-primary/80 leading-relaxed mb-4">
                             <strong>Kies allebei als:</strong> Je voldoende budget hebt, je geen voorkeur weet, je wilt testen wat werkt.
                             Dan adviseren we: start met 50/50 budget split, meet 2-3 weken, en schaal op het platform met beste ROI.
                         </p>
@@ -197,10 +197,10 @@ export default function BlogPostFacebookVsInstagramAdverteren() {
                             </Link>
                         </div>
 
-                        <h2>FAQ: Facebook en Instagram adverteren</h2>
+                        <h2 className="text-3xl font-sans font-bold text-primary mt-12 mb-6">FAQ: Facebook en Instagram adverteren</h2>
                         <div className="space-y-6 not-prose mt-8">
                             <div className="border border-primary/10 rounded-xl p-6">
-                                <h4 className="font-bold text-primary mb-3">Wat is goedkoper: Facebook of Instagram adverteren?</h4>
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is goedkoper: Facebook of Instagram adverteren?</h3>
                                 <p className="text-primary/70">
                                     De advertentiekosten hangen af van jouw doelgroep en industrie, niet van het platform zelf.
                                     Je zet budgetten in via Meta Ads Manager en het systeem optimaliseert automatisch.
@@ -209,7 +209,7 @@ export default function BlogPostFacebookVsInstagramAdverteren() {
                             </div>
 
                             <div className="border border-primary/10 rounded-xl p-6">
-                                <h4 className="font-bold text-primary mb-3">Kan ik dezelfde advertentie op beide platforms gebruiken?</h4>
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Kan ik dezelfde advertentie op beide platforms gebruiken?</h3>
                                 <p className="text-primary/70">
                                     Ja, je kan één campagne instellen en laten draaien op zowel Facebook als Instagram.
                                     Meta Ads Manager optimaliseert automatisch. Maar onze ervaring: pas je creatieve assets aan per platform.
@@ -218,7 +218,7 @@ export default function BlogPostFacebookVsInstagramAdverteren() {
                             </div>
 
                             <div className="border border-primary/10 rounded-xl p-6">
-                                <h4 className="font-bold text-primary mb-3">Voor welke producten werkt Facebook beter dan Instagram?</h4>
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Voor welke producten werkt Facebook beter dan Instagram?</h3>
                                 <p className="text-primary/70">
                                     Facebook presteert goed voor B2B diensten, oudere doelgroepen, diensten die uitleg nodig hebben,
                                     en wanneer je long-form content wilt gebruiken. Instagram werkt beter voor lifestyle, beauty, fashion,
@@ -227,7 +227,7 @@ export default function BlogPostFacebookVsInstagramAdverteren() {
                             </div>
 
                             <div className="border border-primary/10 rounded-xl p-6">
-                                <h4 className="font-bold text-primary mb-3">Welke leeftijdsgroep zit waar het meest op?</h4>
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Welke leeftijdsgroep zit waar het meest op?</h3>
                                 <p className="text-primary/70">
                                     Facebook gebruikers zijn gemiddeld ouder (35+), Instagram younger (18-40).
                                     Maar beide hebben alle leeftijdsgroepen. Het gaat meer om welke groep actief advertenties engageert.
@@ -236,7 +236,7 @@ export default function BlogPostFacebookVsInstagramAdverteren() {
                             </div>
 
                             <div className="border border-primary/10 rounded-xl p-6">
-                                <h4 className="font-bold text-primary mb-3">Hoeveel budget moet ik minimaal uitgeven?</h4>
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoeveel budget moet ik minimaal uitgeven?</h3>
                                 <p className="text-primary/70">
                                     Meta adviseert minimaal €5 per dag per kampagne voor optimale machine learning.
                                     Veel bedrijven starten met €10-20 per dag totaal en schalen op basis van resultaten.
@@ -245,7 +245,7 @@ export default function BlogPostFacebookVsInstagramAdverteren() {
                             </div>
 
                             <div className="border border-primary/10 rounded-xl p-6">
-                                <h4 className="font-bold text-primary mb-3">Welk platform geeft betere ROI?</h4>
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Welk platform geeft betere ROI?</h3>
                                 <p className="text-primary/70">
                                     Dat hangt volledig af van jouw product, publiek en creatieve content.
                                     Sommige bedrijven zien 3x ROI op Instagram, anderen op Facebook.
@@ -255,7 +255,7 @@ export default function BlogPostFacebookVsInstagramAdverteren() {
                             </div>
 
                             <div className="border border-primary/10 rounded-xl p-6">
-                                <h4 className="font-bold text-primary mb-3">Moet ik beide platforms gebruiken of een kiezen?</h4>
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Moet ik beide platforms gebruiken of een kiezen?</h3>
                                 <p className="text-primary/70">
                                     Als je net start: één platform beter dan twee tegelijk. Kies waar jouw doelgroep is,
                                     master dat, en schaal dan naar het tweede. Hebt je budget en goede creatieve content?

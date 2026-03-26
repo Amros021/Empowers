@@ -169,57 +169,45 @@ export default function BlogPostB2bMarketingBureauVsZelf() {
             <article className="w-full pt-40 pb-24 px-6 relative">
                 <div className="max-w-4xl mx-auto">
                     {/* Breadcrumbs */}
-                    <nav className="flex items-center gap-2 text-sm text-primary/60 mb-8 flex-wrap">
-                        {breadcrumbs.map((crumb, idx) => (
-                            <div key={idx} className="flex items-center gap-2">
-                                {crumb.href ? (
-                                    <Link to={crumb.href} className="hover:text-primary transition-colors">
-                                        {crumb.label}
-                                    </Link>
-                                ) : (
-                                    <span className="text-primary">{crumb.label}</span>
-                                )}
-                                {idx < breadcrumbs.length - 1 && (
-                                    <ChevronRight size={16} />
-                                )}
-                            </div>
-                        ))}
+                    <nav className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-primary/50 mb-12">
+                        <Link to="/" className="hover:text-accent transition-colors">Home</Link>
+                        <ChevronRight className="w-3 h-3" />
+                        <Link to="/nieuws" className="hover:text-accent transition-colors">Nieuws</Link>
+                        <ChevronRight className="w-3 h-3" />
+                        <Link to="/blogs/algemeen" className="hover:text-accent transition-colors">Algemeen</Link>
+                        <ChevronRight className="w-3 h-3" />
+                        <span className="text-primary truncate">B2B marketing...</span>
                     </nav>
 
                     {/* Header */}
-                    <div className="mb-12">
-                        <div className="inline-block mb-4 px-3 py-1 bg-accent/10 text-accent rounded-full text-sm font-semibold">
+                    <header className="mb-16">
+                        <div className="inline-block px-3 py-1 bg-accent/10 text-accent font-mono text-xs uppercase tracking-widest rounded-full mb-6">
                             Algemeen
                         </div>
-                        <h1 className="font-sans font-bold text-4xl md:text-5xl leading-tight text-primary mb-6">
+                        <h1 className="font-sans font-bold text-primary text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight tracking-tight mb-8">
                             B2B marketing bureau vs zelf doen: wat is slimmer voor jouw bedrijf?
                         </h1>
-
-                        {/* Meta information */}
-                        <div className="flex flex-wrap gap-6 text-primary/70 text-sm">
+                        <div className="flex flex-wrap items-center gap-6 text-sm font-sans text-primary/60 border-y border-primary/10 py-6">
                             <div className="flex items-center gap-2">
-                                <User size={16} />
+                                <User className="w-4 h-4" />
                                 <span>Empowers Redactie</span>
                             </div>
                             <div className="flex items-center gap-2">
-                                <Calendar size={16} />
+                                <Calendar className="w-4 h-4" />
                                 <span>20 maart 2026</span>
                             </div>
                             <div className="flex items-center gap-2">
-                                <Clock size={16} />
-                                <span>9 min leestijd</span>
+                                <Clock className="w-4 h-4" />
+                                <span>9 minuten leestijd</span>
                             </div>
                         </div>
-                    </div>
+                    </header>
 
                     {/* Featured Image */}
-                    <div className="mb-12 rounded-2xl overflow-hidden bg-gradient-to-br from-accent/20 to-primary/10 h-96 flex items-center justify-center border border-primary/10">
-                        <img
-                            src="/images/blogs/b2b-marketing-bureau-vs-zelf.jpg"
-                            alt="B2B marketing bureau versus zelf doen"
-                            className="w-full h-full object-cover"
-                        />
-                    </div>
+                    <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 relative bg-primary">
+                        <div className="absolute inset-0 bg-[url('/images/blogs/b2b-marketing-bureau-vs-zelf.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    </figure>
 
                     {/* Content */}
                     <div className="prose prose-lg max-w-none prose-headings:font-sans prose-headings:font-bold prose-headings:text-primary prose-a:text-accent prose-a:underline hover:prose-a:text-accent/80">
@@ -227,95 +215,95 @@ export default function BlogPostB2bMarketingBureauVsZelf() {
                             B2B marketing is anders dan B2C. Je hebt een gespecialiseerde aanpak nodig: LinkedIn, content marketing en lange sales cycles. Doe het zelf als je klein bent en tijd hebt. Huur een bureau in als je snel groei wilt en meer dan 5.000 euro per maand beschikbaar hebt. Een professionele B2B bureau haalt 40 tot 60 procent betere resultaten.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">
                             Waar worstelen B2B bedrijven mee?
                         </h2>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             B2B marketing is harder dan het lijkt. Je targetaudience is klein en specifiek. Een accountmanager van jouw klant zoekt niet op Google naar je producten. Ze zitten op LinkedIn, lezen whitepapers en gaan naar events.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Veel B2B bedrijven begrijpen dit niet. Ze doen B2C marketing (hoge volumes, korte cycli) en wonder zich af waarom ze geen leads krijgen. B2B vraagt geduld, relevante content en relatiebouwing.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             De grootste uitdagingen: je doelgroep is te klein voor B2C-aanpak, je sales cycle is lang (3-6 maanden), een klant neemt maanden om te beslissen en je moet veel stakeholders overtuigen.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">
                             Zelf B2B marketing doen: wanneer kan het?
                         </h2>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Je kan B2B marketing zelf doen als je aan dit profiel voldoet: je hebt 15-20 uur per week beschikbaar, je bent goed met LinkedIn en content, je doelgroep is klein (onder 500 potentiële klanten) en je budget is minder dan 3.000 euro per maand.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit werkt goed voor startups, consultants en kleine SaaS bedrijven met niche markten. Je hebt directe controle, je begrijpt je klanten beter en je bespaart management fees.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het nadeel: B2B marketing vereist veel tijd. Je moet LinkedIn posts schrijven, whitepapers maken, webinars hosten en emails sturen. Als je dit naast je reguliere werk doet, gaat het traag.
                         </p>
 
-                        <h3 className="text-2xl font-bold text-primary mt-10 mb-4">
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">
                             Hoeveel tijd kost het zelf doen?
                         </h3>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Goed B2B marketing kost minstens 15-20 uur per week. Je moet maandelijks 4-8 LinkedIn posts schrijven, 1-2 whitepapers maken, e-mailcampagnes opzetten en data analyseren. Zonder voldoende tijd stagneert je marketing.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We zien in de praktijk dat veel ondernemers dit onderschatten. Ze starten enthousiast, maar na 3 maanden slinkt de tijd. Dan gaat je content strategie achteruit en krijg je minder leads.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">
                             Wanneer is een B2B marketing bureau de slimme keus?
                         </h2>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Huur een B2B bureau in als je budget groter is dan 5.000 euro per maand, je geen 15-20 uur per week kan besteden, je snel leads wilt of je huidige marketing stagneert. Een professionele bureau bouwt geïntegreerde campagnes op.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een goed B2B bureau combineert LinkedIn-advertenties, content marketing, email campaigns en events. Ze analyseren je doelgroep scherp, segmenteren je database en testen voortdurend. Dit leidt tot 40-60 procent meer kwalificeerde leads.
                         </p>
 
-                        <h3 className="text-2xl font-bold text-primary mt-10 mb-4">
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">
                             Wat kost een B2B marketing bureau?
                         </h3>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             B2B marketing bureaus rekenen 2.500 tot 10.000 euro per maand. Kleinere bureaus werken op uurbasis (75-150 euro per uur). Grotere agencies hanteren vaste maandtarieven, afhankelijk van scope (hoeveel kanalen, campagnes, frequency).
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit lijkt duur, maar een goed bureau genereert veel meer leads. Als je er tien extra gesloten deals per maand uit haalt, en jouw gemiddelde deal 50.000 euro oplevert, dan betaal je jezelf terug in één maand.
                         </p>
 
-                        <h3 className="text-2xl font-bold text-primary mt-10 mb-4">
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">
                             Wat doet een B2B bureau anders dan jij?
                         </h3>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een professionele B2B bureau heeft ervaring met tientallen B2B bedrijven. Ze kennen LinkedIn algoritmes, welke content werkt, hoe je sales teams enablement doet en hoe je long sales cycles optimaliseert.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Ze schrijven overtuigende copy, segmenteren je doelgroep scherp en testen voortdurend. Ze hebben tools voor lead scoring, CRM integraties en gedetailleerde analytics. Ze weten welke leads warm zijn en welke nog koud.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bovendien hebben ze netwerk. Ze kennen events, influencers en kanalen waar jouw doelgroep aanwezig is. Dit helpt je veel sneller zichtbaar te worden.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">
                             B2B marketing strategieën die werken
                         </h2>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Voor B2B zijn deze kanalen het meest effectief:
                         </p>
 
@@ -328,15 +316,15 @@ export default function BlogPostB2bMarketingBureauVsZelf() {
                             <li><strong>Account-based marketing:</strong> Voor grote deals: target je specifieke accounts met persoonlijke campaigns.</li>
                         </ul>
 
-                        <h2 className="text-3xl mt-16 mb-6">
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">
                             Zelf of uitbesteden? Een checklist
                         </h2>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Om je te helpen beslissen:
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Kies ZELF doen als:</strong>
                         </p>
                         <ul className="space-y-4 my-8 pl-6 list-disc marker:text-accent">
@@ -347,7 +335,7 @@ export default function BlogPostB2bMarketingBureauVsZelf() {
                             <li>Je bereid bent 6-9 maanden geduld te hebben</li>
                         </ul>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Kies UITBESTEDEN als:</strong>
                         </p>
                         <ul className="space-y-4 my-8 pl-6 list-disc marker:text-accent">
@@ -359,51 +347,51 @@ export default function BlogPostB2bMarketingBureauVsZelf() {
                             <li>Je geen voldoende in-house expertise hebt</li>
                         </ul>
 
-                        <h2 className="text-3xl mt-16 mb-6">
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">
                             Hoe kies je de juiste B2B bureau?
                         </h2>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Als je besluit uit te besteden, kies dan een bureau met echte B2B ervaring. Veel agencies kunnen B2C goed, maar B2B is anders. Vraag altijd om case studies en referenties van gelijke bedrijven.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een goed B2B bureau geeft je maandelijks duidelijke rapportages: hoeveel leads, lead quality, cost per lead en pipeline impact. Ze leggen uit wat ze doen en waarom. Ze tonen je concrete getallen.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Pas op voor bureaus die snelle resultaten beloven. B2B marketing werkt langzamer. Verwacht eerste resultaten na 2-3 maanden en echt momentum na 6 maanden. Wees voorzichtig met bureaus die zeggen dat ze je leads kunnen verdubbelen in één maand.
                         </p>
 
-                        <p>
-                            Bij <a href="/diensten/b2b-marketing" className="text-accent underline hover:text-accent/80">onze B2B marketing service</a> focussen we op jouw KPI's: leads, kwaliteit en pipeline growth. We testen, optimaliseren en rapporteren maandelijks. We werken transparant en je ziet exact wat je geld doet.
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Bij <a href="/diensten" className="text-accent underline hover:text-accent/80">onze B2B marketing service</a> focussen we op jouw KPI's: leads, kwaliteit en pipeline growth. We testen, optimaliseren en rapporteren maandelijks. We werken transparant en je ziet exact wat je geld doet.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">
                             Hoeveel tijd duurt het tot resultaten?
                         </h2>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             B2B marketing is een marathon, geen sprint. Verwacht deze tijdlijn: maand 1-2, je ziet eerste activiteiten (content, ads). Maand 3-4, eerste leads beginnen in te stromen. Maand 5-6, je ziet echte momentum. Maand 6+, je hebt stabiel leadflow.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit verschilt per bedrijf. Als je smal niche hebt en kleine doelgroep, gaat het sneller. Als je breed markt bent met groot publiek, duurt het langer. Zorg dat je bureau deze realistische verwachtingen stelt.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het belangrijkste: kies een bureau die systematisch werkt, data analyseert en voortdurend optimaliseert. Die geeft je beter en betere resultaten.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">
                             Heb je nog vragen over B2B marketing?
                         </h2>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             B2B marketing is complex en elke bedrijf is anders. Wil je weten wat het beste voor jouw situatie is? <a href="/contact" className="text-accent underline hover:text-accent/80">Plan een gratis gesprek</a> met ons. We analyseren jouw situatie en geven je onafhankelijk advies.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We helpen je bepalen of zelf doen of uitbesteding beter is, welke kanalen het meest effectief zijn en hoe je snel groei bereikt. Laat ons van je horen.
                         </p>
                     </div>
@@ -473,19 +461,15 @@ export default function BlogPostB2bMarketingBureauVsZelf() {
                 </div>
             </article>
 
-            {/* CTA Section */}
-            <section className="py-24 px-6 bg-dark text-white text-center">
-                <div className="max-w-2xl mx-auto">
-                    <h2 className="font-sans font-bold text-2xl md:text-3xl mb-6">
-                        Klaar om jouw B2B marketing op gang te krijgen?
-                    </h2>
-                    <p className="text-white/70 mb-10 text-lg leading-relaxed">
+            {/* Bottom CTA */}
+            <section className="w-full pb-32 px-6">
+                <div className="max-w-4xl mx-auto bg-primary rounded-[3rem] p-12 md:p-20 text-center relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
+                    <h2 className="relative z-10 font-drama italic text-background text-3xl sm:text-4xl md:text-5xl mb-6">Klaar om jouw B2B marketing op gang te krijgen?</h2>
+                    <p className="relative z-10 font-sans text-background/70 text-lg mb-10 max-w-xl mx-auto">
                         Of je nu zelf begint of een bureau inhuurt, wij helpen je graag. Plan een gratis gesprek. We kijken naar jouw situatie, doelen en bepalen wat het beste voor jou werkt.
                     </p>
-                    <Link
-                        to="/contact"
-                        className="inline-block px-10 py-4 bg-accent text-dark font-bold rounded-full hover:bg-accent/90 transition-colors text-lg"
-                    >
+                    <Link to="/contact" className="relative z-10 btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-lg px-10 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
                         Plan een gesprek
                     </Link>
                 </div>

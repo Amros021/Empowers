@@ -115,30 +115,25 @@ export default function BlogPostGeoVsSeo() {
             <article className="w-full pt-40 pb-24 px-6 relative">
                 <div className="max-w-4xl mx-auto">
                     {/* Breadcrumbs */}
-                    <nav className="mb-12 flex items-center gap-2 text-sm text-dark/60">
-                        {breadcrumbs.map((crumb, index) => (
-                            <div key={crumb.href} className="flex items-center gap-2">
-                                {index > 0 && <ChevronRight className="w-4 h-4" />}
-                                {index === breadcrumbs.length - 1 ? (
-                                    <span className="text-dark font-medium">{crumb.label}</span>
-                                ) : (
-                                    <Link to={crumb.href} className="text-blue-700 underline hover:text-blue-900">
-                                        {crumb.label}
-                                    </Link>
-                                )}
-                            </div>
-                        ))}
+                    <nav className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-primary/50 mb-12">
+                        <Link to="/" className="hover:text-accent transition-colors">Home</Link>
+                        <ChevronRight className="w-3 h-3" />
+                        <Link to="/nieuws" className="hover:text-accent transition-colors">Nieuws</Link>
+                        <ChevronRight className="w-3 h-3" />
+                        <Link to="/blogs/geo" className="hover:text-accent transition-colors">GEO</Link>
+                        <ChevronRight className="w-3 h-3" />
+                        <span className="text-primary truncate">GEO vs SEO...</span>
                     </nav>
 
                     {/* Header */}
-                    <div className="mb-12">
-                        <div className="inline-block bg-accent/20 text-accent px-4 py-2 rounded-full text-xs font-semibold mb-4">
+                    <header className="mb-16">
+                        <div className="inline-block px-3 py-1 bg-accent/10 text-accent font-mono text-xs uppercase tracking-widest rounded-full mb-6">
                             GEO
                         </div>
-                        <h1 className="text-5xl font-bold text-dark mb-6 leading-tight">
+                        <h1 className="font-sans font-bold text-primary text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight tracking-tight mb-8">
                             GEO vs SEO: wat is het verschil en heb je allebei nodig?
                         </h1>
-                        <div className="flex flex-wrap gap-6 text-dark/60 text-sm">
+                        <div className="flex flex-wrap items-center gap-6 text-sm font-sans text-primary/60 border-y border-primary/10 py-6">
                             <div className="flex items-center gap-2">
                                 <User className="w-4 h-4" />
                                 <span>Empowers Redactie</span>
@@ -149,21 +144,15 @@ export default function BlogPostGeoVsSeo() {
                             </div>
                             <div className="flex items-center gap-2">
                                 <Clock className="w-4 h-4" />
-                                <span>7 min. leestijd</span>
+                                <span>7 minuten leestijd</span>
                             </div>
                         </div>
-                    </div>
+                    </header>
 
                     {/* Featured Image */}
-                    <figure className="mb-12 rounded-2xl overflow-hidden shadow-lg">
-                        <img
-                            src="/images/blogs/geo-vs-seo-verschil-heb.jpg"
-                            alt="GEO vs SEO vergelijking: Google Maps en zoekresultaten"
-                            className="w-full h-auto"
-                        />
-                        <figcaption className="text-sm text-dark/60 pt-4 px-4">
-                            GEO en SEO werken samen: lokale kaart en zoekmachines
-                        </figcaption>
+                    <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 relative bg-primary">
+                        <div className="absolute inset-0 bg-[url('/images/blogs/geo-vs-seo-verschil-heb.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
 
                     {/* Main Content */}
@@ -172,19 +161,19 @@ export default function BlogPostGeoVsSeo() {
                             GEO en SEO klinken hetzelfde, maar ze zijn totaal anders. GEO toont jouw bedrijf op Google Maps voor klanten in jouw buurt. SEO laat je website hoog in zoekresultaten verschijnen overal. Je hoeft niet te kiezen: de beste bedrijven gebruiken beide tegelijk. Hier lees je het verschil en wat jij nodig hebt.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat is het echte verschil tussen GEO en SEO?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat is het echte verschil tussen GEO en SEO?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             SEO staat voor Search Engine Optimization. Dit betekent: jij zorgt dat je website hoger in Google-zoeken verschijnt. Als iemand "loodgieter Amsterdam" googlet en jouw website staat op plek één, dat is SEO.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             GEO staat voor Google Guaranteed Listings of Local SEO. Dit betekent: jouw bedrijf verschijnt op Google Maps, samen met foto's, adres, reviews en openingstijden. Als iemand "kappers in Amsterdam" zoekt en jij verschijnt op de kaart, dat is GEO.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het verschil in één zin: SEO is zichtbaarheid in zoeken, GEO is zichtbaarheid in kaarten en lokale resultaten.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe werkt GEO precies?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe werkt GEO precies?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google wil dat lokale klanten het dichtsbijzijnde bedrijf vinden. Je zet jezelf in via Google Mijn Bedrijf (nu Google Business Profile). Je vult in:
                         </p>
                         <ul className="space-y-4 my-8 pl-6 list-disc marker:text-accent">
@@ -193,12 +182,12 @@ export default function BlogPostGeoVsSeo() {
                             <li>Diensten of categorieën</li>
                             <li>Bedieningsgebied (waar je heen gaat, bijv. hele Amsterdam)</li>
                         </ul>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google ziet dat jij daar bent, klanten geven reviews, en je springt op de kaart. Hoe meer reviews, hoe beter jij rankt in GEO. Dit is snel: weken in plaats van maanden.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe werkt SEO?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe werkt SEO?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             SEO is ingewikkelder. Google kijkt naar honderden factoren op je website. Belangrijkste dingen:
                         </p>
                         <ul className="space-y-4 my-8 pl-6 list-disc marker:text-accent">
@@ -209,12 +198,12 @@ export default function BlogPostGeoVsSeo() {
                             <li>Mobiel design (telefoon-vriendelijk)</li>
                             <li>Gebruikerservaring (blijven bezoekers hangen?)</li>
                         </ul>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google ziet dat jouw website waardevol is, en zet je hoger. Dit duurt langer: maanden. Maar je haalt meer klanten uit heel het land.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Welke bedrijven hebben GEO nodig?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Welke bedrijven hebben GEO nodig?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             GEO is goud voor servicebedrijven met een fysieke locatie. Denk aan:
                         </p>
                         <ul className="space-y-4 my-8 pl-6 list-disc marker:text-accent">
@@ -225,12 +214,12 @@ export default function BlogPostGeoVsSeo() {
                             <li>Installateurs, CVs-bedrijven</li>
                             <li>Iedereen met een kantoor of winkel</li>
                         </ul>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Klanten van deze bedrijven zoeken lokaal: "hairdresser bij mij in de buurt". GEO geeft je juist die klanten.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Welke bedrijven hebben SEO nodig?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Welke bedrijven hebben SEO nodig?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             SEO helpt als je wilt groeien landelijk of wereldwijd. Bijvoorbeeld:
                         </p>
                         <ul className="space-y-4 my-8 pl-6 list-disc marker:text-accent">
@@ -240,64 +229,64 @@ export default function BlogPostGeoVsSeo() {
                             <li>Diensten-bedrijven die overal werken</li>
                             <li>Merken die uitbreiden</li>
                         </ul>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Voor deze bedrijven is landelijk zichtbaarheid voordeel. SEO bouwt langterm groei.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Moet ik GEO en SEO tegelijk doen?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Moet ik GEO en SEO tegelijk doen?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Hangt af. Als jij een loodgieter bent in Amsterdam: start met GEO. Die klanten zoeken nu, en GEO werkt snel. SEO voeg je later toe als je wilt groeien.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Als jij een webshop bent: SEO is voornaam. GEO helpt niet, je hebt geen fysieke locatie.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Als jij beide kan doen (geld en tijd): perfekt. GEO brengt directe klanten nu. SEO bouwt groei voor later. Samen werken ze sterker.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe zet je GEO in drie stappen in</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe zet je GEO in drie stappen in</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Stap 1: Maak een Google Business Profile aan op google.com/business. Vul alles in: naam, adres, telefoon, openingstijden, foto's.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Stap 2: Verifieer je adres. Google stuurt een kaart. Je voert een code in, klaar.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Stap 3: Vraag klanten reviews. Meer reviews = beter ranking. Maak een link naar jouw Google-profiel en deel die.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe start je met SEO?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe start je met SEO?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Stap 1: Onderzoek. Google "wat zoeken je klanten?" (bijv. "reparatie vaatwasser Amsterdam"). Noteer die woorden.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Stap 2: Schrijf content. Maak een blog-post over "vaatwasser reparatie Amsterdam". Google ziet: jij bent expert.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Stap 3: Haal links. Vraag andere sites naar jou te linken. Dit zegt tegen Google: jij bent betrouwbaar.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit duurt maanden. Maar je haalt klanten uit heel het land.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">GEO versus SEO: snelheid en resultaat</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">GEO versus SEO: snelheid en resultaat</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             GEO: Je ziet klanten in weken, soms dagen. Je Google Business-profiel is live, reviews stromen in, je staat op de kaart. Snel.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             SEO: Maanden tot een half jaar. Je publiceert content, andere sites linken naar je, Google ziet je autoriteit. Langzaam, maar sterker.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">GEO en SEO samen: de beste strategie</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">GEO en SEO samen: de beste strategie</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Slim bedrijven doen beide. GEO eerste: het is gratis en werkt snel. Je haalt lokale klanten nu. Terwijl GEO loopt, werk je aan SEO voor langterm groei.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Na een half jaar heb je stabiele GEO-klanten en zie je SEO-resultaten. Dubbele groei.
                         </p>
 
                         <p className="mt-12 pt-8 border-t border-dark/10">
-                            Wil je goed in GEO en SEO verschijnen? Wij helpen je beide in te stellen: Google Business profiel optimaliseren, reviews beheren, en content schrijven voor zoekmachines. <Link to="/contact" className="text-blue-700 underline hover:text-blue-900">Neem contact op</Link> voor een gratis adviesgesprek.
+                            Wil je goed in GEO en SEO verschijnen? Wij helpen je beide in te stellen: Google Business profiel optimaliseren, reviews beheren, en content schrijven voor zoekmachines. <Link to="/contact" className="text-accent hover:underline">Neem contact op</Link> voor een gratis adviesgesprek.
                         </p>
                     </div>
 
@@ -322,12 +311,12 @@ export default function BlogPostGeoVsSeo() {
                             {faqItems.map((item, index) => (
                                 <div
                                     key={index}
-                                    className="bg-white/60 rounded-2xl p-6 shadow-sm border border-primary/5 hover:shadow-md transition-shadow"
+                                    className="border border-primary/10 rounded-xl p-6"
                                 >
-                                    <h3 className="font-bold text-dark mb-3 text-lg">
+                                    <h3 className="font-sans font-semibold text-primary text-lg mb-3">
                                         {item.question}
                                     </h3>
-                                    <p className="text-dark/70 text-sm leading-relaxed">
+                                    <p className="font-sans text-primary/70 leading-relaxed">
                                         {item.answer}
                                     </p>
                                 </div>

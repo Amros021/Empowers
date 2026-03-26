@@ -112,146 +112,146 @@ export default function BlogPostAiDigitaleMarketing() {
                             AI maakt marketing sneller, goedkoper en gericht. Kopij schrijven die converteert, advertenties automatisch aanpassen naar het publiek, email-onderwerpen die openingen verhogen. Dit zijn geen toekomstplannen meer. Dit werkt nu al. Bij bedrijven waar we mee werken zien we een stijging van 25 tot 40 procent in conversies wanneer ze AI slim inzetten.
                         </p>
 
-                        <p>
-                            De vraag is niet meer of je AI gebruikt in marketing. De vraag is hoe snel je begint. Bedrijven die nu wachten, verliezen tegen concurrenten die al twee stappen verder zijn. Dit artikel laat zien hoe je AI vandaag nog in je strategie bouwt, zonder het ingewikkeld te maken. Wil je weten hoe AI de marketingwereld verandert? Lees ons artikel over <a href="/blogs/ai-marketingwereld-verandert-2025" className="text-blue-700 underline hover:text-blue-900">AI in 2026</a>.
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            De vraag is niet meer of je AI gebruikt in marketing. De vraag is hoe snel je begint. Bedrijven die nu wachten, verliezen tegen concurrenten die al twee stappen verder zijn. Dit artikel laat zien hoe je AI vandaag nog in je strategie bouwt, zonder het ingewikkeld te maken. Wil je weten hoe AI de marketingwereld verandert? Lees ons artikel over <a href="/blogs/algemeen/ai-marketingwereld-verandert-2025" className="text-accent hover:underline">AI in 2026</a>.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Welke AI-tools bestaan er voor marketing?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Welke AI-tools bestaan er voor marketing?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Er zijn meer dan honderd marketingtools met AI-functionaliteiten. De meeste daarvan zijn gefocust op een specifieke taak. Laten we ze opdelen naar wat ze doen.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Tekst en copywriting</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Tekst en copywriting</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             ChatGPT is het populairst omdat het gratis is en alles kan. Jasper, Copy.ai en Writesonic zijn gespecialiseerd in marketing-teksten: advertentieteksten, email-onderwerpen, product-omschrijvingen. Ze kosten 30 tot 100 euro per maand, maar geven beter resultaat voor marketing dan ChatGPT, omdat ze zijn getraind op high-converting copy. Bij onze klanten zien we dat Copy.ai en Jasper ongeveer 40 procent sneller wordt begrepen dan ChatGPT voor puur marketing-werk.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Claude is ook een sterke optie voor Nederlands. Het maakt langere teksten beter dan ChatGPT en vergist zich minder in feiten. Voor blogs en langere artikelen is Claude superieur. ChatGPT is beter voor korte advertentieteksten.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Email en automatisering</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Email en automatisering</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             HubSpot, ActiveCampaign en Mailchimp voegen AI toe aan je email-workflows. HubSpot stelt subject lines voor die beter openen (gemiddeld 15 procent hoger). ActiveCampaign voorspelt welke contacts konversie gaan doen en stuurt ze meer relevante berichten. Dit gebeurt allemaal automatisch.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             GetResponse is een eerder onbekend alternatief dat goedkoper is dan HubSpot maar veel dezelfde AI-functies biedt. Voor MKB's is GetResponse vaak de perfecte middenweg: betaalbaarder dan HubSpot maar met meer functies dan Mailchimp.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Advertenties</h3>
-                        <p>
-                            <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads</a> en <a href="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Meta Ads</a> hebben allebei ingebouwde AI. Google Ads Smart Bidding zorgt ervoor dat jouw budget precies naar de juiste moment gaat om conversies te halen. Meta's Advantage+ Shopping Campaigns vinden jouw ideale klanten automatisch, zonder dat je handmatig doelgroepen instelt. Bij onze klanten halveren deze systemen vaak de kosten per conversie. Je stelt het eenmalig in en het wordt beter naarmate het meer data verzamelt.
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Advertenties</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            <a href="/google-ads" className="text-accent hover:underline">Google Ads</a> en <a href="/meta-ads" className="text-accent hover:underline">Meta Ads</a> hebben allebei ingebouwde AI. Google Ads Smart Bidding zorgt ervoor dat jouw budget precies naar de juiste moment gaat om conversies te halen. Meta's Advantage+ Shopping Campaigns vinden jouw ideale klanten automatisch, zonder dat je handmatig doelgroepen instelt. Bij onze klanten halveren deze systemen vaak de kosten per conversie. Je stelt het eenmalig in en het wordt beter naarmate het meer data verzamelt.
                         </p>
-                        <p>
-                            TikTok Ads heeft ook AI-features die automatisch je doelgroep vinden. Hoewel TikTok vaak associëren met jong publiek, zien we steeds meer MKB's (kantoor, consulting, services) succesvol TikTok gebruiken met AI-optimalisatie. De kosten per conversie zijn daar veel lager dan bij Google of Meta. Wil je meer over TikTok weten? Lees onze <a href="/blogs/tiktok-ads" className="text-blue-700 underline hover:text-blue-900">TikTok Ads gids</a>.
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            TikTok Ads heeft ook AI-features die automatisch je doelgroep vinden. Hoewel TikTok vaak associëren met jong publiek, zien we steeds meer MKB's (kantoor, consulting, services) succesvol TikTok gebruiken met AI-optimalisatie. De kosten per conversie zijn daar veel lager dan bij Google of Meta. Wil je meer over TikTok weten? Lees onze <a href="/blogs/social-ads/tiktok-ads-voor-bedrijven" className="text-accent hover:underline">TikTok Ads gids</a>.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Analyse en rapportage</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Analyse en rapportage</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google Analytics 4 heeft ingebouwde AI-inzichten die je waarschuwen wanneer iets ongewoon gebeurt (meer bounces dan normaal, minder conversies). IBM Watson en Microsoft Power BI voeren diepere analyses uit en voorspellen trends. Voor MKB's is GA4 meestal voldoende.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Waarom is AI nu belangrijk voor MKB's?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom is AI nu belangrijk voor MKB's?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Als klein of middelgroot bedrijf heb je een probleem: je hebt minder budget dan grote bedrijven, maar je moet net zo zichtbaar zijn. AI lost dit op door je productiviteit te verhogen. Je team kan meer doen met dezelfde tijd en geld.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Kijk naar de cijfers. Een marketeer kan handmatig per week 5 tot 10 advertentieteksten schrijven. Met AI genereert diezelfde persoon 30 tot 50 verschillende versies, test ze allemaal, en houdt alleen de werkers. Dat voelt als je team groeide, zonder dat je salarissen betaalt.
                         </p>
 
-                        <p>
-                            Voor digitale kanalen is dit essentieel. Bij <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads</a> moet je jaarlijks honderden of duizenden combinaties van woorden testen. AI doet dit automatisch. Bij email marketing kan AI ontdekken dat jouw klanten dinsdag beter reageren dan woensdag, en verstuurt berichten dan automatisch op het juiste moment.
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Voor digitale kanalen is dit essentieel. Bij <a href="/google-ads" className="text-accent hover:underline">Google Ads</a> moet je jaarlijks honderden of duizenden combinaties van woorden testen. AI doet dit automatisch. Bij email marketing kan AI ontdekken dat jouw klanten dinsdag beter reageren dan woensdag, en verstuurt berichten dan automatisch op het juiste moment.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bij onze klanten zien we dat bedrijven die AI gebruiken 20 tot 25 procent meer conversies halen met hetzelfde budget. Sommigen zien zelfs 40 procent meer leads. Je concurrenten zonder AI raken achter. De vraag is niet of dit geld oplevert; het doet dat altijd. De vraag is hoe snel je er mee begint.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een ander voordeel dat we zien: bedrijven kunnen veel sneller experimenten runnen. Met AI kan je in één week vijf verschillende aanpakken testen. Handmatig zou dat twee maanden duren. Dit betekent dat je sneller leert wat je doelgroep wil.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">6 concrete toepassingen van AI in marketing</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">6 concrete toepassingen van AI in marketing</h2>
 
-                        <h3 className="text-xl font-bold mb-2">1. Advertentieteksten schrijven en testen in schaal</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">1. Advertentieteksten schrijven en testen in schaal</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Hieronder valt het schrijven van ad copy, product-omschrijvingen en landing page-headers. AI genereert 10 tot 20 verschillende versies van je headline in twee minuten. Jij kiest de drie beste en test die tegen elkaar. Google Ads en Facebook Ads doen dit inmiddels semi-automatisch: je geeft 3 headlines aan, en het algoritme test ze tegen elkaar. Binnen twee weken weet je welke werkt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We merken in de praktijk dat bedrijven die dit doen 15 procent meer kliks krijgen. Die kliks zijn goedkoper (omdat je alleen de beste teksten laat zien) en het gebeurt zonder dat je meer budget uitgeeft. Een e-commercebedrijf waar we mee werken genereert met AI wekelijks 40 nieuwe advertentievariaties, test die allemaal parallel, en houdt alleen de 5 beste. Dit proces coste hen voorheen 20 uren werk per week. Nu kost het 3 uren.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">2. Email subject lines die meer openen genereren</h3>
-                        <p>
-                            Slechts 21 procent van de email wordt geopend. De rest wordt niet eens gelezen. De subject line bepaalt alles. AI kan 50 verschillende subject lines genereren en je helpen de meest kans-volle uit te zoeken. Sommige tools laten je ook A/B testen: je stuurt versie A naar 20 procent van je list, versie B naar 20 procent, en dan de winnaar naar iedereen. Goed <a href="/diensten/tracking" className="text-blue-700 underline hover:text-blue-900">tracking</a> is hier essentieel om te zien wat werkt.
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">2. Email subject lines die meer openen genereren</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Slechts 21 procent van de email wordt geopend. De rest wordt niet eens gelezen. De subject line bepaalt alles. AI kan 50 verschillende subject lines genereren en je helpen de meest kans-volle uit te zoeken. Sommige tools laten je ook A/B testen: je stuurt versie A naar 20 procent van je list, versie B naar 20 procent, en dan de winnaar naar iedereen. Goed <a href="/diensten" className="text-accent hover:underline">tracking</a> is hier essentieel om te zien wat werkt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bedrijven die dit gebruiken zien open rates stijgen van 18 tot 20 procent naar 24 tot 28 procent. Dat klinkt niet als veel, maar als je 10.000 contacts hebt, zijn dat 600 tot 800 extra openingen. Die extra openingen brengen 10 tot 20 procent meer conversies. Een SaaS-bedrijf waar we mee werken zag hun open rate gaan van 19 procent naar 27 procent. Hun click rate steeg van 3 procent naar 4,2 procent. Met dezelfde maandelijkse email volume haalden ze 40 procent meer leads.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">3. Betere doelgroep-keuzes door machine learning</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">3. Betere doelgroep-keuzes door machine learning</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Meta's Advantage+ en Google's Smart Campaigns nemen doelgroep-keuzes uit je handen. Je zegt simpelweg: "Ik wil conversies hebben" en het algoritme zoekt automatisch naar mensen die veel op jouw eerdere converters lijken. Hoe meer data het heeft, hoe beter het wordt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit klinkt eng (je controleert niet meer wie je bereikt), maar de resultaten spreken voor zich. Bedrijven zien 30 tot 40 procent lagere kosten per conversie binnen 3 maanden. De reden: het algoritme kan duizenden signalen tegelijk afwegen (leeftijd, interesse, apparaat, moment van dag, locatie, gedrag online). Jij kunt dat niet. Bij onze klanten zien we dat Advantage+ (Meta's AI-gestuurde campagne-type) in 60 procent van de cases beter presteert dan handmatig ingestelde doelgroepen.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">4. Personalisatie die schaal bereikt</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">4. Personalisatie die schaal bereikt</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Met AI kun je een bericht naar 10.000 mensen sturen, en elk bericht is anders. Voor de ene persoon zeg je "jij bent geïnteresseerd in efficiency", voor de ander "jij zoekt duurzaamheid". De basis is hetzelfde, maar de personalisatie maakt het land. HubSpot en vergelijkbare tools doen dit automatisch op basis van wat ze over je contact weten.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een ander voorbeeld: website-bezoekers zien andere content afhankelijk van waar ze vandaan komen. Iemand uit Amsterdam ziet andere berichten dan iemand uit Utrecht. Automatie op deze schaal is zonder AI onmogelijk. We zien dit ook in webshops: AI past product-aanbevelingen aan per klant, wat de average order value verhoogt met 12 tot 18 procent.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">5. Chatbots die eerste contact af handelen</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">5. Chatbots die eerste contact af handelen</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Je website krijgt vragen. Veel vragen zijn repetitief: "Wat zijn je prijzen?" "Wat zijn je openingstijden?" "Hoe bestel ik?" AI-chatbots beantwoorden 70 tot 80 procent ervan zonder menselijke hulp. De rest gaat door naar je team.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit bespaard tijd, maar het doet meer: chatbots die goed werken, verhogen conversie. Bezoekers die een vraag krijgen beantwoord, gaan vaker naar de volgende stap. Ze voelen zich serieus genomen. Tools zoals Intercom en Drift integreren chatbots met je CRM, zodat al je contactgegevens automatisch opgeslagen worden. Bij onze klanten zien we dat chatbots 25 tot 35 procent meer leads opleveren dan websites zonder.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">6. Voorspellen wie gaat konverteren en wie niet</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">6. Voorspellen wie gaat konverteren en wie niet</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             AI kan je waarschuwen: "Deze contact gaat waarschijnlijk binnen 30 dagen kopen" of "Deze contact dropt uit, bel nu nog even." Dit heet predictive scoring. Je sales team concentreert zich dan op warme leads in plaats van iedereen gelijk te behandelen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bij onze klanten leidt dit tot 20 tot 30 procent meer deals. Het kost niets extra; het is pure efficiëncy. CRM's zoals HubSpot en Pipedrive hebben dit ingebouwd. Je ziet automatisch welke leads hot zijn en welke koud. Salesteams kunnen dan hun tijd steken in warm leads, en conversie stijgt.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">7. SEO-optimalisatie met AI-inzichten</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">7. SEO-optimalisatie met AI-inzichten</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             AI-tools zoals SEMrush en Ahrefs analyseren honderden miljoenen webpagina's om te zien wat Google graag ziet. Ze geven je direct advies: "Voeg deze 10 keywords toe aan je artikel", "Je competitor rankt voor deze 50 keywords die jij mist", "Jouw pagina laadt 2 seconden te langzaam vergeleken met je concurrenten".
                         </p>
-                        <p>
-                            Dit helpt SEO-specialisten enorm, maar ook beginners kunnen dit gebruiken. Met AI kun je zelf beter content schrijven en je meer zichtbaar maken in Google. Bij onze klanten zien we dat bedrijven die AI voor <a href="/diensten/seo" className="text-blue-700 underline hover:text-blue-900">SEO</a> gebruiken 30 tot 50 procent meer organic traffic halen binnen zes maanden. Geen betaalde ads nodig. Pure organische groei. Lees meer over dit onderwerp in onze <a href="/blogs/seo" className="text-blue-700 underline hover:text-blue-900">SEO gids</a>.
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Dit helpt SEO-specialisten enorm, maar ook beginners kunnen dit gebruiken. Met AI kun je zelf beter content schrijven en je meer zichtbaar maken in Google. Bij onze klanten zien we dat bedrijven die AI voor <a href="/seo" className="text-accent hover:underline">SEO</a> gebruiken 30 tot 50 procent meer organic traffic halen binnen zes maanden. Geen betaalde ads nodig. Pure organische groei. Lees meer over dit onderwerp in onze <a href="/blogs/seo" className="text-accent hover:underline">SEO gids</a>.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">3 fouten die je beter niet maakt</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">3 fouten die je beter niet maakt</h2>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 1: AI inhoud gebruiken zonder het zelf te checken</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 1: AI inhoud gebruiken zonder het zelf te checken</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             AI maakt fouten. Het verzint bronnen, gebruikt verkeerde getallen en zegt soms dingen die niet waar zijn. Lees alles wat AI schrijft na voordat je het publiceert. Controleer feiten, getallen en citaten. Dit kost tijd, maar het is onmisbaar. Bedrijven die dit overslaan, krijgen reputatie-problemen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We zien regelmatig dat AI-gegenereerde content fouten bevat. ChatGPT denkt soms dat het gegeven informatie juist is, terwijl het fout is. Dit is zo ernstig dat we altijd zeggen: controleer drie keer voordat je publiceert. Vooral voor belangrijke informatie (prijzen, data, statistieken) moet je checken. Een bedrijf dat we kenden publiceerde een blogpost met fout contact-informatie van een concurrent. Reputatieschade.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 2: Alles aan AI overlaten en niet zelf te leren hoe het werkt</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 2: Alles aan AI overlaten en niet zelf te leren hoe het werkt</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Als je alles aan AI overlaat, snap je niet meer wat werkt en wat niet. Je bent dan afhankelijk van het algoritme zonder inzicht. Neem altijd tijd om te begrijpen wat AI doet en waarom. Test dingen zelf. Zo leer je wat voor jouw bedrijf werkt en kan je sneller aanpassen als iets niet werkt.
                         </p>
-                        <p>
-                            We zien bedrijven die blind vertrouwen op AI-campagnes. Ze zeggen: "Google Ads doet het", maar ze snappen niet wat Google Ads echt doet. Zit je target audience op zoeken met deze woorden? Of niet? Is Google Ads juist voor jouw product? Als je dit niet weet, zal je altijd onder gemiddelde resultaten halen. Lees ons artikel over <a href="/blogs/google-ads-vs-seo-wat-werkt-beter" className="text-blue-700 underline hover:text-blue-900">Google Ads versus SEO</a> om beter te begrijpen welk kanaal voor jou werkt. Neem tijd om te leren. De eerste twee weken het meest intensief.
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            We zien bedrijven die blind vertrouwen op AI-campagnes. Ze zeggen: "Google Ads doet het", maar ze snappen niet wat Google Ads echt doet. Zit je target audience op zoeken met deze woorden? Of niet? Is Google Ads juist voor jouw product? Als je dit niet weet, zal je altijd onder gemiddelde resultaten halen. Lees ons artikel over <a href="/blogs/algemeen/google-ads-vs-seo-werkt" className="text-accent hover:underline">Google Ads versus SEO</a> om beter te begrijpen welk kanaal voor jou werkt. Neem tijd om te leren. De eerste twee weken het meest intensief.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 3: AI zien als snelle fix in plaats van strategisch gereedschap</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 3: AI zien als snelle fix in plaats van strategisch gereedschap</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             AI helpt als je al een strategie hebt. Zonder strategie maakt AI je alleen sneller verkeerd. Zorg eerst dat je weet: wie is je doelgroep? Welke kanalen werken voor hen? Wat is je boodschap? Dan helpt AI je dit op schaal uit te rollen. Zonder die basis is AI nutteloos.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We zien bedrijven die zeggen: "We gebruiken AI, dus het werkt wel." Nee. Als je geen strategie hebt, zal AI je helpen sneller geld te verspillen. Begin altijd met een duidelijke strategie. Wie willen we bereiken? Wat is het probleem dat we oplossen? Welk kanaal bereikt hen het best? Hoeveel budget heeft elk kanaal nodig? Alleen dan voeg je AI toe. AI versnelt het, maar strategie bepaalt de richting.
                         </p>
 
@@ -272,7 +272,7 @@ export default function BlogPostAiDigitaleMarketing() {
 
                         <hr className="my-16 border-primary/10" />
 
-                        <h2 className="text-3xl mb-8">Veelgestelde vragen over AI in marketing</h2>
+                        <h2 className="text-3xl font-bold text-primary mb-8">Veelgestelde vragen over AI in marketing</h2>
 
                         <div className="space-y-6 not-prose">
                             <div className="border border-primary/10 rounded-xl p-6">

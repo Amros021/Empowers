@@ -112,104 +112,104 @@ export default function BlogPostSchrijfBetereGoogleAdsAi() {
                             AI tools veranderen hoe je Google Ads schrijft. Ze geven je in seconden 10 verschillende headlines, ze testen alternatieven voor je, ze herkennen patronen in goede kopijen. Veel bedrijven gebruiken AI nu allang, en hun resultaten gaan omhoog. Dus hoe maak je dat verschil zelf?
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit artikel laat je zien hoe je Google Ads-kopijen met AI schrijft die echt resulteren. Niet voetstoots alles gebruiken wat ChatGPT je geeft, maar strategisch, gericht op jouw doelgroep en jouw conversiedoelen.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat zijn AI tools voor Google Ads eigenlijk?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat zijn AI tools voor Google Ads eigenlijk?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             AI tools voor Google Ads zijn eigenlijk gewoon grote taalmodellen. Je stopt context erin (je product, je doelgroep, je doel), en de AI genereert tekst. ChatGPT, Claude, Google Gemini en specialistische tools zoals Copy.ai werken allemaal op dezelfde basis.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het verschil zit in twee dingen: hoe veel je moet beschrijven, en hoe goed de AI aanvoelt wat goed werkt in advertenties. ChatGPT is gratis en flexibel, dus je kunt het voor bijna alles gebruiken. Specialistische tools zoals Copy.ai zijn gebouwd voor copywriting, dus ze snappen advertenties beter, maar je betaalt ervoor.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Wat AI niet doet: het maakt geen strategie. Het leest je website niet automatisch. Het snapt niet wat je werkelijk uniek maakt. AI genereert. Jij denkt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bij onze klanten zien we dat de beste resultaten ontstaan wanneer ze AI als hulpmiddel gebruiken, niet als vervanger. Je gebruikt AI voor snelheid en voor het genereren van ideeën die je nooit zou hebben bedacht. Maar jij beslist wat werkt voor je bedrijf.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het voordeel van AI is dat het geen vermoeidheid kent. Waar jij na twintig kopijen het vermoeid bent, genereert ChatGPT nog honderd nieuwe variaties. En het doet dat in minuten. De meeste AI tools werken op basis van miljarden voorbeelden van goede kopijen. Ze zien patronen die mensen mislopen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Maar AI heeft ook limieten. Het heeft geen echte creativity. Het werkt met patronen. Dus als je wilt dat je advertenties echt uniek zijn, moet je verder gaan dan wat AI geeft. Je moet redactie doen. Je moet de output filteren, verbeteren en aanpassen.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Waarom is dit belangrijk voor jouw bedrijf?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom is dit belangrijk voor jouw bedrijf?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google Ads is simpel: hoe beter je kopiëren, hoe hoger je klikfrequentie, hoe lager je kosten per klik, hoe meer conversies je krijgt. En veel bedrijven scoren matig op die headlines en beschrijvingen. Ze herhalen veel. Ze gebruiken dezelfde woorden. Ze spreken hun klanten niet echt aan.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             AI lost dit op. In seconden heb je 5, 10 of 20 kopijvarianten. Die varianten raken verschillende zenuwen bij je klanten. Sommige raken snelheid. Sommige kwaliteit. Sommige prijs. Jij test ze, en de beste wint.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             De getallen spreken voor zich. Bedrijven die AI gebruiken voor hun Google Ads kopijen zien gemiddeld een stijging van 20% in click-through rate. Hun kosten per conversie dalen met 15 tot 25%. En hun ad spend is efficiënter, omdat ze meer variaties kunnen testen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Wat we in de praktijk zien: bedrijven die nu beginnen met AI voor Google Ads, hebben een voordeel dat moeilijk in te halen is. Ze testen meer. Ze worden beter. En hun konkurrenten volgen pas later.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Take een concreet voorbeeld. Een SEO-bureau zette normale kopijen in hun Google Ads: "SEO Services", "Verbeter je Google ranking", "Meer traffic". Standaard spul. Conversion rate was 2,3%. Ze gebruikten AI en genereerden kopijen op basis van hun specifieke aanpak: "Je bezoekers verdubbelen in 3 maanden", "Niet zomaar SEO. SEO die rendeert", "Leid meer klanten in per maand met ons systeem". Ze testen deze kopijen. Na een maand: conversion rate naar 3,7%. Dat is een stijging van 60%. Voor hetzelfde budget kregen zij zestig procent meer conversies.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dat verschil bestaat uit twee dingen: betere kopijen die echt spreken, en meer inzicht in wat werkt omdat je veel meer kunt testen. AI maakt beide mogelijk.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 1: Verzamel je informatie</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 1: Verzamel je informatie</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             De sleutel tot goede AI-output is goede input. Dus voordat je ChatGPT opent, verzamel je informatie. Dit doe je niet zo dat het gemakkelijk is. Dit doe je grondvast.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Schrijf op: wat is je product of dienst? Wie is je ideale klant? Wat is hun probleem? Welke voordelen biedt jij? Wat maakt jou anders dan concurrenten? Welke resultaten mag je verwachten?
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Goed voorbeeld: je bent een accountant. Je doelgroep is solo-ondernemers in Amsterdam. Hun probleem is dat ze geen tijd hebben voor administratie. Jij lost dit op. Je prijs is €150 per maand. Je turnover time is maximaal 5 werkdagen. Dat zijn jouw punten.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Slecht voorbeeld: je bent accountant. Je helpt met administratie. Dat is te vaag. AI weet niet wat je echt verkoopt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Schrijf ook op welke pain points je klanten hebben. Stress over belastingen? Angst voor fouten? Geen tijd? Dit zijn emotionele punten die goed werken in advertenties.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Maak een document aan. Noem het "Mijn Google Ads Context". Gooi er alles in wat relevant is. Welke drie dingen onderscheiden je van je grootste drie concurrenten? Wat kosten hun diensten? Wat kosten jouw diensten? Wat is je unieke voordeel? Hoeveel klanten heb je per maand nodig om je doel te halen? Welke meetbare resultaten geven je klanten?
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bij onze klanten zien we dat bedrijven die dit grondvast doen, veel beter resultaat krijgen van AI. Omdat AI dan echt begrijpt wat je verkoopt. Een voorbeeld: een online cursusplatform had in hun context opgeschreven: "Onze cursus duurt 4 weken. Klanten werken 10 uur per week. 84% haalt het einde. 72% van die groep voelt zich direct zelfverzekerder." Die data gaf AI veel meer houvast dan "we sellonline courses".
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 2: Schrijf een goede prompt</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 2: Schrijf een goede prompt</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een goede prompt voor Google Ads is niet "schrijf een headline". Het is lang. Het geeft context. Het zegt wat je wilt bereiken.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Hier is een template die werkt:
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             "Schrijf 10 Google Ads headlines (maximum 30 tekens) voor [jouw bedrijf/product]. Doelgroep: [wie]. Primair voordeel: [wat]. Secundaire voordelen: [wat en wat]. Vermijd: [wat moet niet in de tekst]. Tone of voice: [direct/grappig/professioneel]. Zorg dat elke headline direct de voordelen aangeeft, geen jargon."
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit geeft AI genoeg informatie om goed te werken. Het zorgt ervoor dat alle headlines passen bij wat je wilt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Voorbeeld: "Schrijf 10 Google Ads headlines (max 30 tekens) voor een reparatieservice voor witgoed. Doelgroep: huiseigenaren in Amsterdam die snel een kapotte oven willen repareren. Primair voordeel: hetzelfde dag reparatie. Secundair: goedkoper dan vervangen, 3 jaar garantie. Vermijd: jargon over techniek. Tone of voice: direct en vriendelijk. Headlines moeten het probleem (kapot ding) direct aanpakken."
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Goede prompts leiden tot bruikbare output. Slechte prompts geven je onzin waar je niks mee kunt. Dus neem de tijd voor je prompt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een tip: schrijf je prompt in stappen. Niet alles tegelijk. Eerst zeg je wat je bedrijf is. Dan wie je doelgroep is. Dan wat het voordeel is. Dit helpt AI ook om logisch na te denken. Bij onze klanten zien we dat prompts in stapjes betere output geven dan één lange zin.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Ook belangrijk: vertel AI wat jij niet wilt. Veel bedrijven vergeten dit. Bijvoorbeeld: "Vermijd clichés als 'number one', 'best in class', 'revolutionair', of 'game changer'." Dit soort beperkingen maken dat AI veel specifiekere kopijen schrijft. Je kunt ook zeggen: "Zorg dat het voor beginners duidelijk is" of "Maak de headlines kort en punchy".
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 3: Genereer en selecteer varianten</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 3: Genereer en selecteer varianten</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Laat de AI draaien. Je krijgt 10, 15, 20 kopijen. De meeste zullen bruikbaar zijn. Sommige zullen niet passen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Selecteer de kopijen die:
                         </p>
                         <ul className="space-y-4 my-8 pl-6 list-disc marker:text-accent">
@@ -218,89 +218,89 @@ export default function BlogPostSchrijfBetereGoogleAdsAi() {
                             <li><strong>Actie oproepen.</strong> Ze doen de lezer iets willen. Aanmelden, klikken, bellen.</li>
                             <li><strong>Aanvaard zijn door Google.</strong> Geen beloften die je niet waar kan maken. Geen extreme woorden.</li>
                         </ul>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Lees ze hardop. Voelt het goed? Zou jij hier op klikken? Zou je doelgroep?
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Tip: maak groepen. Sommige headlines richten zich op snelheid. Sommige op prijs. Sommige op kwaliteit. Dit helpt je later bij het testen, omdat je verschillende zenuwen raakt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een ander ding: kijk naar de getallen in de AI-output. Veel tools genereren veel generic spul. Je zoekt de kopijen die specifiek zijn. Bijvoorbeeld: "Bespaar 5 uur per week administratie" is veel beter dan "Bespaar tijd". "Klanten binnen 48 uur" is beter dan "Snel". Wat AI genereert is vaak vaag. Jij maakt het scherp.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bij onze klanten zien we dat ze meestal 30 tot 40% van wat AI genereert bruikbaar vinden. De rest is filler. Dat is normaal. Eigenlijk voelt het juist fijn. Je hoeft niet alles te gebruiken. Je kunt kiezen.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 4: Test en meet</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 4: Test en meet</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Nu de cruciale stap: testen. Zet je AI-gegenereerde kopijen tegen elkaar in. Zet ze tegen je huidige kopijen. Meet klik-through rate, conversiegraad en kosten per conversie.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google Ads geeft je data voor alles. Na twee weken heb je genoeg data om te zien welke headlines beter werken. Wat werkt: draai door. Wat niet werkt: vervangen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We merken in de praktijk dat bedrijven die dit structureel doen, maandelijks 10 tot 15% beter scoren. Niet allemaal uit AI natuurlijk. Maar AI helpt omdat je veel sneller veel variaties kunt testen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Zorg dat je altijd drie versies tegelijk draait. Dus niet 30 headlines. Maar drie groepen van drie headlines. Iedere groep een ander hoek (snelheid, prijs, kwaliteit). De beste groep wint. Dan genereer je tien nieuwe kopijen op basis van die hoek.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Let op: geef je testen tijd. Veel bedrijven trekken hun kopijen na drie dagen al in omdat ze niet meteen werken. Google Ads heeft tijd nodig om te leren. Je hebt minstens een week data nodig. Twee weken is beter. Drie weken is ideal. Pas dan kun je echt zien of iets werkt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Hou een logboek bij. Welke kopijen test je? Wat waren de resultaten? Wat heb je geleerd? Dit helpt je erkennen welke hoeken en welke formuleringen voor jouw bedrijf werken. Na twee maanden heb je een duidelijk beeld van wat je doelgroep aantrekt.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 5: Schaal wat werkt</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 5: Schaal wat werkt</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Zodra je ziet welke headlines beter werken, schaal je. Niet zomaar. Stap voor stap.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Maak meer varianten van wat werkt. Laat AI tien nieuwe headlines genereren op basis van dezelfde pijler (het element dat goed werkt). Test deze ook. Zie hoe ver je kunt gaan zonder dat het slechter wordt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Verhoog je budget. Niet dubbel, maar 20 tot 30%. Kijk of de prestatie hetzelfde blijft of beter wordt. Pas het opnieuw aan. Dit proces kan je maandelijks herhalen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bedrijven die dit standaard doen en maandelijks testen, groeien hun conversies met 30 tot 50% per jaar. Het is niet snel. Het is continu.
                         </p>
 
-                        <h3 className="text-2xl mt-12 mb-6">De beschrijvingen niet vergeten</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">De beschrijvingen niet vergeten</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Veel bedrijven focussen alleen op headlines. Maar Google Ads-beschrijvingen zijn net zo belangrijk. Headlines trekken aandacht. Beschrijvingen verkopen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Je hebt twee beschrijvingslinies per advertentie. Elk is maximaal 90 tekens. Dit is je kans om uit te leggen waarom je beter bent. Laat AI hier ook mee helpen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een voorbeeld. Headline: "Accountancy voor solo-ondernemers". Beschrijving 1: "Minder stress over belastingen". Beschrijving 2: "Klaar in 5 werkdagen, €150 per maand". Dat werkt beter dan "We help with accounting. Professional team."
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bij onze klanten zien we dat beschrijvingen waar je concrete voordelen opnoemt, veel hogere conversies hebben. Dus geef AI ook goeie prompts voor beschrijvingen. Zeg wat de voordelen zijn. Zeg wat het kost. Zeg hoe snel het gaat. Minder is meer.
                         </p>
 
-                        <h3 className="text-2xl mt-12 mb-6">Testen met diverse kopijen, niet alleen AI</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Testen met diverse kopijen, niet alleen AI</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Hier is een fout die veel bedrijven maken: ze testen alleen AI-kopijen tegen elkaar. Ze vergeten om AI-kopijen tegen hun bestaande kopijen te testen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit is belangrijk. Je wilt weten of AI beter is dan wat je al hebt. Anders weet je niet of je vooruit gaat.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een test die werkt: maak twee groepen. Groep A: jouw huidige headlines. Groep B: AI-gegenereerde headlines. Laat ze allebei draaien. Na twee weken zie je het verschil. Dit geeft je inzicht in de waarde van AI voor jouw specifieke bedrijf.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bij onze klanten zien we heel veel variatie. Sommige bedrijven zien onmiddellijk voordeel van AI. Anderen zien nauwelijks verschil. Waarom? Omdat hun bestaande kopijen al best waren. Of omdat hun doelgroep heel specifiek is en AI generieker kopijen maakt. Door dit te meten weet je hoe je verder moet.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Drie fouten die bijna iedereen maakt</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Drie fouten die bijna iedereen maakt</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Fout 1: Alles wat AI genereert gebruiken.</strong> AI is niet perfect. Het maakt generieke kopijen. Het gebruikt clichés. Als je elke headline zomaar inplaatst, merk je dat meeste niet werken. Selecteer streng. Wees kritisch. Jij weet je bedrijf beter dan ChatGPT.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Fout 2: AI-kopijen niet testen.</strong> "Ik heb deze mooie kopijen van AI gekregen, ik zet ze erin en ga ervan uit dat ze beter zijn." Nee. Test alles. Altijd. AI-kopijen zijn hypotheses. Testen bewijst of ze werken.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Fout 3: Geen context geven aan AI.</strong> "Schrijf 10 headlines voor mijn bedrijf." AI weet niet wat je bedrijf is. Gaat dit over pizza? Verzekeringen? Kinderopvang? Geef context. Veel context. Hoe beter de input, hoe beter de output.
                         </p>
 

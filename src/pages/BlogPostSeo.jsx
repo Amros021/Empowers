@@ -20,14 +20,14 @@ export default function BlogPostSeo() {
                 <meta property="og:description" content="SEO voor MKB loont als je het goed aanpakt. Lees wat het kost, hoe lang het duurt en welke stappen je zet om hoger te ranken in Google." />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/seo/seo-voor-mkb-google-positie-verbeteren" />
                 <meta property="og:type" content="article" />
-                <meta property="og:image" content="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?q=80&w=2074&auto=format&fit=crop" />
+                <meta property="og:image" content="/images/blogs/seo-voor-mkb-google-positie-verbeteren.jpg" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
                     "@graph": [
                         {
                             "@type": "Article",
                             "headline": "SEO voor MKB: zo verbeter je je Google-positie",
-                            "image": "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?q=80&w=2074&auto=format&fit=crop",
+                            "image": "/images/blogs/seo-voor-mkb-google-positie-verbeteren.jpg",
                             "description": "SEO voor MKB loont als je het goed aanpakt. Lees wat het kost, hoe lang het duurt en welke stappen je zet om hoger te ranken in Google.",
                             "author": { "@type": "Person", "name": "Amir Farahani" },
                             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
@@ -102,34 +102,34 @@ export default function BlogPostSeo() {
 
                     {/* Featured Image */}
                     <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 relative bg-primary">
-                        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?q=80&w=2074&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+                        <div className="absolute inset-0 bg-[url('/images/blogs/seo-voor-mkb-google-positie-verbeteren.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
 
                     {/* Content */}
                     <div className="prose prose-lg prose-headings:font-sans prose-headings:font-bold prose-headings:text-primary prose-p:font-sans prose-p:text-primary/80 prose-p:leading-relaxed max-w-none">
                         <p className="text-xl md:text-2xl font-medium leading-relaxed mb-10 text-primary">
-                            SEO zorgt ervoor dat mensen jouw bedrijf vinden via Google, zonder dat je per klik betaalt. Voor MKB-bedrijven is het een van de meest rendabele vormen van online marketing, als je het structureel aanpakt. De meeste resultaten zijn zichtbaar na <a href="/blogs/seo/lang-duurt-seo-realistische-verwachtingen" className="text-blue-700 underline hover:text-blue-900">3 tot 6 maanden</a>. Daarna groeit het verkeer door zonder dat je budget stijgt.
+                            SEO zorgt ervoor dat mensen jouw bedrijf vinden via Google, zonder dat je per klik betaalt. Voor MKB-bedrijven is het een van de meest rendabele vormen van online marketing, als je het structureel aanpakt. De meeste resultaten zijn zichtbaar na <a href="/blogs/seo/lang-duurt-seo-realistische-verwachtingen" className="text-accent hover:underline">3 tot 6 maanden</a>. Daarna groeit het verkeer door zonder dat je budget stijgt.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe werkt SEO precies?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe werkt SEO precies?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google rangschikt websites op basis van relevantie en autoriteit. Relevantie bepaalt Google door te kijken of je content aansluit bij wat iemand zoekt. Autoriteit bouw je op door kwalitatieve links van andere websites te verzamelen en een technisch goed functionerende site te hebben.
                         </p>
-                        <p>
-                            Als iemand zoekt op "loodgieter Utrecht" of "marketingbureau Eindhoven", wil Google de meest betrouwbare en relevante pagina bovenaan zetten. Jij wilt die pagina zijn. Dat bereik je niet met één truc, maar met een combinatie van goede content, <a href="/diensten/seo" className="text-blue-700 underline hover:text-blue-900">techniek en autoriteit</a>.
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Als iemand zoekt op "loodgieter Utrecht" of "marketingbureau Eindhoven", wil Google de meest betrouwbare en relevante pagina bovenaan zetten. Jij wilt die pagina zijn. Dat bereik je niet met één truc, maar met een combinatie van goede content, <a href="/seo" className="text-accent hover:underline">techniek en autoriteit</a>.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Waarom is SEO voor MKB zo waardevol?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom is SEO voor MKB zo waardevol?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Organisch zoekverkeer is gratis per klik. Dat klinkt vanzelfsprekend, maar het verschil in de praktijk is groot. Een bedrijf dat op positie 1 staat voor een zoekterm met 500 zoekopdrachten per maand, ontvangt gemiddeld 28% van al die klikken. Dat is zo'n 140 bezoekers per maand, structureel, zonder dat je er per maand extra advertentiebudget voor uitgeeft.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We zien bij klanten die serieus in SEO investeren, dat het organisch verkeer na 12 maanden vaak 3 tot 5 keer zo hoog is als aan het begin. Dat verkeer brengt leads en aankopen mee die anders via advertenties zouden moeten worden ingekocht.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat zijn de drie pijlers van goede SEO?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat zijn de drie pijlers van goede SEO?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             SEO bestaat uit drie onderdelen die samen werken. Als één ervan mist, werken de andere twee ook minder goed.
                         </p>
                         <ul className="space-y-4 my-8 pl-6 list-disc marker:text-accent">
@@ -138,33 +138,33 @@ export default function BlogPostSeo() {
                             <li><strong>Linkbuilding</strong> is het verzamelen van links van andere websites naar de jouwe. Elke link is in de ogen van Google een aanbeveling. Kwaliteit telt zwaarder dan kwantiteit. Eén link van een gerespecteerde branchesite doet meer dan tien links van dubieuze directories.</li>
                         </ul>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wanneer kies je voor SEO en wanneer voor Google Ads?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wanneer kies je voor SEO en wanneer voor Google Ads?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Als je morgen klanten nodig hebt, start je met <Link to="/google-ads" className="text-accent hover:underline">Google Ads</Link>. Ads leveren direct verkeer. Stop je met betalen, stopt het verkeer. SEO werkt andersom: het kost tijd om op te bouwen, maar zodra je rankt, blijf je verkeer ontvangen zonder extra kosten per klik.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             De sterkste strategie is een combinatie. Ads genereren direct omzet terwijl je aan SEO bouwt. Na 6 tot 12 maanden neemt het organisch verkeer toe en kun je het advertentiebudget efficiënter inzetten, omdat je niet meer afhankelijk bent van betaalde klikken voor elke bezoeker.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een veelgemaakte fout die we tegenkomen: bedrijven die uitsluitend op Ads inzetten en nooit aan SEO beginnen. Na jaren blijft het kostenplaatje even hoog, terwijl een combinatie het rendement structureel had kunnen verbeteren.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat levert lokale SEO op voor kleine bedrijven?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat levert lokale SEO op voor kleine bedrijven?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Voor bedrijven die klanten in een bepaalde regio bedienen, is lokale SEO de snelste manier om zichtbaar te worden. Een goed ingevuld Google Bedrijfsprofiel met actuele openingstijden, foto's en reviews zorgt ervoor dat je verschijnt in de lokale zoekresultaten en op Google Maps.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bedrijven met meer dan 10 recente reviews scoren gemiddeld aanzienlijk beter in lokale zoekresultaten dan bedrijven zonder reviews. Klanten vragen om reviews is niet opdringerig, het is slim. Dat geldt voor een restaurant, een fysiotherapiepraktijk, maar ook voor een B2B-dienstverlener die klanten in een bepaalde regio zoekt.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe begin je met SEO als MKB-bedrijf?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe begin je met SEO als MKB-bedrijf?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Begin met de basis. Controleer of je website technisch in orde is via Google Search Console. Dat is gratis en geeft direct inzicht in problemen die Google signaleert.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Schrijf daarna pagina's die de vragen van je klanten beantwoorden. Geen vage dienstenpagina's, maar concrete antwoorden op wat mensen zoeken. Een dakdekker die een pagina schrijft over "wanneer moet je je dakpannen vervangen" trekt bezoekers die actief nadenken over precies dat probleem.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Wil je weten hoe jouw website er nu voor staat qua SEO? Bekijk onze <Link to="/seo" className="text-accent hover:underline">SEO-dienst</Link> of <Link to="/contact" className="text-accent hover:underline">plan een gratis gesprek</Link>. We kijken samen wat de sterkste kansen zijn voor jouw bedrijf.
                         </p>
 

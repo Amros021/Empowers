@@ -167,61 +167,48 @@ export default function BlogPostAiSeo2025() {
 
       <article className="flex-1">
         {/* Breadcrumbs */}
-        <div className="border-b border-primary/10 bg-background/50">
-          <nav className="max-w-4xl mx-auto px-6 py-4 md:py-6 flex items-center gap-2 text-sm">
-            <Link to="/" className="text-primary hover:text-accent transition-colors">
-              Home
-            </Link>
-            <ChevronRight size={16} className="text-primary/30" />
-            <Link to="/nieuws" className="text-primary hover:text-accent transition-colors">
-              Nieuws
-            </Link>
-            <ChevronRight size={16} className="text-primary/30" />
-            <Link to="/blogs/seo" className="text-primary hover:text-accent transition-colors">
-              SEO
-            </Link>
-            <ChevronRight size={16} className="text-primary/30" />
-            <span className="text-primary/60">AI en SEO 2026</span>
-          </nav>
-        </div>
+        <nav className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-primary/50 mb-12 max-w-4xl mx-auto px-6 pt-40">
+          <Link to="/" className="hover:text-accent transition-colors">Home</Link>
+          <ChevronRight className="w-3 h-3" />
+          <Link to="/nieuws" className="hover:text-accent transition-colors">Nieuws</Link>
+          <ChevronRight className="w-3 h-3" />
+          <Link to="/blogs/seo" className="hover:text-accent transition-colors">SEO</Link>
+          <ChevronRight className="w-3 h-3" />
+          <span className="text-primary truncate">AI en SEO 2026</span>
+        </nav>
 
         {/* Header */}
-        <div className="bg-gradient-to-b from-primary/5 to-transparent border-b border-primary/10">
-          <div className="max-w-4xl mx-auto px-6 py-12 md:py-16">
-            <div className="flex items-center gap-3 mb-6">
-              <span className="inline-block px-3 py-1 bg-accent/20 text-accent rounded-full text-sm font-medium">
-                SEO
-              </span>
+        <div className="max-w-4xl mx-auto px-6 mb-16">
+          <div className="inline-block px-3 py-1 bg-accent/10 text-accent font-mono text-xs uppercase tracking-widest rounded-full mb-6">
+            SEO
+          </div>
+
+          <h1 className="font-sans font-bold text-primary text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight tracking-tight mb-8">
+            AI en SEO in 2026: hoe verandert kunstmatige intelligentie de zoekresultaten?
+          </h1>
+
+          <div className="flex flex-wrap items-center gap-6 text-sm font-sans text-primary/60 border-y border-primary/10 py-6">
+            <div className="flex items-center gap-2">
+              <User className="w-4 h-4" />
+              <span>Empowers Redactie</span>
             </div>
-
-            <h1 className="text-4xl md:text-5xl font-bold text-dark mb-6 leading-tight">
-              AI en SEO in 2026: hoe verandert kunstmatige intelligentie de zoekresultaten?
-            </h1>
-
-            <div className="flex flex-wrap items-center gap-6 text-sm text-primary/70">
-              <div className="flex items-center gap-2">
-                <Calendar size={18} />
-                <span>23 maart 2026</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Clock size={18} />
-                <span>7 min leestijd</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <User size={18} />
-                <span>Empowers Redactie</span>
-              </div>
+            <div className="flex items-center gap-2">
+              <Calendar className="w-4 h-4" />
+              <span>23 maart 2026</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Clock className="w-4 h-4" />
+              <span>7 minuten leestijd</span>
             </div>
           </div>
         </div>
 
         {/* Featured Image */}
-        <div className="max-w-4xl mx-auto px-6 py-12">
-          <img
-            src="/images/blogs/ai-seo-2025-verandert-kunstmatige.jpg"
-            alt="AI en SEO in 2026: hoe verandert kunstmatige intelligentie de zoekresultaten?"
-            className="w-full h-96 object-cover rounded-2xl shadow-lg"
-          />
+        <div className="max-w-4xl mx-auto px-6 pb-12">
+          <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden relative bg-primary mb-16">
+              <div className="absolute inset-0 bg-[url('/images/blogs/ai-seo-2025-verandert-kunstmatige.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+          </figure>
         </div>
 
         {/* Content */}
@@ -231,59 +218,59 @@ export default function BlogPostAiSeo2025() {
               Kunstmatige intelligentie verandert hoe Google zoekers helpt. AI Overviews geven direct antwoorden bovenaan zoekresultaten. Dit betekent dat jouw SEO-strategie moet aanpassen. Google waardeert nu meer expertise, ervaring en autoriteit. In dit artikel lees je hoe AI SEO in 2026 fundamenteel verandert en wat jij eraan kunt doen.
             </p>
 
-            <h2 className="text-3xl mt-16 mb-6">Wat zijn Google AI Overviews precies?</h2>
-            <p>
+            <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat zijn Google AI Overviews precies?</h2>
+            <p className="text-primary/80 leading-relaxed mb-6">
               Google AI Overviews zijn samengevatte antwoorden die door kunstmatige intelligentie gegenereerd worden. Ze verschijnen bovenaan de zoekresultaten. Google gebruikt deze feature om gebruikers sneller hun antwoord te geven. Dat klinkt gunstig, maar het verandert alles voor SEO-specialists.
             </p>
-            <p>
+            <p className="text-primary/80 leading-relaxed mb-6">
               Tot vorig jaar moest je op zoekresultaten 1 klikken om je antwoord te vinden. Nu syntheseert Google AI meerdere bronnen en geeft het antwoord direct. Dat zorgt voor meer impressies maar minder clicks naar websites. Jij moet je strategie aanpassen om relevant te blijven in deze nieuwe realiteit.
             </p>
 
-            <h2 className="text-3xl mt-16 mb-6">Hoe beïnvloeden AI Overviews jouw website traffic?</h2>
-            <p>
+            <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe beïnvloeden AI Overviews jouw website traffic?</h2>
+            <p className="text-primary/80 leading-relaxed mb-6">
               De impact is divers. Voor informatieve queries waar gebruikers snel antwoord nodig hebben, daalt click-through rate. Voor queries waar gebruikers meer diepgang zoeken, stijgen clicks juist. De sleutel is begrijpen welk type query jij rankt.
             </p>
-            <p>
-              Google citeert zijn bronnen in AI Overviews. Dus zelfs zonder direct click kan jouw site zichtbaarheid krijgen. Onderzoeken tonen dat bronnen die in AI Overviews verschijnen, meer gezag krijgen. Ze worden gezien als betrouwbare experts. Leer hoe je content specifiek voor <Link to="/blogs/geo/chatgpt-bedrijf-aanbeveelt" className="text-blue-700 underline hover:text-blue-900">AI-aanbevelingen optimaliseert</Link> om deze kansen te benutten.
+            <p className="text-primary/80 leading-relaxed mb-6">
+              Google citeert zijn bronnen in AI Overviews. Dus zelfs zonder direct click kan jouw site zichtbaarheid krijgen. Onderzoeken tonen dat bronnen die in AI Overviews verschijnen, meer gezag krijgen. Ze worden gezien als betrouwbare experts. Leer hoe je content specifiek voor <Link to="/blogs/geo/chatgpt-bedrijf-aanbeveelt" className="text-accent hover:underline">AI-aanbevelingen optimaliseert</Link> om deze kansen te benutten.
             </p>
 
-            <h2 className="text-3xl mt-16 mb-6">Waarom is E-E-A-T sterker geworden?</h2>
-            <p>
+            <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom is E-E-A-T sterker geworden?</h2>
+            <p className="text-primary/80 leading-relaxed mb-6">
               E-E-A-T staat voor Experience, Expertise, Authoritativeness en Trustworthiness. Google gebruikt dit al jaren, maar AI versterkt dit. AI systemen zoeken naar signalen dat jij weet waar je het over hebt. Generic AI-content scoort laag op deze criteria. Originele inzichten scoren hoog.
             </p>
-            <p>
+            <p className="text-primary/80 leading-relaxed mb-6">
               Dit betekent dat jouw content échte waarde moet bieden. Niemand wil lezen wat AI zomaar genereerde. Iedereen wil jouw unieke perspectief, jouw ervaring en jouw kennis. Dat is wat AI Overviews willen citeren. Dus focus op het antwoord dat niemand anders kan geven.
             </p>
 
-            <h2 className="text-3xl mt-16 mb-6">Kan Google AI-geschreven content herkennen?</h2>
-            <p>
+            <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Kan Google AI-geschreven content herkennen?</h2>
+            <p className="text-primary/80 leading-relaxed mb-6">
               Google zegt officieel: AI-content breekt geen regels. Toch is dit genuanceerder. Google kan veel AI-content detecteren via linguïstische patronen. Vooral content die volledig door AI gegenereerd is, zonder menselijke review, scoort lager op E-E-A-T. Google gaat ervanuit dat jij zelf kennis hebt, niet dat een robot het voor jou schrijft.
             </p>
-            <p>
+            <p className="text-primary/80 leading-relaxed mb-6">
               Dit betekent niet dat je AI moet vermijden. AI-tools voor onderzoek, structuur en bewerking zijn prima. Maar het eindproduct moet voelen als geschreven door iemand die het onderwerp begrijpt. Voeg jouw stem toe. Voeg jouw voorbeelden toe. Maak het persoonlijk.
             </p>
 
-            <h2 className="text-3xl mt-16 mb-6">Welke SEO-strategie werkt in 2026 het best?</h2>
-            <p>
+            <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Welke SEO-strategie werkt in 2026 het best?</h2>
+            <p className="text-primary/80 leading-relaxed mb-6">
               Drie pilaren domineren nu: originaliteit, diepgang en autoriteit. Ten eerste: schrijf niet wat iedereen al zei. Voeg jouw unieke inzicht toe. Ten tweede: ga dieper dan competitors. Beantwoord niet alleen de vraag, maar alle vragen rondom het onderwerp. Ten derde: bewijs je autoriteit via externe citations en unieke data.
             </p>
-            <p>
-              Optimaliseer ook voor AI Overviews. Zorg voor duidelijke structuren met headers. Beantwoord vragen direct in de eerste 2-3 zinnen. Gebruik bullet points waar relevant. Voeg unieke data en voorbeelden toe die AI graag citeert. Dit vergroot de kans dat jij in een AI Overview verschijnt. Voor diepere inzichten in <Link to="/diensten/seo" className="text-blue-700 underline hover:text-blue-900">professionele SEO-strategie</Link> die zowel voor menselijke lezers als AI-modellen werkt, adviseren we je onze diensten te verkennen.
+            <p className="text-primary/80 leading-relaxed mb-6">
+              Optimaliseer ook voor AI Overviews. Zorg voor duidelijke structuren met headers. Beantwoord vragen direct in de eerste 2-3 zinnen. Gebruik bullet points waar relevant. Voeg unieke data en voorbeelden toe die AI graag citeert. Dit vergroot de kans dat jij in een AI Overview verschijnt. Voor diepere inzichten in <Link to="/seo" className="text-accent hover:underline">professionele SEO-strategie</Link> die zowel voor menselijke lezers als AI-modellen werkt, adviseren we je onze diensten te verkennen.
             </p>
 
-            <h2 className="text-3xl mt-16 mb-6">Hoe positioneer je jezelf als expert?</h2>
-            <p>
+            <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe positioneer je jezelf als expert?</h2>
+            <p className="text-primary/80 leading-relaxed mb-6">
               Bewijs je expertise door meer te weten dan anderen. Deel case studies met echte resultaten. Toon data van je eigen projecten. Citeer onderzoeken en voeg je commentaar toe. Schrijf over dingen die je echt hebt meegemaakt. Dit maakt je onvervangbaar.
             </p>
-            <p>
+            <p className="text-primary/80 leading-relaxed mb-6">
               Bouw ook gezag buiten jouw website op. Gastartikelen op erkende sites. Social proof via mentions en backlinks. Spreken op events en podcasts. Google ziet allemaal deze signalen. Je website wordt gezien als bron van expertise, niet als generic content fabriek.
             </p>
 
-            <h2 className="text-3xl mt-16 mb-6">Wat zijn praktische acties voor jouw site?</h2>
-            <p>
+            <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat zijn praktische acties voor jouw site?</h2>
+            <p className="text-primary/80 leading-relaxed mb-6">
               Audit jouw huidige content op E-E-A-T waarde. Welke artikelen voelen generic? Herwerk deze met jouw echte ervaring. Voeg author bios toe die je expertise tonen. Voeg case studies toe met echte getallen. Update alle verouderde content.
             </p>
-            <p>
+            <p className="text-primary/80 leading-relaxed mb-6">
               Voeg structuur toe. Headers, subheaders, bullet points, nummering. Maak het makkelijk voor zowel mensen als AI om te scannen. Zorg dat het eerste antwoord duidelijk staat. Gebruik FAQ-schema om meer kans op AI Overviews te krijgen. Test alles op mobiel. Snelheid is nu nog kritischer.
             </p>
 
@@ -301,7 +288,7 @@ export default function BlogPostAiSeo2025() {
               </Link>
             </div>
 
-            <h2 className="text-3xl mt-16 mb-6">Veelgestelde vragen over AI en SEO</h2>
+            <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen over AI en SEO</h2>
           </div>
 
           {/* FAQ Section */}

@@ -111,52 +111,52 @@ export default function BlogPostStrategie() {
                             Een online marketingstrategie voor MKB begint met één vraag: via welk kanaal bereik je jouw klant op het moment dat hij of zij klaar is om te kopen? Wie dat weet, geeft zijn marketingbudget gericht uit. Wie dat niet weet, verspreidt het over te veel kanalen en ziet nauwelijks resultaat.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat is het verschil tussen strategie en tactiek?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat is het verschil tussen strategie en tactiek?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Strategie is het antwoord op "waarom". Tactiek is het antwoord op "hoe". Veel MKB-bedrijven springen direct naar tactieken, zoals "we gaan adverteren op Meta" of "we beginnen met een nieuwsbrief", zonder eerst te bepalen welk doel ze willen bereiken en voor welke doelgroep.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een strategie bepaalt eerst: wie is mijn klant, waar bevindt die zich online, en welke boodschap zorgt dat hij bij mij koopt? Pas daarna kies je het kanaal. Die volgorde is niet omgekeerd te doen.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Welke kanalen werken voor MKB?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Welke kanalen werken voor MKB?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Er is geen universeel antwoord, maar er is wel een logica. Als mensen actief zoeken naar wat jij aanbiedt, werkt <Link to="/google-ads" className="text-accent hover:underline">Google Ads</Link> goed. Als je een product verkoopt dat mensen nog niet kennen maar wel aantrekkelijk vinden als ze het zien, werken Meta Ads of TikTok Ads beter.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Voor duurzame groei is <Link to="/seo" className="text-accent hover:underline">SEO</Link> de meest kostenefficiënte aanpak op de lange termijn. Je bouwt organisch verkeer op dat blijft groeien zonder dat je per klik betaalt. De valkuil is dat het tijd kost en je er niet meteen resultaat van ziet.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Wij zien bij klanten dat de sterkste strategie altijd een combinatie is: betaald adverteren voor direct resultaat, SEO voor duurzame zichtbaarheid en goede content om bezoekers te overtuigen als ze eenmaal op de website zijn.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe verdeel je je marketingbudget?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe verdeel je je marketingbudget?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Als vuistregel besteden gezonde MKB-bedrijven 5 tot 10% van hun omzet aan marketing. Hoe je dat verdeelt hangt af van je fase. Een bedrijf dat snel wil groeien, steekt meer in betaalde advertenties. Een bedrijf dat al goed loopt, investeert meer in SEO en content voor de lange termijn.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een verdeling die in de praktijk goed werkt: 60% naar kanalen die direct resultaat geven zoals Google Ads en Meta Ads, 30% naar SEO en content, en 10% naar testen van nieuwe kanalen of formats. Zo houd je je resultaten stabiel terwijl je blijft doorgroeien.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Waarom is een goede landingspagina zo belangrijk?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom is een goede landingspagina zo belangrijk?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een advertentie brengt mensen naar je website. Wat er op die pagina staat, bepaalt of ze iets doen of weggaan. Een goede landingspagina heeft één doel, sluit nauw aan bij de advertentie en verwijdert alle onnodige afleiding.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We zien in de praktijk dat het verbeteren van een landingspagina een conversieratio van 1% naar 3% kan tillen zonder dat het advertentiebudget stijgt. Bij een campagne van 1000 euro per maand betekent dat drie keer zoveel leads voor hetzelfde geld.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Kijk kritisch naar je eigen landingspagina's. Staat bovenaan de pagina direct wat je aanbiedt en voor wie? Is er een duidelijke call to action? Laadt de pagina snel op mobiel? Dat zijn de drie punten die het meeste verschil maken.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe weet je of je strategie werkt?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe weet je of je strategie werkt?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Meten is weten, maar je moet weten wat je moet meten. Bereik en klikken zijn ijdele statistieken. Waar het om gaat is hoeveel conversies elk kanaal oplevert en wat die conversies kosten. Dat vereist goede <Link to="/blogs/tracking/marketing-tracking-conversies-meten" className="text-accent hover:underline">conversietracking</Link>.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Koppel je advertentieplatformen aan Google Analytics 4. Stel doelen in per kanaal. Bekijk maandelijks of de kosten per conversie dalen. Als een kanaal structureel te duur is vergeleken met wat het oplevert, verschuif je budget naar wat beter werkt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Wil je weten hoe een sterke marketingstrategie eruit ziet voor jouw bedrijf? Plan een gratis gesprek via <Link to="/contact" className="text-accent hover:underline">empowers.nl/contact</Link>. We kijken samen naar wat werkt en wat beter kan.
                         </p>
 

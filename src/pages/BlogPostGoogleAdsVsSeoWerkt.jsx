@@ -161,120 +161,120 @@ export default function BlogPostGoogleAdsVsSeoWerkt() {
                             Google Ads of SEO? Die vraag krijgen we wekelijks van ondernemers die meer klanten willen via Google. Het korte antwoord: Google Ads levert direct bezoekers op, SEO bouwt duurzame zichtbaarheid zonder klikkosten. Wat beter werkt hangt af van je budget, je branche en hoe snel je resultaat nodig hebt.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat is Google Ads precies?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat is Google Ads precies?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google Ads is het advertentieplatform van Google. Je betaalt om bovenaan de zoekresultaten te verschijnen voor specifieke zoekwoorden. Zoekt iemand op "loodgieter Amsterdam"? Dan kan jouw advertentie de eerste zijn die ze zien. Je betaalt alleen als iemand klikt. Vandaar de term pay-per-click.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het grote voordeel: je kunt vandaag een campagne starten en morgen al de eerste leads binnenhalen. Je hebt volledige controle over je budget, je zoekwoorden en je doelgroep. Bij onze klanten zien we dat een goed ingestelde campagne gemiddeld een <Link to="/google-ads" className="text-accent hover:underline">ROAS van 3 tot 5</Link> haalt in de eerste maanden.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het nadeel: zodra je stopt met betalen, verdwijn je uit de resultaten. Google Ads is als een kraan: draai je hem dicht, dan stopt het water.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat is SEO en hoe werkt het?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat is SEO en hoe werkt het?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             SEO staat voor Search Engine Optimization, ofwel zoekmachineoptimalisatie. Je past je website zo aan dat Google je hoger plaatst in de organische zoekresultaten. Dat zijn de resultaten onder de advertenties. Daar betaal je niet per klik voor.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             SEO draait om drie dingen: techniek (snelle, goed gebouwde website), content (pagina's die antwoord geven op zoekvragen) en autoriteit (andere websites die naar jou linken). Hoe beter je scoort op die drie gebieden, hoe hoger Google je plaatst.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het voordeel van <Link to="/seo" className="text-accent hover:underline">SEO</Link> is dat je verkeer krijgt zonder per bezoeker te betalen. Een goed gerankte pagina kan maandenlang bezoekers opleveren. Het nadeel: het kost tijd. Reken op 3 tot 6 maanden voordat je serieuze verbetering ziet.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Waarom is deze keuze belangrijk voor MKB-bedrijven?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom is deze keuze belangrijk voor MKB-bedrijven?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Als MKB-ondernemer heb je geen oneindig marketingbudget. Elke euro moet rendement opleveren. Toch zien we dat veel bedrijven zonder plan beginnen met adverteren of zonder strategie aan SEO werken. Het gevolg: geld dat verdampt zonder meetbaar resultaat.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             73% van alle klikken in Google gaat naar de organische resultaten. Maar die posities bereik je niet van vandaag op morgen. Tegelijk levert Google Ads direct verkeer, maar kost het geld per bezoeker. De keuze die je maakt, bepaalt hoe snel je groeit en hoeveel het kost.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We merken in de praktijk dat bedrijven die bewust kiezen, en niet zomaar iets proberen, gemiddeld 40% meer rendement halen uit hun marketingbudget. Die keuze begint bij begrijpen wat elk kanaal je oplevert.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wanneer kies je voor Google Ads?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wanneer kies je voor Google Ads?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google Ads is de juiste keuze in een aantal specifieke situaties. Als je snel resultaat nodig hebt, is Ads de snelste route. Je campagne kan binnen 24 uur live staan en dezelfde week nog leads opleveren.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Kies voor Google Ads als je een nieuw product of dienst lanceert en direct wilt testen of er vraag naar is. Ook bij seizoensgebonden aanbiedingen, zoals een zomeractie of eindejaarskorting, is Ads ideaal. Je zet de campagne aan wanneer het nodig is en weer uit als het seizoen voorbij is.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google Ads werkt ook goed als je concurrenten de organische resultaten domineren. In sommige branches staan de eerste tien posities vol met grote partijen. Via Ads spring je daar letterlijk overheen. En je kunt Ads gebruiken als testinstrument: kijk welke zoekwoorden het meeste opleveren, en investeer daarna je SEO-tijd in die termen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een webshop die we begeleidden in sportartikelen begon met een Google Ads budget van 1500 euro per maand. Binnen drie weken hadden ze een ROAS van 4,8. Dat geld hadden ze niet verdiend als ze alleen op SEO hadden gewacht.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wanneer kies je voor SEO?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wanneer kies je voor SEO?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             SEO is de betere investering als je denkt in maanden en jaren, niet in weken. Het is geschikt als je structureel gevonden wilt worden voor zoektermen die relevant zijn voor je bedrijf. Zonder dat je elke maand hetzelfde bedrag aan klikken uitgeeft.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Kies voor SEO als je veel inhoudelijke kennis hebt die je kunt delen via blogs, handleidingen of FAQ-pagina's. Content die antwoord geeft op vragen van je doelgroep, rankt goed in Google en levert maandenlang verkeer op. Een <Link to="/blogs/seo/seo-voor-mkb-google-positie-verbeteren" className="text-accent hover:underline">sterke SEO-strategie</Link> maakt je steeds minder afhankelijk van betaalde kanalen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             SEO is ook de logische keuze als je actief bent in een lokale markt. Lokale SEO, denk aan "schilder Eindhoven" of "hypotheekadviseur Utrecht", levert vaak sneller resultaat dan landelijke termen. En de kosten per lead zijn na verloop van tijd veel lager dan via Google Ads.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een installatiebedrijf in Rotterdam dat we hielpen met lokale SEO, steeg in 4 maanden van pagina 3 naar positie 2 voor hun belangrijkste zoekterm. Dat leverde hen 25 extra aanvragen per maand op. Zonder een cent aan klikkosten.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat zijn de kosten van Google Ads versus SEO?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat zijn de kosten van Google Ads versus SEO?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bij Google Ads bepaal je zelf je dagbudget. De meeste MKB-bedrijven besteden 500 tot 3000 euro per maand aan advertentiebudget, plus beheerskosten als je een specialist inschakelt. Je betaalt per klik, en de prijs varieert per branche. In juridische dienstverlening betaal je 8 tot 15 euro per klik. In retail of lokale diensten is dat vaak 1 tot 3 euro.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             SEO kost geen klikbudget, maar er is wel een investering nodig. Doe je het zelf, dan investeer je je eigen tijd in content schrijven, technische verbeteringen en linkbuilding. Schakel je een bureau in, dan betaal je gemiddeld 500 tot 2000 euro per maand, afhankelijk van de scope.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het grote verschil zit in de lange termijn. Bij Google Ads betaal je elke maand opnieuw voor hetzelfde verkeer. Bij SEO dalen de kosten per bezoeker naarmate je posities stijgen. Na 12 maanden is de kosten per lead via SEO bij onze klanten gemiddeld 60% lager dan via Google Ads.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat zijn veelgemaakte fouten bij deze keuze?</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat zijn veelgemaakte fouten bij deze keuze?</h2>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 1: alles op SEO zetten en wachten</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 1: alles op SEO zetten en wachten</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Veel ondernemers kiezen voor SEO omdat het "gratis" klinkt. Maar ondertussen halen ze maandenlang geen nieuwe klanten binnen. Als je bedrijf nu omzet nodig heeft, is alleen SEO te langzaam. Combineer het met Ads zodat je direct verkoopt terwijl je organisch groeit.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 2: Google Ads aanzetten zonder tracking</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 2: Google Ads aanzetten zonder tracking</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We zien het wekelijks: ondernemers die 1000 euro per maand aan Ads uitgeven maar geen idee hebben welke campagnes echt iets opleveren. Zonder <Link to="/blogs/tracking/marketing-tracking-conversies-meten" className="text-accent hover:underline">goede tracking</Link> gooi je geld weg. Stel altijd eerst conversietracking in voordat je je eerste euro uitgeeft.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 3: Google Ads en SEO als concurrenten zien</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 3: Google Ads en SEO als concurrenten zien</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             De grootste fout is denken dat je moet kiezen. Google Ads en SEO zijn geen tegenstanders. Ze versterken elkaar. Ads-data laat zien welke zoekwoorden converteren. Die informatie gebruik je voor je SEO-strategie. En organisch verkeer verlaagt je totale kosten per acquisitie.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">De slimste aanpak: Google Ads en SEO combineren</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">De slimste aanpak: Google Ads en SEO combineren</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bij onze klanten zien we steeds hetzelfde patroon. De bedrijven die het hardst groeien, gebruiken beide kanalen. Ze starten met Google Ads voor directe omzet en bouwen tegelijk aan SEO. Na 6 tot 12 maanden begint het organische verkeer bij te dragen en kunnen ze hun advertentiebudget verschuiven naar nieuwe markten of producten.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Zo ziet een praktisch stappenplan eruit. Maand 1 tot 3: start Google Ads op je belangrijkste zoekwoorden. Meet welke termen converteren. Begin tegelijk met de technische SEO-basis en je eerste blogartikelen. Maand 3 tot 6: schaal de Ads-campagnes die goed presteren op. Publiceer regelmatig content gericht op de zoekwoorden die via Ads het beste converteren. Maand 6 tot 12: je SEO-posities stijgen. Organisch verkeer groeit. Je kunt het Ads-budget afbouwen voor zoekwoorden waar je organisch al goed scoort. Investeer het vrijgekomen budget in nieuwe termen of kanalen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een <Link to="/blogs/strategie/online-marketing-strategie-mkb" className="text-accent hover:underline">goede online marketingstrategie</Link> is geen keuze tussen het een of het ander. Het is een plan waarin elk kanaal zijn rol speelt.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe bepaal je wat past bij jouw situatie?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe bepaal je wat past bij jouw situatie?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Stel jezelf deze vragen. Heb je vandaag al leads nodig? Dan begin je met Google Ads. Heb je een budget dat je minimaal 6 maanden kunt volhouden? Dan voeg je SEO toe. Zit je in een markt met dure klikprijzen? Dan is SEO op termijn voordeliger. Wil je een seizoensactie pushen? Dan is Ads het snelste kanaal.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Er is geen antwoord dat voor iedereen werkt. Maar er is wel een aanpak die voor bijna niemand werkt: niets doen en hopen dat klanten je vinden. Jouw concurrentie investeert al in Google Ads of SEO, of allebei. De vraag is niet of je erin investeert, maar wanneer.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Wil je weten welke mix van Google Ads en SEO het meeste oplevert voor jouw bedrijf? We kijken er graag naar. <Link to="/contact" className="text-accent hover:underline">Plan een gratis gesprek</Link> en we laten zien waar jouw kansen liggen.
                         </p>
 
                         <hr className="my-16 border-primary/10" />
 
-                        <h2 className="text-3xl mb-8">Veelgestelde vragen over Google Ads vs SEO</h2>
+                        <h2 className="text-3xl font-bold text-primary mb-8">Veelgestelde vragen over Google Ads vs SEO</h2>
 
                         <div className="space-y-6 not-prose">
                             <div className="border border-primary/10 rounded-xl p-6">

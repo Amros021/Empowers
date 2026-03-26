@@ -27,6 +27,9 @@ const SORT_OPTIONS = [
 /* ════════════════════════════════════════════════════════
    COMPONENT
 ════════════════════════════════════════════════════════ */
+const MOBILE_PAGE_SIZE = 10;
+const LG_BREAKPOINT = 1024;
+
 export default function Nieuws() {
     const [activeCategory, setActiveCategory] = useState('Alle');
     const [searchQuery,    setSearchQuery]    = useState('');
@@ -34,11 +37,21 @@ export default function Nieuws() {
     const [sortOpen,       setSortOpen]       = useState(false);
     const [viewMode,       setViewMode]       = useState('grid');
     const [searchOpen,     setSearchOpen]     = useState(false);
+    const [currentPage,    setCurrentPage]    = useState(1);
+    const [isMobile,       setIsMobile]       = useState(false);
 
     const sortRef   = useRef(null);
     const searchRef = useRef(null);
     const cardsRef  = useRef(null);
     const pillsRef   = useRef(null);
+
+    /* ── detect mobile for pagination ── */
+    useEffect(() => {
+        const check = () => setIsMobile(window.innerWidth < LG_BREAKPOINT);
+        check();
+        window.addEventListener('resize', check);
+        return () => window.removeEventListener('resize', check);
+    }, []);
 
     /* ── outside click: sort + search ── */
     useEffect(() => {
@@ -100,6 +113,9 @@ export default function Nieuws() {
         }
     };
 
+    /* ── reset page on filter/search change ── */
+    useEffect(() => { setCurrentPage(1); }, [activeCategory, searchQuery, sortBy]);
+
     /* ── derived ── */
     const filtered = articles
         .filter(a => activeCategory === 'Alle' || a.category === activeCategory)
@@ -114,6 +130,17 @@ export default function Nieuws() {
             if (sortBy === 'oudste')  return a.dateTs - b.dateTs;   // laagste ts eerst = oudste
             return b.dateTs - a.dateTs;                              // nieuwste eerst (default)
         });
+
+    /* ── mobile pagination ── */
+    const totalPages = isMobile ? Math.ceil(filtered.length / MOBILE_PAGE_SIZE) : 1;
+    const displayed  = isMobile
+        ? filtered.slice((currentPage - 1) * MOBILE_PAGE_SIZE, currentPage * MOBILE_PAGE_SIZE)
+        : filtered;
+
+    const goToPage = (page) => {
+        setCurrentPage(page);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
     const latestThree = articles.slice(0, 3);
 
@@ -271,6 +298,9 @@ export default function Nieuws() {
                         <span className="font-sans text-[11px] sm:text-sm font-semibold uppercase tracking-widest text-primary/60 whitespace-nowrap">
                             <span className="text-accent font-bold">{filtered.length}</span>
                             {' '}resultaten
+                            {isMobile && totalPages > 1 && (
+                                <span className="text-primary/40 font-normal normal-case tracking-normal"> · pagina {currentPage}/{totalPages}</span>
+                            )}
                         </span>
 
                         {/* Sort — alle schermen */}
@@ -365,7 +395,7 @@ export default function Nieuws() {
                                     ref={cardsRef}
                                     className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-10 sm:gap-x-6 sm:gap-y-12 lg:gap-x-8 lg:gap-y-14"
                                 >
-                                    {filtered.map((article, idx) => (
+                                    {displayed.map((article, idx) => (
                                         <Link
                                             key={`${article.slug}-${idx}`}
                                             to={article.slug}
@@ -413,7 +443,7 @@ export default function Nieuws() {
                             {/* LIST */}
                             {filtered.length > 0 && viewMode === 'list' && (
                                 <div ref={cardsRef} className="flex flex-col divide-y divide-primary/8">
-                                    {filtered.map((article, idx) => (
+                                    {displayed.map((article, idx) => (
                                         <Link
                                             key={`${article.slug}-${idx}`}
                                             to={article.slug}
@@ -440,6 +470,56 @@ export default function Nieuws() {
                                         </Link>
                                     ))}
                                 </div>
+                            )}
+
+                            {/* ── MOBILE PAGINATION ── */}
+                            {isMobile && totalPages > 1 && (
+                                <nav className="flex items-center justify-center gap-2 mt-12 mb-4">
+                                    {/* Previous */}
+                                    <button
+                                        onClick={() => goToPage(Math.max(1, currentPage - 1))}
+                                        disabled={currentPage === 1}
+                                        className={`w-10 h-10 rounded-xl flex items-center justify-center font-sans text-sm transition-all ${
+                                            currentPage === 1
+                                                ? 'text-primary/20 cursor-not-allowed'
+                                                : 'text-primary/60 hover:bg-primary/8 active:bg-primary/12'
+                                        }`}
+                                        aria-label="Vorige pagina"
+                                    >
+                                        ‹
+                                    </button>
+
+                                    {/* Page numbers */}
+                                    {Array.from({ length: totalPages }, (_, i) => i + 1).map(page => (
+                                        <button
+                                            key={page}
+                                            onClick={() => goToPage(page)}
+                                            className={`w-10 h-10 rounded-xl flex items-center justify-center font-sans text-sm font-semibold transition-all ${
+                                                page === currentPage
+                                                    ? 'bg-accent text-white shadow-sm'
+                                                    : 'text-primary/50 hover:bg-primary/8 active:bg-primary/12'
+                                            }`}
+                                            aria-label={`Pagina ${page}`}
+                                            aria-current={page === currentPage ? 'page' : undefined}
+                                        >
+                                            {page}
+                                        </button>
+                                    ))}
+
+                                    {/* Next */}
+                                    <button
+                                        onClick={() => goToPage(Math.min(totalPages, currentPage + 1))}
+                                        disabled={currentPage === totalPages}
+                                        className={`w-10 h-10 rounded-xl flex items-center justify-center font-sans text-sm transition-all ${
+                                            currentPage === totalPages
+                                                ? 'text-primary/20 cursor-not-allowed'
+                                                : 'text-primary/60 hover:bg-primary/8 active:bg-primary/12'
+                                        }`}
+                                        aria-label="Volgende pagina"
+                                    >
+                                        ›
+                                    </button>
+                                </nav>
                             )}
                         </div>
 

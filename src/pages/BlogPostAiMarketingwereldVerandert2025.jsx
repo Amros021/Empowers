@@ -113,136 +113,136 @@ export default function BlogPostAiMarketingwereldVerandert2025() {
                             AI verandert hoe je marketing werkt. Niet volgende maand, maar vandaag al. Het gaat niet om futuristische robots of sciencefiction. Het gaat om tools die nu beschikbaar zijn, en waarmee je vandaag al beter, sneller en slimmer je doelgroep bereikt. Bedrijven die zich nu aanpassen, winnen. De rest loopt achter.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Vorige jaar spraken we over AI als een interessant experiment. Dit jaar is het anders. 78% van de bedrijven zet AI in, of is ermee bezig. Onder die bedrijven zie je twee groepen: degenen die voorbij zijn gaan met AI-marketing en hun budget rondweg efficiënter besteden, en degenen die nog steeds met dezelfde oude systemen werken. Die tweede groep mist kansen en geld tegelijk.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het is niet zomaar een trend. De bedrijven die AI-marketing implementeerden in 2024 rapporteren nu gemiddeld 32% lagere customer acquisition costs en 45% meer qualified leads. Maar alleen als je het goed doet. Alleen als je begrijpt wat AI kan en waar je het inzet. Dit artikel helpt je daar.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat AI precies verandert in marketing</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat AI precies verandert in marketing</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Tot voor kort werkte marketing als volgt: jij maakte een campagne, lanceerde deze, wachtte een week, checkte de resultaten en paste aan. Traag. Veel geld verspild. AI verandert dat volledig.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Eerste verandering: snelheid. AI leest data in real-time. Niet volgende week, nu. Ziet een campagne slecht lopen? AI pikt het op en start bijstellingen direct. Dat bespaart je geld en helpt je beter presteren. Een bedrijf in de recruitmentsector zag zijn ad spend 35% dalen door AI-optimalisatie in real-time in plaats van wekelijks handmatig bijstellen. Dezelfde budget, veel meer rendement.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Tweede verandering: personalisatie op schaal. Vroeger maakte je vier versies van een email. Voor vier doelgroepen. AI maakt duizend versies. Voor duizend micro-segmenten. Iedereen krijgt precies de boodschap die hij nodig heeft, op het moment dat hij die nodig heeft. Het resultaat: aanzienlijk hogere open rates, betere engagement, meer conversies. Een fashion-webshop zag email-conversie omhoogschietenen van 2.1% naar 4.8% door AI-gesegmenteerde emailcampagnes. Hetzelfde publiek, totaal ander resultaat.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Derde verandering: minder menselijk werk, meer strategisch werk. AI neemt invoer over. Data invoeren, campagnes schrijven, afbeeldingen aanpassen. Jij focust op wat bedenken: welke boodschap, welke doelgroep, welke strategie. Je marketeer wordt strategist, niet dataclerk. Dat is beter voor hem, en beter voor jouw bedrijf.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Waarom dit zo urgent is voor MKB's</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom dit zo urgent is voor MKB's</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Veel MKB's denken: AI is voor grote bedrijven. Wij hebben geen miljoenbudget, dus AI helpt ons niet. Dat is fout. Eigenlijk andersom. AI helpt juist kleinere bedrijven het meeste. Waarom?
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Grote bedrijven hebben veel mensen. Meer handen, meer werk gedaan. Kleine bedrijven hebben weinig mensen. Jij en misschien nog iemand. AI is je extra medewerker. Die nooit ziek is, die 24/7 werkt, en die voor kleingeld beschikbaar is. Voor 200 euro per maand krijg je tools die vroeger 50.000 euro per jaar konden kosten. Je hoeft niet een volledig team in te huren. Je betaalt alleen voor wat je gebruikt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bij onze klanten zien we dit duidelijk. Een klein adviesbureau implementeerde AI-chatbots op hun website. Na twee maanden: 40% meer leads, en die chatbot voerde 60% van de eerste gesprekken. Een webshop gebruikte AI voor productaanbevelingen. Gemiddelde bestelwaarde omhoog met 28%. Een zaakvoerder implementeerde AI-emails. Open rate steeg van 22% naar 38%. Een monteursbedrijf zag door AI-chatbots op zijn website de telefoontijd met 25% afnemen omdat veel vragen al beantwoord waren voor het eerste contact.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Getallen die echt veel uitmaken op de balans. Een gemiddeld MKB kan met AI-marketing tussen de 15.000 en 50.000 euro per jaar besparen op personeelswerk en ineffectiviteit. Terwijl je tegelijk meer inkomsten genereert. Dus start vandaag, niet volgende maand.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Zes concrete AI-trends die je marketing nu veranderen</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Zes concrete AI-trends die je marketing nu veranderen</h2>
 
                         <h3 className="text-xl font-bold mb-2">1. Gepersonaliseerde content op schaal</h3>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Vroeger schreef je één blog per week. Voor een generiek publiek. Vandaag kun je honderd versies van dezelfde blog maken in een uur. Iedereen ziet een versie die aansluit bij waar zij in het koopproces staan. Nieuwe bezoekers zien introductie-content. Warmte ziet geavanceerde info. Klanten zien ondersteuning. Allemaal geautomatiseerd.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een B2B-bedrijf implementeerde dit voor zijn website. Bezoekers uit het IT-segment zagen IT-content. Bezoekers uit finance zagen financiële content. Dezelfde website, honderd verschillende ervaringen. Conversies stegen 44% in zes weken. Echt gebeurd bij onze klanten.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">2. Predictive analytics en real-time aanpassingen</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">2. Predictive analytics en real-time aanpassingen</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             AI voorspelt wat gaat gebeuren. Gaat deze lead converteren of niet? Zal deze klant weggaan? Wie zijn je beste prospects morgen? Met die informatie stuur je beter. Je besteedt budget waar het telt. Niet zomaar overal.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een SaaS-bedrijf gebruikte AI om churn te voorspellen. Het systeem zag: deze klant gaat waarschijnlijk volgende maand opzeggen. Proactive ondersteuning werd ingezet. Resultaat: churn daalde van 8% naar 5%. Voor een miljoen omzet scheelt dat tientallen duizenden euros per jaar.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">3. AI-gestuurd copywriting en content</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">3. AI-gestuurd copywriting en content</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             ChatGPT schrijft geen blogs die je zomaar publiceert. Maar het geeft jouw copywriter een eerste versie die 80% klaar is. Bespaart uren. Hetzelfde geldt voor ad copy, emailteksten, productbeschrijvingen. AI genereert, jij editeert. Sneller. Beter. Efficiënter.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een webshop met honderd producten had maanden nodig voor goede beschrijvingen. Met AI: anderhalve week. Een klein team, veel producten, geen tijd. Opeens wel. Conversies op die producten stegen omdat ze nu goed beschreven waren.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">4. Chatbots die echt antwoorden geven</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">4. Chatbots die echt antwoorden geven</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Chatbots van twee jaar terug? Stom. Nu? Slim. Ze begrijpen context. Ze voeren gesprekken. Ze lossen problemen op. Ze verzamelen leads. Geen gekke berichten meer in handen van je klant. Echte, bruikbare hulp.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een advocatenkantoor zette een AI-chatbot in voor eenvoudige vragen. Testamenten, echtscheidingen, erfeniskwesties. De chatbot beantwoordde 70% volledig. Van de overige 30% kon de advocaat veel sneller beginnen omdat al veel werk gedaan was. Besparing: 8 uur per week. Tevredenheid: hoger. Leads: meer.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">5. Geautomatiseerde A/B-testing</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">5. Geautomatiseerde A/B-testing</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             A/B-testing vroeger: veel gedoe. Nu doet AI het. Testen honderden combinaties tegelijk. Automatisch. Ziet sneller wat werkt en schakelt ernaartoe. Geen wachten, geen gedoe.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We merken in de praktijk dat dit vooral werkt voor ads en emails. Bedrijven zien 15 tot 25% betere resultaten door AI-gestuurde testing. Minder handwerk, betere performance.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">6. Data-gedreven klantbegriping</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">6. Data-gedreven klantbegriping</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Je hebt meer data dan je denkt. Klanten op website, emailclicks, aankopen, ondersteuningsvragen. Al die data ligt daar. Niemand kijkt ernaar. AI kijkt ernaar. Ziet patronen. Vertelt je dingen die je niet wist. Waarom bepaalde klanten je verlaten. Wat je beste klanten gemeenschappelijk hebben. Hoe je meer inkomsten genereert.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een consultant gebruikte AI-analyse op zijn klantdata. Zag dat hij miljoenenbedrijven niet kon helpen, maar middelgrote bedrijven met 20 tot 100 medewerkers deed hij voordelig. Verschoof zijn strategie daarnaartoe. Inkomsten omhoog met 60% in een jaar. Dezelfde klantdatabase, volledig ander inzicht.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">7. Dynamische pricingstrategie en aanbevelingen</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">7. Dynamische pricingstrategie en aanbevelingen</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             AI ziet wat werk en wat niet. Inclusief prijsveranderingen. Sommige producten draag je tegen een bepaalde prijs veel beter. Andere juist niet. AI berekent dit constant voor je. Bijstellen zonder handwerk. Bij onze klanten zien we dat AI-gestuurde prijsoptimalisatie gemiddeld 8 tot 15% hogere marges geeft zonder dat omzet daalt. Het omgekeerde: lagere prijs voor sommigen, hogere voor anderen, meer winstmarge voor jou. Een SaaS-bedrijf gebruikte AI voor dynamische pricing. Hetzelfde product, gedifferentieerde prijzen per segment. Totale inkomsten omhoog met 22% zonder klantenverlies.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">8. Proactief klantbehoud en churn-preventie</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">8. Proactief klantbehoud en churn-preventie</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Je beste klanten verlaten je stilletjes. Tot je het merkt. AI ziet dit aankomen. Klant logt minder in. Browsed je site minder. Engagement daalt. AI signaleert dit. Jij springt in met een proactief contact. Voorkomen is beter dan genezen. Een dienstverlener implementeerde dit. AI waarschuwde twee weken voor een opzegging meestal al. Met een gesprek konden ze 65% behouden. Zonder AI hadden ze die twee weken niet gezien totdat de opzegging binnenkwam.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe je nu echt begint met AI-marketing</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe je nu echt begint met AI-marketing</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Veel bedrijven zeggen: "We willen AI inzetten." Maar ze weten niet waar ze beginnen. Dat is logisch. De aanbod is overweldigend. Dus hier een praktisch stappenplan.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Stap 1 is altijd: Meet je huidige situatie. Hoeveel leads krijg je nu? Wat kost je die? Hoeveel conversie? Hoeveel emailclicks? Dit zijn je baseline-nummers. Zonder deze nummers weet je niet of AI werkt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Stap 2: Kies één ding om mee te beginnen. Niet alles tegelijk. Kies het ding dat jou het meeste levert. Als je veel bezoekers hebt die niet converteren, is een chatbot interessant. Als je veel prospects hebt die je niet volgt, is AI-emailmarketing interessant. Als je veel content moet maken, is AI-copywriting interessant.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Stap 3: Implementeer in twee weken. Niet langer. Twee weken om het in productiete zetten. Dan meet je vier weken. Dan weet je of het werkt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Stap 4: Meet. Elke week kijk je naar dezelfde nummers. Bezoeken, leads, conversies, openrates. Ziet het werkt? Goed. Ziet het niet werkt? Dan pas je aan. Probeer iets anders. Bij onze klanten duurt dit proces gemiddeld twee maanden. Twee maanden en je weet of die bepaalde AI-inzet werkt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Stap 5: Schaal op wat werkt. Is de AI-chatbot een succes? Prima, zet meer budget erin. Werkt het emailmarketing goed? Voeg meer segmenten toe. Werkt iets niet? Stop ermee. Niet alles moet werken. Je zoekt naar de winnende combinatie voor jouw bedrijf.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Drie grote fouten die bedrijven nu maken</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Drie grote fouten die bedrijven nu maken</h2>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 1: In de volledige automatisering geloven</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 1: In de volledige automatisering geloven</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             "We gaan alles automatiseren en hoeven niks meer te doen." Nee. AI voert uit wat jij ervan maakt. Slechte input is slechte output. Je moet nog steeds nadenken, strategie bepalen, data schoonhouden. AI is een hulpmiddel, geen toverstaf. Bedrijven die verwachten dat AI hun marketing vanzelf gaat doen, worden teleurgesteld.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 2: Geen meetbare doelen stellen</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 2: Geen meetbare doelen stellen</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             "We gebruiken AI en dan zien we wel wat er gebeurt." Nee. Je moet weten wat je meet. Minder kosten per lead? Meer conversies? Hogere aov? Bepaal dit van tevoren. Meet het. Pas aan op basis van data. Bedrijven die zomaar AI implementeren zonder te meten, weten niet of het werkt.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 3: Te veel tegelijk willen doen</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 3: Te veel tegelijk willen doen</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             "We gaan alles omgooien en alles met AI doen." Halt. Begin klein. Test één ding. Ziet het werkt? Schaal op. Ziet het niet werkt? Pas aan. Bedrijven die alles tegelijk willen veranderen, verliezen controle en geld tegelijk. Incrementeel werkt beter.
                         </p>
 
@@ -266,7 +266,7 @@ export default function BlogPostAiMarketingwereldVerandert2025() {
 
                         <hr className="my-16 border-primary/10" />
 
-                        <h2 className="text-3xl mb-8">Veelgestelde vragen over AI-marketing</h2>
+                        <h2 className="text-3xl font-bold text-primary mb-8">Veelgestelde vragen over AI-marketing</h2>
 
                         <div className="space-y-6 not-prose">
                             <div className="border border-primary/10 rounded-xl p-6">

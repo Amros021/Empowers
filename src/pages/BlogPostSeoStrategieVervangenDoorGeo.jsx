@@ -112,116 +112,116 @@ export default function BlogPostSeoStrategieVervangenDoorGeo() {
                             Nee. Vervang je SEO-strategie niet door GEO. De twee werken samen, niet tegen elkaar. SEO brengt jou rechtstreeks klanten via Google. GEO zorgt dat AI-tools jou aanbevelen. Allebei halen die klanten op, allebei hebben ze invloed op je groei. Veel van wat je voor SEO doet, helpt ook GEO. En omgekeerd.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit is het antwoord waar veel ondernemers naar zoeken. Ze lezen over GEO en denken: moeten we ons nu helemaal gaan richten op AI-zoekmachines? SEO vergeten? Het tegenovergestelde is waar. De slimste bedrijven integreren beide. Ze doen SEO, ze doen GEO, en het resultaat is meer leads en hogere omzet.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat is het verschil? En waarom doet dat ertoe?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat is het verschil? En waarom doet dat ertoe?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             SEO: jij wilt hoog staan in Google-zoekresultaten. Iemand zoekt "digitaal marketingbureau Amsterdam" en jij staat nummer één. Hij klikt door, leert jou kennen, neemt contact op. SEO is een kanaal met miljoenen potentiële klanten per dag.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             GEO: iemand vraagt ChatGPT "welk marketing bureau kan ik het beste kiezen?" ChatGPT geeft een antwoord en noemt drie namen. Jouw naam staat daartussen. De persoon gaat niet naar een zoekresultatenpagina, hij wil meteen een aanbeveling. Die aanbeveling kom je zijn als je autoriteit hebt opgebouwd.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Waar SEO een actie vraagt van de zoeker (klikken, kiezen uit resultaten), doet GEO het werk voor hem. Een AI-antwoord is al geselecteerd. Je staat erin of je staat er niet in. Geen tussenpagina, geen zoekresultaten. Direct benoemd.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Beide kanalen hebben hun waarde. Google-zoekopdrachten groeien nog steeds. AI-zoekopdrachten groeien harder. Wie beide bedient, wint het meest.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Waarom combineer je SEO en GEO?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom combineer je SEO en GEO?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Ze eten elkaar niet op. Ze versterken elkaar. Lees verder en je ziet het.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Veel van je werk telt dubbel.</strong> Betere content schrijven? Helpt SEO en GEO. Backlinks opbouwen? Telt voor beide. Schema-markup toevoegen? Helpt beide ranken. Je hoeft niet twee aparte strategieën te bouwen. Een sterke autoriteit-opbouw werkt overal. Dit is waarom veel bedrijven zich inefficiënt opstellen. Ze denken dat ze twee dingen tegelijk moeten doen. In werkelijkheid is er grote overlap. De energie die je in SEO steekt, geeft je gratis voordeel in GEO.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>SEO is nog steeds het grootste kanaal.</strong> 8 van de 10 zoeken gaan nog via Google. Waarom zou je daar uit stappen? Doe je SEO goed, dan krijg je leads, groei en omzet. Dit geeft je ook zekerheid. GEO is opkomend, maar nog jong. Google-zoekopdrachten leveren aantoonbare resultaten. Je ziet welke zoekopdracht je bracht je klant, je ziet hoe veel geld dat oplevert. Dit vertrouwen krijg je niet meteen in GEO.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Wie allebei doet, loopt miljoenenmijlen voor.</strong> Bij onze klanten merken we dat gecombineerde SEO+GEO-inzet leidt tot 40-60% meer kwaliteitslead per jaar vergeleken met bedrijven die zich op één kanaal focussen. Dat is geen kleine marge. Dit zijn klanten in dezelfde branche, met vergelijkbare budgetten. Het enige verschil? Ze deden beide kanalen in plaats van één. De resultaten spreken voor zich.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>De concurrentie slaapt nog steeds.</strong> De meeste bedrijven hebben hun SEO nog niet goed voor elkaar. Zij kijken helemaal niet naar GEO. Dit is de juiste tijd om beide in te zetten. Over drie jaar zie je de kloof veel groter zijn. De bedrijven die nu allebei inzetten, hebben dan onneembare voordeel opgebouwd. Hun autoriteit is groter. Hun content beter. Hun omzet hoger.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe zet je beide in? 4 concrete manieren</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe zet je beide in? 4 concrete manieren</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit zijn niet twee losse dingen. Dit is één strategie met twee kanalen. Hier zie je hoe.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">1. Sterke basis: content die vragen beantwoordt</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">1. Sterke basis: content die vragen beantwoordt</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google wil weten: beantwoord jij de vragen van je doelgroep? AI-modellen willen hetzelfde. Zorg dat je website duidelijk antwoord geeft op veel gestelde vragen. Geen marketingtaal. Geen vage beloftes. Concrete, feitelijke antwoorden in gewone Nederlands. Schrijf FAQ-pagina's. Schrijf blogartikelen die problemen oplossen. Schrijf productbeschrijvingen die alle vervolgvragen al beantwoorden.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit helpt beide kanalen. Google leest de content en rankt je hoger voor relevante zoekwoorden. AI-modellen lezen hetzelfde en begrijpen dat je een betrouwbare bron bent. Bij onze klanten zorgt betere content alleen al voor gemiddeld 25% meer traffic in zes maanden.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">2. Schema-markup: zorg dat machines jou begrijpen</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">2. Schema-markup: zorg dat machines jou begrijpen</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Schema is technische code die je aan je website toevoegt. Het helpt Google en AI-modellen begrijpen wat je pagina's betekenen. Voeg FAQPage-schema toe aan je veelgestelde vragen. Voeg Article-schema toe aan je blogs. Voeg Organization-schema toe aan je homepage. Voeg LocalBusiness-schema toe als je een winkel hebt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Waarom? Omdat AI-modellen deze schema gebruiken om antwoorden samen te stellen. Een FAQ-pagina met schema wordt 3,2 keer vaker opgenomen in AI-antwoorden dan een pagina zonder. Google respecteert schema ook, het helpt je ranking. Twee voor één.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">3. Autoriteit opbouwen: vermeldingen en mentions</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">3. Autoriteit opbouwen: vermeldingen en mentions</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Hoe meer gezaghebbende bronnen over jou schrijven, hoe sterker je wordt in beide kanalen. Zorg dat je vermeld wordt in branchedirectories. Zorg dat Google Mijn Bedrijf compleet is. Zorg dat lokale partners, nieuwssites en influencers jou noemen. Zorg dat je op LinkedIn goed zichtbaar bent.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google ziet deze mentions en zegt: oké, dit bedrijf wordt veel benoemd, het moet betrouwbaar zijn. AI-modellen zien hetzelfde en denken: veel gezaghebbende bronnen vertrouwen dit bedrijf, ik moet het ook vertrouwen. Eén actie (mentions opbouwen) werkt voor beide. Dit is waar veel bedrijven nog niet actief zijn, dus je voordeel is groot.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">4. Technische basis: snel, mobiel, schoon</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">4. Technische basis: snel, mobiel, schoon</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Zowel Google als AI-modellen waarderen een snelle, mobiel-vriendelijke website met schone code. Zorg dat je paginalaadtijden kort zijn. Zorg dat je website perfect werkt op mobiel. Zorg dat je geen broken links hebt, geen spam, geen virussen. Dit helpt je SEO-ranking en maakt het voor AI makkelijker om je content te lezen en begrijpen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We merken in de praktijk dat bedrijven die hun technische basis goed hebben, in beide kanalen beter presteren. Niet zo ingewikkeld, maar wel effectief.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">5. Link naar relevante pagina's: interne structuur die zoekmachines begrijpen</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">5. Link naar relevante pagina's: interne structuur die zoekmachines begrijpen</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Zorg dat je FAQ-pagina gelinkt staat vanuit je homepage. Zorg dat je blog-artikelen naar relevante diensten linken. Zorg dat je dienste-pagina's naar succesgebruiken linken. Dit helpt Google te snappen hoe alles samenhangt. Het helpt AI-modellen ook context te krijgen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Maak links naar <Link to="/blogs/geo/wat-is-geo-generative-engine-optimization" className="text-accent hover:underline">wat GEO is</Link> en <Link to="/blogs/geo/optimaliseer-content-google-ai-overviews" className="text-accent hover:underline">hoe je content optimaliseer voor Google AI-overzichten</Link>. Dit geeft context. Linken naar <Link to="/blogs/seo/seo-voor-mkb-google-positie-verbeteren" className="text-accent hover:underline">SEO voor MKB</Link> helpt ook. Bij onze klanten zien we dat betere interne linking alleen al 15% meer leads oplevert.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">6. Data, data, data: meetbaar werken</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">6. Data, data, data: meetbaar werken</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             SEO is meetbaar. Je ziet je posities, je ziet je traffic, je ziet je conversies. GEO is moeilijker te meten, maar niet onmogelijk. Zorg dat je de mentions van je bedrijf volgt. Zorg dat je ziet of ChatGPT jou noemt (of niet). Zorg dat je een baseline hebt waartegen je kunt meten. Dit helpt je prioriteiten goed in te stellen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Meten helpt je weten wat werkt en wat niet. En daar kun je dan op inhaken. Track je rankings in Google voor je belangrijkste zoekwoorden. Monitor hoe veel leads je uit SEO krijgt. Stel alerts in voor je bedrijfsnaam in ChatGPT en Gemini. Zorg dat je maandelijks samengestelde reports maakt. Dit geeft je inzicht in wat werkt en waar je nog kan besparen.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">7. Branding door beide kanalen: vergroten je zichtbaarheid</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">7. Branding door beide kanalen: vergroten je zichtbaarheid</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             SEO en GEO werken ook op je merk. Als je in Google staat, herkent je doelgroep je naam. Als je ook in ChatGPT-antwoorden staat, versterkt dat het effect. Bij onze klanten zien we dat bedrijven die beide doen, veel sterker gebranded worden. Ze krijgen meer directe zoekopdrachten (mensen die je bedrijfsnaam in Google intypen). Ze krijgen meer mentions op social media. Klanten noemen jou sneller voor het probleem wat jij oplost.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit is een langterm-effect dat veel bedrijven onderschatten. SEO bouwt merk op. GEO ook. Allebei doen verdubbelt het effect. Na een jaar zien je klanten je naam overal. Dit geeft zekerheid. Dit geeft vertrouwen. Dit geeft groei.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">3 fouten die bedrijven maken</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">3 fouten die bedrijven maken</h2>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 1: alles in GEO stoppen en SEO vergeten</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 1: alles in GEO stoppen en SEO vergeten</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Sommige bedrijven lezen over GEO en denken: "Aha, hier moet ik mijn geld in steken." Ze stoppen hun SEO-inzet. Dit is een strategische blunder. Google-zoekopdrachten groeien nog steeds, veel sneller dan AI-zoekopdrachten. Je hebt jaren nodig om sterke SEO-positie op te bouwen. Zodra je die hebt, lever je het niet in voor iets dat nog niet bewezen is. Doe beide. Niet beide even veel, maar beide. Je gooit geen geld weg dat al werkt. Je bouwt daarop voort.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 2: schema-markup toevoegen en dan niks meer doen</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 2: schema-markup toevoegen en dan niks meer doen</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Schema is een tool, geen oplossing. Sommige bedrijven zeggen: "Oké, we voegen FAQPage-schema toe en dan boomen we als vanzelf." Dat werkt niet. Schema helpt, maar je hebt sterke content nodig. Je hebt autoriteit nodig. Je hebt vermeldingen nodig. Schema is een deel van het plaatje. Niet het hele plaatje. Het is als het wiel van je auto schoonmaken als de motor kapot is. Leuk om te doen, maar het lost het probleem niet op. Start met de fundamentals. Content, autoriteit, mentions. Schema komt daarna.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 3: verwachten dat GEO net zo snel werkt als betaalde advertenties</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 3: verwachten dat GEO net zo snel werkt als betaalde advertenties</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Met Google Ads zie je resultaten morgen. Met GEO duurt het maanden. Veel bedrijven laten hun GEO-inzet na twee maanden vallen omdat ze geen directe lift zien. Dat is te vroeg. GEO is als SEO: je bouwt autoriteit op. Dat kost tijd. Reken op 4 tot 8 maanden voor duidelijke traction. Dan explodeert het plotseling wel. Veel geduld. Het loont zich. De bedrijven die volhouden, oogsten de voordelen. De bedrijven die afbaken geven dat voordeel aan concurrenten.
                         </p>
 

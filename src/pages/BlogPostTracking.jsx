@@ -20,14 +20,14 @@ export default function BlogPostTracking() {
                 <meta property="og:description" content="Leer hoe je marketing tracking correct instelt om conversies nauwkeurig te meten. Van GA4 tot Meta Pixel en TikTok Pixel — zo maak je data-gedreven beslissingen." />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/tracking/marketing-tracking-conversies-meten" />
                 <meta property="og:type" content="article" />
-                <meta property="og:image" content="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" />
+                <meta property="og:image" content="/images/blogs/marketing-tracking-conversies-meten.jpg" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
                     "@graph": [
                         {
                             "@type": "Article",
                             "headline": "Waarom je zonder goede tracking je marketingbudget verspilt",
-                            "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+                            "image": "/images/blogs/marketing-tracking-conversies-meten.jpg",
                             "description": "Leer hoe je marketing tracking correct instelt om conversies nauwkeurig te meten. Van GA4 tot Meta Pixel en TikTok Pixel — zo maak je data-gedreven beslissingen.",
                             "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
@@ -102,7 +102,7 @@ export default function BlogPostTracking() {
 
                     {/* Featured Image placeholder */}
                     <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 relative bg-primary">
-                        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+                        <div className="absolute inset-0 bg-[url('/images/blogs/marketing-tracking-conversies-meten.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
 
@@ -112,55 +112,55 @@ export default function BlogPostTracking() {
                             Je kunt het beste advertentiebudget hebben, de mooiste campagnes draaien en een website die er geweldig uitziet. Maar als je niet bijhoudt wat bezoekers doen na de klik, weet je niet wat werkt en wat niet. Je gooit dan feitelijk met geld in het donker. Goede tracking is de basis van elke effectieve marketingstrategie.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat is conversietracking precies?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat is conversietracking precies?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Conversietracking is het bijhouden welke acties bezoekers uitvoeren op je website na een advertentieklik of zoekopdracht. Dat kan een aankoop zijn, een formulierinzending, een telefoontje of een specifieke pagina die iemand bezoekt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Die data koppel je terug aan je advertentiecampagnes. Zo weet je welke advertentie op welk platform hoeveel omzet of leads oplevert. En dus ook welk deel van je budget rendabel is en welk deel je kunt afschalen.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Waarom missen zoveel bedrijven de juiste data?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom missen zoveel bedrijven de juiste data?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Meer dan 60% van de bedrijven die bij ons voor een audit binnenkomen, heeft tracking die niet klopt. Niet omdat ze het niet willen, maar omdat het technisch wat stappen vraagt en er veel mis kan gaan. Pixels die niet vuren, events die dubbel geteld worden, Google Analytics dat wel klikken ziet maar geen conversies koppelt aan de juiste campagnes.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het gevolg is dat je campagnes bijstuurt op basis van verkeerde data. Advertenties die slecht presteren worden in stand gehouden. Goed presterende campagnes worden stopgezet omdat de conversies niet worden meegeteld. Dat kost je elke maand geld zonder dat je het doorhebt.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Welke tools heb je nodig?</h2>
-                        <p>Voor de meeste bedrijven zijn dit de basistoepassingen.</p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Welke tools heb je nodig?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">Voor de meeste bedrijven zijn dit de basistoepassingen.</p>
                         <ul className="space-y-4 my-8 pl-6 list-disc marker:text-accent">
-                            <li><strong>Google Analytics 4</strong> geeft inzicht in al het verkeer op je website: waar bezoekers vandaan komen, hoelang ze blijven en welke pagina's ze bezoeken. Koppel dit altijd aan je <Link to="/diensten/google-ads" className="text-accent hover:underline">Google Ads</Link>-account voor een volledig beeld.</li>
+                            <li><strong>Google Analytics 4</strong> geeft inzicht in al het verkeer op je website: waar bezoekers vandaan komen, hoelang ze blijven en welke pagina's ze bezoeken. Koppel dit altijd aan je <Link to="/google-ads" className="text-accent hover:underline">Google Ads</Link>-account voor een volledig beeld.</li>
                             <li><strong>Google Tag Manager</strong> is de technische laag waarmee je alle tracking-code op je website beheert zonder steeds in de broncode te moeten duiken. Het maakt het installeren van pixels en events een stuk overzichtelijker.</li>
                             <li><strong>Meta Pixel plus Conversions API</strong> zijn samen de basis voor goede tracking van je Meta-campagnes. De Pixel werkt via de browser, de Conversions API werkt server-side. Beide samen geven je de meest complete data.</li>
                             <li><strong>TikTok Pixel</strong> als je op TikTok adverteert. Werkt op dezelfde manier als de Meta Pixel.</li>
                         </ul>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat moet je precies bijhouden?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat moet je precies bijhouden?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dat hangt af van je doel. Een webshop wil aankopen tracken. Een dienstverlener wil formulierinzendingen of telefoongesprekken bijhouden.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             De drie getallen die er het meest toe doen: je kosten per conversie (CPA), je omzet per euro advertentiebudget (ROAS) en je conversieratio. Een ROAS van 3 betekent dat elke euro die je uitgeeft drie euro terugbrengt. Is je ROAS structureel onder de 1,5? Dan verlies je geld op je advertenties.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We zien bij klanten dat zodra tracking correct staat, ze gemiddeld 20 tot 30% van hun advertentiebudget kunnen verschuiven van slecht presterende naar goed presterende campagnes. Dat geld lag er al die tijd gewoon.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe iOS 14 alles veranderde</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe iOS 14 alles veranderde</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             In 2021 introduceerde Apple iOS 14, waarbij iPhone-gebruikers per app moesten aangeven of ze tracking toestonden. Meer dan 70% koos ervoor dat niet te doen. Het gevolg: Meta verloor een groot deel van zijn browsertrackingdata.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit is waarom Meta Conversions API zo waardevol is geworden. In plaats van te vertrouwen op een cookie in de browser van de gebruiker, stuurt de Conversions API data direct van jouw server naar Meta. Dat werkt ongeacht wat de gebruiker in zijn privacyinstellingen heeft staan.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Als je nu nog alleen op de Meta Pixel vertrouwt zonder Conversions API, zie je waarschijnlijk 30 tot 50% van je conversies niet terug in je advertentieaccount. Je campagnes presteren dan beter dan ze lijken, en je mist de data om door te schalen.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe controleer je of je tracking correct staat?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe controleer je of je tracking correct staat?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Leer meer over het instellen van tracking met ons artikel over <Link to="/blogs/tracking/google-tag-manager-beginners" className="text-accent hover:underline">Google Tag Manager voor beginners</Link>.
                         </p>
                         <ol className="space-y-4 my-8 pl-6 list-decimal marker:text-primary font-bold">
@@ -169,7 +169,7 @@ export default function BlogPostTracking() {
                             <li><span className="font-normal"><strong>Stap 3:</strong> Vergelijk de aantallen. Hoeveel aankopen staan er in je webshop versus hoeveel Purchase events ziet Meta? Een verschil van meer dan 20% is een signaal dat er iets niet klopt.</span></li>
                         </ol>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Kom je er niet uit? Bekijk onze <Link to="/diensten" className="text-accent hover:underline">diensten-pagina</Link> voor hoe we tracking-audits uitvoeren. Of <Link to="/contact" className="text-accent hover:underline">plan een gratis gesprek</Link> voor een snelle check van jouw situatie.
                         </p>
 

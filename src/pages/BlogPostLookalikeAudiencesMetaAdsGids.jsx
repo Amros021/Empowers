@@ -109,132 +109,132 @@ export default function BlogPostLookalikeAudiencesMetaAdsGids() {
                     {/* Content */}
                     <div className="prose prose-lg prose-headings:font-sans prose-headings:font-bold prose-headings:text-primary prose-p:font-sans prose-p:text-primary/80 prose-p:leading-relaxed max-w-none">
                         <p className="text-xl md:text-2xl font-medium leading-relaxed mb-10 text-primary">
-                            Lookalike audiences zijn je geheim wapen in <a href="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Meta Ads</a>. In plaats van mensen lukraak advertenties tonen, zoek je naar nieuwe klanten die vrijwel identiek zijn aan je bestaande klanten. Meta doet het zware werk: het analyzeert wie jouw klanten zijn en vindt duizenden andere mensen die op hen lijken. Het resultaat? Hogere conversiepercentages, lagere kosten per resultaat en meer omzet. Dit gaat veel verder dan zomaar je doelgroep verbreden.
+                            Lookalike audiences zijn je geheim wapen in <a href="/meta-ads" className="text-accent hover:underline">Meta Ads</a>. In plaats van mensen lukraak advertenties tonen, zoek je naar nieuwe klanten die vrijwel identiek zijn aan je bestaande klanten. Meta doet het zware werk: het analyzeert wie jouw klanten zijn en vindt duizenden andere mensen die op hen lijken. Het resultaat? Hogere conversiepercentages, lagere kosten per resultaat en meer omzet. Dit gaat veel verder dan zomaar je doelgroep verbreden.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Toch zetten veel MKB's lookalikes niet goed in. Ze creëren deze audiences, zetten er geld tegenaan en wachten. Maar lookalikes hebben specifieke regels. Een van de meest gemaakte fouten: je brongroep is te klein of van slechte kwaliteit. Meta kan geen patroon herkennen in twee duizend mensen. Of je kiest de verkeerde type klant als basis. Je wilt alleen je best presterende klanten als lookalike, niet iedereen die ooit gekocht heeft.
                         </p>
 
-                        <p>
-                            Deze gids helpt je om lookalikes effectief in te zetten. Stap voor stap, van voorbereiding tot optimalisatie. Moderne marketing vereist een sterke <a href="/blogs/strategie" className="text-blue-700 underline hover:text-blue-900">strategie</a>.
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Deze gids helpt je om lookalikes effectief in te zetten. Stap voor stap, van voorbereiding tot optimalisatie. Moderne marketing vereist een sterke <a href="/blogs/strategie/online-marketing-strategie-mkb" className="text-accent hover:underline">strategie</a>.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat is een lookalike audience eigenlijk?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat is een lookalike audience eigenlijk?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een lookalike audience is een doelgroep op Facebook en Instagram die bestaat uit mensen die veel overeenkomsten hebben met je brongroep. Die brongroep kan je bestaande klanten zijn, je e-maillijst, je websitebezoekers of mensen die je video hebben bekeken.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Meta scant de kenmerken van deze groep: waar wonen ze, hoe oud zijn ze, wat zijn hun interesses, wat kopen ze online. Vervolgens zoekt het algoritme naar overeenkomsten. Het vindt duizenden andere Facebookgebruikers die dezelfde patronen vertonen als jouw brongroep. Dat zijn je lookalikes. Ze zijn niet in je netwerk, ze hebben je nooit gezien, maar ze gedragen zich als jouw klanten.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Het verschil met normale doelgericht: je geeft Meta niet zelf de criteria mee. Je zegt niet "gericht op vrouwen van 25-35 jaar in Amsterdam". Je zegt "vind me mensen als mijn bestaande klanten". Meta doet het detectivewerk.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Waarom zijn lookalikes zo waardevol voor het MKB?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom zijn lookalikes zo waardevol voor het MKB?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Voor kleine bedrijven zijn lookalikes goud. Hier zijn drie redenen waarom.
                         </p>
-                        <p>
-                            <strong>Schaal voorbij je huidige netwerk.</strong> Als je nu focust op <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads</a>, weet je dat dit model anders werkt. Als je 500 klanten hebt, heb je door organische groei niet veel contact met potentiële nieuwe klanten. Lookalikes brengen je direct in contact met minstens 500 tot 2000 nieuwe mensen die waarschijnlijk hetzelfde willen kopen als jouw huidige klanten. We zien dit bij onze klanten: een lookalike audience brengt gemiddeld 35 tot 50% meer conversies dan dezelfde budget op standaard doelgroepen. Lees meer tips in ons <a href="/blogs/meta-ads" className="text-blue-700 underline hover:text-blue-900">Meta Ads blog</a>.
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            <strong>Schaal voorbij je huidige netwerk.</strong> Als je nu focust op <a href="/google-ads" className="text-accent hover:underline">Google Ads</a>, weet je dat dit model anders werkt. Als je 500 klanten hebt, heb je door organische groei niet veel contact met potentiële nieuwe klanten. Lookalikes brengen je direct in contact met minstens 500 tot 2000 nieuwe mensen die waarschijnlijk hetzelfde willen kopen als jouw huidige klanten. We zien dit bij onze klanten: een lookalike audience brengt gemiddeld 35 tot 50% meer conversies dan dezelfde budget op standaard doelgroepen. Lees meer tips in ons <a href="/blogs/meta-ads" className="text-accent hover:underline">Meta Ads blog</a>.
                         </p>
-                        <p>
-                            <strong>Lager kostprijzen.</strong> Omdat lookalikes al warm zijn (in tegenstelling tot koude <a href="/blogs/tracking" className="text-blue-700 underline hover:text-blue-900">tracking</a>), schiet je conversiepercentage omhoog. Waar je met standaard targeting €25 per conversie betaalt, betaal je met lookalikes soms €15 of €12. Dat scheelt flink als je iets verkoopt met lage marge. Een MKB dat met normaal targeting 200 conversies per maand krijgt, haalt met lookalikes makkelijk 270 tot 320. Bij dezelfde uitgaven.
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            <strong>Lager kostprijzen.</strong> Omdat lookalikes al warm zijn (in tegenstelling tot koude <a href="/blogs/tracking" className="text-accent hover:underline">tracking</a>), schiet je conversiepercentage omhoog. Waar je met standaard targeting €25 per conversie betaalt, betaal je met lookalikes soms €15 of €12. Dat scheelt flink als je iets verkoopt met lage marge. Een MKB dat met normaal targeting 200 conversies per maand krijgt, haalt met lookalikes makkelijk 270 tot 320. Bij dezelfde uitgaven.
                         </p>
-                        <p>
-                            <strong>Meer controle over kwaliteit.</strong> Bij reguliere campagnes krijg je veel laagwaardige clicks. Bots, kijkers die niet serieus zijn, mensen met geen koopkracht. Lookalikes filteren dit eruit. Je brongroep bevat alleen jouw echte klanten. Die mensen zijn al gescreend op kwaliteit en koopkracht. Wie op hen lijkt, lijkt ook op echte kopers. Dit is vergelijkbaar met hoe <a href="/diensten/seo" className="text-blue-700 underline hover:text-blue-900">SEO</a> werkt: je focust op gebruikers met echte intentie.
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            <strong>Meer controle over kwaliteit.</strong> Bij reguliere campagnes krijg je veel laagwaardige clicks. Bots, kijkers die niet serieus zijn, mensen met geen koopkracht. Lookalikes filteren dit eruit. Je brongroep bevat alleen jouw echte klanten. Die mensen zijn al gescreend op kwaliteit en koopkracht. Wie op hen lijkt, lijkt ook op echte kopers. Dit is vergelijkbaar met hoe <a href="/seo" className="text-accent hover:underline">SEO</a> werkt: je focust op gebruikers met echte intentie.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 1: Kies je brongroep goed</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 1: Kies je brongroep goed</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             De kwaliteit van je lookalike hangt volledig af van de kwaliteit van je brongroep. Dit is de belangrijkste stap.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Gebruik je beste klanten, niet iedereen.</strong> Veel bedrijven geven Meta hun complete klantenlijst. Fout. Je moet selectief zijn. Analyseer welke klanten je het meest opleveren. Welke hebben de hoogste lifetime value? Welke ordenen het meest? Welke geven je het minst extra kosten? Exporteer alleen die mensen. Zo creëer je een lookalike van je ideale klant, niet van je gemiddelde klant.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Minimale grootte is 100, maar 500+ is sterk.</strong> Meta werkt met algoritmes die patronen herkennen. Bij 100 mensen kan dit amper. Bij 500 is het eerste patroon helder. Bij 1000 tot 5000 is het zeer accurate. Als je minder dan 500 klanten hebt, combineer je ze met websitebezoekers of e-mailab onnemers. Zorg wel dat de kwaliteit dezelfde blijft.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Zet jouw best presterende klanten apart.</strong> Heb je een klantenlijst van 2000 mensen? Selecteer de 500 tot 1000 die het meest gekocht hebben in de afgelopen 12 maanden. Maak van die groep een lookalike. Dit is je premium lookalike. Test deze eerst voordat je alle 2000 gaat gebruiken.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 2: Zet je brongroep in Meta Ads Manager</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 2: Zet je brongroep in Meta Ads Manager</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Je brongroep voer je in via Meta Ads Manager onder "Audiences". Je kan dit op verschillende manieren doen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Via CSV-upload.</strong> De meest voorkomende manier. Je exporteert je klantenlijst (of een deel daarvan) naar een CSV-bestand met e-mailadressen, telefoonnummers of Facebook IDs. Meta matched deze tegen zijn database. Alleen exacte matches worden opgenomen. Verwacht dat 40 tot 70% van je contacten matcht, afhankelijk van je dataset. Niet iedereen heeft een Facebook-account, en niet iedereen gebruikt hetzelfde e-mailadres.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Via je webshop of website.</strong> Als je een pixel op je website hebt staan, verzamelt Meta automatisch websitebezoekers. Dit is kwalitatief soms minder puur dan een klantenlijst (want je hebt ook nieuwsgierigen), maar het werkt goed als je nog niet zoveel klanten hebt. Je kan ook alleen "people who have viewed a product" selecteren, of "people who completed a purchase".
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Via Instagram interacties.</strong> Je kan een brongroep maken van mensen die je posts liked hebben, je account volgen of je videos hebben bekeken. Dit is laagkwalitatief. Deze mensen zijn geïnteresseerd, maar niet per se kopers. Gebruik dit alleen als je geen beter alternatief hebt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Tip: controleer na uploaden altijd je match rate. Meta geeft aan hoeveel van jouw contacten zijn gematcht. Is dit onder de 40%? Dan is je data waarschijnlijk oud of van slechte kwaliteit. Schoon je data op en probeer opnieuw.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 3: Maak je lookalike audience aan</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 3: Maak je lookalike audience aan</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             In Ads Manager ga je naar Audiences &gt; Create &gt; Lookalike Audience. Je selecteert je brongroep en kiest het land.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Kies het juiste bereik.</strong> Meta biedt lookalikes in verschillende groottes: 1%, 2%, 5% en 10%. De 1%-lookalike is het meest gelijkend op je brongroep. Deze groep bereikt ongeveer 1% van alle Facebook/Instagram-gebruikers in je geselecteerde land. In Nederland is dat ongeveer 100.000 tot 150.000 mensen. Dit zijn je warmste prospects. De 10%-lookalike bereikt 1 tot 1,5 miljoen mensen. Dit zijn meer "mogelijke" klanten, minder zeker.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Ons advies: start altijd met 1-2%. Zet daar flinke budgetten tegenaan. Meet het conversiepercentage. Ik je resultaten goed? Schaal je uit naar 3-5%. Nog goed? Ga naar 10%. Deze trap-methodiek zorgt dat je niet met slecht presterende audiences je budget verspilt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Kies de juiste landen.</strong> Begin simpel. Richt je je op Nederland? Selecteer alleen Nederland. Later kan je testen met België, Duitsland of Engeland. Hoe kleiner het land, hoe exclusiever de lookalike, hoe hoger de conversie.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Meta genereert deze audience real-time. Je kan vrijwel meteen advertenties erop zetten.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 4: Test je lookalike met een campagne</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 4: Test je lookalike met een campagne</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Je eerste lookalike campaign moet een test zijn. Niet je totale budget erin, maar een fractie.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Zet je je minst riskante creatieve content in.</strong> Je weet nog niet of de audience leuk op je advertenties reageert. Gebruik je best presterende advertenties van eerdere campagnes. Niet je experimentele content. Dit geeft de beste indruk van hoe goed de audience werkelijk is.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Meet de eerste twee weken goed.</strong> Zet heldere KPI's: conversiepercentage, kosten per conversie, ROAS (return on ad spend). Wat is je streefwaarde? Als je normaal €20 per conversie betaalt, zet je streef voor lookalike op €18 of lager. Lukt dat niet in de eerste twee weken? Pas iets aan. Is het je creatieve content? Je landing page? Of is deze lookalike audience gewoon niet warm genoeg?
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Schaal geleidelijk.</strong> Werkt je test? Verdubbel je budget niet meteen. Verhoog het stap voor stap: week 1 is €200, week 2 is €300, week 3 is €500. Zo zie je of de performance stabiel blijft of verzwakt. Als je in één klap €1000 inzet, kan je niet controleren op welk moment het verkeerd gaat.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 5: Optimaliseer je lookalike audience</h2>
-                        <p>
-                            Na de testfase begint de echte <a href="/blogs/strategie" className="text-blue-700 underline hover:text-blue-900">optimalisatie</a>.
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 5: Optimaliseer je lookalike audience</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Na de testfase begint de echte <a href="/blogs/strategie/online-marketing-strategie-mkb" className="text-accent hover:underline">optimalisatie</a>.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Test verschillende grootteklassen tegelijk.</strong> Draai dezelfde advertentie op een 1%-lookalike, een 3%-lookalike en een 5%-lookalike. Zet ze in aparte ad sets zodat je de performance apart kan meten. Na twee tot drie weken zie je welke grootteklasse het beste presteert. Meestal is dat 1-2%, maar niet altijd. Bij sommige klanten presteert 3% beter. Focus op wat werkelijk omzet geeft.
                         </p>
-                        <p>
-                            <strong>Update je brongroep regelmatig.</strong> <a href="/blogs/ai-digitale-marketing" className="text-blue-700 underline hover:text-blue-900">Meta's algoritmes verbeteren constant</a>. Een lookalike gemaakt met dezelfde brongroep volgende week is anders dan deze week. Dit is goed. Wis je oude lookalike na een maand en maak een nieuwe van dezelfde brongroep. De nieuwe is bijna altijd beter. Dit noemen we "refreshing your audience". Bij veel transacties (je hebt veel nieuwe klanten) refresh je wekelijks. Bij stabiele bedrijven volstaat maandelijks.
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            <strong>Update je brongroep regelmatig.</strong> <a href="/blogs/strategie/ai-digitale-marketing" className="text-accent hover:underline">Meta's algoritmes verbeteren constant</a>. Een lookalike gemaakt met dezelfde brongroep volgende week is anders dan deze week. Dit is goed. Wis je oude lookalike na een maand en maak een nieuwe van dezelfde brongroep. De nieuwe is bijna altijd beter. Dit noemen we "refreshing your audience". Bij veel transacties (je hebt veel nieuwe klanten) refresh je wekelijks. Bij stabiele bedrijven volstaat maandelijks.
                         </p>
-                        <p>
-                            <strong>Combineer lookalikes met retargeting.</strong> Veel bedrijven zien lookalikes als vervanging van retargeting. Fout. Ze maken dezelfde fout als met <a href="/blogs/google-ads-vs-seo-wat-werkt-beter" className="text-blue-700 underline hover:text-blue-900">Google Ads versus andere kanalen</a>. Lookalikes halen koude traffic. Retargeting warmt mensen op die al geïnteresseerd zijn. De beste strategie: 60% van je budget naar lookalikes, 40% naar retargeting. Bij onze klanten zien we dat deze combinatie 25 tot 35% meer conversies oplevert dan lookalikes alleen.
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            <strong>Combineer lookalikes met retargeting.</strong> Veel bedrijven zien lookalikes als vervanging van retargeting. Fout. Ze maken dezelfde fout als met <a href="/blogs/algemeen/google-ads-vs-seo-werkt" className="text-accent hover:underline">Google Ads versus andere kanalen</a>. Lookalikes halen koude traffic. Retargeting warmt mensen op die al geïnteresseerd zijn. De beste strategie: 60% van je budget naar lookalikes, 40% naar retargeting. Bij onze klanten zien we dat deze combinatie 25 tot 35% meer conversies oplevert dan lookalikes alleen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Maak meerdere lookalikes van verschillende brongroepen.</strong> Heb je geld voor verschillende lookalikes? Maak er minstens twee. Eén van je best presterende klanten (premium lookalike) en één van je complete klantenlijst (volume lookalike). Test ze tegen elkaar. De premium lookalike is warmer maar kleiner. De volume lookalike is groter maar minder puur. Beiden hebben hun plaats.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 6: Meet en schaal wat werkt</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 6: Meet en schaal wat werkt</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Na vier tot zes weken heb je genoeg data om serieus schalen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Zet budget waar het werkt.</strong> Niet alle lookalikes presteren gelijk. De 1%-lookalike levert veel meer conversies op per euro dan de 10%-lookalike, ondanks dat deze groter is. Zet 70% van je budget op wat werkt (meestal 1-2%), en 30% op experimenteren (3-5%). Dit maximaliseert je return.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Controleer op audience fatigue.</strong> Als je dezelfde advertentie te lang op dezelfde lookalike draait, zakken de prestaties. Mensen zien je te veel. Draai je advertentie naar een nieuwe lookalike of update je creatieve content elke drie tot vier weken. Bij onze klanten zien we dat dit de prestaties weer aanzienlijk verbetert.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             <strong>Combineer lookalikes met samenstellingsfactoren.</strong> Je kan je lookalike verfijnen met extra criteria. Bijvoorbeeld: "lookalike audience 1%, die ook geïnteresseerd zijn in sportschoenen, die minstens 25.000 euro per jaar verdienen". Dit maakt je audience kleiner maar warmer. Dit werkt goed als je lookalike te breed presteert. Zorg wel dat je audience niet kleiner wordt dan 100.000 mensen.
                         </p>
 
@@ -253,26 +253,26 @@ export default function BlogPostLookalikeAudiencesMetaAdsGids() {
                             </div>
                         </div>
 
-                        <h2 className="text-3xl mt-16 mb-6">Drie veelgemaakte fouten met lookalikes</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Drie veelgemaakte fouten met lookalikes</h2>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 1: Brongroep is te klein of van slechte kwaliteit</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 1: Brongroep is te klein of van slechte kwaliteit</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Je uploaded 150 contacten naar Meta. De match rate is 45%. Meta maakt wel een lookalike, maar die is weinig waard. Een lookalike van 67 gemaakte matches heeft geen sterke patronen. Gevolg: je audience lijkt niet echt op je klanten. Oplossing: verzamel minimaal 500 contacten met hoge quality. Zorg dat je match rate minstens 60% is. Repareer je dataset (verwijder spam-adressen, verdubbeling). Combineer je klantenlijst met websitebezoekers als je niet genoeg klanten hebt.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 2: Je test niet voordat je schaalt</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 2: Je test niet voordat je schaalt</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Je maakt een lookalike en zet er meteen €500 per dag in. Na een week merk je dat het niet werkt. Je bent al veel geld kwijt. Betere aanpak: start klein. €50 per dag, twee weken. Meet alles. Controleer of het conversiepercentage acceptabel is. Pas aan. Pas daarna schaal je. Dit kost meer tijd maar bespaart veel geld.
                         </p>
 
-                        <h3 className="text-xl font-bold mb-2">Fout 3: Je verwarrt lookalikes met zomaar targeting</h3>
-                        <p>
-                            Je denkt dat een lookalike perfect is en je vergeet dat de creatieve content nog steeds de grootste rol speelt. Een perfecte lookalike met slechte advertenties presteert niet. Een gemiddelde lookalike met sterke advertenties presteert beter. Test dus eerst je advertenties op een bekend goed doelgroep voordat je ze op nieuwe lookalikes zet. Ook: vergeet je retargeting niet. Alleen lookalikes, geen retargeting, geeft minder omzet dan de combinatie. Dit geldt overigens voor alle social ads-kanalen, inclusief <a href="/blogs/tiktok-ads" className="text-blue-700 underline hover:text-blue-900">TikTok Ads</a>.
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 3: Je verwarrt lookalikes met zomaar targeting</h3>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Je denkt dat een lookalike perfect is en je vergeet dat de creatieve content nog steeds de grootste rol speelt. Een perfecte lookalike met slechte advertenties presteert niet. Een gemiddelde lookalike met sterke advertenties presteert beter. Test dus eerst je advertenties op een bekend goed doelgroep voordat je ze op nieuwe lookalikes zet. Ook: vergeet je retargeting niet. Alleen lookalikes, geen retargeting, geeft minder omzet dan de combinatie. Dit geldt overigens voor alle social ads-kanalen, inclusief <a href="/blogs/social-ads/tiktok-ads-voor-bedrijven" className="text-accent hover:underline">TikTok Ads</a>.
                         </p>
 
                         <hr className="my-16 border-primary/10" />
 
-                        <h2 className="text-3xl mb-8">Veelgestelde vragen over lookalike audiences</h2>
+                        <h2 className="text-3xl font-bold text-primary mb-8">Veelgestelde vragen over lookalike audiences</h2>
 
                         <div className="space-y-6 not-prose">
                             <div className="border border-primary/10 rounded-xl p-6">

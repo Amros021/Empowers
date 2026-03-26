@@ -112,46 +112,46 @@ export default function BlogPostVerbeterenGoogleAiOverviewsCtr() {
                             Google AI Overviews geven direct antwoord op zoekvragen. Dat is beter voor gebruikers, maar kan slecht zijn voor jouw CTR. Minder kliks naar je website. Maar wacht: er schuilt ook een kans. Als je in die AI Overview staat vermeld, vertrouwen lezers je meer. En vertrouwen leidt tot conversies. Dit artikel laat zien hoe je er winnen op gaat.
                         </p>
 
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google schakelde AI Overviews in 2024 in, eerst in Amerika, nu wereldwijd. Ongeveer 64% van alle zoekvragen toont nu een AI Overview bovenaan. Die overview beantwoordt direct wat iemand vraagt. Voorbij zijn de dagen dat je nog 10 blauwe links zag. Veel websites zien hun klikverkeer omlaag gaan. Bij onze klanten zie je dit duidelijk: dezelfde zoekquery geeft meer impressies in Search Console, maar minder daadwerkelijke bezoeken. Grappig genoeg gaat de omzet niet omlaag. Sterker nog, die gaat soms omhoog.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Waarom daalt je CTR door AI Overviews?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom daalt je CTR door AI Overviews?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             De CTR is het percentage gebruikers dat op je link klikt na het zien van je website in zoekresultaten. Als Google je toon in de SERP, en iemand klikt niet door, telt dat als een miste kans. AI Overviews snijden deze kans weg.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Stel: iemand zoekt <em>"hoe voet ik mijn huis het beste"</em>. Google toont nu een AI Overview die in één oogopslag zegt: _begin met een brede basis van beton, gebruik steunpalen, zorg voor goede drainage_. De vraag is beantwoord. Waarom nog doorklikken? Die persoon heeft het antwoord al.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             De impact verschilt per soort zoekopdracht. Informatievragen krijgen hard geraakt. Iemand die via AI het antwoord al heeft, klikt minder door. Maar commerciële vragen—_koop deze lamp_—voelen veel minder impact. De AI geeft informatie, maar de aankoop gebeurt nog steeds op een website. Dus voor een webshop is AI Overviews minder rampzalig.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             De waarheid is grimmiger. Veel websites zagen hun CTR afnemen met 15 tot 25% in het eerste halfjaar. Dat is een flinke klap. Maar je bent niet verloren. Want de CTR-daling is niet hetzelfde als verlies van inkomsten.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Waarom AI Overviews juist beter kunnen zijn voor jouw bedrijf</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom AI Overviews juist beter kunnen zijn voor jouw bedrijf</h2>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Hier zit de twist. Minder kliks kan beter zijn dan meer kliks, als die kliks van lagere kwaliteit zijn.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Denk aan dit scenario. Een website krijgt 100 zoekklikken per maand met een CTR van 5%. Nu Google AI Overviews inschakelt, daalt dat naar 80 kliks—een daling van 20%. Statistisch gezien verliest deze site traffic. Maar in praktijk gebeurt dit: die 80 resterende bezoekers zijn veel warmer, veel verder in hun besluitvormingsproces.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Waarom? Omdat je alleen nog doorklikt als het AI-antwoord je niet volledig bevredigt. Of je wilt nog meer info. Of je ben al half klaar om te kopen en zoekt alleen nog bevestiging. Die 80 bezoekers zijn goud. Ze converteren beter, ze hebben minder ondersteuning nodig, en ze blijven langer klant.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             We merken dit in de praktijk. Een klant van ons, een adviesbureau, zag zijn zoetklikken dalen van 120 naar 95 per maand. Paniek! Maar drie maanden later: meer opgestelde adviesklanten dan ooit. Lager volume, hoger kwaliteit. Dat is de nieuwe realiteit.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Bovendien: je website verschijnt nog steeds in de AI Overview. Dat is alsof je naam in een talkshow wordt genoemd. Miljoen mensen horen hem. Ze onthouden je. Ze vertrouwen je meer. Zelfom ze niet direct doorkliks, je merk is sterker geworden.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 1: Zorg dat je IN de AI Overview staat</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 1: Zorg dat je IN de AI Overview staat</h2>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Het eerste dat je moet doen: ervoor zorgen dat jouw website te bronnen telt in de AI Overview. Dit gebeurt niet automatisch. Google kiest bronnen die op pagina 1 staan, die gezaghebbend zijn, en die duidelijk antwoord geven.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Controleer eerst of je al in AI Overviews staat. Zoek je voornaamste keywords in Google en kijk wat de AI toont. Klikt je naam daar? Nee? Dan ben je nog niet zichtbaar. Dat moet veranderen. Hier zijn concrete stappes:
                         </p>
                         <ul className="space-y-4 my-8 pl-6 list-disc marker:text-accent">
@@ -161,11 +161,11 @@ export default function BlogPostVerbeterenGoogleAiOverviewsCtr() {
                             <li><strong>Zorg dat je website snel en veilig is.</strong> Google neemt snelheid en veiligheid (HTTPS) serieus. Als je site traag laadt of niet beveiligd is, selecteert Google je niet als bron. Check je PageSpeed en zorg voor SSL-certificaat.</li>
                         </ul>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 2: Optimaliseer voor de klikken die je wel krijgt</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 2: Optimaliseer voor de klikken die je wel krijgt</h2>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Je CTR daalt, maar je kunt die niet stoppen. Wel kun je ervoor zorgen dat wie nog doorklikt, echt relevant is. Dit is pure conversion-optimization.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Als iemand van Google naar jouw website klikt (via AI Overview of reguliere zoekresultaten), zijn het meestal mensen die het AI-antwoord willen verdiepen. Ze willen meer, sneller, betrouwbaarder. Zorg dat je die verwachting invult.
                         </p>
                         <ul className="space-y-4 my-8 pl-6 list-disc marker:text-accent">
@@ -174,25 +174,25 @@ export default function BlogPostVerbeterenGoogleAiOverviewsCtr() {
                             <li><strong>Bouw vertrouwen snel op.</strong> Je hebt minder bezoekers, dus elk moment telt. Toon reviews, certificaten, casestudies bovenaan. Dit bezoeker wist al wie je bent (van AI Overview), nu moet je hem overtuigen dat je de beste keus bent.</li>
                         </ul>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 3: Richt je op vragen waar Google AI Overviews hoog scoort</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 3: Richt je op vragen waar Google AI Overviews hoog scoort</h2>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             AI Overviews zijn niet gelijk. Sommige zoekvragen krijgen een overview, andere niet. Als je slim bent, focus je op vragen waar overviews echt voorkomen.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             How-to vragen krijgen altijd overviews. _Hoe maak je een boekhoudingssysteem._ _Hoe kies je een accountant._ _Hoe verbeter je je Google ranking._ Deze vragen hebben minstens 80% kans op een overview. Je wilt daar boven staan, want je concurrenten willen dat ook.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Definitievragen ook. _Wat is bruto en netto salaris._ _Wat kost een website._ Overvragen niet: _koop het beste product._ Daar toont Google nog steeds winkelresultaten en advertenties. Die zijn beter voor jouw webshop dan een AI Overview die je verkoopkansen in een rijtje met drie concurrenten zet.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Controleer in Search Console welke vragen al een AI Overview krijgen. Filtreer op 'impressies' en 'gemiddelde CTR' en vergelijk. Je ziet snel welke zoektermen met lage CTR waarschijnlijk een overview hebben. Focus je hierop en stap uit race voor termen zonder overvragen.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 4: Bouw je onlineautoriteit op</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 4: Bouw je onlineautoriteit op</h2>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Dit is waar het lang termijn gebeurt. Minder kliks in maand 1 is geen ramp als je volgende jaar dubbele omzet hebt, omdat je autoriteit gegroeid is.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             AI-modellen kiezen bronnen op basis van vertrouwen. Hoe meer gezaghebbende websites jou noemen, hoe vaker AI je aanbeveelt. Dit is geen SEO-geheimpje, het werkt echt. Daarom doen we dit:
                         </p>
                         <ul className="space-y-4 my-8 pl-6 list-disc marker:text-accent">
@@ -200,15 +200,15 @@ export default function BlogPostVerbeterenGoogleAiOverviewsCtr() {
                             <li><strong>Publiceer regelmatig goed onderzoek.</strong> Rapporten, statistieken, case studies. Dit geeft anderen iets wat ze kunnen citeren. En citaties = vermeldingen = autoriteit.</li>
                             <li><strong>Werken samen met andere autoriteiten.</strong> Co-schrijf artikelen, zit in podcasts, spreek op conferenties. Wordt gezien als branchekenner.</li>
                         </ul>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Dit kost maanden, maar het werkt. We zien klanten die dit 6 maanden lang doen, en vervolgens springen hun mentions in AI Overviews sterk omhoog. Meer Overviews = meer Brand-waarde = meer vertrouwen = meer conversies.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Stap 5: Meet je impact op conversies, niet alleen CTR</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 5: Meet je impact op conversies, niet alleen CTR</h2>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Dit is cruciaal: zit niet verkleefd aan CTR. Dat is een metrick uit het verleden. Wat telt is inkomsten.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             CTR daalt, ja. Maar stel je conversion-rate omhoog is van 1,5% naar 3%, dan verdien je meer dan voorheen, ondanks minder kliks. Dit zie je alleen als je goed meet.
                         </p>
                         <ul className="space-y-4 my-8 pl-6 list-disc marker:text-accent">
@@ -217,26 +217,26 @@ export default function BlogPostVerbeterenGoogleAiOverviewsCtr() {
                             <li><strong>Kijk naar je MRR of ARR.</strong> Monthly Recurring Revenue, Annual Recurring Revenue. Dit zijn de getallen die echt tellen. Groeit die dankzij je SEO-optimalisaties, dan ben je op de goede weg.</li>
                         </ul>
 
-                        <h2 className="text-3xl mt-16 mb-6">Drie veelgemaakte fouten</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Drie veelgemaakte fouten</h2>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             We zien veel bedrijven dit verkeerd doen. Hier zijn drie fouten die je moet vermijden.
                         </p>
-                        <h3 className="text-xl font-bold mb-2">Fout 1: Panikeren bij CTR-daling</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 1: Panikeren bij CTR-daling</h3>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Een bedrijf ziet zijn CTR van 4% naar 2,8% gaan en denkt: we moeten drastisch iets veranderen. Nee. Dit is normaal. Google AI Overviews werken. Jij hoeft niet. Je hoeft je CTR niet kunstmatig op te stuwen met truc, je hoeft de kwaliteit van je pagina niet aan te raken. Wacht drie maanden, meet je conversies, en kijk dan of je echt inkomsten verliest. Waarschijnlijk niet.
                         </p>
-                        <h3 className="text-xl font-bold mb-2">Fout 2: Geen aandacht geven aan betrouwbaarheid</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 2: Geen aandacht geven aan betrouwbaarheid</h3>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Als je minder bezoekers krijgt, moeten die beter converteren. Dus investeer in trust signals: reviews, testimonials, certificaten, garanties. Een bezoeker die via AI Overview komt, heeft je naam al zien staan als bron. Maar hij twijfelt nog. Maak die twijfel weg.
                         </p>
-                        <h3 className="text-xl font-bold mb-2">Fout 3: Alleen schrijven voor AI, niet voor gebruikers</h3>
-                        <p>
+                        <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Fout 3: Alleen schrijven voor AI, niet voor gebruikers</h3>
+                        <p className="text-primary/80 leading-relaxed mb-4">
                             Sommige bedrijven beginnen tekst zo te schrijven dat AI het favoriet vindt: staccato zinnen, veel keywords, geen persoonlijkheid. Slecht idee. Jouw website moet eerst voor mensen geschreven zijn. Als mensen je tekst niet willen lezen, leest AI hem ook niet goed. Schrijf voor je doelgroep. Dan volgt AI automatisch.
                         </p>
 
                         <div className="bg-accent/5 rounded-3xl p-8 md:p-12 my-12 border border-accent/10">
                             <h3 className="text-2xl font-bold text-primary mb-4 mt-0">Laat ons je SEO-strategie checken voor AI Overviews</h3>
-                            <p className="mb-6">
+                            <p className="text-primary/80 leading-relaxed mb-6">
                                 Google AI Overviews veranderen alles. Waar vorige jaar SEO werkte, moet je vandaag anders aanpakken. We doen gratis audits op je huidige zichtbaarheid in AI Overviews en vertellen je precies wat je kunt doen. <Link to="/blogs/seo/seo-voor-mkb-google-positie-verbeteren" className="text-accent hover:underline">Lees ook ons artikel over SEO voor MKB als je meer wilt weten.</Link>
                             </p>
                             <div className="flex flex-wrap gap-4">
@@ -251,7 +251,7 @@ export default function BlogPostVerbeterenGoogleAiOverviewsCtr() {
 
                         <hr className="my-16 border-primary/10" />
 
-                        <h2 className="text-3xl mb-8">Veelgestelde vragen</h2>
+                        <h2 className="text-3xl font-bold text-primary mb-8">Veelgestelde vragen</h2>
 
                         <div className="space-y-6 not-prose">
                             <div className="border border-primary/10 rounded-xl p-6">

@@ -20,14 +20,14 @@ export default function BlogPostAlgemeen() {
                 <meta property="og:description" content="Zelf adverteren of uitbesteden? Lees wat het verschil is in kosten, tijd en resultaat. En wanneer een marketingbureau echt meer oplevert dan zelf doen." />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/algemeen/zelf-adverteren-of-uitbesteden" />
                 <meta property="og:type" content="article" />
-                <meta property="og:image" content="https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=2074&auto=format&fit=crop" />
+                <meta property="og:image" content="/images/blogs/zelf-adverteren-of-uitbesteden.jpg" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
                     "@graph": [
                         {
                             "@type": "Article",
                             "headline": "Zelf adverteren of uitbesteden: wat is slimmer voor jouw bedrijf?",
-                            "image": "https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=2074&auto=format&fit=crop",
+                            "image": "/images/blogs/zelf-adverteren-of-uitbesteden.jpg",
                             "description": "Zelf adverteren of uitbesteden? Lees wat het verschil is in kosten, tijd en resultaat. En wanneer een marketingbureau echt meer oplevert dan zelf doen.",
                             "author": { "@type": "Person", "name": "Amir Farahani" },
                             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
@@ -101,7 +101,7 @@ export default function BlogPostAlgemeen() {
 
                     {/* Featured Image */}
                     <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 relative bg-primary">
-                        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=2074&auto=format&fit=crop')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+                        <div className="absolute inset-0 bg-[url('/images/blogs/zelf-adverteren-of-uitbesteden.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
 
@@ -111,52 +111,52 @@ export default function BlogPostAlgemeen() {
                             Zelf adverteren kost minder geld op papier. Uitbesteden aan een specialist kost geld, maar haalt vaak meer rendement uit hetzelfde budget. De vraag is niet wie goedkoper is, maar wie meer omzet genereert per euro die je uitgeeft. Dat antwoord hangt af van je situatie.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat gaat er mis als je zelf adverteert zonder ervaring?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat gaat er mis als je zelf adverteert zonder ervaring?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Online advertentieplatformen lijken eenvoudig. Je maakt een account aan, stelt een budget in en laat het lopen. Maar Google Ads en Meta Ads zijn complexe systemen die dagelijkse aandacht vragen. Zonder structurele optimalisatie betaal je meer per klik dan nodig, bereik je mensen die nooit klant worden en mis je de instellingen die het verschil maken.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             We zien regelmatig MKB-accounts binnenkomen waarbij 40 tot 60% van het advertentiebudget naar irrelevante klikken gaat. Dat is niet omdat de ondernemer slecht was, maar omdat er simpelweg geen negatieve zoekwoorden zijn, de campagnestructuur niet klopt en er geen conversietracking aanstaat.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een campagne zonder goede <Link to="/blogs/tracking/marketing-tracking-conversies-meten" className="text-accent hover:underline">conversietracking</Link> is als rijden zonder dashboard. Je weet niet hoe snel je gaat, of je de goede kant op rijdt en wanneer je moet bijtanken.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wanneer loont het om zelf te adverteren?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wanneer loont het om zelf te adverteren?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Zelf adverteren werkt als je budget klein is (minder dan 300 euro per maand), je tijd hebt om te leren en bij te sturen, en je bereid bent om fouten te maken en er van te leren. Op dat niveau zijn de beheerkosten van een bureau relatief hoog vergeleken met het budget.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Begin dan met één platform en één campagnetype. Kies Google Ads zoekadvertenties als mensen actief zoeken naar wat je aanbiedt. Kies Meta Ads als je doelgroep visueel is en je producten of diensten iets zijn dat mensen triggert als ze het zien. Doe het niet tegelijk.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wanneer is uitbesteden de slimmere keuze?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wanneer is uitbesteden de slimmere keuze?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Als je meer dan 1000 euro per maand advertentiebudget inzet en je campagnes niet dagelijks bijstuurt, is de kans groot dat je geld laat liggen. Op dat niveau verdient een specialist zichzelf terug.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Rekensommetje: een specialist die 750 euro per maand kost en je campagne 30% efficiënter maakt bij een budget van 2000 euro per maand, bespaart je 600 euro aan verspild budget. Netto kost de samenwerking je dan slechts 150 euro. De meeste MKB-bedrijven zien dit pas als ze de vergelijking daadwerkelijk maken.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bij Empowers werken onze klanten altijd rechtstreeks met de specialist die hun campagnes beheert. Geen accountmanagers die doorverwijzen, geen junior medewerkers die leren op jouw budget.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe kies je een betrouwbaar marketingbureau?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe kies je een betrouwbaar marketingbureau?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Vraag altijd naar concrete resultaten. Een goed bureau laat je zien wat het heeft bereikt bij vergelijkbare klanten: kosten per conversie, ROAS of groei in organisch verkeer. Bureaus die uitsluitend in bereik en vertoningen spreken, leveren zelden aantoonbare omzetgroei.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Let ook op transparantie over kosten. Weet je hoeveel van je maandbedrag naar advertentiebudget gaat en hoeveel naar beheer? Is er een vaste contractperiode? Worden resultaten maandelijks gerapporteerd met echte cijfers, niet alleen grafiekjes?
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een goed bureau stelt die vragen zelf ook aan jou. Ze willen weten wat je doelen zijn, wat een lead of aankoop jou waard is en wat je marges zijn. Zonder die informatie kunnen ze geen verantwoorde campagne opzetten.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat als je al adverteert maar de resultaten tegenvallen?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat als je al adverteert maar de resultaten tegenvallen?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dan is de eerste stap een audit. Kijk objectief naar je campagnes: hoeveel betaal je per conversie, hoeveel van je budget gaat naar irrelevante zoekopdrachten, en klopt je tracking? Als je dat niet kunt beoordelen, is dat op zichzelf al een signaal.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Wil je weten hoe jouw huidige campagnes presteren? Bekijk onze <Link to="/google-ads" className="text-accent hover:underline">Google Ads dienst</Link> of <Link to="/contact" className="text-accent hover:underline">plan een gratis gesprek</Link>. We kijken samen naar wat je campagnes nu kosten en wat er beter kan.
                         </p>
 

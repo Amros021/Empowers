@@ -112,44 +112,44 @@ export default function BlogPostGoogleAds() {
                             Google Ads kost wat je er zelf inzet. Er is geen vast maandbedrag. Veel MKB-bedrijven beginnen met 500 tot 1500 euro per maand aan advertentiebudget, plus de kosten van een specialist. Wat je terugverdient hangt af van je branche, je marges en hoe goed de campagnes zijn ingesteld. Een slecht ingestelde campagne verbrandt budget. Een goed ingestelde haalt gemiddeld een ROAS van 3 tot 5.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Hoe werkt Google Ads voor een MKB-bedrijf?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe werkt Google Ads voor een MKB-bedrijf?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Google Ads werkt via een veilingsysteem. Elke keer dat iemand iets zoekt, berekent Google welke advertentie op welke positie verschijnt. Je betaalt niet voor de weergave, alleen voor de klik. De prijs per klik hangt af van hoe concurrerend het zoekwoord is en hoe relevant Google jouw advertentie vindt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dat laatste is belangrijk. Google beloont advertenties die goed aansluiten bij de zoekopdracht met een hogere kwaliteitsscore. Een hoge kwaliteitsscore betekent een lagere klikprijs bij een betere positie. Het loont dus om advertenties scherp te schrijven en de landingspagina goed af te stemmen op wat mensen zoeken.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Welk type campagne past bij jouw bedrijf?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Welk type campagne past bij jouw bedrijf?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             De meeste MKB-bedrijven beginnen met zoekadvertenties. Die verschijnen als mensen actief zoeken op een zoekwoord dat jij hebt ingesteld. Je betaalt alleen als iemand klikt. Dat maakt het meetbaar en voorspelbaar.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Performance Max is een campagnetype dat Google automatisch laat bepalen waar jouw advertentie verschijnt: in zoekresultaten, op YouTube, in Gmail of op websites in het Google Display Netwerk. Het werkt goed als je genoeg conversiedata hebt. Voor startende MKB-bedrijven raden we af om hiermee te beginnen, omdat je minder zicht hebt op waar je budget naartoe gaat.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Bij onze klanten zien we dat een heldere zoekwoordstrategie met strakke advertentiegroepen structureel beter presteert dan een brede Performance Max campagne zonder historische data.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wat zijn de grootste fouten bij Google Ads?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat zijn de grootste fouten bij Google Ads?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             De meest gemaakte fout is een te breed zoekwoordenlijst zonder negatieve zoekwoorden. Als je "schoenen" verkoopt, wil je niet verschijnen op "schoenen repareren" of "tweedehands schoenen". Zonder negatieve zoekwoorden betaal je voor klikken van mensen die nooit klant worden.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een andere veelvoorkomende fout: alle zoekwoorden in één advertentiegroep gooien. Een campagne die één boodschap heeft voor tien verschillende zoekwoorden, scoort lager dan campagnes met specifieke advertenties per zoekwoordgroep. De kwaliteitsscore daalt, de klikprijs stijgt.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             En tot slot: advertentiebudget instellen zonder conversietracking. Als je niet bijhoudt welke klikken leiden tot aankopen of aanvragen, stuur je campagnes bij op aannames in plaats van feiten. Hoe <Link to="/blogs/tracking/marketing-tracking-conversies-meten" className="text-accent hover:underline">goede conversietracking werkt</Link> lees je in ons trackingblog.
                         </p>
 
-                        <h2 className="text-3xl mt-16 mb-6">Wanneer schakel je een specialist in voor Google Ads?</h2>
-                        <p>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wanneer schakel je een specialist in voor Google Ads?</h2>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Als je minder dan 2 uur per week beschikbaar hebt om campagnes bij te sturen, loont het om een specialist in te schakelen. Google Ads vereist regelmatige optimalisatie: zoekwoorden bijsturen, biedingen aanpassen, advertentieteksten testen en data analyseren.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een specialist kost geld, maar een slecht beheerde campagne kost je meer. We zien regelmatig MKB-accounts binnenkomen waarbij 40 tot 60% van het budget naar irrelevante klikken gaat, simpelweg door ontbrekende negatieve zoekwoorden en slechte campagnestructuur.
                         </p>
-                        <p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Benieuwd wat jouw campagnes nu opleveren? Bekijk onze <Link to="/google-ads" className="text-accent hover:underline">Google Ads dienst</Link> of <Link to="/contact" className="text-accent hover:underline">plan een gratis gesprek</Link>.
                         </p>
 
