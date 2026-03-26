@@ -13,12 +13,12 @@ export default function BlogPostAiMarketingwereldVerandert2025() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>Hoe AI de marketingwereld verandert in 2025 | Empowers</title>
-                <meta name="description" content="Leer hoe AI marketing fundamenteel verandert in 2025. Van gepersonaliseerde campaigns tot real-time optimalisatie. Wat je moet weten als MKB." />
+                <title>Hoe AI de marketingwereld verandert in 2026 | Empowers</title>
+                <meta name="description" content="Leer hoe AI marketing fundamenteel verandert in 2026. Van gepersonaliseerde campaigns tot real-time optimalisatie. Wat je moet weten als MKB." />
                 <meta name="keyword" content="ai marketing verandering toekomst" />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/algemeen/ai-marketingwereld-verandert-2025" />
-                <meta property="og:title" content="Hoe AI de marketingwereld verandert in 2025 | Empowers" />
-                <meta property="og:description" content="Leer hoe AI marketing fundamenteel verandert in 2025. Van gepersonaliseerde campaigns tot real-time optimalisatie. Wat je moet weten als MKB." />
+                <meta property="og:title" content="Hoe AI de marketingwereld verandert in 2026 | Empowers" />
+                <meta property="og:description" content="Leer hoe AI marketing fundamenteel verandert in 2026. Van gepersonaliseerde campaigns tot real-time optimalisatie. Wat je moet weten als MKB." />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/algemeen/ai-marketingwereld-verandert-2025" />
                 <meta property="og:type" content="article" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/ai-marketingwereld-verandert-2025.jpg" />
@@ -27,9 +27,9 @@ export default function BlogPostAiMarketingwereldVerandert2025() {
                     "@graph": [
                         {
                             "@type": "Article",
-                            "headline": "Hoe AI de marketingwereld verandert in 2025",
+                            "headline": "Hoe AI de marketingwereld verandert in 2026",
                             "image": "https://www.empowers.nl/images/blogs/ai-marketingwereld-verandert-2025.jpg",
-                            "description": "Leer hoe AI marketing fundamenteel verandert in 2025. Van gepersonaliseerde campaigns tot real-time optimalisatie. Wat je moet weten als MKB.",
+                            "description": "Leer hoe AI marketing fundamenteel verandert in 2026. Van gepersonaliseerde campaigns tot real-time optimalisatie. Wat je moet weten als MKB.",
                             "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                             "datePublished": "2026-03-26T00:00:00+01:00",
@@ -57,7 +57,7 @@ export default function BlogPostAiMarketingwereldVerandert2025() {
                         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
                         { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
                         { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                        { "@type": "ListItem", "position": 4, "name": "Hoe AI de marketingwereld verandert in 2025", "item": "https://www.empowers.nl/blogs/algemeen/ai-marketingwereld-verandert-2025" }
+                        { "@type": "ListItem", "position": 4, "name": "Hoe AI de marketingwereld verandert in 2026", "item": "https://www.empowers.nl/blogs/algemeen/ai-marketingwereld-verandert-2025" }
                     ]
                 })}</script>
             </Helmet>
@@ -73,7 +73,7 @@ export default function BlogPostAiMarketingwereldVerandert2025() {
                         <ChevronRight className="w-3 h-3" />
                         <Link to="/blogs/algemeen" className="hover:text-accent transition-colors">Algemeen</Link>
                         <ChevronRight className="w-3 h-3" />
-                        <span className="text-primary truncate">Hoe AI de marketingwereld verandert in 2025</span>
+                        <span className="text-primary truncate">Hoe AI de marketingwereld verandert in 2026</span>
                     </nav>
 
                     {/* Header */}
@@ -82,7 +82,7 @@ export default function BlogPostAiMarketingwereldVerandert2025() {
                             Algemeen
                         </div>
                         <h1 className="font-sans font-bold text-primary text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight tracking-tight mb-8">
-                            Hoe AI de marketingwereld verandert in 2025
+                            Hoe AI de marketingwereld verandert in 2026
                         </h1>
 
                         <div className="flex flex-wrap items-center gap-6 text-sm font-sans text-primary/60 border-y border-primary/10 py-6">

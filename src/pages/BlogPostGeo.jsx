@@ -121,7 +121,7 @@ export default function BlogPost() {
                             SEO kent iedereen inmiddels. Je optimaliseert je website zodat Google je vindt en je hoog toont in de zoekresultaten. GEO werkt anders. Hier gaat het er niet om dat je gevonden wordt in een lijst met links, maar dat een AI-model je actief aanbeveelt in een conversatie.
                         </p>
                         <p>
-                            Zoekmachines zoals Google draaien op keywords en backlinks. AI-modellen draaien op vertrouwen, autoriteit en context. Je moet dus anders denken over hoe je jezelf online presenteert. Een backlink van een grote nieuwssite helpt bij SEO. Maar voor GEO is het net zo waardevol dat een branchedirectory jou vermeldt, of dat je FAQ-pagina direct antwoord geeft op veelgestelde vragen.
+                            Zoekmachines zoals Google draaien op keywords en backlinks. AI-modellen draaien op vertrouwen, autoriteit en context. Je moet dus anders denken over hoe je jezelf online presenteert. Een backlink van een grote nieuwssite helpt bij <Link to="/diensten/seo" className="text-blue-700 underline hover:text-blue-900">SEO</Link>. Maar voor GEO is het net zo waardevol dat een branchedirectory jou vermeldt, of dat je FAQ-pagina direct antwoord geeft op veelgestelde vragen.
                         </p>
                         <p>
                             Het grote verschil is ook de presentatie van het resultaat. Bij Google klik je zelf door naar een website. Bij een AI-antwoord geeft het model een samenvatting en noemt daarin bedrijven of bronnen die het vertrouwt. Als je naam valt, ben je al verder dan de meeste concurrenten.
@@ -129,10 +129,10 @@ export default function BlogPost() {
 
                         <h2 className="text-3xl mt-16 mb-6">Waarom groeit GEO zo snel?</h2>
                         <p>
-                            In 2023 gebruikte nog geen 10% van de bevolking regelmatig AI voor zoekvragen. In 2025 is dat percentage verdrievoudigd. ChatGPT had in januari 2025 meer dan 300 miljoen actieve gebruikers per week. Google Gemini wordt steeds vaker gebruikt via de AI-overzichten die bovenaan in de zoekresultaten verschijnen.
+                            In 2023 gebruikte nog geen 10% van de bevolking regelmatig AI voor zoekvragen. In 2026 is dat percentage verdrievoudigd. ChatGPT had in januari 2026 meer dan 300 miljoen actieve gebruikers per week. Google Gemini wordt steeds vaker gebruikt via de AI-overzichten die bovenaan in de zoekresultaten verschijnen.
                         </p>
                         <p>
-                            We zien dit ook bij onze eigen klanten. Steeds meer nieuwe leads geven aan dat ze via ChatGPT of een vergelijkbaar AI-tool op een bedrijf zijn aanbevolen. Het zijn vaak leads van hogere kwaliteit, want ze zijn al verder in hun besluitvormingsproces. Ze zoeken geen informatie meer, ze zoeken een aanbieder.
+                            We zien dit ook bij onze eigen klanten. Steeds meer nieuwe leads geven aan dat ze via ChatGPT of een vergelijkbaar AI-tool op een bedrijf zijn aanbevolen. Het zijn vaak leads van hogere kwaliteit, want ze zijn al verder in hun besluitvormingsproces. Ze zoeken geen informatie meer, ze zoeken een aanbieder. Dit geeft <Link to="/blogs/geo/chatgpt-bedrijf-aanbeveelt" className="text-blue-700 underline hover:text-blue-900">bedrijven die door ChatGPT aangeraden worden</Link> een significant voordeel.
                         </p>
 
                         <h2 className="text-3xl mt-16 mb-6">Hoe werkt GEO in de praktijk?</h2>

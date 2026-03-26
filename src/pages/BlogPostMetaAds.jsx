@@ -93,7 +93,7 @@ export default function BlogPostMetaAds() {
                     {/* Content */}
                     <div className="prose prose-lg prose-headings:font-sans prose-headings:font-bold prose-headings:text-primary prose-p:font-sans prose-p:text-primary/80 prose-p:leading-relaxed max-w-none">
                         <p className="text-xl md:text-2xl font-medium leading-relaxed mb-10 text-primary">
-                            Je Meta Ads draaien, de klikken komen binnen, maar de verkopen blijven uit. Dit is een van de meest voorkomende situaties in online advertising. Het probleem zit bijna nooit in het platform zelf. Meta werkt goed als je de juiste instellingen hebt. De oorzaak zit ergens anders, en we leggen je precies uit waar.
+                            Je Meta Ads draaien, de klikken komen binnen, maar de verkopen blijven uit. Dit is een van de meest voorkomende situaties in online advertising. Het probleem zit bijna nooit in het platform zelf. Meta werkt goed als je de juiste instellingen hebt. De oorzaak zit ergens anders, en we leggen je precies uit waar. Of je nu Meta, <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads</a> of beide kanalen gebruikt, dezelfde principes gelden.
                         </p>
 
                         <h2 className="text-3xl mt-16 mb-6">Hoe weet je of je Meta Ads echt een probleem hebben?</h2>
@@ -109,7 +109,7 @@ export default function BlogPostMetaAds() {
                             Dit is de meest gemaakte fout. Een te brede doelgroep zorgt ervoor dat je advertenties worden getoond aan mensen die nooit gaan kopen. Een te smalle doelgroep laat Meta het algoritme niet zijn werk doen.
                         </p>
                         <p>
-                            In 2025 geldt: geef Meta ruimte. Broad targeting, waarbij je alleen leeftijd, land en soms een interessecategorie instelt, werkt steeds beter naarmate de pixel meer data heeft. Meta's algoritme is goed geworden in het vinden van kopers, maar alleen als je het laat leren. Stop met stapelen van 15 interesses. Kies er maximaal 3 en laat het systeem de rest doen.
+                            In 2026 geldt: geef Meta ruimte. Broad targeting, waarbij je alleen leeftijd, land en soms een interessecategorie instelt, werkt steeds beter naarmate de pixel meer data heeft. Meta's algoritme is goed geworden in het vinden van kopers, maar alleen als je het laat leren. Stop met stapelen van 15 interesses. Kies er maximaal 3 en laat het systeem de rest doen. Wil je meer control? Bekijk ook <a href="/blogs/lookalike-audiences-meta-ads-gids" className="text-blue-700 underline hover:text-blue-900">lookalike audiences</a> als aanvulling op je targetingstrategie.
                         </p>
                         <p>
                             We zien bij onze klanten dat campagnes die breed starten en dan bijgesteld worden op basis van data, structureel beter presteren dan campagnes die vanaf dag één overgesegmenteerd zijn.
@@ -131,7 +131,7 @@ export default function BlogPostMetaAds() {
                             Dit klinkt technisch, maar het is simpel na te gaan. Zonder een goed werkende Pixel ziet Meta niet welke bezoekers daadwerkelijk iets kopen of een formulier invullen. Het algoritme kan dan niet leren wie je beste klanten zijn, waardoor advertenties steeds aan de verkeerde mensen getoond worden.
                         </p>
                         <p>
-                            Open Meta Events Manager en controleer of de Purchase of Lead event actief binnenkomt. Zie je geen events, of zie je dubbele events? Dan klopt er iets niet in de configuratie. Zet bij voorkeur ook Meta Conversions API in, zodat je minder afhankelijk bent van browsercookies die door adblockers en Safari geblokkeerd worden.
+                            Open Meta Events Manager en controleer of de Purchase of Lead event actief binnenkomt. Zie je geen events, of zie je dubbele events? Dan klopt er iets niet in de configuratie. Zet bij voorkeur ook Meta Conversions API in, zodat je minder afhankelijk bent van browsercookies die door adblockers en Safari geblokkeerd worden. Voor een compleet overzicht van je tracking en data-instelling, bekijk onze <a href="/diensten/tracking" className="text-blue-700 underline hover:text-blue-900">tracking-diensten</a> of lees meer over <a href="/blogs/tracking" className="text-blue-700 underline hover:text-blue-900">tracking best practices</a>.
                         </p>
 
                         <h2 className="text-3xl mt-16 mb-6">Heb je last van advertentiemoeheid?</h2>
@@ -147,12 +147,12 @@ export default function BlogPostMetaAds() {
                             Soms is de campagne technisch perfect en zit het probleem simpelweg in het aanbod. Is er een reden waarom iemand nu actie moet ondernemen? Een tijdelijk aanbod, een bonus, een garantie of een gratis proefperiode verlaagt de drempel enorm.
                         </p>
                         <p>
-                            We zien het vaak bij B2B-diensten: de advertentie vraagt mensen om direct een aankoop of een langlopend contract aan te gaan. Dat is een te grote stap voor iemand die je nog niet kent. Bied eerst iets van waarde aan, een gratis adviesgesprek, een download of een audit. Bouw vertrouwen op voor je om de deal vraagt.
+                            We zien het vaak bij B2B-diensten: de advertentie vraagt mensen om direct een aankoop of een langlopend contract aan te gaan. Dat is een te grote stap voor iemand die je nog niet kent. Bied eerst iets van waarde aan, een gratis adviesgesprek, een download of een audit. Bouw vertrouwen op voor je om de deal vraagt. Dit geldt ook wanneer je kijkt naar andere kanalen—bijvoorbeeld bij <a href="/blogs/google-ads-vs-seo-wat-werkt-beter" className="text-blue-700 underline hover:text-blue-900">Google Ads versus SEO</a>, waar de timing en intent van het aanbod cruciaal zijn.
                         </p>
 
                         <h2 className="text-3xl mt-16 mb-6">Wil je weten waar in jouw specifieke funnel het misgaat?</h2>
                         <p>
-                            Bekijk onze <Link to="/diensten" className="text-accent hover:underline">diensten-pagina</Link> voor een overzicht van hoe wij campagnes doorlichten en bijsturen. Of plan direct een <Link to="/contact" className="text-accent hover:underline">gratis gesprek</Link> voor concreet advies op maat.
+                            Bekijk onze <Link to="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Meta Ads diensten</Link> voor een overzicht van hoe wij campagnes doorlichten en bijsturen. Benieuwd hoe Meta Ads zich verhoudt tot andere kanalen? Lees onze gids over <a href="/blogs/tiktok-ads" className="text-blue-700 underline hover:text-blue-900">TikTok Ads</a> of bekijk meer over <a href="/diensten/seo" className="text-blue-700 underline hover:text-blue-900">SEO als aanvulling</a>. Plan ook direct een <Link to="/contact" className="text-blue-700 underline hover:text-blue-900">gratis gesprek</Link> voor concreet advies op maat.
                         </p>
 
                         <hr className="my-16 border-primary/10" />
@@ -163,7 +163,7 @@ export default function BlogPostMetaAds() {
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Waarom krijg ik wel klikken maar geen aankopen?</h3>
                                 <p className="font-sans text-primary/70 leading-relaxed">
-                                    Dit komt het vaakst door een mismatch tussen de advertentie en de landingspagina, een te brede doelgroep of een landingspagina die te langzaam laadt. Controleer deze drie dingen als eerste.
+                                    Dit komt het vaakst door een mismatch tussen de advertentie en de landingspagina, een te brede doelgroep of een landingspagina die te langzaam laadt. Controleer deze drie dingen als eerste. Het is dezelfde reden waarom veel adverteerders problemen hebben met <a href="/blogs/waarom-google-ads-klikken-niet-converteren" className="text-blue-700 underline hover:text-blue-900">Google Ads klikken die niet converteren</a>.
                                 </p>
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">

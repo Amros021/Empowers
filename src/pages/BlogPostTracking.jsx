@@ -131,7 +131,7 @@ export default function BlogPostTracking() {
                         <h2 className="text-3xl mt-16 mb-6">Welke tools heb je nodig?</h2>
                         <p>Voor de meeste bedrijven zijn dit de basistoepassingen.</p>
                         <ul className="space-y-4 my-8 pl-6 list-disc marker:text-accent">
-                            <li><strong>Google Analytics 4</strong> geeft inzicht in al het verkeer op je website: waar bezoekers vandaan komen, hoelang ze blijven en welke pagina's ze bezoeken. Koppel dit altijd aan je Google Ads-account voor een volledig beeld.</li>
+                            <li><strong>Google Analytics 4</strong> geeft inzicht in al het verkeer op je website: waar bezoekers vandaan komen, hoelang ze blijven en welke pagina's ze bezoeken. Koppel dit altijd aan je <Link to="/diensten/google-ads" className="text-accent hover:underline">Google Ads</Link>-account voor een volledig beeld.</li>
                             <li><strong>Google Tag Manager</strong> is de technische laag waarmee je alle tracking-code op je website beheert zonder steeds in de broncode te moeten duiken. Het maakt het installeren van pixels en events een stuk overzichtelijker.</li>
                             <li><strong>Meta Pixel plus Conversions API</strong> zijn samen de basis voor goede tracking van je Meta-campagnes. De Pixel werkt via de browser, de Conversions API werkt server-side. Beide samen geven je de meest complete data.</li>
                             <li><strong>TikTok Pixel</strong> als je op TikTok adverteert. Werkt op dezelfde manier als de Meta Pixel.</li>
@@ -160,6 +160,9 @@ export default function BlogPostTracking() {
                         </p>
 
                         <h2 className="text-3xl mt-16 mb-6">Hoe controleer je of je tracking correct staat?</h2>
+                        <p>
+                            Leer meer over het instellen van tracking met ons artikel over <Link to="/blogs/tracking/google-tag-manager-beginners" className="text-accent hover:underline">Google Tag Manager voor beginners</Link>.
+                        </p>
                         <ol className="space-y-4 my-8 pl-6 list-decimal marker:text-primary font-bold">
                             <li><span className="font-normal"><strong>Stap 1:</strong> Open Google Tag Manager en controleer via de Preview-modus of alle tags actief zijn. Klik zelf door je website en check of de juiste events worden geregistreerd.</span></li>
                             <li><span className="font-normal"><strong>Stap 2:</strong> Open Meta Events Manager en bekijk welke events de afgelopen 7 dagen zijn binnengekomen. Zie je geen Purchase of Lead events? Dan worden conversies niet gemeten.</span></li>

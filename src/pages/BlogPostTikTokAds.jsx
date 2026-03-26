@@ -106,10 +106,10 @@ export default function BlogPostTikTokAds() {
 
                         <h2 className="text-3xl mt-16 mb-6">Wat kost adverteren op TikTok?</h2>
                         <p>
-                            TikTok heeft een minimumbudget van 50 euro per dag op campagneniveau en 20 euro per dag op advertentiegroepniveau. Voor kleinere budgetten is dat een hoge drempel. Maar de kosten per klik en per 1000 vertoningen liggen gemiddeld lager dan op Meta of Google.
+                            TikTok heeft een minimumbudget van 50 euro per dag op campagneniveau en 20 euro per dag op advertentiegroepniveau. Voor kleinere budgetten is dat een hoge drempel. Maar de kosten per klik en per 1000 vertoningen liggen gemiddeld lager dan op <a href="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Meta</a> of <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google</a>.
                         </p>
                         <p>
-                            In 2025 ligt de gemiddelde CPM op TikTok in Nederland tussen de 4 en 8 euro, afhankelijk van de doelgroep en het seizoen. Ter vergelijking: op Meta is dat gemiddeld 8 tot 14 euro. Je bereikt dus relatief goedkoop een grote groep mensen. De vraag is of dat bereik ook converteert voor jouw aanbod.
+                            In 2026 ligt de gemiddelde CPM op TikTok in Nederland tussen de 4 en 8 euro, afhankelijk van de doelgroep en het seizoen. Ter vergelijking: op <a href="/blogs/meta-ads" className="text-blue-700 underline hover:text-blue-900">Meta</a> is dat gemiddeld 8 tot 14 euro. Je bereikt dus relatief goedkoop een grote groep mensen. De vraag is of dat bereik ook converteert voor jouw aanbod.
                         </p>
                         <p>
                             Voor een eerste serieuze test reken je minimaal op 1.000 tot 1.500 euro advertentiebudget per maand om genoeg data te verzamelen.
@@ -117,7 +117,7 @@ export default function BlogPostTikTokAds() {
 
                         <h2 className="text-3xl mt-16 mb-6">Hoe werken TikTok Ads?</h2>
                         <p>
-                            TikTok Ads Manager lijkt in opbouw op Meta Ads Manager. Je maakt campagnes, ad groups en advertenties. Het grote verschil is de contentstijl. TikTok beloont content die aanvoelt als een gewone TikTok, niet als een gepolijste reclamevideo.
+                            TikTok Ads Manager lijkt in opbouw op <a href="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Meta Ads Manager</a>. Je maakt campagnes, ad groups en advertenties. Het grote verschil is de contentstijl. TikTok beloont content die aanvoelt als een gewone TikTok, niet als een gepolijste reclamevideo.
                         </p>
                         <p>
                             De eerste 2 seconden van je video zijn allesbepalend. Als je kijker niet meteen getriggerd wordt, scrolt hij door. Gebruik tekst in beeld, begin met een prikkelende vraag of een opvallende actie en maak je video's altijd in verticaal formaat (9:16).
@@ -134,10 +134,10 @@ export default function BlogPostTikTokAds() {
                             Maar ook dienstverleners kunnen er goed mee uit de voeten. Een coach die in 15 seconden een waardevol inzicht deelt trekt aandacht. Een restauranthouder die de sfeer van zijn zaak laat zien ook. Het draait om authenticiteit, niet om perfectie.
                         </p>
                         <p>
-                            B2B-bedrijven hebben het moeilijker op TikTok. Niet onmogelijk, maar de koopintentie is er anders dan op Google. TikTok werkt meer als een awareness- en considerationkanaal, minder als een direct-response kanaal.
+                            B2B-bedrijven hebben het moeilijker op TikTok. Niet onmogelijk, maar de koopintentie is er anders dan op <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google</a>. TikTok werkt meer als een awareness- en considerationkanaal, minder als een direct-response kanaal.
                         </p>
                         <p>
-                            We zien bij onze klanten dat TikTok Ads het best werken als aanvulling op Meta of Google, niet als vervanging. Een potentiële klant die je product op TikTok ziet en daarna via een Google-zoekopdracht of Meta retargeting converteert: dat is het patroon dat het meest voorkomt.
+                            We zien bij onze klanten dat TikTok Ads het best werken als aanvulling op <a href="/blogs/meta-ads" className="text-blue-700 underline hover:text-blue-900">Meta</a> of <a href="/blogs/google-ads" className="text-blue-700 underline hover:text-blue-900">Google</a>, niet als vervanging. Een potentiële klant die je product op TikTok ziet en daarna via een Google-zoekopdracht of Meta retargeting converteert: dat is het patroon dat het meest voorkomt.
                         </p>
 
                         <h2 className="text-3xl mt-16 mb-6">Wat zijn de valkuilen van TikTok Ads?</h2>
@@ -145,7 +145,7 @@ export default function BlogPostTikTokAds() {
                             De grootste valkuil is het hergebruiken van advertentiemateriaal dat gemaakt is voor andere platforms. Een banner die je op Instagram gebruikt, werkt niet op TikTok. Alles moet native zijn: verticaal, authentiek en snel.
                         </p>
                         <p>
-                            De tweede valkuil is het negeren van het TikTok Pixel. Net als bij Meta heb je tracking nodig om het algoritme te voeden met conversiedata. Zonder pixel weet TikTok niet wie je kopers zijn en kan het niet gericht zoeken naar vergelijkbare profielen.
+                            De tweede valkuil is het negeren van het TikTok Pixel. Net als bij Meta heb je <a href="/diensten/tracking" className="text-blue-700 underline hover:text-blue-900">tracking</a> nodig om het algoritme te voeden met conversiedata. Zonder pixel weet TikTok niet wie je kopers zijn en kan het niet gericht zoeken naar vergelijkbare profielen.
                         </p>
                         <p>
                             De derde valkuil is te snel opgeven. TikTok's algoritme heeft een leerperiode van 7 tot 14 dagen. In die periode kunnen de resultaten tegenvallen. Pas daarna, als er genoeg data is, begint het systeem te presteren.
@@ -188,7 +188,7 @@ export default function BlogPostTikTokAds() {
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoe meet ik de resultaten van mijn TikTok-campagnes?</h3>
                                 <p className="font-sans text-primary/70 leading-relaxed">
-                                    Via TikTok Ads Manager in combinatie met het TikTok Pixel op je website. Zorg dat je conversie-events goed zijn ingesteld, zoals aankopen, formulierinzendingen of pagina-bezoeken. Zonder tracking kun je resultaten niet goed beoordelen.
+                                    Via TikTok Ads Manager in combinatie met het TikTok Pixel op je website. Zorg dat je conversie-events goed zijn ingesteld, zoals aankopen, formulierinzendingen of pagina-bezoeken. <a href="/blogs/tracking" className="text-blue-700 underline hover:text-blue-900">Zonder tracking</a> kun je resultaten niet goed beoordelen.
                                 </p>
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">

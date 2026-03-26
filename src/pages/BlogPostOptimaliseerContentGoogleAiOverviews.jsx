@@ -117,7 +117,7 @@ export default function BlogPostOptimaliseerContentGoogleAiOverviews() {
                             Google AI Overviews zijn samenvattingen die Google genereert met behulp van zijn Gemini AI-model. Wanneer iemand een vraag stelt in Google, verschijnt er bovenaan een blok met een direct antwoord. Dat antwoord bevat bronverwijzingen naar de websites waar Google de informatie vandaan haalt.
                         </p>
                         <p>
-                            In 2025 werden AI Overviews uitgerold naar meer dan 100 landen. In Nederland zijn ze inmiddels zichtbaar bij een groot deel van de informatieve zoekopdrachten. Het gaat niet alleen om simpele vragen. Ook bij vergelijkingen, stappenplannen en complexe onderwerpen toont Google AI-antwoorden.
+                            In 2026 werden AI Overviews uitgerold naar meer dan 100 landen. In Nederland zijn ze inmiddels zichtbaar bij een groot deel van de informatieve zoekopdrachten. Het gaat niet alleen om simpele vragen. Ook bij vergelijkingen, stappenplannen en complexe onderwerpen toont Google AI-antwoorden.
                         </p>
                         <p>
                             Het verschil met de oude featured snippets is groot. AI Overviews combineren informatie uit meerdere bronnen tot een samenhangend verhaal. Ze nemen meer ruimte in op de pagina en trekken meer aandacht. Voor bedrijven betekent dit: wie erin staat, wint. Wie er niet in staat, wordt minder zichtbaar.
@@ -188,7 +188,7 @@ export default function BlogPostOptimaliseerContentGoogleAiOverviews() {
 
                         <h2 className="text-3xl mt-16 mb-6">Hoe verhoudt dit zich tot SEO en GEO?</h2>
                         <p>
-                            AI Overviews zijn een onderdeel van de bredere <Link to="/geo" className="text-accent hover:underline">GEO-strategie</Link>. Waar GEO zich richt op alle AI-tools (ChatGPT, Perplexity, Claude, Google Gemini), zijn AI Overviews specifiek het stuk dat binnen Google zelf draait. De technieken overlappen grotendeels: directe antwoorden, gestructureerde data, feitelijke content en autoriteitsopbouw.
+                            AI Overviews zijn een onderdeel van de bredere <Link to="/geo" className="text-accent hover:underline">GEO-strategie</Link>. Waar <a href="/blogs/geo/chatgpt-bedrijf-aanbeveelt" className="text-blue-700 underline hover:text-blue-900">GEO zich richt op alle AI-tools</a> (ChatGPT, Perplexity, Claude, Google Gemini), zijn AI Overviews specifiek het stuk dat binnen Google zelf draait. De technieken overlappen grotendeels: directe antwoorden, gestructureerde data, feitelijke content en autoriteitsopbouw.
                         </p>
                         <p>
                             Het mooie is dat alles wat je doet voor AI Overviews ook je reguliere <Link to="/seo" className="text-accent hover:underline">SEO</Link> versterkt. Betere contentstructuur, FAQ-schema en directe antwoorden helpen je ook in de standaard zoekresultaten. Je investeert in twee kanalen tegelijk. En wie het slim aanpakt, ziet dat terug in meer verkeer, meer leads en meer omzet.
@@ -228,7 +228,7 @@ export default function BlogPostOptimaliseerContentGoogleAiOverviews() {
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Moet ik mijn SEO-strategie aanpassen voor AI Overviews?</h3>
-                                <p className="font-sans text-primary/70 leading-relaxed">Je hoeft je SEO niet te vervangen, maar wel aan te vullen. De basis blijft hetzelfde: goede content, technische gezondheid en relevante backlinks. Wat je toevoegt is directe antwoorden bovenaan je pagina's, FAQ-schema markup en content die zelfstandig leesbaar is per sectie. Die aanpassingen helpen zowel bij AI Overviews als bij je reguliere zoekposities.</p>
+                                <p className="font-sans text-primary/70 leading-relaxed">Je hoeft je <a href="/diensten/seo" className="text-blue-700 underline hover:text-blue-900">SEO</a> niet te vervangen, maar wel aan te vullen. De basis blijft hetzelfde: goede content, technische gezondheid en relevante backlinks. Wat je toevoegt is directe antwoorden bovenaan je pagina's, FAQ-schema markup en content die zelfstandig leesbaar is per sectie. Die aanpassingen helpen zowel bij AI Overviews als bij je reguliere zoekposities.</p>
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Werkt FAQ-schema markup echt voor AI Overviews?</h3>

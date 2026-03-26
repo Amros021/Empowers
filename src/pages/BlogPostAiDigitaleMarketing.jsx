@@ -113,7 +113,7 @@ export default function BlogPostAiDigitaleMarketing() {
                         </p>
 
                         <p>
-                            De vraag is niet meer of je AI gebruikt in marketing. De vraag is hoe snel je begint. Bedrijven die nu wachten, verliezen tegen concurrenten die al twee stappen verder zijn. Dit artikel laat zien hoe je AI vandaag nog in je strategie bouwt, zonder het ingewikkeld te maken.
+                            De vraag is niet meer of je AI gebruikt in marketing. De vraag is hoe snel je begint. Bedrijven die nu wachten, verliezen tegen concurrenten die al twee stappen verder zijn. Dit artikel laat zien hoe je AI vandaag nog in je strategie bouwt, zonder het ingewikkeld te maken. Wil je weten hoe AI de marketingwereld verandert? Lees ons artikel over <a href="/blogs/ai-marketingwereld-verandert-2025" className="text-blue-700 underline hover:text-blue-900">AI in 2026</a>.
                         </p>
 
                         <h2 className="text-3xl mt-16 mb-6">Welke AI-tools bestaan er voor marketing?</h2>
@@ -139,10 +139,10 @@ export default function BlogPostAiDigitaleMarketing() {
 
                         <h3 className="text-xl font-bold mb-2">Advertenties</h3>
                         <p>
-                            Google Ads en Meta Ads hebben allebei ingebouwde AI. Google Ads Smart Bidding zorgt ervoor dat jouw budget precies naar de juiste moment gaat om conversies te halen. Meta's Advantage+ Shopping Campaigns vinden jouw ideale klanten automatisch, zonder dat je handmatig doelgroepen instelt. Bij onze klanten halveren deze systemen vaak de kosten per conversie. Je stelt het eenmalig in en het wordt beter naarmate het meer data verzamelt.
+                            <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads</a> en <a href="/diensten/meta-ads" className="text-blue-700 underline hover:text-blue-900">Meta Ads</a> hebben allebei ingebouwde AI. Google Ads Smart Bidding zorgt ervoor dat jouw budget precies naar de juiste moment gaat om conversies te halen. Meta's Advantage+ Shopping Campaigns vinden jouw ideale klanten automatisch, zonder dat je handmatig doelgroepen instelt. Bij onze klanten halveren deze systemen vaak de kosten per conversie. Je stelt het eenmalig in en het wordt beter naarmate het meer data verzamelt.
                         </p>
                         <p>
-                            TikTok Ads heeft ook AI-features die automatisch je doelgroep vinden. Hoewel TikTok vaak associëren met jong publiek, zien we steeds meer MKB's (kantoor, consulting, services) succesvol TikTok gebruiken met AI-optimalisatie. De kosten per conversie zijn daar veel lager dan bij Google of Meta.
+                            TikTok Ads heeft ook AI-features die automatisch je doelgroep vinden. Hoewel TikTok vaak associëren met jong publiek, zien we steeds meer MKB's (kantoor, consulting, services) succesvol TikTok gebruiken met AI-optimalisatie. De kosten per conversie zijn daar veel lager dan bij Google of Meta. Wil je meer over TikTok weten? Lees onze <a href="/blogs/tiktok-ads" className="text-blue-700 underline hover:text-blue-900">TikTok Ads gids</a>.
                         </p>
 
                         <h3 className="text-xl font-bold mb-2">Analyse en rapportage</h3>
@@ -160,7 +160,7 @@ export default function BlogPostAiDigitaleMarketing() {
                         </p>
 
                         <p>
-                            Voor digitale kanalen is dit essentieel. Bij Google Ads moet je jaarlijks honderden of duizenden combinaties van woorden testen. AI doet dit automatisch. Bij email marketing kan AI ontdekken dat jouw klanten dinsdag beter reageren dan woensdag, en verstuurt berichten dan automatisch op het juiste moment.
+                            Voor digitale kanalen is dit essentieel. Bij <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads</a> moet je jaarlijks honderden of duizenden combinaties van woorden testen. AI doet dit automatisch. Bij email marketing kan AI ontdekken dat jouw klanten dinsdag beter reageren dan woensdag, en verstuurt berichten dan automatisch op het juiste moment.
                         </p>
 
                         <p>
@@ -183,7 +183,7 @@ export default function BlogPostAiDigitaleMarketing() {
 
                         <h3 className="text-xl font-bold mb-2">2. Email subject lines die meer openen genereren</h3>
                         <p>
-                            Slechts 21 procent van de email wordt geopend. De rest wordt niet eens gelezen. De subject line bepaalt alles. AI kan 50 verschillende subject lines genereren en je helpen de meest kans-volle uit te zoeken. Sommige tools laten je ook A/B testen: je stuurt versie A naar 20 procent van je list, versie B naar 20 procent, en dan de winnaar naar iedereen.
+                            Slechts 21 procent van de email wordt geopend. De rest wordt niet eens gelezen. De subject line bepaalt alles. AI kan 50 verschillende subject lines genereren en je helpen de meest kans-volle uit te zoeken. Sommige tools laten je ook A/B testen: je stuurt versie A naar 20 procent van je list, versie B naar 20 procent, en dan de winnaar naar iedereen. Goed <a href="/diensten/tracking" className="text-blue-700 underline hover:text-blue-900">tracking</a> is hier essentieel om te zien wat werkt.
                         </p>
                         <p>
                             Bedrijven die dit gebruiken zien open rates stijgen van 18 tot 20 procent naar 24 tot 28 procent. Dat klinkt niet als veel, maar als je 10.000 contacts hebt, zijn dat 600 tot 800 extra openingen. Die extra openingen brengen 10 tot 20 procent meer conversies. Een SaaS-bedrijf waar we mee werken zag hun open rate gaan van 19 procent naar 27 procent. Hun click rate steeg van 3 procent naar 4,2 procent. Met dezelfde maandelijkse email volume haalden ze 40 procent meer leads.
@@ -226,7 +226,7 @@ export default function BlogPostAiDigitaleMarketing() {
                             AI-tools zoals SEMrush en Ahrefs analyseren honderden miljoenen webpagina's om te zien wat Google graag ziet. Ze geven je direct advies: "Voeg deze 10 keywords toe aan je artikel", "Je competitor rankt voor deze 50 keywords die jij mist", "Jouw pagina laadt 2 seconden te langzaam vergeleken met je concurrenten".
                         </p>
                         <p>
-                            Dit helpt SEO-specialisten enorm, maar ook beginners kunnen dit gebruiken. Met AI kun je zelf beter content schrijven en je meer zichtbaar maken in Google. Bij onze klanten zien we dat bedrijven die AI voor SEO gebruiken 30 tot 50 procent meer organic traffic halen binnen zes maanden. Geen betaalde ads nodig. Pure organische groei. Lees meer over dit onderwerp in onze gids over SEO.
+                            Dit helpt SEO-specialisten enorm, maar ook beginners kunnen dit gebruiken. Met AI kun je zelf beter content schrijven en je meer zichtbaar maken in Google. Bij onze klanten zien we dat bedrijven die AI voor <a href="/diensten/seo" className="text-blue-700 underline hover:text-blue-900">SEO</a> gebruiken 30 tot 50 procent meer organic traffic halen binnen zes maanden. Geen betaalde ads nodig. Pure organische groei. Lees meer over dit onderwerp in onze <a href="/blogs/seo" className="text-blue-700 underline hover:text-blue-900">SEO gids</a>.
                         </p>
 
                         <h2 className="text-3xl mt-16 mb-6">3 fouten die je beter niet maakt</h2>
@@ -244,7 +244,7 @@ export default function BlogPostAiDigitaleMarketing() {
                             Als je alles aan AI overlaat, snap je niet meer wat werkt en wat niet. Je bent dan afhankelijk van het algoritme zonder inzicht. Neem altijd tijd om te begrijpen wat AI doet en waarom. Test dingen zelf. Zo leer je wat voor jouw bedrijf werkt en kan je sneller aanpassen als iets niet werkt.
                         </p>
                         <p>
-                            We zien bedrijven die blind vertrouwen op AI-campagnes. Ze zeggen: "Google Ads doet het", maar ze snappen niet wat Google Ads echt doet. Zit je target audience op zoeken met deze woorden? Of niet? Is Google Ads juist voor jouw product? Als je dit niet weet, zal je altijd onder gemiddelde resultaten halen. Neem tijd om te leren. De eerste twee weken het meest intensief.
+                            We zien bedrijven die blind vertrouwen op AI-campagnes. Ze zeggen: "Google Ads doet het", maar ze snappen niet wat Google Ads echt doet. Zit je target audience op zoeken met deze woorden? Of niet? Is Google Ads juist voor jouw product? Als je dit niet weet, zal je altijd onder gemiddelde resultaten halen. Lees ons artikel over <a href="/blogs/google-ads-vs-seo-wat-werkt-beter" className="text-blue-700 underline hover:text-blue-900">Google Ads versus SEO</a> om beter te begrijpen welk kanaal voor jou werkt. Neem tijd om te leren. De eerste twee weken het meest intensief.
                         </p>
 
                         <h3 className="text-xl font-bold mb-2">Fout 3: AI zien als snelle fix in plaats van strategisch gereedschap</h3>

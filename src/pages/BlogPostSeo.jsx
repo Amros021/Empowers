@@ -109,7 +109,7 @@ export default function BlogPostSeo() {
                     {/* Content */}
                     <div className="prose prose-lg prose-headings:font-sans prose-headings:font-bold prose-headings:text-primary prose-p:font-sans prose-p:text-primary/80 prose-p:leading-relaxed max-w-none">
                         <p className="text-xl md:text-2xl font-medium leading-relaxed mb-10 text-primary">
-                            SEO zorgt ervoor dat mensen jouw bedrijf vinden via Google, zonder dat je per klik betaalt. Voor MKB-bedrijven is het een van de meest rendabele vormen van online marketing, als je het structureel aanpakt. De meeste resultaten zijn zichtbaar na 3 tot 6 maanden. Daarna groeit het verkeer door zonder dat je budget stijgt.
+                            SEO zorgt ervoor dat mensen jouw bedrijf vinden via Google, zonder dat je per klik betaalt. Voor MKB-bedrijven is het een van de meest rendabele vormen van online marketing, als je het structureel aanpakt. De meeste resultaten zijn zichtbaar na <a href="/blogs/seo/lang-duurt-seo-realistische-verwachtingen" className="text-blue-700 underline hover:text-blue-900">3 tot 6 maanden</a>. Daarna groeit het verkeer door zonder dat je budget stijgt.
                         </p>
 
                         <h2 className="text-3xl mt-16 mb-6">Hoe werkt SEO precies?</h2>
@@ -117,7 +117,7 @@ export default function BlogPostSeo() {
                             Google rangschikt websites op basis van relevantie en autoriteit. Relevantie bepaalt Google door te kijken of je content aansluit bij wat iemand zoekt. Autoriteit bouw je op door kwalitatieve links van andere websites te verzamelen en een technisch goed functionerende site te hebben.
                         </p>
                         <p>
-                            Als iemand zoekt op "loodgieter Utrecht" of "marketingbureau Eindhoven", wil Google de meest betrouwbare en relevante pagina bovenaan zetten. Jij wilt die pagina zijn. Dat bereik je niet met één truc, maar met een combinatie van goede content, techniek en autoriteit.
+                            Als iemand zoekt op "loodgieter Utrecht" of "marketingbureau Eindhoven", wil Google de meest betrouwbare en relevante pagina bovenaan zetten. Jij wilt die pagina zijn. Dat bereik je niet met één truc, maar met een combinatie van goede content, <a href="/diensten/seo" className="text-blue-700 underline hover:text-blue-900">techniek en autoriteit</a>.
                         </p>
 
                         <h2 className="text-3xl mt-16 mb-6">Waarom is SEO voor MKB zo waardevol?</h2>
