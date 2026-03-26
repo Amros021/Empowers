@@ -136,7 +136,7 @@ export default function BlogPostLookalikeAudiencesMetaAdsGids() {
                             Voor kleine bedrijven zijn lookalikes goud. Hier zijn drie redenen waarom.
                         </p>
                         <p>
-                            <strong>Schaal voorbij je huidige netwerk.</strong> Als je nu focust op <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads</a>, weet je dat dit model anders werkt.</strong> Als je 500 klanten hebt, heb je door organische groei niet veel contact met potentiële nieuwe klanten. Lookalikes brengen je direct in contact met minstens 500 tot 2000 nieuwe mensen die waarschijnlijk hetzelfde willen kopen als jouw huidige klanten. We zien dit bij onze klanten: een lookalike audience brengt gemiddeld 35 tot 50% meer conversies dan dezelfde budget op standaard doelgroepen. Lees meer tips in ons <a href="/blogs/meta-ads" className="text-blue-700 underline hover:text-blue-900">Meta Ads blog</a>.
+                            <strong>Schaal voorbij je huidige netwerk.</strong> Als je nu focust op <a href="/diensten/google-ads" className="text-blue-700 underline hover:text-blue-900">Google Ads</a>, weet je dat dit model anders werkt. Als je 500 klanten hebt, heb je door organische groei niet veel contact met potentiële nieuwe klanten. Lookalikes brengen je direct in contact met minstens 500 tot 2000 nieuwe mensen die waarschijnlijk hetzelfde willen kopen als jouw huidige klanten. We zien dit bij onze klanten: een lookalike audience brengt gemiddeld 35 tot 50% meer conversies dan dezelfde budget op standaard doelgroepen. Lees meer tips in ons <a href="/blogs/meta-ads" className="text-blue-700 underline hover:text-blue-900">Meta Ads blog</a>.
                         </p>
                         <p>
                             <strong>Lager kostprijzen.</strong> Omdat lookalikes al warm zijn (in tegenstelling tot koude <a href="/blogs/tracking" className="text-blue-700 underline hover:text-blue-900">tracking</a>), schiet je conversiepercentage omhoog. Waar je met standaard targeting €25 per conversie betaalt, betaal je met lookalikes soms €15 of €12. Dat scheelt flink als je iets verkoopt met lage marge. Een MKB dat met normaal targeting 200 conversies per maand krijgt, haalt met lookalikes makkelijk 270 tot 320. Bij dezelfde uitgaven.
@@ -178,7 +178,7 @@ export default function BlogPostLookalikeAudiencesMetaAdsGids() {
 
                         <h2 className="text-3xl mt-16 mb-6">Stap 3: Maak je lookalike audience aan</h2>
                         <p>
-                            In Ads Manager ga je naar Audiences > Create > Lookalike Audience. Je selecteert je brongroep en kiest het land.
+                            In Ads Manager ga je naar Audiences &gt; Create &gt; Lookalike Audience. Je selecteert je brongroep en kiest het land.
                         </p>
                         <p>
                             <strong>Kies het juiste bereik.</strong> Meta biedt lookalikes in verschillende groottes: 1%, 2%, 5% en 10%. De 1%-lookalike is het meest gelijkend op je brongroep. Deze groep bereikt ongeveer 1% van alle Facebook/Instagram-gebruikers in je geselecteerde land. In Nederland is dat ongeveer 100.000 tot 150.000 mensen. Dit zijn je warmste prospects. De 10%-lookalike bereikt 1 tot 1,5 miljoen mensen. Dit zijn meer "mogelijke" klanten, minder zeker.
