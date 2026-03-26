@@ -3,6 +3,17 @@
 
 const articles = [
     {
+        title:    'Google Ads vs SEO: wat werkt beter voor jouw bedrijf?',
+        category: 'Algemeen',
+        date:     '26 mrt 2026',
+        dateTs:   new Date('2026-03-26').getTime(),
+        readTime: '7 min',
+        author:   'Empowers Redactie',
+        excerpt:  'Google Ads levert direct verkeer, SEO bouwt duurzame zichtbaarheid. Ontdek welke aanpak past bij jouw bedrijf en budget.',
+        slug:     '/blogs/algemeen/google-ads-vs-seo-werkt',
+        image:    '/images/blogs/google-ads-vs-seo-werkt.jpg',
+    },
+    {
         title:    'Waarom jouw Meta Ads niet converteren (en hoe je dat oplost)',
         category: 'Social Ads',
         date:     '15 feb 2026',
