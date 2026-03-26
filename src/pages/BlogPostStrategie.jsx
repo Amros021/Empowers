@@ -164,40 +164,40 @@ export default function BlogPostStrategie() {
 
                         <h2 className="text-3xl mb-8">Veelgestelde vragen over online marketingstrategie</h2>
 
-                        <div className="space-y-8">
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat is een online marketingstrategie?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                        <div className="space-y-6 not-prose">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is een online marketingstrategie?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Een online marketingstrategie is een plan dat beschrijft via welke kanalen je klanten bereikt, welk budget je daarvoor inzet en hoe je meet of het werkt. Een goede strategie kiest bewust voor een beperkt aantal kanalen en zet die goed in, in plaats van overal een beetje aanwezig te zijn.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Hoeveel budget heb je nodig voor online marketing als MKB?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoeveel budget heb je nodig voor online marketing als MKB?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Als vuistregel besteden MKB-bedrijven 5 tot 10% van hun omzet aan marketing. Voor een bedrijf met 500.000 euro omzet is dat 25.000 tot 50.000 euro per jaar. Hoe je dat verdeelt over kanalen hangt af van je doelen en groeifase.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Welk marketingkanaal levert het meeste op voor MKB?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Welk marketingkanaal levert het meeste op voor MKB?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Dat verschilt per bedrijf en branche. Google Ads scoort goed voor bedrijven waarbij mensen actief zoeken. Meta Ads werkt goed voor visuele producten. SEO loont het meest op de lange termijn. De combinatie geeft het beste resultaat.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Hoe meet je het succes van online marketing?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoe meet je het succes van online marketing?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Kijk naar conversies, niet naar bereik of klikken. Een conversie is een actie die waarde heeft: een aankoop, een aanvraag of een telefoontje. Via Google Analytics koppel je die conversies aan de kanalen die ze genereren.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat is het verschil tussen een landingspagina en een gewone webpagina?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is het verschil tussen een landingspagina en een gewone webpagina?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Een landingspagina is ontworpen met één doel: de bezoeker aanzetten tot een specifieke actie. Er zijn geen afleiding-links en de boodschap sluit nauw aan bij de advertentie. Een goede landingspagina verhoogt je conversieratio aanzienlijk.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wanneer heeft een MKB-bedrijf een marketingbureau nodig?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wanneer heeft een MKB-bedrijf een marketingbureau nodig?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Als je zelf niet de tijd of kennis hebt om campagnes structureel bij te sturen, loont het om een bureau in te schakelen. Een goed bureau bespaart je niet alleen tijd, maar haalt ook meer rendement uit je budget via betere instellingen en betere tracking.
                                 </p>
                             </div>

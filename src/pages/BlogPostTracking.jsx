@@ -174,46 +174,46 @@ export default function BlogPostTracking() {
 
                         <h2 className="text-3xl mb-8">Veelgestelde vragen over marketing tracking</h2>
 
-                        <div className="space-y-8">
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat is conversietracking in marketing?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                        <div className="space-y-6 not-prose">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is conversietracking in marketing?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Conversietracking houdt bij welke acties bezoekers uitvoeren op je website na een advertentieklik, zoals een aankoop, formulierinzending of telefoontje. Die data koppel je aan je campagnes, zodat je weet welke advertenties geld opleveren en welke niet.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Welke tracking tools heb ik nodig als ondernemer?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Welke tracking tools heb ik nodig als ondernemer?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     De basis is Google Analytics 4 voor je website, Google Tag Manager voor het beheren van alle tracking-code, en het pixel plus de Conversions API van elk platform waarop je adverteert.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat is ROAS en wat is een goede waarde?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is ROAS en wat is een goede waarde?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     ROAS staat voor Return on Ad Spend. Een ROAS van 3 betekent dat je voor elke euro advertentiebudget drie euro omzet genereert. Voor de meeste webshops is een ROAS van 3 tot 5 gezond, afhankelijk van je marges. Zit je structureel onder de 2? Dan is er ruimte om bij te sturen.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Waarom kloppen mijn Meta-data niet na iOS 14?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Waarom kloppen mijn Meta-data niet na iOS 14?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Apple's iOS 14-update zorgde ervoor dat meer dan 70% van de iPhone-gebruikers tracking via de browser blokkeerde. Als je alleen de Meta Pixel gebruikt zonder Conversions API, mis je een groot deel van je conversies. Voeg Meta CAPI toe om dit te compenseren.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Kan ik tracking zelf instellen zonder technische kennis?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Kan ik tracking zelf instellen zonder technische kennis?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     De basisinstelling van GA4 en een pixel via Google Tag Manager is te doen met een goede handleiding. Maar foutloze instelling van server-side tracking vraagt technische kennis. Een fout in de tracking is erger dan geen tracking, omdat je dan bijstuurt op verkeerde data.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Hoe weet ik welke campagne verantwoordelijk is voor een aankoop?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoe weet ik welke campagne verantwoordelijk is voor een aankoop?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Via UTM-parameters in je advertentielinks en via de attributiemodellen in GA4 en je advertentieplatformen. Standaard werkt Google Ads met last-click attributie. GA4 biedt ook data-driven attributie, wat een completer beeld geeft van welke kanalen bijdragen aan een conversie.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat is het verschil tussen een sessie en een conversie in Google Analytics?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is het verschil tussen een sessie en een conversie in Google Analytics?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Een sessie is een bezoek aan je website. Een conversie is een specifieke actie die je hebt ingesteld als doel, zoals een aankoop of formulierinzending. Je conversieratio is het percentage sessies dat resulteert in een conversie. Gemiddeld ligt dat voor webshops tussen de 1,5% en 3,5%.
                                 </p>
                             </div>

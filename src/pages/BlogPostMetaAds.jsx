@@ -159,46 +159,46 @@ export default function BlogPostMetaAds() {
 
                         <h2 className="text-3xl mb-8">Veelgestelde vragen over Meta Ads conversies</h2>
 
-                        <div className="space-y-8">
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Waarom krijg ik wel klikken maar geen aankopen?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                        <div className="space-y-6 not-prose">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Waarom krijg ik wel klikken maar geen aankopen?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Dit komt het vaakst door een mismatch tussen de advertentie en de landingspagina, een te brede doelgroep of een landingspagina die te langzaam laadt. Controleer deze drie dingen als eerste.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat is een normale conversieratio voor Meta Ads?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is een normale conversieratio voor Meta Ads?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Voor een webshop is 1,5% tot 3,5% een gezonde norm. Voor leadgeneratie is alles boven de 2% sterk. Zit je structureel onder de 1%? Dan is er iets in de keten dat bijstelling nodig heeft.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Hoeveel budget heb ik nodig om Meta Ads te laten werken?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoeveel budget heb ik nodig om Meta Ads te laten werken?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Meta heeft data nodig om te leren. Reken op minimaal 300 tot 500 euro per maand per campagne om het algoritme voldoende ruimte te geven. Met minder budget duurt het leerproces veel langer of lukt het niet goed.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Hoe vaak moet ik mijn advertenties vervangen?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoe vaak moet ik mijn advertenties vervangen?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Controleer de frequentie. Zit die boven de 3 binnen twee weken? Wissel dan je creatieven af. Voor de meeste campagnes geldt: elke 3 tot 4 weken nieuwe beelden en teksten testen.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Moet ik retargeting gebruiken?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Moet ik retargeting gebruiken?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Ja. Retargeting, het opnieuw bereiken van mensen die al op je website waren, levert gemiddeld twee tot drie keer hogere conversiepercentages op dan cold audiences. Het is een van de makkelijkste manieren om meer te halen uit je bestaande verkeer.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Werkt broad targeting echt beter dan gedetailleerde targeting?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Werkt broad targeting echt beter dan gedetailleerde targeting?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Vaak wel, maar het hangt af van hoe lang je pixel al actief is. Heeft je pixel minder dan 50 conversies in de afgelopen 30 dagen? Begin dan iets smaller. Heb je meer data? Geef Meta de ruimte en kijk wat het algoritme doet.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat is Meta Conversions API en heb ik het nodig?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is Meta Conversions API en heb ik het nodig?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Meta Conversions API is een server-to-server verbinding die conversiedata doorstuurt, onafhankelijk van browsercookies. Na de iOS 14-update is dit sterk aan te raden voor iedereen die nauwkeurige data wil. Zonder CAPI mis je waarschijnlijk 30 tot 50% van je conversies.
                                 </p>
                             </div>

@@ -164,40 +164,40 @@ export default function BlogPostAlgemeen() {
 
                         <h2 className="text-3xl mb-8">Veelgestelde vragen over zelf adverteren of uitbesteden</h2>
 
-                        <div className="space-y-8">
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Is zelf adverteren goedkoper dan uitbesteden?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                        <div className="space-y-6 not-prose">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Is zelf adverteren goedkoper dan uitbesteden?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Op papier lijkt zelf adverteren goedkoper omdat je geen beheerkosten betaalt. In de praktijk verspillen slecht beheerde campagnes 30 tot 50% van het budget. Een specialist die 500 euro per maand kost maar je campagne 40% efficiënter maakt, verdient zichzelf ruimschoots terug.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Hoe kies ik een goed marketingbureau?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoe kies ik een goed marketingbureau?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Vraag altijd naar concrete resultaten bij vergelijkbare klanten. Een goed bureau laat je zien wat het heeft bereikt: kosten per conversie, ROAS of groei in organisch verkeer. Wees voorzichtig met bureaus die geen resultaten kunnen laten zien.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Kan ik beginnen met zelf adverteren en later uitbesteden?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Kan ik beginnen met zelf adverteren en later uitbesteden?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Ja, dat is een slimme aanpak. Door zelf te beginnen leer je hoe advertentieplatformen werken. Als de campagnes te complex worden of de resultaten tegenvallen, schakel je een specialist in. Je hebt dan al data en ervaring om het gesprek goed te voeren.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat doet een marketingbureau precies?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat doet een marketingbureau precies?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Een marketingbureau beheert je advertentiecampagnes, stuurt ze bij op basis van data, schrijft advertentieteksten, test doelgroepen en landingspagina's en rapporteert over de resultaten. Sommige bureaus focussen op één platform, andere op een combinatie van Google Ads, Meta Ads en SEO.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Hoeveel kost een marketingbureau?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoeveel kost een marketingbureau?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Bureaus rekenen doorgaans een vast maandbedrag of een percentage van het advertentiebudget. Een vast maandbedrag ligt voor MKB vaak tussen de 500 en 2000 euro. Bij een percentage-model betaal je gemiddeld 10 tot 15% van je advertentiebudget.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wanneer is uitbesteden echt de moeite waard?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wanneer is uitbesteden echt de moeite waard?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Als je meer dan 1000 euro per maand advertentiebudget uitgeeft en niet de tijd hebt om campagnes dagelijks bij te sturen. Op dat niveau is de kans groot dat een specialist het rendement verbetert en de beheerkosten terugverdient via betere prestaties.
                                 </p>
                             </div>

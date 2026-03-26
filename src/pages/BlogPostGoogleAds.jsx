@@ -157,46 +157,46 @@ export default function BlogPostGoogleAds() {
 
                         <h2 className="text-3xl mb-8">Veelgestelde vragen over Google Ads voor MKB</h2>
 
-                        <div className="space-y-8">
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Hoeveel budget heb je nodig voor Google Ads?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                        <div className="space-y-6 not-prose">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoeveel budget heb je nodig voor Google Ads?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     De meeste MKB-bedrijven starten met 500 tot 1500 euro per maand aan advertentiebudget. Daarbovenop komen de beheerkosten van een specialist. Hoe competitiever je branche, hoe hoger de klikprijzen. In niches zoals juridisch advies of hypotheken betaal je soms 5 tot 15 euro per klik.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat is het verschil tussen zoekadvertenties en Performance Max?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is het verschil tussen zoekadvertenties en Performance Max?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Zoekadvertenties verschijnen als mensen actief zoeken op Google. Je kiest zelf op welke zoekwoorden je biedt. Performance Max combineert meerdere kanalen automatisch. Voor MKB raden we aan om eerst met zoekadvertenties te beginnen, zodat je meer controle hebt over je resultaten.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Kan ik Google Ads zelf beheren?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Kan ik Google Ads zelf beheren?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Ja, maar het vraagt tijd en kennis. Een slecht ingestelde campagne verbrandt je budget aan irrelevante klikken. Als je niet dagelijks de data bijhoudt en bijstuurt, betaal je te veel per conversie. Veel MKB-bedrijven starten zelf en schakelen later een specialist in.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat is een goede ROAS voor Google Ads?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is een goede ROAS voor Google Ads?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Een ROAS van 3 betekent dat je voor elke euro advertentiebudget drie euro omzet genereert. Voor webshops is een ROAS van 3 tot 5 gezond. Dienstverleners kijken vaker naar kosten per lead. Een goed ingestelde campagne haalt in de eerste maanden gemiddeld een ROAS van 3 tot 5.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Hoe lang duurt het voordat Google Ads resultaat geeft?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoe lang duurt het voordat Google Ads resultaat geeft?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Google Ads geeft sneller resultaat dan SEO. Binnen enkele dagen zie je al klikken en conversies. De eerste twee weken zijn het leerproces voor Google's algoritme. Na 4 tot 8 weken heb je genoeg data om campagnes structureel bij te sturen.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat zijn negatieve zoekwoorden en waarom zijn ze belangrijk?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat zijn negatieve zoekwoorden en waarom zijn ze belangrijk?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Negatieve zoekwoorden zijn zoektermen waarbij je advertentie niet mag verschijnen. Zonder een goede negatieve lijst betaal je voor klikken van mensen die nooit klant worden. Dit is een van de snelste manieren om verspild budget te verlagen.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat is Smart Bidding bij Google Ads?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is Smart Bidding bij Google Ads?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Smart Bidding is een geautomatiseerde biedstrategie waarbij Google het bod per veiling aanpast op basis van de kans op conversie. Het werkt pas goed als je campagne genoeg data heeft, minimaal 30 tot 50 conversies per maand.
                                 </p>
                             </div>

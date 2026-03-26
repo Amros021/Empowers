@@ -172,46 +172,46 @@ export default function BlogPostSeo() {
 
                         <h2 className="text-3xl mb-8">Veelgestelde vragen over SEO voor MKB</h2>
 
-                        <div className="space-y-8">
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Hoe lang duurt SEO voordat het resultaat geeft?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                        <div className="space-y-6 not-prose">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoe lang duurt SEO voordat het resultaat geeft?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     De eerste resultaten zijn zichtbaar na 3 tot 6 maanden, afhankelijk van hoe competitief je markt is en hoe goed je website er nu voor staat. Voor nieuwe domeinen duurt het soms wat langer. Hoe eerder je begint, hoe eerder je resultaat boekt.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat kost SEO voor een MKB-bedrijf?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat kost SEO voor een MKB-bedrijf?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Een serieuze SEO-aanpak kost bij de meeste bureaus tussen de 500 en 2000 euro per maand. Goedkopere diensten leveren vaak weinig op of beschadigen je website via slechte linkbuilding. Vraag altijd naar een concrete aanpak en meetbare doelen.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat is het verschil tussen SEO en Google Ads?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is het verschil tussen SEO en Google Ads?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Google Ads geeft direct resultaat maar stopt zodra je budget op is. SEO kost meer tijd maar levert duurzame zichtbaarheid op zonder dat je per klik betaalt. De slimste strategie combineert beide: Ads voor direct verkeer, SEO voor de lange termijn.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat is lokale SEO en heb ik dat nodig?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is lokale SEO en heb ik dat nodig?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Lokale SEO zorgt ervoor dat je gevonden wordt door mensen in jouw regio. Denk aan een Google Bedrijfsprofiel, lokale zoekwoorden op je website en reviews. Voor fysieke winkels, restaurants en lokale dienstverleners is dit vaak het meest waardevolle onderdeel van SEO.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Kan ik SEO zelf doen?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Kan ik SEO zelf doen?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Basis-SEO kun je deels zelf doen: een goed Google Bedrijfsprofiel aanmaken, je paginatitels verbeteren en content schrijven over vragen die klanten stellen. Technische SEO en serieuze linkbuilding vragen expertise. Fouten in de technische basis kosten je al je andere inspanningen.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat zijn de belangrijkste rankingfactoren van Google?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat zijn de belangrijkste rankingfactoren van Google?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Google gebruikt meer dan 200 factoren. De zwaarste zijn: de kwaliteit en relevantie van je content, het aantal en de kwaliteit van websites die naar jou linken, de laadsnelheid van je pagina's en of je website goed werkt op mobiel. Een goede technische basis is de eerste stap.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Hoe meet ik of mijn SEO werkt?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoe meet ik of mijn SEO werkt?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Via Google Search Console zie je hoeveel mensen je website vinden via Google en op welke zoekwoorden. Koppel dit aan Google Analytics om te zien of dat verkeer ook leads of aankopen oplevert. Kijk niet alleen naar posities, maar naar conversies vanuit organisch zoekverkeer.
                                 </p>
                             </div>

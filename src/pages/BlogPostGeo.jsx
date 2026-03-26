@@ -185,34 +185,34 @@ export default function BlogPost() {
 
                         <h2 className="text-3xl mb-8">Veelgestelde vragen over GEO</h2>
 
-                        <div className="space-y-8">
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat is het verschil tussen GEO en SEO?</h3>
-                                <p className="text-base text-primary/70 mt-0">SEO richt zich op vindbaarheid in zoekmachines zoals Google, via keywords en technische optimalisatie. GEO richt zich op zichtbaarheid in AI-tools zoals ChatGPT en Gemini. AI-modellen aanbevelen bedrijven op basis van vertrouwen, autoriteit en de kwaliteit van beschikbare informatie, niet alleen op basis van technische SEO-factoren.</p>
+                        <div className="space-y-6 not-prose">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is het verschil tussen GEO en SEO?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">SEO richt zich op vindbaarheid in zoekmachines zoals Google, via keywords en technische optimalisatie. GEO richt zich op zichtbaarheid in AI-tools zoals ChatGPT en Gemini. AI-modellen aanbevelen bedrijven op basis van vertrouwen, autoriteit en de kwaliteit van beschikbare informatie, niet alleen op basis van technische SEO-factoren.</p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Werkt GEO ook voor kleine bedrijven?</h3>
-                                <p className="text-base text-primary/70 mt-0">Ja. Kleine bedrijven kunnen juist profiteren van GEO, omdat de concurrentie in AI-aanbevelingen nog lang niet zo hevig is als in Google. Wie nu begint, bouwt een voorsprong op die later moeilijk in te halen is.</p>
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Werkt GEO ook voor kleine bedrijven?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">Ja. Kleine bedrijven kunnen juist profiteren van GEO, omdat de concurrentie in AI-aanbevelingen nog lang niet zo hevig is als in Google. Wie nu begint, bouwt een voorsprong op die later moeilijk in te halen is.</p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Hoe lang duurt het voor GEO resultaat geeft?</h3>
-                                <p className="text-base text-primary/70 mt-0">Vergelijkbaar met SEO: reken op 3 tot 6 maanden voor de eerste zichtbare effecten. GEO is een langetermijninvestering in digitale autoriteit. De resultaten groeien naarmate je consistent goede content publiceert en vermeldingen opbouwt.</p>
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoe lang duurt het voor GEO resultaat geeft?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">Vergelijkbaar met SEO: reken op 3 tot 6 maanden voor de eerste zichtbare effecten. GEO is een langetermijninvestering in digitale autoriteit. De resultaten groeien naarmate je consistent goede content publiceert en vermeldingen opbouwt.</p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Welke AI-tools zijn het belangrijkst voor GEO?</h3>
-                                <p className="text-base text-primary/70 mt-0">ChatGPT (OpenAI) en Gemini (Google) zijn nu het grootst in gebruik. Claude (Anthropic) en Perplexity groeien snel. De strategie voor GEO werkt voor alle modellen, omdat ze dezelfde basisprincipes hanteren: betrouwbaarheid, relevantie en autoriteit.</p>
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Welke AI-tools zijn het belangrijkst voor GEO?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">ChatGPT (OpenAI) en Gemini (Google) zijn nu het grootst in gebruik. Claude (Anthropic) en Perplexity groeien snel. De strategie voor GEO werkt voor alle modellen, omdat ze dezelfde basisprincipes hanteren: betrouwbaarheid, relevantie en autoriteit.</p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Heeft GEO gevolgen voor mijn positie in Google?</h3>
-                                <p className="text-base text-primary/70 mt-0">Niet direct. Maar veel van wat je doet voor GEO, zoals betere content, meer externe vermeldingen en een schonere sitestructuur, heeft ook een positief effect op je SEO. De twee strategieën versterken elkaar.</p>
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Heeft GEO gevolgen voor mijn positie in Google?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">Niet direct. Maar veel van wat je doet voor GEO, zoals betere content, meer externe vermeldingen en een schonere sitestructuur, heeft ook een positief effect op je SEO. De twee strategieën versterken elkaar.</p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Moet ik stoppen met SEO als ik aan GEO doe?</h3>
-                                <p className="text-base text-primary/70 mt-0">Absoluut niet. SEO blijft waardevol zolang mensen via Google zoeken, en dat doen ze nog steeds op grote schaal. GEO is een aanvulling op SEO, geen vervanging. De combinatie van beide geeft de meeste online zichtbaarheid.</p>
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Moet ik stoppen met SEO als ik aan GEO doe?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">Absoluut niet. SEO blijft waardevol zolang mensen via Google zoeken, en dat doen ze nog steeds op grote schaal. GEO is een aanvulling op SEO, geen vervanging. De combinatie van beide geeft de meeste online zichtbaarheid.</p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Kan ik GEO zelf doen?</h3>
-                                <p className="text-base text-primary/70 mt-0">Gedeeltelijk wel. Betere content schrijven, schema toevoegen en vermeldingen opbouwen kun je zelf oppakken. Voor een gedegen GEO-strategie die ook meetbaar is, is gerichte expertise nodig. We helpen bedrijven hier graag bij.</p>
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Kan ik GEO zelf doen?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">Gedeeltelijk wel. Betere content schrijven, schema toevoegen en vermeldingen opbouwen kun je zelf oppakken. Voor een gedegen GEO-strategie die ook meetbaar is, is gerichte expertise nodig. We helpen bedrijven hier graag bij.</p>
                             </div>
                         </div>
 

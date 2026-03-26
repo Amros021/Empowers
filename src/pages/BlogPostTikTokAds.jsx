@@ -160,40 +160,40 @@ export default function BlogPostTikTokAds() {
 
                         <h2 className="text-3xl mb-8">Veelgestelde vragen over TikTok Ads</h2>
 
-                        <div className="space-y-8">
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Is TikTok Ads geschikt voor kleine budgetten?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                        <div className="space-y-6 not-prose">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Is TikTok Ads geschikt voor kleine budgetten?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Het minimumbudget van TikTok ligt hoger dan bij Meta: 50 euro per dag op campagneniveau. Voor heel kleine budgetten is TikTok Ads daardoor minder toegankelijk. Reken op minimaal 1.000 tot 1.500 euro per maand voor een eerste test.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Hoe maak ik goede TikTok-advertenties?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoe maak ik goede TikTok-advertenties?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Native, verticaal en snel. De eerste 2 seconden bepalen alles. Gebruik tekst in beeld, begin met een prikkelende vraag of actie en zorg dat je video aanvoelt als een organische TikTok, niet als een reclamespotje.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Wat is het verschil tussen TikTok Ads en Meta Ads?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is het verschil tussen TikTok Ads en Meta Ads?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Meta heeft meer data en een volwassener advertentiesysteem. TikTok heeft lagere CPM's maar vraagt een andere contentstijl. TikTok werkt beter voor awareness, Meta werkt beter voor directe conversies. De twee platforms vullen elkaar goed aan.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Werkt TikTok Ads ook voor B2B-bedrijven?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Werkt TikTok Ads ook voor B2B-bedrijven?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Beperkt. TikTok is sterk voor consumenten en visuele producten. B2B-bedrijven kunnen TikTok gebruiken voor naamsbekendheid, maar voor directe leads werkt LinkedIn of Google doorgaans beter.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Hoe meet ik de resultaten van mijn TikTok-campagnes?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoe meet ik de resultaten van mijn TikTok-campagnes?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Via TikTok Ads Manager in combinatie met het TikTok Pixel op je website. Zorg dat je conversie-events goed zijn ingesteld, zoals aankopen, formulierinzendingen of pagina-bezoeken. Zonder tracking kun je resultaten niet goed beoordelen.
                                 </p>
                             </div>
-                            <div>
-                                <h3 className="text-xl font-bold mb-2">Kan ik bestaande content hergebruiken voor TikTok Ads?</h3>
-                                <p className="text-base text-primary/70 mt-0">
+                            <div className="border border-primary/10 rounded-xl p-6">
+                                <h3 className="font-sans font-semibold text-primary text-lg mb-3">Kan ik bestaande content hergebruiken voor TikTok Ads?</h3>
+                                <p className="font-sans text-primary/70 leading-relaxed">
                                     Alleen als het native verticale video's zijn van 9:16. Horizontale video's of Instagram Reels die niet specifiek voor TikTok zijn gemaakt presteren slecht. Maak content voor het platform zelf.
                                 </p>
                             </div>
