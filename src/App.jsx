@@ -25,6 +25,20 @@ import BlogPostSeoStrategieVervangenDoorGeo from './pages/BlogPostSeoStrategieVe
 import BlogPostUtmParametersGebruikenAlleMarketingkanalen from './pages/BlogPostUtmParametersGebruikenAlleMarketingkanalen';
 import BlogPostAiDigitaleMarketing from './pages/BlogPostAiDigitaleMarketing';
 import BlogPostAiMarketingwereldVerandert2025 from './pages/BlogPostAiMarketingwereldVerandert2025';
+import BlogPostHoeLangDuurtSeo from './pages/BlogPostHoeLangDuurtSeo';
+import BlogPostGoogleAdsUitbesteden from './pages/BlogPostGoogleAdsUitbesteden';
+import BlogPostMetaAds2025Privacywijzigingen from './pages/BlogPostMetaAds2025Privacywijzigingen';
+import BlogPostChatgptBedrijfAanbeveelt from './pages/BlogPostChatgptBedrijfAanbeveelt';
+import BlogPostGoogleTagManagerBeginners from './pages/BlogPostGoogleTagManagerBeginners';
+import BlogPostConversieratioBenchmarksPerBranche from './pages/BlogPostConversieratioBenchmarksPerBranche';
+import BlogPostOnlineMarketingBureau from './pages/BlogPostOnlineMarketingBureau';
+import BlogPostFacebookVsInstagramAdverteren from './pages/BlogPostFacebookVsInstagramAdverteren';
+import BlogPostMetaPixelInstellen from './pages/BlogPostMetaPixelInstellen';
+import BlogPostTechnischeSeoChecklist from './pages/BlogPostTechnischeSeoChecklist';
+import BlogPostGeoVsSeo from './pages/BlogPostGeoVsSeo';
+import BlogPostSeaUitbesteden from './pages/BlogPostSeaUitbesteden';
+import BlogPostB2bMarketingBureauVsZelf from './pages/BlogPostB2bMarketingBureauVsZelf';
+import BlogPostAiSeo2025 from './pages/BlogPostAiSeo2025';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -118,6 +132,20 @@ function App() {
         <Route path="/blogs/tracking/utm-parameters-gebruiken-alle-marketingkanalen" element={<BlogPostUtmParametersGebruikenAlleMarketingkanalen />} />
         <Route path="/blogs/strategie/ai-digitale-marketing" element={<BlogPostAiDigitaleMarketing />} />
         <Route path="/blogs/algemeen/ai-marketingwereld-verandert-2025" element={<BlogPostAiMarketingwereldVerandert2025 />} />
+        <Route path="/blogs/seo/lang-duurt-seo-realistische-verwachtingen" element={<BlogPostHoeLangDuurtSeo />} />
+        <Route path="/blogs/google-ads/google-ads-uitbesteden-wanneer-zelf" element={<BlogPostGoogleAdsUitbesteden />} />
+        <Route path="/blogs/social-ads/meta-ads-2025-werkt-na" element={<BlogPostMetaAds2025Privacywijzigingen />} />
+        <Route path="/blogs/geo/chatgpt-bedrijf-aanbeveelt" element={<BlogPostChatgptBedrijfAanbeveelt />} />
+        <Route path="/blogs/tracking/google-tag-manager-beginners" element={<BlogPostGoogleTagManagerBeginners />} />
+        <Route path="/blogs/strategie/goede-conversieratio-benchmarks-per-branche" element={<BlogPostConversieratioBenchmarksPerBranche />} />
+        <Route path="/blogs/algemeen/online-marketing-bureau" element={<BlogPostOnlineMarketingBureau />} />
+        <Route path="/blogs/social-ads/facebook-vs-instagram-adverteren-welk" element={<BlogPostFacebookVsInstagramAdverteren />} />
+        <Route path="/blogs/social-ads/meta-pixel-instellen-stap-stap" element={<BlogPostMetaPixelInstellen />} />
+        <Route path="/blogs/seo/technische-seo-checklist-2025-website" element={<BlogPostTechnischeSeoChecklist />} />
+        <Route path="/blogs/geo/geo-vs-seo-verschil-heb" element={<BlogPostGeoVsSeo />} />
+        <Route path="/blogs/google-ads/sea-uitbesteden-weten-voordat-kiest" element={<BlogPostSeaUitbesteden />} />
+        <Route path="/blogs/algemeen/b2b-marketing-bureau-vs-zelf" element={<BlogPostB2bMarketingBureauVsZelf />} />
+        <Route path="/blogs/seo/ai-seo-2025-verandert-kunstmatige" element={<BlogPostAiSeo2025 />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
