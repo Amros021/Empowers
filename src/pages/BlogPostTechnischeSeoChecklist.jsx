@@ -75,11 +75,9 @@ export default function BlogPostTechnischeSeoChecklist() {
                         "headline": "Technische SEO checklist 2026: alles wat je website nodig heeft",
                         "description": "Volledige technische SEO checklist. Ontdek wat je website nodig heeft voor betere rankings.",
                         "image": "https://www.empowers.nl/images/blogs/technische-seo-checklist-2025-website.jpg",
-                        "datePublished": "2026-03-11",
-                        "author": {
-                            "@type": "Organization",
-                            "name": "Empowers"
-                        }
+                        "datePublished": "2026-03-11T00:00:00+01:00",
+                        "author": { "@type": "Organization", "name": "Empowers" },
+                        "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" }
                     })}
                 </script>
 

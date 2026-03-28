@@ -35,7 +35,7 @@ export default function BlogPostHoeLangDuurtSeo() {
                         "headline": "Hoe lang duurt SEO? Realistische verwachtingen voor nieuwe websites",
                         "description": "Hoe lang duurt SEO voordat je resultaten ziet? Ontdek realistische tijdlijnen, factoren die dit beïnvloeden en wat je mag verwachten.",
                         "image": "https://www.empowers.nl/images/blogs/lang-duurt-seo-realistische-verwachtingen.jpg",
-                        "datePublished": "2026-03-27",
+                        "datePublished": "2026-03-27T00:00:00+01:00",
                         "author": {
                             "@type": "Organization",
                             "name": "Empowers"
@@ -45,7 +45,7 @@ export default function BlogPostHoeLangDuurtSeo() {
                             "name": "Empowers",
                             "logo": {
                                 "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/logo.png"
+                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
                             }
                         },
                         "mainEntity": {

@@ -76,11 +76,9 @@ const BlogPostSeaUitbesteden = () => {
             "headline": "SEA uitbesteden: alles wat je moet weten voordat je kiest",
             "description": "Wil je SEA-campagnes uitbesteden? Lees wat je moet weten over kosten, bureaus en het keuzeproces.",
             "image": "https://www.empowers.nl/images/blogs/sea-uitbesteden-weten-voordat-kiest.jpg",
-            "datePublished": "2026-03-17",
-            "author": {
-              "@type": "Organization",
-              "name": "Empowers"
-            }
+            "datePublished": "2026-03-17T00:00:00+01:00",
+            "author": { "@type": "Organization", "name": "Empowers" },
+            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" }
           })}
         </script>
 

@@ -29,7 +29,7 @@ export default function BlogPostChatgptBedrijfAanbeveelt() {
                         "headline": "Hoe zorg je dat ChatGPT jouw bedrijf aanbeveelt?",
                         "description": "Wil je dat ChatGPT jouw bedrijf noemt? Leer welke stappen je neemt om zichtbaar te worden in AI-antwoorden en meer klanten te trekken.",
                         "image": "https://www.empowers.nl/images/blogs/chatgpt-bedrijf-aanbeveelt.jpg",
-                        "datePublished": "2026-03-27T00:00:00Z",
+                        "datePublished": "2026-03-27T00:00:00+01:00",
                         "author": {
                             "@type": "Organization",
                             "name": "Empowers"
@@ -39,7 +39,7 @@ export default function BlogPostChatgptBedrijfAanbeveelt() {
                             "name": "Empowers",
                             "logo": {
                                 "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/logo.png"
+                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
                             }
                         }
                     })}

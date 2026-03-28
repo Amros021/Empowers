@@ -67,7 +67,7 @@ export default function BlogPostGoogleTagManagerBeginners() {
                         "headline": "Google Tag Manager voor beginners: zo start je",
                         "description": "Google Tag Manager maakt tracking makkelijk zonder code. Leer stap voor stap hoe je GTM instelt voor Google Ads, Meta Ads en Analytics.",
                         "image": "https://www.empowers.nl/images/blogs/google-tag-manager-beginners.jpg",
-                        "datePublished": "2026-03-27",
+                        "datePublished": "2026-03-27T00:00:00+01:00",
                         "author": {
                             "@type": "Organization",
                             "name": "Empowers",

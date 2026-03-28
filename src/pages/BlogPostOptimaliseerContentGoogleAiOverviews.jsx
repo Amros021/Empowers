@@ -29,7 +29,7 @@ export default function BlogPostOptimaliseerContentGoogleAiOverviews() {
                             "headline": "Hoe optimaliseer je content voor Google AI Overviews?",
                             "image": "https://www.empowers.nl/images/blogs/optimaliseer-content-google-ai-overviews.jpg",
                             "description": "Google AI Overviews tonen AI-antwoorden boven de zoekresultaten. Leer hoe je jouw content zo schrijft dat Google jou citeert in die antwoorden.",
-                            "author": { "@type": "Person", "name": "Amir Farahani" },
+                            "author": { "@type": "Organization", "name": "Empowers" },
                             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                             "datePublished": "2026-03-26T00:00:00+01:00",
                             "dateModified": "2026-03-26T00:00:00+01:00",

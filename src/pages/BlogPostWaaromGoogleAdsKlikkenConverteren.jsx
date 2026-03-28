@@ -29,7 +29,7 @@ export default function BlogPostWaaromGoogleAdsKlikkenConverteren() {
                             "headline": "Waarom jouw Google Ads wel klikken maar niet converteren",
                             "image": "https://www.empowers.nl/images/blogs/waarom-google-ads-klikken-converteren.jpg",
                             "description": "Veel klikken maar geen conversies in Google Ads? Ontdek de 6 meest voorkomende oorzaken en los ze vandaag nog op. Praktische tips voor MKB.",
-                            "author": { "@type": "Person", "name": "Amir Farahani" },
+                            "author": { "@type": "Organization", "name": "Empowers" },
                             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                             "datePublished": "2026-03-26T00:00:00+01:00",
                             "dateModified": "2026-03-26T00:00:00+01:00",

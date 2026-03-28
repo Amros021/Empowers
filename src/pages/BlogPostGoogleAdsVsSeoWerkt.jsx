@@ -29,7 +29,7 @@ export default function BlogPostGoogleAdsVsSeoWerkt() {
                             "headline": "Google Ads vs SEO: wat werkt beter voor jouw bedrijf?",
                             "image": "https://www.empowers.nl/images/blogs/google-ads-vs-seo-werkt.jpg",
                             "description": "Google Ads levert direct verkeer, SEO bouwt duurzame zichtbaarheid. Ontdek welke aanpak het beste past bij jouw bedrijf, budget en doelen.",
-                            "author": { "@type": "Person", "name": "Amir Farahani" },
+                            "author": { "@type": "Organization", "name": "Empowers" },
                             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                             "datePublished": "2026-03-26T00:00:00+01:00",
                             "dateModified": "2026-03-26T00:00:00+01:00",

@@ -35,18 +35,15 @@ export default function BlogPostKiesJuisteOnlineMarketingBureau() {
                         "headline": "Hoe kies je het juiste online marketing bureau? 5 vragen die je moet stellen",
                         "description": "Een online marketing bureau kiezen is lastig. Stel deze 5 vragen voordat je tekent. Lees waar je op let bij budget, specialisatie en rapportages.",
                         "image": "https://www.empowers.nl/images/blogs/kies-juiste-online-marketing-bureau.jpg",
-                        "datePublished": "2026-03-28",
-                        "author": {
-                            "@type": "Person",
-                            "name": "Amir Farahani"
-                        },
+                        "datePublished": "2026-03-28T00:00:00+01:00",
+                        "author": { "@type": "Organization", "name": "Empowers" },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Empowers",
                             "url": "https://www.empowers.nl",
                             "logo": {
                                 "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/logo.png"
+                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
                             }
                         },
                         "mainEntity": {

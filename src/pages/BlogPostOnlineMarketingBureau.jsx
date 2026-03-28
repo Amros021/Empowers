@@ -31,16 +31,13 @@ export default function BlogPostOnlineMarketingBureau() {
                         "headline": "Wat is een online marketing bureau en wat doet het?",
                         "description": "Een online marketing bureau helpt je groeien via Google Ads, SEO, social ads en meer. Leer wat een bureau doet en wanneer je er een inschakelt.",
                         "image": "https://www.empowers.nl/images/blogs/online-marketing-bureau.jpg",
-                        "datePublished": "2026-03-27",
-                        "dateModified": "2026-03-27",
+                        "datePublished": "2026-03-27T00:00:00+01:00",
+                        "dateModified": "2026-03-27T00:00:00+01:00",
                         "author": {
                             "@type": "Organization",
                             "name": "Empowers"
                         },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers"
-                        }
+                        "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" }
                     })}
                 </script>
                 <script type="application/ld+json">

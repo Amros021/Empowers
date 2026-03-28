@@ -35,18 +35,15 @@ export default function BlogPostSeoUitbestedenZelfEerlijkAntwoord() {
                         "headline": "SEO uitbesteden of zelf doen? Een eerlijk antwoord",
                         "description": "SEO uitbesteden kost 500 tot 2500 euro per maand. Zelf doen bespaart geld maar kost veel tijd. Lees wanneer uitbesteden slim is en wanneer je het beter zelf doet.",
                         "image": "https://www.empowers.nl/images/blogs/seo-uitbesteden-zelf-eerlijk-antwoord.jpg",
-                        "datePublished": "2026-03-27",
-                        "author": {
-                            "@type": "Person",
-                            "name": "Amir Farahani"
-                        },
+                        "datePublished": "2026-03-27T00:00:00+01:00",
+                        "author": { "@type": "Organization", "name": "Empowers" },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Empowers",
                             "url": "https://www.empowers.nl",
                             "logo": {
                                 "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/logo.png"
+                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
                             }
                         },
                         "mainEntity": {

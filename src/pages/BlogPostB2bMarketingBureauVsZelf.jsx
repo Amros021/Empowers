@@ -52,22 +52,15 @@ export default function BlogPostB2bMarketingBureauVsZelf() {
                         "headline": "B2B marketing bureau vs zelf doen: wat is slimmer voor jouw bedrijf?",
                         "description": "Moet jij een B2B marketing bureau inhuren of kan je het zelf doen? Lees wanneer je beter een specialist kiest en wat je bespaard.",
                         "image": "https://www.empowers.nl/images/blogs/b2b-marketing-bureau-vs-zelf.jpg",
-                        "datePublished": "2026-03-20",
-                        "dateModified": "2026-03-20",
-                        "author": {
-                            "@type": "Organization",
-                            "name": "Empowers Redactie",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/logo.png"
-                            }
-                        },
+                        "datePublished": "2026-03-20T00:00:00+01:00",
+                        "dateModified": "2026-03-20T00:00:00+01:00",
+                        "author": { "@type": "Organization", "name": "Empowers" },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Empowers",
                             "logo": {
                                 "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/logo.png"
+                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
                             }
                         }
                     })}

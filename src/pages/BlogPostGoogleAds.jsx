@@ -29,7 +29,7 @@ export default function BlogPostGoogleAds() {
                             "headline": "Google Ads voor MKB: zo stel je een campagne in die werkt",
                             "image": "https://www.empowers.nl/images/blogs/google-ads-campagne.jpg",
                             "description": "Google Ads voor MKB werkt als je het goed instelt. Lees wat het kost, hoe je een campagne opzet en wanneer je een specialist inschakelt.",
-                            "author": { "@type": "Person", "name": "Amir Farahani" },
+                            "author": { "@type": "Organization", "name": "Empowers" },
                             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                             "datePublished": "2026-03-24T00:00:00+01:00",
                             "dateModified": "2026-03-24T00:00:00+01:00",

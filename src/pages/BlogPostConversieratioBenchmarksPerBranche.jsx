@@ -61,7 +61,8 @@ export default function BlogPostConversieratioBenchmarksPerBranche() {
                             "@type": "Organization",
                             "name": "Empowers"
                         },
-                        "datePublished": "2026-03-27T09:00:00Z",
+                        "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                        "datePublished": "2026-03-27T00:00:00+01:00",
                         "keywords": "conversieratio verbeteren, benchmarks, e-commerce, conversion rate optimization"
                     })}
                 </script>

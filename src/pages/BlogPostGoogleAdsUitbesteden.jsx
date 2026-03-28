@@ -52,22 +52,15 @@ export default function BlogPostGoogleAdsUitbesteden() {
                         "headline": "Google Ads uitbesteden: wanneer doe je het zelf en wanneer niet?",
                         "description": "Weet je niet of je Google Ads in-house beheer of uitbesteedt? Lees wanneer het rendabel is en wanneer je beter een specialist inhuurt.",
                         "image": "https://www.empowers.nl/images/blogs/google-ads-uitbesteden-wanneer-zelf.jpg",
-                        "datePublished": "2026-03-27",
-                        "dateModified": "2026-03-27",
-                        "author": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/logo.png"
-                            }
-                        },
+                        "datePublished": "2026-03-27T00:00:00+01:00",
+                        "dateModified": "2026-03-27T00:00:00+01:00",
+                        "author": { "@type": "Organization", "name": "Empowers" },
                         "publisher": {
                             "@type": "Organization",
                             "name": "Empowers",
                             "logo": {
                                 "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/logo.png"
+                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
                             }
                         }
                     })}

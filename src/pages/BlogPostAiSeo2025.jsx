@@ -46,17 +46,17 @@ export default function BlogPostAiSeo2025() {
             '@type': 'Article',
             headline: 'AI en SEO in 2026: hoe verandert kunstmatige intelligentie de zoekresultaten?',
             image: 'https://www.empowers.nl/images/blogs/ai-seo-2025-verandert-kunstmatige.jpg',
-            datePublished: '2026-03-23',
+            datePublished: '2026-03-23T00:00:00+01:00',
             author: {
               '@type': 'Organization',
-              name: 'Empowers Redactie'
+              name: 'Empowers'
             },
             publisher: {
               '@type': 'Organization',
               name: 'Empowers',
               logo: {
                 '@type': 'ImageObject',
-                url: 'https://www.empowers.nl/logo.png'
+                url: 'https://www.empowers.nl/empowers-logo-color.svg'
               }
             }
           })}

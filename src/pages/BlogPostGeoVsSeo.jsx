@@ -71,7 +71,7 @@ export default function BlogPostGeoVsSeo() {
                         "headline": "GEO vs SEO: wat is het verschil en heb je allebei nodig?",
                         "description": "GEO vs SEO: ontdek het verschil, wanneer je elk nodig hebt, en hoe je beide inzet voor lokale groei. Praktische gids voor servicebedrijven en shops.",
                         "image": "https://www.empowers.nl/images/blogs/geo-vs-seo-verschil-heb.jpg",
-                        "datePublished": "2026-03-14",
+                        "datePublished": "2026-03-14T00:00:00+01:00",
                         "author": {
                             "@type": "Organization",
                             "name": "Empowers",

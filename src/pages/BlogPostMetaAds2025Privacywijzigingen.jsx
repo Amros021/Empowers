@@ -49,10 +49,15 @@ export default function BlogPostMetaAds2025Privacywijzigingen() {
         headline: 'Meta Ads in 2026: wat werkt nog wél na alle privacywijzigingen?',
         description: 'Ontdek welke Meta Ads-strategieën werken in 2026 na de privacyveranderingen van Apple en EU. Lees hoe je succesvol adverteert zonder uitgebreide tracking.',
         image: '/images/blogs/meta-ads-2025-werkt-na.jpg',
-        datePublished: '2026-03-27',
+        datePublished: '2026-03-27T00:00:00+01:00',
         author: {
             '@type': 'Organization',
             name: 'Empowers'
+        },
+        publisher: {
+            '@type': 'Organization',
+            name: 'Empowers',
+            url: 'https://www.empowers.nl'
         }
     };
 
