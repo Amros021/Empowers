@@ -43,3 +43,8 @@ Allow: /
 
 # Sitemap
 Sitemap: https://www.empowers.nl/sitemap.xml
+
+# LLMs.txt
+# https://llmstxt.org/
+# Gestructureerde informatie voor AI-modellen over Empowers
+# Locatie: https://www.empowers.nl/llms.txt
