@@ -61,7 +61,7 @@ export default function Navbar() {
                 <div className="shrink-0 select-none flex items-center justify-start h-8 md:h-10 lg:h-10">
                     <Link
                         to="/"
-                        className={`flex items-center h-full origin-left transition-transform duration-500 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] ${!isScrolled && !isMobileMenuOpen ? 'scale-[1.35] md:scale-[1.3]' : 'scale-[1.125] md:scale-[0.85]'}`}
+                        className={`flex items-center h-full origin-left transition-transform duration-500 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] ${!isScrolled && !isMobileMenuOpen ? 'scale-[1.35] md:scale-[1.3]' : 'scale-[1.125] md:scale-[1]'}`}
                         onClick={() => setIsMobileMenuOpen(false)}
                     >
                         <img
