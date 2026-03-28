@@ -509,7 +509,7 @@ const dienstenData = [
     },
     {
         title: "Meta Ads",
-        description: <>Facebook en Instagram zijn de krachtigste platformen<br />om jouw ideale klant te bereiken. Wij bouwen campagnes<br />die niet alleen gezien worden, maar ook converteren.</>,
+        description: "Facebook en Instagram zijn de krachtigste platformen om jouw ideale klant te bereiken. Wij bouwen campagnes die niet alleen gezien worden, maar ook converteren.",
         AnimComponent: MetaAdsAnim,
         reversed: true,
         learnMoreLink: '/meta-ads'
@@ -530,7 +530,7 @@ const dienstenData = [
     },
     {
         title: <>SEO <span className="block font-mono text-sm uppercase tracking-widest text-primary/40 mt-1 font-normal">Search Engine Optimization</span></>,
-        description: <>Gevonden worden zonder te betalen per klik. Dat is<br />de kracht van SEO. Wij optimaliseren jouw website<br />zodat Google jou ziet als het meest relevante bedrijf<br />in jouw markt.</>,
+        description: "Gevonden worden zonder te betalen per klik. Dat is de kracht van SEO. Wij optimaliseren jouw website zodat Google jou ziet als het meest relevante bedrijf in jouw markt.",
         AnimComponent: SEOAnim,
         reversed: false,
         learnMoreLink: '/seo'
@@ -657,7 +657,7 @@ export default function Diensten() {
                     </div>
                     <div className="flex-1 lg:pb-4">
                         <p className="font-sans text-primary/70 text-lg md:text-xl max-w-lg leading-relaxed font-medium">
-                            Geen losse acties, maar een aanpak die klopt.<br />Wij combineren betaalde advertenties met<br className="hidden md:block" /> organische vindbaarheid zodat je op meerdere<br className="hidden md:block" /> plekken tegelijk zichtbaar bent.
+                            Geen losse acties, maar een aanpak die klopt. Wij combineren betaalde advertenties met<br className="hidden md:block" /> organische vindbaarheid zodat je op meerdere<br className="hidden md:block" /> plekken tegelijk zichtbaar bent.
                         </p>
                     </div>
                 </div>
