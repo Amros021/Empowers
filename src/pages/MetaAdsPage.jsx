@@ -219,6 +219,15 @@ export default function MetaAdsPage() {
                     "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                     "url": "https://www.empowers.nl/meta-ads"
                 })}</script>
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
+                        { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://www.empowers.nl/diensten" },
+                        { "@type": "ListItem", "position": 3, "name": "Meta Ads", "item": "https://www.empowers.nl/meta-ads" }
+                    ]
+                })}</script>
             </Helmet>
             <Navbar />
 
