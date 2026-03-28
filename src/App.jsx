@@ -39,6 +39,8 @@ import BlogPostGeoVsSeo from './pages/BlogPostGeoVsSeo';
 import BlogPostSeaUitbesteden from './pages/BlogPostSeaUitbesteden';
 import BlogPostB2bMarketingBureauVsZelf from './pages/BlogPostB2bMarketingBureauVsZelf';
 import BlogPostAiSeo2025 from './pages/BlogPostAiSeo2025';
+import BlogPostSeoUitbestedenZelfEerlijkAntwoord from './pages/BlogPostSeoUitbestedenZelfEerlijkAntwoord';
+import BlogPostKiesJuisteOnlineMarketingBureau from './pages/BlogPostKiesJuisteOnlineMarketingBureau';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -146,6 +148,8 @@ function App() {
         <Route path="/blogs/google-ads/sea-uitbesteden-weten-voordat-kiest" element={<BlogPostSeaUitbesteden />} />
         <Route path="/blogs/algemeen/b2b-marketing-bureau-vs-zelf" element={<BlogPostB2bMarketingBureauVsZelf />} />
         <Route path="/blogs/seo/ai-seo-2025-verandert-kunstmatige" element={<BlogPostAiSeo2025 />} />
+        <Route path="/blogs/seo/seo-uitbesteden-zelf-eerlijk-antwoord" element={<BlogPostSeoUitbestedenZelfEerlijkAntwoord />} />
+        <Route path="/blogs/algemeen/kies-juiste-online-marketing-bureau" element={<BlogPostKiesJuisteOnlineMarketingBureau />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
