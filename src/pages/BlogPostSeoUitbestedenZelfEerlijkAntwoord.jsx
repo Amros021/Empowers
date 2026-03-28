@@ -321,21 +321,6 @@ export default function BlogPostSeoUitbestedenZelfEerlijkAntwoord() {
                         </div>
                     </section>
 
-                    {/* Author Bio */}
-                    <section className="mt-16 pt-12 border-t border-primary/10">
-                        <div className="flex items-start gap-4">
-                            <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
-                                <User className="w-6 h-6 text-accent" />
-                            </div>
-                            <div>
-                                <h3 className="font-sans font-semibold text-primary text-lg mb-1">Geschreven door Amir Farahani</h3>
-                                <p className="font-sans text-primary/70 leading-relaxed">
-                                    Specialist online adverteren en SEO bij Empowers. Helpt MKB-bedrijven en webshops meer omzet halen uit hun marketingbudget via Google Ads, Meta Ads, TikTok, LinkedIn en SEO.
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-
                     {/* Related Links */}
                     <section className="mt-16 pt-12 border-t border-primary/10">
                         <h3 className="text-xl font-bold text-primary mb-6">Lees ook</h3>

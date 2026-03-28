@@ -298,9 +298,6 @@ export default function Nieuws() {
                         <span className="font-sans text-[11px] sm:text-sm font-semibold uppercase tracking-widest text-primary/60 whitespace-nowrap">
                             <span className="text-accent font-bold">{filtered.length}</span>
                             {' '}resultaten
-                            {isMobile && totalPages > 1 && (
-                                <span className="text-primary/40 font-normal normal-case tracking-normal"> · pagina {currentPage}/{totalPages}</span>
-                            )}
                         </span>
 
                         {/* Sort — alle schermen */}
