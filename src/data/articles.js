@@ -3,6 +3,28 @@
 
 const articles = [
     {
+        title:    'Hoe kies je het juiste online marketing bureau? 5 vragen die je moet stellen',
+        category: 'Algemeen',
+        date:     '28 mrt 2026',
+        dateTs:   new Date('2026-03-28').getTime(),
+        readTime: '7 min',
+        author:   'Empowers Redactie',
+        excerpt:  'Een online marketing bureau kiezen is lastig. Stel deze 5 vragen voordat je tekent. Lees waar je op let bij budget, specialisatie en rapportages.',
+        slug:     '/blogs/algemeen/kies-juiste-online-marketing-bureau',
+        image:    '/images/blogs/kies-juiste-online-marketing-bureau.jpg',
+    },
+    {
+        title:    'SEO uitbesteden of zelf doen? Een eerlijk antwoord',
+        category: 'SEO',
+        date:     '27 mrt 2026',
+        dateTs:   new Date('2026-03-27').getTime(),
+        readTime: '7 min',
+        author:   'Empowers Redactie',
+        excerpt:  'SEO uitbesteden kost 500 tot 2500 euro per maand. Zelf doen bespaart geld maar kost veel tijd. Lees wanneer uitbesteden slim is.',
+        slug:     '/blogs/seo/seo-uitbesteden-zelf-eerlijk-antwoord',
+        image:    '/images/blogs/seo-uitbesteden-zelf-eerlijk-antwoord.jpg',
+    },
+    {
         title:    'Hoe lang duurt SEO? Realistische verwachtingen voor nieuwe websites',
         category: 'SEO',
         date:     '27 mrt 2026',
