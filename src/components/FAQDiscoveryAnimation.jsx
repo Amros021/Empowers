@@ -5,12 +5,12 @@ import { HelpCircle, MessageSquare, Search } from "lucide-react";
 
 export const FAQDiscoveryAnimation = () => {
   return (
-    <div className="w-full flex items-center justify-center py-12">
+    <div className="w-full flex items-center justify-center py-6">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        className="relative w-full max-w-3xl aspect-[21/9] bg-white rounded-[32px] md:rounded-[48px] flex items-center justify-center overflow-hidden border border-primary/10"
+        className="relative w-full max-w-3xl mx-auto aspect-[21/9] bg-white rounded-[32px] md:rounded-[48px] flex items-center justify-center overflow-hidden border border-primary/10"
       >
         {/* Achtergrond Grid */}
         <div className="absolute inset-0 opacity-[0.03] pointer-events-none"
@@ -23,9 +23,9 @@ export const FAQDiscoveryAnimation = () => {
               boxShadow: ["0 0 20px rgba(214,90,49,0.05)", "0 0 40px rgba(214,90,49,0.15)", "0 0 20px rgba(214,90,49,0.05)"]
             }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-            className="relative z-20 w-20 h-20 md:w-32 md:h-32 rounded-full bg-white border border-[#373546]/10 flex items-center justify-center shadow-sm"
+            className="relative z-20 w-20 h-20 sm:w-28 sm:h-28 md:w-40 md:h-40 rounded-full bg-white border border-[#373546]/10 flex items-center justify-center shadow-sm"
           >
-            <Search className="text-[#D65A31] w-8 h-8 md:w-12 md:h-12" />
+            <Search className="text-[#D65A31] w-8 h-8 sm:w-10 sm:h-10 md:w-16 md:h-16" />
 
             {/* Pulserende Ringen */}
             <motion.div
@@ -63,9 +63,9 @@ export const FAQDiscoveryAnimation = () => {
                 delay: bubble.delay,
                 ease: "easeInOut"
               }}
-              className="absolute z-10 w-12 h-12 md:w-16 md:h-16 rounded-2xl bg-white border border-[#373546]/5 shadow-[0_10px_25px_rgba(55,53,70,0.05)] flex items-center justify-center"
+              className="absolute z-10 w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-2xl bg-white border border-[#373546]/5 shadow-[0_10px_25px_rgba(55,53,70,0.05)] flex items-center justify-center"
             >
-              <bubble.icon className="text-[#373546]/30 w-6 h-6 md:w-8 md:h-8" />
+              <bubble.icon className="text-[#373546]/30 w-6 h-6 sm:w-7 sm:h-7 md:w-10 md:h-10" />
             </motion.div>
           ))}
 
@@ -85,7 +85,7 @@ export const FAQDiscoveryAnimation = () => {
                 delay: Math.random() * 4,
                 ease: "easeIn"
               }}
-              className="absolute w-1.5 h-1.5 bg-[#D65A31]/40 rounded-full blur-[1px]"
+              className="absolute w-1.5 h-1.5 sm:w-2 sm:h-2 bg-[#D65A31]/40 rounded-full blur-[1px]"
             />
           ))}
         </div>
