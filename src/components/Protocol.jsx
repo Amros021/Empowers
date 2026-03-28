@@ -151,7 +151,7 @@ const steps = [
     {
         id: "01",
         title: "Analyse & Doelstelling",
-        description: <>We starten met een eerlijke analyse van waar je nu staat.<br />Wat werkt al, wat kost geld zonder resultaat en waar ligt de kans? Op basis daarvan stellen we concrete doelen op. Geen vage plannen, maar een duidelijke koers.</>,
+        description: "We starten met een eerlijke analyse van waar je nu staat. Wat werkt al, wat kost geld zonder resultaat en waar ligt de kans? Op basis daarvan stellen we concrete doelen op. Geen vage plannen, maar een duidelijke koers.",
         Animation: () => <RadarAnimation />
     },
     {
