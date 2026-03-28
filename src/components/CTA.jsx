@@ -10,11 +10,11 @@ export default function CTA() {
                 <div className="absolute bottom-0 left-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] translate-y-1/2 -translate-x-1/2" />
 
                 <div className="relative z-20 flex flex-col items-center">
-                    <span className="font-sans font-bold text-sm tracking-widest uppercase text-accent mb-6 bg-accent/10 px-4 py-1.5 rounded-full inline-block">
+                    <span className="font-sans font-bold text-xs uppercase tracking-widest text-accent mb-6 block">
                         KLAAR OM TE GROEIEN?
                     </span>
 
-                    <h2 className="font-drama italic text-background text-4xl sm:text-5xl md:text-7xl mb-6 sm:mb-8 leading-tight">
+                    <h2 className="font-drama italic text-background text-4xl sm:text-5xl md:text-6xl mb-6 sm:mb-8 leading-tight">
                         Jouw concurrentie staat niet stil. Jij ook niet.
                     </h2>
 
