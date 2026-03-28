@@ -313,19 +313,21 @@ export default function BlogPostMetaAds2025Privacywijzigingen() {
             </article>
 
             {/* CTA Section */}
-            <section className="bg-primary text-white py-16 px-6">
-                <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-4xl md:text-5xl font-sans font-bold mb-6">
+            <section className="bg-primary text-white py-16 px-6 relative overflow-hidden">
+                <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
+                <div className="absolute bottom-0 left-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] translate-y-1/2 -translate-x-1/2" />
+                <div className="max-w-4xl mx-auto text-center relative z-10">
+                    <h2 className="font-drama italic text-background text-3xl sm:text-4xl md:text-5xl mb-6">
                         Klaar voor je Meta Ads-strategie in 2026?
                     </h2>
-                    <p className="font-sans text-xl text-white/80 mb-10 leading-relaxed max-w-2xl mx-auto">
+                    <p className="font-sans text-background/70 text-lg mb-10 leading-relaxed max-w-2xl mx-auto">
                         Wij helpen je met setup, targeting en optimalisatie. Laten we je advertenties gewoon werken.
                     </p>
                     <Link
                         to="/contact"
-                        className="inline-block bg-accent text-primary font-sans font-bold px-8 py-4 rounded-lg hover:bg-accent/90 transition-colors"
+                        className="btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base sm:text-lg px-6 sm:px-10 py-3 sm:py-4 rounded-[2rem] hover:bg-accent/90 transition-colors"
                     >
-                        Neem Contact Op
+                        Plan een gratis gesprek
                     </Link>
                 </div>
             </section>

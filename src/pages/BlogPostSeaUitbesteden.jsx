@@ -303,19 +303,20 @@ const BlogPostSeaUitbesteden = () => {
         </article>
 
         {/* Bottom CTA Section */}
-        <section className="bg-primary rounded-[3rem] p-12 md:p-20 mx-4 md:mx-6 lg:mx-8 mb-12">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-background mb-6">
+        <section className="w-full py-20 px-6 bg-background">
+          <div className="max-w-4xl mx-auto bg-primary rounded-[3rem] p-12 md:p-20 text-center relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
+            <h2 className="relative z-10 font-drama italic text-background text-3xl sm:text-4xl md:text-5xl mb-6">
               Wil je meer leren over SEA?
             </h2>
-            <p className="text-lg text-background/80 mb-8">
+            <p className="relative z-10 font-sans text-background/70 text-lg mb-10 max-w-2xl mx-auto">
               We helpen bedrijven hun SEA-campagnes optimaal in te richten. Met een duidelijke strategie en voortdurende optimalisatie behalen we resultaten die tellen.
             </p>
             <Link
               to="/contact"
-              className="inline-block px-8 py-4 bg-accent text-primary font-semibold rounded-lg hover:bg-accent/90 transition-colors"
+              className="relative z-10 btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base sm:text-lg px-6 sm:px-10 py-3 sm:py-4 rounded-[2rem] hover:bg-accent/90 transition-colors"
             >
-              Kom in contact
+              Plan een gratis gesprek
             </Link>
           </div>
         </section>

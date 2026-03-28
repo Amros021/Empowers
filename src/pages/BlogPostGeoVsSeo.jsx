@@ -327,19 +327,20 @@ export default function BlogPostGeoVsSeo() {
             </article>
 
             {/* Bottom CTA Section */}
-            <section className="bg-primary rounded-[3rem] text-white py-20 px-6 mx-6 mb-12">
-                <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-4xl font-drama italic font-bold mb-6">
+            <section className="w-full py-20 px-6 bg-background">
+                <div className="max-w-4xl mx-auto bg-primary rounded-[3rem] p-12 md:p-20 text-center relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
+                    <h2 className="relative z-10 font-drama italic text-background text-3xl sm:text-4xl md:text-5xl mb-6">
                         GEO en SEO samen = meer klanten
                     </h2>
-                    <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
+                    <p className="relative z-10 font-sans text-background/70 text-lg mb-10 max-w-2xl mx-auto">
                         Start vandaag met GEO. Wij helpen je alles in te stellen, reviews binnen te halen, en SEO op gang brengen. Klanten vinden jou, niet andersom.
                     </p>
                     <Link
                         to="/contact"
-                        className="inline-block bg-accent text-dark font-bold px-8 py-4 rounded-full hover:bg-accent/90 transition-colors"
+                        className="relative z-10 btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base sm:text-lg px-6 sm:px-10 py-3 sm:py-4 rounded-[2rem] hover:bg-accent/90 transition-colors"
                     >
-                        Laten we beginnen
+                        Plan een gratis gesprek
                     </Link>
                 </div>
             </section>

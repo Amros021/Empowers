@@ -345,23 +345,19 @@ export default function BlogPostAiSeo2025() {
 
           {/* Bottom CTA */}
           <div className="max-w-4xl mx-auto bg-primary rounded-[3rem] p-12 md:p-20 text-center relative overflow-hidden my-16">
-            <div className="absolute top-0 left-0 w-40 h-40 bg-accent/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
-            <div className="absolute bottom-0 right-0 w-60 h-60 bg-accent/10 rounded-full translate-x-1/3 translate-y-1/3"></div>
-
-            <div className="relative z-10">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                Klaar om jouw SEO-strategie aan te passen?
-              </h2>
-              <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
-                Wij begrijpen hoe AI zoekmachines verandert. Onze strategie zorgt dat jouw expertise zichtbaar is voor Google en gebruikers. Laat jouw site groeien in het AI-era.
-              </p>
-              <Link
-                to="/contact"
-                className="inline-block px-8 py-4 bg-white text-primary rounded-lg font-bold hover:bg-white/90 transition-colors"
-              >
-                Neem contact op met Empowers
-              </Link>
-            </div>
+            <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
+            <h2 className="relative z-10 font-drama italic text-background text-3xl sm:text-4xl md:text-5xl mb-6">
+              Klaar om jouw SEO-strategie aan te passen?
+            </h2>
+            <p className="relative z-10 font-sans text-background/70 text-lg mb-10 max-w-2xl mx-auto">
+              Wij begrijpen hoe AI zoekmachines verandert. Onze strategie zorgt dat jouw expertise zichtbaar is voor Google en gebruikers. Laat jouw site groeien in het AI-era.
+            </p>
+            <Link
+              to="/contact"
+              className="relative z-10 btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base sm:text-lg px-6 sm:px-10 py-3 sm:py-4 rounded-[2rem] hover:bg-accent/90 transition-colors"
+            >
+              Plan een gratis gesprek
+            </Link>
           </div>
         </div>
       </article>
