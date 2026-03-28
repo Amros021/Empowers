@@ -185,7 +185,7 @@ function LinkedInAdsAnim() {
     }, []);
 
     return (
-        <div ref={containerRef} className="w-full h-full bg-[#F3F2EF] rounded-3xl p-5 flex flex-col gap-3 shadow-inner overflow-hidden relative">
+        <div ref={containerRef} className="w-full h-full bg-[#FAFAFA] rounded-3xl p-5 flex flex-col gap-3 shadow-inner overflow-hidden relative">
             {/* LinkedIn Header */}
             <div className="flex items-center gap-2">
                 <div className="w-6 h-6 rounded bg-[#0A66C2] flex items-center justify-center shrink-0">
@@ -280,7 +280,7 @@ function TikTokAdsAnim() {
     }, []);
 
     return (
-        <div ref={containerRef} className="w-full h-full bg-[#111] rounded-3xl p-4 flex items-center justify-center relative shadow-inner overflow-hidden">
+        <div ref={containerRef} className="w-full h-full bg-[#FAFAFA] rounded-3xl p-4 flex items-center justify-center relative shadow-inner overflow-hidden">
             {/* Phone Mockup outline */}
             <div className="w-[220px] h-[400px] bg-black rounded-[2rem] border-4 border-gray-800 relative shadow-lg overflow-hidden">
                 {/* Video Area */}
@@ -696,7 +696,7 @@ export default function Diensten() {
                                 </div>
 
                                 {/* Animation/Visual */}
-                                <div className="w-full lg:w-[45%] h-[350px] md:h-[400px] shrink-0">
+                                <div className="w-full lg:w-[45%] h-[460px] md:h-[400px] shrink-0">
                                     <AnimComponent />
                                 </div>
                             </div>
