@@ -41,6 +41,10 @@ import BlogPostB2bMarketingBureauVsZelf from './pages/BlogPostB2bMarketingBureau
 import BlogPostAiSeo2025 from './pages/BlogPostAiSeo2025';
 import BlogPostSeoUitbestedenZelfEerlijkAntwoord from './pages/BlogPostSeoUitbestedenZelfEerlijkAntwoord';
 import BlogPostKiesJuisteOnlineMarketingBureau from './pages/BlogPostKiesJuisteOnlineMarketingBureau';
+import BlogPostMetaAdsUitbesteden from './pages/BlogPostMetaAdsUitbesteden';
+import BlogPostSmartBiddingUitgelegd from './pages/BlogPostSmartBiddingUitgelegd';
+import BlogPostSeoMarketingBureauKiezen from './pages/BlogPostSeoMarketingBureauKiezen';
+import BlogPostAiZoekmachinesVsGoogle from './pages/BlogPostAiZoekmachinesVsGoogle';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -150,6 +154,10 @@ function App() {
         <Route path="/blogs/seo/ai-seo-2025-verandert-kunstmatige" element={<BlogPostAiSeo2025 />} />
         <Route path="/blogs/seo/seo-uitbesteden-zelf-eerlijk-antwoord" element={<BlogPostSeoUitbestedenZelfEerlijkAntwoord />} />
         <Route path="/blogs/algemeen/kies-juiste-online-marketing-bureau" element={<BlogPostKiesJuisteOnlineMarketingBureau />} />
+        <Route path="/blogs/social-ads/meta-ads-uitbesteden-bureau-jou" element={<BlogPostMetaAdsUitbesteden />} />
+        <Route path="/blogs/google-ads/smart-bidding-uitgelegd-wanneer-wanneer" element={<BlogPostSmartBiddingUitgelegd />} />
+        <Route path="/blogs/seo/seo-marketing-bureau-kiezen-waar" element={<BlogPostSeoMarketingBureauKiezen />} />
+        <Route path="/blogs/geo/ai-zoekmachines-vs-google-overal" element={<BlogPostAiZoekmachinesVsGoogle />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
