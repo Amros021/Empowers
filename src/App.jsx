@@ -45,6 +45,11 @@ import BlogPostMetaAdsUitbesteden from './pages/BlogPostMetaAdsUitbesteden';
 import BlogPostSmartBiddingUitgelegd from './pages/BlogPostSmartBiddingUitgelegd';
 import BlogPostSeoMarketingBureauKiezen from './pages/BlogPostSeoMarketingBureauKiezen';
 import BlogPostAiZoekmachinesVsGoogle from './pages/BlogPostAiZoekmachinesVsGoogle';
+import BlogPostLinkedInAdsBeginners from './pages/BlogPostLinkedInAdsBeginners';
+import BlogPostLinkedInAdverterenGoogleAds from './pages/BlogPostLinkedInAdverterenGoogleAds';
+import BlogPostLandingspaginaWaaromAnders from './pages/BlogPostLandingspaginaWaaromAnders';
+import BlogPostLandingspaginaSchrijvenConverteert from './pages/BlogPostLandingspaginaSchrijvenConverteert';
+import BlogPostAiGoogleAdsAdvertentietekstVerbeteren from './pages/BlogPostAiGoogleAdsAdvertentietekstVerbeteren';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -158,6 +163,11 @@ function App() {
         <Route path="/blogs/google-ads/smart-bidding-uitgelegd-wanneer-wanneer" element={<BlogPostSmartBiddingUitgelegd />} />
         <Route path="/blogs/seo/seo-marketing-bureau-kiezen-waar" element={<BlogPostSeoMarketingBureauKiezen />} />
         <Route path="/blogs/geo/ai-zoekmachines-vs-google-overal" element={<BlogPostAiZoekmachinesVsGoogle />} />
+        <Route path="/blogs/social-ads/linkedin-ads-beginners-eerste-b2b" element={<BlogPostLinkedInAdsBeginners />} />
+        <Route path="/blogs/social-ads/linkedin-adverteren-google-ads-werkt" element={<BlogPostLinkedInAdverterenGoogleAds />} />
+        <Route path="/blogs/strategie/landingspagina-waarom-hij-anders-homepage" element={<BlogPostLandingspaginaWaaromAnders />} />
+        <Route path="/blogs/strategie/landingspagina-schrijven-converteert" element={<BlogPostLandingspaginaSchrijvenConverteert />} />
+        <Route path="/blogs/google-ads/ai-google-ads-advertentietekst-verbeteren" element={<BlogPostAiGoogleAdsAdvertentietekstVerbeteren />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
