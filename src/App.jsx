@@ -50,6 +50,21 @@ import BlogPostLinkedInAdverterenGoogleAds from './pages/BlogPostLinkedInAdverte
 import BlogPostLandingspaginaWaaromAnders from './pages/BlogPostLandingspaginaWaaromAnders';
 import BlogPostLandingspaginaSchrijvenConverteert from './pages/BlogPostLandingspaginaSchrijvenConverteert';
 import BlogPostAiGoogleAdsAdvertentietekstVerbeteren from './pages/BlogPostAiGoogleAdsAdvertentietekstVerbeteren';
+import BlogPostLongTailKeywordsGoogleAds from './pages/BlogPostLongTailKeywordsGoogleAds';
+import BlogPostGoogleAdsQualityScoreVerhogen from './pages/BlogPostGoogleAdsQualityScoreVerhogen';
+import BlogPostRetargetingMetaAdsHaalVerloren from './pages/BlogPostRetargetingMetaAdsHaalVerloren';
+import BlogPostMeestVoorkomendeProblemenGoogleAds from './pages/BlogPostMeestVoorkomendeProblemenGoogleAds';
+import BlogPostWinnendeMetaAdsVideo2026 from './pages/BlogPostWinnendeMetaAdsVideo2026';
+import BlogPostLinkedInSponsoredContentVsMessage from './pages/BlogPostLinkedInSponsoredContentVsMessage';
+import BlogPostContentStructurerenAi from './pages/BlogPostContentStructurerenAi';
+import BlogPostMeetRoiGoogleAdsCampagne from './pages/BlogPostMeetRoiGoogleAdsCampagne';
+import BlogPostVerlaagCpcGoogleAdsMinder from './pages/BlogPostVerlaagCpcGoogleAdsMinder';
+import BlogPostTikTokAdverterenViralTeHoeven from './pages/BlogPostTikTokAdverterenViralTeHoeven';
+import BlogPostMetaAdsWebshopsVerhoogOmzet from './pages/BlogPostMetaAdsWebshopsVerhoogOmzet';
+import BlogPostOffPageSeo from './pages/BlogPostOffPageSeo';
+import BlogPostNegatieveZoekwoordenGoogleAds from './pages/BlogPostNegatieveZoekwoordenGoogleAds';
+import BlogPostSchrijfContentAiToolsCiteren from './pages/BlogPostSchrijfContentAiToolsCiteren';
+import BlogPostGoogleAdsDisplayVsSearch from './pages/BlogPostGoogleAdsDisplayVsSearch';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -168,6 +183,21 @@ function App() {
         <Route path="/blogs/strategie/landingspagina-waarom-hij-anders-homepage" element={<BlogPostLandingspaginaWaaromAnders />} />
         <Route path="/blogs/strategie/landingspagina-schrijven-converteert" element={<BlogPostLandingspaginaSchrijvenConverteert />} />
         <Route path="/blogs/google-ads/ai-google-ads-advertentietekst-verbeteren" element={<BlogPostAiGoogleAdsAdvertentietekstVerbeteren />} />
+        <Route path="/blogs/google-ads/long-tail-keywords-google-ads" element={<BlogPostLongTailKeywordsGoogleAds />} />
+        <Route path="/blogs/google-ads/google-ads-quality-score-verhogen" element={<BlogPostGoogleAdsQualityScoreVerhogen />} />
+        <Route path="/blogs/social-ads/retargeting-meta-ads-haal-verloren" element={<BlogPostRetargetingMetaAdsHaalVerloren />} />
+        <Route path="/blogs/google-ads/meest-voorkomende-problemen-google-ads" element={<BlogPostMeestVoorkomendeProblemenGoogleAds />} />
+        <Route path="/blogs/social-ads/winnende-meta-ads-video-2026" element={<BlogPostWinnendeMetaAdsVideo2026 />} />
+        <Route path="/blogs/social-ads/linkedin-sponsored-content-vs-message" element={<BlogPostLinkedInSponsoredContentVsMessage />} />
+        <Route path="/blogs/geo/content-structureren-ai" element={<BlogPostContentStructurerenAi />} />
+        <Route path="/blogs/google-ads/meet-roi-google-ads-campagne" element={<BlogPostMeetRoiGoogleAdsCampagne />} />
+        <Route path="/blogs/google-ads/verlaag-cpc-google-ads-minder" element={<BlogPostVerlaagCpcGoogleAdsMinder />} />
+        <Route path="/blogs/social-ads/tiktok-adverteren-viral-te-hoeven" element={<BlogPostTikTokAdverterenViralTeHoeven />} />
+        <Route path="/blogs/social-ads/meta-ads-webshops-verhoog-omzet" element={<BlogPostMetaAdsWebshopsVerhoogOmzet />} />
+        <Route path="/blogs/seo/off-page-seo" element={<BlogPostOffPageSeo />} />
+        <Route path="/blogs/google-ads/negatieve-zoekwoorden-google-ads" element={<BlogPostNegatieveZoekwoordenGoogleAds />} />
+        <Route path="/blogs/geo/schrijf-content-ai-tools-citeren" element={<BlogPostSchrijfContentAiToolsCiteren />} />
+        <Route path="/blogs/google-ads/google-ads-display-vs-search" element={<BlogPostGoogleAdsDisplayVsSearch />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
