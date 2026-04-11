@@ -233,7 +233,7 @@ export default function BlogPostWinnendeMetaAdsVideo2026() {
                             De meest voorkomende fout die we zien: bureaus leveren drie compleet verschillende video's en noemen dat een test. Daarmee weet je aan het eind niks. Beter is het om één video te maken en er drie verschillende openingen voor te schieten. Zelfde middenstuk, zelfde CTA, andere hook.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Zo weet je binnen drie dagen welke opening stopt en welke niet. De winnende hook schaal je op, de andere twee ga je verfijnen. Dat is hoe je structureel lagere CPA's krijgt in plaats van af en toe een geluksvariant. Lees ook onze tips over <Link to="/blogs/social-ads/meta-ads-2026-werkt-na" className="text-accent hover:underline">wat werkt in Meta Ads na de privacywijzigingen</Link>.
+                            Zo weet je binnen drie dagen welke opening stopt en welke niet. De winnende hook schaal je op, de andere twee ga je verfijnen. Dat is hoe je structureel lagere CPA's krijgt in plaats van af en toe een geluksvariant. Lees ook onze tips over <Link to="/blogs/social-ads/meta-ads-2025-werkt-na" className="text-accent hover:underline">wat werkt in Meta Ads na de privacywijzigingen</Link>.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Regel 7: Hou de lengte kort</h2>
@@ -308,7 +308,7 @@ export default function BlogPostWinnendeMetaAdsVideo2026() {
                     <section className="mt-16 pt-12 border-t border-primary/10">
                         <h3 className="text-xl font-bold text-primary mb-6">Lees ook</h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <Link to="/blogs/social-ads/meta-ads-2026-werkt-na" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/social-ads/meta-ads-2025-werkt-na" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Meta Ads in 2026</h3>
                                 <p className="text-primary/60 text-sm">Wat werkt er nog na alle privacywijzigingen?</p>
                             </Link>

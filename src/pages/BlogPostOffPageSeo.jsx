@@ -258,7 +258,7 @@ export default function BlogPostOffPageSeo() {
 
                         <h3 className="text-xl font-semibold text-primary mt-10 mb-4">Lokale vermeldingen en NAW-consistentie</h3>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Je bedrijfsnaam, adres en telefoonnummer moeten op elke website identiek zijn. Inconsistenties verwarren Google. Zorg dat je gegevens kloppen op Google Bedrijfsprofiel, Yelp, de Kamer van Koophandel, branchegidsen en je eigen website. Dit is de basis van <Link to="/blogs/seo/lokale-seo-mkb-word-gevonden" className="text-accent hover:underline">lokale SEO</Link>.
+                            Je bedrijfsnaam, adres en telefoonnummer moeten op elke website identiek zijn. Inconsistenties verwarren Google. Zorg dat je gegevens kloppen op Google Bedrijfsprofiel, Yelp, de Kamer van Koophandel, branchegidsen en je eigen website. Dit is de basis van <Link to="/blogs/seo/seo-voor-mkb-google-positie-verbeteren" className="text-accent hover:underline">lokale SEO</Link>.
                         </p>
 
                         <h3 className="text-xl font-semibold text-primary mt-10 mb-4">Social signals</h3>
@@ -344,7 +344,7 @@ export default function BlogPostOffPageSeo() {
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Technische SEO checklist 2026</h3>
                                 <p className="text-primary/60 text-sm">Alles wat je website nodig heeft voor een sterke technische basis.</p>
                             </Link>
-                            <Link to="/blogs/seo/lokale-seo-mkb-word-gevonden" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/seo/seo-voor-mkb-google-positie-verbeteren" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Lokale SEO voor MKB</h3>
                                 <p className="text-primary/60 text-sm">Zo word je gevonden door klanten in jouw regio.</p>
                             </Link>

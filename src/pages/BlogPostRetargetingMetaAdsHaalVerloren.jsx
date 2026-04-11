@@ -209,7 +209,7 @@ export default function BlogPostRetargetingMetaAdsHaalVerloren() {
                             Zonder tracking geen retargeting. Meta moet weten wie er op welke pagina kwam, hoe lang ze bleven en of ze iets deden. De Meta Pixel is daarvoor de basis: een stukje code dat browsergedrag doorgeeft aan Meta. Sinds iOS 14.5 mist die Pixel echter een groot deel van de iPhone-bezoekers, vooral op Safari.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            De oplossing is de Conversions API. Die werkt server-side en stuurt gebeurtenissen rechtstreeks vanaf jouw server naar Meta, zonder afhankelijk te zijn van de browser. Beide tegelijk gebruiken is tegenwoordig standaard. Lees onze gids <Link to="/blogs/social-ads/meta-pixel-instellen-stap-voor-stap" className="text-accent hover:underline">Meta Pixel instellen stap voor stap</Link> als je vanaf nul begint.
+                            De oplossing is de Conversions API. Die werkt server-side en stuurt gebeurtenissen rechtstreeks vanaf jouw server naar Meta, zonder afhankelijk te zijn van de browser. Beide tegelijk gebruiken is tegenwoordig standaard. Lees onze gids <Link to="/blogs/social-ads/meta-pixel-instellen-stap-stap" className="text-accent hover:underline">Meta Pixel instellen stap voor stap</Link> als je vanaf nul begint.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 2: De juiste doelgroepen bouwen</h2>
@@ -225,7 +225,7 @@ export default function BlogPostRetargetingMetaAdsHaalVerloren() {
                             Hier gaan de meeste adverteerders de mist in. Ze tonen aan retargeting-bezoekers exact dezelfde advertentie als aan koude prospects. Resultaat: advertentiemoeheid, irritatie en dalende CTR. Een warme doelgroep verdient een ander verhaal. Geen generieke productshots, maar creatives die aansluiten op waar de bezoeker in het aankooptraject stond.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Werk met drie soorten creatives. Een variant die een concrete reden geeft om terug te komen, bijvoorbeeld een review of een korting. Een variant die een twijfel wegneemt, zoals gratis retourneren of 14 dagen bedenktijd. En een variant die sociale bewijskracht toont, zoals klantverhalen of bekende merken die je al bedienen. Rouleer ze elke twee weken. Lees ook <Link to="/blogs/social-ads/facebook-vs-instagram-adverteren" className="text-accent hover:underline">op welk platform je welke creative het beste kunt inzetten</Link>.
+                            Werk met drie soorten creatives. Een variant die een concrete reden geeft om terug te komen, bijvoorbeeld een review of een korting. Een variant die een twijfel wegneemt, zoals gratis retourneren of 14 dagen bedenktijd. En een variant die sociale bewijskracht toont, zoals klantverhalen of bekende merken die je al bedienen. Rouleer ze elke twee weken. Lees ook <Link to="/blogs/social-ads/facebook-vs-instagram-adverteren-welk" className="text-accent hover:underline">op welk platform je welke creative het beste kunt inzetten</Link>.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Stap 4: Frequentie bewaken en converters uitsluiten</h2>
@@ -308,7 +308,7 @@ export default function BlogPostRetargetingMetaAdsHaalVerloren() {
                     <section className="mt-16 pt-12 border-t border-primary/10">
                         <h3 className="text-xl font-bold text-primary mb-6">Lees ook</h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <Link to="/blogs/social-ads/meta-pixel-instellen-stap-voor-stap" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/social-ads/meta-pixel-instellen-stap-stap" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Meta Pixel instellen</h3>
                                 <p className="text-primary/60 text-sm">Stap voor stap naar een werkende tracking basis.</p>
                             </Link>
@@ -316,7 +316,7 @@ export default function BlogPostRetargetingMetaAdsHaalVerloren() {
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Lookalike audiences</h3>
                                 <p className="text-primary/60 text-sm">Vind nieuwe klanten die lijken op je beste kopers.</p>
                             </Link>
-                            <Link to="/blogs/social-ads/facebook-vs-instagram-adverteren" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/social-ads/facebook-vs-instagram-adverteren-welk" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Facebook vs Instagram</h3>
                                 <p className="text-primary/60 text-sm">Op welk platform moet je adverteren?</p>
                             </Link>

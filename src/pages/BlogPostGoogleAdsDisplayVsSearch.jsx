@@ -207,7 +207,7 @@ export default function BlogPostGoogleAdsDisplayVsSearch() {
                             Bij onze klanten zien we dat Search-campagnes gemiddeld een conversieratio halen van 3 tot 5 procent. Bij goed ingestelde campagnes in nichemarkten halen we soms 8 tot 12 procent. De reden is simpel: je toont je advertentie op het exacte moment dat iemand jouw oplossing zoekt. Die timing is goud waard.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Search werkt minder goed als niemand zoekt naar jouw product. Stel dat je een compleet nieuw type softwaretool lanceert. Er is nog geen zoekvolume. Dan heeft Search weinig zin, want er zijn geen zoekopdrachten om op te bieden. In dat geval is Display de betere keuze om bekendheid te genereren. Wil je meer weten over hoe je <Link to="/blogs/google-ads/schrijf-google-ads-advertentie-geklikt" className="text-accent hover:underline">een sterke Search-advertentie schrijft</Link>? We hebben daar een apart artikel over.
+                            Search werkt minder goed als niemand zoekt naar jouw product. Stel dat je een compleet nieuw type softwaretool lanceert. Er is nog geen zoekvolume. Dan heeft Search weinig zin, want er zijn geen zoekopdrachten om op te bieden. In dat geval is Display de betere keuze om bekendheid te genereren. Wil je meer weten over hoe je <Link to="/blogs/google-ads/google-ads-quality-score-verhogen" className="text-accent hover:underline">je Quality Score verhoogt en betere Search-resultaten haalt</Link>? We hebben daar een apart artikel over.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wanneer kies je voor Display-campagnes?</h2>

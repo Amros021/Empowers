@@ -225,7 +225,7 @@ export default function BlogPostLinkedInSponsoredContentVsMessage() {
                             Kies Sponsored Content als je een grote doelgroep wilt bereiken, merkherkenning wilt opbouwen of een laagdrempelige conversie wilt afdwingen zoals een whitepaper download, webinar aanmelding of gratis tool. Het werkt ook heel goed als retargeting-kanaal: mensen die je website al bezochten of je posts eerder zagen reageren sneller en voor een lagere prijs.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Voorbeeld uit de praktijk: een SaaS-bedrijf dat we begeleidden haalde met een single image Sponsored Content campagne op een whitepaper 340 gekwalificeerde leads binnen in acht weken, tegen 72 euro per lead. Dezelfde doelgroep bereiken met cold outreach had hen het drievoudige gekost. Lees onze gids over <Link to="/blogs/social-ads/linkedin-lead-gen-forms-waarom" className="text-accent hover:underline">LinkedIn Lead Gen Forms</Link> als je direct met Sponsored Content wilt beginnen.
+                            Voorbeeld uit de praktijk: een SaaS-bedrijf dat we begeleidden haalde met een single image Sponsored Content campagne op een whitepaper 340 gekwalificeerde leads binnen in acht weken, tegen 72 euro per lead. Dezelfde doelgroep bereiken met cold outreach had hen het drievoudige gekost. Lees onze gids over <Link to="/blogs/social-ads/linkedin-ads-beginners-eerste-b2b" className="text-accent hover:underline">LinkedIn Lead Gen Forms</Link> als je direct met Sponsored Content wilt beginnen.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wanneer kies je voor Message Ads?</h2>
@@ -233,7 +233,7 @@ export default function BlogPostLinkedInSponsoredContentVsMessage() {
                             Message Ads zijn op hun best als je een scherpe, kleine doelgroep hebt en een concrete uitnodiging in de aanbieding. Denk aan een gesprek met een HR-directeur van organisaties met meer dan 250 medewerkers, of een demo voor inkopers in de maakindustrie. Heb je een doelgroep van onder de 10.000 mensen en iets relevants te melden, dan is dit het format waar je iets bijzonders mee doet.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            De kunst zit in het bericht zelf. Schrijf geen algemene marketing tekst. Schrijf alsof je één iemand aanspreekt, noem een herkenbaar probleem en zet één concrete actie neer. Drie regels tekst is vaak genoeg. Hoe langer je bericht, hoe lager de response. Kijk ook naar <Link to="/blogs/social-ads/linkedin-ads-beginners" className="text-accent hover:underline">onze LinkedIn Ads beginnersgids</Link> voor de basis van je accountstructuur.
+                            De kunst zit in het bericht zelf. Schrijf geen algemene marketing tekst. Schrijf alsof je één iemand aanspreekt, noem een herkenbaar probleem en zet één concrete actie neer. Drie regels tekst is vaak genoeg. Hoe langer je bericht, hoe lager de response. Kijk ook naar <Link to="/blogs/social-ads/linkedin-ads-beginners-eerste-b2b" className="text-accent hover:underline">onze LinkedIn Ads beginnersgids</Link> voor de basis van je accountstructuur.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">De combinatie die het beste werkt</h2>
@@ -308,15 +308,15 @@ export default function BlogPostLinkedInSponsoredContentVsMessage() {
                     <section className="mt-16 pt-12 border-t border-primary/10">
                         <h3 className="text-xl font-bold text-primary mb-6">Lees ook</h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <Link to="/blogs/social-ads/linkedin-ads-beginners" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/social-ads/linkedin-ads-beginners-eerste-b2b" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">LinkedIn Ads voor beginners</h3>
                                 <p className="text-primary/60 text-sm">Zo zet je je eerste LinkedIn campagne op.</p>
                             </Link>
-                            <Link to="/blogs/social-ads/linkedin-lead-gen-forms-waarom" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/social-ads/linkedin-ads-beginners-eerste-b2b" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">LinkedIn Lead Gen Forms</h3>
                                 <p className="text-primary/60 text-sm">Waarom ze beter converteren dan een website.</p>
                             </Link>
-                            <Link to="/blogs/social-ads/linkedin-adverteren-google-ads" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/social-ads/linkedin-adverteren-google-ads-werkt" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">LinkedIn vs Google Ads</h3>
                                 <p className="text-primary/60 text-sm">Welk platform past bij jouw B2B bedrijf?</p>
                             </Link>
