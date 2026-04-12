@@ -65,6 +65,9 @@ import BlogPostOffPageSeo from './pages/BlogPostOffPageSeo';
 import BlogPostNegatieveZoekwoordenGoogleAds from './pages/BlogPostNegatieveZoekwoordenGoogleAds';
 import BlogPostSchrijfContentAiToolsCiteren from './pages/BlogPostSchrijfContentAiToolsCiteren';
 import BlogPostGoogleAdsDisplayVsSearch from './pages/BlogPostGoogleAdsDisplayVsSearch';
+import BlogPostTikTokSparkAdsVsReguliere from './pages/BlogPostTikTokSparkAdsVsReguliere';
+import BlogPostGoogleAdsLokaleBedrijven from './pages/BlogPostGoogleAdsLokaleBedrijven';
+import BlogPostSchrijfGoogleAdsAdvertentieGeklikt from './pages/BlogPostSchrijfGoogleAdsAdvertentieGeklikt';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -198,6 +201,9 @@ function App() {
         <Route path="/blogs/google-ads/negatieve-zoekwoorden-google-ads" element={<BlogPostNegatieveZoekwoordenGoogleAds />} />
         <Route path="/blogs/geo/schrijf-content-ai-tools-citeren" element={<BlogPostSchrijfContentAiToolsCiteren />} />
         <Route path="/blogs/google-ads/google-ads-display-vs-search" element={<BlogPostGoogleAdsDisplayVsSearch />} />
+        <Route path="/blogs/social-ads/tiktok-spark-ads-vs-reguliere" element={<BlogPostTikTokSparkAdsVsReguliere />} />
+        <Route path="/blogs/google-ads/google-ads-lokale-bedrijven" element={<BlogPostGoogleAdsLokaleBedrijven />} />
+        <Route path="/blogs/google-ads/schrijf-google-ads-advertentie-geklikt" element={<BlogPostSchrijfGoogleAdsAdvertentieGeklikt />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
