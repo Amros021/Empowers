@@ -68,6 +68,13 @@ import BlogPostGoogleAdsDisplayVsSearch from './pages/BlogPostGoogleAdsDisplayVs
 import BlogPostTikTokSparkAdsVsReguliere from './pages/BlogPostTikTokSparkAdsVsReguliere';
 import BlogPostGoogleAdsLokaleBedrijven from './pages/BlogPostGoogleAdsLokaleBedrijven';
 import BlogPostSchrijfGoogleAdsAdvertentieGeklikt from './pages/BlogPostSchrijfGoogleAdsAdvertentieGeklikt';
+import BlogPostGoedeCtrGoogleAdsBenchmarks from './pages/BlogPostGoedeCtrGoogleAdsBenchmarks';
+import BlogPostMetaAdsDoelgroepenInstellen from './pages/BlogPostMetaAdsDoelgroepenInstellen';
+import BlogPostBacklinksOpbouwen from './pages/BlogPostBacklinksOpbouwen';
+import BlogPostGoogleAdsCommerceVerhoogRoas from './pages/BlogPostGoogleAdsCommerceVerhoogRoas';
+import BlogPostPerformanceMaxGoogleAdsWeten from './pages/BlogPostPerformanceMaxGoogleAdsWeten';
+import BlogPostGoogleAdsCampagneStructuur from './pages/BlogPostGoogleAdsCampagneStructuur';
+import BlogPostLinkedInLeadGenFormsWaarom from './pages/BlogPostLinkedInLeadGenFormsWaarom';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -204,6 +211,13 @@ function App() {
         <Route path="/blogs/social-ads/tiktok-spark-ads-vs-reguliere" element={<BlogPostTikTokSparkAdsVsReguliere />} />
         <Route path="/blogs/google-ads/google-ads-lokale-bedrijven" element={<BlogPostGoogleAdsLokaleBedrijven />} />
         <Route path="/blogs/google-ads/schrijf-google-ads-advertentie-geklikt" element={<BlogPostSchrijfGoogleAdsAdvertentieGeklikt />} />
+        <Route path="/blogs/google-ads/goede-ctr-google-ads-benchmarks" element={<BlogPostGoedeCtrGoogleAdsBenchmarks />} />
+        <Route path="/blogs/social-ads/meta-ads-doelgroepen" element={<BlogPostMetaAdsDoelgroepenInstellen />} />
+        <Route path="/blogs/seo/backlinks-opbouwen" element={<BlogPostBacklinksOpbouwen />} />
+        <Route path="/blogs/google-ads/google-ads-commerce-verhoog-roas" element={<BlogPostGoogleAdsCommerceVerhoogRoas />} />
+        <Route path="/blogs/google-ads/performance-max-google-ads-weten" element={<BlogPostPerformanceMaxGoogleAdsWeten />} />
+        <Route path="/blogs/google-ads/google-ads-campagne-structuur" element={<BlogPostGoogleAdsCampagneStructuur />} />
+        <Route path="/blogs/social-ads/linkedin-lead-gen-forms-waarom" element={<BlogPostLinkedInLeadGenFormsWaarom />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
