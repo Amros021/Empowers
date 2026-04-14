@@ -258,7 +258,7 @@ export default function BlogPostPerformanceMaxGoogleAdsWeten() {
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Campagnestructuur uitgelegd</h3>
                                 <p className="text-primary/60 text-sm">Hoe je een Google Ads account opbouwt.</p>
                             </Link>
-                            <Link to="/blogs/google-ads/handmatig-vs-slim-bieden-google-ads" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/google-ads/smart-bidding-uitgelegd-wanneer-wanneer" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Handmatig vs slim bieden</h3>
                                 <p className="text-primary/60 text-sm">Welke biedstrategie past bij jou?</p>
                             </Link>

@@ -180,6 +180,7 @@ export default function BlogPostGoogleAdsCommerceVerhoogRoas() {
                             Zodra je bewezen winstgevendheid hebt, zet je een PMax-campagne naast je Shopping om te schalen. Gebruik asset groups per productcategorie en stuur op Target ROAS. Meer over hoe PMax werkt lees je in onze <Link to="/blogs/google-ads/performance-max-google-ads-weten" className="text-accent hover:underline">blog over Performance Max</Link>.
                         </p>
 
+
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">De product feed als grootste hefboom</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Je feed bepaalt meer dan je biedingen. Google gebruikt titels, beschrijvingen en attributen om te matchen met zoekopdrachten. Een slordige feed verbrandt budget, een geoptimaliseerde feed verdubbelt je ROAS zonder extra uitgaven.
@@ -193,7 +194,7 @@ export default function BlogPostGoogleAdsCommerceVerhoogRoas() {
                             Target ROAS en Maximize Conversion Value werken alleen met voldoende data. Onder de 30 conversies per maand presteren ze wispelturig. Start met Maximize Clicks of handmatig bieden, totdat je stabiele conversies hebt. Daarna schakel je over.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Stel je ROAS-target realistisch in. Start op je huidige gemiddelde, niet op een ambitieus getal. Verhoog in stapjes van 10 procent, wacht twee weken en meet. Te agressief optimaliseren krimpt je volume en haalt je uit de veiling. Meer over biedstrategieën vind je in onze <Link to="/blogs/google-ads/handmatig-vs-slim-bieden-google-ads" className="text-accent hover:underline">blog over handmatig vs slim bieden</Link>.
+                            Stel je ROAS-target realistisch in. Start op je huidige gemiddelde, niet op een ambitieus getal. Verhoog in stapjes van 10 procent, wacht twee weken en meet. Te agressief optimaliseren krimpt je volume en haalt je uit de veiling. Meer over biedstrategieën vind je in onze <Link to="/blogs/google-ads/smart-bidding-uitgelegd-wanneer-wanneer" className="text-accent hover:underline">blog over handmatig vs slim bieden</Link>.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Conversiewaarde goed doormeten</h2>
@@ -254,7 +255,7 @@ export default function BlogPostGoogleAdsCommerceVerhoogRoas() {
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Campagnestructuur in Google Ads</h3>
                                 <p className="text-primary/60 text-sm">Hoe je een account opbouwt dat schaalt.</p>
                             </Link>
-                            <Link to="/blogs/google-ads/handmatig-vs-slim-bieden-google-ads" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/google-ads/smart-bidding-uitgelegd-wanneer-wanneer" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Handmatig vs slim bieden</h3>
                                 <p className="text-primary/60 text-sm">Welke biedstrategie past bij jou?</p>
                             </Link>

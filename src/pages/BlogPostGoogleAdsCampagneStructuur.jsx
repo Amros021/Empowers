@@ -185,7 +185,7 @@ export default function BlogPostGoogleAdsCampagneStructuur() {
                             Elke advertentiegroep moet één duidelijk thema hebben. Dat zorgt ervoor dat je advertentie precies past bij de zoekopdracht en je Quality Score hoog blijft. Vuistregel: 5 tot 15 nauw verwante zoekwoorden per groep.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Single Keyword Ad Groups waren jaren populair, maar sinds Google match types heeft verruimd leveren ze zelden nog grip op. Moderne thema-advertentiegroepen met goed geschreven responsieve zoekadvertenties werken in 2026 beter. Voor meer details lees onze <Link to="/blogs/google-ads/kwaliteitsscore-verbeteren" className="text-accent hover:underline">blog over Quality Score</Link>.
+                            Single Keyword Ad Groups waren jaren populair, maar sinds Google match types heeft verruimd leveren ze zelden nog grip op. Moderne thema-advertentiegroepen met goed geschreven responsieve zoekadvertenties werken in 2026 beter. Voor meer details lees onze <Link to="/blogs/google-ads/google-ads-quality-score-verhogen" className="text-accent hover:underline">blog over Quality Score</Link>.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Campagnes splitsen: wanneer wel, wanneer niet</h2>
@@ -251,7 +251,7 @@ export default function BlogPostGoogleAdsCampagneStructuur() {
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Google Ads voor e-commerce</h3>
                                 <p className="text-primary/60 text-sm">ROAS verhogen als webshop.</p>
                             </Link>
-                            <Link to="/blogs/google-ads/handmatig-vs-slim-bieden-google-ads" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/google-ads/smart-bidding-uitgelegd-wanneer-wanneer" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Handmatig vs slim bieden</h3>
                                 <p className="text-primary/60 text-sm">Welke biedstrategie past bij jou?</p>
                             </Link>

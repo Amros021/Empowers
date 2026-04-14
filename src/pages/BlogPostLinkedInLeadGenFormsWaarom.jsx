@@ -196,7 +196,7 @@ export default function BlogPostLinkedInLeadGenFormsWaarom() {
                             Schrijf een heldere advertentie die precies uitlegt wat de lead krijgt en wat er van hem of haar wordt verwacht. Gebruik custom vragen om de echt geïnteresseerden te scheiden van de verzamelaars. En zorg voor een strakke follow-up: binnen 24 uur contact opnemen verdubbelt je conversie van lead naar klant.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Meer over hoe je LinkedIn-campagnes opbouwt lees je in onze <Link to="/blogs/social-ads/linkedin-ads-hoge-cpc-slim-omgaan" className="text-accent hover:underline">blog over LinkedIn Ads en CPC</Link>.
+                            Meer over hoe je LinkedIn-campagnes opbouwt lees je in onze <Link to="/blogs/social-ads/linkedin-adverteren-google-ads-werkt" className="text-accent hover:underline">blog over LinkedIn vs Google Ads</Link>.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat je als eerste zou moeten testen</h2>
@@ -241,17 +241,17 @@ export default function BlogPostLinkedInLeadGenFormsWaarom() {
                     <section className="mt-16 pt-12 border-t border-primary/10">
                         <h3 className="text-xl font-bold text-primary mb-6">Lees ook</h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <Link to="/blogs/social-ads/linkedin-ads-hoge-cpc-slim-omgaan" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
-                                <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">LinkedIn Ads en hoge CPC</h3>
-                                <p className="text-primary/60 text-sm">Hoe je slim omgaat met dure clicks.</p>
+                            <Link to="/blogs/social-ads/linkedin-adverteren-google-ads-werkt" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                                <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">LinkedIn vs Google Ads</h3>
+                                <p className="text-primary/60 text-sm">LinkedIn vs Google: wat werkt wanneer?</p>
                             </Link>
                             <Link to="/blogs/social-ads/meta-ads-doelgroepen" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Meta Ads doelgroepen</h3>
                                 <p className="text-primary/60 text-sm">Hoe je de juiste mensen bereikt.</p>
                             </Link>
-                            <Link to="/blogs/social-ads/advertenties-die-niet-werken-social-media" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
-                                <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Social ads die niet werken</h3>
-                                <p className="text-primary/60 text-sm">De meest gemaakte fouten.</p>
+                            <Link to="/blogs/social-ads/waarom-meta-ads-niet-converteren" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                                <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Waarom Meta Ads niet converteren</h3>
+                                <p className="text-primary/60 text-sm">Waarom Meta Ads soms tegenvallen.</p>
                             </Link>
                         </div>
                     </section>

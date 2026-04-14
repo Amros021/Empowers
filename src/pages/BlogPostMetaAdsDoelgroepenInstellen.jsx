@@ -196,7 +196,7 @@ export default function BlogPostMetaAdsDoelgroepenInstellen() {
                             In de praktijk zien we dat de juiste doelgroep de kosten per conversie kan halveren. Twee campagnes met identieke creatives en hetzelfde budget kunnen totaal verschillende resultaten geven, alleen door de doelgroep. Dat is de hefboom waar de meeste adverteerders te weinig aandacht aan besteden.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Sinds de privacywijzigingen op iOS en in Europa is doelgroep-targeting bovendien lastiger geworden. Veel oude tactieken werken niet meer. Maar er zijn ook nieuwe mogelijkheden bijgekomen die slimmer omgaan met data. Meer over deze veranderingen lees je in onze <Link to="/blogs/social-ads/meta-ads-2026-werkt-na" className="text-accent hover:underline">blog over Meta Ads in 2026</Link>.
+                            Sinds de privacywijzigingen op iOS en in Europa is doelgroep-targeting bovendien lastiger geworden. Veel oude tactieken werken niet meer. Maar er zijn ook nieuwe mogelijkheden bijgekomen die slimmer omgaan met data. Meer over deze veranderingen lees je in onze <Link to="/blogs/social-ads/meta-ads-2025-werkt-na" className="text-accent hover:underline">blog over Meta Ads na de privacywijzigingen</Link>.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">De drie soorten doelgroepen in Meta Ads</h2>
@@ -225,7 +225,7 @@ export default function BlogPostMetaAdsDoelgroepenInstellen() {
                             Lookalikes bouwen voort op je custom audiences. Je geeft Meta een seedlijst, bijvoorbeeld je beste 1.000 klanten, en het algoritme zoekt mensen die op die groep lijken qua gedrag en interesses. Lookalikes zijn de brug tussen warme en koude doelgroepen: nieuwe mensen, maar wel met een hogere kans op conversie dan willekeurige interessetargeting.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Begin met een lookalike van 1 procent. Dat is de kleinste en meest accurate variant. Werkt die goed? Schaal dan op naar 2 of 3 procent voor meer bereik. Meer hierover lees je in onze <Link to="/blogs/social-ads/lookalike-audiences-meta-ads-meer" className="text-accent hover:underline">complete gids over lookalike audiences</Link>.
+                            Begin met een lookalike van 1 procent. Dat is de kleinste en meest accurate variant. Werkt die goed? Schaal dan op naar 2 of 3 procent voor meer bereik. Meer hierover lees je in onze <Link to="/blogs/social-ads/lookalike-audiences-meta-ads-gids" className="text-accent hover:underline">complete gids over lookalike audiences</Link>.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe je doelgroepen opbouwt voor verschillende doelen</h2>
@@ -347,7 +347,7 @@ export default function BlogPostMetaAdsDoelgroepenInstellen() {
                     <section className="mt-16 pt-12 border-t border-primary/10">
                         <h3 className="text-xl font-bold text-primary mb-6">Lees ook</h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <Link to="/blogs/social-ads/lookalike-audiences-meta-ads-meer" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/social-ads/lookalike-audiences-meta-ads-gids" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Lookalike audiences in Meta Ads</h3>
                                 <p className="text-primary/60 text-sm">Bereik meer mensen die op jouw beste klanten lijken.</p>
                             </Link>
