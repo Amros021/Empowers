@@ -14,10 +14,10 @@ export default function BlogPostConversieApiMeta() {
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
                 <title>Conversie API van Meta: waarom je dit naast de Pixel nodig hebt | Empowers</title>
-                <meta name="description" content="De Meta Pixel alleen is niet meer genoeg. De Conversie API stuurt data server-side — ook als cookies worden geblokkeerd. Alles over installatie, werking en voordelen." />
+                <meta name="description" content="De Meta Pixel alleen is niet meer genoeg. De Conversie API stuurt data server-side, ook als cookies worden geblokkeerd. Alles over installatie, werking en voordelen." />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/social-ads/conversie-api-meta-naast-pixel" />
                 <meta property="og:title" content="Conversie API van Meta: waarom je dit naast de Pixel nodig hebt" />
-                <meta property="og:description" content="De Meta Pixel alleen is niet meer genoeg. De Conversie API stuurt data server-side — ook als cookies worden geblokkeerd." />
+                <meta property="og:description" content="De Meta Pixel alleen is niet meer genoeg. De Conversie API stuurt data server-side, ook als cookies worden geblokkeerd." />
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/conversie-api-meta-naast-pixel" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/conversie-api-meta.jpg" />
@@ -33,7 +33,7 @@ export default function BlogPostConversieApiMeta() {
                         "@context": "https://schema.org",
                         "@type": "Article",
                         "headline": "Conversie API van Meta: waarom je dit naast de Pixel nodig hebt",
-                        "description": "De Meta Pixel alleen is niet meer genoeg. De Conversie API stuurt data server-side — ook als cookies worden geblokkeerd. Alles over installatie, werking en voordelen.",
+                        "description": "De Meta Pixel alleen is niet meer genoeg. De Conversie API stuurt data server-side, ook als cookies worden geblokkeerd. Alles over installatie, werking en voordelen.",
                         "image": "https://www.empowers.nl/images/blogs/conversie-api-meta.jpg",
                         "datePublished": "2026-04-15T16:00:00+02:00",
                         "author": { "@type": "Organization", "name": "Empowers" },
@@ -51,7 +51,7 @@ export default function BlogPostConversieApiMeta() {
                                     "name": "Wat is de Meta Conversie API?",
                                     "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "De Meta Conversie API (CAPI) is een server-side tracking oplossing die conversiedata rechtstreeks van jouw server naar Meta stuurt. In tegenstelling tot de Pixel — die in de browser draait — wordt CAPI niet geblokkeerd door adblockers of iOS-beperkingen. Het resultaat: completere data en betere campagneoptimalisatie."
+                                        "text": "De Meta Conversie API (CAPI) is een server-side tracking oplossing die conversiedata rechtstreeks van jouw server naar Meta stuurt. In tegenstelling tot de Pixel, die in de browser draait, wordt CAPI niet geblokkeerd door adblockers of iOS-beperkingen. Het resultaat: completere data en betere campagneoptimalisatie."
                                     }
                                 },
                                 {
@@ -75,7 +75,7 @@ export default function BlogPostConversieApiMeta() {
                                     "name": "Wat is deduplicatie en waarom is dat belangrijk bij CAPI?",
                                     "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Als je zowel de Pixel als CAPI gebruikt, kan dezelfde conversie dubbel worden gemeld — één keer browser-side, één keer server-side. Deduplicatie voorkomt dit door een unieke event-ID mee te sturen. Meta herkent duplicaten en telt elke conversie maar één keer."
+                                        "text": "Als je zowel de Pixel als CAPI gebruikt, kan dezelfde conversie dubbel worden gemeld, één keer browser-side, één keer server-side. Deduplicatie voorkomt dit door een unieke event-ID mee te sturen. Meta herkent duplicaten en telt elke conversie maar één keer."
                                     }
                                 }
                             ]
@@ -131,23 +131,23 @@ export default function BlogPostConversieApiMeta() {
                     <div className="prose prose-lg max-w-none">
 
                         <p className="text-xl leading-relaxed text-primary/80 font-medium mb-6">
-                            Jouw Meta Pixel mist conversies. Misschien wel 30 tot 40% ervan. Adblockers, iOS-privacyinstellingen en browser-restricties blokkeren de Pixel steeds vaker. Het resultaat: Meta ziet minder conversies, optimaliseert slechter en jouw campagnes presteren minder goed dan ze zouden kunnen. De oplossing heet de Conversie API — en je hebt hem nodig naast, niet in plaats van, je Pixel.
+                            Jouw Meta Pixel mist conversies. Misschien wel 30 tot 40% ervan. Adblockers, iOS-privacyinstellingen en browser-restricties blokkeren de Pixel steeds vaker. Het resultaat: Meta ziet minder conversies, optimaliseert slechter en jouw campagnes presteren minder goed dan ze zouden kunnen. De oplossing heet de Conversie API, en je hebt hem nodig naast, niet in plaats van, je Pixel.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom de Meta Pixel niet meer genoeg is</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            De Meta Pixel is een stukje JavaScript-code dat in de browser van de bezoeker draait. Het stuurt data naar Meta zodra iemand een actie uitvoert op je website — een aankoop, een formulierinzending, een paginabezoek. Dat werkt prima als de browser meewerkt.
+                            De Meta Pixel is een stukje JavaScript-code dat in de browser van de bezoeker draait. Het stuurt data naar Meta zodra iemand een actie uitvoert op je website, een aankoop, een formulierinzending, een paginabezoek. Dat werkt prima als de browser meewerkt.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Maar een groeiend deel van jouw bezoekers gebruikt een adblocker, heeft een iOS-apparaat met App Tracking Transparency ingeschakeld, of werkt in een browser die third-party cookies blokkeert (zoals Safari of Firefox). In al die gevallen werkt de Pixel minder goed of helemaal niet. Onderzoek toont aan dat browsers gemiddeld 20 tot 40% van de Pixel-events missen — en in sectoren met techsavvy doelgroepen kan dat oplopen tot 60%.
+                            Maar een groeiend deel van jouw bezoekers gebruikt een adblocker, heeft een iOS-apparaat met App Tracking Transparency ingeschakeld, of werkt in een browser die third-party cookies blokkeert (zoals Safari of Firefox). In al die gevallen werkt de Pixel minder goed of helemaal niet. Onderzoek toont aan dat browsers gemiddeld 20 tot 40% van de Pixel-events missen, en in sectoren met techsavvy doelgroepen kan dat oplopen tot 60%.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Het gevolg voor je campagnes: Meta ziet minder conversies, denkt dat je advertenties slechter presteren dan ze zijn, en optimaliseert naar minder waardevolle segmenten. Je betaalt meer voor minder resultaat — terwijl de conversies wél plaatsvinden, maar buiten het zichtbare bereik van de Pixel.
+                            Het gevolg voor je campagnes: Meta ziet minder conversies, denkt dat je advertenties slechter presteren dan ze zijn, en optimaliseert naar minder waardevolle segmenten. Je betaalt meer voor minder resultaat, terwijl de conversies wél plaatsvinden, maar buiten het zichtbare bereik van de Pixel.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat is de Meta Conversie API?</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            De Meta Conversie API (CAPI) is een server-side tracking-oplossing. In plaats van dat de browser data stuurt naar Meta, stuurt jouw eigen server de data direct naar Meta's API. Browsers, adblockers en iOS-instellingen kunnen dat niet blokkeren — de data gaat van server naar server, buiten de browser om.
+                            De Meta Conversie API (CAPI) is een server-side tracking-oplossing. In plaats van dat de browser data stuurt naar Meta, stuurt jouw eigen server de data direct naar Meta's API. Browsers, adblockers en iOS-instellingen kunnen dat niet blokkeren, de data gaat van server naar server, buiten de browser om.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             CAPI werkt het best als aanvulling op de Pixel, niet als vervanging. De Pixel is sneller en kan data sturen op het moment dat een bezoeker actie onderneemt. CAPI vult de gaten in die de Pixel mist. Samen geven ze een completer beeld dan elk afzonderlijk.
@@ -155,10 +155,10 @@ export default function BlogPostConversieApiMeta() {
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Deduplicatie: essentieel bij Pixel + CAPI</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Als je beide gebruikt, bestaat het risico dat dezelfde conversie twee keer wordt gemeld — één keer door de Pixel, één keer door CAPI. Dat heet dubbele telling en heeft een negatief effect op je data en optimalisatie.
+                            Als je beide gebruikt, bestaat het risico dat dezelfde conversie twee keer wordt gemeld, één keer door de Pixel, één keer door CAPI. Dat heet dubbele telling en heeft een negatief effect op je data en optimalisatie.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            De oplossing is deduplicatie via een unieke event-ID. Je geeft elk event een unieke identificatiecode mee — zowel vanuit de Pixel als vanuit CAPI. Meta herkent events met dezelfde ID als duplicaten en telt elke conversie maar één keer. Stel je deduplicatie niet in, dan vertekent je data en betaalt je algoritme te veel aandacht aan dubbel getelde events.
+                            De oplossing is deduplicatie via een unieke event-ID. Je geeft elk event een unieke identificatiecode mee, zowel vanuit de Pixel als vanuit CAPI. Meta herkent events met dezelfde ID als duplicaten en telt elke conversie maar één keer. Stel je deduplicatie niet in, dan vertekent je data en betaalt je algoritme te veel aandacht aan dubbel getelde events.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe installeer je de Conversie API?</h2>
@@ -178,7 +178,7 @@ export default function BlogPostConversieApiMeta() {
 
                         <h3 className="font-semibold text-primary text-xl mt-10 mb-4">3. Directe API-integratie (voor ontwikkelaars)</h3>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Als je een eigen back-end hebt, kun je de CAPI direct integreren via Meta's Graph API. Je stuurt events met de juiste parameters — event_name, event_time, user_data, event_source_url en een uniek event-ID. Dit geeft maximale controle maar vereist ontwikkelaarskennis en onderhoud.
+                            Als je een eigen back-end hebt, kun je de CAPI direct integreren via Meta's Graph API. Je stuurt events met de juiste parameters, event_name, event_time, user_data, event_source_url en een uniek event-ID. Dit geeft maximale controle maar vereist ontwikkelaarskennis en onderhoud.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Welke events stuur je via CAPI?</h2>
@@ -186,15 +186,15 @@ export default function BlogPostConversieApiMeta() {
                             Stuur in ieder geval je meest waardevolle conversie-events via CAPI: Purchase (aankoop), Lead (formulierinzending), CompleteRegistration (registratie) en InitiateCheckout (start betaalproces). Dit zijn de events die Meta gebruikt voor conversieoptimalisatie.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Minder kritieke events zoals PageView en ViewContent kun je bij de Pixel laten — die data is minder kritisch en hoge volumes van die events via CAPI kunnen je datavolume onnodig vergroten.
+                            Minder kritieke events zoals PageView en ViewContent kun je bij de Pixel laten, die data is minder kritisch en hoge volumes van die events via CAPI kunnen je datavolume onnodig vergroten.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat levert CAPI op voor je campagnes?</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            De voordelen zijn concreet. Completere data betekent dat Meta's algoritme beter kan optimaliseren — het ziet meer conversies en trekt de juiste conclusies over welke doelgroepen, plaatsingen en advertenties het beste presteren. Bedrijven die CAPI naast de Pixel implementeren rapporteren gemiddeld 10 tot 30% meer gemeten conversies en lagere CPA's.
+                            De voordelen zijn concreet. Completere data betekent dat Meta's algoritme beter kan optimaliseren, het ziet meer conversies en trekt de juiste conclusies over welke doelgroepen, plaatsingen en advertenties het beste presteren. Bedrijven die CAPI naast de Pixel implementeren rapporteren gemiddeld 10 tot 30% meer gemeten conversies en lagere CPA's.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Daarnaast is CAPI privacy-vriendelijker. Je hebt meer controle over welke data je deelt — je kunt gevoelige informatie hashen of weglaten voordat je ze doorstuurt naar Meta.
+                            Daarnaast is CAPI privacy-vriendelijker. Je hebt meer controle over welke data je deelt, je kunt gevoelige informatie hashen of weglaten voordat je ze doorstuurt naar Meta.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Check je huidige Pixel-prestaties en leer hoe je hem correct instelt in <Link to="/blogs/social-ads/meta-pixel-instellen-stap-stap" className="text-accent hover:underline">onze gids over Meta Pixel instellen</Link>.
@@ -202,10 +202,10 @@ export default function BlogPostConversieApiMeta() {
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Controleer je implementatie met Event Match Quality</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Meta heeft een Event Match Quality (EMQ) score per event. Die score geeft aan hoe goed de ontvangen data overeenkomt met Meta-gebruikers. Een hogere EMQ betekent dat Meta meer conversies kan toewijzen aan de juiste personen — wat de optimalisatiekwaliteit verhoogt.
+                            Meta heeft een Event Match Quality (EMQ) score per event. Die score geeft aan hoe goed de ontvangen data overeenkomt met Meta-gebruikers. Een hogere EMQ betekent dat Meta meer conversies kan toewijzen aan de juiste personen, wat de optimalisatiekwaliteit verhoogt.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Verbeter je EMQ door meer user_data parameters mee te sturen: e-mailadres, telefoonnummer, naam, stad, postcode. Alle data wordt gehasht (versleuteld) voordat het Meta bereikt — privacywetgeving staat dat toe als je de juiste toestemming hebt verkregen.
+                            Verbeter je EMQ door meer user_data parameters mee te sturen: e-mailadres, telefoonnummer, naam, stad, postcode. Alle data wordt gehasht (versleuteld) voordat het Meta bereikt, privacywetgeving staat dat toe als je de juiste toestemming hebt verkregen.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Meer over tracking en datakwaliteit lees je in <Link to="/blogs/tracking/marketing-tracking-conversies-meten" className="text-accent hover:underline">onze gids over marketing tracking en conversies meten</Link>.
@@ -231,7 +231,7 @@ export default function BlogPostConversieApiMeta() {
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is deduplicatie en waarom is dat belangrijk bij CAPI?</h3>
-                                <p className="font-sans text-primary/70 leading-relaxed">Als je zowel de Pixel als CAPI gebruikt, kan dezelfde conversie dubbel worden gemeld. Deduplicatie voorkomt dit door een unieke event-ID mee te sturen. Meta herkent duplicaten en telt elke conversie maar één keer — essentieel voor betrouwbare data.</p>
+                                <p className="font-sans text-primary/70 leading-relaxed">Als je zowel de Pixel als CAPI gebruikt, kan dezelfde conversie dubbel worden gemeld. Deduplicatie voorkomt dit door een unieke event-ID mee te sturen. Meta herkent duplicaten en telt elke conversie maar één keer, essentieel voor betrouwbare data.</p>
                             </div>
                         </div>
                     </section>

@@ -51,7 +51,7 @@ export default function BlogPostGoogleAdsB2b() {
                                     "name": "Werkt Google Ads goed voor B2B?",
                                     "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Ja, maar het vereist een andere aanpak dan B2C. B2B-kopers zoeken actief naar oplossingen voor zakelijke problemen. Google Ads is effectief om op het juiste moment zichtbaar te zijn. De CPC is hoger, de salescyclus langer en de conversie-attributie complexer — maar de klantwaarde is ook veel groter."
+                                        "text": "Ja, maar het vereist een andere aanpak dan B2C. B2B-kopers zoeken actief naar oplossingen voor zakelijke problemen. Google Ads is effectief om op het juiste moment zichtbaar te zijn. De CPC is hoger, de salescyclus langer en de conversie-attributie complexer, maar de klantwaarde is ook veel groter."
                                     }
                                 },
                                 {
@@ -212,7 +212,7 @@ export default function BlogPostGoogleAdsB2b() {
                         <div className="space-y-6 not-prose">
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Werkt Google Ads goed voor B2B?</h3>
-                                <p className="font-sans text-primary/70 leading-relaxed">Ja, maar met een andere aanpak dan B2C. De CPC is hoger, de salescyclus langer en de conversie-attributie complexer — maar de klantwaarde is ook veel groter. Met de juiste strategie is Google Ads een van de meest rendabele B2B-kanalen.</p>
+                                <p className="font-sans text-primary/70 leading-relaxed">Ja, maar met een andere aanpak dan B2C. De CPC is hoger, de salescyclus langer en de conversie-attributie complexer, maar de klantwaarde is ook veel groter. Met de juiste strategie is Google Ads een van de meest rendabele B2B-kanalen.</p>
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Welke zoekwoorden gebruik je voor B2B Google Ads?</h3>

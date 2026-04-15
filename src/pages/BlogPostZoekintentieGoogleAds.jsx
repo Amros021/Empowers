@@ -131,15 +131,15 @@ export default function BlogPostZoekintentieGoogleAds() {
                     <div className="prose prose-lg max-w-none">
 
                         <p className="text-xl leading-relaxed text-primary/80 font-medium mb-6">
-                            Je kunt duizenden euro's uitgeven aan Google Ads en toch nauwelijks iets verkopen. Niet omdat je campagnes slecht zijn — maar omdat je de verkeerde mensen bereikt. Mensen die wel zoeken naar jouw onderwerp, maar niet naar jouw aanbod. Zoekintentie begrijpen en daar je campagnes op afstemmen is het verschil tussen advertentiebudget dat verdampt en campagnes die maandelijks aanvragen opleveren.
+                            Je kunt duizenden euro's uitgeven aan Google Ads en toch nauwelijks iets verkopen. Niet omdat je campagnes slecht zijn, maar omdat je de verkeerde mensen bereikt. Mensen die wel zoeken naar jouw onderwerp, maar niet naar jouw aanbod. Zoekintentie begrijpen en daar je campagnes op afstemmen is het verschil tussen advertentiebudget dat verdampt en campagnes die maandelijks aanvragen opleveren.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat is zoekintentie en waarom doet het ertoe?</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Zoekintentie — ook wel search intent of gebruikersintentie — is het antwoord op de vraag: wat wil de zoeker eigenlijk bereiken? Twee mensen kunnen hetzelfde zoekwoord intypen met totaal verschillende bedoelingen. Iemand die zoekt op "Google Ads kosten" kan op zoek zijn naar informatie over tarieven, naar vergelijking van bureaus, of naar een prijslijst om zelf een campagne op te starten.
+                            Zoekintentie, ook wel search intent of gebruikersintentie, is het antwoord op de vraag: wat wil de zoeker eigenlijk bereiken? Twee mensen kunnen hetzelfde zoekwoord intypen met totaal verschillende bedoelingen. Iemand die zoekt op "Google Ads kosten" kan op zoek zijn naar informatie over tarieven, naar vergelijking van bureaus, of naar een prijslijst om zelf een campagne op te starten.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Google heeft dit door. Dat is precies waarom het algoritme niet alleen naar het zoekwoord kijkt, maar naar de volledige context: welke advertenties en pagina's klikken mensen aan bij dit zoekwoord? Wat is het gedrag daarna? Die data gebruikt Google om te bepalen welke content het best aansluit — en jij kunt die informatie gebruiken om je advertenties en landingspagina's op de juiste intentie af te stemmen.
+                            Google heeft dit door. Dat is precies waarom het algoritme niet alleen naar het zoekwoord kijkt, maar naar de volledige context: welke advertenties en pagina's klikken mensen aan bij dit zoekwoord? Wat is het gedrag daarna? Die data gebruikt Google om te bepalen welke content het best aansluit, en jij kunt die informatie gebruiken om je advertenties en landingspagina's op de juiste intentie af te stemmen.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Het directe gevolg van een mismatch tussen zoekintentie en advertentie is een lage Quality Score, een hoge cost-per-click en weinig tot geen conversies. Zelfs als mensen doorklikken, verlaten ze je pagina snel omdat die niet aansluit op wat ze verwachtten te vinden.
@@ -162,7 +162,7 @@ export default function BlogPostZoekintentieGoogleAds() {
 
                         <h3 className="font-semibold text-primary text-xl mt-10 mb-4">3. Commerciële intentie</h3>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            De zoeker vergelijkt opties voor een mogelijke aankoop of inhuuropdracht. Zoekopdrachten als "beste Google Ads bureau Nederland", "Google Ads uitbesteden vergelijken" of "Google Ads specialist prijzen" vallen hier onder. Dit zijn waardevolle zoekers die al weten dat ze iets willen — ze kiezen nog wie. Adverteer hier met advertenties die jouw onderscheidend vermogen en sociale bewijskracht benadrukken.
+                            De zoeker vergelijkt opties voor een mogelijke aankoop of inhuuropdracht. Zoekopdrachten als "beste Google Ads bureau Nederland", "Google Ads uitbesteden vergelijken" of "Google Ads specialist prijzen" vallen hier onder. Dit zijn waardevolle zoekers die al weten dat ze iets willen, ze kiezen nog wie. Adverteer hier met advertenties die jouw onderscheidend vermogen en sociale bewijskracht benadrukken.
                         </p>
 
                         <h3 className="font-semibold text-primary text-xl mt-10 mb-4">4. Transactionele intentie</h3>
@@ -175,10 +175,10 @@ export default function BlogPostZoekintentieGoogleAds() {
                             De snelste manier is simpelweg googelen. Typ het zoekwoord in en bekijk wat er bovenaan staat. Google spiegelt in de SERP (zoekresultatenpagina) exact wat het algoritme verwacht dat zoekers willen zien. Staan er vooral blogs en Wikipedia-artikelen? Informatieve intentie. Staan er productpagina's, prijzenpagina's of advertenties? Commerciële of transactionele intentie.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Kijk ook naar de advertenties die al lopen. Als jouw concurrenten met betaalde advertenties op een zoekwoord zitten, betekent dat meestal dat er conversiepotentieel is. Als er geen advertenties staan, is dat een signaal dat het zoekwoord commercieel waarschijnlijk minder interessant is — of dat niemand het ooit heeft getest.
+                            Kijk ook naar de advertenties die al lopen. Als jouw concurrenten met betaalde advertenties op een zoekwoord zitten, betekent dat meestal dat er conversiepotentieel is. Als er geen advertenties staan, is dat een signaal dat het zoekwoord commercieel waarschijnlijk minder interessant is, of dat niemand het ooit heeft getest.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Zoekwoordplanner in Google Ads geeft je ook aanwijzingen: zoekvolume en gemiddelde CPC geven een idee van de concurrentie. Hoge CPC bij een relevant zoekwoord betekent dat adverteerders er waarde in zien — wat in de meeste gevallen wijst op transactionele of commerciële intentie.
+                            Zoekwoordplanner in Google Ads geeft je ook aanwijzingen: zoekvolume en gemiddelde CPC geven een idee van de concurrentie. Hoge CPC bij een relevant zoekwoord betekent dat adverteerders er waarde in zien, wat in de meeste gevallen wijst op transactionele of commerciële intentie.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Intentie koppelen aan campagnestructuur</h2>
@@ -186,7 +186,7 @@ export default function BlogPostZoekintentieGoogleAds() {
                             Het grootste voordeel van intentie-denken is dat je campagnestructuur veel logischer wordt. In plaats van één grote campagne met tientallen zoekwoorden door elkaar, maak je aparte campagnes of advertentiegroepen per intentieniveau.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Stel: je verkoopt Google Ads diensten. Dan maak je drie niveaus. Een top-of-funnel campagne gericht op commerciële intentie — mensen die vergelijken. Een bottom-of-funnel campagne gericht op transactionele intentie — mensen die klaar zijn om te kopen. En eventueel een merkcampagne voor iedereen die specifiek naar jou zoekt.
+                            Stel: je verkoopt Google Ads diensten. Dan maak je drie niveaus. Een top-of-funnel campagne gericht op commerciële intentie, mensen die vergelijken. Een bottom-of-funnel campagne gericht op transactionele intentie, mensen die klaar zijn om te kopen. En eventueel een merkcampagne voor iedereen die specifiek naar jou zoekt.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Elke campagne heeft een eigen budget, eigen biedstrategie en eigen landingspagina die perfect past bij die fase. De transactionele campagne krijgt het grootste budget en de meest directe CTA. De commerciële campagne leidt naar een vergelijkingspagina of case study.
@@ -200,12 +200,12 @@ export default function BlogPostZoekintentieGoogleAds() {
                             Een advertentie die gericht is op transactionele intentie communiceert anders dan een advertentie op commerciële intentie. Bij transactioneel gebruik je directe CTA's: "Vraag nu een gratis analyse aan", "Vandaag starten", "Direct contact". Bij commercieel benadruk je bewijs en vergelijkbare voordelen: "Gemiddeld 38% meer conversies", "Geen instapkosten, opzegbaar per maand".
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            De zoekterm staat idealiter in de headline of in de beschrijving — dat verhoogt de relevantiescore en trekt de aandacht van de zoeker. Gebruik daarvoor <Link to="/blogs/google-ads/schrijf-google-ads-advertentie-geklikt" className="text-accent hover:underline">de juiste technieken voor advertentieteksten die wél geklikt worden</Link>.
+                            De zoekterm staat idealiter in de headline of in de beschrijving, dat verhoogt de relevantiescore en trekt de aandacht van de zoeker. Gebruik daarvoor <Link to="/blogs/google-ads/schrijf-google-ads-advertentie-geklikt" className="text-accent hover:underline">de juiste technieken voor advertentieteksten die wél geklikt worden</Link>.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Negatieve zoekwoorden: je scherpste wapen</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Zoekintentie targeten is voor de helft het kiezen van de juiste zoekwoorden — en voor de andere helft het uitsluiten van de verkeerde. Negatieve zoekwoorden voorkomen dat je advertentie wordt getoond bij zoekopdrachten die niet bij jouw doel passen.
+                            Zoekintentie targeten is voor de helft het kiezen van de juiste zoekwoorden, en voor de andere helft het uitsluiten van de verkeerde. Negatieve zoekwoorden voorkomen dat je advertentie wordt getoond bij zoekopdrachten die niet bij jouw doel passen.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Sluit woorden als "gratis", "zelf", "cursus", "tutorial", "uitleg" en "hoe" standaard uit van je conversiegerichte campagnes. Deze duiden vrijwel altijd op informatieve intentie. Check ook de zoektermrapporten wekelijks: Google's broad match en phrase match brengen je advertentie soms in contact met irrelevante zoekopdrachten die je handmatig moet uitsluiten.
@@ -216,7 +216,7 @@ export default function BlogPostZoekintentieGoogleAds() {
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Landingspagina's matchen aan de intentie</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            De best geoptimaliseerde advertentie mislukt als de landingspagina niet aansluit op de verwachting van de zoeker. Iemand die zoekt op "Google Ads bureau offerte" en uitkomt op een algemene homepage verlaat de pagina direct. Die persoon verwacht een contactformulier of een duidelijk prijsoverzicht — geen uitleg over wie je bent.
+                            De best geoptimaliseerde advertentie mislukt als de landingspagina niet aansluit op de verwachting van de zoeker. Iemand die zoekt op "Google Ads bureau offerte" en uitkomt op een algemene homepage verlaat de pagina direct. Die persoon verwacht een contactformulier of een duidelijk prijsoverzicht, geen uitleg over wie je bent.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Match de boodschap, het aanbod en de CTA op je landingspagina exact aan de zoekintentie van de campagne. Transactionele campagne = conversiegedreven landingspagina met duidelijk formulier. Commerciële campagne = vergelijkingspagina met case studies, reviews en specifieke voordelen.
@@ -261,7 +261,7 @@ export default function BlogPostZoekintentieGoogleAds() {
                             </Link>
                             <Link to="/blogs/google-ads/meet-roi-google-ads-campagne" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">ROI meten van Google Ads</h3>
-                                <p className="text-primary/60 text-sm">Zo meet je of je campagnes echt rendabel zijn — verder dan CTR en CPC.</p>
+                                <p className="text-primary/60 text-sm">Zo meet je of je campagnes echt rendabel zijn, verder dan CTR en CPC.</p>
                             </Link>
                         </div>
                     </section>
@@ -277,7 +277,7 @@ export default function BlogPostZoekintentieGoogleAds() {
                         Wil je campagnes die matchen met wat jouw klant zoekt?
                     </h2>
                     <p className="relative z-10 font-sans text-background/70 text-lg mb-10 max-w-xl mx-auto">
-                        Wij bouwen Google Ads campagnes op basis van zoekintentie — niet op basis van zoekvolume alleen. Meer rendement uit hetzelfde budget.
+                        Wij bouwen Google Ads campagnes op basis van zoekintentie, niet op basis van zoekvolume alleen. Meer rendement uit hetzelfde budget.
                     </p>
                     <Link
                         to="/contact"

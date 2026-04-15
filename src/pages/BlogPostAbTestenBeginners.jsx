@@ -144,7 +144,7 @@ export default function BlogPostAbTestenBeginners() {
                     {/* Content */}
                     <div className="prose prose-lg max-w-none prose-headings:text-primary prose-headings:font-bold prose-a:text-accent prose-a:underline hover:prose-a:text-accent/80">
                         <p className="text-xl leading-relaxed text-primary/80 font-medium mb-6">
-                            Meer conversies zonder meer budget. Dat is de belofte van A/B testen — en die belofte komt het in de praktijk ook na. Maar alleen als je het goed aanpakt. In deze gids leer je hoe A/B testen werkt, wat je als eerste moet testen, hoe lang een test moet lopen en hoe je resultaten interpreteert zonder te worden misleid door toeval.
+                            Meer conversies zonder meer budget. Dat is de belofte van A/B testen, en die belofte komt het in de praktijk ook na. Maar alleen als je het goed aanpakt. In deze gids leer je hoe A/B testen werkt, wat je als eerste moet testen, hoe lang een test moet lopen en hoe je resultaten interpreteert zonder te worden misleid door toeval.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat is A/B testen en waarom werkt het?</h2>

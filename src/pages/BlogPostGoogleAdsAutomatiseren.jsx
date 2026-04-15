@@ -147,7 +147,7 @@ export default function BlogPostGoogleAdsAutomatiseren() {
                             Google Ads biedt steeds meer automatiseringsmogelijkheden. Smart Bidding, Responsive Search Ads, Performance Max: het platform wil zoveel mogelijk beslissingen van jou overnemen. Maar meer automatisering is niet altijd beter. De kunst is weten wat je automatiseert, wat je bewust handmatig houdt en hoe je toezicht houdt zonder uren kwijt te zijn aan monitoring.
                         </p>
 
-                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom automatiseren zinvol is — en wanneer niet</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom automatiseren zinvol is, en wanneer niet</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Google's algoritmen verwerken elke seconde miljoenen signalen: zoekterm, apparaat, locatie, dag, uur, zoekgeschiedenis, intentie. Dat zijn dimensies die geen mens handmatig kan bijhouden. Smart Bidding past je biedingen op al die signalen aan in real time. Als het algoritme goed getraind is, presteert het daadwerkelijk beter dan de meest ervaren adverteerder die handmatig biedingen aanpast.
                         </p>
@@ -224,7 +224,7 @@ export default function BlogPostGoogleAdsAutomatiseren() {
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is het risico van te veel automatiseren?</h3>
-                                <p className="font-sans text-primary/70 leading-relaxed">Te veel automatiseren zonder monitoring leidt tot budgetverspilling. Als je doelen verkeerd zijn geconfigureerd — verkeerde conversie-events of onrealistische CPA-target — optimaliseert het algoritme de foute kant op.</p>
+                                <p className="font-sans text-primary/70 leading-relaxed">Te veel automatiseren zonder monitoring leidt tot budgetverspilling. Als je doelen verkeerd zijn geconfigureerd, verkeerde conversie-events of onrealistische CPA-target, optimaliseert het algoritme de foute kant op.</p>
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Kan ik automatisering combineren met handmatige controle?</h3>
