@@ -75,6 +75,17 @@ import BlogPostGoogleAdsCommerceVerhoogRoas from './pages/BlogPostGoogleAdsComme
 import BlogPostPerformanceMaxGoogleAdsWeten from './pages/BlogPostPerformanceMaxGoogleAdsWeten';
 import BlogPostGoogleAdsCampagneStructuur from './pages/BlogPostGoogleAdsCampagneStructuur';
 import BlogPostLinkedInLeadGenFormsWaarom from './pages/BlogPostLinkedInLeadGenFormsWaarom';
+import BlogPostChatgptWebsiteCiteren from './pages/BlogPostChatgptWebsiteCiteren';
+import BlogPostAiZoekmachinesBronnen from './pages/BlogPostAiZoekmachinesBronnen';
+import BlogPostGoogleAdsAutomatiseren from './pages/BlogPostGoogleAdsAutomatiseren';
+import BlogPostGoogleShopping from './pages/BlogPostGoogleShopping';
+import BlogPostZoekwoordenonderzoek2026 from './pages/BlogPostZoekwoordenonderzoek2026';
+import BlogPostAbTestenBeginners from './pages/BlogPostAbTestenBeginners';
+import BlogPostGoogleAdsB2b from './pages/BlogPostGoogleAdsB2b';
+import BlogPostZoekintentieGoogleAds from './pages/BlogPostZoekintentieGoogleAds';
+import BlogPostGoogleAdsSchalen from './pages/BlogPostGoogleAdsSchalen';
+import BlogPostMetaAdsFunnel from './pages/BlogPostMetaAdsFunnel';
+import BlogPostConversieApiMeta from './pages/BlogPostConversieApiMeta';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -207,6 +218,17 @@ function App() {
         <Route path="/blogs/seo/off-page-seo" element={<BlogPostOffPageSeo />} />
         <Route path="/blogs/google-ads/negatieve-zoekwoorden-google-ads" element={<BlogPostNegatieveZoekwoordenGoogleAds />} />
         <Route path="/blogs/geo/schrijf-content-ai-tools-citeren" element={<BlogPostSchrijfContentAiToolsCiteren />} />
+        <Route path="/blogs/geo/chatgpt-website-citeren" element={<BlogPostChatgptWebsiteCiteren />} />
+        <Route path="/blogs/geo/ai-zoekmachines-bronnen" element={<BlogPostAiZoekmachinesBronnen />} />
+        <Route path="/blogs/google-ads/google-ads-automatiseren-tijdwinst-kwaliteitsverlies" element={<BlogPostGoogleAdsAutomatiseren />} />
+        <Route path="/blogs/google-ads/google-shopping-adverteren-campagne" element={<BlogPostGoogleShopping />} />
+        <Route path="/blogs/seo/zoekwoordenonderzoek-2026-complete-gids" element={<BlogPostZoekwoordenonderzoek2026 />} />
+        <Route path="/blogs/strategie/a-b-testen-beginners-verhoog" element={<BlogPostAbTestenBeginners />} />
+        <Route path="/blogs/google-ads/google-ads-b2b-bereik-zakelijke" element={<BlogPostGoogleAdsB2b />} />
+        <Route path="/blogs/google-ads/zoekintentie-targeten-google-ads-goed" element={<BlogPostZoekintentieGoogleAds />} />
+        <Route path="/blogs/google-ads/google-ads-schalen-zonder-budget" element={<BlogPostGoogleAdsSchalen />} />
+        <Route path="/blogs/social-ads/effectieve-meta-ads-funnel" element={<BlogPostMetaAdsFunnel />} />
+        <Route path="/blogs/social-ads/conversie-api-meta-naast-pixel" element={<BlogPostConversieApiMeta />} />
         <Route path="/blogs/google-ads/google-ads-display-vs-search" element={<BlogPostGoogleAdsDisplayVsSearch />} />
         <Route path="/blogs/social-ads/tiktok-spark-ads-vs-reguliere" element={<BlogPostTikTokSparkAdsVsReguliere />} />
         <Route path="/blogs/google-ads/google-ads-lokale-bedrijven" element={<BlogPostGoogleAdsLokaleBedrijven />} />
