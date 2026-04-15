@@ -20,7 +20,7 @@ export default function BlogPostMetaAdsFunnel() {
                 <meta property="og:description" content="Een Meta Ads funnel met awareness, overweging en conversiecampagnes werkt beter dan losse advertenties. Zo bouw je een funnel die nieuwe klanten oplevert." />
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/effectieve-meta-ads-funnel" />
-                <meta property="og:image" content="https://www.empowers.nl/images/blogs/0_meta-ads-funnel.jpg" />
+                <meta property="og:image" content="https://www.empowers.nl/images/blogs/meta-ads-funnel.jpg" />
                 <meta property="article:published_time" content="2026-04-15" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Social Ads" />
@@ -34,7 +34,7 @@ export default function BlogPostMetaAdsFunnel() {
                         "@type": "Article",
                         "headline": "Hoe maak je een effectieve Meta Ads funnel?",
                         "description": "Een Meta Ads funnel met awareness, overweging en conversiecampagnes werkt beter dan losse advertenties. Zo bouw je een funnel die nieuwe klanten oplevert.",
-                        "image": "https://www.empowers.nl/images/blogs/0_meta-ads-funnel.jpg",
+                        "image": "https://www.empowers.nl/images/blogs/meta-ads-funnel.jpg",
                         "datePublished": "2026-04-15T15:00:00+02:00",
                         "author": { "@type": "Organization", "name": "Empowers" },
                         "publisher": {
@@ -123,7 +123,7 @@ export default function BlogPostMetaAdsFunnel() {
 
                     {/* Featured Image */}
                     <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 relative bg-primary">
-                        <div className="absolute inset-0 bg-[url('/images/blogs/0_meta-ads-funnel.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+                        <div className="absolute inset-0 bg-[url('/images/blogs/meta-ads-funnel.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
 

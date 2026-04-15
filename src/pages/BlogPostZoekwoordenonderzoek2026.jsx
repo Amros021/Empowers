@@ -20,7 +20,7 @@ export default function BlogPostZoekwoordenonderzoek2026() {
                 <meta property="og:description" content="Van zoekvolume naar zoekintentie: zo doe je zoekwoordenonderzoek in 2026 dat echt werkt voor Google én AI-zoekmachines." />
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/seo/zoekwoordenonderzoek-2026-complete-gids" />
-                <meta property="og:image" content="https://www.empowers.nl/images/blogs/0_zoekwoordenonderzoek-2026.jpg" />
+                <meta property="og:image" content="https://www.empowers.nl/images/blogs/zoekwoordenonderzoek-2026.jpg" />
                 <meta property="article:published_time" content="2026-04-15" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="SEO" />
@@ -34,7 +34,7 @@ export default function BlogPostZoekwoordenonderzoek2026() {
                         "@type": "Article",
                         "headline": "Zoekwoordenonderzoek doen in 2026: de complete gids",
                         "description": "Zoekwoordenonderzoek in 2026 is meer dan zoekvolume checken. Lees hoe je zoekintentie analyseert, long-tail keywords vindt en jouw content aanpast voor zowel Google als AI-zoekmachines.",
-                        "image": "https://www.empowers.nl/images/blogs/0_zoekwoordenonderzoek-2026.jpg",
+                        "image": "https://www.empowers.nl/images/blogs/zoekwoordenonderzoek-2026.jpg",
                         "datePublished": "2026-04-15T11:00:00+02:00",
                         "author": { "@type": "Organization", "name": "Empowers" },
                         "publisher": {
@@ -137,7 +137,7 @@ export default function BlogPostZoekwoordenonderzoek2026() {
 
                     {/* Featured Image */}
                     <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 relative bg-primary">
-                        <div className="absolute inset-0 bg-[url('/images/blogs/0_zoekwoordenonderzoek-2026.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+                        <div className="absolute inset-0 bg-[url('/images/blogs/zoekwoordenonderzoek-2026.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
 

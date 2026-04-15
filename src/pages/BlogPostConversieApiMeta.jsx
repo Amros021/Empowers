@@ -20,7 +20,7 @@ export default function BlogPostConversieApiMeta() {
                 <meta property="og:description" content="De Meta Pixel alleen is niet meer genoeg. De Conversie API stuurt data server-side — ook als cookies worden geblokkeerd." />
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/conversie-api-meta-naast-pixel" />
-                <meta property="og:image" content="https://www.empowers.nl/images/blogs/0_conversie-api-meta.jpg" />
+                <meta property="og:image" content="https://www.empowers.nl/images/blogs/conversie-api-meta.jpg" />
                 <meta property="article:published_time" content="2026-04-15" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Social Ads" />
@@ -34,7 +34,7 @@ export default function BlogPostConversieApiMeta() {
                         "@type": "Article",
                         "headline": "Conversie API van Meta: waarom je dit naast de Pixel nodig hebt",
                         "description": "De Meta Pixel alleen is niet meer genoeg. De Conversie API stuurt data server-side — ook als cookies worden geblokkeerd. Alles over installatie, werking en voordelen.",
-                        "image": "https://www.empowers.nl/images/blogs/0_conversie-api-meta.jpg",
+                        "image": "https://www.empowers.nl/images/blogs/conversie-api-meta.jpg",
                         "datePublished": "2026-04-15T16:00:00+02:00",
                         "author": { "@type": "Organization", "name": "Empowers" },
                         "publisher": {
@@ -123,7 +123,7 @@ export default function BlogPostConversieApiMeta() {
 
                     {/* Featured Image */}
                     <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 relative bg-primary">
-                        <div className="absolute inset-0 bg-[url('/images/blogs/0_conversie-api-meta.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+                        <div className="absolute inset-0 bg-[url('/images/blogs/conversie-api-meta.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
 

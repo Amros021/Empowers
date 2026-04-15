@@ -20,7 +20,7 @@ export default function BlogPostGoogleShopping() {
                 <meta property="og:description" content="Leer hoe je een Google Shopping-campagne opzet, je feed optimaliseert en je ROAS structureel verhoogt." />
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/google-shopping-adverteren-campagne" />
-                <meta property="og:image" content="https://www.empowers.nl/images/blogs/0_google-shopping-adverteren.jpg" />
+                <meta property="og:image" content="https://www.empowers.nl/images/blogs/google-shopping-adverteren.jpg" />
                 <meta property="article:published_time" content="2026-04-15" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Google Ads" />
@@ -34,7 +34,7 @@ export default function BlogPostGoogleShopping() {
                         "@type": "Article",
                         "headline": "Google Shopping adverteren: zo zet je een campagne op",
                         "description": "Google Shopping adverteren brengt jouw producten direct bovenaan de zoekresultaten. Lees hoe je een Shopping-campagne opzet, je producttitels optimaliseert en je ROAS verhoogt.",
-                        "image": "https://www.empowers.nl/images/blogs/0_google-shopping-adverteren.jpg",
+                        "image": "https://www.empowers.nl/images/blogs/google-shopping-adverteren.jpg",
                         "datePublished": "2026-04-15T10:00:00+02:00",
                         "author": { "@type": "Organization", "name": "Empowers" },
                         "publisher": {
@@ -137,7 +137,7 @@ export default function BlogPostGoogleShopping() {
 
                     {/* Featured Image */}
                     <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 relative bg-primary">
-                        <div className="absolute inset-0 bg-[url('/images/blogs/0_google-shopping-adverteren.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+                        <div className="absolute inset-0 bg-[url('/images/blogs/google-shopping-adverteren.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
 

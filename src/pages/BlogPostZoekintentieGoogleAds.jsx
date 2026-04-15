@@ -20,7 +20,7 @@ export default function BlogPostZoekintentieGoogleAds() {
                 <meta property="og:description" content="Niet elk zoekwoord past bij jouw doel. Begrijp zoekintentie en maak Google Ads campagnes die aansluiten op wat de zoeker echt wil." />
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/zoekintentie-targeten-google-ads-goed" />
-                <meta property="og:image" content="https://www.empowers.nl/images/blogs/0_zoekintentie-google-ads.jpg" />
+                <meta property="og:image" content="https://www.empowers.nl/images/blogs/zoekintentie-google-ads.jpg" />
                 <meta property="article:published_time" content="2026-04-15" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Google Ads" />
@@ -34,7 +34,7 @@ export default function BlogPostZoekintentieGoogleAds() {
                         "@type": "Article",
                         "headline": "Zoekintentie targeten in Google Ads: zo doe je het goed",
                         "description": "Niet elk zoekwoord past bij jouw doel. Begrijp zoekintentie en maak Google Ads campagnes die aansluiten op wat de zoeker echt wil.",
-                        "image": "https://www.empowers.nl/images/blogs/0_zoekintentie-google-ads.jpg",
+                        "image": "https://www.empowers.nl/images/blogs/zoekintentie-google-ads.jpg",
                         "datePublished": "2026-04-15T13:00:00+02:00",
                         "author": { "@type": "Organization", "name": "Empowers" },
                         "publisher": {
@@ -123,7 +123,7 @@ export default function BlogPostZoekintentieGoogleAds() {
 
                     {/* Featured Image */}
                     <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 relative bg-primary">
-                        <div className="absolute inset-0 bg-[url('/images/blogs/0_zoekintentie-google-ads.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+                        <div className="absolute inset-0 bg-[url('/images/blogs/zoekintentie-google-ads.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
 

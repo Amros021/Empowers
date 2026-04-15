@@ -20,7 +20,7 @@ export default function BlogPostGoogleAdsAutomatiseren() {
                 <meta property="og:description" content="Welke Google Ads automatiseringen werken en welke je beter handmatig houdt. Lees het complete overzicht." />
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/google-ads-automatiseren-tijdwinst-kwaliteitsverlies" />
-                <meta property="og:image" content="https://www.empowers.nl/images/blogs/0_google-ads-automatiseren.jpg" />
+                <meta property="og:image" content="https://www.empowers.nl/images/blogs/google-ads-automatiseren.jpg" />
                 <meta property="article:published_time" content="2026-04-15" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Google Ads" />
@@ -34,7 +34,7 @@ export default function BlogPostGoogleAdsAutomatiseren() {
                         "@type": "Article",
                         "headline": "Google Ads automatiseren: tijdwinst zonder kwaliteitsverlies",
                         "description": "Google Ads automatiseren bespaart uren per week, maar verkeerd ingesteld kost het je budget. Lees welke automatiseringen werken, welke je beter handmatig houdt en hoe je de controle behoudt.",
-                        "image": "https://www.empowers.nl/images/blogs/0_google-ads-automatiseren.jpg",
+                        "image": "https://www.empowers.nl/images/blogs/google-ads-automatiseren.jpg",
                         "datePublished": "2026-04-15T09:00:00+02:00",
                         "author": { "@type": "Organization", "name": "Empowers" },
                         "publisher": {
@@ -137,7 +137,7 @@ export default function BlogPostGoogleAdsAutomatiseren() {
 
                     {/* Featured Image */}
                     <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 relative bg-primary">
-                        <div className="absolute inset-0 bg-[url('/images/blogs/0_google-ads-automatiseren.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+                        <div className="absolute inset-0 bg-[url('/images/blogs/google-ads-automatiseren.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
 

@@ -20,7 +20,7 @@ export default function BlogPostGoogleAdsB2b() {
                 <meta property="og:description" content="B2B Google Ads werkt anders dan B2C. Leer de juiste strategie voor langere salesycli, hogere CPCs en meerdere beslissers." />
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/google-ads-b2b-bereik-zakelijke" />
-                <meta property="og:image" content="https://www.empowers.nl/images/blogs/0_google-ads-b2b.jpg" />
+                <meta property="og:image" content="https://www.empowers.nl/images/blogs/google-ads-b2b.jpg" />
                 <meta property="article:published_time" content="2026-04-15" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Google Ads" />
@@ -34,7 +34,7 @@ export default function BlogPostGoogleAdsB2b() {
                         "@type": "Article",
                         "headline": "Google Ads voor B2B: zo bereik je zakelijke beslissers",
                         "description": "Google Ads voor B2B werkt anders dan voor consumenten. Langere salesycli, hogere CPCs en meerdere beslissers vragen een andere aanpak.",
-                        "image": "https://www.empowers.nl/images/blogs/0_google-ads-b2b.jpg",
+                        "image": "https://www.empowers.nl/images/blogs/google-ads-b2b.jpg",
                         "datePublished": "2026-04-15T08:00:00+02:00",
                         "author": { "@type": "Organization", "name": "Empowers" },
                         "publisher": {
@@ -134,7 +134,7 @@ export default function BlogPostGoogleAdsB2b() {
                     </header>
 
                     <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 relative bg-primary">
-                        <div className="absolute inset-0 bg-[url('/images/blogs/0_google-ads-b2b.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+                        <div className="absolute inset-0 bg-[url('/images/blogs/google-ads-b2b.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
 

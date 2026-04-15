@@ -20,7 +20,7 @@ export default function BlogPostAiZoekmachinesBronnen() {
                 <meta property="og:description" content="Lees welke criteria ChatGPT, Perplexity en Google AI Overviews gebruiken om bronnen te selecteren en hoe je jouw zichtbaarheid structureel vergroot." />
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/geo/ai-zoekmachines-bronnen" />
-                <meta property="og:image" content="https://www.empowers.nl/images/blogs/0_ai-zoekmachines-bronnen.jpg" />
+                <meta property="og:image" content="https://www.empowers.nl/images/blogs/ai-zoekmachines-bronnen.jpg" />
                 <meta property="article:published_time" content="2026-04-15" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="GEO" />
@@ -34,7 +34,7 @@ export default function BlogPostAiZoekmachinesBronnen() {
                         "@type": "Article",
                         "headline": "Hoe AI-zoekmachines bronnen kiezen: zo vergroot je jouw kans",
                         "description": "ChatGPT, Perplexity en Google AI Overviews kiezen niet willekeurig welke bronnen ze citeren. Lees welke criteria zij gebruiken en hoe jij jouw kans vergroot om structureel aangehaald te worden.",
-                        "image": "https://www.empowers.nl/images/blogs/0_ai-zoekmachines-bronnen.jpg",
+                        "image": "https://www.empowers.nl/images/blogs/ai-zoekmachines-bronnen.jpg",
                         "datePublished": "2026-04-15T08:00:00+02:00",
                         "author": { "@type": "Organization", "name": "Empowers" },
                         "publisher": {
@@ -137,7 +137,7 @@ export default function BlogPostAiZoekmachinesBronnen() {
 
                     {/* Featured Image */}
                     <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 relative bg-primary">
-                        <div className="absolute inset-0 bg-[url('/images/blogs/0_ai-zoekmachines-bronnen.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+                        <div className="absolute inset-0 bg-[url('/images/blogs/ai-zoekmachines-bronnen.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
 
