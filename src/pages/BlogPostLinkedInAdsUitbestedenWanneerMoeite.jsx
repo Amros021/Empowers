@@ -142,7 +142,7 @@ export default function BlogPostLinkedInAdsUitbestedenWanneerMoeite() {
                             Dat verschil maakt uitbesteden een andere afweging dan bij Google Ads of Meta Ads. Je betaalt op LinkedIn niet voor kliks — je betaalt voor toegang tot een kleine, kostbare doelgroep. Elke verkeerd getargete euro is duurder dan dezelfde fout elders. Daarom tellen expertise en discipline op LinkedIn zwaarder dan op andere kanalen.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Voor context over hoe LinkedIn zich verhoudt tot andere B2B kanalen, lees <Link to="/blogs/social-ads/linkedin-adverteren-google-ads" className="text-accent hover:underline">ons artikel over LinkedIn Ads versus Google Ads voor B2B</Link>.
+                            Voor context over hoe LinkedIn zich verhoudt tot andere B2B kanalen, lees <Link to="/blogs/social-ads/linkedin-adverteren-google-ads-werkt" className="text-accent hover:underline">ons artikel over LinkedIn Ads versus Google Ads voor B2B</Link>.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Het echte kostenplaatje: wat verdient een bureau terug?</h2>
@@ -266,7 +266,7 @@ export default function BlogPostLinkedInAdsUitbestedenWanneerMoeite() {
                     <section className="mt-16 pt-12 border-t border-primary/10">
                         <h3 className="text-xl font-bold text-primary mb-6">Lees ook</h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <Link to="/blogs/social-ads/linkedin-adverteren-google-ads" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/social-ads/linkedin-adverteren-google-ads-werkt" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">LinkedIn Ads vs Google Ads</h3>
                                 <p className="text-primary/60 text-sm">Welk kanaal levert meer op voor B2B en hoe combineer je ze slim.</p>
                             </Link>

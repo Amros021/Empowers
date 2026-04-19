@@ -288,7 +288,7 @@ export default function BlogPostCoreWebVitalsVerbeteren() {
                     <section className="mt-16 pt-12 border-t border-primary/10">
                         <h3 className="text-xl font-bold text-primary mb-6">Lees ook</h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <Link to="/blogs/seo/technische-seo-audit" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/seo/technische-seo-checklist-2025-website" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Technische SEO checklist</h3>
                                 <p className="text-primary/60 text-sm">Zo bouw je een technisch fundament waar content en rankings op kunnen groeien.</p>
                             </Link>
