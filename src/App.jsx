@@ -86,6 +86,14 @@ import BlogPostZoekintentieGoogleAds from './pages/BlogPostZoekintentieGoogleAds
 import BlogPostGoogleAdsSchalen from './pages/BlogPostGoogleAdsSchalen';
 import BlogPostMetaAdsFunnel from './pages/BlogPostMetaAdsFunnel';
 import BlogPostConversieApiMeta from './pages/BlogPostConversieApiMeta';
+import BlogPostAiContentSeo from './pages/BlogPostAiContentSeo';
+import BlogPostGoogleAdsDienstenbedrijven from './pages/BlogPostGoogleAdsDienstenbedrijven';
+import BlogPostAboveTheFold from './pages/BlogPostAboveTheFold';
+import BlogPostCoreWebVitalsVerbeteren from './pages/BlogPostCoreWebVitalsVerbeteren';
+import BlogPostLinkedInAdsUitbestedenWanneerMoeite from './pages/BlogPostLinkedInAdsUitbestedenWanneerMoeite';
+import BlogPostGoogleAdsExtensies from './pages/BlogPostGoogleAdsExtensies';
+import BlogPostContentAudit from './pages/BlogPostContentAudit';
+import BlogPostTiktokAdsUitbestedenBureau from './pages/BlogPostTiktokAdsUitbestedenBureau';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -229,6 +237,11 @@ function App() {
         <Route path="/blogs/google-ads/google-ads-schalen-zonder-budget" element={<BlogPostGoogleAdsSchalen />} />
         <Route path="/blogs/social-ads/effectieve-meta-ads-funnel" element={<BlogPostMetaAdsFunnel />} />
         <Route path="/blogs/social-ads/conversie-api-meta-naast-pixel" element={<BlogPostConversieApiMeta />} />
+        <Route path="/blogs/seo/ai-content-seo-werkt-meer" element={<BlogPostAiContentSeo />} />
+        <Route path="/blogs/google-ads/google-ads-dienstenbedrijven-werkt-anders" element={<BlogPostGoogleAdsDienstenbedrijven />} />
+        <Route path="/blogs/strategie/above-the-fold-waarom-eerste" element={<BlogPostAboveTheFold />} />
+        <Route path="/blogs/seo/core-web-vitals-verbeteren-scoort" element={<BlogPostCoreWebVitalsVerbeteren />} />
+        <Route path="/blogs/social-ads/linkedin-ads-uitbesteden-wanneer-moeite" element={<BlogPostLinkedInAdsUitbestedenWanneerMoeite />} />
         <Route path="/blogs/google-ads/google-ads-display-vs-search" element={<BlogPostGoogleAdsDisplayVsSearch />} />
         <Route path="/blogs/social-ads/tiktok-spark-ads-vs-reguliere" element={<BlogPostTikTokSparkAdsVsReguliere />} />
         <Route path="/blogs/google-ads/google-ads-lokale-bedrijven" element={<BlogPostGoogleAdsLokaleBedrijven />} />
@@ -240,6 +253,9 @@ function App() {
         <Route path="/blogs/google-ads/performance-max-google-ads-weten" element={<BlogPostPerformanceMaxGoogleAdsWeten />} />
         <Route path="/blogs/google-ads/google-ads-campagne-structuur" element={<BlogPostGoogleAdsCampagneStructuur />} />
         <Route path="/blogs/social-ads/linkedin-lead-gen-forms-waarom" element={<BlogPostLinkedInLeadGenFormsWaarom />} />
+        <Route path="/blogs/google-ads/google-ads-extensies-altijd-gebruiken" element={<BlogPostGoogleAdsExtensies />} />
+        <Route path="/blogs/seo/content-audit" element={<BlogPostContentAudit />} />
+        <Route path="/blogs/social-ads/tiktok-ads-uitbesteden-bureau-jou" element={<BlogPostTiktokAdsUitbestedenBureau />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
