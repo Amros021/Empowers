@@ -94,6 +94,7 @@ import BlogPostLinkedInAdsUitbestedenWanneerMoeite from './pages/BlogPostLinkedI
 import BlogPostGoogleAdsExtensies from './pages/BlogPostGoogleAdsExtensies';
 import BlogPostContentAudit from './pages/BlogPostContentAudit';
 import BlogPostTiktokAdsUitbestedenBureau from './pages/BlogPostTiktokAdsUitbestedenBureau';
+import BlogPostVerlaagGoogleAdsCpc2026 from './pages/BlogPostVerlaagGoogleAdsCpc2026';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -256,6 +257,7 @@ function App() {
         <Route path="/blogs/google-ads/google-ads-extensies-altijd-gebruiken" element={<BlogPostGoogleAdsExtensies />} />
         <Route path="/blogs/seo/content-audit" element={<BlogPostContentAudit />} />
         <Route path="/blogs/social-ads/tiktok-ads-uitbesteden-bureau-jou" element={<BlogPostTiktokAdsUitbestedenBureau />} />
+        <Route path="/blogs/google-ads/verlaag-google-ads-cpc-2026" element={<BlogPostVerlaagGoogleAdsCpc2026 />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
