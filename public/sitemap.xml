@@ -38,18 +38,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://www.empowers.nl/algemene-voorwaarden</loc>
-    <lastmod>2026-03-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://www.empowers.nl/privacy-policy</loc>
-    <lastmod>2026-03-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
 
   <!-- DIENSTEN PAGINA'S -->
   <url>
@@ -690,6 +678,13 @@
   <url>
     <loc>https://www.empowers.nl/blogs/social-ads/tiktok-ads-uitbesteden-bureau-jou</loc>
     <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.empowers.nl/blogs/google-ads/verlaag-google-ads-cpc-2026</loc>
+    <lastmod>2026-04-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
