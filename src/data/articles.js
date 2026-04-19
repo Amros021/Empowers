@@ -3,6 +3,17 @@
 
 const articles = [
     {
+        title:    'Hoe verlaag je Google Ads CPC in 2026?',
+        category: 'Google Ads',
+        date:     '19 apr 2026',
+        dateTs:   new Date('2026-04-19T10:00:00').getTime(),
+        readTime: '8 min',
+        author:   'Empowers Redactie',
+        excerpt:  'Google Ads CPC verlagen in 2026 vraagt om een andere aanpak dan vroeger. Lees welke 7 hefbomen nu écht werken en hoe je stap voor stap minder per klik betaalt.',
+        slug:     '/blogs/google-ads/verlaag-google-ads-cpc-2026',
+        image:    '/images/blogs/verlaag-google-ads-cpc-2026.jpg',
+    },
+    {
         title:    'TikTok Ads uitbesteden: wat doet een bureau voor jou?',
         category: 'Social Ads',
         date:     '18 apr 2026',
