@@ -168,7 +168,7 @@ export default function BlogPostMetaAdsCatalogProductenAutomatisch() {
                             Een Meta Ads Catalog is een gestructureerd productbestand binnen Meta Business Manager. Per product staan daarin de afbeelding, titel, beschrijving, prijs, voorraadstatus, GTIN en productcategorie. Meta gebruikt die data om advertenties dynamisch te bouwen: per gebruiker selecteert het algoritme uit jouw feed de producten die het beste bij die persoon passen.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Dat klinkt simpel, maar het is een schaalbare manier om duizenden product-advertenties te runnen zonder dat je per item iets hoeft te ontwerpen. De catalogus vervangt feitelijk een groot deel van het handmatig advertenties bouwen. Bij webshops die we begeleiden zien we vaak dat 60 tot 80 procent van het Meta-budget naar dynamische productadvertenties verschuift zodra de catalogus goed staat. Hoe Meta Ads sowieso werkt na alle privacywijzigingen lees je in onze blog over <Link to="/blogs/social-ads/meta-ads-2025-werkt-na" className="text-accent hover:underline">Meta Ads na privacywijzigingen</Link>.
+                            Dat klinkt simpel, maar het is een schaalbare manier om duizenden product-advertenties te runnen zonder dat je per item iets hoeft te ontwerpen. De catalogus vervangt feitelijk een groot deel van het handmatig advertenties bouwen. Bij webshops die we begeleiden zien we vaak dat 60 tot 80 procent van het Meta-budget naar dynamische productadvertenties verschuift zodra de catalogus goed staat. Hoe Meta Ads sowieso werkt na alle privacywijzigingen lees je in onze blog over <Link to="/blogs/social-ads/meta-ads-2026-werkt-na" className="text-accent hover:underline">Meta Ads na privacywijzigingen</Link>.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Voor wie loont een productcatalogus?</h2>
@@ -267,7 +267,7 @@ export default function BlogPostMetaAdsCatalogProductenAutomatisch() {
                     <section className="mt-16 pt-12 border-t border-primary/10">
                         <h3 className="text-xl font-bold text-primary mb-6">Lees ook</h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <Link to="/blogs/social-ads/meta-ads-2025-werkt-na" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/social-ads/meta-ads-2026-werkt-na" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Meta Ads na privacywijzigingen</h3>
                                 <p className="text-primary/60 text-sm">Wat werkt nog wel na alle privacywijzigingen en hoe pas je je strategie aan.</p>
                             </Link>

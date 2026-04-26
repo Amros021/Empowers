@@ -172,7 +172,7 @@ export default function BlogPostInstagramReelsAdsConverterenCaseStudies() {
                             De meest betrouwbare structuur voor commerciele Reels: seconde 1 tot 8 toont het probleem (visueel of verbaal), seconde 9 tot 16 laat de oplossing zien, seconde 17 tot 22 geeft bewijs (klantcitaat, cijfer, voor-na). Dit ritme matched hoe mensen bij koopbeslissingen denken: ik herken iets, ik zie de oplossing, ik wil bewijs.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Case study: een SaaS-bedrijf voor administratie testte twee Reels naast elkaar. Versie A was een trendy 'day in the life'-format met 12.000 views en 4 conversies. Versie B opende met 'Drie uur per week kwijt aan facturen versturen?', toonde de tool en sloot af met '2.400 ondernemers schakelden over in 2025'. Resultaat: 8.500 views, 31 conversies. Helft minder views, 7,7 keer meer conversies. CPA daalde van 145 euro naar 18 euro.
+                            Case study: een SaaS-bedrijf voor administratie testte twee Reels naast elkaar. Versie A was een trendy 'day in the life'-format met 12.000 views en 4 conversies. Versie B opende met 'Drie uur per week kwijt aan facturen versturen?', toonde de tool en sloot af met '2.400 ondernemers schakelden recent over'. Resultaat: 8.500 views, 31 conversies. Helft minder views, 7,7 keer meer conversies. CPA daalde van 145 euro naar 18 euro.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Formule 2: Voor en na transformatie</h2>

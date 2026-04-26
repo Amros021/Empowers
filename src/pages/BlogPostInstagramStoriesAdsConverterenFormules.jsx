@@ -168,7 +168,7 @@ export default function BlogPostInstagramStoriesAdsConverterenFormules() {
                             Stories nemen het volledige scherm in beslag, spelen automatisch af en zijn snel: de gemiddelde gebruiker scrollt in een sessie door tientallen Stories binnen een paar minuten. Dat klinkt vluchtig, maar het maakt het format effectief: wie blijft kijken is al voorbij de eerste filter. De lagere CPC en CPM komen voort uit het feit dat het format immersief en gebouwd is voor instant interactie.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Bij dienstverleners die we begeleiden zien we dat Stories vaak 30 tot 40 procent goedkoper zijn dan Feed voor lead-conversies. De keerzijde: Stories vergeven niets. Een matige hook, slechte safe zone of generieke CTA betekent dat 90 procent in seconde 2 wegswipet. Hoe je sowieso een goede Meta-strategie opbouwt staat in onze gids over <Link to="/blogs/social-ads/meta-ads-2025-werkt-na" className="text-accent hover:underline">Meta Ads na privacywijzigingen</Link>.
+                            Bij dienstverleners die we begeleiden zien we dat Stories vaak 30 tot 40 procent goedkoper zijn dan Feed voor lead-conversies. De keerzijde: Stories vergeven niets. Een matige hook, slechte safe zone of generieke CTA betekent dat 90 procent in seconde 2 wegswipet. Hoe je sowieso een goede Meta-strategie opbouwt staat in onze gids over <Link to="/blogs/social-ads/meta-ads-2026-werkt-na" className="text-accent hover:underline">Meta Ads na privacywijzigingen</Link>.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Welke specs gebruik je voor een Stories ad?</h2>

@@ -59,7 +59,7 @@ export default function BlogPostInstagramAdverterenKostenCpmBudget2026() {
                                     "name": "Wat is een goede CPM voor Instagram?",
                                     "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Een gezonde CPM voor Feed ligt tussen 6 en 12 dollar, voor Stories tussen 5 en 8 dollar en voor Reels tussen 4 en 9 dollar. CPMs schommelen seizoensafhankelijk. In november 2025 piekte de globale mediaan op 25,22 dollar, om in januari 2026 weer te zakken naar 15,74 dollar. Plan piekmaanden niet zonder hogere budgetten."
+                                        "text": "Een gezonde CPM voor Feed ligt tussen 6 en 12 dollar, voor Stories tussen 5 en 8 dollar en voor Reels tussen 4 en 9 dollar. CPMs schommelen seizoensafhankelijk. In Q4 piekt de globale mediaan rond 25 dollar door Black Friday en de feestdagen, om begin Q1 weer te zakken richting 15 dollar. Plan piekmaanden niet zonder hogere budgetten."
                                     }
                                 },
                                 {
@@ -164,7 +164,7 @@ export default function BlogPostInstagramAdverterenKostenCpmBudget2026() {
                             De drie kerncijfers voor 2026: gemiddelde Instagram Feed CPC ligt op 3,35 dollar (rond 3,10 euro), CPM op 7,68 dollar. Stories ads zitten op 1,83 dollar CPC en 6,25 dollar CPM. Reels ads zijn met 1,28 dollar CPC het goedkoopste plaatsingstype, en CPM tussen de 4 en 9 dollar. Deze cijfers zijn globale medianen, maar lopen sterk uiteen per branche en seizoen.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Een seizoensvariatie die je in jouw planning moet meenemen: in november 2025 piekte de globale CPM op 25,22 dollar, in januari 2026 zakte hij weer naar 15,74 dollar. Black Friday en de feestdagen jagen de CPM met 60 tot 80 procent omhoog door extra concurrentie. Plan jouw piekmaanden niet zonder verhoogd budget, of accepteer minder volume in die periodes. De volledige strategie hoe je hier op inspeelt staat in onze gids over <Link to="/blogs/social-ads/instagram-adverteren-2026-complete-gids" className="text-accent hover:underline">adverteren op Instagram in 2026</Link>.
+                            Een seizoensvariatie die je in jouw planning moet meenemen: in Q4 piekt de globale CPM rond 25 dollar, begin Q1 zakt hij richting 15 dollar. Black Friday en de feestdagen jagen de CPM met 60 tot 80 procent omhoog door extra concurrentie. Plan jouw piekmaanden niet zonder verhoogd budget, of accepteer minder volume in die periodes. De volledige strategie hoe je hier op inspeelt staat in onze gids over <Link to="/blogs/social-ads/instagram-adverteren-2026-complete-gids" className="text-accent hover:underline">adverteren op Instagram in 2026</Link>.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe verschillen kosten per branche?</h2>
@@ -225,7 +225,7 @@ export default function BlogPostInstagramAdverterenKostenCpmBudget2026() {
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Wat is een goede CPM voor Instagram?</h3>
-                                <p className="font-sans text-primary/70 leading-relaxed">Een gezonde CPM voor Feed ligt tussen 6 en 12 dollar, voor Stories tussen 5 en 8 dollar en voor Reels tussen 4 en 9 dollar. CPMs schommelen seizoensafhankelijk. In november 2025 piekte de globale mediaan op 25,22 dollar, om in januari 2026 weer te zakken naar 15,74 dollar. Plan piekmaanden niet zonder hogere budgetten.</p>
+                                <p className="font-sans text-primary/70 leading-relaxed">Een gezonde CPM voor Feed ligt tussen 6 en 12 dollar, voor Stories tussen 5 en 8 dollar en voor Reels tussen 4 en 9 dollar. CPMs schommelen seizoensafhankelijk. In Q4 piekt de globale mediaan rond 25 dollar door Black Friday en de feestdagen, om begin Q1 weer te zakken richting 15 dollar. Plan piekmaanden niet zonder hogere budgetten.</p>
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoe bereken je een Instagram advertentiebudget?</h3>

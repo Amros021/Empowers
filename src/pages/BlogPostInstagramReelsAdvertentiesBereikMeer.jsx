@@ -168,7 +168,7 @@ export default function BlogPostInstagramReelsAdvertentiesBereikMeer() {
                             Reels nemen in 2026 het grootste deel van Instagram's gebruikstijd in beslag. Mensen scrollen er met sound-on doorheen, openen het in volledig scherm en swipen razendsnel verder bij ongeïnteresseerde content. Dat klinkt agressief, maar het maakt het format juist krachtig: wie blijft kijken is écht geïnteresseerd. De CPC is lager omdat het algoritme niet hoeft te concurreren met dichtbevolkte Feed-plaatsingen.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Bij webshops die we begeleiden zien we vaak dat Reels-campagnes 30 tot 50 procent meer impressies opleveren voor hetzelfde budget vergeleken met Feed. De CTR is doorgaans iets lager (de gebruiker scant rapper), maar de CPM compenseert dat ruim. Voor cold prospecting is Reels in 2026 vaak de eerste keuze. Hoe Meta Ads sowieso werken na alle privacywijzigingen lees je in onze blog over <Link to="/blogs/social-ads/meta-ads-2025-werkt-na" className="text-accent hover:underline">Meta Ads in 2025</Link>.
+                            Bij webshops die we begeleiden zien we vaak dat Reels-campagnes 30 tot 50 procent meer impressies opleveren voor hetzelfde budget vergeleken met Feed. De CTR is doorgaans iets lager (de gebruiker scant rapper), maar de CPM compenseert dat ruim. Voor cold prospecting is Reels in 2026 vaak de eerste keuze. Hoe Meta Ads sowieso werken na alle privacywijzigingen lees je in onze blog over <Link to="/blogs/social-ads/meta-ads-2026-werkt-na" className="text-accent hover:underline">Meta Ads na privacywijzigingen</Link>.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Welke specs gebruik je voor een Reels advertentie?</h2>
@@ -283,7 +283,7 @@ export default function BlogPostInstagramReelsAdvertentiesBereikMeer() {
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Winnende Meta Ads video</h3>
                                 <p className="text-primary/60 text-sm">Welke video-formules in 2026 de hoogste conversies opleveren.</p>
                             </Link>
-                            <Link to="/blogs/social-ads/meta-ads-2025-werkt-na" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/social-ads/meta-ads-2026-werkt-na" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Meta Ads na privacywijzigingen</h3>
                                 <p className="text-primary/60 text-sm">Wat werkt nog wel sinds iOS 14 en alle privacy-updates.</p>
                             </Link>
