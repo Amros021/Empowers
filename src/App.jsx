@@ -112,6 +112,16 @@ import BlogPostSemantischeSeo from './pages/BlogPostSemantischeSeo';
 import BlogPostBrandedVsNonBrandedCampagnes from './pages/BlogPostBrandedVsNonBrandedCampagnes';
 import BlogPostMetaAdsCatalogProductenAutomatisch from './pages/BlogPostMetaAdsCatalogProductenAutomatisch';
 import BlogPostGoogleAdsRapportageMetricsEcht from './pages/BlogPostGoogleAdsRapportageMetricsEcht';
+import BlogPostInstagramAdverteren2026CompleteGids from './pages/BlogPostInstagramAdverteren2026CompleteGids';
+import BlogPostInstagramReelsAdvertentiesBereikMeer from './pages/BlogPostInstagramReelsAdvertentiesBereikMeer';
+import BlogPostInstagramStoriesAdsConverterenFormules from './pages/BlogPostInstagramStoriesAdsConverterenFormules';
+import BlogPostInstagramAdverterenKostenCpmBudget2026 from './pages/BlogPostInstagramAdverterenKostenCpmBudget2026';
+import BlogPostInstagramReelsAdsConverterenCaseStudies from './pages/BlogPostInstagramReelsAdsConverterenCaseStudies';
+import BlogPostInstagramAdsDoelgroepenLookalikeCustomAdvantage from './pages/BlogPostInstagramAdsDoelgroepenLookalikeCustomAdvantage';
+import BlogPostInstagramAdverterenWebshopsShoppingAankoop from './pages/BlogPostInstagramAdverterenWebshopsShoppingAankoop';
+import BlogPostAndromedaAlgoritme2026Instagram from './pages/BlogPostAndromedaAlgoritme2026Instagram';
+import BlogPostGoogleAdsBeheerChecklistBureauControleren from './pages/BlogPostGoogleAdsBeheerChecklistBureauControleren';
+import BlogPostTiktokAdverteren2026CompleteGidsBeginners from './pages/BlogPostTiktokAdverteren2026CompleteGidsBeginners';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -292,6 +302,16 @@ function App() {
         <Route path="/blogs/google-ads/branded-vs-non-branded-campagnes" element={<BlogPostBrandedVsNonBrandedCampagnes />} />
         <Route path="/blogs/social-ads/meta-ads-catalog-producten-automatisch" element={<BlogPostMetaAdsCatalogProductenAutomatisch />} />
         <Route path="/blogs/google-ads/google-ads-rapportage-metrics-echt" element={<BlogPostGoogleAdsRapportageMetricsEcht />} />
+        <Route path="/blogs/social-ads/instagram-adverteren-2026-complete-gids" element={<BlogPostInstagramAdverteren2026CompleteGids />} />
+        <Route path="/blogs/social-ads/instagram-reels-advertenties-bereik-meer" element={<BlogPostInstagramReelsAdvertentiesBereikMeer />} />
+        <Route path="/blogs/social-ads/instagram-stories-ads-converteren-formules" element={<BlogPostInstagramStoriesAdsConverterenFormules />} />
+        <Route path="/blogs/social-ads/instagram-adverteren-kosten-cpm-budget-2026" element={<BlogPostInstagramAdverterenKostenCpmBudget2026 />} />
+        <Route path="/blogs/social-ads/instagram-reels-ads-converteren-case-studies" element={<BlogPostInstagramReelsAdsConverterenCaseStudies />} />
+        <Route path="/blogs/social-ads/instagram-ads-doelgroepen-lookalike-custom-advantage" element={<BlogPostInstagramAdsDoelgroepenLookalikeCustomAdvantage />} />
+        <Route path="/blogs/social-ads/instagram-adverteren-webshops-shopping-aankoop" element={<BlogPostInstagramAdverterenWebshopsShoppingAankoop />} />
+        <Route path="/blogs/social-ads/andromeda-algoritme-2026-instagram" element={<BlogPostAndromedaAlgoritme2026Instagram />} />
+        <Route path="/blogs/google-ads/google-ads-beheer-checklist-bureau-controleren" element={<BlogPostGoogleAdsBeheerChecklistBureauControleren />} />
+        <Route path="/blogs/social-ads/tiktok-adverteren-2026-complete-gids-beginners" element={<BlogPostTiktokAdverteren2026CompleteGidsBeginners />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
