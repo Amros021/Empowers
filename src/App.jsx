@@ -95,6 +95,23 @@ import BlogPostGoogleAdsExtensies from './pages/BlogPostGoogleAdsExtensies';
 import BlogPostContentAudit from './pages/BlogPostContentAudit';
 import BlogPostTiktokAdsUitbestedenBureau from './pages/BlogPostTiktokAdsUitbestedenBureau';
 import BlogPostVerlaagGoogleAdsCpc2026 from './pages/BlogPostVerlaagGoogleAdsCpc2026';
+import BlogPostAdvantageShoppingCampagnes from './pages/BlogPostAdvantageShoppingCampagnes';
+import BlogPostThoughtLeaderAdsLinkedIn from './pages/BlogPostThoughtLeaderAdsLinkedIn';
+import BlogPostGoedeRoasMetaAdsBenchmarks from './pages/BlogPostGoedeRoasMetaAdsBenchmarks';
+import BlogPostFullServiceMarketingBureauSpecialist from './pages/BlogPostFullServiceMarketingBureauSpecialist';
+import BlogPostTechnischeSeoAudit from './pages/BlogPostTechnischeSeoAudit';
+import BlogPostLlmZichtbaarheidMeten from './pages/BlogPostLlmZichtbaarheidMeten';
+import BlogPostMetaAdsCreativeTesting from './pages/BlogPostMetaAdsCreativeTesting';
+import BlogPostSchemaMarkup from './pages/BlogPostSchemaMarkup';
+import BlogPostCtaTekstSchrijven from './pages/BlogPostCtaTekstSchrijven';
+import BlogPostLokaleSeoMkb from './pages/BlogPostLokaleSeoMkb';
+import BlogPostResponsiveSearchAds from './pages/BlogPostResponsiveSearchAds';
+import BlogPostMetaAdsIos14Veranderd from './pages/BlogPostMetaAdsIos14Veranderd';
+import BlogPostYoutubeAdverterenGoogleAds from './pages/BlogPostYoutubeAdverterenGoogleAds';
+import BlogPostSemantischeSeo from './pages/BlogPostSemantischeSeo';
+import BlogPostBrandedVsNonBrandedCampagnes from './pages/BlogPostBrandedVsNonBrandedCampagnes';
+import BlogPostMetaAdsCatalogProductenAutomatisch from './pages/BlogPostMetaAdsCatalogProductenAutomatisch';
+import BlogPostGoogleAdsRapportageMetricsEcht from './pages/BlogPostGoogleAdsRapportageMetricsEcht';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -164,11 +181,11 @@ function App() {
         <Route path="/diensten" element={<Diensten />} />
         <Route path="/over-ons" element={<About />} />
         <Route path="/nieuws" element={<Nieuws />} />
-        {/* Old blog routes - kept for backwards compatibility */}
-        <Route path="/blog/wat-is-geo-generative-engine-optimization" element={<BlogPostGeo />} />
-        <Route path="/blog/waarom-meta-ads-niet-converteren" element={<BlogPostMetaAds />} />
-        <Route path="/blog/tiktok-ads-voor-bedrijven" element={<BlogPostTikTokAds />} />
-        <Route path="/blog/marketing-tracking-conversies-meten" element={<BlogPostTracking />} />
+        {/* Old /blog/ routes → redirect naar /blogs/ (met s) */}
+        <Route path="/blog/wat-is-geo-generative-engine-optimization" element={<Navigate to="/blogs/geo/wat-is-geo-generative-engine-optimization" replace />} />
+        <Route path="/blog/waarom-meta-ads-niet-converteren" element={<Navigate to="/blogs/social-ads/waarom-meta-ads-niet-converteren" replace />} />
+        <Route path="/blog/tiktok-ads-voor-bedrijven" element={<Navigate to="/blogs/social-ads/tiktok-ads-voor-bedrijven" replace />} />
+        <Route path="/blog/marketing-tracking-conversies-meten" element={<Navigate to="/blogs/tracking/marketing-tracking-conversies-meten" replace />} />
         {/* New category-based blog routes (7 categorieën) */}
         <Route path="/blogs/geo/wat-is-geo-generative-engine-optimization" element={<BlogPostGeo />} />
         <Route path="/blogs/social-ads/waarom-meta-ads-niet-converteren" element={<BlogPostMetaAds />} />
@@ -198,6 +215,7 @@ function App() {
         <Route path="/blogs/social-ads/facebook-vs-instagram-adverteren-welk" element={<BlogPostFacebookVsInstagramAdverteren />} />
         <Route path="/blogs/social-ads/meta-pixel-instellen-stap-stap" element={<BlogPostMetaPixelInstellen />} />
         <Route path="/blogs/seo/technische-seo-checklist-2025-website" element={<BlogPostTechnischeSeoChecklist />} />
+        <Route path="/blogs/seo/technische-seo-audit" element={<BlogPostTechnischeSeoAudit />} />
         <Route path="/blogs/geo/geo-vs-seo-verschil-heb" element={<BlogPostGeoVsSeo />} />
         <Route path="/blogs/google-ads/sea-uitbesteden-weten-voordat-kiest" element={<BlogPostSeaUitbesteden />} />
         <Route path="/blogs/algemeen/b2b-marketing-bureau-vs-zelf" element={<BlogPostB2bMarketingBureauVsZelf />} />
@@ -258,6 +276,22 @@ function App() {
         <Route path="/blogs/seo/content-audit" element={<BlogPostContentAudit />} />
         <Route path="/blogs/social-ads/tiktok-ads-uitbesteden-bureau-jou" element={<BlogPostTiktokAdsUitbestedenBureau />} />
         <Route path="/blogs/google-ads/verlaag-google-ads-cpc-2026" element={<BlogPostVerlaagGoogleAdsCpc2026 />} />
+        <Route path="/blogs/social-ads/advantage-shopping-campagnes" element={<BlogPostAdvantageShoppingCampagnes />} />
+        <Route path="/blogs/social-ads/thought-leader-ads-linkedin-vergroot" element={<BlogPostThoughtLeaderAdsLinkedIn />} />
+        <Route path="/blogs/social-ads/goede-roas-meta-ads-benchmarks" element={<BlogPostGoedeRoasMetaAdsBenchmarks />} />
+        <Route path="/blogs/algemeen/full-service-marketing-bureau-specialist" element={<BlogPostFullServiceMarketingBureauSpecialist />} />
+        <Route path="/blogs/geo/llm-zichtbaarheid-meten-ai-ziet" element={<BlogPostLlmZichtbaarheidMeten />} />
+        <Route path="/blogs/social-ads/meta-ads-creative-testing-weet" element={<BlogPostMetaAdsCreativeTesting />} />
+        <Route path="/blogs/seo/schema-markup-instelt" element={<BlogPostSchemaMarkup />} />
+        <Route path="/blogs/strategie/cta-tekst-schrijven-mensen-aanzet" element={<BlogPostCtaTekstSchrijven />} />
+        <Route path="/blogs/seo/lokale-seo-mkb-word-gevonden" element={<BlogPostLokaleSeoMkb />} />
+        <Route path="/blogs/google-ads/responsive-search-ads-uitgelegd-effectief" element={<BlogPostResponsiveSearchAds />} />
+        <Route path="/blogs/social-ads/meta-ads-ios-14-veranderd" element={<BlogPostMetaAdsIos14Veranderd />} />
+        <Route path="/blogs/google-ads/youtube-adverteren-google-ads-werkt" element={<BlogPostYoutubeAdverterenGoogleAds />} />
+        <Route path="/blogs/seo/semantische-seo-begrijpt-google-content" element={<BlogPostSemantischeSeo />} />
+        <Route path="/blogs/google-ads/branded-vs-non-branded-campagnes" element={<BlogPostBrandedVsNonBrandedCampagnes />} />
+        <Route path="/blogs/social-ads/meta-ads-catalog-producten-automatisch" element={<BlogPostMetaAdsCatalogProductenAutomatisch />} />
+        <Route path="/blogs/google-ads/google-ads-rapportage-metrics-echt" element={<BlogPostGoogleAdsRapportageMetricsEcht />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
