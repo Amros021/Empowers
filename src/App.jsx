@@ -122,6 +122,22 @@ import BlogPostInstagramAdverterenWebshopsShoppingAankoop from './pages/BlogPost
 import BlogPostAndromedaAlgoritme2026Instagram from './pages/BlogPostAndromedaAlgoritme2026Instagram';
 import BlogPostGoogleAdsBeheerChecklistBureauControleren from './pages/BlogPostGoogleAdsBeheerChecklistBureauControleren';
 import BlogPostTiktokAdverteren2026CompleteGidsBeginners from './pages/BlogPostTiktokAdverteren2026CompleteGidsBeginners';
+import BlogPostMetaAdsCampagnestructuur from './pages/BlogPostMetaAdsCampagnestructuur';
+import BlogPostAttributionModellenLastClickDataDriven from './pages/BlogPostAttributionModellenLastClickDataDriven';
+import BlogPostTiktokPixelInstellen from './pages/BlogPostTiktokPixelInstellen';
+import BlogPostSeoDoodEvolueert2026 from './pages/BlogPostSeoDoodEvolueert2026';
+import BlogPostMetaAdsLokaleBedrijven from './pages/BlogPostMetaAdsLokaleBedrijven';
+import BlogPostMetaAdsB2bWerkt from './pages/BlogPostMetaAdsB2bWerkt';
+import BlogPostEeatBelangrijkVoorSeo from './pages/BlogPostEeatBelangrijkVoorSeo';
+import BlogPostTiktokAdsVsMetaAds from './pages/BlogPostTiktokAdsVsMetaAds';
+import BlogPostLinkedinAdsVsGoogleAds from './pages/BlogPostLinkedinAdsVsGoogleAds';
+import BlogPostLinkedinAdsRetargetingBereikWarme from './pages/BlogPostLinkedinAdsRetargetingBereikWarme';
+import BlogPostSeaBureauVergelijkenResultaten from './pages/BlogPostSeaBureauVergelijkenResultaten';
+import BlogPostSeaVsSeoStrategieBudgetDoel from './pages/BlogPostSeaVsSeoStrategieBudgetDoel';
+import BlogPostSeaCpcBenchmarksPerBranche from './pages/BlogPostSeaCpcBenchmarksPerBranche';
+import BlogPostOnlineMarketingMkb5KanalenWerken2026 from './pages/BlogPostOnlineMarketingMkb5KanalenWerken2026';
+import BlogPostMarketingUitbestedenMkbZelfDoen from './pages/BlogPostMarketingUitbestedenMkbZelfDoen';
+import BlogPostOnPageVsOffPageSeo from './pages/BlogPostOnPageVsOffPageSeo';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -313,6 +329,22 @@ function App() {
         <Route path="/blogs/social-ads/andromeda-algoritme-2026-instagram" element={<BlogPostAndromedaAlgoritme2026Instagram />} />
         <Route path="/blogs/google-ads/google-ads-beheer-checklist-bureau-controleren" element={<BlogPostGoogleAdsBeheerChecklistBureauControleren />} />
         <Route path="/blogs/social-ads/tiktok-adverteren-2026-complete-gids-beginners" element={<BlogPostTiktokAdverteren2026CompleteGidsBeginners />} />
+        <Route path="/blogs/social-ads/meta-ads-campagnestructuur-bouw-goed" element={<BlogPostMetaAdsCampagnestructuur />} />
+        <Route path="/blogs/tracking/attribution-modellen-uitgelegd-last-click" element={<BlogPostAttributionModellenLastClickDataDriven />} />
+        <Route path="/blogs/social-ads/tiktok-pixel-instellen-stap-stap" element={<BlogPostTiktokPixelInstellen />} />
+        <Route path="/blogs/algemeen/seo-dood-evolueert-2026" element={<BlogPostSeoDoodEvolueert2026 />} />
+        <Route path="/blogs/social-ads/meta-ads-lokale-bedrijven-bereik" element={<BlogPostMetaAdsLokaleBedrijven />} />
+        <Route path="/blogs/social-ads/meta-ads-b2b-werkt" element={<BlogPostMetaAdsB2bWerkt />} />
+        <Route path="/blogs/seo/eeat-belangrijk-voor-seo" element={<BlogPostEeatBelangrijkVoorSeo />} />
+        <Route path="/blogs/social-ads/tiktok-ads-vs-meta-ads" element={<BlogPostTiktokAdsVsMetaAds />} />
+        <Route path="/blogs/social-ads/linkedin-ads-vs-google-ads" element={<BlogPostLinkedinAdsVsGoogleAds />} />
+        <Route path="/blogs/social-ads/linkedin-ads-retargeting-bereik-warme" element={<BlogPostLinkedinAdsRetargetingBereikWarme />} />
+        <Route path="/blogs/google-ads/sea-bureau-vergelijken-resultaten-rapportages" element={<BlogPostSeaBureauVergelijkenResultaten />} />
+        <Route path="/blogs/algemeen/sea-vs-seo-strategie-budget-doel" element={<BlogPostSeaVsSeoStrategieBudgetDoel />} />
+        <Route path="/blogs/google-ads/sea-cpc-benchmarks-per-branche-nederland" element={<BlogPostSeaCpcBenchmarksPerBranche />} />
+        <Route path="/blogs/algemeen/online-marketing-mkb-5-kanalen-werken-2026" element={<BlogPostOnlineMarketingMkb5KanalenWerken2026 />} />
+        <Route path="/blogs/algemeen/marketing-uitbesteden-mkb-zelf-doen" element={<BlogPostMarketingUitbestedenMkbZelfDoen />} />
+        <Route path="/blogs/seo/on-page-vs-off-page" element={<BlogPostOnPageVsOffPageSeo />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
