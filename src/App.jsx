@@ -352,7 +352,7 @@ function App() {
         <Route path="/blogs/google-ads/google-ads-data-om-seo" element={<BlogPostGoogleAdsDataOmSeo />} />
         <Route path="/blogs/geo/rank-chatgpt-kom-ai-antwoorden" element={<BlogPostRankChatgptKomAiAntwoorden />} />
         <Route path="/blogs/geo/google-ai-overviews-betekenen-verkeer" element={<BlogPostGoogleAiOverviewsBetekenenVerkeer />} />
-        <Route path="/blogs/google-ads/schaal-google-ads-budget-te" element={<BlogPostSchaalGoogleAdsBudgetTe />} />
+        <Route path="/blogs/google-ads/google-ads-schalen-zonder-budget-verdubbelen" element={<BlogPostSchaalGoogleAdsBudgetTe />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
