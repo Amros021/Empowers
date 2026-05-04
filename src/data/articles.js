@@ -10,7 +10,7 @@ const articles = [
         readTime: '9 min',
         author:   'Empowers Redactie',
         excerpt:  'Google Ads schalen zonder dat je ROAS instort? Lees welke 6 hefbomen werken, welke fouten budget kosten en hoe je gecontroleerd opschaalt.',
-        slug:     '/blogs/google-ads/schaal-google-ads-budget-te',
+        slug:     '/blogs/google-ads/google-ads-schalen-zonder-budget-verdubbelen',
         image:    '/images/blogs/schaal-google-ads-budget-te.jpg',
     },
     {
