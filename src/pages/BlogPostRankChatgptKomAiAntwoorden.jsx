@@ -83,7 +83,7 @@ export default function BlogPostRankChatgptKomAiAntwoorden() {
                                     "name": "Hoe meet je of je in ChatGPT verschijnt?",
                                     "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Stel zelf 20 tot 30 zoekvragen die jouw doelgroep zou stellen en noteer of jouw bedrijf wordt genoemd. Doe dit elke maand opnieuw. Tools zoals AthenaHQ, Profound en RankEngine meten dit automatisch en laten ook zien welke concurrenten wel worden geciteerd."
+                                        "text": "Stel zelf 20 tot 30 zoekvragen die jouw doelgroep zou stellen en noteer of jouw bedrijf wordt genoemd. Doe dit elke maand opnieuw. Tools zoals Profound (MKB) of AthenaHQ (enterprise) meten dit automatisch en laten ook zien welke concurrenten wel worden geciteerd."
                                     }
                                 },
                                 {
@@ -200,7 +200,7 @@ export default function BlogPostRankChatgptKomAiAntwoorden() {
                             ChatGPT-zichtbaarheid meten is iets anders dan Google-rankings volgen. Begin daarom simpel: stel zelf 25 vragen die jouw klanten in ChatGPT zouden typen en kijk of jouw bedrijf wordt genoemd. Doe dit elke maand opnieuw met dezelfde lijst zodat je een trendlijn ziet ontstaan.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Voor systematisch meten zijn er inmiddels tools. Profound werkt prima voor MKB en start vanaf enkele tientjes per maand. AthenaHQ zit in het enterprise-segment en is duurder, maar geeft wel diepere concurrent-vergelijkingen. Wij gebruiken intern <a href="https://www.empowers.nl/rankengine" className="text-accent hover:underline">RankEngine</a>, onze eigen tool waarmee we voor klanten dagelijks tientallen prompts testen over ChatGPT, Perplexity en Gemini.
+                            Voor systematisch meten zijn er inmiddels tools. Profound werkt prima voor MKB en start vanaf enkele tientjes per maand. AthenaHQ zit in het enterprise-segment en is duurder, maar geeft wel diepere concurrent-vergelijkingen. Voor onze eigen klanten draaien we daarnaast wekelijks handmatige prompt-tests over ChatGPT, Perplexity en Gemini om te zien hoe de zichtbaarheid zich ontwikkelt.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Combineer dat altijd met handmatige steekproeven. Tools missen de nuance van wat ChatGPT precies citeert en in welke context. Lees zelf elke maand een handvol antwoorden om de kwaliteit van de citaties te beoordelen. Voor meer over GEO-meting zie onze blog over <Link to="/blogs/geo/llm-zichtbaarheid-meten-ai-ziet" className="text-accent hover:underline">LLM-zichtbaarheid meten</Link>.
@@ -229,7 +229,7 @@ export default function BlogPostRankChatgptKomAiAntwoorden() {
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoe meet je of je in ChatGPT verschijnt?</h3>
-                                <p className="font-sans text-primary/70 leading-relaxed">Stel zelf 20 tot 30 zoekvragen die jouw doelgroep zou stellen en noteer of jouw bedrijf wordt genoemd. Doe dit elke maand opnieuw. Externe tools zoals Profound (MKB) of AthenaHQ (enterprise) meten dit automatisch. Wij gebruiken intern RankEngine, onze eigen tool die dagelijks tientallen prompts test over ChatGPT, Perplexity en Gemini.</p>
+                                <p className="font-sans text-primary/70 leading-relaxed">Stel zelf 20 tot 30 zoekvragen die jouw doelgroep zou stellen en noteer of jouw bedrijf wordt genoemd. Doe dit elke maand opnieuw. Tools zoals Profound (MKB) of AthenaHQ (enterprise) meten dit automatisch.</p>
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Welke fout maken bedrijven het vaakst?</h3>
