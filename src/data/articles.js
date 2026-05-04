@@ -3,6 +3,17 @@
 
 const articles = [
     {
+        title:    'Content structureren voor AI-zoekmachines: zo word je geciteerd',
+        category: 'GEO',
+        date:     '4 mei 2026',
+        dateTs:   new Date('2026-05-04T13:00:00').getTime(),
+        readTime: '8 min',
+        author:   'Empowers Redactie',
+        excerpt:  'Wil je dat ChatGPT, Perplexity en Gemini jou noemen? Leer hoe je content structureert voor AI-zoekmachines met zeven regels die werken.',
+        slug:     '/blogs/geo/content-structureren-ai-zoekmachines',
+        image:    '/images/blogs/content-structureren-ai-zoekmachines.jpg',
+    },
+    {
         title:    'Hoe schaal je Google Ads zonder je budget te verdubbelen (2026)',
         category: 'Google Ads',
         date:     '4 mei 2026',
