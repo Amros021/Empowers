@@ -142,6 +142,7 @@ import BlogPostSeaCpcBenchmarksPerBranche from './pages/BlogPostSeaCpcBenchmarks
 import BlogPostOnlineMarketingMkb5KanalenWerken2026 from './pages/BlogPostOnlineMarketingMkb5KanalenWerken2026';
 import BlogPostMarketingUitbestedenMkbZelfDoen from './pages/BlogPostMarketingUitbestedenMkbZelfDoen';
 import BlogPostOnPageVsOffPageSeo from './pages/BlogPostOnPageVsOffPageSeo';
+import BlogPostContentStructurerenAiZoekmachines from './pages/BlogPostContentStructurerenAiZoekmachines';
 import BlogCategory from './pages/BlogCategory';
 import GeoPage from './pages/GeoPage';
 import SeoPage from './pages/SeoPage';
@@ -269,6 +270,7 @@ function App() {
         <Route path="/blogs/social-ads/winnende-meta-ads-video-2026" element={<BlogPostWinnendeMetaAdsVideo2026 />} />
         <Route path="/blogs/social-ads/linkedin-sponsored-content-vs-message" element={<BlogPostLinkedInSponsoredContentVsMessage />} />
         <Route path="/blogs/geo/content-structureren-ai" element={<BlogPostContentStructurerenAi />} />
+        <Route path="/blogs/geo/content-structureren-ai-zoekmachines" element={<BlogPostContentStructurerenAiZoekmachines />} />
         <Route path="/blogs/google-ads/meet-roi-google-ads-campagne" element={<BlogPostMeetRoiGoogleAdsCampagne />} />
         <Route path="/blogs/google-ads/verlaag-cpc-google-ads-minder" element={<BlogPostVerlaagCpcGoogleAdsMinder />} />
         <Route path="/blogs/social-ads/tiktok-adverteren-viral-te-hoeven" element={<BlogPostTikTokAdverterenViralTeHoeven />} />
