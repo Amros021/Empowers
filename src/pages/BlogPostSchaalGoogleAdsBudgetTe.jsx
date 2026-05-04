@@ -15,11 +15,11 @@ export default function BlogPostSchaalGoogleAdsBudgetTe() {
             <Helmet>
                 <title>Hoe schaal je Google Ads zonder je budget te verdubbelen (2026) | Empowers</title>
                 <meta name="description" content="Google Ads schalen zonder dat je ROAS instort? Lees welke 6 hefbomen werken, welke fouten budget kosten en hoe je gecontroleerd opschaalt." />
-                <link rel="canonical" href="https://www.empowers.nl/blogs/google-ads/schaal-google-ads-budget-te" />
+                <link rel="canonical" href="https://www.empowers.nl/blogs/google-ads/google-ads-schalen-zonder-budget-verdubbelen" />
                 <meta property="og:title" content="Hoe schaal je Google Ads zonder je budget te verdubbelen" />
                 <meta property="og:description" content="Welke 6 hefbomen Google Ads laten groeien zonder dat je ROAS instort." />
                 <meta property="og:type" content="article" />
-                <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/schaal-google-ads-budget-te" />
+                <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/google-ads-schalen-zonder-budget-verdubbelen" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/schaal-google-ads-budget-te.jpg" />
                 <meta property="article:published_time" content="2026-05-04" />
                 <meta property="article:author" content="Empowers" />
@@ -107,7 +107,7 @@ export default function BlogPostSchaalGoogleAdsBudgetTe() {
                             { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
                             { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
                             { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Google Ads schalen", "item": "https://www.empowers.nl/blogs/google-ads/schaal-google-ads-budget-te" }
+                            { "@type": "ListItem", "position": 4, "name": "Google Ads schalen", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-schalen-zonder-budget-verdubbelen" }
                         ]
                     })}
                 </script>
