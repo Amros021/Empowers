@@ -107,6 +107,10 @@ import BlogPostCtaTekstSchrijven from './pages/BlogPostCtaTekstSchrijven';
 import BlogPostLokaleSeoMkb from './pages/BlogPostLokaleSeoMkb';
 import BlogPostResponsiveSearchAds from './pages/BlogPostResponsiveSearchAds';
 import BlogPostMetaAdsIos14Veranderd from './pages/BlogPostMetaAdsIos14Veranderd';
+import BlogPostGoogleAdsDataOmSeo from './pages/BlogPostGoogleAdsDataOmSeo';
+import BlogPostRankChatgptKomAiAntwoorden from './pages/BlogPostRankChatgptKomAiAntwoorden';
+import BlogPostGoogleAiOverviewsBetekenenVerkeer from './pages/BlogPostGoogleAiOverviewsBetekenenVerkeer';
+import BlogPostSchaalGoogleAdsBudgetTe from './pages/BlogPostSchaalGoogleAdsBudgetTe';
 import BlogPostYoutubeAdverterenGoogleAds from './pages/BlogPostYoutubeAdverterenGoogleAds';
 import BlogPostSemantischeSeo from './pages/BlogPostSemantischeSeo';
 import BlogPostBrandedVsNonBrandedCampagnes from './pages/BlogPostBrandedVsNonBrandedCampagnes';
@@ -345,6 +349,10 @@ function App() {
         <Route path="/blogs/algemeen/online-marketing-mkb-5-kanalen-werken-2026" element={<BlogPostOnlineMarketingMkb5KanalenWerken2026 />} />
         <Route path="/blogs/algemeen/marketing-uitbesteden-mkb-zelf-doen" element={<BlogPostMarketingUitbestedenMkbZelfDoen />} />
         <Route path="/blogs/seo/on-page-vs-off-page" element={<BlogPostOnPageVsOffPageSeo />} />
+        <Route path="/blogs/google-ads/google-ads-data-om-seo" element={<BlogPostGoogleAdsDataOmSeo />} />
+        <Route path="/blogs/geo/rank-chatgpt-kom-ai-antwoorden" element={<BlogPostRankChatgptKomAiAntwoorden />} />
+        <Route path="/blogs/geo/google-ai-overviews-betekenen-verkeer" element={<BlogPostGoogleAiOverviewsBetekenenVerkeer />} />
+        <Route path="/blogs/google-ads/schaal-google-ads-budget-te" element={<BlogPostSchaalGoogleAdsBudgetTe />} />
 
         {/* /blogs/ redirect naar /nieuws */}
         <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
