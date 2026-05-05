@@ -1,159 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://www.empowers.nl/blogs/geo/content-structureren-ai-zoekmachines</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/google-ads/google-ads-schalen-zonder-budget-verdubbelen</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/geo/google-ai-overviews-betekenen-verkeer</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/geo/rank-chatgpt-kom-ai-antwoorden</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/google-ads/google-ads-data-om-seo</loc>
-    <lastmod>2026-05-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/seo/on-page-vs-off-page</loc>
-    <lastmod>2026-05-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/algemeen/marketing-uitbesteden-mkb-zelf-doen</loc>
-    <lastmod>2026-05-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/algemeen/online-marketing-mkb-5-kanalen-werken-2026</loc>
-    <lastmod>2026-05-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/google-ads/sea-cpc-benchmarks-per-branche-nederland</loc>
-    <lastmod>2026-05-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/algemeen/sea-vs-seo-strategie-budget-doel</loc>
-    <lastmod>2026-05-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/google-ads/sea-bureau-vergelijken-resultaten-rapportages</loc>
-    <lastmod>2026-05-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/social-ads/linkedin-ads-retargeting-bereik-warme</loc>
-    <lastmod>2026-05-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/social-ads/linkedin-ads-vs-google-ads</loc>
-    <lastmod>2026-05-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/social-ads/tiktok-ads-vs-meta-ads</loc>
-    <lastmod>2026-05-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/seo/eeat-belangrijk-voor-seo</loc>
-    <lastmod>2026-05-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/social-ads/meta-ads-b2b-werkt</loc>
-    <lastmod>2026-05-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.empowers.nl/blogs/social-ads/meta-ads-lokale-bedrijven-bereik</loc>
-    <lastmod>2026-05-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
   <!-- CORE PAGINA'S -->
   <url>
     <loc>https://www.empowers.nl/</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/diensten</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/over-ons</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/nieuws</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/faq</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/contact</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -161,43 +42,43 @@
   <!-- DIENSTEN PAGINA'S -->
   <url>
     <loc>https://www.empowers.nl/google-ads</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/meta-ads</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/linkedin-ads</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/tiktok-ads</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/seo</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/geo</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/landingspagina</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -205,31 +86,31 @@
   <!-- BLOG CATEGORIE PAGINA'S -->
   <url>
     <loc>https://www.empowers.nl/blogs/seo</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/blogs/geo</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/blogs/google-ads</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/blogs/social-ads</loc>
-    <lastmod>2026-04-23</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/blogs/tracking</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-04-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -241,81 +122,159 @@
   </url>
   <url>
     <loc>https://www.empowers.nl/blogs/algemeen</loc>
-    <lastmod>2026-04-21</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- BLOG ARTIKELEN -->
   <url>
+    <loc>https://www.empowers.nl/blogs/google-ads/google-ads-seizoensgebonden-adverteren-speel</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/geo/content-structureren-ai-zoekmachines</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/google-ads/google-ads-schalen-zonder-budget-verdubbelen</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/geo/google-ai-overviews-betekenen-verkeer</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/geo/rank-chatgpt-kom-ai-antwoorden</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/google-ads/google-ads-data-om-seo</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/seo/on-page-vs-off-page</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/algemeen/marketing-uitbesteden-mkb-zelf-doen</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/algemeen/online-marketing-mkb-5-kanalen-werken-2026</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/google-ads/sea-cpc-benchmarks-per-branche-nederland</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/algemeen/sea-vs-seo-strategie-budget-doel</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/google-ads/sea-bureau-vergelijken-resultaten-rapportages</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/social-ads/linkedin-ads-retargeting-bereik-warme</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/social-ads/linkedin-ads-vs-google-ads</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/social-ads/tiktok-ads-vs-meta-ads</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/seo/eeat-belangrijk-voor-seo</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/social-ads/meta-ads-b2b-werkt</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/social-ads/meta-ads-lokale-bedrijven-bereik</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.empowers.nl/blogs/algemeen/seo-dood-evolueert-2026</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/blogs/social-ads/tiktok-pixel-instellen-stap-stap</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/blogs/tracking/attribution-modellen-uitgelegd-last-click</loc>
     <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/blogs/social-ads/meta-ads-campagnestructuur-bouw-goed</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/blogs/social-ads/tiktok-adverteren-2026-complete-gids-beginners</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.empowers.nl/blogs/google-ads/google-ads-beheer-checklist-bureau-controleren</loc>
     <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.empowers.nl/blogs/social-ads/instagram-adverteren-2026-complete-gids</loc>
-    <lastmod>2026-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.empowers.nl/blogs/social-ads/instagram-adverteren-kosten-cpm-budget-2026</loc>
-    <lastmod>2026-04-08</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.empowers.nl/blogs/social-ads/instagram-reels-advertenties-bereik-meer</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.empowers.nl/blogs/social-ads/instagram-reels-ads-converteren-case-studies</loc>
-    <lastmod>2026-04-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.empowers.nl/blogs/social-ads/instagram-stories-ads-converteren-formules</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.empowers.nl/blogs/social-ads/instagram-ads-doelgroepen-lookalike-custom-advantage</loc>
-    <lastmod>2026-04-19</lastmod>
+    <loc>https://www.empowers.nl/blogs/social-ads/andromeda-algoritme-2026-instagram</loc>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -326,8 +285,38 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.empowers.nl/blogs/social-ads/andromeda-algoritme-2026-instagram</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://www.empowers.nl/blogs/social-ads/instagram-ads-doelgroepen-lookalike-custom-advantage</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/social-ads/instagram-stories-ads-converteren-formules</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/social-ads/instagram-reels-ads-converteren-case-studies</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/social-ads/instagram-reels-advertenties-bereik-meer</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/social-ads/instagram-adverteren-kosten-cpm-budget-2026</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/social-ads/instagram-adverteren-2026-complete-gids</loc>
+    <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
