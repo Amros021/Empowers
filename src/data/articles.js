@@ -3,6 +3,17 @@
 
 const articles = [
     {
+        title:    'Google Ads seizoensgebonden adverteren: speel in op pieken',
+        category: 'Google Ads',
+        date:     '5 mei 2026',
+        dateTs:   new Date('2026-05-05T09:00:00').getTime(),
+        readTime: '9 min',
+        author:   'Empowers Redactie',
+        excerpt:  'Pieken in jouw markt zijn voorspelbaar. Lees hoe je vier tot zes weken vooraf opbouwt, tijdens de piek wint en daarna geen budget weglekt.',
+        slug:     '/blogs/google-ads/google-ads-seizoensgebonden-adverteren-speel',
+        image:    '/images/blogs/google-ads-seizoensgebonden-adverteren-speel.jpg',
+    },
+    {
         title:    'Content structureren voor AI-zoekmachines: zo word je geciteerd',
         category: 'GEO',
         date:     '4 mei 2026',
