@@ -15,7 +15,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 /* ── categorie lijst ── */
 const CATEGORIES = [
-    'SEO', 'GEO', 'Google Ads', 'Social Ads', 'Tracking', 'Strategie', 'Algemeen',
+    'SEO', 'GEO', 'Google Ads', 'Social Ads', 'AI Ads', 'Tracking', 'Strategie', 'Algemeen',
 ];
 
 const SORT_OPTIONS = [

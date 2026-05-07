@@ -57,6 +57,13 @@ const CATEGORY_CONFIG = {
         metaDescription: 'Praktische online marketing artikelen voor ondernemers. Eerlijk, zonder jargon, gericht op meer omzet uit je marketingbudget.',
         color: 'bg-gray-50 text-gray-700',
     },
+    'ai-ads': {
+        name: 'AI Ads',
+        title: 'AI Ads: slimmer adverteren met kunstmatige intelligentie',
+        description: 'Hoe AI je advertenties verbetert. Van AI-gegenereerde advertentieteksten tot geautomatiseerde biedstrategieën en creative testing.',
+        metaDescription: 'Alles over AI in adverteren. Leer hoe AI je Google Ads, Meta Ads en andere campagnes slimmer, sneller en winstgevender maakt.',
+        color: 'bg-indigo-50 text-indigo-700',
+    },
 };
 
 export default function BlogCategory() {
