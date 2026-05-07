@@ -59,7 +59,7 @@ const CATEGORY_CONFIG = {
     },
     'ai-ads': {
         name: 'AI Ads',
-        title: 'Adverteren in ChatGPT en andere AI-platforms',
+        title: 'AI Ads: adverteren in ChatGPT en andere AI-platforms',
         description: 'Alles over adverteren in AI-platforms zoals ChatGPT. Van je eerste campagne opzetten tot targeting, kosten en strategie, wij delen onze kennis zodat jij er klaar voor bent.',
         metaDescription: 'Leer adverteren in ChatGPT en andere AI-platforms. Tips over kosten, targeting, campagne-opzet en strategie voor AI Ads.',
         color: 'bg-indigo-50 text-indigo-700',
