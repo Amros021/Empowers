@@ -139,6 +139,7 @@ const BlogPostInstagramReelsAdsConverterenCaseStudies = lazy(() => import('./pag
 const BlogPostInstagramAdsDoelgroepenLookalikeCustomAdvantage = lazy(() => import('./pages/BlogPostInstagramAdsDoelgroepenLookalikeCustomAdvantage'));
 const BlogPostInstagramAdverterenWebshopsShoppingAankoop = lazy(() => import('./pages/BlogPostInstagramAdverterenWebshopsShoppingAankoop'));
 const BlogPostAndromedaAlgoritme2026Instagram = lazy(() => import('./pages/BlogPostAndromedaAlgoritme2026Instagram'));
+const BlogPostChatgptAdsSelfServePlatformOpenai = lazy(() => import('./pages/BlogPostChatgptAdsSelfServePlatformOpenai'));
 const BlogPostGoogleAdsBeheerChecklistBureauControleren = lazy(() => import('./pages/BlogPostGoogleAdsBeheerChecklistBureauControleren'));
 const BlogPostTiktokAdverteren2026CompleteGidsBeginners = lazy(() => import('./pages/BlogPostTiktokAdverteren2026CompleteGidsBeginners'));
 const BlogPostMetaAdsCampagnestructuur = lazy(() => import('./pages/BlogPostMetaAdsCampagnestructuur'));
@@ -159,6 +160,19 @@ const BlogPostMarketingUitbestedenMkbZelfDoen = lazy(() => import('./pages/BlogP
 const BlogPostOnPageVsOffPageSeo = lazy(() => import('./pages/BlogPostOnPageVsOffPageSeo'));
 const BlogPostContentStructurerenAiZoekmachines = lazy(() => import('./pages/BlogPostContentStructurerenAiZoekmachines'));
 const BlogPostGoogleAdsSeizoensgebondenAdverteren = lazy(() => import('./pages/BlogPostGoogleAdsSeizoensgebondenAdverteren'));
+const BlogPostUgcMetaAds = lazy(() => import('./pages/BlogPostUgcMetaAds'));
+const BlogPostMetaAdsReelsAdvertentiesEffectief = lazy(() => import('./pages/BlogPostMetaAdsReelsAdvertentiesEffectief'));
+const BlogPostMetaAdsAutomatischePlaatsingenVsHandmatig = lazy(() => import('./pages/BlogPostMetaAdsAutomatischePlaatsingenVsHandmatig'));
+const BlogPostDynamicAdsMetaAutomatischAdverteren = lazy(() => import('./pages/BlogPostDynamicAdsMetaAutomatischAdverteren'));
+const BlogPostLinkedinConversationAdsWerken = lazy(() => import('./pages/BlogPostLinkedinConversationAdsWerken'));
+const BlogPostLinkedinAbmAccountBasedMarketing = lazy(() => import('./pages/BlogPostLinkedinAbmAccountBasedMarketing'));
+const BlogPostLinkedinAdsOptimaliserenStapStap = lazy(() => import('./pages/BlogPostLinkedinAdsOptimaliserenStapStap'));
+const BlogPostLinkedinAdsRapportageMetricsEcht = lazy(() => import('./pages/BlogPostLinkedinAdsRapportageMetricsEcht'));
+const BlogPostTiktokVsInstagramReelsAdverteren = lazy(() => import('./pages/BlogPostTiktokVsInstagramReelsAdverteren'));
+const BlogPostTiktokAdsWebshopsBoostSales = lazy(() => import('./pages/BlogPostTiktokAdsWebshopsBoostSales'));
+const BlogPostTiktokShopAdverterenVerkopenPlatform = lazy(() => import('./pages/BlogPostTiktokShopAdverterenVerkopenPlatform'));
+const BlogPostTiktokAdsVideoConverteert = lazy(() => import('./pages/BlogPostTiktokAdsVideoConverteert'));
+const BlogPostTiktokSmartCampagnesUitgelegd = lazy(() => import('./pages/BlogPostTiktokSmartCampagnesUitgelegd'));
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -362,6 +376,20 @@ function App() {
           <Route path="/blogs/geo/google-ai-overviews-betekenen-verkeer" element={<BlogPostGoogleAiOverviewsBetekenenVerkeer />} />
           <Route path="/blogs/google-ads/google-ads-schalen-zonder-budget-verdubbelen" element={<BlogPostSchaalGoogleAdsBudgetTe />} />
           <Route path="/blogs/google-ads/google-ads-seizoensgebonden-adverteren-speel" element={<BlogPostGoogleAdsSeizoensgebondenAdverteren />} />
+          <Route path="/blogs/social-ads/ugc-meta-ads" element={<BlogPostUgcMetaAds />} />
+          <Route path="/blogs/social-ads/meta-ads-reels-advertenties-effectief" element={<BlogPostMetaAdsReelsAdvertentiesEffectief />} />
+          <Route path="/blogs/social-ads/meta-ads-automatische-plaatsingen-vs-handmatig" element={<BlogPostMetaAdsAutomatischePlaatsingenVsHandmatig />} />
+          <Route path="/blogs/social-ads/dynamic-ads-meta-automatisch-adverteren" element={<BlogPostDynamicAdsMetaAutomatischAdverteren />} />
+          <Route path="/blogs/social-ads/linkedin-conversation-ads-werken" element={<BlogPostLinkedinConversationAdsWerken />} />
+          <Route path="/blogs/social-ads/linkedin-abm-account-based-marketing" element={<BlogPostLinkedinAbmAccountBasedMarketing />} />
+          <Route path="/blogs/social-ads/linkedin-ads-optimaliseren-stap-stap" element={<BlogPostLinkedinAdsOptimaliserenStapStap />} />
+          <Route path="/blogs/social-ads/linkedin-ads-rapportage-metrics-echt" element={<BlogPostLinkedinAdsRapportageMetricsEcht />} />
+          <Route path="/blogs/social-ads/tiktok-vs-instagram-reels-adverteren" element={<BlogPostTiktokVsInstagramReelsAdverteren />} />
+          <Route path="/blogs/social-ads/tiktok-ads-webshops-boost-sales" element={<BlogPostTiktokAdsWebshopsBoostSales />} />
+          <Route path="/blogs/social-ads/tiktok-shop-adverteren-verkopen-platform" element={<BlogPostTiktokShopAdverterenVerkopenPlatform />} />
+          <Route path="/blogs/social-ads/tiktok-ads-video-converteert" element={<BlogPostTiktokAdsVideoConverteert />} />
+          <Route path="/blogs/social-ads/tiktok-smart-campagnes-uitgelegd" element={<BlogPostTiktokSmartCampagnesUitgelegd />} />
+          <Route path="/blogs/ai-ads/chatgpt-ads-self-serve-platform-openai" element={<BlogPostChatgptAdsSelfServePlatformOpenai />} />
 
           {/* /blogs/ redirect naar /nieuws */}
           <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
