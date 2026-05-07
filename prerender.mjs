@@ -12,6 +12,7 @@ const BLOG_CATEGORIES = [
     '/blogs/geo',
     '/blogs/google-ads',
     '/blogs/social-ads',
+    '/blogs/ai-ads',
     '/blogs/tracking',
     '/blogs/strategie',
     '/blogs/algemeen',
