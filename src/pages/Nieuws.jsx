@@ -94,14 +94,14 @@ export default function Nieuws() {
     const handleFilter = (cat) => {
         if (cat === activeCategory) return;
         gsap.to('.blog-card', {
-            opacity: 0, y: 12, scale: 0.98,
-            duration: 0.16, stagger: 0.03, ease: 'power2.in',
+            opacity: 0, y: 8,
+            duration: 0.12, stagger: 0.005, ease: 'power2.in',
             onComplete: () => {
                 setActiveCategory(cat);
                 requestAnimationFrame(() => {
                     gsap.fromTo('.blog-card',
-                        { opacity: 0, y: 22, scale: 0.98 },
-                        { opacity: 1, y: 0, scale: 1, duration: 0.38, stagger: 0.07, ease: 'power3.out' }
+                        { opacity: 0, y: 16 },
+                        { opacity: 1, y: 0, duration: 0.25, stagger: 0.015, ease: 'power3.out' }
                     );
                 });
             },

@@ -59,9 +59,9 @@ const CATEGORY_CONFIG = {
     },
     'ai-ads': {
         name: 'AI Ads',
-        title: 'AI Ads: slimmer adverteren met kunstmatige intelligentie',
-        description: 'Hoe AI je advertenties verbetert. Van AI-gegenereerde advertentieteksten tot geautomatiseerde biedstrategieën en creative testing.',
-        metaDescription: 'Alles over AI in adverteren. Leer hoe AI je Google Ads, Meta Ads en andere campagnes slimmer, sneller en winstgevender maakt.',
+        title: 'Adverteren in ChatGPT en andere AI-platforms',
+        description: 'Alles over adverteren in AI-platforms zoals ChatGPT. Van je eerste campagne opzetten tot targeting, kosten en strategie, wij delen onze kennis zodat jij er klaar voor bent.',
+        metaDescription: 'Leer adverteren in ChatGPT en andere AI-platforms. Tips over kosten, targeting, campagne-opzet en strategie voor AI Ads.',
         color: 'bg-indigo-50 text-indigo-700',
     },
 };
