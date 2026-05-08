@@ -141,6 +141,9 @@ import BlogPostOpenaiAdsManagerAdverterenChatgpt from './pages/BlogPostOpenaiAds
 import BlogPostTiktokAdsDoelgroepenBereikPrecies from './pages/BlogPostTiktokAdsDoelgroepenBereikPrecies';
 import BlogPostInfluencerContentTiktokAds from './pages/BlogPostInfluencerContentTiktokAds';
 import BlogPostTiktokAdsB2bOnverwachtEffectief from './pages/BlogPostTiktokAdsB2bOnverwachtEffectief';
+import BlogPostGoedeCpmTiktokBenchmarks from './pages/BlogPostGoedeCpmTiktokBenchmarks';
+import BlogPostRankGoogleAiMode from './pages/BlogPostRankGoogleAiMode';
+import BlogPostRankMetaAi from './pages/BlogPostRankMetaAi';
 import BlogPostChatgptAdsSectorenProfiteren from './pages/BlogPostChatgptAdsSectorenProfiteren';
 import BlogPostGoogleAdsBeheerChecklistBureauControleren from './pages/BlogPostGoogleAdsBeheerChecklistBureauControleren';
 import BlogPostTiktokAdverteren2026CompleteGidsBeginners from './pages/BlogPostTiktokAdverteren2026CompleteGidsBeginners';
@@ -395,6 +398,9 @@ function App() {
           <Route path="/blogs/social-ads/tiktok-ads-doelgroepen-bereik-precies" element={<BlogPostTiktokAdsDoelgroepenBereikPrecies />} />
           <Route path="/blogs/social-ads/influencer-content-tiktok-ads" element={<BlogPostInfluencerContentTiktokAds />} />
           <Route path="/blogs/social-ads/tiktok-ads-b2b-onverwacht-effectief" element={<BlogPostTiktokAdsB2bOnverwachtEffectief />} />
+          <Route path="/blogs/social-ads/goede-cpm-tiktok-benchmarks" element={<BlogPostGoedeCpmTiktokBenchmarks />} />
+          <Route path="/blogs/geo/rank-google-ai-mode" element={<BlogPostRankGoogleAiMode />} />
+          <Route path="/blogs/geo/rank-meta-ai" element={<BlogPostRankMetaAi />} />
           <Route path="/blogs/ai-ads/chatgpt-ads-sectoren-profiteren" element={<BlogPostChatgptAdsSectorenProfiteren />} />
 
           {/* /blogs/ redirect naar /nieuws */}
