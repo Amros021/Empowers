@@ -137,6 +137,11 @@ import BlogPostInstagramAdsDoelgroepenLookalikeCustomAdvantage from './pages/Blo
 import BlogPostInstagramAdverterenWebshopsShoppingAankoop from './pages/BlogPostInstagramAdverterenWebshopsShoppingAankoop';
 import BlogPostAndromedaAlgoritme2026Instagram from './pages/BlogPostAndromedaAlgoritme2026Instagram';
 import BlogPostChatgptAdsSelfServePlatformOpenai from './pages/BlogPostChatgptAdsSelfServePlatformOpenai';
+import BlogPostOpenaiAdsManagerAdverterenChatgpt from './pages/BlogPostOpenaiAdsManagerAdverterenChatgpt';
+import BlogPostTiktokAdsDoelgroepenBereikPrecies from './pages/BlogPostTiktokAdsDoelgroepenBereikPrecies';
+import BlogPostInfluencerContentTiktokAds from './pages/BlogPostInfluencerContentTiktokAds';
+import BlogPostTiktokAdsB2bOnverwachtEffectief from './pages/BlogPostTiktokAdsB2bOnverwachtEffectief';
+import BlogPostChatgptAdsSectorenProfiteren from './pages/BlogPostChatgptAdsSectorenProfiteren';
 import BlogPostGoogleAdsBeheerChecklistBureauControleren from './pages/BlogPostGoogleAdsBeheerChecklistBureauControleren';
 import BlogPostTiktokAdverteren2026CompleteGidsBeginners from './pages/BlogPostTiktokAdverteren2026CompleteGidsBeginners';
 import BlogPostMetaAdsCampagnestructuur from './pages/BlogPostMetaAdsCampagnestructuur';
@@ -386,6 +391,11 @@ function App() {
           <Route path="/blogs/social-ads/tiktok-ads-video-converteert" element={<BlogPostTiktokAdsVideoConverteert />} />
           <Route path="/blogs/social-ads/tiktok-smart-campagnes-uitgelegd" element={<BlogPostTiktokSmartCampagnesUitgelegd />} />
           <Route path="/blogs/ai-ads/chatgpt-ads-self-serve-platform-openai" element={<BlogPostChatgptAdsSelfServePlatformOpenai />} />
+          <Route path="/blogs/ai-ads/openai-ads-manager-adverteren-chatgpt" element={<BlogPostOpenaiAdsManagerAdverterenChatgpt />} />
+          <Route path="/blogs/social-ads/tiktok-ads-doelgroepen-bereik-precies" element={<BlogPostTiktokAdsDoelgroepenBereikPrecies />} />
+          <Route path="/blogs/social-ads/influencer-content-tiktok-ads" element={<BlogPostInfluencerContentTiktokAds />} />
+          <Route path="/blogs/social-ads/tiktok-ads-b2b-onverwacht-effectief" element={<BlogPostTiktokAdsB2bOnverwachtEffectief />} />
+          <Route path="/blogs/ai-ads/chatgpt-ads-sectoren-profiteren" element={<BlogPostChatgptAdsSectorenProfiteren />} />
 
           {/* /blogs/ redirect naar /nieuws */}
           <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
