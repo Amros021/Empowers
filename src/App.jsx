@@ -144,6 +144,11 @@ import BlogPostTiktokAdsB2bOnverwachtEffectief from './pages/BlogPostTiktokAdsB2
 import BlogPostGoedeCpmTiktokBenchmarks from './pages/BlogPostGoedeCpmTiktokBenchmarks';
 import BlogPostRankGoogleAiMode from './pages/BlogPostRankGoogleAiMode';
 import BlogPostRankMetaAi from './pages/BlogPostRankMetaAi';
+import BlogPostGeoBezigSeoTeVervangen from './pages/BlogPostGeoBezigSeoTeVervangen';
+import BlogPostContentonderdelenAiCitaties from './pages/BlogPostContentonderdelenAiCitaties';
+import BlogPostZichtbaarWordenAiZoekmachines from './pages/BlogPostZichtbaarWordenAiZoekmachines';
+import BlogPostAiVerwijzingenTrackenZonderDureTools from './pages/BlogPostAiVerwijzingenTrackenZonderDureTools';
+import BlogPostVerandertAiZoekgedragConsumenten from './pages/BlogPostVerandertAiZoekgedragConsumenten';
 import BlogPostChatgptAdsSectorenProfiteren from './pages/BlogPostChatgptAdsSectorenProfiteren';
 import BlogPostGoogleAdsBeheerChecklistBureauControleren from './pages/BlogPostGoogleAdsBeheerChecklistBureauControleren';
 import BlogPostTiktokAdverteren2026CompleteGidsBeginners from './pages/BlogPostTiktokAdverteren2026CompleteGidsBeginners';
@@ -402,6 +407,11 @@ function App() {
           <Route path="/blogs/geo/rank-google-ai-mode" element={<BlogPostRankGoogleAiMode />} />
           <Route path="/blogs/geo/rank-meta-ai" element={<BlogPostRankMetaAi />} />
           <Route path="/blogs/ai-ads/chatgpt-ads-sectoren-profiteren" element={<BlogPostChatgptAdsSectorenProfiteren />} />
+          <Route path="/blogs/geo/geo-bezig-seo-te-vervangen" element={<BlogPostGeoBezigSeoTeVervangen />} />
+          <Route path="/blogs/geo/contentonderdelen-zorgen-meer-ai-citaties" element={<BlogPostContentonderdelenAiCitaties />} />
+          <Route path="/blogs/geo/zichtbaar-worden-ai-zoekmachines" element={<BlogPostZichtbaarWordenAiZoekmachines />} />
+          <Route path="/blogs/geo/ai-verwijzingen-tracken-zonder-dure-tools" element={<BlogPostAiVerwijzingenTrackenZonderDureTools />} />
+          <Route path="/blogs/geo/verandert-ai-zoekgedrag-consumenten" element={<BlogPostVerandertAiZoekgedragConsumenten />} />
 
           {/* /blogs/ redirect naar /nieuws */}
           <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
