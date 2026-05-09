@@ -41,6 +41,18 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
+# Grok / X.AI
+User-agent: xai-grok-bot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Amazon / Alexa AI
+User-agent: Amazonbot
+Allow: /
+
 # Sitemap
 Sitemap: https://www.empowers.nl/sitemap.xml
 
