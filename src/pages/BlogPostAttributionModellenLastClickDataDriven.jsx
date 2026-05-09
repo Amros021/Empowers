@@ -14,7 +14,7 @@ export default function BlogPostAttributionModellenLastClickDataDriven() {
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
                 <title>Attribution modellen uitgelegd: last click vs data-driven | Empowers</title>
-                <meta name="description" content="Welk attribution model laat jouw marketing eerlijk zien? Lees het verschil tussen last click, first click, lineair en data-driven en kies wat past." />
+                <meta name="description" content="Welk attribution model toont eerlijk hoe jouw marketing presteert? Lees het verschil tussen last click, first click, lineair en data-driven en kies wat past." />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/tracking/attribution-modellen-uitgelegd-last-click" />
                 <meta property="og:title" content="Attribution modellen uitgelegd: last click vs data-driven" />
                 <meta property="og:description" content="Welk attribution model toont eerlijk hoe jouw marketing presteert? Een praktische uitleg voor MKB en webshops." />
@@ -33,7 +33,7 @@ export default function BlogPostAttributionModellenLastClickDataDriven() {
                         "@context": "https://schema.org",
                         "@type": "Article",
                         "headline": "Attribution modellen uitgelegd: last click vs data-driven",
-                        "description": "Welk attribution model laat jouw marketing eerlijk zien? Lees het verschil tussen last click, first click, lineair en data-driven en kies wat past.",
+                        "description": "Welk attribution model toont eerlijk hoe jouw marketing presteert? Lees het verschil tussen last click, first click, lineair en data-driven en kies wat past.",
                         "image": "https://www.empowers.nl/images/blogs/attribution-modellen-uitgelegd-last-click.jpg",
                         "datePublished": "2026-04-28T09:00:00+02:00",
                         "author": { "@type": "Organization", "name": "Empowers" },
@@ -67,7 +67,7 @@ export default function BlogPostAttributionModellenLastClickDataDriven() {
                                     "name": "Welk attribution model gebruik je het best als MKB?",
                                     "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Voor de meeste MKB-bedrijven werkt data-driven attribution het beste, mits je voldoende conversies per maand hebt. Vanaf ongeveer 300 conversies per maand levert het model betrouwbare resultaten. Heb je minder data? Dan geeft een positiegebaseerd of lineair model vaak een eerlijker beeld dan last click."
+                                        "text": "Voor de meeste MKB-bedrijven werkt data-driven attribution het beste. Sinds november 2025 is data-driven standaard beschikbaar voor alle conversieacties in Google Ads, zonder minimumdrempel. Hoe meer conversies je hebt, hoe betrouwbaarder het model. Bij weinig data geeft een positiegebaseerd of lineair model soms een stabieler beeld."
                                     }
                                 },
                                 {
@@ -75,7 +75,7 @@ export default function BlogPostAttributionModellenLastClickDataDriven() {
                                     "name": "Hoeveel conversies heb je nodig voor data-driven attribution?",
                                     "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "Google Ads vraagt minimaal 300 conversies en 3000 advertentie-interacties in de afgelopen 30 dagen om data-driven attribution te activeren. Heb je minder, dan kun je het model wel selecteren maar zijn de uitkomsten minder betrouwbaar dan een eenvoudiger model."
+                                        "text": "Sinds november 2025 heeft Google de oude minimumdrempel van 300 conversies en 3000 interacties losgelaten. Data-driven attribution is nu standaard beschikbaar voor alle conversieacties. Het model werkt betrouwbaarder naarmate je meer conversiedata hebt, maar er is geen harde ondergrens meer."
                                     }
                                 },
                                 {
@@ -222,7 +222,7 @@ export default function BlogPostAttributionModellenLastClickDataDriven() {
                             De juiste keuze hangt af van twee factoren: hoeveel conversies je per maand hebt en hoe lang jouw beslissingstraject is. Bij minder dan 50 conversies per maand werkt data-driven onbetrouwbaar. Het algoritme heeft te weinig signalen om een eerlijk model te bouwen. Een lineair of position-based model geeft dan een stabieler beeld.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Heb je tussen de 50 en 300 conversies per maand? Dan is position-based een goede tussenstap. Genoeg data voor patronen, niet zoveel ruis dat het model niets stuurt. Vanaf 300 conversies per maand activeert Google Ads de officiele data-driven variant en begin je daar echt voordeel mee te halen.
+                            Heb je tussen de 50 en 300 conversies per maand? Dan geeft data-driven al bruikbare inzichten, maar wees voorzichtig met harde conclusies. Sinds november 2025 heeft Google de oude drempel van 300 conversies en 3000 interacties losgelaten. Data-driven is nu standaard beschikbaar voor alle conversieacties. Maar hoe meer data het model heeft, hoe betrouwbaarder de verdeling. Bij weinig conversies kan position-based nog steeds een stabieler beeld geven.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Bij lange B2B trajecten met dertig dagen of meer tussen eerste contact en aankoop is data-driven of position-based vrijwel altijd beter dan last click. Een korte e-commerce funnel met aankoop binnen drie dagen werkt soms ook nog goed met time decay. Wat een goede conversieratio per branche is, lees je in onze <Link to="/blogs/strategie/goede-conversieratio-benchmarks-per-branche" className="text-accent hover:underline">benchmarks per branche</Link>.
@@ -233,7 +233,7 @@ export default function BlogPostAttributionModellenLastClickDataDriven() {
                             In Google Ads ga je naar Tools, dan Conversies en kies je per conversieactie het attribution model. Data-driven is sinds 2026 de default voor de meeste accounts, maar check het altijd handmatig. In GA4 stel je het model in onder Admin, Property Settings, Attribution Settings. Houd er rekening mee dat een wijziging je rapportage met terugwerkende kracht aanpast.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Cruciaal vooraf: je conversiemeting moet schoon staan. Dubbele Pixels, gemiste server-side events of UTM-parameters die niet kloppen zorgen ervoor dat data-driven attribution onzin uitspuugt. Begin altijd met een tracking-audit. Onze <Link to="/blogs/tracking/google-tag-manager-beginners" className="text-accent hover:underline">gids over Google Tag Manager voor beginners</Link> laat zien hoe je dat opzet.
+                            Belangrijk vooraf: je conversiemeting moet schoon staan. Dubbele Pixels, gemiste server-side events of UTM-parameters die niet kloppen zorgen ervoor dat data-driven attribution onzin uitspuugt. Begin altijd met een tracking-audit. Onze <Link to="/blogs/tracking/google-tag-manager-beginners" className="text-accent hover:underline">gids over Google Tag Manager voor beginners</Link> laat zien hoe je dat opzet.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat zijn de grootste valkuilen bij attribution?</h2>
@@ -273,11 +273,11 @@ export default function BlogPostAttributionModellenLastClickDataDriven() {
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Welk attribution model gebruik je het best als MKB?</h3>
-                                <p className="font-sans text-primary/70 leading-relaxed">Voor MKB-bedrijven met meer dan 300 conversies per maand werkt data-driven het beste. Bij minder data geeft een position-based of lineair model een eerlijker beeld dan last click. Vergelijk altijd minimaal 30 dagen voordat je een definitieve keuze maakt.</p>
+                                <p className="font-sans text-primary/70 leading-relaxed">Voor de meeste MKB-bedrijven werkt data-driven het beste. Sinds november 2025 is er geen minimumdrempel meer in Google Ads. Hoe meer conversies je hebt, hoe betrouwbaarder het model. Bij weinig data geeft position-based of lineair soms een stabieler beeld. Vergelijk altijd minimaal 30 dagen voordat je een definitieve keuze maakt.</p>
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Hoeveel conversies heb je nodig voor data-driven attribution?</h3>
-                                <p className="font-sans text-primary/70 leading-relaxed">Google Ads vraagt minimaal 300 conversies en 3000 advertentie-interacties in de afgelopen 30 dagen om data-driven attribution te activeren. Bij minder data zijn de uitkomsten minder betrouwbaar dan bij een eenvoudiger positiegebaseerd model.</p>
+                                <p className="font-sans text-primary/70 leading-relaxed">Sinds november 2025 is de oude drempel van 300 conversies en 3000 interacties losgelaten. Data-driven attribution is nu standaard beschikbaar voor alle conversieacties in Google Ads. Het model wordt betrouwbaarder naarmate je meer data hebt, maar er is geen harde ondergrens meer.</p>
                             </div>
                             <div className="border border-primary/10 rounded-xl p-6">
                                 <h3 className="font-sans font-semibold text-primary text-lg mb-3">Waarom rapporteren Google Ads en Meta samen meer conversies dan ik echt had?</h3>

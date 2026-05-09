@@ -32,7 +32,7 @@ export default function BlogPostOnlineMarketingBureau() {
                         "description": "Een online marketing bureau helpt je groeien via Google Ads, SEO, social ads en meer. Leer wat een bureau doet en wanneer je er een inschakelt.",
                         "image": "https://www.empowers.nl/images/blogs/online-marketing-bureau.jpg",
                         "datePublished": "2026-03-27T00:00:00+01:00",
-                        "dateModified": "2026-03-27T00:00:00+01:00",
+                        "dateModified": "2026-05-09T00:00:00+02:00",
                         "author": {
                             "@type": "Organization",
                             "name": "Empowers"
@@ -66,7 +66,7 @@ export default function BlogPostOnlineMarketingBureau() {
                                 "name": "Wat is het verschil tussen Google Ads en SEO?",
                                 "acceptedAnswer": {
                                     "@type": "Answer",
-                                    "text": "Google Ads zijn betaalde advertenties bovenaan zoekresultaten die direct leads opleveren. SEO is het gratis mejoramiento van je website zodat je hoger in Google rankt. Beide zijn belangrijk en werken het beste samen."
+                                    "text": "Google Ads zijn betaalde advertenties bovenaan zoekresultaten die direct leads opleveren. SEO is het gratis verbeteren van je website zodat je hoger in Google rankt. Beide zijn belangrijk en werken het beste samen."
                                 }
                             },
                             {
@@ -196,7 +196,7 @@ export default function BlogPostOnlineMarketingBureau() {
                             <Link to="/google-ads" className="text-accent hover:underline">Google Ads</Link> is de dienst waarmee bedrijven advertenties bovenaan Google-zoekresultaten plaatsen. Stel: iemand zoekt op "rood dak reparatie Amsterdam". Jouw advertentie kan direct verschijnen.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-4">
-                            Dit is erg krachtig omdat je precies de mensen bereikt die iets zoeken wat jij aanbiedt. Je betaalt alleen als iemand op jouw advertentie klikt. Een goed bureau zorg dat je advertenties klikken krijgen van mensen die écht willen kopen.
+                            Dit is erg krachtig omdat je precies de mensen bereikt die iets zoeken wat jij aanbiedt. Je betaalt alleen als iemand op jouw advertentie klikt. Een goed bureau zorgt dat je advertenties klikken krijgen van mensen die écht willen kopen.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Het bureau bepaalt welke zoekwoorden (keywords) belangrijk zijn voor jou, schrijft aantrekkelijke advertentieteksten en regelt dat jouw budget slim wordt ingezet. Dit gebeurt eigenlijk elke dag: het bureau volgt hoe de campagne loopt en maakt aanpassingen om meer klanten te bereiken.
@@ -224,7 +224,7 @@ export default function BlogPostOnlineMarketingBureau() {
                             <Link to="/meta-ads" className="text-accent hover:underline">Meta Ads (Facebook en Instagram advertenties)</Link> werken anders dan Google Ads. Hier bereik je niet mensen die zoeken, maar mensen met bepaalde interesses, hobbies of gedrag.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-4">
-                            Meta verzamelt veel gegevens over gebruikers. Dat helpt jou: een bureau kan zeggen "toon mijn advertentie aan vrouwen van 25-40 jaar die geïnteresseerd zijn in fitness en gezondheid". Dit is ideaal voor merkbekendheid, leadgeneration en online verkoop.
+                            Meta verzamelt veel gegevens over gebruikers. Dat helpt jou: een bureau kan zeggen "toon mijn advertentie aan vrouwen van 25-40 jaar die geïnteresseerd zijn in fitness en gezondheid". Dit is ideaal voor merkbekendheid, leadgeneratie en online verkoop.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Meta Ads zijn ook visueel: je ziet plaatjes of video's in je feed. Dit trekt meer aandacht dan een tekstadvertentie. Een bureau weet welke visuals en teksten het beste werken en test dit voortdurend.
@@ -232,16 +232,16 @@ export default function BlogPostOnlineMarketingBureau() {
 
                         {/* Section 5 */}
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">
-                            GEO-targeting: Bereik klanten in jouw buurt
+                            GEO: Zichtbaar worden in AI-zoekmachines
                         </h2>
                         <p className="text-primary/80 leading-relaxed mb-4">
-                            Veel bedrijven werken alleen in bepaalde gebieden. Een loodgieter in Rotterdam wil niet betalen voor klanten in Amsterdam. Hier komt <Link to="/geo" className="text-accent hover:underline">GEO-targeting</Link> in beeld.
+                            Steeds meer mensen zoeken niet via Google, maar stellen hun vraag aan ChatGPT, Gemini of Perplexity. <Link to="/geo" className="text-accent hover:underline">GEO (Generative Engine Optimization)</Link> zorgt ervoor dat AI-modellen jouw bedrijf aanbevelen wanneer iemand een relevante vraag stelt.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-4">
-                            GEO-targeting betekent dat je advertenties alleen aan mensen in bepaalde steden, wijken of zelfs straten laat zien. Dit scheelt kosten en zorgt ervoor dat je budget naar échte potentiële klanten gaat.
+                            Waar SEO draait om hoger ranken in Google, draait GEO om genoemd worden in AI-antwoorden. Dat vraagt om heldere, feitelijke content op je website, vermeldingen op betrouwbare externe platforms en technische structuur zoals schema-markup die AI-modellen helpt begrijpen wat je doet.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Een bureau stelt GEO-zones in voor je Google Ads en social ads. Zo zien mensen die dicht bij jouw winkel of kantoor wonen jouw advertenties. Dit werkt heel goed voor lokale diensten en winkels.
+                            Een bureau dat aan GEO werkt, optimaliseert je website en content zodat AI-tools je kennen en doorverwijzen. De concurrentie in AI-aanbevelingen is nog beperkt. Bedrijven die hier nu in investeren, bouwen een voorsprong op die later lastig in te halen is.
                         </p>
 
                         {/* Section 6 */}
@@ -255,10 +255,10 @@ export default function BlogPostOnlineMarketingBureau() {
                             Stel: iemand klikt op jouw Google Ads-advertentie, bezoekt jouw website, bekijkt drie pagina's en koopt daarna iets. Dit hele pad kan gevolgd worden. Hetzelfde geldt voor Meta Ads, e-mails en andere kanalen.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-4">
-                            Waarom is dit belangrijk? Omdat je dan weet welke campagnes écht klanten opleveren. Misschien denk je dat Google Ads het beste werkt, maar met goed tracking kun je zien dat Instagram-advertenties eigenlijk veel betere resultaten geven.
+                            Waarom is dit belangrijk? Omdat je dan weet welke campagnes écht klanten opleveren. Misschien denk je dat Google Ads het beste werkt, maar met goede tracking kun je zien dat Instagram-advertenties eigenlijk veel betere resultaten geven.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Een bureau installeerd tracking op jouw website en advertentieplatformen. Het volgt conversies (aankopen, aanvragen, downloads) en rapporteert daarover. Dit helpt jou en het bureau betere beslissingen nemen over waar geld naar toe gaat.
+                            Een bureau installeert tracking op jouw website en advertentieplatformen. Het volgt conversies (aankopen, aanvragen, downloads) en rapporteert daarover. Dit helpt jou en het bureau betere beslissingen nemen over waar geld naar toe gaat.
                         </p>
 
                         {/* Section 7 */}
@@ -291,7 +291,7 @@ export default function BlogPostOnlineMarketingBureau() {
                             <li>Je bent sceptisch over marketing omdat je ervoor hebt uitgegeven zonder resultaat.</li>
                         </ul>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Een goed bureau werkt samen met jou. Het luistert naar jouw doelen, is transparant over resultaten en past zijn werk aan op basis van feedback. Dat verschilt grote bedrijven op het moment dat je echt merkt dat je geld goed wordt besteed.
+                            Een goed bureau werkt samen met jou. Het luistert naar jouw doelen, is transparant over resultaten en past zijn werk aan op basis van feedback. Dat maakt het verschil op het moment dat je merkt dat je geld goed wordt besteed.
                         </p>
 
                         {/* Section 9 */}
@@ -323,7 +323,7 @@ export default function BlogPostOnlineMarketingBureau() {
                             <li><strong>Transparantie</strong>: Rapporteert het bureau helder over resultaten?</li>
                             <li><strong>Persoonlijk contact</strong>: Voel je je begrepen en ben je niet net een nummer?</li>
                             <li><strong>Ervaring</strong>: Hoe lang bestaat het bureau en wat is het trackrecord?</li>
-                            <li><strong>Holistische aanpak</strong>: Werkt het bureau met meerdere kanalen (niet alleen Google Ads)?</li>
+                            <li><strong>Brede aanpak</strong>: Werkt het bureau met meerdere kanalen (niet alleen Google Ads)?</li>
                         </ul>
                         <p className="text-primary/80 leading-relaxed mt-6 mb-6">
                             Het beste bureau is één waar je goed mee kunt samenwerken en dat resultaten aflevert. Dit vereist vertrouwen, duidelijke communicatie en regelmatige controle.
@@ -340,7 +340,7 @@ export default function BlogPostOnlineMarketingBureau() {
                             Als je online groei belangrijk vindt maar niet weet hoe je moet beginnen of als je huidige marketing niet werkt, kan een bureau echt het verschil maken. Het gaat erom een bureau te kiezen dat past bij jouw doelen en werkwijze.
                         </p>
                         <p className="text-primary/80 leading-relaxed">
-                            Klaar om met een bureau aan de slag te gaan? Neem <Link to="/contact" className="text-accent hover:underline">contact met Empowers op</Link>. We helpen je graag met een meting daarom je online marketing werkt en wat volgende stap is.
+                            Klaar om met een bureau aan de slag te gaan? Neem <Link to="/contact" className="text-accent hover:underline">contact met Empowers op</Link>. We kijken graag mee naar hoe je online marketing er nu voor staat en wat de volgende stap is.
                         </p>
                     </div>
 
@@ -389,7 +389,7 @@ export default function BlogPostOnlineMarketingBureau() {
                                     Wanneer moet ik een online marketing bureau inschakelen?
                                 </h3>
                                 <p className="font-sans text-primary/70 leading-relaxed">
-                                    Schakelen een bureau in als je website weinig bezoekers krijgt, als je zelf niet genoeg tijd hebt voor marketing, of als je tot nu toe zonder resultaat geld aan marketing hebt uitgegeven.
+                                    Schakel een bureau in als je website weinig bezoekers krijgt, als je zelf niet genoeg tijd hebt voor marketing, of als je tot nu toe zonder resultaat geld aan marketing hebt uitgegeven.
                                 </p>
                             </div>
 

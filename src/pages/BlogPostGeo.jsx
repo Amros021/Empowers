@@ -14,10 +14,10 @@ export default function BlogPost() {
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
                 <title>Wat is Generative Engine Optimization (GEO)? | Empowers</title>
-                <meta name="description" content="GEO is de opvolger van SEO voor het AI-tijdperk. Leer wat Generative Engine Optimization is, hoe het werkt in ChatGPT, Perplexity & Google SGE, en hoe jij zichtbaar wordt." />
+                <meta name="description" content="GEO is de opvolger van SEO voor het AI-tijdperk. Leer wat Generative Engine Optimization is, hoe het werkt in ChatGPT, Perplexity & Google AI Overviews, en hoe jij zichtbaar wordt." />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/geo/wat-is-geo-generative-engine-optimization" />
                 <meta property="og:title" content="Wat is Generative Engine Optimization (GEO)? | Empowers" />
-                <meta property="og:description" content="GEO is de opvolger van SEO voor het AI-tijdperk. Leer wat Generative Engine Optimization is, hoe het werkt in ChatGPT, Perplexity & Google SGE, en hoe jij zichtbaar wordt." />
+                <meta property="og:description" content="GEO is de opvolger van SEO voor het AI-tijdperk. Leer wat Generative Engine Optimization is, hoe het werkt in ChatGPT, Perplexity & Google AI Overviews, en hoe jij zichtbaar wordt." />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/geo/wat-is-geo-generative-engine-optimization" />
                 <meta property="og:type" content="article" />
                 <meta property="og:image" content="/images/blogs/wat-is-geo-generative-engine-optimization.jpg" />
@@ -28,7 +28,7 @@ export default function BlogPost() {
                             "@type": "Article",
                             "headline": "Wat is GEO en waarom loopt jouw bedrijf het mis als je nu niks doet?",
                             "image": "/images/blogs/wat-is-geo-generative-engine-optimization.jpg",
-                            "description": "GEO is de opvolger van SEO voor het AI-tijdperk. Leer wat Generative Engine Optimization is, hoe het werkt in ChatGPT, Perplexity & Google SGE, en hoe jij zichtbaar wordt.",
+                            "description": "GEO is de opvolger van SEO voor het AI-tijdperk. Leer wat Generative Engine Optimization is, hoe het werkt in ChatGPT, Perplexity & Google AI Overviews, en hoe jij zichtbaar wordt.",
                             "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                             "datePublished": "2026-02-01T00:00:00+01:00",
@@ -129,7 +129,7 @@ export default function BlogPost() {
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Waarom groeit GEO zo snel?</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            In 2023 gebruikte nog geen 10% van de bevolking regelmatig AI voor zoekvragen. In 2026 is dat percentage verdrievoudigd. ChatGPT had in januari 2026 meer dan 300 miljoen actieve gebruikers per week. Google Gemini wordt steeds vaker gebruikt via de AI-overzichten die bovenaan in de zoekresultaten verschijnen.
+                            In 2023 gebruikte een klein deel van de bevolking regelmatig AI voor zoekvragen. In 2026 is dat aantal fors gegroeid. ChatGPT bereikte eind 2024 al meer dan 300 miljoen actieve gebruikers per week en dat aantal groeit door. Google Gemini wordt steeds vaker gebruikt via de AI-overzichten die bovenaan in de zoekresultaten verschijnen.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             We zien dit ook bij onze eigen klanten. Steeds meer nieuwe leads geven aan dat ze via ChatGPT of een vergelijkbaar AI-tool op een bedrijf zijn aanbevolen. Het zijn vaak leads van hogere kwaliteit, want ze zijn al verder in hun besluitvormingsproces. Ze zoeken geen informatie meer, ze zoeken een aanbieder. Dit geeft <Link to="/blogs/geo/chatgpt-bedrijf-aanbeveelt" className="text-accent hover:underline">bedrijven die door ChatGPT aangeraden worden</Link> een significant voordeel.

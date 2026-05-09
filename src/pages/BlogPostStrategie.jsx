@@ -32,7 +32,7 @@ export default function BlogPostStrategie() {
                             "author": { "@type": "Organization", "name": "Empowers" },
                             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                             "datePublished": "2026-03-24T00:00:00+01:00",
-                            "dateModified": "2026-03-24T00:00:00+01:00",
+                            "dateModified": "2026-05-09T00:00:00+02:00",
                             "url": "https://www.empowers.nl/blogs/strategie/online-marketing-strategie-mkb"
                         },
                         {
@@ -94,7 +94,7 @@ export default function BlogPostStrategie() {
                             </div>
                             <div className="flex items-center gap-2">
                                 <Clock className="w-4 h-4" />
-                                <span>6 minuten leestijd</span>
+                                <span>7 minuten leestijd</span>
                             </div>
                         </div>
                     </header>
@@ -128,6 +128,9 @@ export default function BlogPostStrategie() {
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Wij zien bij klanten dat de sterkste strategie altijd een combinatie is: betaald adverteren voor direct resultaat, SEO voor duurzame zichtbaarheid en goede content om bezoekers te overtuigen als ze eenmaal op de website zijn.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Een kanaal dat steeds relevanter wordt is <Link to="/geo" className="text-accent hover:underline">GEO (Generative Engine Optimization)</Link>. Steeds meer mensen stellen hun zoekvragen aan AI-tools zoals ChatGPT en Gemini in plaats van Google. GEO zorgt ervoor dat jouw bedrijf in die AI-antwoorden genoemd wordt. De concurrentie is hier nog laag, waardoor het nu een goed moment is om hierin te investeren. Lees meer over <Link to="/blogs/geo/wat-is-geo-generative-engine-optimization" className="text-accent hover:underline">wat GEO is en hoe het werkt</Link>.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Hoe verdeel je je marketingbudget?</h2>
