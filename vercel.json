@@ -1,5 +1,12 @@
 {
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/blog/wat-is-geo-generative-engine-optimization", "destination": "/blogs/geo/wat-is-geo-generative-engine-optimization", "permanent": true },
+    { "source": "/blog/geo/wat-is-geo-generative-engine-optimization", "destination": "/blogs/geo/wat-is-geo-generative-engine-optimization", "permanent": true },
+    { "source": "/blog/waarom-meta-ads-niet-converteren", "destination": "/blogs/social-ads/waarom-meta-ads-niet-converteren", "permanent": true },
+    { "source": "/blog/tiktok-ads-voor-bedrijven", "destination": "/blogs/social-ads/tiktok-ads-voor-bedrijven", "permanent": true },
+    { "source": "/blog/marketing-tracking-conversies-meten", "destination": "/blogs/tracking/marketing-tracking-conversies-meten", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
