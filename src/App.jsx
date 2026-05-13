@@ -149,6 +149,28 @@ import BlogPostContentonderdelenAiCitaties from './pages/BlogPostContentonderdel
 import BlogPostZichtbaarWordenAiZoekmachines from './pages/BlogPostZichtbaarWordenAiZoekmachines';
 import BlogPostAiVerwijzingenTrackenZonderDureTools from './pages/BlogPostAiVerwijzingenTrackenZonderDureTools';
 import BlogPostVerandertAiZoekgedragConsumenten from './pages/BlogPostVerandertAiZoekgedragConsumenten';
+import BlogPostGeoMkbNodigKunWachten from './pages/BlogPostGeoMkbNodigKunWachten';
+import BlogPostBesteGeoTool2026 from './pages/BlogPostBesteGeoTool2026';
+import BlogPostWebsiteVerschijnenChatgptAntwoorden from './pages/BlogPostWebsiteVerschijnenChatgptAntwoorden';
+import BlogPost96ContentGeenOrganischVerkeer from './pages/BlogPost96ContentGeenOrganischVerkeer';
+import BlogPostSnellereWebsiteMeerKlanten from './pages/BlogPostSnellereWebsiteMeerKlanten';
+import BlogPostPerfecteHeroSectie from './pages/BlogPostPerfecteHeroSectie';
+import BlogPostMobileFirstLandingspaginas from './pages/BlogPostMobileFirstLandingspaginas';
+import BlogPostStemLandingspaginaAfGoogleAds from './pages/BlogPostStemLandingspaginaAfGoogleAds';
+import BlogPostVideoLandingspaginasVerhoogtConversie from './pages/BlogPostVideoLandingspaginasVerhoogtConversie';
+import BlogPostHeatmapsLandingspaginaVerbeteren from './pages/BlogPostHeatmapsLandingspaginaVerbeteren';
+import BlogPostInteractieveContentMeerLeads from './pages/BlogPostInteractieveContentMeerLeads';
+import BlogPostMeetRoiOnlineMarketing from './pages/BlogPostMeetRoiOnlineMarketing';
+import BlogPostContentMarketingVsBetaaldeAdvertenties from './pages/BlogPostContentMarketingVsBetaaldeAdvertenties';
+import BlogPostStraftGoogleAiGegenereerdeContent from './pages/BlogPostStraftGoogleAiGegenereerdeContent';
+import BlogPostDataBetereMarketingbeslissingen from './pages/BlogPostDataBetereMarketingbeslissingen';
+import BlogPostBrandmonitoringHouOverGezegd from './pages/BlogPostBrandmonitoringHouOverGezegd';
+import BlogPostKlantretentieBehoudenGoedkoperNieuweKlanten from './pages/BlogPostKlantretentieBehoudenGoedkoperNieuweKlanten';
+import BlogPostZetKlantreviewsMarketingtool from './pages/BlogPostZetKlantreviewsMarketingtool';
+import BlogPostToonStemBepalenKlinktMerk from './pages/BlogPostToonStemBepalenKlinktMerk';
+import BlogPostBouwSterkeMerkidentiteitOnline from './pages/BlogPostBouwSterkeMerkidentiteitOnline';
+import BlogPostGoogleAdsDemandGen from './pages/BlogPostGoogleAdsDemandGen';
+import BlogPostMaximaliseerConversiesVsDoelCpa from './pages/BlogPostMaximaliseerConversiesVsDoelCpa';
 import BlogPostChatgptAdsSectorenProfiteren from './pages/BlogPostChatgptAdsSectorenProfiteren';
 import BlogPostGoogleAdsBeheerChecklistBureauControleren from './pages/BlogPostGoogleAdsBeheerChecklistBureauControleren';
 import BlogPostTiktokAdverteren2026CompleteGidsBeginners from './pages/BlogPostTiktokAdverteren2026CompleteGidsBeginners';
@@ -412,6 +434,28 @@ function App() {
           <Route path="/blogs/geo/zichtbaar-worden-ai-zoekmachines" element={<BlogPostZichtbaarWordenAiZoekmachines />} />
           <Route path="/blogs/geo/ai-verwijzingen-tracken-zonder-dure-tools" element={<BlogPostAiVerwijzingenTrackenZonderDureTools />} />
           <Route path="/blogs/geo/verandert-ai-zoekgedrag-consumenten" element={<BlogPostVerandertAiZoekgedragConsumenten />} />
+          <Route path="/blogs/geo/geo-mkb-nodig-kun-wachten" element={<BlogPostGeoMkbNodigKunWachten />} />
+          <Route path="/blogs/geo/beste-geo-tool-2026" element={<BlogPostBesteGeoTool2026 />} />
+          <Route path="/blogs/geo/website-verschijnen-chatgpt-antwoorden" element={<BlogPostWebsiteVerschijnenChatgptAntwoorden />} />
+          <Route path="/blogs/geo/96-content-geen-organisch-verkeer" element={<BlogPost96ContentGeenOrganischVerkeer />} />
+          <Route path="/blogs/strategie/snellere-website-meer-klanten" element={<BlogPostSnellereWebsiteMeerKlanten />} />
+          <Route path="/blogs/strategie/perfecte-hero-sectie-beste-eerste" element={<BlogPostPerfecteHeroSectie />} />
+          <Route path="/blogs/strategie/mobile-first-landingspaginas-geen-optie" element={<BlogPostMobileFirstLandingspaginas />} />
+          <Route path="/blogs/strategie/stem-landingspagina-af-google-ads" element={<BlogPostStemLandingspaginaAfGoogleAds />} />
+          <Route path="/blogs/strategie/video-landingspaginas-verhoogt-conversie" element={<BlogPostVideoLandingspaginasVerhoogtConversie />} />
+          <Route path="/blogs/strategie/heatmaps-om-landingspagina-te-verbeteren" element={<BlogPostHeatmapsLandingspaginaVerbeteren />} />
+          <Route path="/blogs/strategie/interactieve-content-meer-leads" element={<BlogPostInteractieveContentMeerLeads />} />
+          <Route path="/blogs/tracking/meet-roi-online-marketing" element={<BlogPostMeetRoiOnlineMarketing />} />
+          <Route path="/blogs/strategie/content-marketing-vs-betaalde-advertenties" element={<BlogPostContentMarketingVsBetaaldeAdvertenties />} />
+          <Route path="/blogs/strategie/straft-google-ai-gegenereerde-content" element={<BlogPostStraftGoogleAiGegenereerdeContent />} />
+          <Route path="/blogs/algemeen/data-betere-marketingbeslissingen" element={<BlogPostDataBetereMarketingbeslissingen />} />
+          <Route path="/blogs/algemeen/brandmonitoring-hou-over-gezegd" element={<BlogPostBrandmonitoringHouOverGezegd />} />
+          <Route path="/blogs/algemeen/klantretentie-behouden-goedkoper-nieuwe-klanten" element={<BlogPostKlantretentieBehoudenGoedkoperNieuweKlanten />} />
+          <Route path="/blogs/algemeen/zet-klantreviews-marketingtool" element={<BlogPostZetKlantreviewsMarketingtool />} />
+          <Route path="/blogs/algemeen/toon-stem-bepalen-klinkt-merk" element={<BlogPostToonStemBepalenKlinktMerk />} />
+          <Route path="/blogs/algemeen/bouw-sterke-merkidentiteit-online" element={<BlogPostBouwSterkeMerkidentiteitOnline />} />
+          <Route path="/blogs/google-ads/google-ads-demand-gen" element={<BlogPostGoogleAdsDemandGen />} />
+          <Route path="/blogs/google-ads/maximaliseer-conversies-vs-doel-cpa" element={<BlogPostMaximaliseerConversiesVsDoelCpa />} />
 
           {/* /blogs/ redirect naar /nieuws */}
           <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
