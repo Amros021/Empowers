@@ -187,7 +187,7 @@ export default function BlogPostBouwSterkeMerkidentiteitOnline() {
                             Visueel herken je een merk binnen seconden. Maar wat een merk werkelijk maakt is de manier waarop het praat. Een vastgelegde tone of voice zorgt dat je website en e-mails, plus alle productomschrijvingen en social posts, klinken alsof ze van dezelfde maker komen. Dat is goedkoper dan welke huisstijl-investering ook, en heeft minstens zo veel impact.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Een werkbaar tone-of-voice-document beschrijft een paar kernkenmerken (bijvoorbeeld direct, warm, zonder jargon), met per kenmerk concrete "wel zo / niet zo"-voorbeelden. Hoe je dat in een halve dag oplevert beschrijven we in onze blog over <Link to="/blogs/algemeen/toon-stem-bepalen-klinkt-merk" className="text-accent hover:underline">tone of voice bepalen</Link>.
+                            Een werkbaar tone-of-voice-document beschrijft een paar kernkenmerken (bijvoorbeeld direct, warm, zonder jargon), met per kenmerk concrete "wel zo / niet zo"-voorbeelden. Hoe je dat in een halve dag oplevert beschrijven we in onze blog over <Link to="/blogs/algemeen/tone-of-voice-bepalen-klinkt-merk" className="text-accent hover:underline">tone of voice bepalen</Link>.
                         </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Fase vier: gedrag</h2>
@@ -269,7 +269,7 @@ export default function BlogPostBouwSterkeMerkidentiteitOnline() {
                     <section className="mt-16 pt-12 border-t border-primary/10">
                         <h3 className="text-xl font-bold text-primary mb-6">Lees ook</h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <Link to="/blogs/algemeen/toon-stem-bepalen-klinkt-merk" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
+                            <Link to="/blogs/algemeen/tone-of-voice-bepalen-klinkt-merk" className="group p-6 rounded-xl border border-primary/10 hover:border-accent/30 transition-all">
                                 <h3 className="font-bold text-primary mb-2 group-hover:text-accent transition-colors">Tone of voice bepalen</h3>
                                 <p className="text-primary/60 text-sm">Hoe je merkstem documenteert en je team meeneemt.</p>
                             </Link>

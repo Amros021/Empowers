@@ -15,12 +15,12 @@ export default function BlogPostToonStemBepalenKlinktMerk() {
             <Helmet>
                 <title>Tone of voice bepalen: zo klinkt jouw merk consistent | Empowers</title>
                 <meta name="description" content="Een herkenbare merkstem ontstaat niet vanzelf. Hoe je in een halve dag een werkbare tone of voice vastlegt die je hele team kan gebruiken." />
-                <link rel="canonical" href="https://www.empowers.nl/blogs/algemeen/toon-stem-bepalen-klinkt-merk" />
+                <link rel="canonical" href="https://www.empowers.nl/blogs/algemeen/tone-of-voice-bepalen-klinkt-merk" />
                 <meta property="og:title" content="Tone of voice bepalen: zo klinkt jouw merk consistent" />
                 <meta property="og:description" content="Praktische aanpak om je merkstem vast te leggen, te trainen en te bewaken." />
                 <meta property="og:type" content="article" />
-                <meta property="og:url" content="https://www.empowers.nl/blogs/algemeen/toon-stem-bepalen-klinkt-merk" />
-                <meta property="og:image" content="https://www.empowers.nl/images/blogs/toon-stem-bepalen-klinkt-merk.jpg" />
+                <meta property="og:url" content="https://www.empowers.nl/blogs/algemeen/tone-of-voice-bepalen-klinkt-merk" />
+                <meta property="og:image" content="https://www.empowers.nl/images/blogs/tone-of-voice-bepalen-klinkt-merk.jpg" />
                 <meta property="article:published_time" content="2026-05-13" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Algemeen" />
@@ -34,7 +34,7 @@ export default function BlogPostToonStemBepalenKlinktMerk() {
                         "@type": "Article",
                         "headline": "Tone of voice bepalen: zo klinkt jouw merk consistent",
                         "description": "Een herkenbare merkstem ontstaat niet vanzelf. Hoe je in een halve dag een werkbare tone of voice vastlegt die je hele team kan gebruiken.",
-                        "image": "https://www.empowers.nl/images/blogs/toon-stem-bepalen-klinkt-merk.jpg",
+                        "image": "https://www.empowers.nl/images/blogs/tone-of-voice-bepalen-klinkt-merk.jpg",
                         "datePublished": "2026-05-13T15:00:00+02:00",
                         "author": { "@type": "Organization", "name": "Empowers" },
                         "publisher": {
@@ -105,7 +105,7 @@ export default function BlogPostToonStemBepalenKlinktMerk() {
                             { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
                             { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
                             { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                            { "@type": "ListItem", "position": 4, "name": "Tone of voice", "item": "https://www.empowers.nl/blogs/algemeen/toon-stem-bepalen-klinkt-merk" }
+                            { "@type": "ListItem", "position": 4, "name": "Tone of voice", "item": "https://www.empowers.nl/blogs/algemeen/tone-of-voice-bepalen-klinkt-merk" }
                         ]
                     })}
                 </script>
@@ -141,7 +141,7 @@ export default function BlogPostToonStemBepalenKlinktMerk() {
                     </header>
 
                     <figure className="w-full h-[400px] md:h-[500px] rounded-[3rem] overflow-hidden mb-16 relative bg-primary">
-                        <div className="absolute inset-0 bg-[url('/images/blogs/toon-stem-bepalen-klinkt-merk.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
+                        <div className="absolute inset-0 bg-[url('/images/blogs/tone-of-voice-bepalen-klinkt-merk.jpg')] bg-cover bg-center opacity-40 mix-blend-overlay"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </figure>
 
