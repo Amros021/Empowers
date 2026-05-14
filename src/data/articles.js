@@ -253,7 +253,7 @@ const articles = [
         author:   'Empowers Redactie',
         excerpt:  'Een herkenbare merkstem ontstaat niet vanzelf. Hoe je in een halve dag een werkbare tone of voice vastlegt die je hele team kan gebruiken.',
         slug:     '/blogs/algemeen/tone-of-voice-bepalen-klinkt-merk',
-        image:    '/images/blogs/tone-of-voice-bepalen-klinkt-merk.jpg',
+        image:    '/images/blogs/toon-stem-bepalen-klinkt-merk.jpg',
     },
     {
         title:    'Hoe zet je klantreviews in als marketingtool?',
