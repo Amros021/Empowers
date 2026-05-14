@@ -171,6 +171,25 @@ import BlogPostToonStemBepalenKlinktMerk from './pages/BlogPostToonStemBepalenKl
 import BlogPostBouwSterkeMerkidentiteitOnline from './pages/BlogPostBouwSterkeMerkidentiteitOnline';
 import BlogPostGoogleAdsDemandGen from './pages/BlogPostGoogleAdsDemandGen';
 import BlogPostMaximaliseerConversiesVsDoelCpa from './pages/BlogPostMaximaliseerConversiesVsDoelCpa';
+import BlogPostAudienceTargetingGoogleAds from './pages/BlogPostAudienceTargetingGoogleAds';
+import BlogPostVerlaagBounceRateBetereGoogle from './pages/BlogPostVerlaagBounceRateBetereGoogle';
+import BlogPostMetaAdsFrequencyVoorkomAdvertentiemoeheid from './pages/BlogPostMetaAdsFrequencyVoorkomAdvertentiemoeheid';
+import BlogPostInstagramStoriesEffectiefAdvertenties from './pages/BlogPostInstagramStoriesEffectiefAdvertenties';
+import BlogPostOnlineMarketingUitbestedenBureauResultaat from './pages/BlogPostOnlineMarketingUitbestedenBureauResultaat';
+import BlogPostSeaUitbestedenWebshopEcommerceBureau from './pages/BlogPostSeaUitbestedenWebshopEcommerceBureau';
+import BlogPostSeaUitbestedenValkuilenMkb from './pages/BlogPostSeaUitbestedenValkuilenMkb';
+import BlogPostSeaUitbesteden2026AiAutomatisering from './pages/BlogPostSeaUitbesteden2026AiAutomatisering';
+import BlogPostOnlineMarketingUitbestedenOfZelfDoen from './pages/BlogPostOnlineMarketingUitbestedenOfZelfDoen';
+import BlogPostOnlineMarketingStrategieWebshopsOmzet from './pages/BlogPostOnlineMarketingStrategieWebshopsOmzet';
+import BlogPostSeaUitbestedenVragenVoordatJeTekent from './pages/BlogPostSeaUitbestedenVragenVoordatJeTekent';
+import BlogPostZoekmachineOptimalisatieBureauKiezenGids from './pages/BlogPostZoekmachineOptimalisatieBureauKiezenGids';
+import BlogPostZoekmachineOptimalisatieBureauGeenResultaatMis from './pages/BlogPostZoekmachineOptimalisatieBureauGeenResultaatMis';
+import BlogPostGoogleAdsSpecialistResultaten90Dagen from './pages/BlogPostGoogleAdsSpecialistResultaten90Dagen';
+import BlogPostGoogleAdsSpecialistVsBureauFreelancer from './pages/BlogPostGoogleAdsSpecialistVsBureauFreelancer';
+import BlogPostSeaBureauBeoordelenCampagnesBeheer from './pages/BlogPostSeaBureauBeoordelenCampagnesBeheer';
+import BlogPostConversieOptimalisatieBureauNodig from './pages/BlogPostConversieOptimalisatieBureauNodig';
+import BlogPostConversieOptimalisatieBureauResultatenHerkennen from './pages/BlogPostConversieOptimalisatieBureauResultatenHerkennen';
+import BlogPostGoogleAdsBureauVragenEersteGesprek from './pages/BlogPostGoogleAdsBureauVragenEersteGesprek';
 import BlogPostChatgptAdsSectorenProfiteren from './pages/BlogPostChatgptAdsSectorenProfiteren';
 import BlogPostGoogleAdsBeheerChecklistBureauControleren from './pages/BlogPostGoogleAdsBeheerChecklistBureauControleren';
 import BlogPostTiktokAdverteren2026CompleteGidsBeginners from './pages/BlogPostTiktokAdverteren2026CompleteGidsBeginners';
@@ -452,10 +471,29 @@ function App() {
           <Route path="/blogs/algemeen/brandmonitoring-hou-over-gezegd" element={<BlogPostBrandmonitoringHouOverGezegd />} />
           <Route path="/blogs/algemeen/klantretentie-behouden-goedkoper-nieuwe-klanten" element={<BlogPostKlantretentieBehoudenGoedkoperNieuweKlanten />} />
           <Route path="/blogs/algemeen/zet-klantreviews-marketingtool" element={<BlogPostZetKlantreviewsMarketingtool />} />
-          <Route path="/blogs/algemeen/toon-stem-bepalen-klinkt-merk" element={<BlogPostToonStemBepalenKlinktMerk />} />
+          <Route path="/blogs/algemeen/tone-of-voice-bepalen-klinkt-merk" element={<BlogPostToonStemBepalenKlinktMerk />} />
           <Route path="/blogs/algemeen/bouw-sterke-merkidentiteit-online" element={<BlogPostBouwSterkeMerkidentiteitOnline />} />
           <Route path="/blogs/google-ads/google-ads-demand-gen" element={<BlogPostGoogleAdsDemandGen />} />
           <Route path="/blogs/google-ads/maximaliseer-conversies-vs-doel-cpa" element={<BlogPostMaximaliseerConversiesVsDoelCpa />} />
+          <Route path="/blogs/google-ads/audience-targeting-google-ads" element={<BlogPostAudienceTargetingGoogleAds />} />
+          <Route path="/blogs/google-ads/verlaag-bounce-rate-betere-google" element={<BlogPostVerlaagBounceRateBetereGoogle />} />
+          <Route path="/blogs/social-ads/meta-ads-frequency-voorkom-advertentiemoeheid" element={<BlogPostMetaAdsFrequencyVoorkomAdvertentiemoeheid />} />
+          <Route path="/blogs/social-ads/instagram-stories-effectief-advertenties" element={<BlogPostInstagramStoriesEffectiefAdvertenties />} />
+          <Route path="/blogs/algemeen/online-marketing-uitbesteden-bureau-resultaat" element={<BlogPostOnlineMarketingUitbestedenBureauResultaat />} />
+          <Route path="/blogs/google-ads/sea-uitbesteden-webshop-ecommerce-bureau" element={<BlogPostSeaUitbestedenWebshopEcommerceBureau />} />
+          <Route path="/blogs/google-ads/sea-uitbesteden-valkuilen-mkb" element={<BlogPostSeaUitbestedenValkuilenMkb />} />
+          <Route path="/blogs/google-ads/sea-uitbesteden-2026-ai-automatisering" element={<BlogPostSeaUitbesteden2026AiAutomatisering />} />
+          <Route path="/blogs/algemeen/online-marketing-uitbesteden-of-zelf-doen" element={<BlogPostOnlineMarketingUitbestedenOfZelfDoen />} />
+          <Route path="/blogs/strategie/online-marketing-strategie-webshops-omzet" element={<BlogPostOnlineMarketingStrategieWebshopsOmzet />} />
+          <Route path="/blogs/google-ads/sea-uitbesteden-vragen-voordat-je-tekent" element={<BlogPostSeaUitbestedenVragenVoordatJeTekent />} />
+          <Route path="/blogs/seo/zoekmachine-optimalisatie-bureau-kiezen-gids" element={<BlogPostZoekmachineOptimalisatieBureauKiezenGids />} />
+          <Route path="/blogs/seo/zoekmachine-optimalisatie-bureau-geen-resultaat-mis" element={<BlogPostZoekmachineOptimalisatieBureauGeenResultaatMis />} />
+          <Route path="/blogs/google-ads/google-ads-specialist-resultaten-90-dagen" element={<BlogPostGoogleAdsSpecialistResultaten90Dagen />} />
+          <Route path="/blogs/google-ads/google-ads-specialist-vs-bureau-freelancer" element={<BlogPostGoogleAdsSpecialistVsBureauFreelancer />} />
+          <Route path="/blogs/google-ads/sea-bureau-beoordelen-campagnes-beheer" element={<BlogPostSeaBureauBeoordelenCampagnesBeheer />} />
+          <Route path="/blogs/strategie/conversie-optimalisatie-bureau-nodig" element={<BlogPostConversieOptimalisatieBureauNodig />} />
+          <Route path="/blogs/strategie/conversie-optimalisatie-bureau-resultaten-herkennen" element={<BlogPostConversieOptimalisatieBureauResultatenHerkennen />} />
+          <Route path="/blogs/google-ads/google-ads-bureau-vragen-eerste-gesprek" element={<BlogPostGoogleAdsBureauVragenEersteGesprek />} />
 
           {/* /blogs/ redirect naar /nieuws */}
           <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
