@@ -151,6 +151,10 @@ import BlogPostAiVerwijzingenTrackenZonderDureTools from './pages/BlogPostAiVerw
 import BlogPostVerandertAiZoekgedragConsumenten from './pages/BlogPostVerandertAiZoekgedragConsumenten';
 import BlogPostGeoMkbNodigKunWachten from './pages/BlogPostGeoMkbNodigKunWachten';
 import BlogPostBesteGeoTool2026 from './pages/BlogPostBesteGeoTool2026';
+import BlogPostGenerativeEngineOptimizationCompleteGids2026 from './pages/BlogPostGenerativeEngineOptimizationCompleteGids2026';
+import BlogPostGenerativeEngineOptimizationWebshops from './pages/BlogPostGenerativeEngineOptimizationWebshops';
+import BlogPostGenerativeEngineOptimizationUitbesteden from './pages/BlogPostGenerativeEngineOptimizationUitbesteden';
+import BlogPostSocialMediaAdverterenUitbestedenGidsMkb from './pages/BlogPostSocialMediaAdverterenUitbestedenGidsMkb';
 import BlogPostWebsiteVerschijnenChatgptAntwoorden from './pages/BlogPostWebsiteVerschijnenChatgptAntwoorden';
 import BlogPost96ContentGeenOrganischVerkeer from './pages/BlogPost96ContentGeenOrganischVerkeer';
 import BlogPostSnellereWebsiteMeerKlanten from './pages/BlogPostSnellereWebsiteMeerKlanten';
@@ -190,6 +194,7 @@ import BlogPostSeaBureauBeoordelenCampagnesBeheer from './pages/BlogPostSeaBurea
 import BlogPostConversieOptimalisatieBureauNodig from './pages/BlogPostConversieOptimalisatieBureauNodig';
 import BlogPostConversieOptimalisatieBureauResultatenHerkennen from './pages/BlogPostConversieOptimalisatieBureauResultatenHerkennen';
 import BlogPostGoogleAdsBureauVragenEersteGesprek from './pages/BlogPostGoogleAdsBureauVragenEersteGesprek';
+import BlogPostGoogleAdsBureauRedFlagsTekenen from './pages/BlogPostGoogleAdsBureauRedFlagsTekenen';
 import BlogPostChatgptAdsSectorenProfiteren from './pages/BlogPostChatgptAdsSectorenProfiteren';
 import BlogPostGoogleAdsBeheerChecklistBureauControleren from './pages/BlogPostGoogleAdsBeheerChecklistBureauControleren';
 import BlogPostTiktokAdverteren2026CompleteGidsBeginners from './pages/BlogPostTiktokAdverteren2026CompleteGidsBeginners';
@@ -455,6 +460,10 @@ function App() {
           <Route path="/blogs/geo/verandert-ai-zoekgedrag-consumenten" element={<BlogPostVerandertAiZoekgedragConsumenten />} />
           <Route path="/blogs/geo/geo-mkb-nodig-kun-wachten" element={<BlogPostGeoMkbNodigKunWachten />} />
           <Route path="/blogs/geo/beste-geo-tool-2026" element={<BlogPostBesteGeoTool2026 />} />
+          <Route path="/blogs/geo/generative-engine-optimization-complete-gids-2026" element={<BlogPostGenerativeEngineOptimizationCompleteGids2026 />} />
+          <Route path="/blogs/geo/generative-engine-optimization-webshops" element={<BlogPostGenerativeEngineOptimizationWebshops />} />
+          <Route path="/blogs/geo/generative-engine-optimization-uitbesteden" element={<BlogPostGenerativeEngineOptimizationUitbesteden />} />
+          <Route path="/blogs/social-ads/social-media-adverteren-uitbesteden-gids-mkb" element={<BlogPostSocialMediaAdverterenUitbestedenGidsMkb />} />
           <Route path="/blogs/geo/website-verschijnen-chatgpt-antwoorden" element={<BlogPostWebsiteVerschijnenChatgptAntwoorden />} />
           <Route path="/blogs/geo/96-content-geen-organisch-verkeer" element={<BlogPost96ContentGeenOrganischVerkeer />} />
           <Route path="/blogs/strategie/snellere-website-meer-klanten" element={<BlogPostSnellereWebsiteMeerKlanten />} />
@@ -494,6 +503,7 @@ function App() {
           <Route path="/blogs/strategie/conversie-optimalisatie-bureau-nodig" element={<BlogPostConversieOptimalisatieBureauNodig />} />
           <Route path="/blogs/strategie/conversie-optimalisatie-bureau-resultaten-herkennen" element={<BlogPostConversieOptimalisatieBureauResultatenHerkennen />} />
           <Route path="/blogs/google-ads/google-ads-bureau-vragen-eerste-gesprek" element={<BlogPostGoogleAdsBureauVragenEersteGesprek />} />
+          <Route path="/blogs/google-ads/google-ads-bureau-red-flags-tekenen" element={<BlogPostGoogleAdsBureauRedFlagsTekenen />} />
 
           {/* /blogs/ redirect naar /nieuws */}
           <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
