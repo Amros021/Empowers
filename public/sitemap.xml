@@ -189,6 +189,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.empowers.nl/blogs/social-ads/social-media-adverteren-uitbesteden-meten-resultaat</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/algemeen/online-marketing-uitbesteden-webshop</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.empowers.nl/blogs/social-ads/social-media-adverteren-uitbesteden-gids-mkb</loc>
     <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -1394,5 +1406,29 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/algemeen/full-service-marketing-bureau-juiste-fase</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/geo/geo-optimalisatie-verschijnen-ai-antwoorden</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
+  <url>
+    <loc>https://www.empowers.nl/blogs/geo/geo-optimalisatie-mkb-stappenplan</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.empowers.nl/blogs/geo/geo-optimalisatie-uitbesteden</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
