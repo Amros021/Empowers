@@ -151,10 +151,14 @@ import BlogPostAiVerwijzingenTrackenZonderDureTools from './pages/BlogPostAiVerw
 import BlogPostVerandertAiZoekgedragConsumenten from './pages/BlogPostVerandertAiZoekgedragConsumenten';
 import BlogPostGeoMkbNodigKunWachten from './pages/BlogPostGeoMkbNodigKunWachten';
 import BlogPostBesteGeoTool2026 from './pages/BlogPostBesteGeoTool2026';
+import BlogPostGeoOptimalisatieVerschijnenAiAntwoorden from './pages/BlogPostGeoOptimalisatieVerschijnenAiAntwoorden';
+import BlogPostGeoOptimalisatieMkbStappenplan from './pages/BlogPostGeoOptimalisatieMkbStappenplan';
+import BlogPostGeoOptimalisatieUitbesteden from './pages/BlogPostGeoOptimalisatieUitbesteden';
 import BlogPostGenerativeEngineOptimizationCompleteGids2026 from './pages/BlogPostGenerativeEngineOptimizationCompleteGids2026';
 import BlogPostGenerativeEngineOptimizationWebshops from './pages/BlogPostGenerativeEngineOptimizationWebshops';
 import BlogPostGenerativeEngineOptimizationUitbesteden from './pages/BlogPostGenerativeEngineOptimizationUitbesteden';
 import BlogPostSocialMediaAdverterenUitbestedenGidsMkb from './pages/BlogPostSocialMediaAdverterenUitbestedenGidsMkb';
+import BlogPostSocialMediaAdverterenUitbestedenMetenResultaat from './pages/BlogPostSocialMediaAdverterenUitbestedenMetenResultaat';
 import BlogPostWebsiteVerschijnenChatgptAntwoorden from './pages/BlogPostWebsiteVerschijnenChatgptAntwoorden';
 import BlogPost96ContentGeenOrganischVerkeer from './pages/BlogPost96ContentGeenOrganischVerkeer';
 import BlogPostSnellereWebsiteMeerKlanten from './pages/BlogPostSnellereWebsiteMeerKlanten';
@@ -229,6 +233,8 @@ import BlogPostTiktokAdsWebshopsBoostSales from './pages/BlogPostTiktokAdsWebsho
 import BlogPostTiktokShopAdverterenVerkopenPlatform from './pages/BlogPostTiktokShopAdverterenVerkopenPlatform';
 import BlogPostTiktokAdsVideoConverteert from './pages/BlogPostTiktokAdsVideoConverteert';
 import BlogPostTiktokSmartCampagnesUitgelegd from './pages/BlogPostTiktokSmartCampagnesUitgelegd';
+import BlogPostFullServiceMarketingBureauJuisteFase from './pages/BlogPostFullServiceMarketingBureauJuisteFase';
+import BlogPostOnlineMarketingUitbestedenWebshop from './pages/BlogPostOnlineMarketingUitbestedenWebshop';
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -460,10 +466,14 @@ function App() {
           <Route path="/blogs/geo/verandert-ai-zoekgedrag-consumenten" element={<BlogPostVerandertAiZoekgedragConsumenten />} />
           <Route path="/blogs/geo/geo-mkb-nodig-kun-wachten" element={<BlogPostGeoMkbNodigKunWachten />} />
           <Route path="/blogs/geo/beste-geo-tool-2026" element={<BlogPostBesteGeoTool2026 />} />
+          <Route path="/blogs/geo/geo-optimalisatie-verschijnen-ai-antwoorden" element={<BlogPostGeoOptimalisatieVerschijnenAiAntwoorden />} />
+          <Route path="/blogs/geo/geo-optimalisatie-mkb-stappenplan" element={<BlogPostGeoOptimalisatieMkbStappenplan />} />
+          <Route path="/blogs/geo/geo-optimalisatie-uitbesteden" element={<BlogPostGeoOptimalisatieUitbesteden />} />
           <Route path="/blogs/geo/generative-engine-optimization-complete-gids-2026" element={<BlogPostGenerativeEngineOptimizationCompleteGids2026 />} />
           <Route path="/blogs/geo/generative-engine-optimization-webshops" element={<BlogPostGenerativeEngineOptimizationWebshops />} />
           <Route path="/blogs/geo/generative-engine-optimization-uitbesteden" element={<BlogPostGenerativeEngineOptimizationUitbesteden />} />
           <Route path="/blogs/social-ads/social-media-adverteren-uitbesteden-gids-mkb" element={<BlogPostSocialMediaAdverterenUitbestedenGidsMkb />} />
+          <Route path="/blogs/social-ads/social-media-adverteren-uitbesteden-meten-resultaat" element={<BlogPostSocialMediaAdverterenUitbestedenMetenResultaat />} />
           <Route path="/blogs/geo/website-verschijnen-chatgpt-antwoorden" element={<BlogPostWebsiteVerschijnenChatgptAntwoorden />} />
           <Route path="/blogs/geo/96-content-geen-organisch-verkeer" element={<BlogPost96ContentGeenOrganischVerkeer />} />
           <Route path="/blogs/strategie/snellere-website-meer-klanten" element={<BlogPostSnellereWebsiteMeerKlanten />} />
@@ -493,6 +503,8 @@ function App() {
           <Route path="/blogs/google-ads/sea-uitbesteden-valkuilen-mkb" element={<BlogPostSeaUitbestedenValkuilenMkb />} />
           <Route path="/blogs/google-ads/sea-uitbesteden-2026-ai-automatisering" element={<BlogPostSeaUitbesteden2026AiAutomatisering />} />
           <Route path="/blogs/algemeen/online-marketing-uitbesteden-of-zelf-doen" element={<BlogPostOnlineMarketingUitbestedenOfZelfDoen />} />
+          <Route path="/blogs/algemeen/full-service-marketing-bureau-juiste-fase" element={<BlogPostFullServiceMarketingBureauJuisteFase />} />
+          <Route path="/blogs/algemeen/online-marketing-uitbesteden-webshop" element={<BlogPostOnlineMarketingUitbestedenWebshop />} />
           <Route path="/blogs/strategie/online-marketing-strategie-webshops-omzet" element={<BlogPostOnlineMarketingStrategieWebshopsOmzet />} />
           <Route path="/blogs/google-ads/sea-uitbesteden-vragen-voordat-je-tekent" element={<BlogPostSeaUitbestedenVragenVoordatJeTekent />} />
           <Route path="/blogs/seo/zoekmachine-optimalisatie-bureau-kiezen-gids" element={<BlogPostZoekmachineOptimalisatieBureauKiezenGids />} />
