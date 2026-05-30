@@ -144,7 +144,7 @@ export default function BlogPostOnlineMarketingUitbestedenFoutenMkb() {
                             De meeste MKB-ondernemers die hun online marketing uitbesteden, doen dat met de beste bedoelingen. Tijd terugwinnen, professionalisering, eindelijk grip op die advertentiekanalen. Toch zien we al jaren dezelfde valkuilen voorbijkomen in eerste gesprekken met nieuwe klanten. Vijf fouten die structureel terugkomen en die je voor de samenwerking start vrij makkelijk kunt afvangen.
                         </p>
 
-                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Fout: tekenen voordat je tracking op orde is</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Tekenen voordat je tracking op orde is</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Dit is de duurste van allemaal. Een bureau begint te draaien, rapporteert wekelijks over kliks en conversies, en pas na vier of vijf maanden komt iemand erachter dat de Pixel niet correct vuurt of dat GA4 conversies dubbel telt. Op dat moment is er al een fors budget door de campagnes gegaan op basis van data die nooit klopte.
                         </p>
@@ -155,7 +155,7 @@ export default function BlogPostOnlineMarketingUitbestedenFoutenMkb() {
                             Voorkom dit door voor je tekent een week vrij te maken voor de meetbasis. Server-side tracking als je serieus draait, een correct ingerichte GA4 met meetbare events die overeenkomen met wat jij omzet noemt, en een check of je conversiewaardes overeenkomen tussen GA4 en je advertentieplatformen. Hiervoor kun je terecht bij onze gids over <Link to="/blogs/tracking/marketing-tracking-conversies-meten" className="text-accent hover:underline">marketing tracking en conversies meten</Link> als je zelf wil meekijken.
                         </p>
 
-                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Fout: accounts niet op eigen naam</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Advertentieaccounts niet op eigen naam laten zetten</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Een paar jaar geleden was dit nog een grijs gebied. Inmiddels is het zwart-wit. Jouw Google Ads, Meta Business Manager, GA4 en je shopplatform moeten op de bedrijfsnaam van je MKB staan. Een partner krijgt toegang. Geen eigendom.
                         </p>
@@ -166,7 +166,7 @@ export default function BlogPostOnlineMarketingUitbestedenFoutenMkb() {
                             De oplossing is simpel maar wordt vaak overgeslagen in de haast van een nieuwe samenwerking. Maak alles aan op jouw naam, verleen daarna toegang via een uitnodiging, en leg vooraf vast wat er bij beëindiging gebeurt. Een serieuze partner doet hier niet ingewikkeld over. Wie er wel ingewikkeld over doet, geeft je een waardevolle waarschuwing voor je tekent. Lees voor meer context onze blog over <Link to="/blogs/algemeen/kies-juiste-online-marketing-bureau" className="text-accent hover:underline">het kiezen van een online marketing bureau</Link>.
                         </p>
 
-                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Fout: kiezen op uurtarief in plaats van wat je terugkrijgt</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Kiezen op uurtarief in plaats van op rendement</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Een marketingpartner kost geld. Dat is logisch. Maar er is een verschil tussen vijfduizend euro per maand voor strategie plus uitvoering en vijfduizend euro per maand voor alleen knopjes draaien. MKB-bedrijven die op uurtarief vergelijken zien dat verschil pas terug in maand drie of vier, als het bureau dat goedkoper leek elke maand dezelfde standaardaanpassingen aan je campagnes doet zonder iets fundamenteel te verbeteren.
                         </p>
@@ -177,7 +177,7 @@ export default function BlogPostOnlineMarketingUitbestedenFoutenMkb() {
                             Vraag bij elk gesprek concreet welke uren waaraan worden besteed. Niet 'wij optimaliseren wekelijks', maar 'we besteden gemiddeld vier uur per week aan analyse, drie uur aan creative-ontwikkeling, en twee uur aan technische updates'. Wie geen helder antwoord geeft, weet zelf niet waar de uren heen gaan. Dat is geen partner waar je je marketingbudget aan toevertrouwt.
                         </p>
 
-                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Fout: sturen op de verkeerde cijfers</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Sturen op de verkeerde cijfers</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Klikprijzen dalen, CTR stijgt, het aantal vertoningen verdubbelt. Geweldige rapportage. Tot je doorrekent dat je omzet niet meegroeit en dat je marge per klant lager ligt dan vorig jaar. Vanity metrics zijn fijn om naar te kijken en zeggen weinig over wat je marketing oplevert.
                         </p>
@@ -188,7 +188,7 @@ export default function BlogPostOnlineMarketingUitbestedenFoutenMkb() {
                             Een partner die alleen ROAS rapporteert per kanaal mist het grotere plaatje. Een ROAS van vier op Meta is leuk, maar als je organisch verkeer ondertussen halveert omdat de SEO niet wordt onderhouden, kost je nieuwe klant misschien tweemaal zoveel als vorig jaar. Geen rapportage die alleen naar advertentiekanalen kijkt vangt dat op. Wil je dit verder uitwerken: onze blog over <Link to="/blogs/algemeen/online-marketing-mkb-5-kanalen-werken-2026" className="text-accent hover:underline">de vijf marketingkanalen die voor MKB werken in 2026</Link> geeft een werkframe.
                         </p>
 
-                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Fout: te lang blijven hangen in een matige samenwerking</h2>
+                        <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Te lang blijven hangen in een matige samenwerking</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Dit is de meest menselijke fout en daarom de moeilijkste om te vermijden. Je hebt een bureau ingehuurd, ze zijn aardig, ze leveren rapportages aan, de cijfers fluctueren wat maar het loopt. Stoppen voelt als een nederlaag, opnieuw beginnen kost tijd. Dus blijf je nog een kwartaal. En nog een.
                         </p>
