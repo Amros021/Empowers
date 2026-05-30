@@ -3,6 +3,39 @@
 
 const articles = [
     {
+        title:    'SEA uitbesteden: freelancer of bureau? Zo maak je de juiste keuze',
+        category: 'Google Ads',
+        date:     '30 mei 2026',
+        dateTs:   new Date('2026-05-30T09:00:00').getTime(),
+        readTime: '8 min',
+        author:   'Empowers Redactie',
+        excerpt:  'Een freelancer is goedkoper en directer, een bureau brengt capaciteit en meerdere kanalen. Zo bepaal je welke past bij jouw budget en account.',
+        slug:     '/blogs/google-ads/sea-uitbesteden-freelancer-of-bureau',
+        image:    '/images/blogs/sea-uitbesteden-freelancer-of-bureau.jpg',
+    },
+    {
+        title:    'Online marketing strategie voor B2B: dit werkt anders dan B2C',
+        category: 'Strategie',
+        date:     '27 mei 2026',
+        dateTs:   new Date('2026-05-27T09:00:00').getTime(),
+        readTime: '8 min',
+        author:   'Empowers Redactie',
+        excerpt:  'B2B en B2C marketing draaien op heel andere knoppen. Zo bouw je een online marketing strategie die past bij langere salescycli en kritischer kopers.',
+        slug:     '/blogs/strategie/online-marketing-strategie-b2b-vs-b2c',
+        image:    '/images/blogs/online-marketing-strategie-b2b-vs-b2c.jpg',
+    },
+    {
+        title:    'Online marketing uitbesteden: 5 fouten die MKB-bedrijven maken',
+        category: 'Algemeen',
+        date:     '26 mei 2026',
+        dateTs:   new Date('2026-05-26T09:00:00').getTime(),
+        readTime: '8 min',
+        author:   'Empowers Redactie',
+        excerpt:  'De vijf fouten die we structureel zien bij MKB-bedrijven die hun marketing uitbesteden, en hoe je ze allemaal voorkomt voordat je tekent.',
+        slug:     '/blogs/algemeen/online-marketing-uitbesteden-fouten-mkb',
+        image:    '/images/blogs/online-marketing-uitbesteden-fouten-mkb.jpg',
+    },
+    {
         title:    'Online marketing uitbesteden als webshop: hier moet je op letten',
         category: 'Algemeen',
         date:     '25 mei 2026',
@@ -2377,6 +2410,17 @@ const articles = [
         excerpt:  'Steeds meer bedrijven besteden GEO optimalisatie uit aan een specialist. Lees wat het inhoudt, wanneer het loont en hoe je een goede GEO partner herkent.',
         slug:     '/blogs/geo/geo-optimalisatie-uitbesteden',
         image:    '/images/blogs/geo-optimalisatie-uitbesteden.jpg',
+    },
+    {
+        title:    'Online marketing strategie 2026: de 5 kanalen die nu werken',
+        category: 'Strategie',
+        date:     '29 mei 2026',
+        dateTs:   new Date('2026-05-29').getTime(),
+        readTime: '9 min',
+        author:   'Empowers Redactie',
+        excerpt:  'Welke 5 marketingkanalen leveren in 2026 echt resultaat voor MKB en webshops? Van Google Ads tot GEO: zo bepaal je de mix die past bij jouw bedrijf.',
+        slug:     '/blogs/strategie/online-marketing-strategie-2026-kanalen',
+        image:    '/images/blogs/online-marketing-strategie-2026-kanalen.jpg',
     },
 ];
 
