@@ -50,6 +50,9 @@ import BlogPostTechnischeSeoChecklist from './pages/BlogPostTechnischeSeoCheckli
 import BlogPostGeoVsSeo from './pages/BlogPostGeoVsSeo';
 import BlogPostSeaUitbesteden from './pages/BlogPostSeaUitbesteden';
 import BlogPostSeaUitbestedenFreelancerOfBureau from './pages/BlogPostSeaUitbestedenFreelancerOfBureau';
+import BlogPostZoekmachineOptimalisatieBureauResultatenWanneer from './pages/BlogPostZoekmachineOptimalisatieBureauResultatenWanneer';
+import BlogPostGoogleAdsSpecialistCheckenGoedWerk from './pages/BlogPostGoogleAdsSpecialistCheckenGoedWerk';
+import BlogPostGoogleAdsSpecialistVindenTesten from './pages/BlogPostGoogleAdsSpecialistVindenTesten';
 import BlogPostB2bMarketingBureauVsZelf from './pages/BlogPostB2bMarketingBureauVsZelf';
 import BlogPostOnlineMarketingStrategieB2bVsB2c from './pages/BlogPostOnlineMarketingStrategieB2bVsB2c';
 import BlogPostAiSeo2025 from './pages/BlogPostAiSeo2025';
@@ -337,6 +340,9 @@ function App() {
           <Route path="/blogs/geo/geo-vs-seo-verschil-heb" element={<BlogPostGeoVsSeo />} />
           <Route path="/blogs/google-ads/sea-uitbesteden-weten-voordat-kiest" element={<BlogPostSeaUitbesteden />} />
           <Route path="/blogs/google-ads/sea-uitbesteden-freelancer-of-bureau" element={<BlogPostSeaUitbestedenFreelancerOfBureau />} />
+          <Route path="/blogs/seo/zoekmachine-optimalisatie-bureau-resultaten-wanneer" element={<BlogPostZoekmachineOptimalisatieBureauResultatenWanneer />} />
+          <Route path="/blogs/google-ads/google-ads-specialist-checken-goed-werk" element={<BlogPostGoogleAdsSpecialistCheckenGoedWerk />} />
+          <Route path="/blogs/google-ads/google-ads-specialist-vinden-testen" element={<BlogPostGoogleAdsSpecialistVindenTesten />} />
           <Route path="/blogs/algemeen/b2b-marketing-bureau-vs-zelf" element={<BlogPostB2bMarketingBureauVsZelf />} />
           <Route path="/blogs/seo/ai-seo-2025-verandert-kunstmatige" element={<BlogPostAiSeo2025 />} />
           <Route path="/blogs/seo/seo-uitbesteden-zelf-eerlijk-antwoord" element={<BlogPostSeoUitbestedenZelfEerlijkAntwoord />} />
