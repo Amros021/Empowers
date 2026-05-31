@@ -3,6 +3,52 @@
 
 const articles = [
     {
+        title:    'SEA bureau wisselen: wanneer en hoe stap je over?',
+        category: 'Google Ads',
+        date:     '31 mei 2026',
+        dateTs:   new Date('2026-05-31T13:00:00').getTime(),
+        readTime: '9 min',
+        author:   'Empowers Redactie',
+        excerpt:  'Overwegen om van SEA bureau te wisselen? Lees welke signalen wijzen op een overstap, hoe je dat doet zonder je data te verliezen en wat je vooraf regelt.',
+        slug:     '/blogs/google-ads/sea-bureau-wisselen-overstappen',
+        image:    '/images/blogs/sea-bureau-wisselen-overstappen.jpg',
+    },
+    {
+        title:    'Conversie optimalisatie: 10 quick wins die elk bureau als eerste doet',
+        category: 'Strategie',
+        date:     '31 mei 2026',
+        dateTs:   new Date('2026-05-31T13:30:00').getTime(),
+        readTime: '9 min',
+        author:   'Empowers Redactie',
+        excerpt:  'Meer halen uit je bestaande bezoekers? Dit zijn 10 quick wins voor conversie optimalisatie die elk goed bureau als eerste aanpakt, zonder extra advertentiebudget.',
+        slug:     '/blogs/strategie/conversie-optimalisatie-quick-wins',
+        image:    '/images/blogs/conversie-optimalisatie-quick-wins.jpg',
+    },
+    {
+        title:    'Conversie optimalisatie voor webshops: van bezoekers naar kopers',
+        category: 'Strategie',
+        date:     '31 mei 2026',
+        dateTs:   new Date('2026-05-31T14:00:00').getTime(),
+        readTime: '9 min',
+        author:   'Empowers Redactie',
+        excerpt:  'Veel bezoekers maar weinig verkopen? Zo verhoog je de conversie van je webshop: van productpagina en afrekenproces tot vertrouwen en mobiel gemak.',
+        slug:     '/blogs/strategie/conversie-optimalisatie-webshops-bezoekers-kopers',
+        image:    '/images/blogs/conversie-optimalisatie-webshops-bezoekers-kopers.jpg',
+    },
+
+    {
+        title:    'SEA bureau Nederland: de belangrijkste selectiecriteria voor 2026',
+        category: 'Google Ads',
+        date:     '31 mei 2026',
+        dateTs:   new Date('2026-05-31T12:00:00').getTime(),
+        readTime: '9 min',
+        author:   'Empowers Redactie',
+        excerpt:  'Een SEA bureau kiezen in Nederland? Dit zijn de criteria die er in 2026 echt toe doen: eigenaarschap van je account, rapportage op omzet en hoe ze met AI omgaan.',
+        slug:     '/blogs/google-ads/sea-bureau-nederland-selectiecriteria',
+        image:    '/images/blogs/sea-bureau-nederland-selectiecriteria.jpg',
+    },
+
+    {
         title:    'Zoekmachine optimalisatie bureau: wanneer zie je de eerste resultaten?',
         category: 'SEO',
         date:     '30 mei 2026',
