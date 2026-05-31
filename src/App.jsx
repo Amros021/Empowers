@@ -122,6 +122,10 @@ import BlogPostMetaAdsCreativeTesting from './pages/BlogPostMetaAdsCreativeTesti
 import BlogPostSchemaMarkup from './pages/BlogPostSchemaMarkup';
 import BlogPostCtaTekstSchrijven from './pages/BlogPostCtaTekstSchrijven';
 import BlogPostLokaleSeoMkb from './pages/BlogPostLokaleSeoMkb';
+import BlogPostSeaBureauNederland from './pages/BlogPostSeaBureauNederland';
+import BlogPostSeaBureauWisselen from './pages/BlogPostSeaBureauWisselen';
+import BlogPostConversieOptimalisatieQuickWins from './pages/BlogPostConversieOptimalisatieQuickWins';
+import BlogPostConversieOptimalisatieWebshops from './pages/BlogPostConversieOptimalisatieWebshops';
 import BlogPostResponsiveSearchAds from './pages/BlogPostResponsiveSearchAds';
 import BlogPostMetaAdsIos14Veranderd from './pages/BlogPostMetaAdsIos14Veranderd';
 import BlogPostGoogleAdsDataOmSeo from './pages/BlogPostGoogleAdsDataOmSeo';
@@ -525,6 +529,10 @@ function App() {
           <Route path="/blogs/google-ads/google-ads-specialist-resultaten-90-dagen" element={<BlogPostGoogleAdsSpecialistResultaten90Dagen />} />
           <Route path="/blogs/google-ads/google-ads-specialist-vs-bureau-freelancer" element={<BlogPostGoogleAdsSpecialistVsBureauFreelancer />} />
           <Route path="/blogs/google-ads/sea-bureau-beoordelen-campagnes-beheer" element={<BlogPostSeaBureauBeoordelenCampagnesBeheer />} />
+          <Route path="/blogs/google-ads/sea-bureau-nederland-selectiecriteria" element={<BlogPostSeaBureauNederland />} />
+          <Route path="/blogs/google-ads/sea-bureau-wisselen-overstappen" element={<BlogPostSeaBureauWisselen />} />
+          <Route path="/blogs/strategie/conversie-optimalisatie-quick-wins" element={<BlogPostConversieOptimalisatieQuickWins />} />
+          <Route path="/blogs/strategie/conversie-optimalisatie-webshops-bezoekers-kopers" element={<BlogPostConversieOptimalisatieWebshops />} />
           <Route path="/blogs/strategie/conversie-optimalisatie-bureau-nodig" element={<BlogPostConversieOptimalisatieBureauNodig />} />
           <Route path="/blogs/strategie/conversie-optimalisatie-bureau-resultaten-herkennen" element={<BlogPostConversieOptimalisatieBureauResultatenHerkennen />} />
           <Route path="/blogs/google-ads/google-ads-bureau-vragen-eerste-gesprek" element={<BlogPostGoogleAdsBureauVragenEersteGesprek />} />
