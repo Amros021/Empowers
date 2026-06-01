@@ -23,24 +23,36 @@ export default function BlogPostTikTokAds() {
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/tiktok-ads-bedrijven.jpg" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "Article",
-                    "headline": "TikTok Ads voor bedrijven: is het iets voor jou?",
-                    "image": "https://www.empowers.nl/images/blogs/tiktok-ads-bedrijven.jpg",
-                    "description": "Lees of TikTok Ads passen bij jouw bedrijf, wat de kosten zijn en hoe je een succesvolle eerste campagne opzet om nieuwe klanten te bereiken.",
-                    "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "datePublished": "2026-02-15T00:00:00+01:00",
-                    "dateModified": "2026-02-15T00:00:00+01:00",
-                    "url": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-voor-bedrijven"
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "TikTok Ads voor bedrijven: is het iets voor jou?", "item": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-voor-bedrijven" }
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "TikTok Ads voor bedrijven: is het iets voor jou?",
+                            "image": "https://www.empowers.nl/images/blogs/tiktok-ads-bedrijven.jpg",
+                            "description": "Lees of TikTok Ads passen bij jouw bedrijf, wat de kosten zijn en hoe je een succesvolle eerste campagne opzet om nieuwe klanten te bereiken.",
+                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl", "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
+                            "datePublished": "2026-02-15T00:00:00+01:00"
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
+                                { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
+                                { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
+                                { "@type": "ListItem", "position": 4, "name": "TikTok Ads voor bedrijven", "item": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-voor-bedrijven" }
+                            ]
+                        },
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                { "@type": "Question", "name": "Is TikTok Ads geschikt voor kleine budgetten?", "acceptedAnswer": { "@type": "Answer", "text": "Het minimumbudget van TikTok ligt hoger dan bij Meta: 50 euro per dag op campagneniveau. Voor heel kleine budgetten is TikTok Ads daardoor minder toegankelijk. Reken op minimaal 1.000 tot 1.500 euro per maand voor een eerste test." } },
+                                { "@type": "Question", "name": "Hoe maak ik goede TikTok-advertenties?", "acceptedAnswer": { "@type": "Answer", "text": "Native, verticaal en snel. De eerste 2 seconden bepalen alles. Gebruik tekst in beeld, begin met een prikkelende vraag of actie en zorg dat je video aanvoelt als een organische TikTok, niet als een reclamespotje." } },
+                                { "@type": "Question", "name": "Wat is het verschil tussen TikTok Ads en Meta Ads?", "acceptedAnswer": { "@type": "Answer", "text": "Meta heeft meer data en een volwassener advertentiesysteem. TikTok heeft lagere CPM's maar vraagt een andere contentstijl. TikTok werkt beter voor awareness, Meta werkt beter voor directe conversies. De twee platforms vullen elkaar goed aan." } },
+                                { "@type": "Question", "name": "Werkt TikTok Ads ook voor B2B-bedrijven?", "acceptedAnswer": { "@type": "Answer", "text": "Beperkt. TikTok is sterk voor consumenten en visuele producten. B2B-bedrijven kunnen TikTok gebruiken voor naamsbekendheid, maar voor directe leads werkt LinkedIn of Google doorgaans beter." } },
+                                { "@type": "Question", "name": "Hoe meet ik de resultaten van mijn TikTok-campagnes?", "acceptedAnswer": { "@type": "Answer", "text": "Via TikTok Ads Manager in combinatie met het TikTok Pixel op je website. Zorg dat je conversie-events goed zijn ingesteld, zoals aankopen, formulierinzendingen of pagina-bezoeken. Zonder tracking kun je resultaten niet goed beoordelen." } },
+                                { "@type": "Question", "name": "Kan ik TikTok Ads combineren met Meta Ads?", "acceptedAnswer": { "@type": "Answer", "text": "Zeker, en dat raden we aan. TikTok is sterk in bereik en awareness, Meta in retargeting en conversie. Samen vormen ze een krachtige funnel." } }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />
