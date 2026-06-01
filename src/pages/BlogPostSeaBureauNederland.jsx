@@ -30,16 +30,29 @@ function BlogPostSeaBureauNederland() {
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "SEA bureau Nederland: de belangrijkste selectiecriteria voor 2026",
-            "description": "Een SEA bureau kiezen in Nederland? Dit zijn de selectiecriteria die er in 2026 echt toe doen: eigenaarschap van je account, rapportage op omzet en hoe ze met AI omgaan.",
-            "image": "https://www.empowers.nl/images/blogs/sea-bureau-nederland-selectiecriteria.jpg",
-            "datePublished": "2026-05-31T09:00:00+02:00",
-            "author": { "@type": "Organization", "name": "Empowers" },
-            "publisher": {
-              "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-              "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
-            }
+            "@graph": [
+              {
+                "@type": "Article",
+                "headline": "SEA bureau Nederland: de belangrijkste selectiecriteria voor 2026",
+                "description": "Een SEA bureau kiezen in Nederland? Dit zijn de selectiecriteria die er in 2026 echt toe doen: eigenaarschap van je account, rapportage op omzet en hoe ze met AI omgaan.",
+                "image": "https://www.empowers.nl/images/blogs/sea-bureau-nederland-selectiecriteria.jpg",
+                "datePublished": "2026-05-31T09:00:00+02:00",
+                "author": { "@type": "Organization", "name": "Empowers" },
+                "publisher": {
+                  "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
+                  "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
+                  { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
+                  { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
+                  { "@type": "ListItem", "position": 4, "name": "SEA bureau Nederland", "item": "https://www.empowers.nl/blogs/google-ads/sea-bureau-nederland-selectiecriteria" }
+                ]
+              }
+            ]
           })}
         </script>
       </Helmet>

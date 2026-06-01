@@ -31,16 +31,29 @@ function BlogPostSeaBureauWisselen() {
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "SEA bureau wisselen: wanneer en hoe stap je over?",
-            "description": "Overwegen om van SEA bureau te wisselen? Lees welke signalen wijzen op een overstap, hoe je dat doet zonder je data te verliezen en wat je vooraf regelt.",
-            "image": "https://www.empowers.nl/images/blogs/sea-bureau-wisselen-overstappen.jpg",
-            "datePublished": "2026-05-31T09:00:00+02:00",
-            "author": { "@type": "Organization", "name": "Empowers" },
-            "publisher": {
-              "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-              "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
-            }
+            "@graph": [
+              {
+                "@type": "Article",
+                "headline": "SEA bureau wisselen: wanneer en hoe stap je over?",
+                "description": "Overwegen om van SEA bureau te wisselen? Lees welke signalen wijzen op een overstap, hoe je dat doet zonder je data te verliezen en wat je vooraf regelt.",
+                "image": "https://www.empowers.nl/images/blogs/sea-bureau-wisselen-overstappen.jpg",
+                "datePublished": "2026-05-31T09:00:00+02:00",
+                "author": { "@type": "Organization", "name": "Empowers" },
+                "publisher": {
+                  "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
+                  "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
+                  { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
+                  { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
+                  { "@type": "ListItem", "position": 4, "name": "SEA bureau wisselen", "item": "https://www.empowers.nl/blogs/google-ads/sea-bureau-wisselen-overstappen" }
+                ]
+              }
+            ]
           })}
         </script>
       </Helmet>

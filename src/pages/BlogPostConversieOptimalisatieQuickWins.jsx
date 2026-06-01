@@ -31,16 +31,29 @@ function BlogPostConversieOptimalisatieQuickWins() {
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "Conversie optimalisatie: 10 quick wins die elk bureau als eerste doet",
-            "description": "Meer halen uit je bestaande bezoekers? Dit zijn 10 quick wins voor conversie optimalisatie die elk goed bureau als eerste aanpakt, zonder extra advertentiebudget.",
-            "image": "https://www.empowers.nl/images/blogs/conversie-optimalisatie-quick-wins.jpg",
-            "datePublished": "2026-05-31T09:00:00+02:00",
-            "author": { "@type": "Organization", "name": "Empowers" },
-            "publisher": {
-              "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-              "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
-            }
+            "@graph": [
+              {
+                "@type": "Article",
+                "headline": "Conversie optimalisatie: 10 quick wins die elk bureau als eerste doet",
+                "description": "Meer halen uit je bestaande bezoekers? Dit zijn 10 quick wins voor conversie optimalisatie die elk goed bureau als eerste aanpakt, zonder extra advertentiebudget.",
+                "image": "https://www.empowers.nl/images/blogs/conversie-optimalisatie-quick-wins.jpg",
+                "datePublished": "2026-05-31T09:00:00+02:00",
+                "author": { "@type": "Organization", "name": "Empowers" },
+                "publisher": {
+                  "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
+                  "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
+                  { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
+                  { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
+                  { "@type": "ListItem", "position": 4, "name": "Conversie quick wins", "item": "https://www.empowers.nl/blogs/strategie/conversie-optimalisatie-quick-wins" }
+                ]
+              }
+            ]
           })}
         </script>
       </Helmet>
