@@ -332,7 +332,7 @@ function App() {
           <Route path="/blogs/seo/lang-duurt-seo-realistische-verwachtingen" element={<BlogPostHoeLangDuurtSeo />} />
           <Route path="/blogs/google-ads/google-ads-uitbesteden-wanneer-zelf" element={<BlogPostGoogleAdsUitbesteden />} />
           <Route path="/blogs/social-ads/meta-ads-2025-werkt-na" element={<BlogPostMetaAds2025Privacywijzigingen />} />
-          <Route path="/blogs/social-ads/meta-ads-2026-werkt-na" element={<BlogPostMetaAds2025Privacywijzigingen />} />
+          <Route path="/blogs/social-ads/meta-ads-2026-werkt-na" element={<Navigate to="/blogs/social-ads/meta-ads-2025-werkt-na" replace />} />
           <Route path="/blogs/geo/chatgpt-bedrijf-aanbeveelt" element={<BlogPostChatgptBedrijfAanbeveelt />} />
           <Route path="/blogs/tracking/google-tag-manager-beginners" element={<BlogPostGoogleTagManagerBeginners />} />
           <Route path="/blogs/strategie/goede-conversieratio-benchmarks-per-branche" element={<BlogPostConversieratioBenchmarksPerBranche />} />
@@ -544,8 +544,8 @@ function App() {
           {/* Categorie overzichtspagina's — /blogs/:category */}
           <Route path="/blogs/:category" element={<BlogCategory />} />
           {/* Oude routes — backwards compatibility */}
-          <Route path="/blogs/meta-ads/waarom-meta-ads-niet-converteren" element={<BlogPostMetaAds />} />
-          <Route path="/blogs/tiktok-ads/tiktok-ads-voor-bedrijven" element={<BlogPostTikTokAds />} />
+          <Route path="/blogs/meta-ads/waarom-meta-ads-niet-converteren" element={<Navigate to="/blogs/social-ads/waarom-meta-ads-niet-converteren" replace />} />
+          <Route path="/blogs/tiktok-ads/tiktok-ads-voor-bedrijven" element={<Navigate to="/blogs/social-ads/tiktok-ads-voor-bedrijven" replace />} />
           <Route path="/geo" element={<GeoPage />} />
           <Route path="/seo" element={<SeoPage />} />
           <Route path="/google-ads" element={<GoogleAdsPage />} />
