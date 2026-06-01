@@ -173,7 +173,7 @@ export default function BlogPostDynamicAdsMetaAutomatischAdverteren() {
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Het verschil met klassieke Meta Ads</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
-                            Bij een klassieke Meta-campagne maak je per advertentie de tekst, kies je een afbeelding, bepaal je de doelgroep en zet je het budget. Werkt prima als je drie producten promoot. Wordt een drama bij vijfhonderd. Dynamic Ads keren die logica om: jij bouwt één sjabloon met dynamische tags ({'{'}{'{product.name{'}'}{'}'} en {'{'}{'{product.price{'}'}{'}'} bijvoorbeeld) en Meta vult ze automatisch in vanuit jouw catalogus.
+                            Bij een klassieke Meta-campagne maak je per advertentie de tekst, kies je een afbeelding, bepaal je de doelgroep en zet je het budget. Werkt prima als je drie producten promoot. Wordt een drama bij vijfhonderd. Dynamic Ads keren die logica om: jij bouwt één sjabloon met dynamische tags ({'{'}{'{'} product.name {'}'}{'}'}  en {'{'}{'{'} product.price {'}'}{'}'} bijvoorbeeld) en Meta vult ze automatisch in vanuit jouw catalogus.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Het tweede verschil zit in de doelgroep. Een gewone advertentie laat je los op een vooraf gedefinieerde doelgroep. Een Dynamic Ad kijkt per individu welk product op dat moment relevant is. Dat maakt retargeting bij Dynamic Ads zo krachtig: je hoeft niet meer te raden welk item iemand boeit, het algoritme weet het al uit jouw eigen sitedata.
