@@ -17,6 +17,32 @@ function BlogPostSeaBureauWisselen() {
         <meta name="description" content="Overwegen om van SEA bureau te wisselen? Lees welke signalen wijzen op een overstap, hoe je dat doet zonder je data te verliezen en wat je vooraf regelt." />
         <meta name="keywords" content="sea bureau wisselen, google ads bureau overstappen, sea bureau opzeggen, van sea bureau wisselen, google ads account overzetten" />
         <link rel="canonical" href="https://www.empowers.nl/blogs/google-ads/sea-bureau-wisselen-overstappen" />
+        <meta property="og:title" content="SEA bureau wisselen: wanneer en hoe stap je over?" />
+        <meta property="og:description" content="Overwegen om van SEA bureau te wisselen? Lees welke signalen wijzen op een overstap, hoe je dat doet zonder je data te verliezen en wat je vooraf regelt." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/sea-bureau-wisselen-overstappen" />
+        <meta property="og:image" content="https://www.empowers.nl/images/blogs/sea-bureau-wisselen-overstappen.jpg" />
+        <meta property="article:published_time" content="2026-05-31" />
+        <meta property="article:author" content="Empowers" />
+        <meta property="article:section" content="Google Ads" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SEA bureau wisselen: wanneer en hoe stap je over?" />
+        <meta name="twitter:description" content="Welke signalen wijzen op een overstap en hoe wissel je van SEA bureau zonder dataverlies." />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "SEA bureau wisselen: wanneer en hoe stap je over?",
+            "description": "Overwegen om van SEA bureau te wisselen? Lees welke signalen wijzen op een overstap, hoe je dat doet zonder je data te verliezen en wat je vooraf regelt.",
+            "image": "https://www.empowers.nl/images/blogs/sea-bureau-wisselen-overstappen.jpg",
+            "datePublished": "2026-05-31T09:00:00+02:00",
+            "author": { "@type": "Organization", "name": "Empowers" },
+            "publisher": {
+              "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
+              "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+            }
+          })}
+        </script>
       </Helmet>
       <Navbar />
       <article className="min-h-screen bg-background pt-32 pb-20">

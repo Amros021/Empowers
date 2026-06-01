@@ -17,6 +17,32 @@ function BlogPostConversieOptimalisatieWebshops() {
         <meta name="description" content="Veel bezoekers maar weinig verkopen? Zo verhoog je de conversie van je webshop: van productpagina en afrekenproces tot vertrouwen en mobiel gemak." />
         <meta name="keywords" content="conversie optimalisatie webshop, webshop conversie verhogen, meer verkopen webshop, afrekenproces optimaliseren, productpagina conversie" />
         <link rel="canonical" href="https://www.empowers.nl/blogs/strategie/conversie-optimalisatie-webshops-bezoekers-kopers" />
+        <meta property="og:title" content="Conversie optimalisatie voor webshops: van bezoekers naar kopers" />
+        <meta property="og:description" content="Veel bezoekers maar weinig verkopen? Zo verhoog je de conversie van je webshop: van productpagina en afrekenproces tot vertrouwen en mobiel gemak." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://www.empowers.nl/blogs/strategie/conversie-optimalisatie-webshops-bezoekers-kopers" />
+        <meta property="og:image" content="https://www.empowers.nl/images/blogs/conversie-optimalisatie-webshops-bezoekers-kopers.jpg" />
+        <meta property="article:published_time" content="2026-05-31" />
+        <meta property="article:author" content="Empowers" />
+        <meta property="article:section" content="Strategie" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Conversie optimalisatie voor webshops: van bezoekers naar kopers" />
+        <meta name="twitter:description" content="Zo verhoog je de conversie van je webshop: van productpagina tot afrekenproces." />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Conversie optimalisatie voor webshops: van bezoekers naar kopers",
+            "description": "Veel bezoekers maar weinig verkopen? Zo verhoog je de conversie van je webshop: van productpagina en afrekenproces tot vertrouwen en mobiel gemak.",
+            "image": "https://www.empowers.nl/images/blogs/conversie-optimalisatie-webshops-bezoekers-kopers.jpg",
+            "datePublished": "2026-05-31T09:00:00+02:00",
+            "author": { "@type": "Organization", "name": "Empowers" },
+            "publisher": {
+              "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
+              "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+            }
+          })}
+        </script>
       </Helmet>
       <Navbar />
       <article className="min-h-screen bg-background pt-32 pb-20">

@@ -16,6 +16,32 @@ function BlogPostSeaBureauNederland() {
         <meta name="description" content="Een SEA bureau kiezen in Nederland? Dit zijn de selectiecriteria die er in 2026 echt toe doen: eigenaarschap van je account, rapportage op omzet en hoe ze met AI omgaan." />
         <meta name="keywords" content="sea bureau nederland, sea bureau kiezen, google ads bureau, sea uitbesteden, sea specialist" />
         <link rel="canonical" href="https://www.empowers.nl/blogs/google-ads/sea-bureau-nederland-selectiecriteria" />
+        <meta property="og:title" content="SEA bureau Nederland: de belangrijkste selectiecriteria voor 2026" />
+        <meta property="og:description" content="Een SEA bureau kiezen in Nederland? Dit zijn de selectiecriteria die er in 2026 echt toe doen: eigenaarschap van je account, rapportage op omzet en hoe ze met AI omgaan." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/sea-bureau-nederland-selectiecriteria" />
+        <meta property="og:image" content="https://www.empowers.nl/images/blogs/sea-bureau-nederland-selectiecriteria.jpg" />
+        <meta property="article:published_time" content="2026-05-31" />
+        <meta property="article:author" content="Empowers" />
+        <meta property="article:section" content="Google Ads" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SEA bureau Nederland: de belangrijkste selectiecriteria voor 2026" />
+        <meta name="twitter:description" content="De selectiecriteria die ertoe doen bij het kiezen van een SEA bureau in Nederland." />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "SEA bureau Nederland: de belangrijkste selectiecriteria voor 2026",
+            "description": "Een SEA bureau kiezen in Nederland? Dit zijn de selectiecriteria die er in 2026 echt toe doen: eigenaarschap van je account, rapportage op omzet en hoe ze met AI omgaan.",
+            "image": "https://www.empowers.nl/images/blogs/sea-bureau-nederland-selectiecriteria.jpg",
+            "datePublished": "2026-05-31T09:00:00+02:00",
+            "author": { "@type": "Organization", "name": "Empowers" },
+            "publisher": {
+              "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
+              "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+            }
+          })}
+        </script>
       </Helmet>
       <Navbar />
       <article className="min-h-screen bg-background pt-32 pb-20">
