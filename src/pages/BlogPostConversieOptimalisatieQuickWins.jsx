@@ -52,6 +52,51 @@ function BlogPostConversieOptimalisatieQuickWins() {
                   { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
                   { "@type": "ListItem", "position": 4, "name": "Conversie quick wins", "item": "https://www.empowers.nl/blogs/strategie/conversie-optimalisatie-quick-wins" }
                 ]
+              },
+              {
+                "@type": "FAQPage",
+                "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wat is een goede conversieratio?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat verschilt sterk per branche en type pagina. Vergelijk jezelf liever met je eigen vorige cijfers dan met een algemeen gemiddelde. Een overzicht per branche vind je in ons artikel over conversieratio benchmarks."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoeveel kan ik winnen met deze quick wins?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat hangt af van waar je nu staat. Sites met een rommelige basis boeken vaak de grootste sprongen. Het mooie is dat deze aanpassingen weinig kosten en je bestaande verkeer beter benutten."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moet ik alles tegelijk aanpakken?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Liever niet. Pak de punten een voor een aan en meet het effect, zodat je weet wat werkt. Alles tegelijk veranderen maakt het lastig te zien waar de winst vandaan komt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Heb ik hier een specialist voor nodig?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De meeste quick wins kun je zelf oppakken. Voor structureel testen en het doorgronden van bezoekersgedrag komt ervaring goed van pas. Veel ondernemers combineren zelf doen met begeleiding."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Werkt dit ook voor een webshop?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Zeker, al ligt de nadruk daar net anders. Voor webshops draait het sterk om het afrekenproces en productpagina's. Daarover lees je meer in ons artikel over conversie optimalisatie voor webshops."
+                }
+              }
+                ]
               }
             ]
           })}

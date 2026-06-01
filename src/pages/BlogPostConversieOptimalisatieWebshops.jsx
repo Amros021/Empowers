@@ -52,6 +52,51 @@ function BlogPostConversieOptimalisatieWebshops() {
                   { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
                   { "@type": "ListItem", "position": 4, "name": "Conversie webshops", "item": "https://www.empowers.nl/blogs/strategie/conversie-optimalisatie-webshops-bezoekers-kopers" }
                 ]
+              },
+              {
+                "@type": "FAQPage",
+                "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Waar verlies ik de meeste verkopen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Meestal in het afrekenproces. Onverwachte kosten, een verplicht account of te veel stappen zijn de bekendste redenen om af te haken. Begin daar als je snel resultaat wilt."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moet ik gast-checkout aanbieden?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ja. Een verplicht account schrikt nieuwe klanten af. Laat afrekenen als gast toe en bied het aanmaken van een account aan als optie, niet als eis."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe belangrijk zijn reviews echt?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Heel belangrijk. Ze nemen twijfel weg bij mensen die je shop nog niet kennen. Zichtbare, eerlijke reviews op de productpagina geven vaak net dat zetje richting een aankoop."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Werkt het terugwinnen van winkelwagens?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Vaak wel. Een deel van de bezoekers die afhaken, twijfelde alleen even. Een goed getimede herinnering of advertentie haalt een deel van hen alsnog over de streep."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe meet ik of mijn aanpassingen werken?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Volg je conversieratio en je winkelwagenverlaten voor en na een wijziging. Pas één ding tegelijk aan, zodat je weet welke verandering het verschil maakt."
+                }
+              }
+                ]
               }
             ]
           })}

@@ -51,6 +51,51 @@ function BlogPostSeaBureauNederland() {
                   { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
                   { "@type": "ListItem", "position": 4, "name": "SEA bureau Nederland", "item": "https://www.empowers.nl/blogs/google-ads/sea-bureau-nederland-selectiecriteria" }
                 ]
+              },
+              {
+                "@type": "FAQPage",
+                "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wat kost een SEA bureau in Nederland?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat verschilt sterk per bureau en model. Sommige rekenen een vast maandbedrag, andere een percentage van je advertentiebudget. Belangrijker dan de prijs is wat je ervoor terugkrijgt: vraag altijd hoe het bureau zijn waarde aantoont in omzet."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moet ik een bureau of een freelancer kiezen?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Een freelancer is vaak goedkoper en persoonlijker, een bureau biedt meer continuïteit en bredere kennis. Voor een groeiend bedrijf met meerdere kanalen weegt die continuïteit zwaar. Voor een kleine, scherp afgebakende campagne kan een freelancer prima volstaan."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe snel zie ik resultaat van een SEA bureau?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De eerste klikken komen meteen, maar een campagne heeft tijd nodig om te leren. Reken op enkele weken voordat de biedautomatisering goed presteert en op een paar maanden voor een stabiel, voorspelbaar rendement."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Waarom is eigenaarschap van het account zo belangrijk?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Omdat het je vrijheid bepaalt. Sta jij als eigenaar geregistreerd, dan neem je bij een overstap al je data en opgebouwde leerfase mee. Zit je account vast bij het bureau, dan begin je ergens anders vanaf nul."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Welke vragen stel ik in het eerste gesprek?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Vraag wie eigenaar wordt van het account, hoe er gerapporteerd wordt, welke ervaring ze in jouw branche hebben en hoe ze met automatisering omgaan. Vraag ook naar de opzegtermijn. De antwoorden vertellen je meer dan welke presentatie dan ook."
+                }
+              }
+                ]
               }
             ]
           })}

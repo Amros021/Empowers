@@ -52,6 +52,51 @@ function BlogPostSeaBureauWisselen() {
                   { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
                   { "@type": "ListItem", "position": 4, "name": "SEA bureau wisselen", "item": "https://www.empowers.nl/blogs/google-ads/sea-bureau-wisselen-overstappen" }
                 ]
+              },
+              {
+                "@type": "FAQPage",
+                "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Verlies ik mijn data als ik overstap?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Niet als jij eigenaar bent van het account. Dan trek je simpelweg de toegang van het oude bureau in en blijft alles behouden. Het probleem ontstaat alleen als je account bij het bureau zelf staat."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Vallen mijn campagnes stil tijdens de overstap?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Niet als je de overdracht goed regelt. Laat het nieuwe bureau klaarstaan voordat je het oude opzegt, dan loopt alles door zonder onderbreking."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Hoe lang duurt een overstap?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "De technische overdracht van toegang is een kwestie van dagen. Reken daarnaast op een inwerkperiode waarin het nieuwe bureau je account leert kennen voordat het echt gaat optimaliseren."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Wat als mijn contract nog loopt?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Check de opzegtermijn in je overeenkomst. Soms moet je een periode uitzitten, soms kun je eerder weg. Plan je overstap op het moment dat je contractueel vrij bent."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Moet ik het oude bureau vertellen waarom ik vertrek?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Dat hoeft niet, maar het is netjes en soms verhelderend. Houd het zakelijk en zorg vooral dat de praktische overdracht goed geregeld is."
+                }
+              }
+                ]
               }
             ]
           })}

@@ -43,7 +43,10 @@ export default function BlogPostTikTokAds() {
                         { "@type": "ListItem", "position": 4, "name": "TikTok Ads voor bedrijven: is het iets voor jou?", "item": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-voor-bedrijven" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="TikTok Ads voor Bedrijven: Is het Iets voor Jou?" />
+        <meta name="twitter:description" content="Lees of TikTok Ads passen bij jouw bedrijf, wat de kosten zijn en hoe je een succesvolle eerste campagne opzet om nieuwe" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">
