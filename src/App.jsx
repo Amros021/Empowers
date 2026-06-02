@@ -52,6 +52,7 @@ import BlogPostSeaUitbesteden from './pages/BlogPostSeaUitbesteden';
 import BlogPostSeaUitbestedenFreelancerOfBureau from './pages/BlogPostSeaUitbestedenFreelancerOfBureau';
 import BlogPostZoekmachineOptimalisatieBureauResultatenWanneer from './pages/BlogPostZoekmachineOptimalisatieBureauResultatenWanneer';
 import BlogPostGoogleAdsSpecialistCheckenGoedWerk from './pages/BlogPostGoogleAdsSpecialistCheckenGoedWerk';
+import BlogPostGoogleAdsBureauResultatenRendement from './pages/BlogPostGoogleAdsBureauResultatenRendement';
 import BlogPostGoogleAdsSpecialistVindenTesten from './pages/BlogPostGoogleAdsSpecialistVindenTesten';
 import BlogPostB2bMarketingBureauVsZelf from './pages/BlogPostB2bMarketingBureauVsZelf';
 import BlogPostOnlineMarketingStrategieB2bVsB2c from './pages/BlogPostOnlineMarketingStrategieB2bVsB2c';
@@ -246,6 +247,13 @@ import BlogPostTiktokSmartCampagnesUitgelegd from './pages/BlogPostTiktokSmartCa
 import BlogPostFullServiceMarketingBureauJuisteFase from './pages/BlogPostFullServiceMarketingBureauJuisteFase';
 import BlogPostOnlineMarketingUitbestedenWebshop from './pages/BlogPostOnlineMarketingUitbestedenWebshop';
 import BlogPostOnlineMarketingUitbestedenFoutenMkb from './pages/BlogPostOnlineMarketingUitbestedenFoutenMkb';
+import BlogPostGoogleAdsBureauWisselenZonderDataverlies from './pages/BlogPostGoogleAdsBureauWisselenZonderDataverlies';
+import BlogPostGenerativeEngineOptimizationTools2026 from './pages/BlogPostGenerativeEngineOptimizationTools2026';
+import BlogPostGenerativeEngineOptimizationChecklist from './pages/BlogPostGenerativeEngineOptimizationChecklist';
+import BlogPostSocialMediaAdverterenBureauVsFreelancer from './pages/BlogPostSocialMediaAdverterenBureauVsFreelancer';
+import BlogPostSocialMediaAdverterenUitbestedenWebshop from './pages/BlogPostSocialMediaAdverterenUitbestedenWebshop';
+import BlogPostFullServiceMarketingBureauWebshops from './pages/BlogPostFullServiceMarketingBureauWebshops';
+import BlogPostFullServiceMarketingBureauNederlandKeuze from './pages/BlogPostFullServiceMarketingBureauNederlandKeuze';
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -346,6 +354,14 @@ function App() {
           <Route path="/blogs/google-ads/sea-uitbesteden-freelancer-of-bureau" element={<BlogPostSeaUitbestedenFreelancerOfBureau />} />
           <Route path="/blogs/seo/zoekmachine-optimalisatie-bureau-resultaten-wanneer" element={<BlogPostZoekmachineOptimalisatieBureauResultatenWanneer />} />
           <Route path="/blogs/google-ads/google-ads-specialist-checken-goed-werk" element={<BlogPostGoogleAdsSpecialistCheckenGoedWerk />} />
+          <Route path="/blogs/google-ads/google-ads-bureau-resultaten-rendement" element={<BlogPostGoogleAdsBureauResultatenRendement />} />
+          <Route path="/blogs/google-ads/google-ads-bureau-wisselen-zonder-dataverlies" element={<BlogPostGoogleAdsBureauWisselenZonderDataverlies />} />
+          <Route path="/blogs/geo/generative-engine-optimization-tools-2026" element={<BlogPostGenerativeEngineOptimizationTools2026 />} />
+          <Route path="/blogs/geo/generative-engine-optimization-checklist" element={<BlogPostGenerativeEngineOptimizationChecklist />} />
+          <Route path="/blogs/social-ads/social-media-adverteren-bureau-vs-freelancer" element={<BlogPostSocialMediaAdverterenBureauVsFreelancer />} />
+          <Route path="/blogs/social-ads/social-media-adverteren-uitbesteden-webshop" element={<BlogPostSocialMediaAdverterenUitbestedenWebshop />} />
+          <Route path="/blogs/algemeen/full-service-marketing-bureau-webshops" element={<BlogPostFullServiceMarketingBureauWebshops />} />
+          <Route path="/blogs/algemeen/full-service-marketing-bureau-nederland-keuze" element={<BlogPostFullServiceMarketingBureauNederlandKeuze />} />
           <Route path="/blogs/google-ads/google-ads-specialist-vinden-testen" element={<BlogPostGoogleAdsSpecialistVindenTesten />} />
           <Route path="/blogs/algemeen/b2b-marketing-bureau-vs-zelf" element={<BlogPostB2bMarketingBureauVsZelf />} />
           <Route path="/blogs/seo/ai-seo-2025-verandert-kunstmatige" element={<BlogPostAiSeo2025 />} />
