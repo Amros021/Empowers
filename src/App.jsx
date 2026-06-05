@@ -272,6 +272,10 @@ const BlogPostBouwTopischeAutoriteitBetereGeo = React.lazy(() => import('./pages
 const BlogPostFaqSectiesOmBeterGevonden = React.lazy(() => import('./pages/BlogPostFaqSectiesOmBeterGevonden'));
 const BlogPostRolGeoBouwVertrouwenAi = React.lazy(() => import('./pages/BlogPostRolGeoBouwVertrouwenAi'));
 const BlogPostStatistiekenDataOmAiCitaties = React.lazy(() => import('./pages/BlogPostStatistiekenDataOmAiCitaties'));
+const BlogPostGeoEcommerceWordAanbevolenAiShoppers = React.lazy(() => import('./pages/BlogPostGeoEcommerceWordAanbevolenAiShoppers'));
+const BlogPostSchemaMarkupBetereAiZichtbaarheid = React.lazy(() => import('./pages/BlogPostSchemaMarkupBetereAiZichtbaarheid'));
+const BlogPostSocialProofEffectiefWebsite = React.lazy(() => import('./pages/BlogPostSocialProofEffectiefWebsite'));
+const BlogPostPopUpsLandingspaginasHelpenSchaden = React.lazy(() => import('./pages/BlogPostPopUpsLandingspaginasHelpenSchaden'));
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -398,6 +402,10 @@ function App() {
           <Route path="/blogs/geo/faq-secties-om-beter-gevonden" element={<BlogPostFaqSectiesOmBeterGevonden />} />
           <Route path="/blogs/geo/rol-geo-bouw-vertrouwen-ai" element={<BlogPostRolGeoBouwVertrouwenAi />} />
           <Route path="/blogs/geo/statistieken-data-om-ai-citaties" element={<BlogPostStatistiekenDataOmAiCitaties />} />
+          <Route path="/blogs/geo/geo-e-commerce-word-aanbevolen-ai-shoppers" element={<BlogPostGeoEcommerceWordAanbevolenAiShoppers />} />
+          <Route path="/blogs/geo/schema-markup-betere-ai-zichtbaarheid" element={<BlogPostSchemaMarkupBetereAiZichtbaarheid />} />
+          <Route path="/blogs/strategie/social-proof-effectief-website" element={<BlogPostSocialProofEffectiefWebsite />} />
+          <Route path="/blogs/strategie/pop-ups-landingspaginas-helpen-schaden" element={<BlogPostPopUpsLandingspaginasHelpenSchaden />} />
           <Route path="/blogs/google-ads/google-ads-specialist-vinden-testen" element={<BlogPostGoogleAdsSpecialistVindenTesten />} />
           <Route path="/blogs/algemeen/b2b-marketing-bureau-vs-zelf" element={<BlogPostB2bMarketingBureauVsZelf />} />
           <Route path="/blogs/seo/ai-seo-2025-verandert-kunstmatige" element={<BlogPostAiSeo2025 />} />
