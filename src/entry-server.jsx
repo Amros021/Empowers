@@ -4,7 +4,7 @@ import { renderToString } from 'react-dom/server'
 // If we use react-router-dom/server here it will throw a build error, so we use react-router.
 import { StaticRouter } from 'react-router'
 import { HelmetProvider } from 'react-helmet-async'
-import App from './App.jsx'
+import App from './App.ssr.jsx'
 
 export function render(url) {
     const helmetContext = {}
