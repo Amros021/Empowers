@@ -71,27 +71,27 @@ const faqCategories = [
         faqs: [
             {
                 q: 'Wat kost Google Ads per klik in Nederland?',
-                a: 'De kosten per klik variëren sterk per branche. In e-commerce betaal je gemiddeld €0,50 tot €2,00 per klik, in de zakelijke dienstverlening kan dat oplopen tot €5,00 of meer. De werkelijke kosten hangen af van je zoekwoorden, concurrentie en Quality Score.',
+                a: 'De kosten per klik variëren sterk per branche. In e-commerce betaal je gemiddeld €0,50 tot €2,00 per klik, in de zakelijke dienstverlening kan dat oplopen tot €5,00 of meer. De werkelijke kosten hangen af van je zoekwoorden, concurrentie en Quality Score. Wil je weten wat de kosten in jouw branche zijn? We berekenen het graag in een vrijblijvend gesprek.',
                 blog: { slug: '/blogs/google-ads/sea-cpc-benchmarks-per-branche-nederland', label: 'CPC benchmarks per branche' }
             },
             {
                 q: 'Hoe weet ik of mijn Google Ads campagne goed presteert?',
-                a: 'Kijk niet alleen naar klikken en vertoningen, maar naar wat echt telt: conversies, kosten per conversie en ROAS. Een goede CTR ligt boven de 3%, maar dat zegt niks als die klikken niet converteren. Wij rapporteren altijd op resultaat, niet op ijdelheidsmetrics.',
+                a: 'Kijk niet alleen naar klikken en vertoningen, maar naar wat echt telt: conversies, kosten per conversie en ROAS. Een goede CTR ligt boven de 3%, maar dat zegt niks als die klikken niet converteren. Wij rapporteren altijd op resultaat, niet op ijdelheidsmetrics. Twijfel je over je resultaten? We doen een gratis campagne-check.',
                 blog: { slug: '/blogs/google-ads/google-ads-rapportage-metrics-echt', label: 'Welke Google Ads metrics zijn echt belangrijk' }
             },
             {
                 q: 'Wat is Performance Max en wanneer gebruik ik het?',
-                a: 'Performance Max is een campagnetype van Google dat automatisch advertenties toont op alle Google-kanalen: Search, Display, YouTube, Gmail en Maps. Het werkt goed voor e-commerce en bedrijven met voldoende conversiedata. Voor nieuwe accounts of kleine budgetten raden we vaak eerst Search-campagnes aan.',
+                a: 'Performance Max is een campagnetype van Google dat automatisch advertenties toont op alle Google-kanalen: Search, Display, YouTube, Gmail en Maps. Het werkt goed voor e-commerce en bedrijven met voldoende conversiedata. Voor nieuwe accounts of kleine budgetten raden we vaak eerst Search-campagnes aan. Benieuwd of Performance Max geschikt is voor jouw situatie? Neem contact op voor een vrijblijvend advies.',
                 blog: { slug: '/blogs/google-ads/performance-max-google-ads-weten', label: 'Alles over Performance Max' }
             },
             {
                 q: 'Google Ads uitbesteden of zelf doen: wanneer loont het?',
-                a: 'Zelf doen kan als je een klein budget hebt en bereid bent om te leren. Maar zodra je meer dan €1.000 per maand uitgeeft, loont uitbesteden vrijwel altijd. Een specialist voorkomt verspilling, optimaliseert sneller en haalt meer rendement uit hetzelfde budget.',
+                a: 'Zelf doen kan als je een klein budget hebt en bereid bent om te leren. Maar zodra je meer dan €1.000 per maand uitgeeft, loont uitbesteden vrijwel altijd. Een specialist voorkomt verspilling, optimaliseert sneller en haalt meer rendement uit hetzelfde budget. Wil je weten wat het je oplevert? Plan een gratis strategiegesprek.',
                 blog: { slug: '/blogs/google-ads/google-ads-uitbesteden-wanneer-zelf', label: 'Google Ads uitbesteden: wanneer wel en niet' }
             },
             {
                 q: 'Wat zijn negatieve zoekwoorden en waarom zijn ze belangrijk?',
-                a: 'Negatieve zoekwoorden zijn termen waarvoor je niet wilt verschijnen. Zonder goede negatieven betaal je voor irrelevante klikken van mensen die iets heel anders zoeken. Het goed instellen en bijhouden van negatieven is een van de snelste manieren om je Google Ads kosten te verlagen.',
+                a: 'Negatieve zoekwoorden zijn termen waarvoor je niet wilt verschijnen. Zonder goede negatieven betaal je voor irrelevante klikken van mensen die iets heel anders zoeken. Het goed instellen en bijhouden van negatieven is een van de snelste manieren om je Google Ads kosten te verlagen. Wij controleren dit graag voor je. Neem vrijblijvend contact op.',
                 blog: { slug: '/blogs/google-ads/negatieve-zoekwoorden-google-ads', label: 'Negatieve zoekwoorden instellen' }
             }
         ]
@@ -102,27 +102,27 @@ const faqCategories = [
         faqs: [
             {
                 q: 'Wat is een goede ROAS voor Meta Ads?',
-                a: 'Dat hangt af van je marges en branche. Voor e-commerce is een ROAS van 4 of hoger een goede benchmark. Voor leadgeneratie kijk je meer naar kosten per lead. Vergelijk altijd met je eigen marges. Een ROAS van 3 is uitstekend als je marge 70% is, maar te laag bij 20%.',
+                a: 'Dat hangt af van je marges en branche. Voor e-commerce is een ROAS van 4 of hoger een goede benchmark. Voor leadgeneratie kijk je meer naar kosten per lead. Vergelijk altijd met je eigen marges. Een ROAS van 3 is uitstekend als je marge 70% is, maar te laag bij 20%. Wil je weten of jouw ROAS gezond is? We kijken gratis mee.',
                 blog: { slug: '/blogs/social-ads/goede-roas-meta-ads-benchmarks', label: 'ROAS benchmarks per branche' }
             },
             {
                 q: 'Werken Meta Ads nog na alle privacywijzigingen?',
-                a: 'Ja, maar de aanpak is veranderd. Sinds iOS 14 is tracking lastiger, maar met de Conversie API, goede first-party data en brede targeting werkt Meta Ads nog steeds uitstekend. Bureaus die zeggen dat het niet meer werkt, weten waarschijnlijk niet hoe ze zich moeten aanpassen.',
+                a: 'Ja, maar de aanpak is veranderd. Sinds iOS 14 is tracking lastiger, maar met de Conversie API, goede first-party data en brede targeting werkt Meta Ads nog steeds uitstekend. Bureaus die zeggen dat het niet meer werkt, weten waarschijnlijk niet hoe ze zich moeten aanpassen. Wil je zeker weten dat jouw tracking goed staat? We checken het graag.',
                 blog: { slug: '/blogs/social-ads/meta-ads-2025-werkt-na', label: 'Meta Ads na de privacywijzigingen' }
             },
             {
                 q: 'Meta Ads voor B2B: heeft dat zin?',
-                a: 'Ja, en het werkt beter dan veel mensen verwachten. Zakelijke beslissers zitten ook op Facebook en Instagram. Met de juiste targeting en een goede funnel kun je via Meta Ads B2B-leads genereren tegen lagere kosten dan LinkedIn. De aanpak is wel anders dan bij B2C.',
+                a: 'Ja, en het werkt beter dan veel mensen verwachten. Zakelijke beslissers zitten ook op Facebook en Instagram. Met de juiste targeting en een goede funnel kun je via Meta Ads B2B-leads genereren tegen lagere kosten dan LinkedIn. De aanpak is wel anders dan bij B2C. Benieuwd of Meta Ads werkt voor jouw B2B-doelgroep? Neem vrijblijvend contact op.',
                 blog: { slug: '/blogs/social-ads/meta-ads-b2b-werkt', label: 'Meta Ads voor B2B' }
             },
             {
                 q: 'Wat is retargeting en hoe zet ik het in via Meta?',
-                a: 'Retargeting toont advertenties aan mensen die al eerder je website hebben bezocht of met je content hebben geïnterageerd. Via Meta kun je deze mensen opnieuw bereiken met gerichte boodschappen. Omdat deze mensen je al kennen, liggen de kosten per conversie vaak veel lager dan bij koude doelgroepen.',
+                a: 'Retargeting toont advertenties aan mensen die al eerder je website hebben bezocht of met je content hebben geïnterageerd. Via Meta kun je deze mensen opnieuw bereiken met gerichte boodschappen. Omdat deze mensen je al kennen, liggen de kosten per conversie vaak veel lager dan bij koude doelgroepen. Wil je retargeting inzetten? We helpen je met de opzet.',
                 blog: { slug: '/blogs/social-ads/retargeting-meta-ads-haal-verloren', label: 'Retargeting via Meta Ads' }
             },
             {
                 q: 'Wat kost adverteren op Instagram in 2026?',
-                a: 'De gemiddelde CPM (kosten per 1.000 vertoningen) op Instagram ligt tussen de €5 en €15, afhankelijk van je doelgroep en branche. Reels zijn over het algemeen goedkoper dan feed-advertenties. Met een budget van €300 per maand kun je al zinvol starten.',
+                a: 'De gemiddelde CPM (kosten per 1.000 vertoningen) op Instagram ligt tussen de €5 en €15, afhankelijk van je doelgroep en branche. Reels zijn over het algemeen goedkoper dan feed-advertenties. Met een budget van €300 per maand kun je al zinvol starten. Wil je weten wat een realistisch budget is voor jouw doelen? Plan een gratis gesprek.',
                 blog: { slug: '/blogs/social-ads/instagram-adverteren-kosten-cpm-budget-2026', label: 'Instagram Ads kosten en budget' }
             }
         ]
@@ -133,26 +133,26 @@ const faqCategories = [
         faqs: [
             {
                 q: 'Is LinkedIn Ads geschikt voor mijn bedrijf?',
-                a: 'LinkedIn Ads werken goed als jouw klant een beslisser is. Denk aan CEO\'s, marketing managers of inkoopverantwoordelijken. Je kunt targeten op functietitel, bedrijfsgrootte en branche. Geen enkel ander platform kan dat zo precies.'
+                a: 'LinkedIn Ads werken goed als jouw klant een beslisser is. Denk aan CEO\'s, marketing managers of inkoopverantwoordelijken. Je kunt targeten op functietitel, bedrijfsgrootte en branche. Geen enkel ander platform kan dat zo precies. Wil je weten of LinkedIn Ads bij jouw doelgroep past? Neem vrijblijvend contact op.'
             },
             {
                 q: 'Hoeveel budget heb ik minimaal nodig voor LinkedIn Ads?',
-                a: 'LinkedIn Ads is duurder dan andere platformen. Reken op minimaal €1.000 per maand om zinvolle resultaten te boeken. De CPC ligt gemiddeld tussen de €3 en €8, maar de lead-kwaliteit is doorgaans hoger dan op andere platformen. Voor B2B is die investering vaak de moeite waard.',
+                a: 'LinkedIn Ads is duurder dan andere platformen. Reken op minimaal €1.000 per maand om zinvolle resultaten te boeken. De CPC ligt gemiddeld tussen de €3 en €8, maar de lead-kwaliteit is doorgaans hoger dan op andere platformen. Voor B2B is die investering vaak de moeite waard. Benieuwd wat een realistisch budget is voor jouw situatie? We denken graag mee.',
                 blog: { slug: '/blogs/social-ads/linkedin-ads-budget-hoeveel-minimaal', label: 'LinkedIn Ads budget berekenen' }
             },
             {
                 q: 'LinkedIn Ads vs Google Ads voor B2B: welke is beter?',
-                a: 'Dat hangt af van je product en doelgroep. Google Ads werkt goed als mensen actief zoeken naar jouw dienst. LinkedIn Ads is sterker als je beslissers wilt bereiken die nog niet zoeken maar wel openstaan. De beste B2B-strategie combineert vaak beide kanalen.',
+                a: 'Dat hangt af van je product en doelgroep. Google Ads werkt goed als mensen actief zoeken naar jouw dienst. LinkedIn Ads is sterker als je beslissers wilt bereiken die nog niet zoeken maar wel openstaan. De beste B2B-strategie combineert vaak beide kanalen. Wil je weten welk kanaal voor jou het best werkt? We adviseren je graag.',
                 blog: { slug: '/blogs/social-ads/linkedin-ads-vs-google-ads', label: 'LinkedIn Ads vs Google Ads vergelijking' }
             },
             {
                 q: 'Wat zijn LinkedIn Lead Gen Forms en wanneer gebruik ik ze?',
-                a: 'Lead Gen Forms zijn vooringevulde formulieren die binnen LinkedIn openen. De gebruiker hoeft niks in te typen, LinkedIn vult naam, e-mail en functietitel automatisch in. Dat levert hogere conversieratio’s op dan een externe landingspagina. Ideaal voor whitepapers, webinars en demo-aanvragen.',
+                a: 'Lead Gen Forms zijn vooringevulde formulieren die binnen LinkedIn openen. De gebruiker hoeft niks in te typen, LinkedIn vult naam, e-mail en functietitel automatisch in. Dat levert hogere conversieratio\'s op dan een externe landingspagina. Ideaal voor whitepapers, webinars en demo-aanvragen. Wil je Lead Gen Forms testen? We zetten het voor je op.',
                 blog: { slug: '/blogs/social-ads/linkedin-lead-gen-forms-waarom', label: 'LinkedIn Lead Gen Forms uitgelegd' }
             },
             {
                 q: 'Kan ik LinkedIn Ads inzetten voor Account-Based Marketing?',
-                a: 'Ja. Je kunt op LinkedIn targeten op specifieke bedrijven, functietitels en zelfs individuele accounts. Zo toon je je advertenties alleen aan beslissers binnen je target accounts en besteed je je budget precies waar het moet.',
+                a: 'Ja. Je kunt op LinkedIn targeten op specifieke bedrijven, functietitels en zelfs individuele accounts. Zo toon je je advertenties alleen aan beslissers binnen je target accounts en besteed je je budget precies waar het moet. Wil je ABM via LinkedIn opzetten? Neem contact op voor een vrijblijvend gesprek.',
                 blog: { slug: '/blogs/social-ads/linkedin-abm-account-based-marketing', label: 'LinkedIn ABM strategie' }
             }
         ]
@@ -163,22 +163,22 @@ const faqCategories = [
         faqs: [
             {
                 q: 'Is TikTok Ads geschikt voor mijn bedrijf?',
-                a: 'TikTok is niet alleen voor tieners. Het platform bereikt in Nederland miljoenen volwassenen, inclusief professionals en koopkrachtige doelgroepen. Het werkt vooral goed als je een visueel product hebt of bereid bent om authentieke videocontent te maken. Ook voor B2B zien we steeds vaker goede resultaten.',
+                a: 'TikTok is niet alleen voor tieners. Het platform bereikt in Nederland miljoenen volwassenen, inclusief professionals en koopkrachtige doelgroepen. Het werkt vooral goed als je een visueel product hebt of bereid bent om authentieke videocontent te maken. Ook voor B2B zien we steeds vaker goede resultaten. Benieuwd of TikTok werkt voor jouw product? Neem vrijblijvend contact op.',
                 blog: { slug: '/blogs/social-ads/tiktok-ads-voor-bedrijven', label: 'TikTok Ads voor bedrijven' }
             },
             {
                 q: 'TikTok Ads vs Meta Ads: waar zit mijn doelgroep?',
-                a: 'Dat overlapt meer dan je denkt. Beide platformen bereiken breed, maar TikTok trekt gemiddeld een jonger publiek (18-34) en draait volledig op video. Meta biedt meer advertentieformaten en een breder leeftijdsbereik. De beste keuze hangt af van je product en of je videocontent kunt maken.',
+                a: 'Dat overlapt meer dan je denkt. Beide platformen bereiken breed, maar TikTok trekt gemiddeld een jonger publiek (18-34) en draait volledig op video. Meta biedt meer advertentieformaten en een breder leeftijdsbereik. De beste keuze hangt af van je product en of je videocontent kunt maken. Twijfel je tussen TikTok en Meta? We adviseren je graag in een gratis gesprek.',
                 blog: { slug: '/blogs/social-ads/tiktok-ads-vs-meta-ads', label: 'TikTok vs Meta Ads vergelijking' }
             },
             {
                 q: 'Wat kost adverteren op TikTok?',
-                a: 'TikTok is over het algemeen goedkoper dan Meta en LinkedIn. De gemiddelde CPM ligt tussen de €3 en €10. Je kunt al starten met een dagbudget van €20. De kosten per conversie hangen sterk af van je creative. Een goede video maakt meer verschil dan je budget.',
+                a: 'TikTok is over het algemeen goedkoper dan Meta en LinkedIn. De gemiddelde CPM ligt tussen de €3 en €10. Je kunt al starten met een dagbudget van €20. De kosten per conversie hangen sterk af van je creative. Een goede video maakt meer verschil dan je budget. Wil je weten wat TikTok Ads jou kan opleveren? Plan een vrijblijvend strategiegesprek.',
                 blog: { slug: '/blogs/social-ads/goede-cpm-tiktok-benchmarks', label: 'TikTok CPM benchmarks' }
             },
             {
                 q: 'Hoe maak ik een TikTok advertentie die converteert?',
-                a: 'Vergeet gepolijste commercials. Op TikTok werkt authentieke, native content het best. Film met je telefoon, begin met een hook in de eerste twee seconden en laat het product of de dienst natuurlijk zien. User-generated content en influencer samenwerkingen scoren vaak beter dan studioproducties.',
+                a: 'Vergeet gepolijste commercials. Op TikTok werkt authentieke, native content het best. Film met je telefoon, begin met een hook in de eerste twee seconden en laat het product of de dienst natuurlijk zien. User-generated content en influencer samenwerkingen scoren vaak beter dan studioproducties. Hulp nodig bij je TikTok-creatives? We denken graag mee.',
                 blog: { slug: '/blogs/social-ads/tiktok-ads-video-converteert', label: 'TikTok Ads video tips' }
             }
         ]
@@ -189,27 +189,27 @@ const faqCategories = [
         faqs: [
             {
                 q: 'Hoe lang duurt het voordat SEO resultaat oplevert?',
-                a: 'Reken op drie tot zes maanden voor zichtbare resultaten. Nieuwe websites hebben langer nodig dan bestaande sites met enige autoriteit. SEO is geen quick fix, het is een investering die na verloop van tijd steeds meer oplevert zonder dat je per klik betaalt.',
+                a: 'Reken op drie tot zes maanden voor zichtbare resultaten. Nieuwe websites hebben langer nodig dan bestaande sites met enige autoriteit. SEO is geen quick fix, het is een investering die na verloop van tijd steeds meer oplevert zonder dat je per klik betaalt. Wil je weten wat realistische verwachtingen zijn voor jouw website? Neem vrijblijvend contact op.',
                 blog: { slug: '/blogs/seo/lang-duurt-seo-realistische-verwachtingen', label: 'Realistische SEO verwachtingen' }
             },
             {
                 q: 'Wat is het verschil tussen on-page en off-page SEO?',
-                a: 'On-page SEO is alles wat je op je eigen website doet: content, titels, snelheid, structuur. Off-page SEO gaat over signalen van buitenaf: backlinks, vermeldingen en autoriteit. Je hebt beide nodig, maar beginnen met on-page is altijd de eerste stap.',
+                a: 'On-page SEO is alles wat je op je eigen website doet: content, titels, snelheid, structuur. Off-page SEO gaat over signalen van buitenaf: backlinks, vermeldingen en autoriteit. Je hebt beide nodig, maar beginnen met on-page is altijd de eerste stap. Wil je weten waar jouw website nu staat? We doen een gratis SEO-check.',
                 blog: { slug: '/blogs/seo/on-page-vs-off-page', label: 'On-page vs off-page SEO' }
             },
             {
                 q: 'Wat is E-E-A-T en waarom is het belangrijk voor mijn website?',
-                a: 'E-E-A-T staat voor Experience, Expertise, Authoritativeness en Trustworthiness. Het is hoe Google beoordeelt of jouw content betrouwbaar is. Laat zien wie de auteur is, toon ervaring, gebruik bronnen en zorg dat je website veilig en professioneel oogt. Dit weegt steeds zwaarder in de rankings.',
+                a: 'E-E-A-T staat voor Experience, Expertise, Authoritativeness en Trustworthiness. Het is hoe Google beoordeelt of jouw content betrouwbaar is. Laat zien wie de auteur is, toon ervaring, gebruik bronnen en zorg dat je website veilig en professioneel oogt. Dit weegt steeds zwaarder in de rankings. Wil je weten hoe jouw website scoort op E-E-A-T? We kijken gratis mee.',
                 blog: { slug: '/blogs/seo/eeat-belangrijk-voor-seo', label: 'E-E-A-T uitgelegd' }
             },
             {
                 q: 'Is SEO nog de moeite waard nu AI zo opkomt?',
-                a: 'Ja. Google is nog steeds de grootste zoekmachine en dat blijft voorlopig zo. AI-tools zoals ChatGPT en Perplexity gebruiken bovendien dezelfde soort bronnen als Google. Goede SEO helpt je dus in zowel traditionele zoekresultaten als in AI-antwoorden.',
+                a: 'Ja. Google is nog steeds de grootste zoekmachine en dat blijft voorlopig zo. AI-tools zoals ChatGPT en Perplexity gebruiken bovendien dezelfde soort bronnen als Google. Goede SEO helpt je dus in zowel traditionele zoekresultaten als in AI-antwoorden. Wil je ontdekken hoe SEO en GEO samen voor jou kunnen werken? Plan een gratis gesprek.',
                 blog: { slug: '/blogs/algemeen/seo-dood-evolueert-2026', label: 'Is SEO dood in 2026?' }
             },
             {
                 q: 'Moet ik SEO uitbesteden of kan ik het zelf?',
-                a: 'De basis kun je zelf: goede titels, snelle website, regelmatig content publiceren. Maar voor technische SEO, linkbuilding en een doordachte contentstrategie heb je specialistische kennis nodig. Als je serieus wilt groeien in organisch verkeer, loont uitbesteden vrijwel altijd.',
+                a: 'De basis kun je zelf: goede titels, snelle website, regelmatig content publiceren. Maar voor technische SEO, linkbuilding en een doordachte contentstrategie heb je specialistische kennis nodig. Als je serieus wilt groeien in organisch verkeer, loont uitbesteden vrijwel altijd. Benieuwd wat SEO uitbesteden je oplevert? Neem vrijblijvend contact op.',
                 blog: { slug: '/blogs/seo/zoekmachine-optimalisatie-bureau-kiezen-gids', label: 'SEO bureau kiezen' }
             }
         ]
@@ -220,32 +220,27 @@ const faqCategories = [
         faqs: [
             {
                 q: 'Wat is GEO en waarom is het belangrijk?',
-                a: 'GEO staat voor Generative Engine Optimization. Waar SEO ervoor zorgt dat je gevonden wordt op Google, zorgt GEO ervoor dat AI-tools zoals ChatGPT, Gemini en Claude jouw bedrijf aanbevelen. Steeds meer mensen zoeken via AI in plaats van via Google. Als je daar nu op inspeelt, loop je voor op je concurrenten.',
+                a: 'GEO staat voor Generative Engine Optimization. Waar SEO ervoor zorgt dat je gevonden wordt op Google, zorgt GEO ervoor dat AI-tools zoals ChatGPT, Gemini en Claude jouw bedrijf aanbevelen. Steeds meer mensen zoeken via AI in plaats van via Google. Als je daar nu op inspeelt, loop je voor op je concurrenten. Wil je weten hoe jouw bedrijf scoort bij AI-zoekmachines? We checken het gratis voor je.',
                 blog: { slug: '/blogs/geo/wat-is-geo-generative-engine-optimization', label: 'Wat is GEO?' }
             },
             {
                 q: 'Hoe zorg ik dat ChatGPT mijn bedrijf aanbeveelt?',
-                a: 'Door content te maken die AI-zoekmachines als betrouwbare bron herkennen. Denk aan duidelijke antwoorden op veelgestelde vragen, concrete cijfers in je teksten en goede structured data op je website. GEO richt zich daar specifiek op.',
+                a: 'Door content te maken die AI-zoekmachines als betrouwbare bron herkennen. Denk aan duidelijke antwoorden op veelgestelde vragen, concrete cijfers in je teksten en goede structured data op je website. GEO richt zich daar specifiek op. Benieuwd of ChatGPT jouw bedrijf al noemt? We testen het voor je.',
                 blog: { slug: '/blogs/geo/chatgpt-bedrijf-aanbeveelt', label: 'Hoe ChatGPT jouw bedrijf aanbeveelt' }
             },
             {
                 q: 'Wat is het verschil tussen SEO en GEO?',
-                a: 'SEO optimaliseert je website voor zoekmachines als Google, zodat je hoger verschijnt in de zoekresultaten. GEO optimaliseert je content voor AI-zoekmachines als ChatGPT, Perplexity en Google AI Mode, zodat zij jouw bedrijf aanbevelen in hun antwoorden. SEO draait om rankings, GEO om citaties.',
+                a: 'SEO optimaliseert je website voor zoekmachines als Google, zodat je hoger verschijnt in de zoekresultaten. GEO optimaliseert je content voor AI-zoekmachines als ChatGPT, Perplexity en Google AI Mode, zodat zij jouw bedrijf aanbevelen in hun antwoorden. SEO draait om rankings, GEO om citaties. De twee vullen elkaar aan en veel technieken overlappen. Wil je weten hoe je beide kunt combineren? Neem vrijblijvend contact op.',
                 blog: { slug: '/blogs/geo/geo-vs-seo-verschil-heb', label: 'GEO vs SEO: het verschil' }
             },
             {
-                q: 'Moet ik mijn SEO-strategie vervangen door GEO?',
-                a: 'Nee, GEO vervangt SEO niet. Het is een aanvulling. SEO zorgt dat je gevonden wordt in Google. GEO zorgt dat je geciteerd wordt door AI-tools. De beste strategie combineert beide, en veel technieken overlappen. Als je al goede SEO hebt, ben je al een eind op weg met GEO.',
-                blog: { slug: '/blogs/geo/seo-strategie-vervangen-door-geo', label: 'GEO als aanvulling op SEO' }
-            },
-            {
                 q: 'Hoe meet ik of AI-zoekmachines mijn website citeren?',
-                a: 'Je kunt dit handmatig testen door vragen over jouw vakgebied te stellen aan ChatGPT, Perplexity en Google AI Mode en te kijken of jouw website wordt genoemd. Er zijn ook tools die dit automatisch monitoren. Wij helpen onze klanten hier structureel mee.',
+                a: 'Je kunt dit handmatig testen door vragen over jouw vakgebied te stellen aan ChatGPT, Perplexity en Google AI Mode en te kijken of jouw website wordt genoemd. Er zijn ook tools die dit automatisch monitoren. Wil je inzicht in jouw AI-zichtbaarheid? We meten het gratis voor je.',
                 blog: { slug: '/blogs/geo/llm-zichtbaarheid-meten-ai-ziet', label: 'LLM-zichtbaarheid meten' }
             },
             {
                 q: 'Is GEO al nodig voor MKB of kan ik nog wachten?',
-                a: 'Hoe eerder je begint, hoe groter je voorsprong. AI-zoekmachines groeien snel en steeds meer consumenten gebruiken ze. Bedrijven die nu investeren in GEO bouwen een positie op die later moeilijk in te halen is. Je hoeft niet alles tegelijk te doen, begin met de basis.',
+                a: 'Hoe eerder je begint, hoe groter je voorsprong. AI-zoekmachines groeien snel en steeds meer consumenten gebruiken ze. Bedrijven die nu investeren in GEO bouwen een positie op die later moeilijk in te halen is. Je hoeft niet alles tegelijk te doen, begin met de basis. Wil je alvast beginnen met GEO? We helpen je op weg met een gratis scan.',
                 blog: { slug: '/blogs/geo/geo-mkb-nodig-kun-wachten', label: 'GEO voor MKB' }
             }
         ]
@@ -256,22 +251,22 @@ const faqCategories = [
         faqs: [
             {
                 q: 'Wat is een goede conversieratio per branche?',
-                a: 'Het gemiddelde verschilt sterk: e-commerce zit rond de 2-3%, zakelijke dienstverlening rond 3-5%, en SaaS tussen 5-7%. Maar vergelijken met gemiddelden is misleidend. Belangrijker is dat jouw conversieratio elke maand verbetert. Wij meten dit continu en optimaliseren bij.',
+                a: 'Het gemiddelde verschilt sterk: e-commerce zit rond de 2-3%, zakelijke dienstverlening rond 3-5%, en SaaS tussen 5-7%. Maar vergelijken met gemiddelden is misleidend. Belangrijker is dat jouw conversieratio elke maand verbetert. Wil je weten waar jouw conversieratio staat? We kijken gratis mee.',
                 blog: { slug: '/blogs/strategie/goede-conversieratio-benchmarks-per-branche', label: 'Conversieratio benchmarks' }
             },
             {
                 q: 'Content marketing vs betaalde advertenties: wat werkt beter?',
-                a: 'Allebei, maar ze doen iets anders. Betaalde advertenties leveren direct verkeer en conversies. Content marketing bouwt op de lange termijn autoriteit en organisch bereik op. De meeste bedrijven varen het best met een combinatie van beide.',
+                a: 'Allebei, maar ze doen iets anders. Betaalde advertenties leveren direct verkeer en conversies. Content marketing bouwt op de lange termijn autoriteit en organisch bereik op. De meeste bedrijven varen het best met een combinatie van beide. Wil je weten wat de slimste mix is voor jouw bedrijf? Plan een gratis strategiegesprek.',
                 blog: { slug: '/blogs/strategie/content-marketing-vs-betaalde-advertenties', label: 'Content marketing vs ads' }
             },
             {
                 q: 'Hoe meet ik de ROI van mijn online marketing?',
-                a: 'Door elke euro die je uitgeeft te koppelen aan meetbaar resultaat. Dat begint met goede tracking: Google Analytics, conversie-tracking op je advertentieplatformen en UTM-parameters. Wij zorgen dat alles goed staat ingesteld, zodat je precies weet wat elke campagne oplevert.',
+                a: 'Door elke euro die je uitgeeft te koppelen aan meetbaar resultaat. Dat begint met goede tracking: Google Analytics, conversie-tracking op je advertentieplatformen en UTM-parameters. Wil je zeker weten dat je tracking goed staat? We checken het graag voor je.',
                 blog: { slug: '/blogs/tracking/meet-roi-online-marketing', label: 'ROI van online marketing meten' }
             },
             {
                 q: 'Heb ik een aparte landingspagina nodig voor mijn advertenties?',
-                a: 'In de meeste gevallen wel. Je homepage is gebouwd voor alle bezoekers, een landingspagina is gericht op één doelgroep met één boodschap. Dat verschil vertaalt zich direct in een hogere conversieratio. Wij bouwen landingspagina’s die aansluiten op je advertenties.',
+                a: 'In de meeste gevallen wel. Je homepage is gebouwd voor alle bezoekers, een landingspagina is gericht op één doelgroep met één boodschap. Dat verschil vertaalt zich direct in een hogere conversieratio. Wil je een landingspagina die converteert? Neem contact op voor een vrijblijvend gesprek.',
                 blog: { slug: '/blogs/strategie/landingspagina-waarom-hij-anders-homepage', label: 'Waarom een landingspagina' }
             }
         ]
