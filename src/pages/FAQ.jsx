@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { Plus, Minus, ArrowRight } from 'lucide-react';
+import { Plus, Minus } from 'lucide-react';
 import { FAQDiscoveryAnimation } from '../components/FAQDiscoveryAnimation';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
@@ -13,7 +13,7 @@ const faqCategories = [
         faqs: [
             {
                 q: 'Wat maakt Empowers anders dan andere marketingbureaus?',
-                a: 'Bij Empowers werk je rechtstreeks met Amir, de eigenaar en specialist. Geen account managers die je verhaal doorspelen, geen junior medewerkers die aan je campagnes zitten. Je hebt één vast aanspreekpunt dat jouw business kent en op elk moment bereikbaar is via WhatsApp of e-mail. Daarnaast combineren we betaalde advertenties met SEO en GEO — die combinatie bieden weinig bureaus aan.'
+                a: 'Bij Empowers werk je rechtstreeks met de specialist die aan jouw campagnes werkt. Geen account managers die je verhaal doorspelen, geen junior medewerkers op de achtergrond. Je hebt één vast aanspreekpunt dat jouw business kent en op elk moment bereikbaar is via WhatsApp of e-mail. Daarnaast combineren we betaalde advertenties met SEO en GEO, een combinatie die weinig bureaus aanbieden.'
             },
             {
                 q: 'Voor welke bedrijven werken jullie?',
@@ -37,7 +37,7 @@ const faqCategories = [
             },
             {
                 q: 'Hoe ziet de samenwerking er in de praktijk uit?',
-                a: 'We starten met een kennismaking en audit van je huidige situatie. Daarna stellen we samen een strategie op en gaan aan de slag. Je hebt maandelijks een vaste call met Amir om de resultaten te bespreken. Tussendoor kun je altijd terecht via WhatsApp of e-mail — korte lijnen, snelle antwoorden.'
+                a: 'We starten met een kennismaking en audit van je huidige situatie. Daarna stellen we samen een strategie op en gaan aan de slag. Je hebt maandelijks een vaste call om de resultaten te bespreken. Tussendoor kun je altijd terecht via WhatsApp of e-mail. Korte lijnen, snelle antwoorden.'
             },
             {
                 q: 'Kunnen jullie mijn bestaande campagnes overnemen?',
@@ -57,11 +57,11 @@ const faqCategories = [
             },
             {
                 q: 'Ik heb nog nooit geadverteerd. Kan ik toch bij jullie terecht?',
-                a: 'Zeker. We begeleiden je van het begin: van de eerste campagne-opzet tot een volledige groeistrategie. Je hoeft geen verstand te hebben van online marketing, dat is precies waarom je ons inschakelt.'
+                a: 'Ja, daar zijn we juist voor. We begeleiden je van de eerste campagne-opzet tot een volledige groeistrategie. Je hoeft geen verstand te hebben van online marketing, dat is precies waarom je ons inschakelt.'
             },
             {
                 q: 'Hoe begin ik?',
-                a: 'Plan een gratis strategiegesprek via onze website. We bespreken jouw situatie, doelen en budget, en je gaat altijd weg met concrete inzichten — ook als we uiteindelijk niet gaan samenwerken.'
+                a: 'Plan een gratis strategiegesprek via onze website. We bespreken jouw situatie, doelen en budget, en je gaat altijd weg met concrete inzichten, ook als we uiteindelijk niet gaan samenwerken.'
             }
         ]
     },
@@ -85,7 +85,7 @@ const faqCategories = [
                 blog: { slug: '/blogs/google-ads/performance-max-google-ads-weten', label: 'Alles over Performance Max' }
             },
             {
-                q: 'Google Ads uitbesteden of zelf doen — wanneer loont het?',
+                q: 'Google Ads uitbesteden of zelf doen: wanneer loont het?',
                 a: 'Zelf doen kan als je een klein budget hebt en bereid bent om te leren. Maar zodra je meer dan €1.000 per maand uitgeeft, loont uitbesteden vrijwel altijd. Een specialist voorkomt verspilling, optimaliseert sneller en haalt meer rendement uit hetzelfde budget.',
                 blog: { slug: '/blogs/google-ads/google-ads-uitbesteden-wanneer-zelf', label: 'Google Ads uitbesteden: wanneer wel en niet' }
             },
@@ -102,7 +102,7 @@ const faqCategories = [
         faqs: [
             {
                 q: 'Wat is een goede ROAS voor Meta Ads?',
-                a: 'Dat hangt af van je marges en branche. Voor e-commerce is een ROAS van 4 of hoger een goede benchmark. Voor leadgeneratie kijk je meer naar kosten per lead. Vergelijk altijd met je eigen marges — een ROAS van 3 is uitstekend als je marge 70% is, maar te laag bij 20%.',
+                a: 'Dat hangt af van je marges en branche. Voor e-commerce is een ROAS van 4 of hoger een goede benchmark. Voor leadgeneratie kijk je meer naar kosten per lead. Vergelijk altijd met je eigen marges. Een ROAS van 3 is uitstekend als je marge 70% is, maar te laag bij 20%.',
                 blog: { slug: '/blogs/social-ads/goede-roas-meta-ads-benchmarks', label: 'ROAS benchmarks per branche' }
             },
             {
@@ -112,12 +112,12 @@ const faqCategories = [
             },
             {
                 q: 'Meta Ads voor B2B: heeft dat zin?',
-                a: 'Meer dan de meeste mensen denken. Zakelijke beslissers zitten ook op Facebook en Instagram. Met de juiste targeting, content en een sterke funnel kun je via Meta Ads B2B-leads genereren tegen lagere kosten dan LinkedIn. Het vereist wel een andere aanpak dan B2C.',
+                a: 'Ja, en het werkt beter dan veel mensen verwachten. Zakelijke beslissers zitten ook op Facebook en Instagram. Met de juiste targeting en een goede funnel kun je via Meta Ads B2B-leads genereren tegen lagere kosten dan LinkedIn. De aanpak is wel anders dan bij B2C.',
                 blog: { slug: '/blogs/social-ads/meta-ads-b2b-werkt', label: 'Meta Ads voor B2B' }
             },
             {
                 q: 'Wat is retargeting en hoe zet ik het in via Meta?',
-                a: 'Retargeting toont advertenties aan mensen die al eerder je website hebben bezocht of met je content hebben geïnterageerd. Via Meta kun je deze mensen opnieuw bereiken met gerichte boodschappen. Het is een van de meest rendabele advertentievormen, omdat je mensen bereikt die al interesse hebben getoond.',
+                a: 'Retargeting toont advertenties aan mensen die al eerder je website hebben bezocht of met je content hebben geïnterageerd. Via Meta kun je deze mensen opnieuw bereiken met gerichte boodschappen. Omdat deze mensen je al kennen, liggen de kosten per conversie vaak veel lager dan bij koude doelgroepen.',
                 blog: { slug: '/blogs/social-ads/retargeting-meta-ads-haal-verloren', label: 'Retargeting via Meta Ads' }
             },
             {
@@ -133,11 +133,11 @@ const faqCategories = [
         faqs: [
             {
                 q: 'Is LinkedIn Ads geschikt voor mijn bedrijf?',
-                a: 'LinkedIn Ads zijn vooral krachtig als jouw klant een beslisser is. Denk aan CEO’s, marketing managers of inkoopverantwoordelijken. Je kunt targeten op functietitel, bedrijfsgrootte en branche, zo precies als geen ander platform dat kan. Voor B2B is LinkedIn vaak het scherpste kanaal dat er is.'
+                a: 'LinkedIn Ads werken goed als jouw klant een beslisser is. Denk aan CEO\'s, marketing managers of inkoopverantwoordelijken. Je kunt targeten op functietitel, bedrijfsgrootte en branche. Geen enkel ander platform kan dat zo precies.'
             },
             {
                 q: 'Hoeveel budget heb ik minimaal nodig voor LinkedIn Ads?',
-                a: 'LinkedIn Ads is duurder dan andere platformen — reken op minimaal €1.000 per maand om zinvolle resultaten te boeken. De CPC ligt gemiddeld tussen de €3 en €8, maar de lead-kwaliteit is doorgaans hoger dan op andere platformen. Voor B2B is die investering vaak de moeite waard.',
+                a: 'LinkedIn Ads is duurder dan andere platformen. Reken op minimaal €1.000 per maand om zinvolle resultaten te boeken. De CPC ligt gemiddeld tussen de €3 en €8, maar de lead-kwaliteit is doorgaans hoger dan op andere platformen. Voor B2B is die investering vaak de moeite waard.',
                 blog: { slug: '/blogs/social-ads/linkedin-ads-budget-hoeveel-minimaal', label: 'LinkedIn Ads budget berekenen' }
             },
             {
@@ -152,7 +152,7 @@ const faqCategories = [
             },
             {
                 q: 'Kan ik LinkedIn Ads inzetten voor Account-Based Marketing?',
-                a: 'Ja, LinkedIn is het sterkste platform voor ABM. Je kunt targeten op specifieke bedrijven, functietitels en zelfs individuele accounts. Door je advertenties alleen aan beslissers binnen je target accounts te tonen, besteed je je budget precies waar het moet.',
+                a: 'Ja. Je kunt op LinkedIn targeten op specifieke bedrijven, functietitels en zelfs individuele accounts. Zo toon je je advertenties alleen aan beslissers binnen je target accounts en besteed je je budget precies waar het moet.',
                 blog: { slug: '/blogs/social-ads/linkedin-abm-account-based-marketing', label: 'LinkedIn ABM strategie' }
             }
         ]
@@ -173,7 +173,7 @@ const faqCategories = [
             },
             {
                 q: 'Wat kost adverteren op TikTok?',
-                a: 'TikTok is over het algemeen goedkoper dan Meta en LinkedIn. De gemiddelde CPM ligt tussen de €3 en €10. Je kunt al starten met een dagbudget van €20. De kosten per conversie hangen sterk af van je creative — een goede video maakt meer verschil dan je budget.',
+                a: 'TikTok is over het algemeen goedkoper dan Meta en LinkedIn. De gemiddelde CPM ligt tussen de €3 en €10. Je kunt al starten met een dagbudget van €20. De kosten per conversie hangen sterk af van je creative. Een goede video maakt meer verschil dan je budget.',
                 blog: { slug: '/blogs/social-ads/goede-cpm-tiktok-benchmarks', label: 'TikTok CPM benchmarks' }
             },
             {
@@ -189,7 +189,7 @@ const faqCategories = [
         faqs: [
             {
                 q: 'Hoe lang duurt het voordat SEO resultaat oplevert?',
-                a: 'Reken op drie tot zes maanden voor zichtbare resultaten. Nieuwe websites hebben langer nodig dan bestaande sites met enige autoriteit. SEO is geen quick fix — het is een investering die na verloop van tijd steeds meer oplevert zonder dat je per klik betaalt.',
+                a: 'Reken op drie tot zes maanden voor zichtbare resultaten. Nieuwe websites hebben langer nodig dan bestaande sites met enige autoriteit. SEO is geen quick fix, het is een investering die na verloop van tijd steeds meer oplevert zonder dat je per klik betaalt.',
                 blog: { slug: '/blogs/seo/lang-duurt-seo-realistische-verwachtingen', label: 'Realistische SEO verwachtingen' }
             },
             {
@@ -204,7 +204,7 @@ const faqCategories = [
             },
             {
                 q: 'Is SEO nog de moeite waard nu AI zo opkomt?',
-                a: 'Absoluut. Google is nog steeds de grootste zoekmachine en dat blijft voorlopig zo. Bovendien gebruiken AI-tools zoals ChatGPT en Perplexity dezelfde soort bronnen als Google. Goede SEO helpt je dus zowel in traditionele zoekresultaten als in AI-antwoorden.',
+                a: 'Ja. Google is nog steeds de grootste zoekmachine en dat blijft voorlopig zo. AI-tools zoals ChatGPT en Perplexity gebruiken bovendien dezelfde soort bronnen als Google. Goede SEO helpt je dus in zowel traditionele zoekresultaten als in AI-antwoorden.',
                 blog: { slug: '/blogs/algemeen/seo-dood-evolueert-2026', label: 'Is SEO dood in 2026?' }
             },
             {
@@ -225,7 +225,7 @@ const faqCategories = [
             },
             {
                 q: 'Hoe zorg ik dat ChatGPT mijn bedrijf aanbeveelt?',
-                a: 'Door content te maken die AI-zoekmachines als betrouwbare bron herkennen. Dat betekent: duidelijke antwoorden op veelgestelde vragen, statistieken en data in je content, goede structured data en sterke E-E-A-T signalen. GEO is de discipline die zich hier specifiek op richt.',
+                a: 'Door content te maken die AI-zoekmachines als betrouwbare bron herkennen. Denk aan duidelijke antwoorden op veelgestelde vragen, concrete cijfers in je teksten en goede structured data op je website. GEO richt zich daar specifiek op.',
                 blog: { slug: '/blogs/geo/chatgpt-bedrijf-aanbeveelt', label: 'Hoe ChatGPT jouw bedrijf aanbeveelt' }
             },
             {
@@ -235,7 +235,7 @@ const faqCategories = [
             },
             {
                 q: 'Moet ik mijn SEO-strategie vervangen door GEO?',
-                a: 'Nee, GEO vervangt SEO niet — het is een aanvulling. SEO zorgt dat je gevonden wordt in Google. GEO zorgt dat je geciteerd wordt door AI-tools. De beste strategie combineert beide, en veel technieken overlappen. Als je al goede SEO hebt, ben je al een eind op weg met GEO.',
+                a: 'Nee, GEO vervangt SEO niet. Het is een aanvulling. SEO zorgt dat je gevonden wordt in Google. GEO zorgt dat je geciteerd wordt door AI-tools. De beste strategie combineert beide, en veel technieken overlappen. Als je al goede SEO hebt, ben je al een eind op weg met GEO.',
                 blog: { slug: '/blogs/geo/seo-strategie-vervangen-door-geo', label: 'GEO als aanvulling op SEO' }
             },
             {
@@ -245,7 +245,7 @@ const faqCategories = [
             },
             {
                 q: 'Is GEO al nodig voor MKB of kan ik nog wachten?',
-                a: 'Hoe eerder je begint, hoe groter je voorsprong. AI-zoekmachines groeien snel en steeds meer consumenten gebruiken ze. Bedrijven die nu investeren in GEO bouwen een positie op die later moeilijk in te halen is. Je hoeft niet alles tegelijk te doen — begin met de basis.',
+                a: 'Hoe eerder je begint, hoe groter je voorsprong. AI-zoekmachines groeien snel en steeds meer consumenten gebruiken ze. Bedrijven die nu investeren in GEO bouwen een positie op die later moeilijk in te halen is. Je hoeft niet alles tegelijk te doen, begin met de basis.',
                 blog: { slug: '/blogs/geo/geo-mkb-nodig-kun-wachten', label: 'GEO voor MKB' }
             }
         ]
@@ -256,12 +256,12 @@ const faqCategories = [
         faqs: [
             {
                 q: 'Wat is een goede conversieratio per branche?',
-                a: 'Het gemiddelde verschilt sterk: e-commerce zit rond de 2-3%, zakelijke dienstverlening rond 3-5%, en SaaS tussen 5-7%. Maar vergelijken met gemiddelden is misleidend — belangrijker is dat jouw conversieratio elke maand verbetert. Wij meten dit continu en optimaliseren bij.',
+                a: 'Het gemiddelde verschilt sterk: e-commerce zit rond de 2-3%, zakelijke dienstverlening rond 3-5%, en SaaS tussen 5-7%. Maar vergelijken met gemiddelden is misleidend. Belangrijker is dat jouw conversieratio elke maand verbetert. Wij meten dit continu en optimaliseren bij.',
                 blog: { slug: '/blogs/strategie/goede-conversieratio-benchmarks-per-branche', label: 'Conversieratio benchmarks' }
             },
             {
                 q: 'Content marketing vs betaalde advertenties: wat werkt beter?',
-                a: 'Allebei, maar voor verschillende doelen. Betaalde advertenties leveren direct verkeer en conversies. Content marketing bouwt op de lange termijn autoriteit en organisch bereik op. De slimste aanpak is een combinatie: advertenties voor directe groei, content voor duurzame zichtbaarheid.',
+                a: 'Allebei, maar ze doen iets anders. Betaalde advertenties leveren direct verkeer en conversies. Content marketing bouwt op de lange termijn autoriteit en organisch bereik op. De meeste bedrijven varen het best met een combinatie van beide.',
                 blog: { slug: '/blogs/strategie/content-marketing-vs-betaalde-advertenties', label: 'Content marketing vs ads' }
             },
             {
@@ -300,15 +300,6 @@ function FAQItem({ faq, isOpen, onClick }) {
                     <p className="font-sans text-primary/70 leading-relaxed max-w-3xl pr-4 sm:pr-12">
                         {faq.a}
                     </p>
-                    {faq.blog && (
-                        <Link
-                            to={faq.blog.slug}
-                            className="inline-flex items-center gap-1.5 text-accent hover:text-accent/80 text-sm font-medium mt-3 transition-colors"
-                        >
-                            {faq.blog.label}
-                            <ArrowRight className="w-3.5 h-3.5" />
-                        </Link>
-                    )}
                 </div>
             </div>
         </div>
@@ -378,19 +369,6 @@ export default function FAQ() {
                     </div>
 
                     <FAQDiscoveryAnimation />
-
-                    {/* Category navigation */}
-                    <div className="flex flex-wrap gap-2 mb-12">
-                        {faqCategories.map(cat => (
-                            <a
-                                key={cat.id}
-                                href={`#${cat.id}`}
-                                className="px-4 py-2 rounded-full border border-primary/15 text-sm font-sans font-medium text-primary/70 hover:text-accent hover:border-accent/30 transition-colors"
-                            >
-                                {cat.title}
-                            </a>
-                        ))}
-                    </div>
 
                     {/* FAQ Categories */}
                     {faqCategories.map(category => (
