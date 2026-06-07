@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 import {
     ArrowRight, Calendar, Clock, Search,
-    ChevronDown, LayoutGrid, List, X,
+    ChevronDown, ChevronUp, LayoutGrid, List, X,
 } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -39,6 +39,7 @@ export default function Nieuws() {
     const [searchOpen,     setSearchOpen]     = useState(false);
     const [currentPage,    setCurrentPage]    = useState(1);
     const [isMobile,       setIsMobile]       = useState(false);
+    const [showScrollTop, setShowScrollTop]  = useState(false);
 
     const sortRef   = useRef(null);
     const searchRef = useRef(null);
@@ -52,6 +53,20 @@ export default function Nieuws() {
         window.addEventListener('resize', check);
         return () => window.removeEventListener('resize', check);
     }, []);
+
+    /* ── scroll to top visibility (halfway page) ── */
+    useEffect(() => {
+        const handleScroll = () => {
+            const halfway = document.documentElement.scrollHeight / 2;
+            setShowScrollTop(window.scrollY > halfway * 0.5);
+        };
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
     /* ── outside click: sort + search ── */
     useEffect(() => {
@@ -196,7 +211,7 @@ export default function Nieuws() {
                     </div>
                     <div className="flex-1 lg:pb-2">
                         <p className="hero-sub font-sans text-primary/70 text-base sm:text-lg md:text-xl max-w-lg leading-relaxed">
-                            Praktische artikelen over online marketing. Geen hypes, wel inzichten die je direct kunt gebruiken.
+                            Praktische artikelen over online marketing. Inzichten die je morgen al kunt toepassen.
                         </p>
                     </div>
                 </div>
@@ -486,22 +501,38 @@ export default function Nieuws() {
                                         ‹
                                     </button>
 
-                                    {/* Page numbers */}
-                                    {Array.from({ length: totalPages }, (_, i) => i + 1).map(page => (
-                                        <button
-                                            key={page}
-                                            onClick={() => goToPage(page)}
-                                            className={`w-10 h-10 rounded-xl flex items-center justify-center font-sans text-sm font-semibold transition-all ${
-                                                page === currentPage
-                                                    ? 'bg-accent text-white shadow-sm'
-                                                    : 'text-primary/50 hover:bg-primary/8 active:bg-primary/12'
-                                            }`}
-                                            aria-label={`Pagina ${page}`}
-                                            aria-current={page === currentPage ? 'page' : undefined}
-                                        >
-                                            {page}
-                                        </button>
-                                    ))}
+                                    {/* Page numbers (truncated) */}
+                                    {(() => {
+                                        const pages = [];
+                                        const show = new Set([1, 2, currentPage - 1, currentPage, currentPage + 1, totalPages - 1, totalPages]);
+                                        let prev = 0;
+                                        for (let p = 1; p <= totalPages; p++) {
+                                            if (show.has(p)) {
+                                                if (prev && p - prev > 1) pages.push('dots-' + p);
+                                                pages.push(p);
+                                                prev = p;
+                                            }
+                                        }
+                                        return pages.map(item =>
+                                            typeof item === 'string' ? (
+                                                <span key={item} className="w-8 flex items-center justify-center font-sans text-sm text-primary/30">...</span>
+                                            ) : (
+                                                <button
+                                                    key={item}
+                                                    onClick={() => goToPage(item)}
+                                                    className={`w-10 h-10 rounded-xl flex items-center justify-center font-sans text-sm font-semibold transition-all ${
+                                                        item === currentPage
+                                                            ? 'bg-accent text-white shadow-sm'
+                                                            : 'text-primary/50 hover:bg-primary/8 active:bg-primary/12'
+                                                    }`}
+                                                    aria-label={`Pagina ${item}`}
+                                                    aria-current={item === currentPage ? 'page' : undefined}
+                                                >
+                                                    {item}
+                                                </button>
+                                            )
+                                        );
+                                    })()}
 
                                     {/* Next */}
                                     <button
@@ -639,6 +670,15 @@ export default function Nieuws() {
             </section>
 
             <Footer />
+
+            {/* Scroll to top button */}
+            <button
+                onClick={scrollToTop}
+                className={`fixed bottom-8 right-8 z-50 w-12 h-12 rounded-full bg-accent text-background flex items-center justify-center shadow-lg transition-all duration-300 hover:bg-accent/90 ${showScrollTop ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'}`}
+                aria-label="Scroll naar boven"
+            >
+                <ChevronUp className="w-5 h-5" />
+            </button>
         </main>
     );
 }
