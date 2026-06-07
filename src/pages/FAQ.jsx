@@ -1,77 +1,285 @@
 import { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { Plus, Minus } from 'lucide-react';
+import { Plus, Minus, ArrowRight } from 'lucide-react';
 import { FAQDiscoveryAnimation } from '../components/FAQDiscoveryAnimation';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 
-const faqs = [
+const faqCategories = [
     {
-        q: "Wat maakt Empowers anders dan andere marketingbureaus?",
-        a: "Bij Empowers werk je altijd rechtstreeks met de specialist die aan jouw campagnes werkt. Daarnaast combineren we betaalde advertenties met SEO en GEO, zodat je zowel snel resultaat ziet als op de lange termijn blijft groeien."
+        title: 'Over Empowers',
+        id: 'over-empowers',
+        faqs: [
+            {
+                q: 'Wat maakt Empowers anders dan andere marketingbureaus?',
+                a: 'Bij Empowers werk je rechtstreeks met Amir, de eigenaar en specialist. Geen account managers die je verhaal doorspelen, geen junior medewerkers die aan je campagnes zitten. Je hebt één vast aanspreekpunt dat jouw business kent en op elk moment bereikbaar is via WhatsApp of e-mail. Daarnaast combineren we betaalde advertenties met SEO en GEO — die combinatie bieden weinig bureaus aan.'
+            },
+            {
+                q: 'Voor welke bedrijven werken jullie?',
+                a: 'We werken voor MKB-bedrijven, webshops en grotere ondernemingen die serieus willen groeien via online marketing. Of je nu net begint met adverteren of al duizenden euro’s per maand uitgeeft, we kijken wat de slimste aanpak is voor jouw situatie en budget.'
+            },
+            {
+                q: 'Op welke platformen zijn jullie actief?',
+                a: 'We beheren campagnes op Google Ads, Meta Ads (Facebook en Instagram), LinkedIn Ads en TikTok Ads. Daarnaast helpen we met SEO en GEO, zodat je ook organisch gevonden wordt in zowel Google als AI-zoekmachines zoals ChatGPT en Perplexity.'
+            },
+            {
+                q: 'Hoeveel advertentiebudget heb ik nodig?',
+                a: 'Dat hangt af van je doelen, branche en het platform. Voor Google Ads adviseren we minimaal €500 per maand, voor Meta Ads rond de €300. We bespreken dit in het eerste gesprek en geven eerlijk advies. We werken liever niet samen dan dat we een budget inzetten waarvan we weten dat het niet rendabel is.'
+            },
+            {
+                q: 'Hoe snel zie ik resultaten?',
+                a: 'Met betaalde advertenties kun je binnen een week de eerste leads of verkopen zien. SEO en GEO zijn langetermijninvesteringen: reken op drie tot zes maanden voor duidelijke groei. We zijn hier altijd eerlijk over, geen loze beloftes.'
+            },
+            {
+                q: 'Werken jullie met vaste contracten?',
+                a: 'Nee. We werken met maandelijks opzegbare overeenkomsten. Geen langlopende contracten, geen kleine lettertjes. Als we goed werk leveren, blijf je vanzelf. Dat is hoe het hoort.'
+            },
+            {
+                q: 'Hoe ziet de samenwerking er in de praktijk uit?',
+                a: 'We starten met een kennismaking en audit van je huidige situatie. Daarna stellen we samen een strategie op en gaan aan de slag. Je hebt maandelijks een vaste call met Amir om de resultaten te bespreken. Tussendoor kun je altijd terecht via WhatsApp of e-mail — korte lijnen, snelle antwoorden.'
+            },
+            {
+                q: 'Kunnen jullie mijn bestaande campagnes overnemen?',
+                a: 'Ja, dat doen we regelmatig. We beginnen met een grondige audit van wat er al draait. Wat goed werkt houden we, wat niet werkt bouwen we om. Zo verlies je geen data en gaat er geen budget verloren in de overgang.'
+            },
+            {
+                q: 'Bouwen jullie ook landingspagina’s?',
+                a: 'Ja. Een sterke advertentie met een slechte landingspagina is weggegooid geld. We bouwen en optimaliseren landingspagina’s die aansluiten op je campagnes, zodat bezoekers ook daadwerkelijk converteren.'
+            },
+            {
+                q: 'Hoe rapporteren jullie over de resultaten?',
+                a: 'Je krijgt maandelijks een helder overzicht van de belangrijkste cijfers: kosten, conversies, ROAS en wat we de komende maand gaan doen. Geen dashboards waar je niks van snapt. We leggen uit wat de cijfers betekenen voor jouw omzet.'
+            },
+            {
+                q: 'Wat kost een samenwerking met Empowers?',
+                a: 'Onze tarieven hangen af van de diensten en de omvang van je campagnes. We bespreken dit altijd open in het eerste gesprek, zodat je precies weet waar je aan toe bent. Geen verborgen kosten, geen verrassingen.'
+            },
+            {
+                q: 'Ik heb nog nooit geadverteerd. Kan ik toch bij jullie terecht?',
+                a: 'Zeker. We begeleiden je van het begin: van de eerste campagne-opzet tot een volledige groeistrategie. Je hoeft geen verstand te hebben van online marketing, dat is precies waarom je ons inschakelt.'
+            },
+            {
+                q: 'Hoe begin ik?',
+                a: 'Plan een gratis strategiegesprek via onze website. We bespreken jouw situatie, doelen en budget, en je gaat altijd weg met concrete inzichten — ook als we uiteindelijk niet gaan samenwerken.'
+            }
+        ]
     },
     {
-        q: "Voor welke bedrijven werken jullie?",
-        a: "We werken voor MKB-bedrijven, webshops en grotere ondernemingen die serieus willen groeien via online marketing. Of je nu net begint met adverteren of al een bestaand budget hebt, we kijken altijd wat de slimste aanpak is voor jouw situatie."
+        title: 'Google Ads',
+        id: 'google-ads',
+        faqs: [
+            {
+                q: 'Wat kost Google Ads per klik in Nederland?',
+                a: 'De kosten per klik variëren sterk per branche. In e-commerce betaal je gemiddeld €0,50 tot €2,00 per klik, in de zakelijke dienstverlening kan dat oplopen tot €5,00 of meer. De werkelijke kosten hangen af van je zoekwoorden, concurrentie en Quality Score.',
+                blog: { slug: '/blogs/google-ads/sea-cpc-benchmarks-per-branche-nederland', label: 'CPC benchmarks per branche' }
+            },
+            {
+                q: 'Hoe weet ik of mijn Google Ads campagne goed presteert?',
+                a: 'Kijk niet alleen naar klikken en vertoningen, maar naar wat echt telt: conversies, kosten per conversie en ROAS. Een goede CTR ligt boven de 3%, maar dat zegt niks als die klikken niet converteren. Wij rapporteren altijd op resultaat, niet op ijdelheidsmetrics.',
+                blog: { slug: '/blogs/google-ads/google-ads-rapportage-metrics-echt', label: 'Welke Google Ads metrics zijn echt belangrijk' }
+            },
+            {
+                q: 'Wat is Performance Max en wanneer gebruik ik het?',
+                a: 'Performance Max is een campagnetype van Google dat automatisch advertenties toont op alle Google-kanalen: Search, Display, YouTube, Gmail en Maps. Het werkt goed voor e-commerce en bedrijven met voldoende conversiedata. Voor nieuwe accounts of kleine budgetten raden we vaak eerst Search-campagnes aan.',
+                blog: { slug: '/blogs/google-ads/performance-max-google-ads-weten', label: 'Alles over Performance Max' }
+            },
+            {
+                q: 'Google Ads uitbesteden of zelf doen — wanneer loont het?',
+                a: 'Zelf doen kan als je een klein budget hebt en bereid bent om te leren. Maar zodra je meer dan €1.000 per maand uitgeeft, loont uitbesteden vrijwel altijd. Een specialist voorkomt verspilling, optimaliseert sneller en haalt meer rendement uit hetzelfde budget.',
+                blog: { slug: '/blogs/google-ads/google-ads-uitbesteden-wanneer-zelf', label: 'Google Ads uitbesteden: wanneer wel en niet' }
+            },
+            {
+                q: 'Wat zijn negatieve zoekwoorden en waarom zijn ze belangrijk?',
+                a: 'Negatieve zoekwoorden zijn termen waarvoor je niet wilt verschijnen. Zonder goede negatieven betaal je voor irrelevante klikken van mensen die iets heel anders zoeken. Het goed instellen en bijhouden van negatieven is een van de snelste manieren om je Google Ads kosten te verlagen.',
+                blog: { slug: '/blogs/google-ads/negatieve-zoekwoorden-google-ads', label: 'Negatieve zoekwoorden instellen' }
+            }
+        ]
     },
     {
-        q: "Op welke platformen zijn jullie actief?",
-        a: "We beheren campagnes op Google Ads, Meta Ads (Facebook & Instagram), LinkedIn Ads en TikTok Ads. Daarnaast helpen we je met SEO en GEO, zodat je ook organisch gevonden wordt."
+        title: 'Meta Ads',
+        id: 'meta-ads',
+        faqs: [
+            {
+                q: 'Wat is een goede ROAS voor Meta Ads?',
+                a: 'Dat hangt af van je marges en branche. Voor e-commerce is een ROAS van 4 of hoger een goede benchmark. Voor leadgeneratie kijk je meer naar kosten per lead. Vergelijk altijd met je eigen marges — een ROAS van 3 is uitstekend als je marge 70% is, maar te laag bij 20%.',
+                blog: { slug: '/blogs/social-ads/goede-roas-meta-ads-benchmarks', label: 'ROAS benchmarks per branche' }
+            },
+            {
+                q: 'Werken Meta Ads nog na alle privacywijzigingen?',
+                a: 'Ja, maar de aanpak is veranderd. Sinds iOS 14 is tracking lastiger, maar met de Conversie API, goede first-party data en brede targeting werkt Meta Ads nog steeds uitstekend. Bureaus die zeggen dat het niet meer werkt, weten waarschijnlijk niet hoe ze zich moeten aanpassen.',
+                blog: { slug: '/blogs/social-ads/meta-ads-2025-werkt-na', label: 'Meta Ads na de privacywijzigingen' }
+            },
+            {
+                q: 'Meta Ads voor B2B: heeft dat zin?',
+                a: 'Meer dan de meeste mensen denken. Zakelijke beslissers zitten ook op Facebook en Instagram. Met de juiste targeting, content en een sterke funnel kun je via Meta Ads B2B-leads genereren tegen lagere kosten dan LinkedIn. Het vereist wel een andere aanpak dan B2C.',
+                blog: { slug: '/blogs/social-ads/meta-ads-b2b-werkt', label: 'Meta Ads voor B2B' }
+            },
+            {
+                q: 'Wat is retargeting en hoe zet ik het in via Meta?',
+                a: 'Retargeting toont advertenties aan mensen die al eerder je website hebben bezocht of met je content hebben geïnterageerd. Via Meta kun je deze mensen opnieuw bereiken met gerichte boodschappen. Het is een van de meest rendabele advertentievormen, omdat je mensen bereikt die al interesse hebben getoond.',
+                blog: { slug: '/blogs/social-ads/retargeting-meta-ads-haal-verloren', label: 'Retargeting via Meta Ads' }
+            },
+            {
+                q: 'Wat kost adverteren op Instagram in 2026?',
+                a: 'De gemiddelde CPM (kosten per 1.000 vertoningen) op Instagram ligt tussen de €5 en €15, afhankelijk van je doelgroep en branche. Reels zijn over het algemeen goedkoper dan feed-advertenties. Met een budget van €300 per maand kun je al zinvol starten.',
+                blog: { slug: '/blogs/social-ads/instagram-adverteren-kosten-cpm-budget-2026', label: 'Instagram Ads kosten en budget' }
+            }
+        ]
     },
     {
-        q: "Is LinkedIn Ads ook geschikt voor mijn bedrijf?",
-        a: "LinkedIn Ads zijn vooral krachtig als jouw klant een beslisser is. Denk aan CEO's, marketing managers of inkoopverantwoordelijken. Je kunt targeten op functietitel, bedrijfsgrootte en branche, zo precies als geen enkel ander platform dat kan. Voor B2B is LinkedIn vaak het scherpste kanaal dat er is."
+        title: 'LinkedIn Ads',
+        id: 'linkedin-ads',
+        faqs: [
+            {
+                q: 'Is LinkedIn Ads geschikt voor mijn bedrijf?',
+                a: 'LinkedIn Ads zijn vooral krachtig als jouw klant een beslisser is. Denk aan CEO’s, marketing managers of inkoopverantwoordelijken. Je kunt targeten op functietitel, bedrijfsgrootte en branche, zo precies als geen ander platform dat kan. Voor B2B is LinkedIn vaak het scherpste kanaal dat er is.'
+            },
+            {
+                q: 'Hoeveel budget heb ik minimaal nodig voor LinkedIn Ads?',
+                a: 'LinkedIn Ads is duurder dan andere platformen — reken op minimaal €1.000 per maand om zinvolle resultaten te boeken. De CPC ligt gemiddeld tussen de €3 en €8, maar de lead-kwaliteit is doorgaans hoger dan op andere platformen. Voor B2B is die investering vaak de moeite waard.',
+                blog: { slug: '/blogs/social-ads/linkedin-ads-budget-hoeveel-minimaal', label: 'LinkedIn Ads budget berekenen' }
+            },
+            {
+                q: 'LinkedIn Ads vs Google Ads voor B2B: welke is beter?',
+                a: 'Dat hangt af van je product en doelgroep. Google Ads werkt goed als mensen actief zoeken naar jouw dienst. LinkedIn Ads is sterker als je beslissers wilt bereiken die nog niet zoeken maar wel openstaan. De beste B2B-strategie combineert vaak beide kanalen.',
+                blog: { slug: '/blogs/social-ads/linkedin-ads-vs-google-ads', label: 'LinkedIn Ads vs Google Ads vergelijking' }
+            },
+            {
+                q: 'Wat zijn LinkedIn Lead Gen Forms en wanneer gebruik ik ze?',
+                a: 'Lead Gen Forms zijn vooringevulde formulieren die binnen LinkedIn openen. De gebruiker hoeft niks in te typen, LinkedIn vult naam, e-mail en functietitel automatisch in. Dat levert hogere conversieratio’s op dan een externe landingspagina. Ideaal voor whitepapers, webinars en demo-aanvragen.',
+                blog: { slug: '/blogs/social-ads/linkedin-lead-gen-forms-waarom', label: 'LinkedIn Lead Gen Forms uitgelegd' }
+            },
+            {
+                q: 'Kan ik LinkedIn Ads inzetten voor Account-Based Marketing?',
+                a: 'Ja, LinkedIn is het sterkste platform voor ABM. Je kunt targeten op specifieke bedrijven, functietitels en zelfs individuele accounts. Door je advertenties alleen aan beslissers binnen je target accounts te tonen, besteed je je budget precies waar het moet.',
+                blog: { slug: '/blogs/social-ads/linkedin-abm-account-based-marketing', label: 'LinkedIn ABM strategie' }
+            }
+        ]
     },
     {
-        q: "Wat is GEO en waarom is het belangrijk?",
-        a: "GEO staat voor Generative Engine Optimization. Waar SEO ervoor zorgt dat je gevonden wordt op Google, zorgt GEO ervoor dat AI-tools zoals ChatGPT, Gemini en Claude jouw bedrijf aanbevelen. Steeds meer mensen zoeken via AI in plaats van via Google. Als je daar nu op inspeelt, loop je voor op je concurrenten."
+        title: 'TikTok Ads',
+        id: 'tiktok-ads',
+        faqs: [
+            {
+                q: 'Is TikTok Ads geschikt voor mijn bedrijf?',
+                a: 'TikTok is niet alleen voor tieners. Het platform bereikt in Nederland miljoenen volwassenen, inclusief professionals en koopkrachtige doelgroepen. Het werkt vooral goed als je een visueel product hebt of bereid bent om authentieke videocontent te maken. Ook voor B2B zien we steeds vaker goede resultaten.',
+                blog: { slug: '/blogs/social-ads/tiktok-ads-voor-bedrijven', label: 'TikTok Ads voor bedrijven' }
+            },
+            {
+                q: 'TikTok Ads vs Meta Ads: waar zit mijn doelgroep?',
+                a: 'Dat overlapt meer dan je denkt. Beide platformen bereiken breed, maar TikTok trekt gemiddeld een jonger publiek (18-34) en draait volledig op video. Meta biedt meer advertentieformaten en een breder leeftijdsbereik. De beste keuze hangt af van je product en of je videocontent kunt maken.',
+                blog: { slug: '/blogs/social-ads/tiktok-ads-vs-meta-ads', label: 'TikTok vs Meta Ads vergelijking' }
+            },
+            {
+                q: 'Wat kost adverteren op TikTok?',
+                a: 'TikTok is over het algemeen goedkoper dan Meta en LinkedIn. De gemiddelde CPM ligt tussen de €3 en €10. Je kunt al starten met een dagbudget van €20. De kosten per conversie hangen sterk af van je creative — een goede video maakt meer verschil dan je budget.',
+                blog: { slug: '/blogs/social-ads/goede-cpm-tiktok-benchmarks', label: 'TikTok CPM benchmarks' }
+            },
+            {
+                q: 'Hoe maak ik een TikTok advertentie die converteert?',
+                a: 'Vergeet gepolijste commercials. Op TikTok werkt authentieke, native content het best. Film met je telefoon, begin met een hook in de eerste twee seconden en laat het product of de dienst natuurlijk zien. User-generated content en influencer samenwerkingen scoren vaak beter dan studioproducties.',
+                blog: { slug: '/blogs/social-ads/tiktok-ads-video-converteert', label: 'TikTok Ads video tips' }
+            }
+        ]
     },
     {
-        q: "Hoeveel advertentiebudget heb ik nodig?",
-        a: "Dat hangt af van je doelen, branche en het platform. We bespreken dit altijd in het eerste gesprek en geven je een eerlijk advies op basis van wat realistisch is voor jouw situatie. We werken nooit met budgetten die niet rendabel zijn."
+        title: 'SEO',
+        id: 'seo',
+        faqs: [
+            {
+                q: 'Hoe lang duurt het voordat SEO resultaat oplevert?',
+                a: 'Reken op drie tot zes maanden voor zichtbare resultaten. Nieuwe websites hebben langer nodig dan bestaande sites met enige autoriteit. SEO is geen quick fix — het is een investering die na verloop van tijd steeds meer oplevert zonder dat je per klik betaalt.',
+                blog: { slug: '/blogs/seo/lang-duurt-seo-realistische-verwachtingen', label: 'Realistische SEO verwachtingen' }
+            },
+            {
+                q: 'Wat is het verschil tussen on-page en off-page SEO?',
+                a: 'On-page SEO is alles wat je op je eigen website doet: content, titels, snelheid, structuur. Off-page SEO gaat over signalen van buitenaf: backlinks, vermeldingen en autoriteit. Je hebt beide nodig, maar beginnen met on-page is altijd de eerste stap.',
+                blog: { slug: '/blogs/seo/on-page-vs-off-page', label: 'On-page vs off-page SEO' }
+            },
+            {
+                q: 'Wat is E-E-A-T en waarom is het belangrijk voor mijn website?',
+                a: 'E-E-A-T staat voor Experience, Expertise, Authoritativeness en Trustworthiness. Het is hoe Google beoordeelt of jouw content betrouwbaar is. Laat zien wie de auteur is, toon ervaring, gebruik bronnen en zorg dat je website veilig en professioneel oogt. Dit weegt steeds zwaarder in de rankings.',
+                blog: { slug: '/blogs/seo/eeat-belangrijk-voor-seo', label: 'E-E-A-T uitgelegd' }
+            },
+            {
+                q: 'Is SEO nog de moeite waard nu AI zo opkomt?',
+                a: 'Absoluut. Google is nog steeds de grootste zoekmachine en dat blijft voorlopig zo. Bovendien gebruiken AI-tools zoals ChatGPT en Perplexity dezelfde soort bronnen als Google. Goede SEO helpt je dus zowel in traditionele zoekresultaten als in AI-antwoorden.',
+                blog: { slug: '/blogs/algemeen/seo-dood-evolueert-2026', label: 'Is SEO dood in 2026?' }
+            },
+            {
+                q: 'Moet ik SEO uitbesteden of kan ik het zelf?',
+                a: 'De basis kun je zelf: goede titels, snelle website, regelmatig content publiceren. Maar voor technische SEO, linkbuilding en een doordachte contentstrategie heb je specialistische kennis nodig. Als je serieus wilt groeien in organisch verkeer, loont uitbesteden vrijwel altijd.',
+                blog: { slug: '/blogs/seo/zoekmachine-optimalisatie-bureau-kiezen-gids', label: 'SEO bureau kiezen' }
+            }
+        ]
     },
     {
-        q: "Hoe snel zie ik resultaten?",
-        a: "Betaalde advertenties kunnen al binnen enkele dagen resultaat laten zien. SEO en GEO zijn langetermijninvesteringen waarbij je na drie tot zes maanden duidelijke groei ziet. We zijn hier altijd transparant over, geen loze beloftes."
+        title: 'GEO',
+        id: 'geo',
+        faqs: [
+            {
+                q: 'Wat is GEO en waarom is het belangrijk?',
+                a: 'GEO staat voor Generative Engine Optimization. Waar SEO ervoor zorgt dat je gevonden wordt op Google, zorgt GEO ervoor dat AI-tools zoals ChatGPT, Gemini en Claude jouw bedrijf aanbevelen. Steeds meer mensen zoeken via AI in plaats van via Google. Als je daar nu op inspeelt, loop je voor op je concurrenten.',
+                blog: { slug: '/blogs/geo/wat-is-geo-generative-engine-optimization', label: 'Wat is GEO?' }
+            },
+            {
+                q: 'Hoe zorg ik dat ChatGPT mijn bedrijf aanbeveelt?',
+                a: 'Door content te maken die AI-zoekmachines als betrouwbare bron herkennen. Dat betekent: duidelijke antwoorden op veelgestelde vragen, statistieken en data in je content, goede structured data en sterke E-E-A-T signalen. GEO is de discipline die zich hier specifiek op richt.',
+                blog: { slug: '/blogs/geo/chatgpt-bedrijf-aanbeveelt', label: 'Hoe ChatGPT jouw bedrijf aanbeveelt' }
+            },
+            {
+                q: 'Wat is het verschil tussen SEO en GEO?',
+                a: 'SEO optimaliseert je website voor zoekmachines als Google, zodat je hoger verschijnt in de zoekresultaten. GEO optimaliseert je content voor AI-zoekmachines als ChatGPT, Perplexity en Google AI Mode, zodat zij jouw bedrijf aanbevelen in hun antwoorden. SEO draait om rankings, GEO om citaties.',
+                blog: { slug: '/blogs/geo/geo-vs-seo-verschil-heb', label: 'GEO vs SEO: het verschil' }
+            },
+            {
+                q: 'Moet ik mijn SEO-strategie vervangen door GEO?',
+                a: 'Nee, GEO vervangt SEO niet — het is een aanvulling. SEO zorgt dat je gevonden wordt in Google. GEO zorgt dat je geciteerd wordt door AI-tools. De beste strategie combineert beide, en veel technieken overlappen. Als je al goede SEO hebt, ben je al een eind op weg met GEO.',
+                blog: { slug: '/blogs/geo/seo-strategie-vervangen-door-geo', label: 'GEO als aanvulling op SEO' }
+            },
+            {
+                q: 'Hoe meet ik of AI-zoekmachines mijn website citeren?',
+                a: 'Je kunt dit handmatig testen door vragen over jouw vakgebied te stellen aan ChatGPT, Perplexity en Google AI Mode en te kijken of jouw website wordt genoemd. Er zijn ook tools die dit automatisch monitoren. Wij helpen onze klanten hier structureel mee.',
+                blog: { slug: '/blogs/geo/llm-zichtbaarheid-meten-ai-ziet', label: 'LLM-zichtbaarheid meten' }
+            },
+            {
+                q: 'Is GEO al nodig voor MKB of kan ik nog wachten?',
+                a: 'Hoe eerder je begint, hoe groter je voorsprong. AI-zoekmachines groeien snel en steeds meer consumenten gebruiken ze. Bedrijven die nu investeren in GEO bouwen een positie op die later moeilijk in te halen is. Je hoeft niet alles tegelijk te doen — begin met de basis.',
+                blog: { slug: '/blogs/geo/geo-mkb-nodig-kun-wachten', label: 'GEO voor MKB' }
+            }
+        ]
     },
     {
-        q: "Werken jullie met vaste contracten?",
-        a: "We werken met maandelijkse overeenkomsten. Geen langlopende contracten waar je aan vastzit. We verdienen je vertrouwen elke maand opnieuw."
-    },
-    {
-        q: "Hoe ziet de samenwerking er in de praktijk uit?",
-        a: "Na een kennismaking en audit stellen we een strategie op. Daarna gaan we aan de slag en heb je maandelijks een vaste call om de resultaten door te nemen. Tussentijds ben je altijd welkom om vragen te stellen via WhatsApp of e-mail."
-    },
-    {
-        q: "Kunnen jullie mijn bestaande campagnes overnemen?",
-        a: "Ja, we nemen bestaande campagnes regelmatig over. We starten altijd met een grondige audit om te zien wat er al loopt, wat beter kan en waar de grootste kansen liggen."
-    },
-    {
-        q: "Bouwen jullie ook landingspagina's?",
-        a: "Ja. Een goede advertentie heeft een sterke landingspagina nodig om te werken. We kijken naar wat jouw pagina mist, bouwen waar nodig en sturen bij op conversie. Geen losse tips, maar echte actie."
-    },
-    {
-        q: "Hoe rapporteren jullie over de resultaten?",
-        a: "Je krijgt maandelijks een duidelijk overzicht van alle belangrijke cijfers, zonder onnodige jargon. We bespreken de resultaten samen en leggen uit wat de cijfers betekenen voor jouw business."
-    },
-    {
-        q: "Is SEO nog steeds relevant nu AI zo opkomt?",
-        a: "Absoluut. SEO blijft essentieel voor Google, dat nog steeds de grootste zoekmachine ter wereld is. Combineer je dat met GEO, dan ben je zowel zichtbaar voor mensen die traditioneel zoeken als voor mensen die AI-tools gebruiken. Dat is precies de combinatie die wij aanbieden."
-    },
-    {
-        q: "Wat kost een samenwerking met Empowers?",
-        a: "Onze tarieven zijn afhankelijk van de diensten die je afneemt en de omvang van de campagnes. We bespreken dit altijd transparant in het eerste gesprek, zodat je precies weet waar je aan toe bent."
-    },
-    {
-        q: "Ik heb nog nooit geadverteerd. Kan ik toch bij jullie terecht?",
-        a: "Zeker. We begeleiden je stap voor stap, van de eerste advertentie tot een volledige groeistrategie. Je hoeft geen verstand te hebben van marketing, dat is precies waarom je ons inschakelt."
-    },
-    {
-        q: "Hoe begin ik?",
-        a: "Plan een gratis strategiegesprek via de website. We bespreken jouw situatie, doelen en budget, en je gaat altijd weg met concrete inzichten, ook als we uiteindelijk niet samenwerken."
+        title: 'Conversie & Strategie',
+        id: 'conversie-strategie',
+        faqs: [
+            {
+                q: 'Wat is een goede conversieratio per branche?',
+                a: 'Het gemiddelde verschilt sterk: e-commerce zit rond de 2-3%, zakelijke dienstverlening rond 3-5%, en SaaS tussen 5-7%. Maar vergelijken met gemiddelden is misleidend — belangrijker is dat jouw conversieratio elke maand verbetert. Wij meten dit continu en optimaliseren bij.',
+                blog: { slug: '/blogs/strategie/goede-conversieratio-benchmarks-per-branche', label: 'Conversieratio benchmarks' }
+            },
+            {
+                q: 'Content marketing vs betaalde advertenties: wat werkt beter?',
+                a: 'Allebei, maar voor verschillende doelen. Betaalde advertenties leveren direct verkeer en conversies. Content marketing bouwt op de lange termijn autoriteit en organisch bereik op. De slimste aanpak is een combinatie: advertenties voor directe groei, content voor duurzame zichtbaarheid.',
+                blog: { slug: '/blogs/strategie/content-marketing-vs-betaalde-advertenties', label: 'Content marketing vs ads' }
+            },
+            {
+                q: 'Hoe meet ik de ROI van mijn online marketing?',
+                a: 'Door elke euro die je uitgeeft te koppelen aan meetbaar resultaat. Dat begint met goede tracking: Google Analytics, conversie-tracking op je advertentieplatformen en UTM-parameters. Wij zorgen dat alles goed staat ingesteld, zodat je precies weet wat elke campagne oplevert.',
+                blog: { slug: '/blogs/tracking/meet-roi-online-marketing', label: 'ROI van online marketing meten' }
+            },
+            {
+                q: 'Heb ik een aparte landingspagina nodig voor mijn advertenties?',
+                a: 'In de meeste gevallen wel. Je homepage is gebouwd voor alle bezoekers, een landingspagina is gericht op één doelgroep met één boodschap. Dat verschil vertaalt zich direct in een hogere conversieratio. Wij bouwen landingspagina’s die aansluiten op je advertenties.',
+                blog: { slug: '/blogs/strategie/landingspagina-waarom-hij-anders-homepage', label: 'Waarom een landingspagina' }
+            }
+        ]
     }
 ];
+
+// Flatten alle FAQ's voor het schema
+const allFaqs = faqCategories.flatMap(cat => cat.faqs);
 
 function FAQItem({ faq, isOpen, onClick }) {
     return (
@@ -80,9 +288,9 @@ function FAQItem({ faq, isOpen, onClick }) {
                 onClick={onClick}
                 className="w-full py-6 flex items-start sm:items-center justify-between gap-6 text-left focus:outline-none group"
             >
-                <h2 className="font-sans font-bold text-lg md:text-xl text-primary group-hover:text-accent transition-colors pr-8">
+                <h3 className="font-sans font-bold text-lg md:text-xl text-primary group-hover:text-accent transition-colors pr-8">
                     {faq.q}
-                </h2>
+                </h3>
                 <div className={`shrink-0 text-accent transition-transform duration-300 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] mt-1 sm:mt-0 ${isOpen ? 'rotate-180' : ''}`}>
                     {isOpen ? <Minus className="w-5 h-5" /> : <Plus className="w-5 h-5" />}
                 </div>
@@ -92,6 +300,15 @@ function FAQItem({ faq, isOpen, onClick }) {
                     <p className="font-sans text-primary/70 leading-relaxed max-w-3xl pr-4 sm:pr-12">
                         {faq.a}
                     </p>
+                    {faq.blog && (
+                        <Link
+                            to={faq.blog.slug}
+                            className="inline-flex items-center gap-1.5 text-accent hover:text-accent/80 text-sm font-medium mt-3 transition-colors"
+                        >
+                            {faq.blog.label}
+                            <ArrowRight className="w-3.5 h-3.5" />
+                        </Link>
+                    )}
                 </div>
             </div>
         </div>
@@ -99,44 +316,51 @@ function FAQItem({ faq, isOpen, onClick }) {
 }
 
 export default function FAQ() {
-    const [openIndex, setOpenIndex] = useState(0); // Open the first one by default
+    const [openId, setOpenId] = useState('over-empowers-0');
 
-    const toggleFaq = (index) => {
-        setOpenIndex(openIndex === index ? -1 : index);
+    const toggleFaq = (id) => {
+        setOpenId(openId === id ? null : id);
     };
 
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
+                <title>Veelgestelde Vragen over Online Marketing | Empowers FAQ</title>
+                <meta name="description" content="Antwoorden op veelgestelde vragen over Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO, GEO, conversie-optimalisatie en samenwerken met Empowers." />
+                <link rel="canonical" href="https://www.empowers.nl/faq" />
+                <meta property="og:title" content="Veelgestelde Vragen over Online Marketing | Empowers FAQ" />
+                <meta property="og:description" content="Antwoorden op veelgestelde vragen over Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO, GEO, conversie-optimalisatie en samenwerken met Empowers." />
+                <meta property="og:url" content="https://www.empowers.nl/faq" />
+                <meta property="og:type" content="website" />
+                <meta property="og:locale" content="nl_NL" />
+                <meta property="og:site_name" content="Empowers" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:site" content="@empowersnl" />
                 <script type="application/ld+json">
                     {JSON.stringify({
                         "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": faqs.map(faq => ({
-                            "@type": "Question",
-                            "name": faq.q,
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": faq.a
+                        "@graph": [
+                            {
+                                "@type": "FAQPage",
+                                "mainEntity": allFaqs.map(faq => ({
+                                    "@type": "Question",
+                                    "name": faq.q,
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": faq.a
+                                    }
+                                }))
+                            },
+                            {
+                                "@type": "BreadcrumbList",
+                                "itemListElement": [
+                                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
+                                    { "@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://www.empowers.nl/faq" }
+                                ]
                             }
-                        }))
+                        ]
                     })}
                 </script>
-                <title>Veelgestelde Vragen over Online Marketing | Empowers FAQ</title>
-                <meta name="description" content="Antwoorden op je meest gestelde vragen over Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO, GEO en samenwerken met Empowers." />
-                <link rel="canonical" href="https://www.empowers.nl/faq" />
-                <meta property="og:title" content="Veelgestelde Vragen over Online Marketing | Empowers FAQ" />
-                <meta property="og:description" content="Antwoorden op je meest gestelde vragen over Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads, SEO, GEO en samenwerken met Empowers." />
-                <meta property="og:url" content="https://www.empowers.nl/faq" />
-                <meta property="og:type" content="website" />
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://www.empowers.nl/faq" }
-                    ]
-                })}</script>
             </Helmet>
             <Navbar />
 
@@ -155,20 +379,42 @@ export default function FAQ() {
 
                     <FAQDiscoveryAnimation />
 
-                    {/* FAQ Accordion */}
-                    <div className="w-full">
-                        {faqs.map((faq, idx) => (
-                            <FAQItem
-                                key={idx}
-                                faq={faq}
-                                isOpen={openIndex === idx}
-                                onClick={() => toggleFaq(idx)}
-                            />
+                    {/* Category navigation */}
+                    <div className="flex flex-wrap gap-2 mb-12">
+                        {faqCategories.map(cat => (
+                            <a
+                                key={cat.id}
+                                href={`#${cat.id}`}
+                                className="px-4 py-2 rounded-full border border-primary/15 text-sm font-sans font-medium text-primary/70 hover:text-accent hover:border-accent/30 transition-colors"
+                            >
+                                {cat.title}
+                            </a>
                         ))}
                     </div>
 
+                    {/* FAQ Categories */}
+                    {faqCategories.map(category => (
+                        <section key={category.id} id={category.id} className="mb-16 scroll-mt-32">
+                            <h2 className="font-sans font-bold text-2xl md:text-3xl text-primary mb-2">
+                                {category.title}
+                            </h2>
+                            <div className="w-12 h-1 bg-accent rounded-full mb-8" />
+
+                            <div className="w-full">
+                                {category.faqs.map((faq, idx) => (
+                                    <FAQItem
+                                        key={`${category.id}-${idx}`}
+                                        faq={faq}
+                                        isOpen={openId === `${category.id}-${idx}`}
+                                        onClick={() => toggleFaq(`${category.id}-${idx}`)}
+                                    />
+                                ))}
+                            </div>
+                        </section>
+                    ))}
+
                     {/* Call to action below FAQ */}
-                    <div className="mt-24 p-8 sm:p-10 md:p-14 bg-primary rounded-[2rem] sm:rounded-[3rem] text-center relative overflow-hidden flex flex-col items-center">
+                    <div className="mt-12 p-8 sm:p-10 md:p-14 bg-primary rounded-[2rem] sm:rounded-[3rem] text-center relative overflow-hidden flex flex-col items-center">
                         <div className="absolute top-0 right-0 w-64 h-64 bg-accent/20 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
 
                         <h3 className="relative z-10 font-drama italic text-background text-3xl sm:text-4xl md:text-5xl mb-4">Staat je vraag er niet tussen?</h3>
