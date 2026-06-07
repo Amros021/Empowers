@@ -276,6 +276,10 @@ const BlogPostGeoEcommerceWordAanbevolenAiShoppers = React.lazy(() => import('./
 const BlogPostSchemaMarkupBetereAiZichtbaarheid = React.lazy(() => import('./pages/BlogPostSchemaMarkupBetereAiZichtbaarheid'));
 const BlogPostSocialProofEffectiefWebsite = React.lazy(() => import('./pages/BlogPostSocialProofEffectiefWebsite'));
 const BlogPostPopUpsLandingspaginasHelpenSchaden = React.lazy(() => import('./pages/BlogPostPopUpsLandingspaginasHelpenSchaden'));
+const BlogPostOptimaliseerLandingspaginaMobiel = React.lazy(() => import('./pages/BlogPostOptimaliseerLandingspaginaMobiel'));
+const BlogPostKleurpsychologieLandingspaginaConversie = React.lazy(() => import('./pages/BlogPostKleurpsychologieLandingspaginaConversie'));
+const BlogPostEffectieveBedankpaginaNaConversie = React.lazy(() => import('./pages/BlogPostEffectieveBedankpaginaNaConversie'));
+const BlogPostLandingspaginaLeadgeneratieMaximaliseerAanmeldingen = React.lazy(() => import('./pages/BlogPostLandingspaginaLeadgeneratieMaximaliseerAanmeldingen'));
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -406,6 +410,10 @@ function App() {
           <Route path="/blogs/geo/schema-markup-betere-ai-zichtbaarheid" element={<BlogPostSchemaMarkupBetereAiZichtbaarheid />} />
           <Route path="/blogs/strategie/social-proof-effectief-website" element={<BlogPostSocialProofEffectiefWebsite />} />
           <Route path="/blogs/strategie/pop-ups-landingspaginas-helpen-schaden" element={<BlogPostPopUpsLandingspaginasHelpenSchaden />} />
+          <Route path="/blogs/strategie/optimaliseer-landingspagina-mobiel" element={<BlogPostOptimaliseerLandingspaginaMobiel />} />
+          <Route path="/blogs/strategie/kleurpsychologie-landingspagina-conversie" element={<BlogPostKleurpsychologieLandingspaginaConversie />} />
+          <Route path="/blogs/strategie/effectieve-bedankpagina-na-conversie" element={<BlogPostEffectieveBedankpaginaNaConversie />} />
+          <Route path="/blogs/strategie/landingspagina-leadgeneratie-maximaliseer-aanmeldingen" element={<BlogPostLandingspaginaLeadgeneratieMaximaliseerAanmeldingen />} />
           <Route path="/blogs/google-ads/google-ads-specialist-vinden-testen" element={<BlogPostGoogleAdsSpecialistVindenTesten />} />
           <Route path="/blogs/algemeen/b2b-marketing-bureau-vs-zelf" element={<BlogPostB2bMarketingBureauVsZelf />} />
           <Route path="/blogs/seo/ai-seo-2025-verandert-kunstmatige" element={<BlogPostAiSeo2025 />} />
