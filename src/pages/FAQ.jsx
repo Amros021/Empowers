@@ -345,7 +345,7 @@ export default function FAQ() {
 
     useEffect(() => {
         const handleScroll = () => {
-            setShowScrollTop(window.scrollY > 600);
+            setShowScrollTop(window.innerWidth >= 1024 && window.scrollY > 600);
         };
         window.addEventListener('scroll', handleScroll, { passive: true });
         return () => window.removeEventListener('scroll', handleScroll);

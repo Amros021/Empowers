@@ -54,11 +54,10 @@ export default function Nieuws() {
         return () => window.removeEventListener('resize', check);
     }, []);
 
-    /* ── scroll to top visibility (halfway page) ── */
+    /* ── scroll to top visibility ── */
     useEffect(() => {
         const handleScroll = () => {
-            const halfway = document.documentElement.scrollHeight / 2;
-            setShowScrollTop(window.scrollY > halfway * 0.5);
+            setShowScrollTop(window.innerWidth >= LG_BREAKPOINT && window.scrollY > 400);
         };
         window.addEventListener('scroll', handleScroll, { passive: true });
         return () => window.removeEventListener('scroll', handleScroll);
@@ -211,7 +210,7 @@ export default function Nieuws() {
                     </div>
                     <div className="flex-1 lg:pb-2">
                         <p className="hero-sub font-sans text-primary/70 text-base sm:text-lg md:text-xl max-w-lg leading-relaxed">
-                            Praktische artikelen over online marketing. Inzichten die je morgen al kunt toepassen.
+                            Praktische artikelen over online marketing. Inzichten die je direct al kunt toepassen.
                         </p>
                     </div>
                 </div>
