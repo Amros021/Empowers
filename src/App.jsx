@@ -147,6 +147,7 @@ const BlogPostInstagramReelsAdsConverterenCaseStudies = React.lazy(() => import(
 const BlogPostInstagramAdsDoelgroepenLookalikeCustomAdvantage = React.lazy(() => import('./pages/BlogPostInstagramAdsDoelgroepenLookalikeCustomAdvantage'));
 const BlogPostInstagramAdverterenWebshopsShoppingAankoop = React.lazy(() => import('./pages/BlogPostInstagramAdverterenWebshopsShoppingAankoop'));
 const BlogPostAndromedaAlgoritme2026Instagram = React.lazy(() => import('./pages/BlogPostAndromedaAlgoritme2026Instagram'));
+const BlogPostMetaAdsVeilingAlgoritme = React.lazy(() => import('./pages/BlogPostMetaAdsVeilingAlgoritme'));
 const BlogPostChatgptAdsSelfServePlatformOpenai = React.lazy(() => import('./pages/BlogPostChatgptAdsSelfServePlatformOpenai'));
 const BlogPostOpenaiAdsManagerAdverterenChatgpt = React.lazy(() => import('./pages/BlogPostOpenaiAdsManagerAdverterenChatgpt'));
 const BlogPostTiktokAdsDoelgroepenBereikPrecies = React.lazy(() => import('./pages/BlogPostTiktokAdsDoelgroepenBereikPrecies'));
@@ -280,6 +281,40 @@ const BlogPostOptimaliseerLandingspaginaMobiel = React.lazy(() => import('./page
 const BlogPostKleurpsychologieLandingspaginaConversie = React.lazy(() => import('./pages/BlogPostKleurpsychologieLandingspaginaConversie'));
 const BlogPostEffectieveBedankpaginaNaConversie = React.lazy(() => import('./pages/BlogPostEffectieveBedankpaginaNaConversie'));
 const BlogPostLandingspaginaLeadgeneratieMaximaliseerAanmeldingen = React.lazy(() => import('./pages/BlogPostLandingspaginaLeadgeneratieMaximaliseerAanmeldingen'));
+const BlogPostSqueezePageWanneerGebruiken = React.lazy(() => import('./pages/BlogPostSqueezePageWanneerGebruiken'));
+const BlogPostLookerStudioMarketingrapporten = React.lazy(() => import('./pages/BlogPostLookerStudioMarketingrapporten'));
+const BlogPostOfflineConversiesOnlineAdvertenties = React.lazy(() => import('./pages/BlogPostOfflineConversiesOnlineAdvertenties'));
+const BlogPostMarketingDashboardEchtNuttig = React.lazy(() => import('./pages/BlogPostMarketingDashboardEchtNuttig'));
+const BlogPostMaakContentstrategieNul = React.lazy(() => import('./pages/BlogPostMaakContentstrategieNul'));
+const BlogPostUserGeneratedContentKlantenContentmakers = React.lazy(() => import('./pages/BlogPostUserGeneratedContentKlantenContentmakers'));
+const BlogPostSchrijfContentAutoriteitUitstraalt = React.lazy(() => import('./pages/BlogPostSchrijfContentAutoriteitUitstraalt'));
+const BlogPostVerschilTussenSeoSea = React.lazy(() => import('./pages/BlogPostVerschilTussenSeoSea'));
+const BlogPostWerktAlgoritmeGoogle2026 = React.lazy(() => import('./pages/BlogPostWerktAlgoritmeGoogle2026'));
+const BlogPostPerformanceMarketingVerschiltTraditioneleMarketing = React.lazy(() => import('./pages/BlogPostPerformanceMarketingVerschiltTraditioneleMarketing'));
+const BlogPostGebruikNeuromarketingAdvertenties = React.lazy(() => import('./pages/BlogPostGebruikNeuromarketingAdvertenties'));
+const BlogPostCustomerJourneyUitgelegdOnbekendeKlant = React.lazy(() => import('./pages/BlogPostCustomerJourneyUitgelegdOnbekendeKlant'));
+const BlogPostMarketingFunnelVsFlywheelVerschil = React.lazy(() => import('./pages/BlogPostMarketingFunnelVsFlywheelVerschil'));
+const BlogPostBuyerPersonasMarketingcampagnes = React.lazy(() => import('./pages/BlogPostBuyerPersonasMarketingcampagnes'));
+const BlogPostCplVsCpaVsRoas = React.lazy(() => import('./pages/BlogPostCplVsCpaVsRoas'));
+const BlogPostBesteMarketingToolsMkb2026 = React.lazy(() => import('./pages/BlogPostBesteMarketingToolsMkb2026'));
+const BlogPostGoogleTrendsMarketingbeslissingen = React.lazy(() => import('./pages/BlogPostGoogleTrendsMarketingbeslissingen'));
+const BlogPostBouwVertrouwenNieuweWebsiteBezoekers = React.lazy(() => import('./pages/BlogPostBouwVertrouwenNieuweWebsiteBezoekers'));
+const BlogPostMaakMarketingplan7Stappen = React.lazy(() => import('./pages/BlogPostMaakMarketingplan7Stappen'));
+const BlogPostRemarketingMeerdereKanalen = React.lazy(() => import('./pages/BlogPostRemarketingMeerdereKanalen'));
+const BlogPostZeroClickSearchesStrategie = React.lazy(() => import('./pages/BlogPostZeroClickSearchesStrategie'));
+const BlogPostKlantdataBetereAdvertenties = React.lazy(() => import('./pages/BlogPostKlantdataBetereAdvertenties'));
+const BlogPostMarketingKpisWekelijksBijhouden = React.lazy(() => import('./pages/BlogPostMarketingKpisWekelijksBijhouden'));
+const BlogPostLeadopvolgingAutomatiseren = React.lazy(() => import('./pages/BlogPostLeadopvolgingAutomatiseren'));
+const BlogPostKlantloyaliteitMeerOmzet = React.lazy(() => import('./pages/BlogPostKlantloyaliteitMeerOmzet'));
+const BlogPostPsychologieEffectieveAdvertenties = React.lazy(() => import('./pages/BlogPostPsychologieEffectieveAdvertenties'));
+const BlogPostStorytellingMarketingcampagnes = React.lazy(() => import('./pages/BlogPostStorytellingMarketingcampagnes'));
+const BlogPostDarkSocialMeten = React.lazy(() => import('./pages/BlogPostDarkSocialMeten'));
+const BlogPostKlantinterviewsBetereMarketing = React.lazy(() => import('./pages/BlogPostKlantinterviewsBetereMarketing'));
+const BlogPostNpsMetenVerbeteren = React.lazy(() => import('./pages/BlogPostNpsMetenVerbeteren'));
+const BlogPostDynamicCreativeOptimizationMetaAds = React.lazy(() => import('./pages/BlogPostDynamicCreativeOptimizationMetaAds'));
+const BlogPostMetaAdsVsGoogleAds = React.lazy(() => import('./pages/BlogPostMetaAdsVsGoogleAds'));
+const BlogPostCustomAudiencesMetaAdsSegmenteren = React.lazy(() => import('./pages/BlogPostCustomAudiencesMetaAdsSegmenteren'));
+const BlogPostMetaAdsLeadgeneratie = React.lazy(() => import('./pages/BlogPostMetaAdsLeadgeneratie'));
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -414,6 +449,10 @@ function App() {
           <Route path="/blogs/strategie/kleurpsychologie-landingspagina-conversie" element={<BlogPostKleurpsychologieLandingspaginaConversie />} />
           <Route path="/blogs/strategie/effectieve-bedankpagina-na-conversie" element={<BlogPostEffectieveBedankpaginaNaConversie />} />
           <Route path="/blogs/strategie/landingspagina-leadgeneratie-maximaliseer-aanmeldingen" element={<BlogPostLandingspaginaLeadgeneratieMaximaliseerAanmeldingen />} />
+          <Route path="/blogs/strategie/squeeze-page-wanneer-gebruiken" element={<BlogPostSqueezePageWanneerGebruiken />} />
+          <Route path="/blogs/tracking/google-looker-studio-marketingrapporten" element={<BlogPostLookerStudioMarketingrapporten />} />
+          <Route path="/blogs/tracking/offline-conversies-online-advertenties" element={<BlogPostOfflineConversiesOnlineAdvertenties />} />
+          <Route path="/blogs/tracking/marketing-dashboard-echt-nuttig" element={<BlogPostMarketingDashboardEchtNuttig />} />
           <Route path="/blogs/google-ads/google-ads-specialist-vinden-testen" element={<BlogPostGoogleAdsSpecialistVindenTesten />} />
           <Route path="/blogs/algemeen/b2b-marketing-bureau-vs-zelf" element={<BlogPostB2bMarketingBureauVsZelf />} />
           <Route path="/blogs/seo/ai-seo-2025-verandert-kunstmatige" element={<BlogPostAiSeo2025 />} />
@@ -498,6 +537,7 @@ function App() {
           <Route path="/blogs/social-ads/instagram-ads-doelgroepen-lookalike-custom-advantage" element={<BlogPostInstagramAdsDoelgroepenLookalikeCustomAdvantage />} />
           <Route path="/blogs/social-ads/instagram-adverteren-webshops-shopping-aankoop" element={<BlogPostInstagramAdverterenWebshopsShoppingAankoop />} />
           <Route path="/blogs/social-ads/andromeda-algoritme-2026-instagram" element={<BlogPostAndromedaAlgoritme2026Instagram />} />
+          <Route path="/blogs/social-ads/meta-ads-veiling-algoritme-uitleg" element={<BlogPostMetaAdsVeilingAlgoritme />} />
           <Route path="/blogs/google-ads/google-ads-beheer-checklist-bureau-controleren" element={<BlogPostGoogleAdsBeheerChecklistBureauControleren />} />
           <Route path="/blogs/social-ads/tiktok-adverteren-2026-complete-gids-beginners" element={<BlogPostTiktokAdverteren2026CompleteGidsBeginners />} />
           <Route path="/blogs/social-ads/meta-ads-campagnestructuur-bouw-goed" element={<BlogPostMetaAdsCampagnestructuur />} />
@@ -606,6 +646,36 @@ function App() {
           <Route path="/blogs/google-ads/google-ads-bureau-vragen-eerste-gesprek" element={<BlogPostGoogleAdsBureauVragenEersteGesprek />} />
           <Route path="/blogs/google-ads/google-ads-bureau-red-flags-tekenen" element={<BlogPostGoogleAdsBureauRedFlagsTekenen />} />
           <Route path="/blogs/strategie/online-marketing-strategie-2026-kanalen" element={<BlogPostOnlineMarketingStrategie2026Kanalen />} />
+          <Route path="/blogs/strategie/maak-contentstrategie-nul" element={<BlogPostMaakContentstrategieNul />} />
+          <Route path="/blogs/strategie/user-generated-content-klanten-contentmakers" element={<BlogPostUserGeneratedContentKlantenContentmakers />} />
+          <Route path="/blogs/strategie/schrijf-content-autoriteit-uitstraalt" element={<BlogPostSchrijfContentAutoriteitUitstraalt />} />
+          <Route path="/blogs/algemeen/verschil-tussen-seo-sea" element={<BlogPostVerschilTussenSeoSea />} />
+          <Route path="/blogs/algemeen/werkt-algoritme-google-2026" element={<BlogPostWerktAlgoritmeGoogle2026 />} />
+          <Route path="/blogs/algemeen/performance-marketing-verschilt-traditionele-marketing" element={<BlogPostPerformanceMarketingVerschiltTraditioneleMarketing />} />
+          <Route path="/blogs/algemeen/gebruik-neuromarketing-advertenties" element={<BlogPostGebruikNeuromarketingAdvertenties />} />
+          <Route path="/blogs/algemeen/customer-journey-uitgelegd-onbekende-klant" element={<BlogPostCustomerJourneyUitgelegdOnbekendeKlant />} />
+          <Route path="/blogs/algemeen/marketing-funnel-vs-flywheel-verschil" element={<BlogPostMarketingFunnelVsFlywheelVerschil />} />
+          <Route path="/blogs/algemeen/buyer-personas-marketingcampagnes-echt-verbeteren" element={<BlogPostBuyerPersonasMarketingcampagnes />} />
+          <Route path="/blogs/algemeen/cpl-vs-cpa-vs-roas" element={<BlogPostCplVsCpaVsRoas />} />
+          <Route path="/blogs/algemeen/beste-marketing-tools-mkb-2026" element={<BlogPostBesteMarketingToolsMkb2026 />} />
+          <Route path="/blogs/algemeen/google-trends-betere-marketingbeslissingen" element={<BlogPostGoogleTrendsMarketingbeslissingen />} />
+          <Route path="/blogs/algemeen/bouw-vertrouwen-nieuwe-website-bezoekers" element={<BlogPostBouwVertrouwenNieuweWebsiteBezoekers />} />
+          <Route path="/blogs/algemeen/maak-marketingplan-7-stappen" element={<BlogPostMaakMarketingplan7Stappen />} />
+          <Route path="/blogs/algemeen/remarketing-effectief-over-meerdere-kanalen" element={<BlogPostRemarketingMeerdereKanalen />} />
+          <Route path="/blogs/algemeen/zero-click-searches-pas-strategie" element={<BlogPostZeroClickSearchesStrategie />} />
+          <Route path="/blogs/algemeen/gebruik-klantdata-betere-advertenties-maken" element={<BlogPostKlantdataBetereAdvertenties />} />
+          <Route path="/blogs/algemeen/marketing-kpis-wekelijks-bijhouden" element={<BlogPostMarketingKpisWekelijksBijhouden />} />
+          <Route path="/blogs/algemeen/leadopvolging-automatiseren-crm" element={<BlogPostLeadopvolgingAutomatiseren />} />
+          <Route path="/blogs/algemeen/klantloyaliteit-om-meer-omzet" element={<BlogPostKlantloyaliteitMeerOmzet />} />
+          <Route path="/blogs/algemeen/psychologie-achter-effectieve-advertenties" element={<BlogPostPsychologieEffectieveAdvertenties />} />
+          <Route path="/blogs/algemeen/gebruik-storytelling-marketingcampagnes" element={<BlogPostStorytellingMarketingcampagnes />} />
+          <Route path="/blogs/algemeen/dark-social-meet" element={<BlogPostDarkSocialMeten />} />
+          <Route path="/blogs/algemeen/gebruik-klantinterviews-betere-marketing-maken" element={<BlogPostKlantinterviewsBetereMarketing />} />
+          <Route path="/blogs/algemeen/nps-meten-verbeteren-meer-promotors" element={<BlogPostNpsMetenVerbeteren />} />
+          <Route path="/blogs/social-ads/dynamic-creative-optimization-meta-ads" element={<BlogPostDynamicCreativeOptimizationMetaAds />} />
+          <Route path="/blogs/social-ads/meta-ads-vs-google-ads-vergelijking" element={<BlogPostMetaAdsVsGoogleAds />} />
+          <Route path="/blogs/social-ads/custom-audiences-meta-ads-segmenteren" element={<BlogPostCustomAudiencesMetaAdsSegmenteren />} />
+          <Route path="/blogs/social-ads/meta-ads-leadgeneratie-kwalitatieve-leads" element={<BlogPostMetaAdsLeadgeneratie />} />
 
           {/* /blogs/ redirect naar /nieuws */}
           <Route path="/blogs" element={<Navigate to="/nieuws" replace />} />
