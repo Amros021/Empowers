@@ -40,7 +40,7 @@ const STATIC_PAGES = [
 // ─── 2. BLOG CATEGORIEËN ────────────────────────────────────────────────────
 // Moet overeenkomen met de slugs in BlogCategory.jsx CATEGORY_CONFIG
 const BLOG_CATEGORIES = [
-    'seo', 'geo', 'google-ads', 'social-ads', 'tracking', 'strategie', 'algemeen',
+    'seo', 'geo', 'google-ads', 'social-ads', 'tracking', 'strategie', 'algemeen', 'ai-ads',
 ];
 
 // ─── 3. BLOG ARTIKELEN (automatisch uit articles.js) ───────────────────────
@@ -71,6 +71,7 @@ function latestDateForCategory(articles, catSlug) {
         'tracking':   'Tracking',
         'strategie':  'Strategie',
         'algemeen':   'Algemeen',
+        'ai-ads':     'AI Ads',
     };
     const catName = CAT_SLUG_MAP[catSlug];
     const matching = articles
