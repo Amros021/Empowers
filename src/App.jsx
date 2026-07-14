@@ -313,8 +313,57 @@ const BlogPostKlantinterviewsBetereMarketing = React.lazy(() => import('./pages/
 const BlogPostNpsMetenVerbeteren = React.lazy(() => import('./pages/BlogPostNpsMetenVerbeteren'));
 const BlogPostDynamicCreativeOptimizationMetaAds = React.lazy(() => import('./pages/BlogPostDynamicCreativeOptimizationMetaAds'));
 const BlogPostMetaAdsVsGoogleAds = React.lazy(() => import('./pages/BlogPostMetaAdsVsGoogleAds'));
+const BlogPostMetaBusinessSuiteVsAdsManager = React.lazy(() => import('./pages/BlogPostMetaBusinessSuiteVsAdsManager'));
 const BlogPostCustomAudiencesMetaAdsSegmenteren = React.lazy(() => import('./pages/BlogPostCustomAudiencesMetaAdsSegmenteren'));
+const BlogPostMetaAdsEcommerceStrategieFases = React.lazy(() => import('./pages/BlogPostMetaAdsEcommerceStrategieFases'));
+const BlogPostBroadTargetingMetaAds2026 = React.lazy(() => import('./pages/BlogPostBroadTargetingMetaAds2026'));
+const BlogPostLinkedinAdsUitbestedenB2bResultaten = React.lazy(() => import('./pages/BlogPostLinkedinAdsUitbestedenB2bResultaten'));
+const BlogPostLinkedinAdsItBedrijvenSoftwareLeads = React.lazy(() => import('./pages/BlogPostLinkedinAdsItBedrijvenSoftwareLeads'));
+const BlogPostAccountBasedMarketingLinkedinAds = React.lazy(() => import('./pages/BlogPostAccountBasedMarketingLinkedinAds'));
+const BlogPostLinkedinAdsTargetingBeslissersBereiken = React.lazy(() => import('./pages/BlogPostLinkedinAdsTargetingBeslissersBereiken'));
+const BlogPostLinkedinAlgoritmeAdvertentiesUitleg = React.lazy(() => import('./pages/BlogPostLinkedinAlgoritmeAdvertentiesUitleg'));
+const BlogPostLinkedinAdsWebinarAanmeldingen = React.lazy(() => import('./pages/BlogPostLinkedinAdsWebinarAanmeldingen'));
+const BlogPostLinkedinRetargetingCampagneOpzetten = React.lazy(() => import('./pages/BlogPostLinkedinRetargetingCampagneOpzetten'));
+const BlogPostLinkedinAdsFrequentiecapAdvertentiemoeheid = React.lazy(() => import('./pages/BlogPostLinkedinAdsFrequentiecapAdvertentiemoeheid'));
+const BlogPostLinkedinInsightTagCorrectInstellen = React.lazy(() => import('./pages/BlogPostLinkedinInsightTagCorrectInstellen'));
+const BlogPostLinkedinAdsKpiResultatenMeten = React.lazy(() => import('./pages/BlogPostLinkedinAdsKpiResultatenMeten'));
+const BlogPostLinkedinAdsFormatenVergelijking = React.lazy(() => import('./pages/BlogPostLinkedinAdsFormatenVergelijking'));
+const BlogPostTiktokAdsUitbestedenWatWeten = React.lazy(() => import('./pages/BlogPostTiktokAdsUitbestedenWatWeten'));
+const BlogPostTiktokCreatorKiezenAdvertenties = React.lazy(() => import('./pages/BlogPostTiktokCreatorKiezenAdvertenties'));
+const BlogPostTiktokSparkAdsOrganischeContent = React.lazy(() => import('./pages/BlogPostTiktokSparkAdsOrganischeContent'));
+const BlogPostTiktokShoppingAdsEcommerce = React.lazy(() => import('./pages/BlogPostTiktokShoppingAdsEcommerce'));
+const BlogPostTiktokInFeedAdsVsTopviewVergelijking = React.lazy(() => import('./pages/BlogPostTiktokInFeedAdsVsTopviewVergelijking'));
+const BlogPostTiktokCreatorMarketplaceInfluencersAdvertenties = React.lazy(() => import('./pages/BlogPostTiktokCreatorMarketplaceInfluencersAdvertenties'));
+const BlogPostTiktokAdsRapportageStatistieken = React.lazy(() => import('./pages/BlogPostTiktokAdsRapportageStatistieken'));
+const BlogPostTiktokAdvertentiescriptConverteert = React.lazy(() => import('./pages/BlogPostTiktokAdvertentiescriptConverteert'));
+const BlogPostTiktokAdsWebshopZichtbaarheidVerkoop = React.lazy(() => import('./pages/BlogPostTiktokAdsWebshopZichtbaarheidVerkoop'));
+const BlogPostTiktokAdverterenTrends2026 = React.lazy(() => import('./pages/BlogPostTiktokAdverterenTrends2026'));
+const BlogPostTiktokLeadGenerationCampagne = React.lazy(() => import('./pages/BlogPostTiktokLeadGenerationCampagne'));
 const BlogPostMetaAdsLeadgeneratie = React.lazy(() => import('./pages/BlogPostMetaAdsLeadgeneratie'));
+const BlogPostContentMarketingStrategieOpzetten = React.lazy(() => import('./pages/BlogPostContentMarketingStrategieOpzetten'));
+const BlogPostEvergreenContentVsActueleContent = React.lazy(() => import('./pages/BlogPostEvergreenContentVsActueleContent'));
+const BlogPostContentkalenderMakenVolhouden = React.lazy(() => import('./pages/BlogPostContentkalenderMakenVolhouden'));
+const BlogPostContentRepurposingAcrossKanalen = React.lazy(() => import('./pages/BlogPostContentRepurposingAcrossKanalen'));
+const BlogPostEmailNieuwsbriefVsSocialMedia = React.lazy(() => import('./pages/BlogPostEmailNieuwsbriefVsSocialMedia'));
+const BlogPostVideoContentStrategieBedrijven = React.lazy(() => import('./pages/BlogPostVideoContentStrategieBedrijven'));
+const BlogPostUserGeneratedContentMarketing = React.lazy(() => import('./pages/BlogPostUserGeneratedContentMarketing'));
+const BlogPostInfographicsMakenContentStrategie = React.lazy(() => import('./pages/BlogPostInfographicsMakenContentStrategie'));
+const BlogPostThoughtLeadershipContentExpertWorden = React.lazy(() => import('./pages/BlogPostThoughtLeadershipContentExpertWorden'));
+const BlogPostSeoCopywritingSchrijvenGoogleLezer = React.lazy(() => import('./pages/BlogPostSeoCopywritingSchrijvenGoogleLezer'));
+const BlogPostPillarPagesTopicClustersAutoriteit = React.lazy(() => import('./pages/BlogPostPillarPagesTopicClustersAutoriteit'));
+const BlogPostContentMarketingSuccesMetenKpi = React.lazy(() => import('./pages/BlogPostContentMarketingSuccesMetenKpi'));
+const BlogPostGoogleTagManagerVsHardcodedTags = React.lazy(() => import('./pages/BlogPostGoogleTagManagerVsHardcodedTags'));
+const BlogPostContentAuditUitvoerenGids = React.lazy(() => import('./pages/BlogPostContentAuditUitvoerenGids'));
+const BlogPostSchrijvenVoorAiZoekmachinesGeciteerd = React.lazy(() => import('./pages/BlogPostSchrijvenVoorAiZoekmachinesGeciteerd'));
+const BlogPostGoogleTagManagerTriggersVariabelenInstellen = React.lazy(() => import('./pages/BlogPostGoogleTagManagerTriggersVariabelenInstellen'));
+const BlogPostMarketingMixModelingGebruik = React.lazy(() => import('./pages/BlogPostMarketingMixModelingGebruik'));
+const BlogPostMaakAangepastGa4RapportBusiness = React.lazy(() => import('./pages/BlogPostMaakAangepastGa4RapportBusiness'));
+const BlogPostConversiewaardenInstellenGoogleAds = React.lazy(() => import('./pages/BlogPostConversiewaardenInstellenGoogleAds'));
+const BlogPostHeatmapsSessieOpnamesInzichten = React.lazy(() => import('./pages/BlogPostHeatmapsSessieOpnamesInzichten'));
+const BlogPostGa4ConversiedoelInstellenHandleiding = React.lazy(() => import('./pages/BlogPostGa4ConversiedoelInstellenHandleiding'));
+const BlogPostConsentModeV2VeranderingenMarketeers = React.lazy(() => import('./pages/BlogPostConsentModeV2VeranderingenMarketeers'));
+const BlogPostMicroConversiesTrackenStappen = React.lazy(() => import('./pages/BlogPostMicroConversiesTrackenStappen'));
+const BlogPostFirstPartyDataStrategieOpbouwen = React.lazy(() => import('./pages/BlogPostFirstPartyDataStrategieOpbouwen'));
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -609,6 +658,30 @@ function App() {
           <Route path="/blogs/strategie/interactieve-content-meer-leads" element={<BlogPostInteractieveContentMeerLeads />} />
           <Route path="/blogs/tracking/meet-roi-online-marketing" element={<BlogPostMeetRoiOnlineMarketing />} />
           <Route path="/blogs/strategie/content-marketing-vs-betaalde-advertenties" element={<BlogPostContentMarketingVsBetaaldeAdvertenties />} />
+          <Route path="/blogs/strategie/content-marketing-strategie-opzetten" element={<BlogPostContentMarketingStrategieOpzetten />} />
+          <Route path="/blogs/strategie/evergreen-content-vs-actuele-content" element={<BlogPostEvergreenContentVsActueleContent />} />
+          <Route path="/blogs/strategie/contentkalender-maken-volhouden" element={<BlogPostContentkalenderMakenVolhouden />} />
+          <Route path="/blogs/strategie/content-repurposing-across-kanalen" element={<BlogPostContentRepurposingAcrossKanalen />} />
+          <Route path="/blogs/strategie/email-nieuwsbrief-vs-social-media" element={<BlogPostEmailNieuwsbriefVsSocialMedia />} />
+          <Route path="/blogs/strategie/video-content-strategie-bedrijven" element={<BlogPostVideoContentStrategieBedrijven />} />
+          <Route path="/blogs/strategie/user-generated-content-marketing" element={<BlogPostUserGeneratedContentMarketing />} />
+          <Route path="/blogs/strategie/infographics-maken-content-strategie" element={<BlogPostInfographicsMakenContentStrategie />} />
+          <Route path="/blogs/strategie/thought-leadership-content-expert-worden" element={<BlogPostThoughtLeadershipContentExpertWorden />} />
+          <Route path="/blogs/strategie/seo-copywriting-schrijven-google-lezer" element={<BlogPostSeoCopywritingSchrijvenGoogleLezer />} />
+          <Route path="/blogs/strategie/pillar-pages-topic-clusters-autoriteit" element={<BlogPostPillarPagesTopicClustersAutoriteit />} />
+          <Route path="/blogs/strategie/content-marketing-succes-meten-kpi" element={<BlogPostContentMarketingSuccesMetenKpi />} />
+          <Route path="/blogs/tracking/google-tag-manager-vs-hardcoded-tags" element={<BlogPostGoogleTagManagerVsHardcodedTags />} />
+          <Route path="/blogs/strategie/content-audit-uitvoeren-gids" element={<BlogPostContentAuditUitvoerenGids />} />
+          <Route path="/blogs/strategie/schrijven-voor-ai-zoekmachines-geciteerd" element={<BlogPostSchrijvenVoorAiZoekmachinesGeciteerd />} />
+          <Route path="/blogs/tracking/google-tag-manager-triggers-variabelen-instellen" element={<BlogPostGoogleTagManagerTriggersVariabelenInstellen />} />
+          <Route path="/blogs/tracking/marketing-mix-modeling-gebruik" element={<BlogPostMarketingMixModelingGebruik />} />
+          <Route path="/blogs/tracking/maak-aangepast-ga4-rapport-business" element={<BlogPostMaakAangepastGa4RapportBusiness />} />
+          <Route path="/blogs/tracking/conversiewaarden-instellen-google-ads" element={<BlogPostConversiewaardenInstellenGoogleAds />} />
+          <Route path="/blogs/tracking/heatmaps-sessie-opnames-inzichten" element={<BlogPostHeatmapsSessieOpnamesInzichten />} />
+          <Route path="/blogs/tracking/ga4-conversiedoel-instellen-handleiding" element={<BlogPostGa4ConversiedoelInstellenHandleiding />} />
+          <Route path="/blogs/tracking/consent-mode-v2-veranderingen-marketeers" element={<BlogPostConsentModeV2VeranderingenMarketeers />} />
+          <Route path="/blogs/tracking/micro-conversies-tracken-stappen" element={<BlogPostMicroConversiesTrackenStappen />} />
+          <Route path="/blogs/tracking/first-party-data-strategie-opbouwen" element={<BlogPostFirstPartyDataStrategieOpbouwen />} />
           <Route path="/blogs/strategie/straft-google-ai-gegenereerde-content" element={<BlogPostStraftGoogleAiGegenereerdeContent />} />
           <Route path="/blogs/algemeen/data-betere-marketingbeslissingen" element={<BlogPostDataBetereMarketingbeslissingen />} />
           <Route path="/blogs/algemeen/brandmonitoring-hou-over-gezegd" element={<BlogPostBrandmonitoringHouOverGezegd />} />
@@ -674,7 +747,32 @@ function App() {
           <Route path="/blogs/algemeen/nps-meten-verbeteren-meer-promotors" element={<BlogPostNpsMetenVerbeteren />} />
           <Route path="/blogs/social-ads/dynamic-creative-optimization-meta-ads" element={<BlogPostDynamicCreativeOptimizationMetaAds />} />
           <Route path="/blogs/social-ads/meta-ads-vs-google-ads-vergelijking" element={<BlogPostMetaAdsVsGoogleAds />} />
+          <Route path="/blogs/social-ads/meta-business-suite-vs-ads-manager" element={<BlogPostMetaBusinessSuiteVsAdsManager />} />
           <Route path="/blogs/social-ads/custom-audiences-meta-ads-segmenteren" element={<BlogPostCustomAudiencesMetaAdsSegmenteren />} />
+          <Route path="/blogs/social-ads/meta-ads-e-commerce-strategie-fases" element={<BlogPostMetaAdsEcommerceStrategieFases />} />
+          <Route path="/blogs/social-ads/broad-targeting-meta-ads-2026" element={<BlogPostBroadTargetingMetaAds2026 />} />
+          <Route path="/blogs/social-ads/linkedin-ads-uitbesteden-b2b-resultaten" element={<BlogPostLinkedinAdsUitbestedenB2bResultaten />} />
+          <Route path="/blogs/social-ads/linkedin-ads-it-bedrijven-software-leads" element={<BlogPostLinkedinAdsItBedrijvenSoftwareLeads />} />
+          <Route path="/blogs/social-ads/account-based-marketing-linkedin-ads" element={<BlogPostAccountBasedMarketingLinkedinAds />} />
+          <Route path="/blogs/social-ads/linkedin-ads-targeting-beslissers-bereiken" element={<BlogPostLinkedinAdsTargetingBeslissersBereiken />} />
+          <Route path="/blogs/social-ads/linkedin-algoritme-advertenties-uitleg" element={<BlogPostLinkedinAlgoritmeAdvertentiesUitleg />} />
+          <Route path="/blogs/social-ads/linkedin-ads-webinar-aanmeldingen" element={<BlogPostLinkedinAdsWebinarAanmeldingen />} />
+          <Route path="/blogs/social-ads/linkedin-retargeting-campagne-opzetten" element={<BlogPostLinkedinRetargetingCampagneOpzetten />} />
+          <Route path="/blogs/social-ads/linkedin-ads-frequentiecap-advertentiemoeheid" element={<BlogPostLinkedinAdsFrequentiecapAdvertentiemoeheid />} />
+          <Route path="/blogs/social-ads/linkedin-insight-tag-correct-instellen" element={<BlogPostLinkedinInsightTagCorrectInstellen />} />
+          <Route path="/blogs/social-ads/linkedin-ads-kpi-resultaten-meten" element={<BlogPostLinkedinAdsKpiResultatenMeten />} />
+          <Route path="/blogs/social-ads/linkedin-ads-formaten-vergelijking" element={<BlogPostLinkedinAdsFormatenVergelijking />} />
+          <Route path="/blogs/social-ads/tiktok-ads-uitbesteden-wat-weten" element={<BlogPostTiktokAdsUitbestedenWatWeten />} />
+          <Route path="/blogs/social-ads/tiktok-creator-kiezen-advertenties" element={<BlogPostTiktokCreatorKiezenAdvertenties />} />
+          <Route path="/blogs/social-ads/tiktok-spark-ads-organische-content" element={<BlogPostTiktokSparkAdsOrganischeContent />} />
+          <Route path="/blogs/social-ads/tiktok-shopping-ads-e-commerce" element={<BlogPostTiktokShoppingAdsEcommerce />} />
+          <Route path="/blogs/social-ads/tiktok-in-feed-ads-vs-topview-vergelijking" element={<BlogPostTiktokInFeedAdsVsTopviewVergelijking />} />
+          <Route path="/blogs/social-ads/tiktok-creator-marketplace-influencers-advertenties" element={<BlogPostTiktokCreatorMarketplaceInfluencersAdvertenties />} />
+          <Route path="/blogs/social-ads/tiktok-ads-rapportage-statistieken" element={<BlogPostTiktokAdsRapportageStatistieken />} />
+          <Route path="/blogs/social-ads/tiktok-advertentiescript-converteert" element={<BlogPostTiktokAdvertentiescriptConverteert />} />
+          <Route path="/blogs/social-ads/tiktok-ads-webshop-zichtbaarheid-verkoop" element={<BlogPostTiktokAdsWebshopZichtbaarheidVerkoop />} />
+          <Route path="/blogs/social-ads/tiktok-adverteren-trends-2026" element={<BlogPostTiktokAdverterenTrends2026 />} />
+          <Route path="/blogs/social-ads/tiktok-lead-generation-campagne" element={<BlogPostTiktokLeadGenerationCampagne />} />
           <Route path="/blogs/social-ads/meta-ads-leadgeneratie-kwalitatieve-leads" element={<BlogPostMetaAdsLeadgeneratie />} />
 
           {/* /blogs/ redirect naar /nieuws */}
