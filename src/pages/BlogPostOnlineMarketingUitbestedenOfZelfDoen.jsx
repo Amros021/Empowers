@@ -19,7 +19,7 @@ export default function BlogPostOnlineMarketingUitbestedenOfZelfDoen() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/algemeen/online-marketing-uitbesteden-of-zelf-doen" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/online-marketing-uitbesteden-of-zelf-doen.jpg" />
-                <meta property="article:published_time" content="2026-05-13" />
+                <meta property="article:published_time" content="2026-05-13T15:30:00+02:00" />
                 <meta property="article:section" content="Algemeen" />
 
                 <script type="application/ld+json">{JSON.stringify({
@@ -55,7 +55,10 @@ export default function BlogPostOnlineMarketingUitbestedenOfZelfDoen() {
                         { "@type": "ListItem", "position": 4, "name": "Uitbesteden of zelf doen", "item": "https://www.empowers.nl/blogs/algemeen/online-marketing-uitbesteden-of-zelf-doen" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Online marketing uitbesteden of zelf doen: de eerlijke vergelijking" />
+        <meta name="twitter:description" content="Zelf doen of uitbesteden? De eerlijke kostenvergelijking, de verborgen tijdsinvestering en de drempelwaarden waarbij je " />
+      </Helmet>
 
             <Navbar />
 

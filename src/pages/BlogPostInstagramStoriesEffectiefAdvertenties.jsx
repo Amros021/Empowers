@@ -21,7 +21,7 @@ export default function BlogPostInstagramStoriesEffectiefAdvertenties() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/instagram-stories-effectief-advertenties" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/instagram-stories-effectief-advertenties.jpg" />
-                <meta property="article:published_time" content="2026-05-13" />
+                <meta property="article:published_time" content="2026-05-13T12:30:00+02:00" />
                 <meta property="article:section" content="Social Ads" />
 
                 <script type="application/ld+json">
@@ -62,7 +62,10 @@ export default function BlogPostInstagramStoriesEffectiefAdvertenties() {
                         ]
                     })}
                 </script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Instagram Stories advertenties: zo zet je het format effectief in" />
+        <meta name="twitter:description" content="Instagram Stories ads zijn anders dan feed-ads. Wat de eerste 3 seconden moet doen, hoe je een vertical creative bouwt e" />
+      </Helmet>
 
             <Navbar />
 

@@ -22,7 +22,7 @@ export default function BlogPostMobileFirstLandingspaginas() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/strategie/mobile-first-landingspaginas-geen-optie" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/mobile-first-landingspaginas-geen-optie.jpg" />
-                <meta property="article:published_time" content="2026-05-10" />
+                <meta property="article:published_time" content="2026-05-10T21:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Strategie" />
                 <meta name="twitter:card" content="summary_large_image" />

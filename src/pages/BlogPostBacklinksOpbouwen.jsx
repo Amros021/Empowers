@@ -21,7 +21,7 @@ export default function BlogPostBacklinksOpbouwen() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/seo/backlinks-opbouwen" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/backlinks-opbouwen.jpg" />
-                <meta property="article:published_time" content="2026-04-14" />
+                <meta property="article:published_time" content="2026-04-14T00:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="SEO" />
                 <meta name="twitter:card" content="summary_large_image" />

@@ -21,7 +21,7 @@ export default function BlogPostAndromedaAlgoritme2026Instagram() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/andromeda-algoritme-2026-instagram" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/andromeda-algoritme-2026-instagram.jpg" />
-                <meta property="article:published_time" content="2026-04-25" />
+                <meta property="article:published_time" content="2026-04-25T11:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Social Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

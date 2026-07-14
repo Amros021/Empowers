@@ -50,7 +50,7 @@ export default function BlogPostLandingspaginaWaaromAnders() {
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/landingspagina-waarom-hij-anders-homepage.jpg" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/strategie/landingspagina-waarom-hij-anders-homepage" />
                 <meta property="og:type" content="article" />
-                <meta name="article:published_time" content="2026-04-04T09:00:00Z" />
+                <meta name="article:published_time" content="2026-04-04T00:00:00+02:00" />
                 <meta name="article:author" content="Empowers" />
                 <meta name="article:section" content="Strategie" />
                 <script type="application/ld+json">
@@ -115,7 +115,10 @@ export default function BlogPostLandingspaginaWaaromAnders() {
                         }))
                     })}
                 </script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Wat is een landingspagina en waarom is hij anders dan je homepage?" />
+        <meta name="twitter:description" content="Een landingspagina is een pagina met maar een doel: conversie. Lees waarom hij anders werkt dan je homepage en hoe je er" />
+      </Helmet>
 
             <Navbar />
 

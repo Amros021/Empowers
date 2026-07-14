@@ -22,7 +22,7 @@ export default function BlogPostOnlineMarketingUitbestedenFoutenMkb() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/algemeen/online-marketing-uitbesteden-fouten-mkb" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/online-marketing-uitbesteden-fouten-mkb.jpg" />
-                <meta property="article:published_time" content="2026-05-26" />
+                <meta property="article:published_time" content="2026-05-26T09:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Algemeen" />
                 <meta name="twitter:card" content="summary_large_image" />

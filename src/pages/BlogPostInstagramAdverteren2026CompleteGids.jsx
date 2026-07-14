@@ -21,7 +21,7 @@ export default function BlogPostInstagramAdverteren2026CompleteGids() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/instagram-adverteren-2026-complete-gids" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/instagram-adverteren-2026-complete-gids.jpg" />
-                <meta property="article:published_time" content="2026-04-05" />
+                <meta property="article:published_time" content="2026-04-05T09:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Social Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

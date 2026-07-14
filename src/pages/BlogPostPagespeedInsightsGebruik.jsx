@@ -22,7 +22,7 @@ export default function BlogPostPagespeedInsightsGebruik() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/seo/pagespeed-insights-gebruik" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/pagespeed-insights-gebruik.jpg" />
-                <meta property="article:published_time" content="2026-06-03" />
+                <meta property="article:published_time" content="2026-06-03T20:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="SEO" />
                 <meta name="twitter:card" content="summary_large_image" />

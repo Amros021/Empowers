@@ -22,7 +22,7 @@ export default function BlogPostSocialProofEffectiefWebsite() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/strategie/social-proof-effectief-website" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/social-proof-effectief-website.jpg" />
-                <meta property="article:published_time" content="2026-06-05" />
+                <meta property="article:published_time" content="2026-06-05T12:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Strategie" />
                 <meta name="twitter:card" content="summary_large_image" />

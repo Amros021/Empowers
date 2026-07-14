@@ -22,7 +22,7 @@ export default function BlogPostFaqSectiesOmBeterGevonden() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/geo/faq-secties-om-beter-gevonden" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/faq-secties-om-beter-gevonden.jpg" />
-                <meta property="article:published_time" content="2026-06-04" />
+                <meta property="article:published_time" content="2026-06-04T13:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="GEO" />
                 <meta name="twitter:card" content="summary_large_image" />

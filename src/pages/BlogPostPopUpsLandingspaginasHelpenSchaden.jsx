@@ -22,7 +22,7 @@ export default function BlogPostPopUpsLandingspaginasHelpenSchaden() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/strategie/pop-ups-landingspaginas-helpen-schaden" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/pop-ups-landingspaginas-helpen-schaden.jpg" />
-                <meta property="article:published_time" content="2026-06-05" />
+                <meta property="article:published_time" content="2026-06-05T13:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Strategie" />
                 <meta name="twitter:card" content="summary_large_image" />

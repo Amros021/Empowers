@@ -21,7 +21,7 @@ export default function BlogPostAttributionModellenLastClickDataDriven() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/tracking/attribution-modellen-uitgelegd-last-click" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/attribution-modellen-uitgelegd-last-click.jpg" />
-                <meta property="article:published_time" content="2026-04-28" />
+                <meta property="article:published_time" content="2026-04-28T09:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Tracking" />
                 <meta name="twitter:card" content="summary_large_image" />
