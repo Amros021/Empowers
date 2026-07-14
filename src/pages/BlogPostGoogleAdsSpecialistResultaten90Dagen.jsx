@@ -19,7 +19,7 @@ export default function BlogPostGoogleAdsSpecialistResultaten90Dagen() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/google-ads-specialist-resultaten-90-dagen" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/google-ads-specialist-resultaten-90-dagen.jpg" />
-                <meta property="article:published_time" content="2026-05-14" />
+                <meta property="article:published_time" content="2026-05-14T11:00:00+02:00" />
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
@@ -55,7 +55,10 @@ export default function BlogPostGoogleAdsSpecialistResultaten90Dagen() {
                         { "@type": "ListItem", "position": 4, "name": "Google Ads specialist resultaten 90 dagen", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-specialist-resultaten-90-dagen" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Google Ads specialist inhuren: deze 3 resultaten moet je binnen 90 dagen zien" />
+        <meta name="twitter:description" content="Een goede Google Ads specialist levert binnen 90 dagen concrete signalen op. Welke drie het zijn, hoe je ze meet en wat " />
+      </Helmet>
 
             <Navbar />
 

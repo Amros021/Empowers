@@ -21,7 +21,7 @@ export default function BlogPostLongTailKeywordsGoogleAds() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/long-tail-keywords-google-ads" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/long-tail-keywords-google-ads.jpg" />
-                <meta property="article:published_time" content="2026-04-07" />
+                <meta property="article:published_time" content="2026-04-07T00:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Google Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

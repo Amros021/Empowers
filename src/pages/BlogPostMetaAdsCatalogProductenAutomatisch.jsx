@@ -21,7 +21,7 @@ export default function BlogPostMetaAdsCatalogProductenAutomatisch() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/meta-ads-catalog-producten-automatisch" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/meta-ads-catalog-producten-automatisch.jpg" />
-                <meta property="article:published_time" content="2026-04-26" />
+                <meta property="article:published_time" content="2026-04-26T11:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Social Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

@@ -22,7 +22,7 @@ export default function BlogPostSocialMediaAdverterenUitbestedenWebshop() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/social-media-adverteren-uitbesteden-webshop" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/social-media-adverteren-uitbesteden-webshop.jpg" />
-                <meta property="article:published_time" content="2026-06-02" />
+                <meta property="article:published_time" content="2026-06-02T12:30:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Social Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

@@ -19,7 +19,7 @@ export default function BlogPostSeaUitbestedenWebshopEcommerceBureau() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-webshop-ecommerce-bureau" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/sea-uitbesteden-webshop-ecommerce-bureau.jpg" />
-                <meta property="article:published_time" content="2026-05-13" />
+                <meta property="article:published_time" content="2026-05-13T14:00:00+02:00" />
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
@@ -55,7 +55,10 @@ export default function BlogPostSeaUitbestedenWebshopEcommerceBureau() {
                         { "@type": "ListItem", "position": 4, "name": "SEA uitbesteden als webshop", "item": "https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-webshop-ecommerce-bureau" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SEA uitbesteden als webshop: waar een e-commerce bureau aan moet voldoen" />
+        <meta name="twitter:description" content="Voor webshops is SEA-management iets anders dan voor dienstverleners. Waar een e-commerce bureau aan moet voldoen, welke" />
+      </Helmet>
 
             <Navbar />
 

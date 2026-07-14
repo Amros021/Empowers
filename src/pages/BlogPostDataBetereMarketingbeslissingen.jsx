@@ -21,7 +21,7 @@ export default function BlogPostDataBetereMarketingbeslissingen() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/algemeen/data-betere-marketingbeslissingen" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/data-betere-marketingbeslissingen.jpg" />
-                <meta property="article:published_time" content="2026-05-12" />
+                <meta property="article:published_time" content="2026-05-12T15:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Algemeen" />
                 <meta name="twitter:card" content="summary_large_image" />

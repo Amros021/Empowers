@@ -22,7 +22,7 @@ export default function BlogPostStatistiekenDataOmAiCitaties() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/geo/statistieken-data-om-ai-citaties" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/statistieken-data-om-ai-citaties.jpg" />
-                <meta property="article:published_time" content="2026-06-04" />
+                <meta property="article:published_time" content="2026-06-04T15:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="GEO" />
                 <meta name="twitter:card" content="summary_large_image" />

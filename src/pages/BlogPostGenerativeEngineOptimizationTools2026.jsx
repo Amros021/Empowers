@@ -22,7 +22,7 @@ export default function BlogPostGenerativeEngineOptimizationTools2026() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/geo/generative-engine-optimization-tools-2026" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/generative-engine-optimization-tools-2026.jpg" />
-                <meta property="article:published_time" content="2026-06-02" />
+                <meta property="article:published_time" content="2026-06-02T11:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="GEO" />
                 <meta name="twitter:card" content="summary_large_image" />

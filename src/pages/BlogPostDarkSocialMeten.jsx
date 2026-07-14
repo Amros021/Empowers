@@ -21,7 +21,7 @@ export default function BlogPostDarkSocialMeten() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/algemeen/dark-social-meet" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/dark-social-meet.jpg" />
-                <meta property="article:published_time" content="2026-06-23" />
+                <meta property="article:published_time" content="2026-06-23T10:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Algemeen" />
                 <meta name="twitter:card" content="summary_large_image" />

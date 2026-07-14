@@ -21,7 +21,7 @@ export default function BlogPostOnlineMarketingUitbestedenBureauResultaat() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/algemeen/online-marketing-uitbesteden-bureau-resultaat" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/online-marketing-uitbesteden-bureau-resultaat.jpg" />
-                <meta property="article:published_time" content="2026-05-13" />
+                <meta property="article:published_time" content="2026-05-13T13:00:00+02:00" />
                 <meta property="article:section" content="Algemeen" />
 
                 <script type="application/ld+json">
@@ -62,7 +62,10 @@ export default function BlogPostOnlineMarketingUitbestedenBureauResultaat() {
                         ]
                     })}
                 </script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Online marketing uitbesteden: hoe herken je een bureau dat resultaat levert?" />
+        <meta name="twitter:description" content="Een marketingbureau kiezen dat écht resultaat oplevert? De vragen om vooraf te stellen, de rode vlaggen en de afspraken " />
+      </Helmet>
 
             <Navbar />
 

@@ -21,7 +21,7 @@ export default function BlogPostSeaVsSeoStrategieBudgetDoel() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/algemeen/sea-vs-seo-strategie-budget-doel" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/sea-vs-seo-strategie-budget-doel.jpg" />
-                <meta property="article:published_time" content="2026-05-03" />
+                <meta property="article:published_time" content="2026-05-03T12:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Algemeen" />
                 <meta name="twitter:card" content="summary_large_image" />

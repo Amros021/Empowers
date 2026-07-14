@@ -21,7 +21,7 @@ export default function BlogPostLinkedInAdsUitbestedenWanneerMoeite() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/linkedin-ads-uitbesteden-wanneer-moeite" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/linkedin-ads-uitbesteden-wanneer-moeite.jpg" />
-                <meta property="article:published_time" content="2026-04-17" />
+                <meta property="article:published_time" content="2026-04-17T11:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Social Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

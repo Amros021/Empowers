@@ -21,7 +21,7 @@ export default function BlogPostCoreWebVitalsVerbeteren() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/seo/core-web-vitals-verbeteren-scoort" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/core-web-vitals-verbeteren-scoort.jpg" />
-                <meta property="article:published_time" content="2026-04-17" />
+                <meta property="article:published_time" content="2026-04-17T09:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="SEO" />
                 <meta name="twitter:card" content="summary_large_image" />

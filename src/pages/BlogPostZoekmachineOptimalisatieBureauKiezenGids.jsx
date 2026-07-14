@@ -19,7 +19,7 @@ export default function BlogPostZoekmachineOptimalisatieBureauKiezenGids() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/seo/zoekmachine-optimalisatie-bureau-kiezen-gids" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/zoekmachine-optimalisatie-bureau-kiezen-gids.jpg" />
-                <meta property="article:published_time" content="2026-05-13" />
+                <meta property="article:published_time" content="2026-05-13T17:00:00+02:00" />
                 <meta property="article:section" content="SEO" />
 
                 <script type="application/ld+json">{JSON.stringify({
@@ -55,7 +55,10 @@ export default function BlogPostZoekmachineOptimalisatieBureauKiezenGids() {
                         { "@type": "ListItem", "position": 4, "name": "SEO bureau kiezen", "item": "https://www.empowers.nl/blogs/seo/zoekmachine-optimalisatie-bureau-kiezen-gids" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Zoekmachine optimalisatie bureau kiezen: de complete gids" />
+        <meta name="twitter:description" content="Een SEO-bureau dat écht rankings haalt herken je aan een paar concrete signalen. Wat te vragen, wat te checken en welke " />
+      </Helmet>
 
             <Navbar />
 

@@ -21,7 +21,7 @@ export default function BlogPostConversieApiMeta() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/conversie-api-meta-naast-pixel" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/conversie-api-meta.jpg" />
-                <meta property="article:published_time" content="2026-04-15" />
+                <meta property="article:published_time" content="2026-04-15T16:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Social Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

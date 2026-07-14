@@ -19,7 +19,7 @@ export default function BlogPostSeaBureauBeoordelenCampagnesBeheer() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/sea-bureau-beoordelen-campagnes-beheer" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/sea-bureau-beoordelen-campagnes-beheer.jpg" />
-                <meta property="article:published_time" content="2026-05-14" />
+                <meta property="article:published_time" content="2026-05-14T13:00:00+02:00" />
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
@@ -55,7 +55,10 @@ export default function BlogPostSeaBureauBeoordelenCampagnesBeheer() {
                         { "@type": "ListItem", "position": 4, "name": "SEA bureau beoordelen", "item": "https://www.empowers.nl/blogs/google-ads/sea-bureau-beoordelen-campagnes-beheer" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SEA bureau: zo beoordeel je of jouw campagnes goed worden beheerd" />
+        <meta name="twitter:description" content="Zes concrete checks waarmee je zelf beoordeelt of jouw SEA-bureau goed werk levert. Direct in je eigen Google Ads accoun" />
+      </Helmet>
 
             <Navbar />
 

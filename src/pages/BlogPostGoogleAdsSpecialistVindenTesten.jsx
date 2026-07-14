@@ -22,7 +22,7 @@ export default function BlogPostGoogleAdsSpecialistVindenTesten() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/google-ads-specialist-vinden-testen" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/google-ads-specialist-vinden-testen.jpg" />
-                <meta property="article:published_time" content="2026-05-30" />
+                <meta property="article:published_time" content="2026-05-30T10:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Google Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

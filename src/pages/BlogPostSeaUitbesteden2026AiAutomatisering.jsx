@@ -19,7 +19,7 @@ export default function BlogPostSeaUitbesteden2026AiAutomatisering() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-2026-ai-automatisering" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/sea-uitbesteden-2026-ai-automatisering.jpg" />
-                <meta property="article:published_time" content="2026-05-13" />
+                <meta property="article:published_time" content="2026-05-13T15:00:00+02:00" />
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
@@ -55,7 +55,10 @@ export default function BlogPostSeaUitbesteden2026AiAutomatisering() {
                         { "@type": "ListItem", "position": 4, "name": "SEA uitbesteden in 2026", "item": "https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-2026-ai-automatisering" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SEA uitbesteden in 2026: wat verandert er door AI en automatisering?" />
+        <meta name="twitter:description" content="AI heeft de SEA-wereld veranderd. Wat een bureau in 2026 toevoegt boven AI-tools, welke skills er anders zijn geworden e" />
+      </Helmet>
 
             <Navbar />
 

@@ -47,7 +47,7 @@ export default function BlogPostConversieratioBenchmarksPerBranche() {
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/goede-conversieratio-benchmarks-per-branche.jpg" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/strategie/goede-conversieratio-benchmarks-per-branche" />
                 <meta property="og:type" content="article" />
-                <meta name="article:published_time" content="2026-03-27T09:00:00Z" />
+                <meta name="article:published_time" content="2026-03-27T00:00:00+01:00" />
                 <meta name="article:author" content="Empowers" />
                 <meta name="article:section" content="Strategie" />
                 <script type="application/ld+json">
@@ -112,7 +112,10 @@ export default function BlogPostConversieratioBenchmarksPerBranche() {
                         }))
                     })}
                 </script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Wat is een goede conversieratio? Benchmarks per branche" />
+        <meta name="twitter:description" content="Wat is een goede conversieratio? Bekijk benchmarks per branche en leer hoe je jouw conversiepercentage verbetert met con" />
+      </Helmet>
 
             <Navbar />
 

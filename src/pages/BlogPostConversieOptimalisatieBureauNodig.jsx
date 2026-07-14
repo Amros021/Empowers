@@ -19,7 +19,7 @@ export default function BlogPostConversieOptimalisatieBureauNodig() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/strategie/conversie-optimalisatie-bureau-nodig" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/conversie-optimalisatie-bureau-nodig.jpg" />
-                <meta property="article:published_time" content="2026-05-14" />
+                <meta property="article:published_time" content="2026-05-14T14:00:00+02:00" />
                 <meta property="article:section" content="Strategie" />
 
                 <script type="application/ld+json">{JSON.stringify({
@@ -55,7 +55,10 @@ export default function BlogPostConversieOptimalisatieBureauNodig() {
                         { "@type": "ListItem", "position": 4, "name": "Conversie optimalisatie bureau nodig", "item": "https://www.empowers.nl/blogs/strategie/conversie-optimalisatie-bureau-nodig" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Conversie optimalisatie bureau: wat doen ze en heb je er een nodig?" />
+        <meta name="twitter:description" content="Wat doet een conversie optimalisatie bureau echt, wanneer betaalt het zich terug en wanneer is het zonde van je budget? " />
+      </Helmet>
 
             <Navbar />
 

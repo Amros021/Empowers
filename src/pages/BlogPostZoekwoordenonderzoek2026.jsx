@@ -21,7 +21,7 @@ export default function BlogPostZoekwoordenonderzoek2026() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/seo/zoekwoordenonderzoek-2026-complete-gids" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/zoekwoordenonderzoek-2026.jpg" />
-                <meta property="article:published_time" content="2026-04-15" />
+                <meta property="article:published_time" content="2026-04-15T11:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="SEO" />
                 <meta name="twitter:card" content="summary_large_image" />

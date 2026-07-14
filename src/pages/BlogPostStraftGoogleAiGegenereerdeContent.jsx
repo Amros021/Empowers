@@ -21,7 +21,7 @@ export default function BlogPostStraftGoogleAiGegenereerdeContent() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/strategie/straft-google-ai-gegenereerde-content" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/straft-google-ai-gegenereerde-content.jpg" />
-                <meta property="article:published_time" content="2026-05-12" />
+                <meta property="article:published_time" content="2026-05-12T13:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Strategie" />
                 <meta name="twitter:card" content="summary_large_image" />

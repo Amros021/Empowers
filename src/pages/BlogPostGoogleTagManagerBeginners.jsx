@@ -56,7 +56,7 @@ export default function BlogPostGoogleTagManagerBeginners() {
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/google-tag-manager-beginners.jpg" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/tracking/google-tag-manager-beginners" />
                 <meta property="og:type" content="article" />
-                <meta property="article:published_time" content="2026-03-27" />
+                <meta property="article:published_time" content="2026-03-27T00:00:00+01:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Tracking" />
                 <meta name="author" content="Empowers" />
@@ -106,7 +106,10 @@ export default function BlogPostGoogleTagManagerBeginners() {
                         }))
                     })}
                 </script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Google Tag Manager voor beginners: zo start je" />
+        <meta name="twitter:description" content="Google Tag Manager maakt tracking makkelijk zonder code. Leer stap voor stap hoe je GTM instelt voor Google Ads, Meta Ad" />
+      </Helmet>
             <Navbar />
             <article className="w-full pt-40 pb-24 px-6 relative">
                 <div className="max-w-4xl mx-auto">
