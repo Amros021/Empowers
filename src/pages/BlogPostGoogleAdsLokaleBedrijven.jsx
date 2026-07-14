@@ -21,7 +21,7 @@ export default function BlogPostGoogleAdsLokaleBedrijven() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/google-ads-lokale-bedrijven" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/google-ads-lokale-bedrijven.jpg" />
-                <meta property="article:published_time" content="2026-04-12" />
+                <meta property="article:published_time" content="2026-04-12T00:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Google Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

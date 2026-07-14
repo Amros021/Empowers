@@ -21,7 +21,7 @@ export default function BlogPostInstagramReelsAdvertentiesBereikMeer() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/instagram-reels-advertenties-bereik-meer" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/instagram-reels-advertenties-bereik-meer.jpg" />
-                <meta property="article:published_time" content="2026-04-11" />
+                <meta property="article:published_time" content="2026-04-11T11:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Social Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

@@ -21,7 +21,7 @@ export default function BlogPostAiZoekmachinesBronnen() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/geo/ai-zoekmachines-bronnen" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/ai-zoekmachines-bronnen.jpg" />
-                <meta property="article:published_time" content="2026-04-15" />
+                <meta property="article:published_time" content="2026-04-15T08:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="GEO" />
                 <meta name="twitter:card" content="summary_large_image" />

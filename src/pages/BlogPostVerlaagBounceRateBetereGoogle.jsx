@@ -21,7 +21,7 @@ export default function BlogPostVerlaagBounceRateBetereGoogle() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/verlaag-bounce-rate-betere-google" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/verlaag-bounce-rate-betere-google.jpg" />
-                <meta property="article:published_time" content="2026-05-13" />
+                <meta property="article:published_time" content="2026-05-13T11:30:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Google Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

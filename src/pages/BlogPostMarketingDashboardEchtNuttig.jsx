@@ -22,7 +22,7 @@ export default function BlogPostMarketingDashboardEchtNuttig() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/tracking/marketing-dashboard-echt-nuttig" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/marketing-dashboard-echt-nuttig.jpg" />
-                <meta property="article:published_time" content="2026-06-08" />
+                <meta property="article:published_time" content="2026-06-08T13:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Tracking" />
                 <meta name="twitter:card" content="summary_large_image" />

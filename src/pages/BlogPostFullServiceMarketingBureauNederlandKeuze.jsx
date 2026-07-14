@@ -22,7 +22,7 @@ export default function BlogPostFullServiceMarketingBureauNederlandKeuze() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/algemeen/full-service-marketing-bureau-nederland-keuze" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/full-service-marketing-bureau-nederland-keuze.jpg" />
-                <meta property="article:published_time" content="2026-06-02" />
+                <meta property="article:published_time" content="2026-06-02T13:30:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Algemeen" />
                 <meta name="twitter:card" content="summary_large_image" />

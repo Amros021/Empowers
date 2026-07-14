@@ -19,7 +19,7 @@ export default function BlogPostGoogleAdsSpecialistVsBureauFreelancer() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/google-ads-specialist-vs-bureau-freelancer" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/google-ads-specialist-vs-bureau-freelancer.jpg" />
-                <meta property="article:published_time" content="2026-05-14" />
+                <meta property="article:published_time" content="2026-05-14T12:00:00+02:00" />
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
@@ -55,7 +55,10 @@ export default function BlogPostGoogleAdsSpecialistVsBureauFreelancer() {
                         { "@type": "ListItem", "position": 4, "name": "Specialist vs bureau", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-specialist-vs-bureau-freelancer" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Google Ads specialist vs bureau: wanneer kies je een freelancer?" />
+        <meta name="twitter:description" content="Een freelance Google Ads specialist of een bureau? Hoe je de keuze maakt op basis van budget, complexiteit en welk type " />
+      </Helmet>
 
             <Navbar />
 

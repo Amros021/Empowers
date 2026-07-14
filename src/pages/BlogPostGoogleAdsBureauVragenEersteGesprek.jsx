@@ -19,7 +19,7 @@ export default function BlogPostGoogleAdsBureauVragenEersteGesprek() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/google-ads-bureau-vragen-eerste-gesprek" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/google-ads-bureau-vragen-eerste-gesprek.jpg" />
-                <meta property="article:published_time" content="2026-05-14" />
+                <meta property="article:published_time" content="2026-05-14T16:00:00+02:00" />
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
@@ -55,7 +55,10 @@ export default function BlogPostGoogleAdsBureauVragenEersteGesprek() {
                         { "@type": "ListItem", "position": 4, "name": "5 vragen eerste gesprek", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-bureau-vragen-eerste-gesprek" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Google Ads bureau: 5 vragen die je moet stellen in het eerste gesprek" />
+        <meta name="twitter:description" content="Vijf vragen die in een uur het verschil maken tussen een serieus Google Ads bureau en een gladde verkooppitch. Wat te vr" />
+      </Helmet>
 
             <Navbar />
 

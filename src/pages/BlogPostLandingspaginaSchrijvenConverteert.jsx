@@ -50,7 +50,7 @@ export default function BlogPostLandingspaginaSchrijvenConverteert() {
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/landingspagina-schrijven-converteert.jpg" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/strategie/landingspagina-schrijven-converteert" />
                 <meta property="og:type" content="article" />
-                <meta name="article:published_time" content="2026-04-05T09:00:00Z" />
+                <meta name="article:published_time" content="2026-04-05T00:00:00+02:00" />
                 <meta name="article:author" content="Empowers" />
                 <meta name="article:section" content="Strategie" />
                 <script type="application/ld+json">
@@ -115,7 +115,10 @@ export default function BlogPostLandingspaginaSchrijvenConverteert() {
                         }))
                     })}
                 </script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Landingspagina schrijven die converteert: zo pak je het aan" />
+        <meta name="twitter:description" content="Een goede landingspagina schrijven begint bij de juiste structuur. Lees hoe je koppen, tekst en CTA's inzet zodat bezoek" />
+      </Helmet>
 
             <Navbar />
 

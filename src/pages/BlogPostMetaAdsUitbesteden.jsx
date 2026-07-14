@@ -21,7 +21,7 @@ export default function BlogPostMetaAdsUitbesteden() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/meta-ads-uitbesteden-bureau-jou" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/meta-ads-uitbesteden-bureau-jou.jpg" />
-                <meta property="article:published_time" content="2026-03-29" />
+                <meta property="article:published_time" content="2026-03-29T00:00:00+01:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Social Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

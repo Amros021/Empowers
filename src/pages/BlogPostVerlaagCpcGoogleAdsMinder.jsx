@@ -21,7 +21,7 @@ export default function BlogPostVerlaagCpcGoogleAdsMinder() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/verlaag-cpc-google-ads-minder" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/verlaag-cpc-google-ads-minder.jpg" />
-                <meta property="article:published_time" content="2026-04-10" />
+                <meta property="article:published_time" content="2026-04-10T00:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Google Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

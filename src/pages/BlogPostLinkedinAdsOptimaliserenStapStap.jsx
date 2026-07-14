@@ -21,7 +21,7 @@ export default function BlogPostLinkedinAdsOptimaliserenStapStap() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/linkedin-ads-optimaliseren-stap-stap" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/linkedin-ads-optimaliseren-stap-stap.jpg" />
-                <meta property="article:published_time" content="2026-05-07" />
+                <meta property="article:published_time" content="2026-05-07T13:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Social Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

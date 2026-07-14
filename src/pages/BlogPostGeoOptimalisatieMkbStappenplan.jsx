@@ -22,7 +22,7 @@ export default function BlogPostGeoOptimalisatieMkbStappenplan() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/geo/geo-optimalisatie-mkb-stappenplan" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/geo-optimalisatie-mkb-stappenplan.jpg" />
-                <meta property="article:published_time" content="2026-05-23" />
+                <meta property="article:published_time" content="2026-05-23T09:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="GEO" />
                 <meta name="twitter:card" content="summary_large_image" />

@@ -19,7 +19,7 @@ export default function BlogPostConversieOptimalisatieBureauResultatenHerkennen(
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/strategie/conversie-optimalisatie-bureau-resultaten-herkennen" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/conversie-optimalisatie-bureau-resultaten-herkennen.jpg" />
-                <meta property="article:published_time" content="2026-05-14" />
+                <meta property="article:published_time" content="2026-05-14T15:00:00+02:00" />
                 <meta property="article:section" content="Strategie" />
 
                 <script type="application/ld+json">{JSON.stringify({
@@ -55,7 +55,10 @@ export default function BlogPostConversieOptimalisatieBureauResultatenHerkennen(
                         { "@type": "ListItem", "position": 4, "name": "CRO bureau resultaten herkennen", "item": "https://www.empowers.nl/blogs/strategie/conversie-optimalisatie-bureau-resultaten-herkennen" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Conversie optimalisatie bureau: aan deze resultaten herken je een goed bureau" />
+        <meta name="twitter:description" content="Wat onderscheidt een serieus CRO-bureau van een sjabloon-aanpakker? Vijf concrete resultaten waaraan je een professionee" />
+      </Helmet>
 
             <Navbar />
 

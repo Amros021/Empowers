@@ -19,7 +19,7 @@ export default function BlogPostChatgptBedrijfAanbeveelt() {
                 <meta property="og:description" content="Wil je dat ChatGPT jouw bedrijf noemt? Leer welke stappen je neemt om zichtbaar te worden in AI-antwoorden en meer klanten te trekken." />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/geo/chatgpt-bedrijf-aanbeveelt" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/chatgpt-bedrijf-aanbeveelt.jpg" />
-                <meta property="article:published_time" content="2026-03-27T00:00:00Z" />
+                <meta property="article:published_time" content="2026-03-27T00:00:00+01:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="GEO" />
                 <script type="application/ld+json">
@@ -132,7 +132,10 @@ export default function BlogPostChatgptBedrijfAanbeveelt() {
                         ]
                     })}
                 </script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Hoe zorg je dat ChatGPT jouw bedrijf aanbeveelt?" />
+        <meta name="twitter:description" content="Wil je dat ChatGPT jouw bedrijf noemt? Leer welke stappen je neemt om zichtbaar te worden in AI-antwoorden en meer klant" />
+      </Helmet>
             <Navbar />
             <article className="w-full pt-40 pb-24 px-6 relative">
                 <div className="max-w-4xl mx-auto">

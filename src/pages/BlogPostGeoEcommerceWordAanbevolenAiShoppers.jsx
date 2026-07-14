@@ -22,7 +22,7 @@ export default function BlogPostGeoEcommerceWordAanbevolenAiShoppers() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/geo/geo-e-commerce-word-aanbevolen-ai-shoppers" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/geo-e-commerce-word-aanbevolen-ai-shoppers.jpg" />
-                <meta property="article:published_time" content="2026-06-05" />
+                <meta property="article:published_time" content="2026-06-05T10:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="GEO" />
                 <meta name="twitter:card" content="summary_large_image" />
