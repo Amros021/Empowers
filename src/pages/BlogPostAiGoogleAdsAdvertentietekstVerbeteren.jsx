@@ -50,7 +50,7 @@ export default function BlogPostAiGoogleAdsAdvertentietekstVerbeteren() {
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/ai-google-ads-advertentietekst-verbeteren.jpg" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/ai-google-ads-advertentietekst-verbeteren" />
                 <meta property="og:type" content="article" />
-                <meta name="article:published_time" content="2026-04-06T09:00:00Z" />
+                <meta name="article:published_time" content="2026-04-06T00:00:00+02:00" />
                 <meta name="article:author" content="Empowers" />
                 <meta name="article:section" content="Google Ads" />
                 <script type="application/ld+json">
@@ -115,7 +115,10 @@ export default function BlogPostAiGoogleAdsAdvertentietekstVerbeteren() {
                         }))
                     })}
                 </script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Hoe AI jouw Google Ads advertentietekst kan verbeteren" />
+        <meta name="twitter:description" content="AI helpt je sneller betere Google Ads teksten te schrijven. Lees hoe je AI-tools inzet voor koppen, beschrijvingen en A/" />
+      </Helmet>
 
             <Navbar />
 

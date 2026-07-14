@@ -21,7 +21,7 @@ export default function BlogPostMetaAdsFrequencyVoorkomAdvertentiemoeheid() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/meta-ads-frequency-voorkom-advertentiemoeheid" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/meta-ads-frequency-voorkom-advertentiemoeheid.jpg" />
-                <meta property="article:published_time" content="2026-05-13" />
+                <meta property="article:published_time" content="2026-05-13T12:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Social Ads" />
 
@@ -63,7 +63,10 @@ export default function BlogPostMetaAdsFrequencyVoorkomAdvertentiemoeheid() {
                         ]
                     })}
                 </script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Meta Ads frequency: zo voorkom je advertentiemoeheid" />
+        <meta name="twitter:description" content="Ad fatigue verbrandt rendement in Meta Ads. Wat frequency precies meet, vanaf welke drempel je moet ingrijpen en hoe je " />
+      </Helmet>
 
             <Navbar />
 

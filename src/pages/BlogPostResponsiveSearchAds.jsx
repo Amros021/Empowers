@@ -21,7 +21,7 @@ export default function BlogPostResponsiveSearchAds() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/responsive-search-ads-uitgelegd-effectief" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/responsive-search-ads-uitgelegd-effectief.jpg" />
-                <meta property="article:published_time" content="2026-04-24" />
+                <meta property="article:published_time" content="2026-04-24T13:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Google Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

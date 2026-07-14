@@ -19,7 +19,7 @@ export default function BlogPostZoekmachineOptimalisatieBureauGeenResultaatMis()
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/seo/zoekmachine-optimalisatie-bureau-geen-resultaat-mis" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/zoekmachine-optimalisatie-bureau-geen-resultaat-mis.jpg" />
-                <meta property="article:published_time" content="2026-05-14" />
+                <meta property="article:published_time" content="2026-05-14T10:00:00+02:00" />
                 <meta property="article:section" content="SEO" />
 
                 <script type="application/ld+json">{JSON.stringify({
@@ -55,7 +55,10 @@ export default function BlogPostZoekmachineOptimalisatieBureauGeenResultaatMis()
                         { "@type": "ListItem", "position": 4, "name": "SEO-bureau geen resultaat", "item": "https://www.empowers.nl/blogs/seo/zoekmachine-optimalisatie-bureau-geen-resultaat-mis" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Zoekmachine optimalisatie bureau ingehuurd en geen resultaat? Dit ging er mis" />
+        <meta name="twitter:description" content="Je SEO-bureau levert na maanden niets op. Hier zijn de echte redenen waarom dat gebeurt, hoe je het zelf herkent en wann" />
+      </Helmet>
 
             <Navbar />
 

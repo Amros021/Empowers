@@ -21,7 +21,7 @@ export default function BlogPostTiktokPixelInstellen() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/social-ads/tiktok-pixel-instellen-stap-stap" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/tiktok-pixel-instellen-stap-stap.jpg" />
-                <meta property="article:published_time" content="2026-04-29" />
+                <meta property="article:published_time" content="2026-04-29T09:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Social Ads" />
                 <meta name="twitter:card" content="summary_large_image" />

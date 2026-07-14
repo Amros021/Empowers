@@ -21,7 +21,7 @@ export default function BlogPostToonStemBepalenKlinktMerk() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/algemeen/tone-of-voice-bepalen-klinkt-merk" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/toon-stem-bepalen-klinkt-merk.jpg" />
-                <meta property="article:published_time" content="2026-05-13" />
+                <meta property="article:published_time" content="2026-05-13T15:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Algemeen" />
                 <meta name="twitter:card" content="summary_large_image" />

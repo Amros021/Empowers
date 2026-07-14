@@ -19,7 +19,7 @@ export default function BlogPostGoogleAdsBureauRedFlagsTekenen() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/google-ads-bureau-red-flags-tekenen" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/google-ads-bureau-red-flags-tekenen.jpg" />
-                <meta property="article:published_time" content="2026-05-15" />
+                <meta property="article:published_time" content="2026-05-15T09:00:00+02:00" />
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
@@ -55,7 +55,10 @@ export default function BlogPostGoogleAdsBureauRedFlagsTekenen() {
                         { "@type": "ListItem", "position": 4, "name": "Red flags Google Ads bureau", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-bureau-red-flags-tekenen" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Google Ads bureau red flags: 9 tekenen dat je bureau niet deugt" />
+        <meta name="twitter:description" content="Negen concrete signalen dat je Google Ads bureau jouw budget niet serieus neemt. Wat je in een week zelf kunt controlere" />
+      </Helmet>
 
             <Navbar />
 

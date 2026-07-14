@@ -19,7 +19,7 @@ export default function BlogPostSeaUitbestedenValkuilenMkb() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-valkuilen-mkb" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/sea-uitbesteden-valkuilen-mkb.jpg" />
-                <meta property="article:published_time" content="2026-05-13" />
+                <meta property="article:published_time" content="2026-05-13T14:30:00+02:00" />
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
@@ -55,7 +55,10 @@ export default function BlogPostSeaUitbestedenValkuilenMkb() {
                         { "@type": "ListItem", "position": 4, "name": "SEA uitbesteden valkuilen", "item": "https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-valkuilen-mkb" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SEA uitbesteden: 5 valkuilen die MKB-bedrijven geld kosten" />
+        <meta name="twitter:description" content="De vijf meest gemaakte fouten bij SEA uitbesteden in het MKB. Van verkeerde KPI's tot accounts op naam van het bureau, e" />
+      </Helmet>
 
             <Navbar />
 

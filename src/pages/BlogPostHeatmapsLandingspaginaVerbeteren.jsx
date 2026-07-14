@@ -21,7 +21,7 @@ export default function BlogPostHeatmapsLandingspaginaVerbeteren() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/strategie/heatmaps-om-landingspagina-te-verbeteren" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/heatmaps-om-landingspagina-te-verbeteren.jpg" />
-                <meta property="article:published_time" content="2026-05-11" />
+                <meta property="article:published_time" content="2026-05-11T00:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Strategie" />
                 <meta name="twitter:card" content="summary_large_image" />

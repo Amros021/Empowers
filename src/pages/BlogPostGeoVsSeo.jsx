@@ -60,7 +60,7 @@ export default function BlogPostGeoVsSeo() {
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/geo-vs-seo-verschil-heb.jpg" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/geo/geo-vs-seo-verschil-heb" />
                 <meta property="og:type" content="article" />
-                <meta property="article:published_time" content="2026-03-14" />
+                <meta property="article:published_time" content="2026-03-14T00:00:00+01:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="GEO" />
                 <meta name="author" content="Empowers" />
@@ -110,7 +110,10 @@ export default function BlogPostGeoVsSeo() {
                         }))
                     })}
                 </script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="GEO vs SEO: wat is het verschil en heb je allebei nodig?" />
+        <meta name="twitter:description" content="GEO vs SEO: ontdek het verschil, wanneer je elk nodig hebt, en hoe je beide inzet voor lokale groei. Praktische gids voo" />
+      </Helmet>
             <Navbar />
             <article className="w-full pt-40 pb-24 px-6 relative">
                 <div className="max-w-4xl mx-auto">

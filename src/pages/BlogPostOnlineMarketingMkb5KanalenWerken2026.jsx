@@ -21,7 +21,7 @@ export default function BlogPostOnlineMarketingMkb5KanalenWerken2026() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/algemeen/online-marketing-mkb-5-kanalen-werken-2026" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/online-marketing-mkb-5-kanalen-werken-2026.jpg" />
-                <meta property="article:published_time" content="2026-05-03" />
+                <meta property="article:published_time" content="2026-05-03T14:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Algemeen" />
                 <meta name="twitter:card" content="summary_large_image" />

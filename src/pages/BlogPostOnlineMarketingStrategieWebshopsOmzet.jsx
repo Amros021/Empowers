@@ -19,7 +19,7 @@ export default function BlogPostOnlineMarketingStrategieWebshopsOmzet() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/strategie/online-marketing-strategie-webshops-omzet" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/online-marketing-strategie-webshops-omzet.jpg" />
-                <meta property="article:published_time" content="2026-05-13" />
+                <meta property="article:published_time" content="2026-05-13T16:00:00+02:00" />
                 <meta property="article:section" content="Strategie" />
 
                 <script type="application/ld+json">{JSON.stringify({
@@ -55,7 +55,10 @@ export default function BlogPostOnlineMarketingStrategieWebshopsOmzet() {
                         { "@type": "ListItem", "position": 4, "name": "Marketingstrategie webshops", "item": "https://www.empowers.nl/blogs/strategie/online-marketing-strategie-webshops-omzet" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Online marketing strategie voor webshops: van traffic naar omzet" />
+        <meta name="twitter:description" content="Verkeer naar je webshop is makkelijk te kopen. Omzet eruit halen is een ander verhaal. De marketingstrategie die traffic" />
+      </Helmet>
 
             <Navbar />
 

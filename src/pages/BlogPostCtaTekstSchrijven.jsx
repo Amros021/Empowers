@@ -21,7 +21,7 @@ export default function BlogPostCtaTekstSchrijven() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/strategie/cta-tekst-schrijven-mensen-aanzet" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/cta-tekst-schrijven-mensen-aanzet.jpg" />
-                <meta property="article:published_time" content="2026-04-23" />
+                <meta property="article:published_time" content="2026-04-23T13:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Strategie" />
                 <meta name="twitter:card" content="summary_large_image" />

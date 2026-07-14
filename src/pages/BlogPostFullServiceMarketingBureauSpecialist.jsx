@@ -21,7 +21,7 @@ export default function BlogPostFullServiceMarketingBureauSpecialist() {
                 <meta property="og:type" content="article" />
                 <meta property="og:url" content="https://www.empowers.nl/blogs/algemeen/full-service-marketing-bureau-specialist" />
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/full-service-marketing-bureau-specialist.jpg" />
-                <meta property="article:published_time" content="2026-04-21" />
+                <meta property="article:published_time" content="2026-04-21T09:00:00+02:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Algemeen" />
                 <meta name="twitter:card" content="summary_large_image" />
