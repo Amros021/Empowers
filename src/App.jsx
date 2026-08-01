@@ -412,6 +412,13 @@ const BlogPostStrategieenKwalitatieveBacklinks = React.lazy(() => import('./page
 const BlogPostHoeLangDuurtLinkbuildingResultaat = React.lazy(() => import('./pages/BlogPostHoeLangDuurtLinkbuildingResultaat'));
 const BlogPostSpammyLinksHerkennenVerwijderen = React.lazy(() => import('./pages/BlogPostSpammyLinksHerkennenVerwijderen'));
 const BlogPostVerschillendeSoortenBacklinksUitgelegd = React.lazy(() => import('./pages/BlogPostVerschillendeSoortenBacklinksUitgelegd'));
+const BlogPostGastbloggenSeoLoont = React.lazy(() => import('./pages/BlogPostGastbloggenSeoLoont'));
+const BlogPostDigitalPrSeoScoorBacklinks = React.lazy(() => import('./pages/BlogPostDigitalPrSeoScoorBacklinks'));
+const BlogPostSocialMediaBijdraagtOffPage = React.lazy(() => import('./pages/BlogPostSocialMediaBijdraagtOffPage'));
+const BlogPostSeoWebshops10BelangrijksteRegels = React.lazy(() => import('./pages/BlogPostSeoWebshops10BelangrijksteRegels'));
+const BlogPostVerlorenOrganischVerkeerTerugwinnenGoogleUpdate = React.lazy(() => import('./pages/BlogPostVerlorenOrganischVerkeerTerugwinnenGoogleUpdate'));
+const BlogPostTiktokRetargetingVerlorenBezoekersTerugwinnen = React.lazy(() => import('./pages/BlogPostTiktokRetargetingVerlorenBezoekersTerugwinnen'));
+const BlogPostUgcTiktokAdsAuthentiekeAdvertenties = React.lazy(() => import('./pages/BlogPostUgcTiktokAdsAuthentiekeAdvertenties'));
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -725,6 +732,13 @@ function App() {
           <Route path="/blogs/seo/hoe-lang-duurt-linkbuilding-resultaat" element={<BlogPostHoeLangDuurtLinkbuildingResultaat />} />
           <Route path="/blogs/seo/spammy-links-herkennen-verwijderen" element={<BlogPostSpammyLinksHerkennenVerwijderen />} />
           <Route path="/blogs/seo/verschillende-soorten-backlinks-uitgelegd" element={<BlogPostVerschillendeSoortenBacklinksUitgelegd />} />
+          <Route path="/blogs/seo/gastbloggen-seo-loont" element={<BlogPostGastbloggenSeoLoont />} />
+          <Route path="/blogs/seo/digital-pr-seo-scoor-backlinks" element={<BlogPostDigitalPrSeoScoorBacklinks />} />
+          <Route path="/blogs/seo/social-media-bijdraagt-off-page" element={<BlogPostSocialMediaBijdraagtOffPage />} />
+          <Route path="/blogs/seo/seo-webshops-10-belangrijkste-regels" element={<BlogPostSeoWebshops10BelangrijksteRegels />} />
+          <Route path="/blogs/seo/verloren-organisch-verkeer-terugwinnen-google-update" element={<BlogPostVerlorenOrganischVerkeerTerugwinnenGoogleUpdate />} />
+          <Route path="/blogs/social-ads/tiktok-retargeting-verloren-bezoekers-terugwinnen" element={<BlogPostTiktokRetargetingVerlorenBezoekersTerugwinnen />} />
+          <Route path="/blogs/social-ads/ugc-tiktok-ads-authentieke-advertenties" element={<BlogPostUgcTiktokAdsAuthentiekeAdvertenties />} />
           <Route path="/blogs/geo/generative-engine-optimization-complete-gids-2026" element={<BlogPostGenerativeEngineOptimizationCompleteGids2026 />} />
           <Route path="/blogs/geo/generative-engine-optimization-webshops" element={<BlogPostGenerativeEngineOptimizationWebshops />} />
           <Route path="/blogs/geo/generative-engine-optimization-uitbesteden" element={<BlogPostGenerativeEngineOptimizationUitbesteden />} />
