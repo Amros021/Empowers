@@ -364,6 +364,54 @@ const BlogPostGa4ConversiedoelInstellenHandleiding = React.lazy(() => import('./
 const BlogPostConsentModeV2VeranderingenMarketeers = React.lazy(() => import('./pages/BlogPostConsentModeV2VeranderingenMarketeers'));
 const BlogPostMicroConversiesTrackenStappen = React.lazy(() => import('./pages/BlogPostMicroConversiesTrackenStappen'));
 const BlogPostFirstPartyDataStrategieOpbouwen = React.lazy(() => import('./pages/BlogPostFirstPartyDataStrategieOpbouwen'));
+const BlogPostHeadlineLandingspaginaSchrijvenOvertuigend = React.lazy(() => import('./pages/BlogPostHeadlineLandingspaginaSchrijvenOvertuigend'));
+const BlogPostLandingspaginaStructuurConverterenElementen = React.lazy(() => import('./pages/BlogPostLandingspaginaStructuurConverterenElementen'));
+const BlogPostAbTestenLandingspaginaStapVoorStap = React.lazy(() => import('./pages/BlogPostAbTestenLandingspaginaStapVoorStap'));
+const BlogPostCtaKnopLandingspaginaKleurTekstPositie = React.lazy(() => import('./pages/BlogPostCtaKnopLandingspaginaKleurTekstPositie'));
+const BlogPostLandingspaginaLaadtijdVerbeterenConversies = React.lazy(() => import('./pages/BlogPostLandingspaginaLaadtijdVerbeterenConversies'));
+const BlogPostSocialProofLandingspaginaTrustSignals = React.lazy(() => import('./pages/BlogPostSocialProofLandingspaginaTrustSignals'));
+const BlogPostLandingspaginaVsHomepageVerschil = React.lazy(() => import('./pages/BlogPostLandingspaginaVsHomepageVerschil'));
+const BlogPostLandingspaginaGoogleAdsAansluiting = React.lazy(() => import('./pages/BlogPostLandingspaginaGoogleAdsAansluiting'));
+const BlogPostGoogleAdsLokaleBedrijvenLocatieExtensies = React.lazy(() => import('./pages/BlogPostGoogleAdsLokaleBedrijvenLocatieExtensies'));
+const BlogPostGoogleAdsKwaliteitsscoreUitlegBelang = React.lazy(() => import('./pages/BlogPostGoogleAdsKwaliteitsscoreUitlegBelang'));
+const BlogPostGoogleAdsBodstrategieHandmatigAutomatisch = React.lazy(() => import('./pages/BlogPostGoogleAdsBodstrategieHandmatigAutomatisch'));
+const BlogPostGoogleShoppingAdsInstellenWebshop = React.lazy(() => import('./pages/BlogPostGoogleShoppingAdsInstellenWebshop'));
+const BlogPostGoogleAdsDienstverlenersStrategie = React.lazy(() => import('./pages/BlogPostGoogleAdsDienstverlenersStrategie'));
+const BlogPostGeoUitbestedenBureauInschakelen = React.lazy(() => import('./pages/BlogPostGeoUitbestedenBureauInschakelen'));
+const BlogPostEeatGeoAiZoekmachinesExpertise = React.lazy(() => import('./pages/BlogPostEeatGeoAiZoekmachinesExpertise'));
+const BlogPostStructuredDataSchemaMarkupGeo = React.lazy(() => import('./pages/BlogPostStructuredDataSchemaMarkupGeo'));
+const BlogPostFaqContentSchrijvenAiGeciteerd = React.lazy(() => import('./pages/BlogPostFaqContentSchrijvenAiGeciteerd'));
+const BlogPostBrandMentionsGeoVermeldWorden = React.lazy(() => import('./pages/BlogPostBrandMentionsGeoVermeldWorden'));
+const BlogPostGeoSuccesMetenToolsMetrics = React.lazy(() => import('./pages/BlogPostGeoSuccesMetenToolsMetrics'));
+const BlogPostKlantpersonasMakenDoelgroepbeschrijving = React.lazy(() => import('./pages/BlogPostKlantpersonasMakenDoelgroepbeschrijving'));
+const BlogPostGoogleAdsEvenementLanceringPromoten = React.lazy(() => import('./pages/BlogPostGoogleAdsEvenementLanceringPromoten'));
+const BlogPostTopicalAuthorityDiepgangBeterWerkt = React.lazy(() => import('./pages/BlogPostTopicalAuthorityDiepgangBeterWerkt'));
+const BlogPostEntitySeoGoogleDenktEntiteiten = React.lazy(() => import('./pages/BlogPostEntitySeoGoogleDenktEntiteiten'));
+const BlogPostRichSnippetsValZoekresultaten = React.lazy(() => import('./pages/BlogPostRichSnippetsValZoekresultaten'));
+const BlogPostStructuredDataVsRichSnippets = React.lazy(() => import('./pages/BlogPostStructuredDataVsRichSnippets'));
+const BlogPostSnelCrawltGoogleWebsite = React.lazy(() => import('./pages/BlogPostSnelCrawltGoogleWebsite'));
+const BlogPostWebCrawlerUitgelegdGoogleSite = React.lazy(() => import('./pages/BlogPostWebCrawlerUitgelegdGoogleSite'));
+const BlogPostCanonicalTagsGebruik = React.lazy(() => import('./pages/BlogPostCanonicalTagsGebruik'));
+const BlogPostControleerWebsiteSeoVriendelijk = React.lazy(() => import('./pages/BlogPostControleerWebsiteSeoVriendelijk'));
+const BlogPostPagespeedVerbeterenLaadtWebsiteSneller = React.lazy(() => import('./pages/BlogPostPagespeedVerbeterenLaadtWebsiteSneller'));
+const BlogPostDuplicateContentVoorkomen = React.lazy(() => import('./pages/BlogPostDuplicateContentVoorkomen'));
+const BlogPostBrokenLinksOpsporenRepareren = React.lazy(() => import('./pages/BlogPostBrokenLinksOpsporenRepareren'));
+const BlogPostSeoChecklistBeginners15Dingen = React.lazy(() => import('./pages/BlogPostSeoChecklistBeginners15Dingen'));
+const BlogPostContentClusterOpbouwen = React.lazy(() => import('./pages/BlogPostContentClusterOpbouwen'));
+const BlogPostContentClustersVsTraditioneleSeo = React.lazy(() => import('./pages/BlogPostContentClustersVsTraditioneleSeo'));
+const BlogPostSeoContentAudit = React.lazy(() => import('./pages/BlogPostSeoContentAudit'));
+const BlogPostContentPruningVerouderdeContentVerwijderen = React.lazy(() => import('./pages/BlogPostContentPruningVerouderdeContentVerwijderen'));
+const BlogPostSeoStrategieOpbouwenVanafNul = React.lazy(() => import('./pages/BlogPostSeoStrategieOpbouwenVanafNul'));
+const BlogPostVeelgemaakteFoutenZoekwoordenonderzoek = React.lazy(() => import('./pages/BlogPostVeelgemaakteFoutenZoekwoordenonderzoek'));
+const BlogPostZoekintentieBasisGoedeSeoContent = React.lazy(() => import('./pages/BlogPostZoekintentieBasisGoedeSeoContent'));
+const BlogPostIdentificeerZoekintentieAchterKeyword = React.lazy(() => import('./pages/BlogPostIdentificeerZoekintentieAchterKeyword'));
+const BlogPostBrandedZoekvolumeMetenBekendMerk = React.lazy(() => import('./pages/BlogPostBrandedZoekvolumeMetenBekendMerk'));
+const BlogPostVindOngelinkteMerkvermeldingen = React.lazy(() => import('./pages/BlogPostVindOngelinkteMerkvermeldingen'));
+const BlogPostBacklinksVsInterneLinksWaardevoller = React.lazy(() => import('./pages/BlogPostBacklinksVsInterneLinksWaardevoller'));
+const BlogPostStrategieenKwalitatieveBacklinks = React.lazy(() => import('./pages/BlogPostStrategieenKwalitatieveBacklinks'));
+const BlogPostHoeLangDuurtLinkbuildingResultaat = React.lazy(() => import('./pages/BlogPostHoeLangDuurtLinkbuildingResultaat'));
+const BlogPostSpammyLinksHerkennenVerwijderen = React.lazy(() => import('./pages/BlogPostSpammyLinksHerkennenVerwijderen'));
+const BlogPostVerschillendeSoortenBacklinksUitgelegd = React.lazy(() => import('./pages/BlogPostVerschillendeSoortenBacklinksUitgelegd'));
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -642,6 +690,41 @@ function App() {
           <Route path="/blogs/geo/geo-optimalisatie-verschijnen-ai-antwoorden" element={<BlogPostGeoOptimalisatieVerschijnenAiAntwoorden />} />
           <Route path="/blogs/geo/geo-optimalisatie-mkb-stappenplan" element={<BlogPostGeoOptimalisatieMkbStappenplan />} />
           <Route path="/blogs/geo/geo-optimalisatie-uitbesteden" element={<BlogPostGeoOptimalisatieUitbesteden />} />
+          <Route path="/blogs/geo/geo-uitbesteden-bureau-inschakelen" element={<BlogPostGeoUitbestedenBureauInschakelen />} />
+          <Route path="/blogs/geo/eeat-geo-ai-zoekmachines-expertise" element={<BlogPostEeatGeoAiZoekmachinesExpertise />} />
+          <Route path="/blogs/geo/structured-data-schema-markup-geo" element={<BlogPostStructuredDataSchemaMarkupGeo />} />
+          <Route path="/blogs/geo/faq-content-schrijven-ai-geciteerd" element={<BlogPostFaqContentSchrijvenAiGeciteerd />} />
+          <Route path="/blogs/geo/brand-mentions-geo-vermeld-worden" element={<BlogPostBrandMentionsGeoVermeldWorden />} />
+          <Route path="/blogs/geo/geo-succes-meten-tools-metrics" element={<BlogPostGeoSuccesMetenToolsMetrics />} />
+          <Route path="/blogs/algemeen/klantpersonas-maken-doelgroepbeschrijving" element={<BlogPostKlantpersonasMakenDoelgroepbeschrijving />} />
+          <Route path="/blogs/google-ads/google-ads-evenement-lancering-promoten" element={<BlogPostGoogleAdsEvenementLanceringPromoten />} />
+          <Route path="/blogs/seo/topical-authority-diepgang-beter-werkt" element={<BlogPostTopicalAuthorityDiepgangBeterWerkt />} />
+          <Route path="/blogs/seo/entity-seo-google-denkt-entiteiten" element={<BlogPostEntitySeoGoogleDenktEntiteiten />} />
+          <Route path="/blogs/seo/rich-snippets-val-zoekresultaten" element={<BlogPostRichSnippetsValZoekresultaten />} />
+          <Route path="/blogs/seo/structured-data-vs-rich-snippets" element={<BlogPostStructuredDataVsRichSnippets />} />
+          <Route path="/blogs/seo/snel-crawlt-google-website" element={<BlogPostSnelCrawltGoogleWebsite />} />
+          <Route path="/blogs/seo/web-crawler-uitgelegd-google-site" element={<BlogPostWebCrawlerUitgelegdGoogleSite />} />
+          <Route path="/blogs/seo/canonical-tags-gebruik" element={<BlogPostCanonicalTagsGebruik />} />
+          <Route path="/blogs/seo/controleer-website-seo-vriendelijk" element={<BlogPostControleerWebsiteSeoVriendelijk />} />
+          <Route path="/blogs/seo/pagespeed-verbeteren-laadt-website-sneller" element={<BlogPostPagespeedVerbeterenLaadtWebsiteSneller />} />
+          <Route path="/blogs/seo/duplicate-content-voorkomen" element={<BlogPostDuplicateContentVoorkomen />} />
+          <Route path="/blogs/seo/broken-links-opsporen-repareren" element={<BlogPostBrokenLinksOpsporenRepareren />} />
+          <Route path="/blogs/seo/seo-checklist-beginners-15-dingen" element={<BlogPostSeoChecklistBeginners15Dingen />} />
+          <Route path="/blogs/seo/content-cluster-opbouwen" element={<BlogPostContentClusterOpbouwen />} />
+          <Route path="/blogs/seo/content-clusters-vs-traditionele-seo" element={<BlogPostContentClustersVsTraditioneleSeo />} />
+          <Route path="/blogs/seo/seo-content-audit" element={<BlogPostSeoContentAudit />} />
+          <Route path="/blogs/seo/content-pruning-verouderde-content-verwijderen" element={<BlogPostContentPruningVerouderdeContentVerwijderen />} />
+          <Route path="/blogs/seo/seo-strategie-opbouwen-vanaf-nul" element={<BlogPostSeoStrategieOpbouwenVanafNul />} />
+          <Route path="/blogs/seo/veelgemaakte-fouten-zoekwoordenonderzoek" element={<BlogPostVeelgemaakteFoutenZoekwoordenonderzoek />} />
+          <Route path="/blogs/seo/zoekintentie-basis-goede-seo-content" element={<BlogPostZoekintentieBasisGoedeSeoContent />} />
+          <Route path="/blogs/seo/identificeer-zoekintentie-achter-keyword" element={<BlogPostIdentificeerZoekintentieAchterKeyword />} />
+          <Route path="/blogs/seo/branded-zoekvolume-meten-bekend-merk" element={<BlogPostBrandedZoekvolumeMetenBekendMerk />} />
+          <Route path="/blogs/seo/vind-ongelinkte-merkvermeldingen" element={<BlogPostVindOngelinkteMerkvermeldingen />} />
+          <Route path="/blogs/seo/backlinks-vs-interne-links-waardevoller" element={<BlogPostBacklinksVsInterneLinksWaardevoller />} />
+          <Route path="/blogs/seo/strategieen-kwalitatieve-backlinks" element={<BlogPostStrategieenKwalitatieveBacklinks />} />
+          <Route path="/blogs/seo/hoe-lang-duurt-linkbuilding-resultaat" element={<BlogPostHoeLangDuurtLinkbuildingResultaat />} />
+          <Route path="/blogs/seo/spammy-links-herkennen-verwijderen" element={<BlogPostSpammyLinksHerkennenVerwijderen />} />
+          <Route path="/blogs/seo/verschillende-soorten-backlinks-uitgelegd" element={<BlogPostVerschillendeSoortenBacklinksUitgelegd />} />
           <Route path="/blogs/geo/generative-engine-optimization-complete-gids-2026" element={<BlogPostGenerativeEngineOptimizationCompleteGids2026 />} />
           <Route path="/blogs/geo/generative-engine-optimization-webshops" element={<BlogPostGenerativeEngineOptimizationWebshops />} />
           <Route path="/blogs/geo/generative-engine-optimization-uitbesteden" element={<BlogPostGenerativeEngineOptimizationUitbesteden />} />
@@ -682,6 +765,19 @@ function App() {
           <Route path="/blogs/tracking/consent-mode-v2-veranderingen-marketeers" element={<BlogPostConsentModeV2VeranderingenMarketeers />} />
           <Route path="/blogs/tracking/micro-conversies-tracken-stappen" element={<BlogPostMicroConversiesTrackenStappen />} />
           <Route path="/blogs/tracking/first-party-data-strategie-opbouwen" element={<BlogPostFirstPartyDataStrategieOpbouwen />} />
+          <Route path="/blogs/strategie/headline-landingspagina-schrijven-overtuigend" element={<BlogPostHeadlineLandingspaginaSchrijvenOvertuigend />} />
+          <Route path="/blogs/strategie/landingspagina-structuur-converteren-elementen" element={<BlogPostLandingspaginaStructuurConverterenElementen />} />
+          <Route path="/blogs/strategie/ab-testen-landingspagina-stap-voor-stap" element={<BlogPostAbTestenLandingspaginaStapVoorStap />} />
+          <Route path="/blogs/strategie/cta-knop-landingspagina-kleur-tekst-positie" element={<BlogPostCtaKnopLandingspaginaKleurTekstPositie />} />
+          <Route path="/blogs/strategie/landingspagina-laadtijd-verbeteren-conversies" element={<BlogPostLandingspaginaLaadtijdVerbeterenConversies />} />
+          <Route path="/blogs/strategie/social-proof-landingspagina-trust-signals" element={<BlogPostSocialProofLandingspaginaTrustSignals />} />
+          <Route path="/blogs/strategie/landingspagina-vs-homepage-verschil" element={<BlogPostLandingspaginaVsHomepageVerschil />} />
+          <Route path="/blogs/strategie/landingspagina-google-ads-aansluiting" element={<BlogPostLandingspaginaGoogleAdsAansluiting />} />
+          <Route path="/blogs/google-ads/google-ads-lokale-bedrijven-locatie-extensies" element={<BlogPostGoogleAdsLokaleBedrijvenLocatieExtensies />} />
+          <Route path="/blogs/google-ads/google-ads-kwaliteitsscore-uitleg-belang" element={<BlogPostGoogleAdsKwaliteitsscoreUitlegBelang />} />
+          <Route path="/blogs/google-ads/google-ads-bodstrategie-handmatig-automatisch" element={<BlogPostGoogleAdsBodstrategieHandmatigAutomatisch />} />
+          <Route path="/blogs/google-ads/google-shopping-ads-instellen-webshop" element={<BlogPostGoogleShoppingAdsInstellenWebshop />} />
+          <Route path="/blogs/google-ads/google-ads-dienstverleners-strategie" element={<BlogPostGoogleAdsDienstverlenersStrategie />} />
           <Route path="/blogs/strategie/straft-google-ai-gegenereerde-content" element={<BlogPostStraftGoogleAiGegenereerdeContent />} />
           <Route path="/blogs/algemeen/data-betere-marketingbeslissingen" element={<BlogPostDataBetereMarketingbeslissingen />} />
           <Route path="/blogs/algemeen/brandmonitoring-hou-over-gezegd" element={<BlogPostBrandmonitoringHouOverGezegd />} />
