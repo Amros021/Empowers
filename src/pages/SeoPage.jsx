@@ -248,7 +248,7 @@ export default function SeoPage() {
                             Het SEO-bureau dat levert.
                         </h1>
                         <p className="font-sans text-primary/70 text-lg md:text-xl max-w-lg leading-relaxed font-medium mb-8">
-                            SEO uitbesteden doe je maar aan één partij, dus die keuze moet kloppen. Wij zorgen dat Google jou ziet als de meest relevante speler in jouw markt. Zonder te betalen voor elke klik.
+                            SEO besteed je maar aan één partij uit, dus die keuze moet kloppen. Wij zorgen dat Google jou ziet als de meest relevante speler in jouw markt. Zonder te betalen voor elke klik.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/contact" className="btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">

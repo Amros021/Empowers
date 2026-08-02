@@ -271,7 +271,7 @@ export default function MetaAdsPage() {
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Meta Ads</span>
                         <h1 className="font-sans font-bold text-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[0.9] tracking-tight mb-6">
-                            Facebook en Instagram Ads<br />uitbesteden die renderen.
+                            Ze scrollen voorbij.<br />Wij zorgen dat ze stoppen.
                         </h1>
                         <p className="font-sans text-primary/70 text-lg md:text-xl max-w-lg leading-relaxed font-medium mb-8">
                             Miljarden mensen op Facebook en Instagram. Jouw klant zit ertussen. Wij vinden hem, spreken hem aan en zetten hem in beweging.

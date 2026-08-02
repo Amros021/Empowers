@@ -221,12 +221,12 @@ export default function GeoPage() {
                                 {
                                     "@type": "Question",
                                     "name": "Wat kost GEO uitbesteden?",
-                                    "acceptedAnswer": { "@type": "Answer", "text": "Je betaalt een vast maandbedrag dat afhangt van je ambitie en je markt. GEO combineert vrijwel altijd met SEO, dus we kijken in een gratis gesprek naar wat er al staat en wat er nodig is. Daarna weet je exact waar je aan toe bent." }
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Je betaalt een vast maandbedrag dat afhangt van je ambitie en je markt. GEO en SEO combineren we vrijwel altijd, dus we kijken in een gratis gesprek naar wat er al staat en wat er nog nodig is. Daarna weet je exact waar je aan toe bent." }
                                 },
                                 {
                                     "@type": "Question",
                                     "name": "Heb ik GEO nodig naast SEO?",
-                                    "acceptedAnswer": { "@type": "Answer", "text": "Ze versterken elkaar. SEO maakt je vindbaar in Google, GEO zorgt dat AI-tools je aanbevelen. De basis overlapt flink: sterke content en autoriteit voeden allebei. Wie SEO al op orde heeft, zet met GEO relatief kleine stappen voor een nieuwe verkeersbron." }
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Ze versterken elkaar. SEO maakt je vindbaar in Google, GEO zorgt dat AI-tools je aanbevelen. De basis overlapt flink: sterke content en autoriteit voeden allebei. Heb je SEO al op orde, dan is GEO een kleine stap met een nieuwe verkeersbron als beloning." }
                                 }
                             ]
                         }
@@ -242,7 +242,7 @@ export default function GeoPage() {
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Generative Engine Optimization</span>
                         <h1 className="font-sans font-bold text-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[0.9] tracking-tight mb-6">
-                            Het GEO-bureau dat je<br />aanbevolen maakt door AI.
+                            Aanbevolen worden<br />door AI.
                         </h1>
                         <p className="font-sans text-primary/70 text-lg md:text-xl max-w-lg leading-relaxed font-medium mb-8">
                             ChatGPT, Gemini, Perplexity. Mensen stellen hun vragen steeds vaker aan AI in plaats van aan Google. GEO zorgt dat jij daar als antwoord naar voren komt.
@@ -396,8 +396,8 @@ export default function GeoPage() {
                             { q: 'Wat is een GEO-bureau?', a: 'Een GEO-bureau zorgt dat AI-tools zoals ChatGPT, Gemini en Perplexity jouw bedrijf noemen en aanbevelen als mensen om advies vragen. Dat doen we met content die AI-modellen kunnen citeren, technische structuur zoals schema markup en llms.txt, en autoriteit via vermeldingen.' },
                             { q: 'Waarom zou ik nu al in GEO investeren?', a: 'Omdat het speelveld nog open ligt. In Google vecht je tegen partijen met jaren voorsprong; in AI-zoekmachines is die voorsprong er nog nauwelijks. Wie nu zichtbaar wordt in AI-antwoorden, pakt een positie die straks veel moeilijker te veroveren is.' },
                             { q: 'Hoe meet je of GEO werkt?', a: 'We monitoren of en hoe vaak AI-tools jouw bedrijf noemen bij relevante vragen, volgen het verkeer dat vanuit AI-platforms naar je site komt en zien merkzoekopdrachten groeien. Je krijgt elke maand een helder overzicht van je AI-zichtbaarheid.' },
-                            { q: 'Wat kost GEO uitbesteden?', a: 'Je betaalt een vast maandbedrag dat afhangt van je ambitie en je markt. GEO combineert vrijwel altijd met SEO, dus we kijken in een gratis gesprek naar wat er al staat en wat er nodig is. Daarna weet je exact waar je aan toe bent.' },
-                            { q: 'Heb ik GEO nodig naast SEO?', a: 'Ze versterken elkaar. SEO maakt je vindbaar in Google, GEO zorgt dat AI-tools je aanbevelen. De basis overlapt flink: sterke content en autoriteit voeden allebei. Wie SEO al op orde heeft, zet met GEO relatief kleine stappen voor een nieuwe verkeersbron.' },
+                            { q: 'Wat kost GEO uitbesteden?', a: 'Je betaalt een vast maandbedrag dat afhangt van je ambitie en je markt. GEO en SEO combineren we vrijwel altijd, dus we kijken in een gratis gesprek naar wat er al staat en wat er nog nodig is. Daarna weet je exact waar je aan toe bent.' },
+                            { q: 'Heb ik GEO nodig naast SEO?', a: 'Ze versterken elkaar. SEO maakt je vindbaar in Google, GEO zorgt dat AI-tools je aanbevelen. De basis overlapt flink: sterke content en autoriteit voeden allebei. Heb je SEO al op orde, dan is GEO een kleine stap met een nieuwe verkeersbron als beloning.' },
                         ].map((f, i) => (
                             <div key={i} className="border border-primary/10 rounded-xl p-6 bg-white">
                                 <h3 className="font-sans font-semibold text-primary mb-2">{f.q}</h3>

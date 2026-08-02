@@ -220,7 +220,7 @@ export default function GoogleAdsPage() {
                                 {
                                     "@type": "Question",
                                     "name": "Blijf ik eigenaar van mijn Google Ads account?",
-                                    "acceptedAnswer": { "@type": "Answer", "text": "Altijd. Het account staat op jouw naam, de data en de historie zijn van jou. Stopt de samenwerking, dan neem je alles mee. Bureaus die het account op eigen naam zetten, houden je gegijzeld en dat vinden wij not done." }
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Altijd. Het account staat op jouw naam, de data en de historie zijn van jou. Stopt de samenwerking, dan neem je alles mee. Bureaus die het account op eigen naam zetten, houden je in feite gegijzeld. Daar doen wij niet aan." }
                                 },
                                 {
                                     "@type": "Question",
@@ -370,7 +370,7 @@ export default function GoogleAdsPage() {
                     <div className="space-y-4">
                         {[
                             { q: 'Wat kost Google Ads uitbesteden?', a: 'Je betaalt twee dingen: je advertentiebudget aan Google en een vast maandbedrag voor het beheer. Dat beheerbedrag hangt af van de omvang en complexiteit van je campagnes. In een gratis gesprek rekenen we door wat realistisch is en wat het naar verwachting oplevert.' },
-                            { q: 'Blijf ik eigenaar van mijn Google Ads account?', a: 'Altijd. Het account staat op jouw naam, de data en de historie zijn van jou. Stopt de samenwerking, dan neem je alles mee. Bureaus die het account op eigen naam zetten, houden je gegijzeld en dat vinden wij not done.' },
+                            { q: 'Blijf ik eigenaar van mijn Google Ads account?', a: 'Altijd. Het account staat op jouw naam, de data en de historie zijn van jou. Stopt de samenwerking, dan neem je alles mee. Bureaus die het account op eigen naam zetten, houden je in feite gegijzeld. Daar doen wij niet aan.' },
                             { q: 'Wat doet een Google Ads bureau elke maand?', a: 'Zoekwoorden en biedingen bijsturen, slecht presterende advertenties vervangen, nieuwe advertentieteksten testen, budget verschuiven naar wat rendeert en rapporteren op omzet. Niet één keer instellen en laten draaien, maar wekelijks onderhoud.' },
                             { q: 'Hoe snel zie ik resultaat met Google Ads?', a: 'De eerste klikken komen binnen op dag één. Reken op vier tot acht weken voordat campagnes goed zijn ingeregeld en het algoritme voldoende data heeft om te sturen op conversies. Daarna wordt het elke maand scherper.' },
                             { q: 'Is Google Ads geschikt voor mijn budget?', a: 'Google Ads werkt vanaf bescheiden budgetten, mits je markt niet extreem competitief is. Belangrijker dan de hoogte van je budget is of de cijfers kloppen: wat een klant je oplevert bepaalt wat een klik mag kosten. Dat rekenen we vooraf samen door.' },
