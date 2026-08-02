@@ -29,89 +29,114 @@ export default function BlogPostGenerativeEngineOptimizationUitbesteden() {
                 <meta name="twitter:title" content="Generative Engine Optimization uitbesteden: waarom je dit niet zelf wilt doen" />
                 <meta name="twitter:description" content="De echte kosten van zelf doen versus een GEO-partner inschakelen. Plus wanneer uitbesteden zinvol wordt en wanneer juist niet." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Generative Engine Optimization uitbesteden: waarom je dit niet zelf wilt doen",
-                        "description": "Waarom GEO uitbesteden bijna altijd voordeliger is dan zelf doen. De verborgen tijdskosten, tooling en kennisdiepte die maken dat een partner sneller resultaat haalt.",
-                        "image": "https://www.empowers.nl/images/blogs/generative-engine-optimization-uitbesteden.jpg",
-                        "datePublished": "2026-05-18T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Generative Engine Optimization uitbesteden: waarom je dit niet zelf wilt doen",
+                            "description": "Waarom GEO uitbesteden bijna altijd voordeliger is dan zelf doen. De verborgen tijdskosten, tooling en kennisdiepte die maken dat een partner sneller resultaat haalt.",
+                            "image": "https://www.empowers.nl/images/blogs/generative-engine-optimization-uitbesteden.jpg",
+                            "datePublished": "2026-05-18T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kun je Generative Engine Optimization zelf doen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, technisch kan elk MKB-bedrijf zelf met GEO beginnen. Een nulmeting in ChatGPT en Perplexity kost geen geld, en de eerste paar pijlerpagina's herschrijven hoeft niet meer dan een dag te kosten per pagina. Het wordt lastig zodra je het structureel wilt doen. Dan komt er techniek bij, plus monitoring en outreach in een eindeloze herhaling. Voor de meeste ondernemers is dat het moment dat uitbesteden voordeliger blijkt dan zelf doorploeteren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost het uitbesteden van GEO ongeveer?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een serieuze GEO-aanpak voor een MKB ligt vaak tussen de duizend en drieduizend euro per maand. Dat is inclusief contentwerk, technische optimalisatie, monitoring in meerdere AI-engines en autoriteitsopbouw via externe vermeldingen. Reken liever in een horizon van zes tot negen maanden dan in maanden, want de eerste duurzame citaties verschijnen vaak pas na een paar maanden consistent werk."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is GEO uitbesteden niet de moeite waard?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Als je doelgroep in een hele kleine niche zit waar bijna niemand AI-tools gebruikt voor research, levert GEO weinig op. Hetzelfde geldt voor lokale dienstverleners met een vol orderboek, die hun groei eerder met Google Ads of een sterke website realiseren. Begin in dat geval bij wat dichterbij meetbare omzet zit en kom later op GEO terug."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of een GEO-bureau goed werk levert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vraag naar de meetbare resultaten van bestaande klanten in ChatGPT en Perplexity, en in Google AI Overviews. Een goed bureau toont nulmetingen en voortgang. Het kan precies aanwijzen welke vragen tot citaties leidden, niet alleen een aantal pagina's dat geoptimaliseerd is. Vraag ook welke tooling ze gebruiken voor monitoring en hoe ze omgaan met algoritme-wijzigingen in de grote AI-engines."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat GEO uitbesteden iets oplevert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op enkele maanden voordat je de eerste duurzame citaties terugziet in AI-engines. Wat sneller kan: structurele verbetering van een paar pijlerpagina's leidt vaak binnen anderhalve maand tot eerste vermeldingen voor specifieke vragen. Brede merk-autoriteit bouwt zich pas over een jaar of langer op."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen een SEO-bureau en een GEO-bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een SEO-bureau optimaliseert voor posities in Google. Een GEO-bureau optimaliseert voor vermeldingen in AI-antwoorden van ChatGPT en Perplexity, plus Gemini en Google AI Overviews. De overlap is groot in techniek en content. Maar de meetmethode, de tooling en de hele focus zijn fundamenteel anders. Een bureau dat alleen klassieke SEO doet, kan vaak niet de specifieke optimalisaties leveren die AI-citaties verhogen."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Kun je Generative Engine Optimization zelf doen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, technisch kan elk MKB-bedrijf zelf met GEO beginnen. Een nulmeting in ChatGPT en Perplexity kost geen geld, en de eerste paar pijlerpagina's herschrijven hoeft niet meer dan een dag te kosten per pagina. Het wordt lastig zodra je het structureel wilt doen. Dan komt er techniek bij, plus monitoring en outreach in een eindeloze herhaling. Voor de meeste ondernemers is dat het moment dat uitbesteden voordeliger blijkt dan zelf doorploeteren."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost het uitbesteden van GEO ongeveer?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een serieuze GEO-aanpak voor een MKB ligt vaak tussen de duizend en drieduizend euro per maand. Dat is inclusief contentwerk, technische optimalisatie, monitoring in meerdere AI-engines en autoriteitsopbouw via externe vermeldingen. Reken liever in een horizon van zes tot negen maanden dan in maanden, want de eerste duurzame citaties verschijnen vaak pas na een paar maanden consistent werk."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer is GEO uitbesteden niet de moeite waard?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Als je doelgroep in een hele kleine niche zit waar bijna niemand AI-tools gebruikt voor research, levert GEO weinig op. Hetzelfde geldt voor lokale dienstverleners met een vol orderboek, die hun groei eerder met Google Ads of een sterke website realiseren. Begin in dat geval bij wat dichterbij meetbare omzet zit en kom later op GEO terug."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe weet ik of een GEO-bureau goed werk levert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vraag naar de meetbare resultaten van bestaande klanten in ChatGPT en Perplexity, en in Google AI Overviews. Een goed bureau toont nulmetingen en voortgang. Het kan precies aanwijzen welke vragen tot citaties leidden, niet alleen een aantal pagina's dat geoptimaliseerd is. Vraag ook welke tooling ze gebruiken voor monitoring en hoe ze omgaan met algoritme-wijzigingen in de grote AI-engines."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat GEO uitbesteden iets oplevert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op enkele maanden voordat je de eerste duurzame citaties terugziet in AI-engines. Wat sneller kan: structurele verbetering van een paar pijlerpagina's leidt vaak binnen anderhalve maand tot eerste vermeldingen voor specifieke vragen. Brede merk-autoriteit bouwt zich pas over een jaar of langer op."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen een SEO-bureau en een GEO-bureau?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een SEO-bureau optimaliseert voor posities in Google. Een GEO-bureau optimaliseert voor vermeldingen in AI-antwoorden van ChatGPT en Perplexity, plus Gemini en Google AI Overviews. De overlap is groot in techniek en content. Maar de meetmethode, de tooling en de hele focus zijn fundamenteel anders. Een bureau dat alleen klassieke SEO doet, kan vaak niet de specifieke optimalisaties leveren die AI-citaties verhogen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "GEO uitbesteden",
+                                    "item": "https://www.empowers.nl/blogs/geo/generative-engine-optimization-uitbesteden"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "GEO uitbesteden", "item": "https://www.empowers.nl/blogs/geo/generative-engine-optimization-uitbesteden" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

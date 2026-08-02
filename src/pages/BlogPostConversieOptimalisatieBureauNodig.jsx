@@ -23,36 +23,110 @@ export default function BlogPostConversieOptimalisatieBureauNodig() {
                 <meta property="article:section" content="Strategie" />
 
                 <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "Article",
-                    "headline": "Conversie optimalisatie bureau: wat doen ze en heb je er een nodig?",
-                    "description": "Een eerlijke uitleg van wat een conversie optimalisatie bureau doet, wanneer ze waarde toevoegen en wanneer je beter zelf aan de slag gaat.",
-                    "image": "https://www.empowers.nl/images/blogs/conversie-optimalisatie-bureau-nodig.jpg",
-                    "datePublished": "2026-05-14T14:00:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                    "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                        { "@type": "Question", "name": "Wat is conversie optimalisatie precies?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Conversie optimalisatie is het systematisch verhogen van het percentage bezoekers dat een gewenste actie doet op je website. Een gewenste actie kan een aanvraag zijn, een bestelling, een download, een inschrijving. Een bureau dat zich hier op specialiseert combineert data-analyse met gebruikerstesten en A/B-experimenten om die conversiepercentages structureel omhoog te brengen." } },
-                        { "@type": "Question", "name": "Wanneer is een conversie optimalisatie bureau de moeite waard?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Pas bij voldoende verkeer. Onder ongeveer 5.000 unieke bezoekers per maand op de pagina's die je wilt optimaliseren, is statistisch betrouwbare A/B-testing onmogelijk. Boven de 20.000 maandelijkse bezoekers met een advertentiebudget van 5.000 euro of meer, betaalt een goed CRO-bureau zich vrijwel altijd terug binnen drie maanden. Daartussen is het afwegingskwestie." } },
-                        { "@type": "Question", "name": "Wat kost een conversie optimalisatie bureau?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor MKB-trajecten ligt de maandelijkse fee meestal tussen 2.000 en 5.000 euro, exclusief implementatie-uren. Project-based audits beginnen rond 1.500 euro. Pakketten onder 1.000 euro per maand zijn meestal sjabloon-werk: een paar generieke best practices toepassen zonder echte experimenten. Boven 6.000 euro maandelijks krijg je een volwaardig team met onderzoek, design en development capaciteit." } },
-                        { "@type": "Question", "name": "Hoe lang duurt het voor je resultaat ziet?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Een gemiddeld A/B-experiment heeft 2 tot 4 weken nodig om statistisch betrouwbare uitkomsten op te leveren. Een professioneel bureau draait meestal 3 tot 5 experimenten parallel. Verwacht eerste meetbare verbeteringen na 6 weken, structurele cumulatieve groei na 3 tot 6 maanden. Bureaus die snellere resultaten beloven testen meestal niet zorgvuldig." } },
-                        { "@type": "Question", "name": "Kan ik conversie optimalisatie ook zelf doen?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Ja, mits je tijd en geduld hebt. Tools zoals Hotjar, Microsoft Clarity en Google Optimize-alternatieven (Optimizely, VWO of zelfs een server-side variant in GA4) maken eenvoudige experimenten toegankelijk. Het knelpunt is meestal niet de tooling maar de discipline om wekelijks een experiment op te zetten, te draaien en te interpreteren naast je gewone werk." } },
-                        { "@type": "Question", "name": "Wat is het verschil tussen CRO en UX-design?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "UX-design bouwt gebruikersgemak in volgens principes en aannames. CRO test wat er daadwerkelijk gebeurt en stuurt bij op data. Goede CRO-bureaus werken samen met UX-designers: de designer levert hypotheses, de CRO-specialist test of ze kloppen. Ze zijn complementair, niet wisselbaar." } }
-                    ] }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                        { "@type": "ListItem", "position": 4, "name": "Conversie optimalisatie bureau nodig", "item": "https://www.empowers.nl/blogs/strategie/conversie-optimalisatie-bureau-nodig" }
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Conversie optimalisatie bureau: wat doen ze en heb je er een nodig?",
+                            "description": "Een eerlijke uitleg van wat een conversie optimalisatie bureau doet, wanneer ze waarde toevoegen en wanneer je beter zelf aan de slag gaat.",
+                            "image": "https://www.empowers.nl/images/blogs/conversie-optimalisatie-bureau-nodig.jpg",
+                            "datePublished": "2026-05-14T14:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is conversie optimalisatie precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Conversie optimalisatie is het systematisch verhogen van het percentage bezoekers dat een gewenste actie doet op je website. Een gewenste actie kan een aanvraag zijn, een bestelling, een download, een inschrijving. Een bureau dat zich hier op specialiseert combineert data-analyse met gebruikerstesten en A/B-experimenten om die conversiepercentages structureel omhoog te brengen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is een conversie optimalisatie bureau de moeite waard?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Pas bij voldoende verkeer. Onder ongeveer 5.000 unieke bezoekers per maand op de pagina's die je wilt optimaliseren, is statistisch betrouwbare A/B-testing onmogelijk. Boven de 20.000 maandelijkse bezoekers met een advertentiebudget van 5.000 euro of meer, betaalt een goed CRO-bureau zich vrijwel altijd terug binnen drie maanden. Daartussen is het afwegingskwestie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost een conversie optimalisatie bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor MKB-trajecten ligt de maandelijkse fee meestal tussen 2.000 en 5.000 euro, exclusief implementatie-uren. Project-based audits beginnen rond 1.500 euro. Pakketten onder 1.000 euro per maand zijn meestal sjabloon-werk: een paar generieke best practices toepassen zonder echte experimenten. Boven 6.000 euro maandelijks krijg je een volwaardig team met onderzoek, design en development capaciteit."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voor je resultaat ziet?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een gemiddeld A/B-experiment heeft 2 tot 4 weken nodig om statistisch betrouwbare uitkomsten op te leveren. Een professioneel bureau draait meestal 3 tot 5 experimenten parallel. Verwacht eerste meetbare verbeteringen na 6 weken, structurele cumulatieve groei na 3 tot 6 maanden. Bureaus die snellere resultaten beloven testen meestal niet zorgvuldig."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik conversie optimalisatie ook zelf doen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, mits je tijd en geduld hebt. Tools zoals Hotjar, Microsoft Clarity en Google Optimize-alternatieven (Optimizely, VWO of zelfs een server-side variant in GA4) maken eenvoudige experimenten toegankelijk. Het knelpunt is meestal niet de tooling maar de discipline om wekelijks een experiment op te zetten, te draaien en te interpreteren naast je gewone werk."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen CRO en UX-design?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "UX-design bouwt gebruikersgemak in volgens principes en aannames. CRO test wat er daadwerkelijk gebeurt en stuurt bij op data. Goede CRO-bureaus werken samen met UX-designers: de designer levert hypotheses, de CRO-specialist test of ze kloppen. Ze zijn complementair, niet wisselbaar."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Conversie optimalisatie bureau nodig",
+                                    "item": "https://www.empowers.nl/blogs/strategie/conversie-optimalisatie-bureau-nodig"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />

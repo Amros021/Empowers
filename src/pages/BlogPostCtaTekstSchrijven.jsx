@@ -28,89 +28,114 @@ export default function BlogPostCtaTekstSchrijven() {
                 <meta name="twitter:title" content="CTA tekst schrijven die mensen aanzet tot actie" />
                 <meta name="twitter:description" content="Concrete formules en voorbeelden voor CTA's die converteren." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "CTA tekst schrijven die mensen aanzet tot actie",
-                        "description": "Een sterke CTA tekst is het verschil tussen een klik en een gemiste kans. Lees welke woorden werken, welke valkuilen er zijn en hoe je je conversies meetbaar verhoogt.",
-                        "image": "https://www.empowers.nl/images/blogs/cta-tekst-schrijven-mensen-aanzet.jpg",
-                        "datePublished": "2026-04-23T13:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "CTA tekst schrijven die mensen aanzet tot actie",
+                            "description": "Een sterke CTA tekst is het verschil tussen een klik en een gemiste kans. Lees welke woorden werken, welke valkuilen er zijn en hoe je je conversies meetbaar verhoogt.",
+                            "image": "https://www.empowers.nl/images/blogs/cta-tekst-schrijven-mensen-aanzet.jpg",
+                            "datePublished": "2026-04-23T13:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede CTA tekst?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een goede CTA tekst is kort, actief en concreet. Hij vertelt precies wat er gebeurt als iemand klikt en welk voordeel die persoon krijgt. 'Bereken mijn besparing' werkt vrijwel altijd beter dan 'Verzenden', omdat de eerste een resultaat belooft en de tweede alleen een handeling beschrijft."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang mag een CTA tekst zijn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Twee tot vijf woorden is de sweet spot. Korter dan twee woorden mist context, langer dan vijf wordt niet meer gescand. Voor een knop midden op een landingspagina is drie tot vier woorden ideaal. In een email kan een wat langere CTA werken omdat de lezer al verder is in zijn beslissing."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke werkwoorden converteren het beste?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Werkwoorden die een direct voordeel laten zien presteren beter dan neutrale werkwoorden. Bekend zijn 'krijg', 'ontvang', 'ontdek', 'bereken', 'plan', 'reserveer' en 'start'. Vermijd zwakke werkwoorden als 'verzenden', 'klik hier' of 'meer informatie' — die zeggen niets over de waarde voor de lezer."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik mijn CTA in de eerste persoon schrijven?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "In veel tests presteren CTA's in de eerste persoon ('Bereken mijn offerte') 10 tot 30 procent beter dan dezelfde CTA in de tweede persoon ('Bereken jouw offerte'). De lezer voelt het als zijn eigen intentie. Toets dat altijd in een A/B-test, want voor sommige doelgroepen werkt de aanspreekvorm met 'jouw' juist persoonlijker."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel CTA's zet ik op een pagina?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Kies één primaire CTA per pagina en herhaal die op meerdere plekken: above the fold, in het midden en onderaan. Te veel verschillende CTA's verlamt de bezoeker. Wil je een tweede pad bieden voor mensen die nog niet klaar zijn om te kopen? Maak die secundaire CTA visueel duidelijk minder prominent (bijvoorbeeld een tekstlink in plaats van een knop)."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe test je of een CTA werkt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Met een A/B-test in je webanalyse- of advertentieplatform laat je twee CTA-varianten 50/50 zien aan vergelijkbare bezoekers. Reken op minimaal 200 conversies per variant voor een betrouwbaar oordeel. Test telkens slechts één element (woord, kleur of plaatsing), zodat je weet wat het verschil veroorzaakte."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede CTA tekst?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een goede CTA tekst is kort, actief en concreet. Hij vertelt precies wat er gebeurt als iemand klikt en welk voordeel die persoon krijgt. 'Bereken mijn besparing' werkt vrijwel altijd beter dan 'Verzenden', omdat de eerste een resultaat belooft en de tweede alleen een handeling beschrijft."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang mag een CTA tekst zijn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Twee tot vijf woorden is de sweet spot. Korter dan twee woorden mist context, langer dan vijf wordt niet meer gescand. Voor een knop midden op een landingspagina is drie tot vier woorden ideaal. In een email kan een wat langere CTA werken omdat de lezer al verder is in zijn beslissing."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke werkwoorden converteren het beste?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Werkwoorden die een direct voordeel laten zien presteren beter dan neutrale werkwoorden. Bekend zijn 'krijg', 'ontvang', 'ontdek', 'bereken', 'plan', 'reserveer' en 'start'. Vermijd zwakke werkwoorden als 'verzenden', 'klik hier' of 'meer informatie' — die zeggen niets over de waarde voor de lezer."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik mijn CTA in de eerste persoon schrijven?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "In veel tests presteren CTA's in de eerste persoon ('Bereken mijn offerte') 10 tot 30 procent beter dan dezelfde CTA in de tweede persoon ('Bereken jouw offerte'). De lezer voelt het als zijn eigen intentie. Toets dat altijd in een A/B-test, want voor sommige doelgroepen werkt de aanspreekvorm met 'jouw' juist persoonlijker."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel CTA's zet ik op een pagina?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Kies één primaire CTA per pagina en herhaal die op meerdere plekken: above the fold, in het midden en onderaan. Te veel verschillende CTA's verlamt de bezoeker. Wil je een tweede pad bieden voor mensen die nog niet klaar zijn om te kopen? Maak die secundaire CTA visueel duidelijk minder prominent (bijvoorbeeld een tekstlink in plaats van een knop)."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe test je of een CTA werkt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Met een A/B-test in je webanalyse- of advertentieplatform laat je twee CTA-varianten 50/50 zien aan vergelijkbare bezoekers. Reken op minimaal 200 conversies per variant voor een betrouwbaar oordeel. Test telkens slechts één element (woord, kleur of plaatsing), zodat je weet wat het verschil veroorzaakte."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "CTA tekst schrijven",
+                                    "item": "https://www.empowers.nl/blogs/strategie/cta-tekst-schrijven-mensen-aanzet"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                            { "@type": "ListItem", "position": 4, "name": "CTA tekst schrijven", "item": "https://www.empowers.nl/blogs/strategie/cta-tekst-schrijven-mensen-aanzet" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

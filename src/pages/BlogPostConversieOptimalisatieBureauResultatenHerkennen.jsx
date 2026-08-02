@@ -23,36 +23,110 @@ export default function BlogPostConversieOptimalisatieBureauResultatenHerkennen(
                 <meta property="article:section" content="Strategie" />
 
                 <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "Article",
-                    "headline": "Conversie optimalisatie bureau: aan deze resultaten herken je een goed bureau",
-                    "description": "De vijf concrete resultaten en bewijsstukken waaraan je een serieus conversie optimalisatie bureau herkent.",
-                    "image": "https://www.empowers.nl/images/blogs/conversie-optimalisatie-bureau-resultaten-herkennen.jpg",
-                    "datePublished": "2026-05-14T15:00:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                    "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                        { "@type": "Question", "name": "Welke uplift is realistisch van een goed CRO-bureau?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Per individueel experiment is een uplift van 5 tot 20 procent op de gemeten metric gangbaar. Cumulatief, over een vol jaar met 20 tot 30 experimenten, levert een serieus programma vaak een verbetering van 15 tot 40 procent in totale conversieratio op. Bureaus die per experiment 50 procent of meer beloven zijn óf zeldzaam goed óf liegen, en het laatste komt vaker voor." } },
-                        { "@type": "Question", "name": "Wat moet ik in een testrapport kunnen zien?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Hypothese, opzet, looptijd, statistische significantie, conclusie en learnings. Een degelijk rapport heeft ook een sectie over wat het experiment juist NIET bewees, want bij CRO is dat vaak het waardevolst. Een rapport zonder p-waarden, sample size of conclusie naast 'het werkte' is geen serieus rapport." } },
-                        { "@type": "Question", "name": "Hoeveel experimenten draait een goed CRO-team per maand?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor een MKB-traject: gemiddeld 2 tot 4 experimenten per maand parallel actief. Voor enterprise-trajecten kan dat oplopen tot meer dan tien. Wat belangrijker is dan het aantal: hoeveel learnings worden er gedocumenteerd, en hoe sterk de hypotheses gebaseerd zijn op echte data uit jouw account. Eén goed onderbouwd experiment is meer waard dan vijf losse pogingen." } },
-                        { "@type": "Question", "name": "Wat als een bureau alleen winnende experimenten laat zien?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Dat is een rode vlag. In serieus CRO werk komt ongeveer een derde van de experimenten als winnaar uit de test, een derde als verliezer, en een derde inconclusief. Wie alleen successen toont, verbergt het normale patroon van het vak. Vraag specifiek naar experimenten die niet werkten en wat ze daaruit geleerd hebben." } },
-                        { "@type": "Question", "name": "Hoe weet ik of de uplift echt door het bureau komt?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Aan de statistische opzet. Een goed bureau gebruikt A/B-testing met willekeurige bezoekersverdeling, niet pre/post-vergelijkingen of cohort-analyses. Pre/post is gevoelig voor seizoenseffecten en kan verbeteringen toeschrijven aan het experiment die in werkelijkheid uit andere oorzaak komen. Vraag specifiek welke statistische methode wordt gebruikt." } },
-                        { "@type": "Question", "name": "Welke tools moet ik in hun stack zien?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Een combinatie van analytics (GA4 of een data-warehouse), heatmaps/session recordings (Hotjar of Microsoft Clarity), experimentation platform (VWO, Optimizely, of server-side via GTM) en bij voorkeur een dashboarding tool waarin experimenten worden gerapporteerd. Ontbreekt analytics of session recording, dan ontbreekt het fundament voor goede hypotheses." } }
-                    ] }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                        { "@type": "ListItem", "position": 4, "name": "CRO bureau resultaten herkennen", "item": "https://www.empowers.nl/blogs/strategie/conversie-optimalisatie-bureau-resultaten-herkennen" }
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Conversie optimalisatie bureau: aan deze resultaten herken je een goed bureau",
+                            "description": "De vijf concrete resultaten en bewijsstukken waaraan je een serieus conversie optimalisatie bureau herkent.",
+                            "image": "https://www.empowers.nl/images/blogs/conversie-optimalisatie-bureau-resultaten-herkennen.jpg",
+                            "datePublished": "2026-05-14T15:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke uplift is realistisch van een goed CRO-bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Per individueel experiment is een uplift van 5 tot 20 procent op de gemeten metric gangbaar. Cumulatief, over een vol jaar met 20 tot 30 experimenten, levert een serieus programma vaak een verbetering van 15 tot 40 procent in totale conversieratio op. Bureaus die per experiment 50 procent of meer beloven zijn óf zeldzaam goed óf liegen, en het laatste komt vaker voor."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat moet ik in een testrapport kunnen zien?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Hypothese, opzet, looptijd, statistische significantie, conclusie en learnings. Een degelijk rapport heeft ook een sectie over wat het experiment juist NIET bewees, want bij CRO is dat vaak het waardevolst. Een rapport zonder p-waarden, sample size of conclusie naast 'het werkte' is geen serieus rapport."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel experimenten draait een goed CRO-team per maand?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor een MKB-traject: gemiddeld 2 tot 4 experimenten per maand parallel actief. Voor enterprise-trajecten kan dat oplopen tot meer dan tien. Wat belangrijker is dan het aantal: hoeveel learnings worden er gedocumenteerd, en hoe sterk de hypotheses gebaseerd zijn op echte data uit jouw account. Eén goed onderbouwd experiment is meer waard dan vijf losse pogingen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat als een bureau alleen winnende experimenten laat zien?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat is een rode vlag. In serieus CRO werk komt ongeveer een derde van de experimenten als winnaar uit de test, een derde als verliezer, en een derde inconclusief. Wie alleen successen toont, verbergt het normale patroon van het vak. Vraag specifiek naar experimenten die niet werkten en wat ze daaruit geleerd hebben."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of de uplift echt door het bureau komt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Aan de statistische opzet. Een goed bureau gebruikt A/B-testing met willekeurige bezoekersverdeling, niet pre/post-vergelijkingen of cohort-analyses. Pre/post is gevoelig voor seizoenseffecten en kan verbeteringen toeschrijven aan het experiment die in werkelijkheid uit andere oorzaak komen. Vraag specifiek welke statistische methode wordt gebruikt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke tools moet ik in hun stack zien?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een combinatie van analytics (GA4 of een data-warehouse), heatmaps/session recordings (Hotjar of Microsoft Clarity), experimentation platform (VWO, Optimizely, of server-side via GTM) en bij voorkeur een dashboarding tool waarin experimenten worden gerapporteerd. Ontbreekt analytics of session recording, dan ontbreekt het fundament voor goede hypotheses."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "CRO bureau resultaten herkennen",
+                                    "item": "https://www.empowers.nl/blogs/strategie/conversie-optimalisatie-bureau-resultaten-herkennen"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />

@@ -28,97 +28,122 @@ export default function BlogPostDynamicAdsMetaAutomatischAdverteren() {
                 <meta name="twitter:title" content="Dynamic Ads in Meta: automatisch adverteren op basis van gedrag" />
                 <meta name="twitter:description" content="Hoe Dynamic Ads van Meta werken, en hoe je ze gebruikt om je webshop te laten groeien." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Dynamic Ads in Meta: automatisch adverteren op basis van gedrag",
-                        "description": "Dynamic Ads tonen elke gebruiker het product dat past bij zijn surfgedrag. Lees hoe je ze opzet, welke fouten je voorkomt en wanneer ze écht renderen.",
-                        "image": "https://www.empowers.nl/images/blogs/dynamic-ads-meta-automatisch-adverteren.jpg",
-                        "datePublished": "2026-05-06T08:30:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Dynamic Ads in Meta: automatisch adverteren op basis van gedrag",
+                            "description": "Dynamic Ads tonen elke gebruiker het product dat past bij zijn surfgedrag. Lees hoe je ze opzet, welke fouten je voorkomt en wanneer ze écht renderen.",
+                            "image": "https://www.empowers.nl/images/blogs/dynamic-ads-meta-automatisch-adverteren.jpg",
+                            "datePublished": "2026-05-06T08:30:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn Dynamic Ads in Meta precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dynamic Ads zijn advertenties op Facebook en Instagram waarbij Meta automatisch kiest welk product aan welke gebruiker getoond wordt. Het systeem combineert jouw productfeed met het gedrag van een bezoeker (bekeken pagina's, items in winkelmandje, eerdere aankopen) en bouwt per impressie een passende advertentie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen Dynamic Ads en gewone Meta Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij gewone Meta Ads ontwerp je per advertentie de tekst, afbeelding en doelgroep. Bij Dynamic Ads bouw je één sjabloon en laat Meta de invulling per gebruiker doen. Het sjabloon bevat dynamische tags die Meta vult met productnaam en prijs uit jouw catalogus. Dat schaalt waar handmatige campagnes vastlopen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb je een productcatalogus nodig voor Dynamic Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Een productcatalogus in Meta Business Manager is verplicht. Daarin staan alle producten met afbeelding, titel, beschrijving, prijs, voorraadstatus, productcategorie en URL. Zonder catalogus kan Meta geen advertenties opbouwen. De catalogus koppel je idealiter via Shopify, WooCommerce of Magento, of via een dynamische feed-URL."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Voor wie werken Dynamic Ads het beste?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vooral webshops met een breed assortiment. Hoe meer producten, hoe meer combinaties Meta kan maken per gebruiker. Bedrijven met minder dan tien producten of dienstverleners zonder e-commerce halen meestal weinig uit Dynamic Ads. Dan zijn klassieke Meta-campagnes met video en lead-formulieren effectiever."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke ROAS is realistisch met Dynamic Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor retargeting (mensen die je shop al bezochten) zien we doorgaans een ROAS van 5 tot 10. Voor cold prospecting via Advantage+ Shopping of brede targeting ligt de ROAS tussen 2 en 4. Het verschil komt door warmte van het publiek: retargeting praat tegen mensen die al interesse toonden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke fouten kom je vaak tegen bij Dynamic Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie veelvoorkomende fouten: een onvolledige productfeed waardoor producten worden afgekeurd, geen Meta Pixel of Conversie API geïnstalleerd waardoor het algoritme geen gedrag ziet, en retargeting en prospecting in dezelfde campagne stoppen. Houd ze gescheiden, want hun ROAS-targets verschillen fundamenteel."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werken Dynamic Ads ook zonder Pixel?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet effectief. De Meta Pixel of Conversie API levert het gedragssignaal waarop Dynamic Ads draaien. Zonder die data weet Meta niet welk product je een bepaalde bezoeker moet tonen. Voor cold prospecting werkt het systeem nog enigszins op basis van interesse-targeting, maar de echte kracht zit in retargeting met productdata."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat zijn Dynamic Ads in Meta precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dynamic Ads zijn advertenties op Facebook en Instagram waarbij Meta automatisch kiest welk product aan welke gebruiker getoond wordt. Het systeem combineert jouw productfeed met het gedrag van een bezoeker (bekeken pagina's, items in winkelmandje, eerdere aankopen) en bouwt per impressie een passende advertentie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen Dynamic Ads en gewone Meta Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij gewone Meta Ads ontwerp je per advertentie de tekst, afbeelding en doelgroep. Bij Dynamic Ads bouw je één sjabloon en laat Meta de invulling per gebruiker doen. Het sjabloon bevat dynamische tags die Meta vult met productnaam en prijs uit jouw catalogus. Dat schaalt waar handmatige campagnes vastlopen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Heb je een productcatalogus nodig voor Dynamic Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Een productcatalogus in Meta Business Manager is verplicht. Daarin staan alle producten met afbeelding, titel, beschrijving, prijs, voorraadstatus, productcategorie en URL. Zonder catalogus kan Meta geen advertenties opbouwen. De catalogus koppel je idealiter via Shopify, WooCommerce of Magento, of via een dynamische feed-URL."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Voor wie werken Dynamic Ads het beste?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vooral webshops met een breed assortiment. Hoe meer producten, hoe meer combinaties Meta kan maken per gebruiker. Bedrijven met minder dan tien producten of dienstverleners zonder e-commerce halen meestal weinig uit Dynamic Ads. Dan zijn klassieke Meta-campagnes met video en lead-formulieren effectiever."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke ROAS is realistisch met Dynamic Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor retargeting (mensen die je shop al bezochten) zien we doorgaans een ROAS van 5 tot 10. Voor cold prospecting via Advantage+ Shopping of brede targeting ligt de ROAS tussen 2 en 4. Het verschil komt door warmte van het publiek: retargeting praat tegen mensen die al interesse toonden."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke fouten kom je vaak tegen bij Dynamic Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie veelvoorkomende fouten: een onvolledige productfeed waardoor producten worden afgekeurd, geen Meta Pixel of Conversie API geïnstalleerd waardoor het algoritme geen gedrag ziet, en retargeting en prospecting in dezelfde campagne stoppen. Houd ze gescheiden, want hun ROAS-targets verschillen fundamenteel."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werken Dynamic Ads ook zonder Pixel?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet effectief. De Meta Pixel of Conversie API levert het gedragssignaal waarop Dynamic Ads draaien. Zonder die data weet Meta niet welk product je een bepaalde bezoeker moet tonen. Voor cold prospecting werkt het systeem nog enigszins op basis van interesse-targeting, maar de echte kracht zit in retargeting met productdata."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Dynamic Ads in Meta",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/dynamic-ads-meta-automatisch-adverteren"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Dynamic Ads in Meta", "item": "https://www.empowers.nl/blogs/social-ads/dynamic-ads-meta-automatisch-adverteren" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

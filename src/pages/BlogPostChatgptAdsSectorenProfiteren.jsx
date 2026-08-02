@@ -28,89 +28,114 @@ export default function BlogPostChatgptAdsSectorenProfiteren() {
                 <meta name="twitter:title" content="Welke sectoren als eerste profiteren van ChatGPT Ads" />
                 <meta name="twitter:description" content="Per branche analyse: wie maakt nu al meters, wie kan beter wachten en wat moet je vandaag voorbereiden?" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "ChatGPT Ads: welke sectoren als eerste gaan profiteren",
-                        "description": "Per branche analyse van ChatGPT Ads: welke sectoren de grootste sprong maken in de eerste maanden en welke beter even kunnen wachten.",
-                        "image": "https://www.empowers.nl/images/blogs/chatgpt-ads-sectoren-profiteren.jpg",
-                        "datePublished": "2026-05-08T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "ChatGPT Ads: welke sectoren als eerste gaan profiteren",
+                            "description": "Per branche analyse van ChatGPT Ads: welke sectoren de grootste sprong maken in de eerste maanden en welke beter even kunnen wachten.",
+                            "image": "https://www.empowers.nl/images/blogs/chatgpt-ads-sectoren-profiteren.jpg",
+                            "datePublished": "2026-05-08T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke sectoren profiteren als eerste van ChatGPT Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Sectoren waarin mensen advies vragen voor ze kopen pakken de eerste winst. Denk aan reizen, financiele dienstverlening, gezondheidsproducten, software en B2B-tools. In die branches stelt iemand vaak een vraag aan ChatGPT (welke optie past bij mijn situatie?), en daar past een gesponsorde aanbeveling logisch tussen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt ChatGPT Ads ook voor webshops?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, maar gericht. Webshops met producten waar mensen voor kiezen via vergelijking (matrassen, fietsen, koffiemachines, supplementen) zien meer aansluiting dan webshops met impulsproducten. ChatGPT zit in de adviesfase, niet in de scrolfase. Een productkaart die past bij een advies-prompt presteert beter dan een algemene aanbieding."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke sectoren kunnen beter even wachten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Sectoren met snelle, lokale, impulsgedreven aankopen profiteren minder. Bezorgrestaurants, kapsalons in de buurt en spontane mode-aankopen werken beter via Google Search en Meta. Ook sterk gereguleerde branches (gokken, alcohol, sommige medicijnen) krijgen voorlopig minder ruimte op het platform vanwege de advertentievoorwaarden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom presteert B2B SaaS goed in ChatGPT Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "B2B SaaS leeft van vergelijkende vragen. Welke CRM past bij een team van twintig? Wat is een goede helpdesktool voor een hostingbedrijf? Dat zijn precies de prompts die ChatGPT vaak krijgt. Een gesponsorde productkaart van een passende tool past daar logisch in. Bovendien is de klantwaarde in B2B hoog genoeg om experimentele klikprijzen te dragen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe bereid ik mijn sector voor op ChatGPT Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie acties. Zet je tracking server-side op orde via een Conversions API, want ChatGPT Ads heeft schone signalen nodig om te leren. Schrijf vergelijkende content (alternatieven, kiesgidsen, FAQ) zodat het model jouw merk al kent voordat de ad live is. En bouw alvast advertentie-formats die passen in een chatvenster: kort, scherp, advies-achtig."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel budget moet je reserveren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "In de eerste maanden raden we aan om vijf tot tien procent van je betaalde marketingbudget te reserveren voor ChatGPT Ads, mits je sector er bovengemiddeld bij past. Niet meer. Het is een leerfase, geen volume-fase. Naarmate je inzicht krijgt in conversiekosten en attributie kun je opschalen of bijsturen."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke sectoren profiteren als eerste van ChatGPT Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Sectoren waarin mensen advies vragen voor ze kopen pakken de eerste winst. Denk aan reizen, financiele dienstverlening, gezondheidsproducten, software en B2B-tools. In die branches stelt iemand vaak een vraag aan ChatGPT (welke optie past bij mijn situatie?), en daar past een gesponsorde aanbeveling logisch tussen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Werkt ChatGPT Ads ook voor webshops?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, maar gericht. Webshops met producten waar mensen voor kiezen via vergelijking (matrassen, fietsen, koffiemachines, supplementen) zien meer aansluiting dan webshops met impulsproducten. ChatGPT zit in de adviesfase, niet in de scrolfase. Een productkaart die past bij een advies-prompt presteert beter dan een algemene aanbieding."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke sectoren kunnen beter even wachten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Sectoren met snelle, lokale, impulsgedreven aankopen profiteren minder. Bezorgrestaurants, kapsalons in de buurt en spontane mode-aankopen werken beter via Google Search en Meta. Ook sterk gereguleerde branches (gokken, alcohol, sommige medicijnen) krijgen voorlopig minder ruimte op het platform vanwege de advertentievoorwaarden."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AI Ads",
+                                    "item": "https://www.empowers.nl/blogs/ai-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom presteert B2B SaaS goed in ChatGPT Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "B2B SaaS leeft van vergelijkende vragen. Welke CRM past bij een team van twintig? Wat is een goede helpdesktool voor een hostingbedrijf? Dat zijn precies de prompts die ChatGPT vaak krijgt. Een gesponsorde productkaart van een passende tool past daar logisch in. Bovendien is de klantwaarde in B2B hoog genoeg om experimentele klikprijzen te dragen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe bereid ik mijn sector voor op ChatGPT Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie acties. Zet je tracking server-side op orde via een Conversions API, want ChatGPT Ads heeft schone signalen nodig om te leren. Schrijf vergelijkende content (alternatieven, kiesgidsen, FAQ) zodat het model jouw merk al kent voordat de ad live is. En bouw alvast advertentie-formats die passen in een chatvenster: kort, scherp, advies-achtig."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel budget moet je reserveren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "In de eerste maanden raden we aan om vijf tot tien procent van je betaalde marketingbudget te reserveren voor ChatGPT Ads, mits je sector er bovengemiddeld bij past. Niet meer. Het is een leerfase, geen volume-fase. Naarmate je inzicht krijgt in conversiekosten en attributie kun je opschalen of bijsturen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "ChatGPT Ads sectoren",
+                                    "item": "https://www.empowers.nl/blogs/ai-ads/chatgpt-ads-sectoren-profiteren"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "AI Ads", "item": "https://www.empowers.nl/blogs/ai-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "ChatGPT Ads sectoren", "item": "https://www.empowers.nl/blogs/ai-ads/chatgpt-ads-sectoren-profiteren" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

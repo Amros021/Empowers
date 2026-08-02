@@ -29,97 +29,122 @@ export default function BlogPostBesteGeoTool2026() {
                 <meta name="twitter:title" content="Beste GEO-tool 2026: een eerlijke vergelijking" />
                 <meta name="twitter:description" content="Welke GEO-tool past bij MKB, groeibedrijven of enterprise. Helder advies, geen marketingsausjes." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Wat is het beste GEO-tool in 2026? Een eerlijke vergelijking",
-                        "description": "AthenaHQ, Profound, Otterly: welke GEO-tool past bij jouw situatie? Een eerlijke vergelijking voor MKB, groeibedrijven en enterprise.",
-                        "image": "https://www.empowers.nl/images/blogs/beste-geo-tool-2026.jpg",
-                        "datePublished": "2026-05-10T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Wat is het beste GEO-tool in 2026? Een eerlijke vergelijking",
+                            "description": "AthenaHQ, Profound, Otterly: welke GEO-tool past bij jouw situatie? Een eerlijke vergelijking voor MKB, groeibedrijven en enterprise.",
+                            "image": "https://www.empowers.nl/images/blogs/beste-geo-tool-2026.jpg",
+                            "datePublished": "2026-05-10T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een GEO-tool eigenlijk?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een GEO-tool monitort waar en hoe vaak jouw merk genoemd wordt in antwoorden van AI-zoekmachines van ChatGPT en Perplexity tot Gemini en Claude. De tools loggen per query welke merken worden geciteerd en hoe vaak. Sommige bieden ook acties op die data, zoals contentaanbevelingen of crawl-data van AI-bots. Het verschil zit in hoe diep ze gaan, wat ze kosten en welke platforms ze afdekken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb ik een GEO-tool echt nodig?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet altijd. Voor wie net begint met GEO is een handmatige aanpak via ChatGPT-tests en een spreadsheet vaak voldoende. Een tool wordt waardevol zodra je structureel zichtbaarheid wilt sturen over meerdere AI-platforms tegelijk, of wanneer je het in een team zonder dagelijks handwerk wilt monitoren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen AthenaHQ en Profound?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "AthenaHQ richt zich op merktracking met aanbevelingen, gebouwd door oud-Google en oud-DeepMind ingenieurs. Profound is meer enterprise: diepe AI-crawler analytics, citation tracking over meer dan tien AI-engines en een breder integratieaanbod. AthenaHQ past beter bij groeibedrijven, Profound bij grote organisaties met een eigen GEO-team."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke GEO-tool past bij een MKB?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Otterly is de meest toegankelijke voor MKB en SaaS-bedrijven. Het tracked merkvermeldingen op de grote AI-platforms inclusief AI Overviews en Copilot, en kost beduidend minder dan enterprise-oplossingen. Voor kleinere teams die net beginnen, is een gratis handmatige aanpak via spreadsheet alsnog een prima startpunt voordat je een tool aanschaft."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost een GEO-tool gemiddeld?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De prijzen lopen breed uiteen. Otterly start vanaf rond de honderd euro per maand voor MKB-pakketten. AthenaHQ zit in een hoger middensegment, vaak meerdere honderden euro per maand. Profound werkt met enterprise-prijzen die op aanvraag zijn en in de duizenden per maand kunnen liggen. Vergelijk altijd op aantal queries, op aantal platforms en op aantal gebruikers."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik mijn AI-zichtbaarheid ook gratis volgen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Je opent maandelijks ChatGPT en Perplexity en typt twintig doelvragen. Per vraag noteer je in een spreadsheet of jouw merk verschijnt en welke concurrenten ernaast staan. Na drie maanden zie je een trend. Het kost een uur werk per maand en geeft een prima beeld voordat je in een betaalde tool investeert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werken Ahrefs en SEMrush ook al voor GEO-tracking?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Beperkt. Beide tools voegen GEO-functionaliteit toe, maar nog vooral op AI Overviews binnen Google. Voor zichtbaarheid in puur ChatGPT, Perplexity of Claude zijn gespecialiseerde tools beter. Wie al Ahrefs of SEMrush gebruikt voor SEO, doet er goed aan de GEO-features mee te nemen, maar voor een volledig beeld komt daar een gespecialiseerde tool naast."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een GEO-tool eigenlijk?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een GEO-tool monitort waar en hoe vaak jouw merk genoemd wordt in antwoorden van AI-zoekmachines van ChatGPT en Perplexity tot Gemini en Claude. De tools loggen per query welke merken worden geciteerd en hoe vaak. Sommige bieden ook acties op die data, zoals contentaanbevelingen of crawl-data van AI-bots. Het verschil zit in hoe diep ze gaan, wat ze kosten en welke platforms ze afdekken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Heb ik een GEO-tool echt nodig?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet altijd. Voor wie net begint met GEO is een handmatige aanpak via ChatGPT-tests en een spreadsheet vaak voldoende. Een tool wordt waardevol zodra je structureel zichtbaarheid wilt sturen over meerdere AI-platforms tegelijk, of wanneer je het in een team zonder dagelijks handwerk wilt monitoren."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen AthenaHQ en Profound?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "AthenaHQ richt zich op merktracking met aanbevelingen, gebouwd door oud-Google en oud-DeepMind ingenieurs. Profound is meer enterprise: diepe AI-crawler analytics, citation tracking over meer dan tien AI-engines en een breder integratieaanbod. AthenaHQ past beter bij groeibedrijven, Profound bij grote organisaties met een eigen GEO-team."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke GEO-tool past bij een MKB?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Otterly is de meest toegankelijke voor MKB en SaaS-bedrijven. Het tracked merkvermeldingen op de grote AI-platforms inclusief AI Overviews en Copilot, en kost beduidend minder dan enterprise-oplossingen. Voor kleinere teams die net beginnen, is een gratis handmatige aanpak via spreadsheet alsnog een prima startpunt voordat je een tool aanschaft."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat kost een GEO-tool gemiddeld?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De prijzen lopen breed uiteen. Otterly start vanaf rond de honderd euro per maand voor MKB-pakketten. AthenaHQ zit in een hoger middensegment, vaak meerdere honderden euro per maand. Profound werkt met enterprise-prijzen die op aanvraag zijn en in de duizenden per maand kunnen liggen. Vergelijk altijd op aantal queries, op aantal platforms en op aantal gebruikers."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik mijn AI-zichtbaarheid ook gratis volgen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Je opent maandelijks ChatGPT en Perplexity en typt twintig doelvragen. Per vraag noteer je in een spreadsheet of jouw merk verschijnt en welke concurrenten ernaast staan. Na drie maanden zie je een trend. Het kost een uur werk per maand en geeft een prima beeld voordat je in een betaalde tool investeert."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werken Ahrefs en SEMrush ook al voor GEO-tracking?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Beperkt. Beide tools voegen GEO-functionaliteit toe, maar nog vooral op AI Overviews binnen Google. Voor zichtbaarheid in puur ChatGPT, Perplexity of Claude zijn gespecialiseerde tools beter. Wie al Ahrefs of SEMrush gebruikt voor SEO, doet er goed aan de GEO-features mee te nemen, maar voor een volledig beeld komt daar een gespecialiseerde tool naast."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Beste GEO-tool 2026",
+                                    "item": "https://www.empowers.nl/blogs/geo/beste-geo-tool-2026"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "Beste GEO-tool 2026", "item": "https://www.empowers.nl/blogs/geo/beste-geo-tool-2026" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

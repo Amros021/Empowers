@@ -28,112 +28,114 @@ export default function BlogPostContentStructurerenAi() {
                 <meta name="twitter:title" content="Hoe structureer je content zodat AI het begrijpt?" />
                 <meta name="twitter:description" content="De structuurregels waarmee AI-modellen jouw content begrijpen en citeren." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe structureer je content zodat AI het begrijpt?",
-                        "description": "AI-modellen lezen je website anders dan mensen. Lees hoe je content structureert zodat ChatGPT, Claude en Perplexity jouw pagina's begrijpen en citeren.",
-                        "image": "https://www.empowers.nl/images/blogs/content-structureren-ai.jpg",
-                        "datePublished": "2026-04-09T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe structureer je content zodat AI het begrijpt?",
+                            "description": "AI-modellen lezen je website anders dan mensen. Lees hoe je content structureert zodat ChatGPT, Claude en Perplexity jouw pagina's begrijpen en citeren.",
+                            "image": "https://www.empowers.nl/images/blogs/content-structureren-ai.jpg",
+                            "datePublished": "2026-04-09T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom is contentstructuur belangrijk voor AI-modellen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "AI-modellen lezen pagina's in blokken en knippen die op basis van koppen en alinea's. Een duidelijke structuur met korte antwoorden en heldere H2's vergroot de kans dat jouw content als bron wordt gekozen. Zonder structuur raakt je boodschap verloren in de context en citeert het model een concurrent die het wel netjes heeft opgebouwd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik FAQ-secties toevoegen voor GEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. FAQ-blokken zijn een van de meest geciteerde structuren in AI-antwoorden. Ze leveren vraag en antwoord in één kort blok, precies zoals een taalmodel het nodig heeft. Voeg 4 tot 8 echte vragen toe per pagina, met antwoorden van 40 tot 80 woorden. Vermijd algemene vragen die op elke pagina zouden kunnen staan."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Helpt schema markup om door AI geciteerd te worden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Schema markup helpt indirect. AI-modellen lezen schema om snel te begrijpen waar je pagina over gaat: wie de auteur is, welke entiteit je bent en hoe content in elkaar zit. Combineer Article, FAQPage en Organization schema op iedere pagina om je kansen te vergroten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang moet een alinea zijn voor AI?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Houd alinea's kort: 2 tot 4 zinnen, maximaal 80 woorden. AI-modellen knippen lange blokken in stukken en verliezen daarbij context. Korte alinea's met één idee per blok worden netter geciteerd en komen vaker terug in gegenereerde antwoorden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik lijsten gebruiken in plaats van lopende tekst?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Lijsten werken uitstekend voor stappenplannen, opsommingen en vergelijkingen. AI-modellen hergebruiken lijsten vaak letterlijk in hun antwoorden. Wissel af tussen lijsten en lopende tekst: gebruik lijsten voor feiten en stappen, en lopende tekst voor uitleg, meningen en verhalen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil met SEO-content schrijven?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "SEO-content schrijf je voor een zoekopdracht en een klikbare titel. GEO-content schrijf je voor één duidelijk antwoord dat losgeknipt kan worden. SEO beloont diepgang over een heel onderwerp, GEO beloont directe antwoorden met bronvermelding. De overlap is groot, maar de volgorde van belang verschuift naar eerst het antwoord, daarna de uitleg."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom is contentstructuur belangrijk voor AI-modellen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "AI-modellen lezen pagina's in blokken en knippen die op basis van koppen en alinea's. Een duidelijke structuur met korte antwoorden en heldere H2's vergroot de kans dat jouw content als bron wordt gekozen. Zonder structuur raakt je boodschap verloren in de context en citeert het model een concurrent die het wel netjes heeft opgebouwd."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik FAQ-secties toevoegen voor GEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. FAQ-blokken zijn een van de meest geciteerde structuren in AI-antwoorden. Ze leveren vraag en antwoord in één kort blok, precies zoals een taalmodel het nodig heeft. Voeg 4 tot 8 echte vragen toe per pagina, met antwoorden van 40 tot 80 woorden. Vermijd algemene vragen die op elke pagina zouden kunnen staan."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Helpt schema markup om door AI geciteerd te worden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Schema markup helpt indirect. AI-modellen lezen schema om snel te begrijpen waar je pagina over gaat: wie de auteur is, welke entiteit je bent en hoe content in elkaar zit. Combineer Article, FAQPage en Organization schema op iedere pagina om je kansen te vergroten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang moet een alinea zijn voor AI?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Houd alinea's kort: 2 tot 4 zinnen, maximaal 80 woorden. AI-modellen knippen lange blokken in stukken en verliezen daarbij context. Korte alinea's met één idee per blok worden netter geciteerd en komen vaker terug in gegenereerde antwoorden."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik lijsten gebruiken in plaats van lopende tekst?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Lijsten werken uitstekend voor stappenplannen, opsommingen en vergelijkingen. AI-modellen hergebruiken lijsten vaak letterlijk in hun antwoorden. Wissel af tussen lijsten en lopende tekst: gebruik lijsten voor feiten en stappen, en lopende tekst voor uitleg, meningen en verhalen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil met SEO-content schrijven?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "SEO-content schrijf je voor een zoekopdracht en een klikbare titel. GEO-content schrijf je voor één duidelijk antwoord dat losgeknipt kan worden. SEO beloont diepgang over een heel onderwerp, GEO beloont directe antwoorden met bronvermelding. De overlap is groot, maar de volgorde van belang verschuift naar eerst het antwoord, daarna de uitleg."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Content structureren voor AI",
+                                    "item": "https://www.empowers.nl/blogs/geo/content-structureren-ai"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "GEO",
-                                "item": "https://www.empowers.nl/blogs/geo"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Content structureren voor AI",
-                                "item": "https://www.empowers.nl/blogs/geo/content-structureren-ai"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -28,87 +28,114 @@ export default function BlogPostBouwSterkeMerkidentiteitOnline() {
                 <meta name="twitter:title" content="Hoe bouw je een sterke merkidentiteit online op?" />
                 <meta name="twitter:description" content="De stappen die van een logo een echt merk maken." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe bouw je een sterke merkidentiteit online op?",
-                        "description": "Een sterke merkidentiteit online ontstaat niet door een mooi logo, maar door consistente keuzes in toon, beeld en gedrag.",
-                        "image": "https://www.empowers.nl/images/blogs/bouw-sterke-merkidentiteit-online.jpg",
-                        "datePublished": "2026-05-14T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe bouw je een sterke merkidentiteit online op?",
+                            "description": "Een sterke merkidentiteit online ontstaat niet door een mooi logo, maar door consistente keuzes in toon, beeld en gedrag.",
+                            "image": "https://www.empowers.nl/images/blogs/bouw-sterke-merkidentiteit-online.jpg",
+                            "datePublished": "2026-05-14T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een merkidentiteit precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een merkidentiteit is het totaal van zichtbare en voelbare keuzes die je merk uniek maken. Dat omvat je logo, kleuren en typografie, maar ook je tone of voice, je beeldtaal, hoe je website voelt, hoe je klantenservice klinkt en welke waarden je in je communicatie toont. Identiteit is hoe je merk overkomt, image is wat anderen daarvan onthouden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb ik een grote merkidentiteit nodig als MKB?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee, maar je hebt wel een duidelijke nodig. Voor het MKB werkt simpel en consistent beter dan groot en complex. Een sterk MKB-merk heeft een handvol heldere kenmerken die je in elk contactmoment terugziet. Dat is haalbaar zonder bureau of groot budget, mits je de basis goed legt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen een logo en een merkidentiteit?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een logo is een visueel symbool. Een merkidentiteit is het geheel: logo, kleuren, typografie, beeldstijl, toon, gedrag en de verhalen die je vertelt. Een logo zonder onderliggende identiteit is een tekening. Een sterke identiteit is voelbaar, ook zonder dat het logo in beeld is. Klanten herkennen je merk dan aan je stem, je foto's of je manier van reageren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het om een merkidentiteit op te bouwen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vastleggen kan binnen enkele weken. Echt voelbaar worden bij klanten vergt zes tot twaalf maanden van consistente toepassing. Het is geen sprint, het is een gewoonte. Bedrijven die hier vroeg in investeren bouwen een voorsprong op die concurrenten moeilijk inhalen, omdat herkenning niet te kopen is in een advertentie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn de eerste stappen om mijn merk online op te bouwen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin bij je positionering: voor wie ben je er, wat los je op, waarom zou iemand voor jou kiezen. Pak daarna je visuele basis aan: logo, twee tot drie kleuren, één of twee fonts, een fotostijl. Leg je tone of voice vast in een kort document. Pas dat consequent toe op je website, social media en e-mailcommunicatie. De rest volgt vanzelf zodra de basis staat."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of mijn merkidentiteit werkt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vraag het je klanten. Wat onthouden ze over jullie merk, hoe omschrijven ze jullie aan een vriend, welke woorden vallen telkens. Klopt dat met wat je wilde uitstralen, dan werkt het. Wijkt het sterk af, dan is het tijd om je positionering of je uitwerking aan te scherpen. Daarnaast meet je het in herhaalaankopen en aanbevelingen, wat klassiek voorspellende signalen zijn voor sterke merken."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een merkidentiteit precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een merkidentiteit is het totaal van zichtbare en voelbare keuzes die je merk uniek maken. Dat omvat je logo, kleuren en typografie, maar ook je tone of voice, je beeldtaal, hoe je website voelt, hoe je klantenservice klinkt en welke waarden je in je communicatie toont. Identiteit is hoe je merk overkomt, image is wat anderen daarvan onthouden."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Heb ik een grote merkidentiteit nodig als MKB?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee, maar je hebt wel een duidelijke nodig. Voor het MKB werkt simpel en consistent beter dan groot en complex. Een sterk MKB-merk heeft een handvol heldere kenmerken die je in elk contactmoment terugziet. Dat is haalbaar zonder bureau of groot budget, mits je de basis goed legt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen een logo en een merkidentiteit?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een logo is een visueel symbool. Een merkidentiteit is het geheel: logo, kleuren, typografie, beeldstijl, toon, gedrag en de verhalen die je vertelt. Een logo zonder onderliggende identiteit is een tekening. Een sterke identiteit is voelbaar, ook zonder dat het logo in beeld is. Klanten herkennen je merk dan aan je stem, je foto's of je manier van reageren."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het om een merkidentiteit op te bouwen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vastleggen kan binnen enkele weken. Echt voelbaar worden bij klanten vergt zes tot twaalf maanden van consistente toepassing. Het is geen sprint, het is een gewoonte. Bedrijven die hier vroeg in investeren bouwen een voorsprong op die concurrenten moeilijk inhalen, omdat herkenning niet te kopen is in een advertentie."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat zijn de eerste stappen om mijn merk online op te bouwen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin bij je positionering: voor wie ben je er, wat los je op, waarom zou iemand voor jou kiezen. Pak daarna je visuele basis aan: logo, twee tot drie kleuren, één of twee fonts, een fotostijl. Leg je tone of voice vast in een kort document. Pas dat consequent toe op je website, social media en e-mailcommunicatie. De rest volgt vanzelf zodra de basis staat."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe weet ik of mijn merkidentiteit werkt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vraag het je klanten. Wat onthouden ze over jullie merk, hoe omschrijven ze jullie aan een vriend, welke woorden vallen telkens. Klopt dat met wat je wilde uitstralen, dan werkt het. Wijkt het sterk af, dan is het tijd om je positionering of je uitwerking aan te scherpen. Daarnaast meet je het in herhaalaankopen en aanbevelingen, wat klassiek voorspellende signalen zijn voor sterke merken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Merkidentiteit online opbouwen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/bouw-sterke-merkidentiteit-online"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                            { "@type": "ListItem", "position": 4, "name": "Merkidentiteit online opbouwen", "item": "https://www.empowers.nl/blogs/algemeen/bouw-sterke-merkidentiteit-online" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

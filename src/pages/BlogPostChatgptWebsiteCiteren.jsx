@@ -28,112 +28,114 @@ export default function BlogPostChatgptWebsiteCiteren() {
                 <meta name="twitter:title" content="Hoe weet je of ChatGPT jouw website citeert?" />
                 <meta name="twitter:description" content="Check of ChatGPT jouw site citeert en leer hoe je je zichtbaarheid in AI-antwoorden verhoogt." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe weet je of ChatGPT jouw website citeert?",
-                        "description": "ChatGPT citeert miljoenen websites per dag. Lees hoe je controleert of jouw site erbij zit, welke tools je daarvoor gebruikt en wat je kunt doen om vaker geciteerd te worden.",
-                        "image": "https://www.empowers.nl/images/blogs/chatgpt-website-citeren.jpg",
-                        "datePublished": "2026-04-15T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe weet je of ChatGPT jouw website citeert?",
+                            "description": "ChatGPT citeert miljoenen websites per dag. Lees hoe je controleert of jouw site erbij zit, welke tools je daarvoor gebruikt en wat je kunt doen om vaker geciteerd te worden.",
+                            "image": "https://www.empowers.nl/images/blogs/chatgpt-website-citeren.jpg",
+                            "datePublished": "2026-04-15T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Citeert ChatGPT daadwerkelijk websites?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. ChatGPT met browsing en de zoekfunctie van ChatGPT Search citeren actief bronnen uit het web. Onder elk antwoord verschijnen links naar de gebruikte sites. Zonder browsing-functie baseert ChatGPT zich op zijn trainingsdata en noemt het meestal geen directe bronnen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe check ik handmatig of ChatGPT mijn site citeert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Stel ChatGPT relevante vragen die binnen jouw niche vallen en zet de zoekfunctie aan. Kijk onderaan het antwoord of in de zijbalk naar welke sites worden aangehaald. Varieer je vragen en herhaal de test op verschillende dagen, want antwoorden verschillen per sessie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke tools monitoren citaties in ChatGPT?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Tools als Otterly.AI, Peec.ai, Profound en AthenaHQ monitoren dagelijks of jouw domein wordt genoemd in AI-antwoorden. Je geeft een lijst met vragen en concurrenten op en de tool rapporteert hoe vaak jouw site wordt geciteerd, in welke context en op welke positie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik in mijn serverlogs zien dat GPTBot mijn site bezoekt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Filter in je toegangslogs of analytics op user agents als GPTBot, OAI-SearchBot en ChatGPT-User. Dat zijn de crawlers van OpenAI. Bezoeken betekenen dat OpenAI je content ophaalt, maar geen garantie op een citatie. Ze zijn wel een sterk signaal dat je site bereikbaar en interessant genoeg is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verhoog ik de kans dat ChatGPT mijn site citeert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Schrijf content die directe antwoorden geeft op specifieke vragen, onderbouw met cijfers en zorg dat GPTBot je site kan crawlen. Voeg schema markup toe, bouw topical authority op rond je kernonderwerpen en zorg voor snelle, server-side gerenderde pagina's."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Verschilt citatie tussen ChatGPT, Perplexity en Google AI Overviews?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Perplexity citeert bij vrijwel elk antwoord en toont altijd bronnen. ChatGPT citeert alleen met browsing of zoekfunctie aan. Google AI Overviews gebruiken vaak dezelfde top 10 organische resultaten. Een site die goed scoort in de ene tool, scoort niet automatisch hoog in de andere."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Citeert ChatGPT daadwerkelijk websites?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. ChatGPT met browsing en de zoekfunctie van ChatGPT Search citeren actief bronnen uit het web. Onder elk antwoord verschijnen links naar de gebruikte sites. Zonder browsing-functie baseert ChatGPT zich op zijn trainingsdata en noemt het meestal geen directe bronnen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe check ik handmatig of ChatGPT mijn site citeert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Stel ChatGPT relevante vragen die binnen jouw niche vallen en zet de zoekfunctie aan. Kijk onderaan het antwoord of in de zijbalk naar welke sites worden aangehaald. Varieer je vragen en herhaal de test op verschillende dagen, want antwoorden verschillen per sessie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke tools monitoren citaties in ChatGPT?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Tools als Otterly.AI, Peec.ai, Profound en AthenaHQ monitoren dagelijks of jouw domein wordt genoemd in AI-antwoorden. Je geeft een lijst met vragen en concurrenten op en de tool rapporteert hoe vaak jouw site wordt geciteerd, in welke context en op welke positie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Kan ik in mijn serverlogs zien dat GPTBot mijn site bezoekt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Filter in je toegangslogs of analytics op user agents als GPTBot, OAI-SearchBot en ChatGPT-User. Dat zijn de crawlers van OpenAI. Bezoeken betekenen dat OpenAI je content ophaalt, maar geen garantie op een citatie. Ze zijn wel een sterk signaal dat je site bereikbaar en interessant genoeg is."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe verhoog ik de kans dat ChatGPT mijn site citeert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Schrijf content die directe antwoorden geeft op specifieke vragen, onderbouw met cijfers en zorg dat GPTBot je site kan crawlen. Voeg schema markup toe, bouw topical authority op rond je kernonderwerpen en zorg voor snelle, server-side gerenderde pagina's."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Verschilt citatie tussen ChatGPT, Perplexity en Google AI Overviews?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Perplexity citeert bij vrijwel elk antwoord en toont altijd bronnen. ChatGPT citeert alleen met browsing of zoekfunctie aan. Google AI Overviews gebruiken vaak dezelfde top 10 organische resultaten. Een site die goed scoort in de ene tool, scoort niet automatisch hoog in de andere."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "ChatGPT website citeren",
+                                    "item": "https://www.empowers.nl/blogs/geo/chatgpt-website-citeren"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "GEO",
-                                "item": "https://www.empowers.nl/blogs/geo"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "ChatGPT website citeren",
-                                "item": "https://www.empowers.nl/blogs/geo/chatgpt-website-citeren"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

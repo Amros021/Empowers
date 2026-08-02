@@ -22,116 +22,112 @@ export default function BlogPostChatgptBedrijfAanbeveelt() {
                 <meta property="article:published_time" content="2026-03-27T00:00:00+01:00" />
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="GEO" />
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe zorg je dat ChatGPT jouw bedrijf aanbeveelt?",
-                        "description": "Wil je dat ChatGPT jouw bedrijf noemt? Leer welke stappen je neemt om zichtbaar te worden in AI-antwoorden en meer klanten te trekken.",
-                        "image": "https://www.empowers.nl/images/blogs/chatgpt-bedrijf-aanbeveelt.jpg",
-                        "datePublished": "2026-03-27T00:00:00+01:00",
-                        "author": {
-                            "@type": "Organization",
-                            "name": "Empowers"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe zorg je dat ChatGPT jouw bedrijf aanbeveelt?",
+                            "description": "Wil je dat ChatGPT jouw bedrijf noemt? Leer welke stappen je neemt om zichtbaar te worden in AI-antwoorden en meer klanten te trekken.",
+                            "image": "https://www.empowers.nl/images/blogs/chatgpt-bedrijf-aanbeveelt.jpg",
+                            "datePublished": "2026-03-27T00:00:00+01:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            }
                         },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
-                            }
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe weet ChatGPT welke bedrijven het moet aanbevelen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "ChatGPT is getraind op data tot april 2024 en leert uit het internet welke bedrijven bestaan en hoe goed ze zijn. Je website, reviews, kantoor locatie en Google My Business-informatie helpen ChatGPT je bedrijf beter begrijpen. Hoe meer positieve signalen online, des te groter de kans dat ChatGPT je noemt in relevante antwoorden."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Kan ik ChatGPT betalen om mijn bedrijf aan te bevelen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Nee, OpenAI werkt zo niet. ChatGPT zal je bedrijf niet aanbevelen omdat je ervoor betaalt. Het hangt af van de kwaliteit van je online aanwezigheid en hoe goed je website aangeeft wat je doet. Je moet je bedrijf organisch opbouwen, door betere content, meer reviews en sterke signalen online."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Helpt Google My Business bij ChatGPT aanbevelingen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, absoluut. Google My Business geeft ChatGPT informatie over je adres, openingstijden, reviews en foto's. Een compleet en goed onderhouden Google My Business-profiel vergroot je zichtbaarheid in AI-antwoorden. Zorg ervoor dat alle gegevens kloppen en dat je regelmatig posts plaatst."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is belangrijker: Google SEO of ChatGPT aanbevelingen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Beide. Google SEO en ChatGPT aanbevelingen groeien uit dezelfde bron: sterke online signalen. Als je goed scoort in Google zoekresultaten, zal ChatGPT je waarschijnlijk ook aanbevelen. Focus op beide tegelijk met een sterke website, relevante content en opbouw van je reputatie. Ze vullen elkaar aan."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe lang duurt het voordat ChatGPT mijn bedrijf aanbeveelt?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Dat varieert. ChatGPT werkt met trainingsdata die niet in real-time wordt bijgewerkt. Het kan maanden tot jaren duren voordat nieuwe bedrijven in het trainingsset terechtkomen. Begin nu met je online aanwezigheid sterker te maken, zodat als ChatGPT volgende keer getraind wordt, je bedrijf er goed uitkomt."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Zijn er andere AI-tools die mijn bedrijf kunnen aanbevelen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja. Google AI Overviews, Claude, Perplexity en andere AI-tools gaan bedrijven aanbevelen. De stappen die je nu neemt om zichtbaar te zijn voor ChatGPT werken ook voor deze andere tools. Een sterke online basis helpt overal. Hoe meer plek je inneemt in zoekresultaten en reviews, des te groter je bereik via alle AI-tools."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Hoe zorg je dat ChatGPT jouw bedrijf aanbeveelt?",
+                                    "item": "https://www.empowers.nl/blogs/geo/chatgpt-bedrijf-aanbeveelt"
+                                }
+                            ]
                         }
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": [
-                            {
-                                "@type": "Question",
-                                "name": "Hoe weet ChatGPT welke bedrijven het moet aanbevelen?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "ChatGPT is getraind op data tot april 2024 en leert uit het internet welke bedrijven bestaan en hoe goed ze zijn. Je website, reviews, kantoor locatie en Google My Business-informatie helpen ChatGPT je bedrijf beter begrijpen. Hoe meer positieve signalen online, des te groter de kans dat ChatGPT je noemt in relevante antwoorden."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Kan ik ChatGPT betalen om mijn bedrijf aan te bevelen?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Nee, OpenAI werkt zo niet. ChatGPT zal je bedrijf niet aanbevelen omdat je ervoor betaalt. Het hangt af van de kwaliteit van je online aanwezigheid en hoe goed je website aangeeft wat je doet. Je moet je bedrijf organisch opbouwen, door betere content, meer reviews en sterke signalen online."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Helpt Google My Business bij ChatGPT aanbevelingen?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Ja, absoluut. Google My Business geeft ChatGPT informatie over je adres, openingstijden, reviews en foto's. Een compleet en goed onderhouden Google My Business-profiel vergroot je zichtbaarheid in AI-antwoorden. Zorg ervoor dat alle gegevens kloppen en dat je regelmatig posts plaatst."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Wat is belangrijker: Google SEO of ChatGPT aanbevelingen?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Beide. Google SEO en ChatGPT aanbevelingen groeien uit dezelfde bron: sterke online signalen. Als je goed scoort in Google zoekresultaten, zal ChatGPT je waarschijnlijk ook aanbevelen. Focus op beide tegelijk met een sterke website, relevante content en opbouw van je reputatie. Ze vullen elkaar aan."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Hoe lang duurt het voordat ChatGPT mijn bedrijf aanbeveelt?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Dat varieert. ChatGPT werkt met trainingsdata die niet in real-time wordt bijgewerkt. Het kan maanden tot jaren duren voordat nieuwe bedrijven in het trainingsset terechtkomen. Begin nu met je online aanwezigheid sterker te maken, zodat als ChatGPT volgende keer getraind wordt, je bedrijf er goed uitkomt."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Zijn er andere AI-tools die mijn bedrijf kunnen aanbevelen?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Ja. Google AI Overviews, Claude, Perplexity en andere AI-tools gaan bedrijven aanbevelen. De stappen die je nu neemt om zichtbaar te zijn voor ChatGPT werken ook voor deze andere tools. Een sterke online basis helpt overal. Hoe meer plek je inneemt in zoekresultaten en reviews, des te groter je bereik via alle AI-tools."
-                                }
-                            }
-                        ]
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Nieuws",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "GEO",
-                                "item": "https://www.empowers.nl/blogs/geo"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Hoe zorg je dat ChatGPT jouw bedrijf aanbeveelt?",
-                                "item": "https://www.empowers.nl/blogs/geo/chatgpt-bedrijf-aanbeveelt"
-                            }
-                        ]
-                    })}
-                </script>
+                    ]
+                })}</script>
                     <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Hoe zorg je dat ChatGPT jouw bedrijf aanbeveelt?" />
         <meta name="twitter:description" content="Wil je dat ChatGPT jouw bedrijf noemt? Leer welke stappen je neemt om zichtbaar te worden in AI-antwoorden en meer klant" />

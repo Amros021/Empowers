@@ -28,81 +28,106 @@ export default function BlogPostAiZoekmachinesBronnen() {
                 <meta name="twitter:title" content="Hoe AI-zoekmachines bronnen kiezen: zo vergroot je jouw kans" />
                 <meta name="twitter:description" content="Lees hoe ChatGPT en Perplexity bronnen selecteren en vergroot jouw kans om geciteerd te worden." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe AI-zoekmachines bronnen kiezen: zo vergroot je jouw kans",
-                        "description": "ChatGPT, Perplexity en Google AI Overviews kiezen niet willekeurig welke bronnen ze citeren. Lees welke criteria zij gebruiken en hoe jij jouw kans vergroot om structureel aangehaald te worden.",
-                        "image": "https://www.empowers.nl/images/blogs/ai-zoekmachines-bronnen.jpg",
-                        "datePublished": "2026-04-15T08:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe AI-zoekmachines bronnen kiezen: zo vergroot je jouw kans",
+                            "description": "ChatGPT, Perplexity en Google AI Overviews kiezen niet willekeurig welke bronnen ze citeren. Lees welke criteria zij gebruiken en hoe jij jouw kans vergroot om structureel aangehaald te worden.",
+                            "image": "https://www.empowers.nl/images/blogs/ai-zoekmachines-bronnen.jpg",
+                            "datePublished": "2026-04-15T08:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe kiest ChatGPT zijn bronnen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "ChatGPT met zoekfunctie selecteert bronnen op basis van relevantie voor de gestelde vraag, domeinautoriteit en kwaliteit van de content. Pagina's die directe antwoorden geven, feiten onderbouwen met cijfers en technisch goed bereikbaar zijn, worden vaker aangehaald."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Verschilt de bronselectie tussen ChatGPT, Perplexity en Google AI Overviews?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Perplexity gebruikt een eigen zoekindex en citeert altijd meerdere bronnen per antwoord. ChatGPT leunt op Bing Search bij de zoekfunctie. Google AI Overviews bouwen sterk voort op de reguliere Google-index. Een hoge Google-ranking helpt bij AI Overviews, maar is geen garantie voor citaties in ChatGPT of Perplexity."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke contentformaten worden het vaakst geciteerd door AI?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Gidsen, FAQ-pagina's, definitieartikelen en how-to's worden het vaakst geciteerd. Deze formats geven directe antwoorden op specifieke vragen, wat precies is wat AI-tools zoeken. Commerciële landingspagina's worden zelden geciteerd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe snel verwerken AI-tools nieuwe content?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Perplexity en ChatGPT Search indexeren nieuwe content soms binnen uren. Google AI Overviews volgen de reguliere Google-crawlcyclus van dagen tot weken. AI-modellen zonder live zoekfunctie verwerken content pas bij de volgende trainingsronde, wat maanden kan duren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Helpt een hoge DA (Domain Authority) bij AI-citaties?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Gedeeltelijk. Een hoge DA vergroot de kans dat AI-tools jouw domein als betrouwbaar beschouwen. Maar content-kwaliteit weegt minstens zo zwaar. Een kleinere site met heel specifieke, goed onderbouwde content kan een hogere DA verslaan voor een specifieke vraag."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe kiest ChatGPT zijn bronnen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "ChatGPT met zoekfunctie selecteert bronnen op basis van relevantie voor de gestelde vraag, domeinautoriteit en kwaliteit van de content. Pagina's die directe antwoorden geven, feiten onderbouwen met cijfers en technisch goed bereikbaar zijn, worden vaker aangehaald."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Verschilt de bronselectie tussen ChatGPT, Perplexity en Google AI Overviews?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Perplexity gebruikt een eigen zoekindex en citeert altijd meerdere bronnen per antwoord. ChatGPT leunt op Bing Search bij de zoekfunctie. Google AI Overviews bouwen sterk voort op de reguliere Google-index. Een hoge Google-ranking helpt bij AI Overviews, maar is geen garantie voor citaties in ChatGPT of Perplexity."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke contentformaten worden het vaakst geciteerd door AI?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Gidsen, FAQ-pagina's, definitieartikelen en how-to's worden het vaakst geciteerd. Deze formats geven directe antwoorden op specifieke vragen, wat precies is wat AI-tools zoeken. Commerciële landingspagina's worden zelden geciteerd."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe snel verwerken AI-tools nieuwe content?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Perplexity en ChatGPT Search indexeren nieuwe content soms binnen uren. Google AI Overviews volgen de reguliere Google-crawlcyclus van dagen tot weken. AI-modellen zonder live zoekfunctie verwerken content pas bij de volgende trainingsronde, wat maanden kan duren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Helpt een hoge DA (Domain Authority) bij AI-citaties?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Gedeeltelijk. Een hoge DA vergroot de kans dat AI-tools jouw domein als betrouwbaar beschouwen. Maar content-kwaliteit weegt minstens zo zwaar. Een kleinere site met heel specifieke, goed onderbouwde content kan een hogere DA verslaan voor een specifieke vraag."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "AI-zoekmachines bronnen",
+                                    "item": "https://www.empowers.nl/blogs/geo/ai-zoekmachines-bronnen"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "AI-zoekmachines bronnen", "item": "https://www.empowers.nl/blogs/geo/ai-zoekmachines-bronnen" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

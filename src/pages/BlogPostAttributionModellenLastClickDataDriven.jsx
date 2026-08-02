@@ -28,97 +28,122 @@ export default function BlogPostAttributionModellenLastClickDataDriven() {
                 <meta name="twitter:title" content="Attribution modellen uitgelegd: last click vs data-driven" />
                 <meta name="twitter:description" content="Het verschil tussen last click, first click, lineair en data-driven attribution. Begrijp wat jouw marketing echt oplevert." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Attribution modellen uitgelegd: last click vs data-driven",
-                        "description": "Welk attribution model toont eerlijk hoe jouw marketing presteert? Lees het verschil tussen last click, first click, lineair en data-driven en kies wat past.",
-                        "image": "https://www.empowers.nl/images/blogs/attribution-modellen-uitgelegd-last-click.jpg",
-                        "datePublished": "2026-04-28T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Attribution modellen uitgelegd: last click vs data-driven",
+                            "description": "Welk attribution model toont eerlijk hoe jouw marketing presteert? Lees het verschil tussen last click, first click, lineair en data-driven en kies wat past.",
+                            "image": "https://www.empowers.nl/images/blogs/attribution-modellen-uitgelegd-last-click.jpg",
+                            "datePublished": "2026-04-28T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een attribution model in marketing?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een attribution model is een rekenregel die bepaalt welk marketingkanaal de credits krijgt voor een conversie. Een klant ziet vaak meerdere advertenties en bezoekt jouw site meerdere keren voordat hij koopt. Het model beslist wie van die contactmomenten de waarde krijgt toegewezen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen last click en data-driven attribution?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Last click geeft 100 procent van de waarde aan het laatste kanaal voor de conversie. Data-driven attribution verdeelt de waarde over alle contactmomenten op basis van hoeveel elk kanaal echt bijdraagt aan de aankoop. Data-driven is eerlijker maar vraagt meer conversiedata om betrouwbaar te zijn."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk attribution model gebruik je het best als MKB?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste MKB-bedrijven werkt data-driven attribution het beste. Sinds november 2025 is data-driven standaard beschikbaar voor alle conversieacties in Google Ads, zonder minimumdrempel. Hoe meer conversies je hebt, hoe betrouwbaarder het model. Bij weinig data geeft een positiegebaseerd of lineair model soms een stabieler beeld."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel conversies heb je nodig voor data-driven attribution?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Sinds november 2025 heeft Google de oude minimumdrempel van 300 conversies en 3000 interacties losgelaten. Data-driven attribution is nu standaard beschikbaar voor alle conversieacties. Het model werkt betrouwbaarder naarmate je meer conversiedata hebt, maar er is geen harde ondergrens meer."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom rapporteren Google Ads en Meta Ads samen meer conversies dan ik daadwerkelijk had?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Beide platforms claimen dezelfde conversie als hij in hun click- of viewwindow valt. Een klant die zowel een Google Ads als een Meta Ads zag, telt in beide platforms. Daarom zie je vaak overcounting: tel je de getallen op, dan staan ze hoger dan in jouw boekhouding. Een onafhankelijke bron zoals GA4 of een server-side tracking opzet lost dit op."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verandert iOS 14 en cookieless tracking attribution?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Sinds iOS 14 en de afbouw van third-party cookies missen platforms een deel van de customer journey. Modellen zoals data-driven en Meta's Advanced Matching vullen die gaten met statistische schattingen. Server-side tracking via de Conversie API of GTM Server-Side blijft het belangrijkste hulpmiddel om de data eerlijk te houden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik tussen attribution modellen switchen zonder mijn data te verliezen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, in Google Ads en GA4 kun je modellen vergelijken zonder dat je conversiedata aangepast wordt. Het model bepaalt alleen hoe de getoonde waarde is verdeeld, niet of de conversie is geregistreerd. Vergelijk altijd minimaal 30 dagen voordat je een definitieve keuze maakt."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een attribution model in marketing?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een attribution model is een rekenregel die bepaalt welk marketingkanaal de credits krijgt voor een conversie. Een klant ziet vaak meerdere advertenties en bezoekt jouw site meerdere keren voordat hij koopt. Het model beslist wie van die contactmomenten de waarde krijgt toegewezen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen last click en data-driven attribution?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Last click geeft 100 procent van de waarde aan het laatste kanaal voor de conversie. Data-driven attribution verdeelt de waarde over alle contactmomenten op basis van hoeveel elk kanaal echt bijdraagt aan de aankoop. Data-driven is eerlijker maar vraagt meer conversiedata om betrouwbaar te zijn."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welk attribution model gebruik je het best als MKB?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de meeste MKB-bedrijven werkt data-driven attribution het beste. Sinds november 2025 is data-driven standaard beschikbaar voor alle conversieacties in Google Ads, zonder minimumdrempel. Hoe meer conversies je hebt, hoe betrouwbaarder het model. Bij weinig data geeft een positiegebaseerd of lineair model soms een stabieler beeld."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Tracking",
+                                    "item": "https://www.empowers.nl/blogs/tracking"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel conversies heb je nodig voor data-driven attribution?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Sinds november 2025 heeft Google de oude minimumdrempel van 300 conversies en 3000 interacties losgelaten. Data-driven attribution is nu standaard beschikbaar voor alle conversieacties. Het model werkt betrouwbaarder naarmate je meer conversiedata hebt, maar er is geen harde ondergrens meer."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Waarom rapporteren Google Ads en Meta Ads samen meer conversies dan ik daadwerkelijk had?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Beide platforms claimen dezelfde conversie als hij in hun click- of viewwindow valt. Een klant die zowel een Google Ads als een Meta Ads zag, telt in beide platforms. Daarom zie je vaak overcounting: tel je de getallen op, dan staan ze hoger dan in jouw boekhouding. Een onafhankelijke bron zoals GA4 of een server-side tracking opzet lost dit op."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe verandert iOS 14 en cookieless tracking attribution?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Sinds iOS 14 en de afbouw van third-party cookies missen platforms een deel van de customer journey. Modellen zoals data-driven en Meta's Advanced Matching vullen die gaten met statistische schattingen. Server-side tracking via de Conversie API of GTM Server-Side blijft het belangrijkste hulpmiddel om de data eerlijk te houden."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik tussen attribution modellen switchen zonder mijn data te verliezen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, in Google Ads en GA4 kun je modellen vergelijken zonder dat je conversiedata aangepast wordt. Het model bepaalt alleen hoe de getoonde waarde is verdeeld, niet of de conversie is geregistreerd. Vergelijk altijd minimaal 30 dagen voordat je een definitieve keuze maakt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Attribution modellen uitgelegd",
+                                    "item": "https://www.empowers.nl/blogs/tracking/attribution-modellen-uitgelegd-last-click"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Tracking", "item": "https://www.empowers.nl/blogs/tracking" },
-                            { "@type": "ListItem", "position": 4, "name": "Attribution modellen uitgelegd", "item": "https://www.empowers.nl/blogs/tracking/attribution-modellen-uitgelegd-last-click" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

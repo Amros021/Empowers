@@ -28,97 +28,122 @@ export default function BlogPostContentonderdelenAiCitaties() {
                 <meta name="twitter:title" content="Welke contentonderdelen zorgen voor meer AI-citaties?" />
                 <meta name="twitter:description" content="Praktische gids over welke pagina-elementen AI-engines het vaakst gebruiken als bron." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Welke contentonderdelen zorgen voor meer AI-citaties?",
-                        "description": "Welke onderdelen van een pagina maken dat AI-engines zoals ChatGPT en Perplexity je merk noemen? Een praktische uitleg met concrete fixes voor jouw site.",
-                        "image": "https://www.empowers.nl/images/blogs/contentonderdelen-zorgen-meer-ai-citaties.jpg",
-                        "datePublished": "2026-05-09T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Welke contentonderdelen zorgen voor meer AI-citaties?",
+                            "description": "Welke onderdelen van een pagina maken dat AI-engines zoals ChatGPT en Perplexity je merk noemen? Een praktische uitleg met concrete fixes voor jouw site.",
+                            "image": "https://www.empowers.nl/images/blogs/contentonderdelen-zorgen-meer-ai-citaties.jpg",
+                            "datePublished": "2026-05-09T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk contentonderdeel weegt het zwaarst voor AI-citaties?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Het directe antwoord in de eerste alinea. AI-engines knippen vaak letterlijk de eerste 40 tot 80 woorden onder een H1 of H2 om als citaat te gebruiken. Wie zijn antwoord verstopt na drie alineas opbouw, wordt zelden geciteerd, ook al is de inhoud verder uitstekend. Begin met het antwoord. Geef daarna pas de uitleg, de nuance en de context."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Helpt FAQ-schema markup echt voor zichtbaarheid in AI-antwoorden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, duidelijk. FAQPage-schema maakt voor AI-engines expliciet dat een vraag-en-antwoord-blok is, in plaats van losse paragrafen waarin een antwoord verstopt zit. In de praktijk merken we dat pagina's met goed geimplementeerd FAQ-schema aanmerkelijk vaker als bron worden genoemd voor vraag-georienteerde zoekopdrachten dan vergelijkbare pagina's zonder schema."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik elke claim in mijn content onderbouwen met een bron?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet elke zin, wel elke harde claim. AI-engines wegen content waarin specifieke cijfers en uitspraken zijn gekoppeld aan een verifieerbare bron zwaarder. Een interne case-study, een externe autoriteit, een onderzoek met datum en uitgever. Wat geen bron heeft, krijgt minder vertrouwen, en wordt dus minder vaak overgenomen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang moet een pagina zijn om geciteerd te worden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Lengte is niet de hefboom. Diepte en duidelijkheid zijn dat wel. Een pagina van 800 woorden die een vraag compleet en gestructureerd beantwoordt, wordt vaker geciteerd dan een pagina van 3000 woorden vol herhaling. Schrijf zo lang als nodig, niet langer. AI-engines straffen vulwerk subtiel af door de score per relevantie-segment lager te wegen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke rol spelen tabellen en lijstjes in AI-citaties?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een grote rol bij vergelijkende vragen. Een nette tabel met kolommen en rijen wordt door AI-engines makkelijk omgezet in een gestructureerd antwoord. Hetzelfde voor genummerde lijsten met stappen. Wie een vergelijking of een stappenplan in lopende prose verstopt, mist deze bonus. Een tabel boven een paragraaf met vergelijkbare data is dus geen cosmetiek, maar een citatie-versterker."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Maakt het uit wie de auteur is van een artikel?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor sommige onderwerpen wel. Bij medische, juridische, financiele en gezondheidsgerelateerde content kijken AI-engines naar auteur-attributie via author-schema en duidelijke biografieen. Voor commerciele content is de domein-autoriteit van het bedrijf belangrijker dan de auteur. Toch helpt een auteurssectie of een organization-schema doorgaans bij het opbouwen van vertrouwen, ook bij zakelijke onderwerpen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik welke onderdelen van mijn content nu al worden geciteerd?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Tools zoals AthenaHQ of Profound loggen per query welke domeinen een AI-engine als bron noemt. Daarnaast helpt het om handmatig je belangrijkste vragen te typen in ChatGPT, Perplexity of Gemini en te kijken of je domein verschijnt. Een consistent patroon over meerdere weken laat zien welk type content wel of niet wordt overgenomen, en waar je nog werk hebt."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Welk contentonderdeel weegt het zwaarst voor AI-citaties?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Het directe antwoord in de eerste alinea. AI-engines knippen vaak letterlijk de eerste 40 tot 80 woorden onder een H1 of H2 om als citaat te gebruiken. Wie zijn antwoord verstopt na drie alineas opbouw, wordt zelden geciteerd, ook al is de inhoud verder uitstekend. Begin met het antwoord. Geef daarna pas de uitleg, de nuance en de context."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Helpt FAQ-schema markup echt voor zichtbaarheid in AI-antwoorden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, duidelijk. FAQPage-schema maakt voor AI-engines expliciet dat een vraag-en-antwoord-blok is, in plaats van losse paragrafen waarin een antwoord verstopt zit. In de praktijk merken we dat pagina's met goed geimplementeerd FAQ-schema aanmerkelijk vaker als bron worden genoemd voor vraag-georienteerde zoekopdrachten dan vergelijkbare pagina's zonder schema."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik elke claim in mijn content onderbouwen met een bron?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet elke zin, wel elke harde claim. AI-engines wegen content waarin specifieke cijfers en uitspraken zijn gekoppeld aan een verifieerbare bron zwaarder. Een interne case-study, een externe autoriteit, een onderzoek met datum en uitgever. Wat geen bron heeft, krijgt minder vertrouwen, en wordt dus minder vaak overgenomen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang moet een pagina zijn om geciteerd te worden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Lengte is niet de hefboom. Diepte en duidelijkheid zijn dat wel. Een pagina van 800 woorden die een vraag compleet en gestructureerd beantwoordt, wordt vaker geciteerd dan een pagina van 3000 woorden vol herhaling. Schrijf zo lang als nodig, niet langer. AI-engines straffen vulwerk subtiel af door de score per relevantie-segment lager te wegen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke rol spelen tabellen en lijstjes in AI-citaties?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een grote rol bij vergelijkende vragen. Een nette tabel met kolommen en rijen wordt door AI-engines makkelijk omgezet in een gestructureerd antwoord. Hetzelfde voor genummerde lijsten met stappen. Wie een vergelijking of een stappenplan in lopende prose verstopt, mist deze bonus. Een tabel boven een paragraaf met vergelijkbare data is dus geen cosmetiek, maar een citatie-versterker."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Maakt het uit wie de auteur is van een artikel?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor sommige onderwerpen wel. Bij medische, juridische, financiele en gezondheidsgerelateerde content kijken AI-engines naar auteur-attributie via author-schema en duidelijke biografieen. Voor commerciele content is de domein-autoriteit van het bedrijf belangrijker dan de auteur. Toch helpt een auteurssectie of een organization-schema doorgaans bij het opbouwen van vertrouwen, ook bij zakelijke onderwerpen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe weet ik welke onderdelen van mijn content nu al worden geciteerd?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Tools zoals AthenaHQ of Profound loggen per query welke domeinen een AI-engine als bron noemt. Daarnaast helpt het om handmatig je belangrijkste vragen te typen in ChatGPT, Perplexity of Gemini en te kijken of je domein verschijnt. Een consistent patroon over meerdere weken laat zien welk type content wel of niet wordt overgenomen, en waar je nog werk hebt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Contentonderdelen voor AI-citaties",
+                                    "item": "https://www.empowers.nl/blogs/geo/contentonderdelen-zorgen-meer-ai-citaties"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "Contentonderdelen voor AI-citaties", "item": "https://www.empowers.nl/blogs/geo/contentonderdelen-zorgen-meer-ai-citaties" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

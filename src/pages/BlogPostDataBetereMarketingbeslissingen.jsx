@@ -28,92 +28,114 @@ export default function BlogPostDataBetereMarketingbeslissingen() {
                 <meta name="twitter:title" content="Hoe gebruik je data voor betere marketingbeslissingen?" />
                 <meta name="twitter:description" content="Data omzetten in betere beslissingen." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe gebruik je data voor betere marketingbeslissingen?",
-                        "description": "Data-gedreven marketingbeslissingen klinkt logisch, maar de meeste ondernemers verzuipen in cijfers. Lees hoe je de juiste data oppakt en er echt op stuurt.",
-                        "image": "https://www.empowers.nl/images/blogs/data-betere-marketingbeslissingen.jpg",
-                        "datePublished": "2026-05-12T15:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe gebruik je data voor betere marketingbeslissingen?",
+                            "description": "Data-gedreven marketingbeslissingen klinkt logisch, maar de meeste ondernemers verzuipen in cijfers. Lees hoe je de juiste data oppakt en er echt op stuurt.",
+                            "image": "https://www.empowers.nl/images/blogs/data-betere-marketingbeslissingen.jpg",
+                            "datePublished": "2026-05-12T15:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn datagedreven marketingbeslissingen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Datagedreven marketingbeslissingen zijn keuzes die je maakt op basis van meetbare resultaten in plaats van buikgevoel. Denk aan welk advertentiekanaal je opschaalt, welke pagina je herziet of welk product je actief promoot. Goede beslissingen combineren data met context en strategie, niet alleen losse cijfers."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke marketingdata is voor het MKB belangrijk?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste MKB-bedrijven zijn vijf datasets genoeg: kosten per kanaal, conversies per kanaal, gemiddelde dealwaarde, leadkwaliteit en lifetime value. Daarmee kun je 90 procent van je marketingbeslissingen onderbouwen zonder te verzuipen in dashboards."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke tools heb ik nodig voor datagedreven marketing?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin met de gratis basis: Google Analytics 4 voor websitegedrag, Google Tag Manager voor conversies, en de native rapportages van je advertentieplatforms. Voor centralisatie werkt Looker Studio prima. Pas later kun je investeren in tools als Hotjar, Triple Whale of Supermetrics."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet ik mijn marketingdata bekijken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dagelijks even kort scannen voor anomalieën, wekelijks dieper voor optimalisaties, en maandelijks uitgebreid om koersbeslissingen te nemen. Te vaak kijken leidt tot paniekreacties op ruis, te weinig kijken leidt tot blinde vlekken die maanden ongezien blijven."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat doe ik als mijn data tegenstrijdig is?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Stel een hoofdbron vast. Voor commerciële beslissingen leidt je boekhouding of CRM, voor marketing-optimalisatie leidt GA4 of het advertentieplatform. Begrijp het verschil in attributie en meetwijzes tussen tools. Tegenstrijdige cijfers betekenen meestal dat ze verschillende dingen meten, niet dat één fout is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is buikgevoel beter dan data?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij nieuwe initiatieven zonder vergelijkbare historie, bij grote strategische keuzes met lange terugverdientijden, en bij creatieve beslissingen waar je doelgroep nog niets over kon zeggen. Data is een uitstekende adviseur, geen beslisser. Combineer altijd met ervaring en context."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat zijn datagedreven marketingbeslissingen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Datagedreven marketingbeslissingen zijn keuzes die je maakt op basis van meetbare resultaten in plaats van buikgevoel. Denk aan welk advertentiekanaal je opschaalt, welke pagina je herziet of welk product je actief promoot. Goede beslissingen combineren data met context en strategie, niet alleen losse cijfers."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke marketingdata is voor het MKB belangrijk?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de meeste MKB-bedrijven zijn vijf datasets genoeg: kosten per kanaal, conversies per kanaal, gemiddelde dealwaarde, leadkwaliteit en lifetime value. Daarmee kun je 90 procent van je marketingbeslissingen onderbouwen zonder te verzuipen in dashboards."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke tools heb ik nodig voor datagedreven marketing?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin met de gratis basis: Google Analytics 4 voor websitegedrag, Google Tag Manager voor conversies, en de native rapportages van je advertentieplatforms. Voor centralisatie werkt Looker Studio prima. Pas later kun je investeren in tools als Hotjar, Triple Whale of Supermetrics."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak moet ik mijn marketingdata bekijken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dagelijks even kort scannen voor anomalieën, wekelijks dieper voor optimalisaties, en maandelijks uitgebreid om koersbeslissingen te nemen. Te vaak kijken leidt tot paniekreacties op ruis, te weinig kijken leidt tot blinde vlekken die maanden ongezien blijven."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat doe ik als mijn data tegenstrijdig is?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Stel een hoofdbron vast. Voor commerciële beslissingen leidt je boekhouding of CRM, voor marketing-optimalisatie leidt GA4 of het advertentieplatform. Begrijp het verschil in attributie en meetwijzes tussen tools. Tegenstrijdige cijfers betekenen meestal dat ze verschillende dingen meten, niet dat één fout is."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wanneer is buikgevoel beter dan data?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij nieuwe initiatieven zonder vergelijkbare historie, bij grote strategische keuzes met lange terugverdientijden, en bij creatieve beslissingen waar je doelgroep nog niets over kon zeggen. Data is een uitstekende adviseur, geen beslisser. Combineer altijd met ervaring en context."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Data voor marketingbeslissingen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/data-betere-marketingbeslissingen"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                            { "@type": "ListItem", "position": 4, "name": "Data voor marketingbeslissingen", "item": "https://www.empowers.nl/blogs/algemeen/data-betere-marketingbeslissingen" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

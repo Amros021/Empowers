@@ -28,81 +28,106 @@ export default function BlogPostAbTestenBeginners() {
                 <meta name="twitter:title" content="A/B testen voor beginners: zo verhoog je jouw conversie stap voor stap" />
                 <meta name="twitter:description" content="De beginnersgids voor A/B testen: wat test je, hoe lang en hoe interpreteer je resultaten." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "A/B testen voor beginners: zo verhoog je jouw conversie stap voor stap",
-                        "description": "A/B testen is de snelste manier om te ontdekken wat werkt op jouw website of in je advertenties. Lees hoe je begint, wat je test en hoe je resultaten correct interpreteert.",
-                        "image": "https://www.empowers.nl/images/blogs/ab-testen-beginners.jpg",
-                        "datePublished": "2026-04-15T12:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "A/B testen voor beginners: zo verhoog je jouw conversie stap voor stap",
+                            "description": "A/B testen is de snelste manier om te ontdekken wat werkt op jouw website of in je advertenties. Lees hoe je begint, wat je test en hoe je resultaten correct interpreteert.",
+                            "image": "https://www.empowers.nl/images/blogs/ab-testen-beginners.jpg",
+                            "datePublished": "2026-04-15T12:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is A/B testen precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij A/B testen vergelijk je twee versies van een pagina, advertentie of e-mail om te zien welke beter presteert. Versie A is de originele variant, versie B de gewijzigde. Je verdeelt het verkeer gelijkmatig en meet welke versie meer conversies oplevert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kun je het beste als eerste A/B testen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin met elementen die grote impact hebben op conversie: de headline van je landingspagina, de CTA-knoptekst of -kleur, de hoofdafbeelding of de formulierlengte. Test één element per keer, zodat je zeker weet welke aanpassing het verschil maakt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang moet een A/B test lopen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Minimaal twee weken, ongeacht hoe snel je een winnaar ziet. Kortere tests worden beïnvloed door dagelijkse en wekelijkse patronen in websiteverkeer. Voor statistische significantie heb je doorgaans minimaal 100 conversies per variant nodig."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet je of een A/B test statistisch significant is?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een test is statistisch significant als de kans kleiner dan 5 procent is dat het resultaat op toeval berust. Dit noemen we een 95 procent betrouwbaarheidsniveau. Gratis tools als AB Testguide.com of de calculator van Neil Patel helpen je dit te berekenen zonder statistiekkennis."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Mag je meerdere A/B tests tegelijk draaien?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Op verschillende pagina's kan dat prima. Op dezelfde pagina niet: dan weet je niet welke wijziging het verschil maakt. Test je advertentieteksten en je landingspagina tegelijk? Doe dat op aparte pagina's en meet ze los van elkaar."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is A/B testen precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij A/B testen vergelijk je twee versies van een pagina, advertentie of e-mail om te zien welke beter presteert. Versie A is de originele variant, versie B de gewijzigde. Je verdeelt het verkeer gelijkmatig en meet welke versie meer conversies oplevert."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kun je het beste als eerste A/B testen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin met elementen die grote impact hebben op conversie: de headline van je landingspagina, de CTA-knoptekst of -kleur, de hoofdafbeelding of de formulierlengte. Test één element per keer, zodat je zeker weet welke aanpassing het verschil maakt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang moet een A/B test lopen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Minimaal twee weken, ongeacht hoe snel je een winnaar ziet. Kortere tests worden beïnvloed door dagelijkse en wekelijkse patronen in websiteverkeer. Voor statistische significantie heb je doorgaans minimaal 100 conversies per variant nodig."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe weet je of een A/B test statistisch significant is?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een test is statistisch significant als de kans kleiner dan 5 procent is dat het resultaat op toeval berust. Dit noemen we een 95 procent betrouwbaarheidsniveau. Gratis tools als AB Testguide.com of de calculator van Neil Patel helpen je dit te berekenen zonder statistiekkennis."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Mag je meerdere A/B tests tegelijk draaien?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Op verschillende pagina's kan dat prima. Op dezelfde pagina niet: dan weet je niet welke wijziging het verschil maakt. Test je advertentieteksten en je landingspagina tegelijk? Doe dat op aparte pagina's en meet ze los van elkaar."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "A/B testen beginners",
+                                    "item": "https://www.empowers.nl/blogs/strategie/a-b-testen-beginners-verhoog"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                            { "@type": "ListItem", "position": 4, "name": "A/B testen beginners", "item": "https://www.empowers.nl/blogs/strategie/a-b-testen-beginners-verhoog" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -28,97 +28,122 @@ export default function BlogPostAndromedaAlgoritme2026Instagram() {
                 <meta name="twitter:title" content="Andromeda Algoritme 2026: Hoe Instagram Beslist Wat het Toont" />
                 <meta name="twitter:description" content="Wat is Andromeda en hoe krijg je jouw ads er beter mee uitgeleverd?" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Andromeda Algoritme 2026: Hoe Instagram Beslist Wat het Toont",
-                        "description": "Het Andromeda algoritme bepaalt in 2026 welke Instagram advertenties wie ziet. Lees hoe het werkt en hoe je jouw ads ervoor optimaliseert.",
-                        "image": "https://www.empowers.nl/images/blogs/andromeda-algoritme-2026-instagram.jpg",
-                        "datePublished": "2026-04-25T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Andromeda Algoritme 2026: Hoe Instagram Beslist Wat het Toont",
+                            "description": "Het Andromeda algoritme bepaalt in 2026 welke Instagram advertenties wie ziet. Lees hoe het werkt en hoe je jouw ads ervoor optimaliseert.",
+                            "image": "https://www.empowers.nl/images/blogs/andromeda-algoritme-2026-instagram.jpg",
+                            "datePublished": "2026-04-25T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het Andromeda algoritme?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Andromeda is Meta's AI-aanbevelingssysteem dat sinds 2024 organische posts en advertenties op Instagram en Reels distribueert. Het systeem voorspelt voor elke gebruiker welke content hij wil zien op basis van duizenden gedragssignalen tegelijk: views, watch time, opslaan, delen, doorklikken, scroll-snelheid en meer."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe beinvloedt Andromeda mijn advertenties?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Andromeda bepaalt hoe vaak en aan wie jouw advertentie getoond wordt. Sterke creatives (hoge hold rate, completion, conversie) krijgen meer distributie. Matige creatives worden minder vaak getoond, ongeacht jouw budget. Het algoritme test elke advertentie continu tegen alternatieven en verschuift budget naar de winnaars in real time."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke signalen gebruikt Andromeda?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Andromeda kijkt naar honderden signalen, maar de zes belangrijkste voor advertenties zijn: hold rate na seconde 3, completion rate, outbound click rate, conversie via Pixel/CAPI, save rate en share rate. Deze signalen vormen samen de 'predicted value' die bepaalt of jouw advertentie meer of minder vaak wordt uitgeleverd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is veranderd in Andromeda voor 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "In 2026 is Andromeda dieper geintegreerd met Advantage+ Audiences en Advantage+ Placements. Het algoritme leunt sterker op brede audiences en zelf-gestuurde optimalisatie. Handmatige interesse-targeting werkt steeds slechter. Tegelijk is er meer gewicht aan eerste-3-seconden hooks: bij matige hooks zakt de distributie razendsnel."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe optimaliseer ik mijn ads voor Andromeda?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vier prioriteiten in 2026: sterke hook in de eerste 2 tot 3 seconden, brede doelgroep met Advantage+, native creative per ratio (1:1, 4:5, 9:16), en zuivere conversiesignalen via Pixel en CAPI. Deze vier samen verlagen de CPA gemiddeld 30 tot 50 procent vergeleken met handmatig getargete campagnes met smalle audiences."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of Andromeda mijn advertentie goed distribueert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Kijk naar drie signalen: impression share groeit binnen 7 tot 14 dagen (algoritme heeft jouw ad gevonden), CPM blijft stabiel of zakt (algoritme vindt jouw doelgroep efficient) en frequency blijft tussen 1,5 en 2,5 (algoritme verbreedt audience zonder dezelfde mensen te vermoeien). Dalende impressies bij stijgende CPM is het signaal dat creative fatigue opzet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Helpt content posten naast adverteren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Andromeda beoordeelt een advertentie deels op basis van de organische sterkte van het account erachter. Accounts met regelmatige sterke organische content (Reels, Stories, posts) krijgen vaak betere CPM en distributie op hun ads. Reken op 2 tot 3 organische posts per week als minimum om dit voordeel mee te pakken."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het Andromeda algoritme?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Andromeda is Meta's AI-aanbevelingssysteem dat sinds 2024 organische posts en advertenties op Instagram en Reels distribueert. Het systeem voorspelt voor elke gebruiker welke content hij wil zien op basis van duizenden gedragssignalen tegelijk: views, watch time, opslaan, delen, doorklikken, scroll-snelheid en meer."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe beinvloedt Andromeda mijn advertenties?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Andromeda bepaalt hoe vaak en aan wie jouw advertentie getoond wordt. Sterke creatives (hoge hold rate, completion, conversie) krijgen meer distributie. Matige creatives worden minder vaak getoond, ongeacht jouw budget. Het algoritme test elke advertentie continu tegen alternatieven en verschuift budget naar de winnaars in real time."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke signalen gebruikt Andromeda?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Andromeda kijkt naar honderden signalen, maar de zes belangrijkste voor advertenties zijn: hold rate na seconde 3, completion rate, outbound click rate, conversie via Pixel/CAPI, save rate en share rate. Deze signalen vormen samen de 'predicted value' die bepaalt of jouw advertentie meer of minder vaak wordt uitgeleverd."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is veranderd in Andromeda voor 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "In 2026 is Andromeda dieper geintegreerd met Advantage+ Audiences en Advantage+ Placements. Het algoritme leunt sterker op brede audiences en zelf-gestuurde optimalisatie. Handmatige interesse-targeting werkt steeds slechter. Tegelijk is er meer gewicht aan eerste-3-seconden hooks: bij matige hooks zakt de distributie razendsnel."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe optimaliseer ik mijn ads voor Andromeda?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vier prioriteiten in 2026: sterke hook in de eerste 2 tot 3 seconden, brede doelgroep met Advantage+, native creative per ratio (1:1, 4:5, 9:16), en zuivere conversiesignalen via Pixel en CAPI. Deze vier samen verlagen de CPA gemiddeld 30 tot 50 procent vergeleken met handmatig getargete campagnes met smalle audiences."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe weet ik of Andromeda mijn advertentie goed distribueert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Kijk naar drie signalen: impression share groeit binnen 7 tot 14 dagen (algoritme heeft jouw ad gevonden), CPM blijft stabiel of zakt (algoritme vindt jouw doelgroep efficient) en frequency blijft tussen 1,5 en 2,5 (algoritme verbreedt audience zonder dezelfde mensen te vermoeien). Dalende impressies bij stijgende CPM is het signaal dat creative fatigue opzet."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Helpt content posten naast adverteren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Andromeda beoordeelt een advertentie deels op basis van de organische sterkte van het account erachter. Accounts met regelmatige sterke organische content (Reels, Stories, posts) krijgen vaak betere CPM en distributie op hun ads. Reken op 2 tot 3 organische posts per week als minimum om dit voordeel mee te pakken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Andromeda algoritme 2026",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/andromeda-algoritme-2026-instagram"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Andromeda algoritme 2026", "item": "https://www.empowers.nl/blogs/social-ads/andromeda-algoritme-2026-instagram" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

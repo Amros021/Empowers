@@ -29,8 +29,15 @@ export default function BlogPostAlgemeen() {
                             "headline": "Zelf adverteren of uitbesteden: wat is slimmer voor jouw bedrijf?",
                             "image": "/images/blogs/zelf-adverteren-of-uitbesteden.jpg",
                             "description": "Zelf adverteren of uitbesteden? Lees wat het verschil is in kosten, tijd en resultaat. En wanneer een marketingbureau echt meer oplevert dan zelf doen.",
-                            "author": { "@type": "Organization", "name": "Empowers" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-03-24T00:00:00+01:00",
                             "dateModified": "2026-03-24T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/algemeen/zelf-adverteren-of-uitbesteden"
@@ -38,27 +45,91 @@ export default function BlogPostAlgemeen() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Is zelf adverteren goedkoper dan uitbesteden?", "acceptedAnswer": { "@type": "Answer", "text": "Op papier lijkt zelf adverteren goedkoper omdat je geen beheerkosten betaalt. In de praktijk zien we dat slecht beheerde campagnes 30 tot 50% van het budget verspillen. Een specialist die 500 euro per maand kost, maar je campagne 40% efficiënter maakt, verdient zichzelf ruimschoots terug." } },
-                                { "@type": "Question", "name": "Hoe kies ik een goed marketingbureau?", "acceptedAnswer": { "@type": "Answer", "text": "Vraag altijd naar concrete resultaten bij vergelijkbare klanten. Een goed bureau laat je zien wat het heeft bereikt: kosten per conversie, ROAS of groei in organisch verkeer. Wees voorzichtig met bureaus die geen resultaten kunnen laten zien of uitsluitend in bereik en vertoningen spreken." } },
-                                { "@type": "Question", "name": "Kan ik beginnen met zelf adverteren en later uitbesteden?", "acceptedAnswer": { "@type": "Answer", "text": "Ja, dat is een slimme aanpak. Door zelf te beginnen leer je hoe advertentieplatformen werken en wat voor jouw doelgroep aanslaat. Als de campagnes te complex worden of de resultaten tegenvallen, schakel je een specialist in. Je hebt dan al data en ervaring om het gesprek goed te voeren." } },
-                                { "@type": "Question", "name": "Wat doet een marketingbureau precies?", "acceptedAnswer": { "@type": "Answer", "text": "Een marketingbureau beheert je advertentiecampagnes, stuurt ze bij op basis van data, schrijft advertentieteksten, test doelgroepen en landingspagina's en rapporteert over de resultaten. Sommige bureaus focussen op één platform, andere op een combinatie van Google Ads, Meta Ads en SEO." } },
-                                { "@type": "Question", "name": "Hoeveel kost een marketingbureau?", "acceptedAnswer": { "@type": "Answer", "text": "Bureaus rekenen doorgaans een vast maandbedrag of een percentage van het advertentiebudget. Een vast maandbedrag ligt vaak tussen de 500 en 2000 euro voor MKB. Bij een percentage-model betaal je gemiddeld 10 tot 15% van je advertentiebudget als beheervergoeding." } },
-                                { "@type": "Question", "name": "Wanneer is uitbesteden echt de moeite waard?", "acceptedAnswer": { "@type": "Answer", "text": "Als je meer dan 1000 euro per maand advertentiebudget uitgeeft en niet de tijd hebt om campagnes dagelijks bij te sturen. Op dat niveau is de kans groot dat een specialist het rendement verbetert en de beheerkosten terugverdient via betere prestaties." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Is zelf adverteren goedkoper dan uitbesteden?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Op papier lijkt zelf adverteren goedkoper omdat je geen beheerkosten betaalt. In de praktijk zien we dat slecht beheerde campagnes 30 tot 50% van het budget verspillen. Een specialist die 500 euro per maand kost, maar je campagne 40% efficiënter maakt, verdient zichzelf ruimschoots terug."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe kies ik een goed marketingbureau?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Vraag altijd naar concrete resultaten bij vergelijkbare klanten. Een goed bureau laat je zien wat het heeft bereikt: kosten per conversie, ROAS of groei in organisch verkeer. Wees voorzichtig met bureaus die geen resultaten kunnen laten zien of uitsluitend in bereik en vertoningen spreken."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Kan ik beginnen met zelf adverteren en later uitbesteden?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, dat is een slimme aanpak. Door zelf te beginnen leer je hoe advertentieplatformen werken en wat voor jouw doelgroep aanslaat. Als de campagnes te complex worden of de resultaten tegenvallen, schakel je een specialist in. Je hebt dan al data en ervaring om het gesprek goed te voeren."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat doet een marketingbureau precies?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Een marketingbureau beheert je advertentiecampagnes, stuurt ze bij op basis van data, schrijft advertentieteksten, test doelgroepen en landingspagina's en rapporteert over de resultaten. Sommige bureaus focussen op één platform, andere op een combinatie van Google Ads, Meta Ads en SEO."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoeveel kost een marketingbureau?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Bureaus rekenen doorgaans een vast maandbedrag of een percentage van het advertentiebudget. Een vast maandbedrag ligt vaak tussen de 500 en 2000 euro voor MKB. Bij een percentage-model betaal je gemiddeld 10 tot 15% van je advertentiebudget als beheervergoeding."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wanneer is uitbesteden echt de moeite waard?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Als je meer dan 1000 euro per maand advertentiebudget uitgeeft en niet de tijd hebt om campagnes dagelijks bij te sturen. Op dat niveau is de kans groot dat een specialist het rendement verbetert en de beheerkosten terugverdient via betere prestaties."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Zelf adverteren of uitbesteden: wat is slimmer voor jouw bedrijf?",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/zelf-adverteren-of-uitbesteden"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                        { "@type": "ListItem", "position": 4, "name": "Zelf adverteren of uitbesteden: wat is slimmer voor jouw bedrijf?", "item": "https://www.empowers.nl/blogs/algemeen/zelf-adverteren-of-uitbesteden" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Zelf adverteren of uitbesteden: wat is slimmer voor jouw bedrijf?" />
+        <meta name="twitter:description" content="Zelf adverteren of uitbesteden? Lees wat het verschil is in kosten, tijd en resultaat. En wanneer een marketingbureau ec" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

@@ -29,89 +29,114 @@ export default function BlogPostGenerativeEngineOptimizationWebshops() {
                 <meta name="twitter:title" content="Generative Engine Optimization voor webshops: zo word je aanbevolen door AI" />
                 <meta name="twitter:description" content="Hoe een webshop een plek wint in de aanbevelingen van ChatGPT, Perplexity, Gemini en Google AI Overviews." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Generative Engine Optimization voor webshops: zo word je aanbevolen door AI",
-                        "description": "Hoe een webshop ervoor zorgt dat ChatGPT, Perplexity en Google AI Overviews jouw producten aanbevelen.",
-                        "image": "https://www.empowers.nl/images/blogs/generative-engine-optimization-webshops.jpg",
-                        "datePublished": "2026-05-17T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Generative Engine Optimization voor webshops: zo word je aanbevolen door AI",
+                            "description": "Hoe een webshop ervoor zorgt dat ChatGPT, Perplexity en Google AI Overviews jouw producten aanbevelen.",
+                            "image": "https://www.empowers.nl/images/blogs/generative-engine-optimization-webshops.jpg",
+                            "datePublished": "2026-05-17T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is Generative Engine Optimization voor een webshop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Generative Engine Optimization voor webshops is het zo inrichten van je product- en categoriepagina's dat AI-zoekmachines zoals ChatGPT, Perplexity, Gemini en Google AI Overviews jouw merk noemen wanneer iemand vraagt welk product hij moet kopen. Klassieke SEO mikt op een hoge positie in Google. GEO mikt op een vermelding in het antwoord zelf, vaak met een kort productargument erbij."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom moet een webshop nu aan GEO werken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Consumenten gebruiken AI-tools steeds vaker voor productresearch. Vragen als 'wat is het beste tuingereedschap voor zware klei' of 'welke loopschoen past bij iemand van 95 kilo' krijgen direct een merkenlijstje in plaats van tien blauwe links. Wie niet in dat lijstje staat, bestaat in die fase van de klantreis niet. Bouwen aan zichtbaarheid kost maanden, dus vroeg beginnen levert een meetbaar voordeel op."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat moet er op een productpagina staan om door AI geciteerd te worden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een productpagina die geciteerd wordt, beantwoordt de centrale koopvraag direct: voor wie is dit gemaakt en wat lost het op. Daarna komt de context: materialen, formaat, gebruikssituatie, vergelijking met alternatieven. Voeg Product-schema toe, plaats een FAQ-blok met de echte koopvragen, gebruik subkoppen die zelf een vraag zijn en zet specificaties in een leesbare tabel. AI-modellen pakken pagina's met die structuur duidelijk vaker op."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik of AI mijn webshop aanbeveelt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Start handmatig. Open ChatGPT en Perplexity, stel twintig koopvragen die jouw doelgroep stelt voordat ze kopen, en noteer in een spreadsheet of jouw merk verschijnt, op welke positie en welke concurrenten erbij staan. Herhaal dat maandelijks. Na drie metingen zie je een trend en weet je of je vooruitkomt. Pas wanneer je over meerdere categorieën of markten tegelijk wilt sturen, loont een betaalde tool zoals Otterly of AthenaHQ."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Helpen reviews bij GEO voor webshops?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, en sterker dan veel ondernemers denken. AI-modellen wegen externe vermeldingen mee als signaal voor geloofwaardigheid. Een webshop met tweehonderd echte Trustpilot-reviews wordt eerder genoemd dan een vergelijkbare shop zonder reviews. Belangrijk is dat de reviews zichtbaar zijn op je productpagina's via gestructureerde Review-data en dat ze in echte taal beschrijven wat klanten waarderen, niet alleen sterren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat GEO werkt voor een webshop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op enkele maanden voordat je beweging ziet. Een goed gestructureerde productpagina kan binnen anderhalve maand opduiken in AI-citaties, maar bredere merk-autoriteit bouwt zich pas over jaren op. Wat snel kan helpen: bestaande topverkopers herschrijven met FAQ-blokken, vergelijkingsstukken publiceren en zorgen dat reviewdata zichtbaar is op productpagina's."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is Generative Engine Optimization voor een webshop?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Generative Engine Optimization voor webshops is het zo inrichten van je product- en categoriepagina's dat AI-zoekmachines zoals ChatGPT, Perplexity, Gemini en Google AI Overviews jouw merk noemen wanneer iemand vraagt welk product hij moet kopen. Klassieke SEO mikt op een hoge positie in Google. GEO mikt op een vermelding in het antwoord zelf, vaak met een kort productargument erbij."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom moet een webshop nu aan GEO werken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Consumenten gebruiken AI-tools steeds vaker voor productresearch. Vragen als 'wat is het beste tuingereedschap voor zware klei' of 'welke loopschoen past bij iemand van 95 kilo' krijgen direct een merkenlijstje in plaats van tien blauwe links. Wie niet in dat lijstje staat, bestaat in die fase van de klantreis niet. Bouwen aan zichtbaarheid kost maanden, dus vroeg beginnen levert een meetbaar voordeel op."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat moet er op een productpagina staan om door AI geciteerd te worden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een productpagina die geciteerd wordt, beantwoordt de centrale koopvraag direct: voor wie is dit gemaakt en wat lost het op. Daarna komt de context: materialen, formaat, gebruikssituatie, vergelijking met alternatieven. Voeg Product-schema toe, plaats een FAQ-blok met de echte koopvragen, gebruik subkoppen die zelf een vraag zijn en zet specificaties in een leesbare tabel. AI-modellen pakken pagina's met die structuur duidelijk vaker op."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe meet ik of AI mijn webshop aanbeveelt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Start handmatig. Open ChatGPT en Perplexity, stel twintig koopvragen die jouw doelgroep stelt voordat ze kopen, en noteer in een spreadsheet of jouw merk verschijnt, op welke positie en welke concurrenten erbij staan. Herhaal dat maandelijks. Na drie metingen zie je een trend en weet je of je vooruitkomt. Pas wanneer je over meerdere categorieën of markten tegelijk wilt sturen, loont een betaalde tool zoals Otterly of AthenaHQ."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Helpen reviews bij GEO voor webshops?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, en sterker dan veel ondernemers denken. AI-modellen wegen externe vermeldingen mee als signaal voor geloofwaardigheid. Een webshop met tweehonderd echte Trustpilot-reviews wordt eerder genoemd dan een vergelijkbare shop zonder reviews. Belangrijk is dat de reviews zichtbaar zijn op je productpagina's via gestructureerde Review-data en dat ze in echte taal beschrijven wat klanten waarderen, niet alleen sterren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat GEO werkt voor een webshop?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op enkele maanden voordat je beweging ziet. Een goed gestructureerde productpagina kan binnen anderhalve maand opduiken in AI-citaties, maar bredere merk-autoriteit bouwt zich pas over jaren op. Wat snel kan helpen: bestaande topverkopers herschrijven met FAQ-blokken, vergelijkingsstukken publiceren en zorgen dat reviewdata zichtbaar is op productpagina's."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "GEO voor webshops",
+                                    "item": "https://www.empowers.nl/blogs/geo/generative-engine-optimization-webshops"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "GEO voor webshops", "item": "https://www.empowers.nl/blogs/geo/generative-engine-optimization-webshops" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -29,97 +29,122 @@ export default function BlogPost96ContentGeenOrganischVerkeer() {
                 <meta name="twitter:title" content="Waarom 96% van content faalt" />
                 <meta name="twitter:description" content="Het Ahrefs-onderzoek dat de hele contentindustrie raakt, en wat het voor jou betekent." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Waarom 96% van content geen organisch verkeer krijgt",
-                        "description": "De cijfers van Ahrefs ontleed: waarom de meerderheid van online content geen Google-verkeer krijgt en wat de overige 4% wel goed doet.",
-                        "image": "https://www.empowers.nl/images/blogs/96-content-geen-organisch-verkeer.jpg",
-                        "datePublished": "2026-05-10T15:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Waarom 96% van content geen organisch verkeer krijgt",
+                            "description": "De cijfers van Ahrefs ontleed: waarom de meerderheid van online content geen Google-verkeer krijgt en wat de overige 4% wel goed doet.",
+                            "image": "https://www.empowers.nl/images/blogs/96-content-geen-organisch-verkeer.jpg",
+                            "datePublished": "2026-05-10T15:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waar komt de 96%-statistiek vandaan?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Uit een onderzoek van Ahrefs op meer dan 14 miljard webpagina's. Daaruit bleek dat 96,55 procent van pagina's geen verkeer uit Google krijgt en nog eens een kleine 2 procent slechts één tot tien bezoekers per maand. Het cijfer is gepubliceerd door Ahrefs onder de titel 'How to Be in the Other 3.45%'. Het is geen marketingclaim, het is een meting op real-world data uit hun Content Explorer-tool."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Geldt deze 96% ook voor mijn site?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet noodzakelijk in deze ratio, maar het patroon klopt vaak ook op kleinere schaal. Op de meeste MKB-sites brengt een handvol pagina's bijna al het verkeer en presteert de rest matig of niet. Test het zelf in Google Search Console: filter op pagina's en bekijk hoeveel pagina's nul of vrijwel geen klikken kregen in de afgelopen drie maanden. Het percentage zal je waarschijnlijk verbazen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is de belangrijkste oorzaak dat content faalt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Geen of weinig backlinks naar de pagina. Het Ahrefs-onderzoek vond een sterke correlatie tussen het aantal verwijzende domeinen en het verkeer dat een pagina krijgt. Andere belangrijke oorzaken: onderwerp zonder zoekvolume, content die niet aansluit op de zoekintentie, en pagina's die nooit goed geïndexeerd zijn. Vaak is het een combinatie van deze drie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Helpt meer content schrijven?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet als ondertussen niets verandert in hoe je content kiest en schrijft. Tien blogs over hetzelfde onderwerp schrijven die niet goed zijn, levert geen tien keer zoveel verkeer als één goed-gerankte blog. De winst zit in kwaliteit boven kwantiteit. Beter een blog per maand die echt scoort dan vier blogs per maand die in de 96% verdwijnen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Verandert AI-zoeken iets aan dit cijfer?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Het verergert het effect, want AI-overzichten absorberen klikken die anders naar lagere posities gingen. Pagina's die voor de top drie strijden, hebben nog enige kans. Pagina's op pagina twee of lager krijgen straks vrijwel niets. Tegelijk opent het een nieuwe route: pagina's die door AI worden geciteerd ondanks lage Google-positie, kunnen toch zichtbaarheid bouwen. Het kanaal verandert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat doet de overige 4%-groep anders?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie dingen consistent. Ze schrijven over onderwerpen met aantoonbaar zoekvolume, ze krijgen verwijzingen vanuit andere sites, en ze sluiten op de zoekintentie aan. Geen geheim, wel iets dat de meerderheid niet doet. De meerderheid schrijft over onderwerpen die lijken interessant zonder te toetsen of er vraag naar is, en zonder een plan om bekendheid te bouwen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik bestaande content weghalen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet automatisch. Pagina's zonder verkeer maar met technische signalen (recente updates, interne links, autoriteit) kunnen baat hebben bij herschrijven. Pagina's zonder enige relevantie of kwaliteit kun je beter verwijderen of redirecten. Een content audit waarin je per pagina drie scenario's beoordeelt (behouden, opwaarderen of verwijderen) is meestal een betere stap dan in één keer alles weghalen."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Waar komt de 96%-statistiek vandaan?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Uit een onderzoek van Ahrefs op meer dan 14 miljard webpagina's. Daaruit bleek dat 96,55 procent van pagina's geen verkeer uit Google krijgt en nog eens een kleine 2 procent slechts één tot tien bezoekers per maand. Het cijfer is gepubliceerd door Ahrefs onder de titel 'How to Be in the Other 3.45%'. Het is geen marketingclaim, het is een meting op real-world data uit hun Content Explorer-tool."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Geldt deze 96% ook voor mijn site?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet noodzakelijk in deze ratio, maar het patroon klopt vaak ook op kleinere schaal. Op de meeste MKB-sites brengt een handvol pagina's bijna al het verkeer en presteert de rest matig of niet. Test het zelf in Google Search Console: filter op pagina's en bekijk hoeveel pagina's nul of vrijwel geen klikken kregen in de afgelopen drie maanden. Het percentage zal je waarschijnlijk verbazen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is de belangrijkste oorzaak dat content faalt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Geen of weinig backlinks naar de pagina. Het Ahrefs-onderzoek vond een sterke correlatie tussen het aantal verwijzende domeinen en het verkeer dat een pagina krijgt. Andere belangrijke oorzaken: onderwerp zonder zoekvolume, content die niet aansluit op de zoekintentie, en pagina's die nooit goed geïndexeerd zijn. Vaak is het een combinatie van deze drie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Helpt meer content schrijven?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet als ondertussen niets verandert in hoe je content kiest en schrijft. Tien blogs over hetzelfde onderwerp schrijven die niet goed zijn, levert geen tien keer zoveel verkeer als één goed-gerankte blog. De winst zit in kwaliteit boven kwantiteit. Beter een blog per maand die echt scoort dan vier blogs per maand die in de 96% verdwijnen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Verandert AI-zoeken iets aan dit cijfer?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Het verergert het effect, want AI-overzichten absorberen klikken die anders naar lagere posities gingen. Pagina's die voor de top drie strijden, hebben nog enige kans. Pagina's op pagina twee of lager krijgen straks vrijwel niets. Tegelijk opent het een nieuwe route: pagina's die door AI worden geciteerd ondanks lage Google-positie, kunnen toch zichtbaarheid bouwen. Het kanaal verandert."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat doet de overige 4%-groep anders?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie dingen consistent. Ze schrijven over onderwerpen met aantoonbaar zoekvolume, ze krijgen verwijzingen vanuit andere sites, en ze sluiten op de zoekintentie aan. Geen geheim, wel iets dat de meerderheid niet doet. De meerderheid schrijft over onderwerpen die lijken interessant zonder te toetsen of er vraag naar is, en zonder een plan om bekendheid te bouwen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik bestaande content weghalen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet automatisch. Pagina's zonder verkeer maar met technische signalen (recente updates, interne links, autoriteit) kunnen baat hebben bij herschrijven. Pagina's zonder enige relevantie of kwaliteit kun je beter verwijderen of redirecten. Een content audit waarin je per pagina drie scenario's beoordeelt (behouden, opwaarderen of verwijderen) is meestal een betere stap dan in één keer alles weghalen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "96% content geen verkeer",
+                                    "item": "https://www.empowers.nl/blogs/geo/96-content-geen-organisch-verkeer"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "96% content geen verkeer", "item": "https://www.empowers.nl/blogs/geo/96-content-geen-organisch-verkeer" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

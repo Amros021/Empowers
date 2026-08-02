@@ -28,92 +28,114 @@ export default function BlogPostContentMarketingVsBetaaldeAdvertenties() {
                 <meta name="twitter:title" content="Content marketing vs betaalde advertenties: wat werkt beter?" />
                 <meta name="twitter:description" content="Eerlijke vergelijking tussen content en ads." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Content marketing vs betaalde advertenties: wat werkt beter?",
-                        "description": "Content marketing of betaalde advertenties? Lees per kanaal de sterkste en zwakste kanten, hoe je kiest voor jouw bedrijf en waarom de combinatie meestal wint.",
-                        "image": "https://www.empowers.nl/images/blogs/content-marketing-vs-betaalde-advertenties.jpg",
-                        "datePublished": "2026-05-12T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Content marketing vs betaalde advertenties: wat werkt beter?",
+                            "description": "Content marketing of betaalde advertenties? Lees per kanaal de sterkste en zwakste kanten, hoe je kiest voor jouw bedrijf en waarom de combinatie meestal wint.",
+                            "image": "https://www.empowers.nl/images/blogs/content-marketing-vs-betaalde-advertenties.jpg",
+                            "datePublished": "2026-05-12T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen content marketing en betaalde advertenties?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Content marketing trekt klanten via waardevolle, vindbare content zoals blogs, video en gidsen. Betaalde advertenties kopen direct zichtbaarheid via platforms als Google, Meta of LinkedIn. Content bouwt vertrouwen op de lange termijn, advertenties leveren snel verkeer maar stoppen zodra je het budget uitschakelt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat levert sneller resultaat op: content of ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Advertenties leveren binnen dagen meetbare resultaten, content marketing meestal pas na drie tot zes maanden. Wil je morgen leads, dan ga je adverteren. Wil je over een jaar minder afhankelijk zijn van advertentiebudget, dan begin je nu met content."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is goedkoper, content of ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Op de korte termijn is content vaak duurder omdat productie tijd kost zonder direct resultaat. Op de lange termijn kantelt dat: een blog die maandelijks 500 bezoekers trekt, levert jaren gratis verkeer. Advertenties blijven elke maand geld kosten zolang je ze aan laat staan."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kun je content marketing zonder ads doen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, maar je moet er meer tijd voor uittrekken. Zonder ads ben je afhankelijk van organisch zoekverkeer, nieuwsbrief, sociale media en mond-tot-mond. Werkt prima voor bedrijven die geduld hebben en een sterk onderwerp bezitten. Wil je versnellen, dan zet je betaalde campagnes naast je content."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is alleen adverteren genoeg?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Als je een sterk merk hebt, korte klantreis en hoge marge. Een lokale dakdekker kan jarenlang draaien op alleen Google Ads omdat klanten niet hoeven na te denken voor ze bellen. Bij complexe B2B-trajecten ontkom je niet aan content om vertrouwen op te bouwen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verdeel ik mijn budget tussen content en ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een vuistregel die voor veel MKB werkt: 70 procent naar advertenties, 30 procent naar content in jaar 1. Naarmate organisch verkeer groeit, schuif je naar 50/50 of zelfs 30/70. Begin nooit met 100 procent content, dan duurt het te lang voordat je commercieel iets terugziet."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen content marketing en betaalde advertenties?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Content marketing trekt klanten via waardevolle, vindbare content zoals blogs, video en gidsen. Betaalde advertenties kopen direct zichtbaarheid via platforms als Google, Meta of LinkedIn. Content bouwt vertrouwen op de lange termijn, advertenties leveren snel verkeer maar stoppen zodra je het budget uitschakelt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat levert sneller resultaat op: content of ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Advertenties leveren binnen dagen meetbare resultaten, content marketing meestal pas na drie tot zes maanden. Wil je morgen leads, dan ga je adverteren. Wil je over een jaar minder afhankelijk zijn van advertentiebudget, dan begin je nu met content."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is goedkoper, content of ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Op de korte termijn is content vaak duurder omdat productie tijd kost zonder direct resultaat. Op de lange termijn kantelt dat: een blog die maandelijks 500 bezoekers trekt, levert jaren gratis verkeer. Advertenties blijven elke maand geld kosten zolang je ze aan laat staan."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Kun je content marketing zonder ads doen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, maar je moet er meer tijd voor uittrekken. Zonder ads ben je afhankelijk van organisch zoekverkeer, nieuwsbrief, sociale media en mond-tot-mond. Werkt prima voor bedrijven die geduld hebben en een sterk onderwerp bezitten. Wil je versnellen, dan zet je betaalde campagnes naast je content."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wanneer is alleen adverteren genoeg?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Als je een sterk merk hebt, korte klantreis en hoge marge. Een lokale dakdekker kan jarenlang draaien op alleen Google Ads omdat klanten niet hoeven na te denken voor ze bellen. Bij complexe B2B-trajecten ontkom je niet aan content om vertrouwen op te bouwen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe verdeel ik mijn budget tussen content en ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een vuistregel die voor veel MKB werkt: 70 procent naar advertenties, 30 procent naar content in jaar 1. Naarmate organisch verkeer groeit, schuif je naar 50/50 of zelfs 30/70. Begin nooit met 100 procent content, dan duurt het te lang voordat je commercieel iets terugziet."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Content vs ads",
+                                    "item": "https://www.empowers.nl/blogs/strategie/content-marketing-vs-betaalde-advertenties"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                            { "@type": "ListItem", "position": 4, "name": "Content vs ads", "item": "https://www.empowers.nl/blogs/strategie/content-marketing-vs-betaalde-advertenties" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -28,92 +28,114 @@ export default function BlogPostFullServiceMarketingBureauSpecialist() {
                 <meta name="twitter:title" content="Full-service marketing bureau of specialist: wat past bij jouw fase?" />
                 <meta name="twitter:description" content="Wanneer kies je een full-service bureau en wanneer een specialist? Lees wat het verschil is in prijs, aanpak en resultaat." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Full-service marketing bureau of specialist: wat past bij jouw fase?",
-                        "description": "Een full-service marketing bureau regelt alles onder één dak, een specialist gaat de diepte in op één kanaal. Lees wanneer welke partij beter past bij jouw groeifase en wat het verschil kost.",
-                        "image": "https://www.empowers.nl/images/blogs/full-service-marketing-bureau-specialist.jpg",
-                        "datePublished": "2026-04-21T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Full-service marketing bureau of specialist: wat past bij jouw fase?",
+                            "description": "Een full-service marketing bureau regelt alles onder één dak, een specialist gaat de diepte in op één kanaal. Lees wanneer welke partij beter past bij jouw groeifase en wat het verschil kost.",
+                            "image": "https://www.empowers.nl/images/blogs/full-service-marketing-bureau-specialist.jpg",
+                            "datePublished": "2026-04-21T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen een full-service marketing bureau en een specialist?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een full-service bureau regelt meerdere kanalen onder één dak: Google Ads, Meta Ads, SEO, content, tracking en soms ook website en branding. Een specialist richt zich op één of twee kanalen en gaat daar heel diep in. Full-service biedt overzicht en één aanspreekpunt, een specialist levert meer diepgang en vaak hogere kwaliteit per kanaal."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is een full-service bureau de betere keuze?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een full-service bureau past goed bij bedrijven die geen interne marketeer hebben, meerdere kanalen tegelijk willen opzetten en behoefte hebben aan één aanspreekpunt. Ook bij kleinere budgetten onder 3.000 euro per maand is een full-service partij vaak praktischer dan drie losse specialisten inhuren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer kies je beter voor een specialist?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een specialist is de betere keuze als één kanaal het grootste deel van jouw omzet bepaalt en je daar echt het maximale uit wilt halen. Denk aan een webshop die 70 procent van de omzet via Google Shopping draait, of een B2B-bedrijf dat volledig leunt op LinkedIn Ads. Ook bij budgetten boven de 15.000 euro per maand per kanaal levert een specialist meestal meer op."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost een full-service marketing bureau versus een specialist?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een full-service bureau werkt vaak met een vaste maandprijs tussen 1.500 en 5.000 euro voor een compleet pakket. Specialisten rekenen per kanaal en starten vanaf 1.000 tot 2.500 euro per maand. Voor drie kanalen via specialisten zit je al snel op 4.500 tot 7.500 euro. Onder de streep is full-service bij kleine tot middelgrote budgetten goedkoper, specialisten winnen bij grotere budgetten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan een full-service bureau net zo diep gaan als een specialist?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "In de basis wel, maar alleen als het bureau per kanaal echte specialisten in dienst heeft. Let dus goed op wie het werk uitvoert. Een full-service partij waar één persoon alles doet, levert zelden specialistische kwaliteit. Een full-service bureau met een Google Ads-specialist, een Meta Ads-specialist en een SEO-specialist in het team kan wel degelijk concurreren met losse specialisten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe combineer je een full-service bureau met in-house kennis?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Veel bedrijven werken met een hybride model: een interne marketeer die de strategie en merkverhaal bewaakt, en een full-service bureau dat de uitvoering op de advertentieplatformen en SEO verzorgt. Dat combineert het beste van twee werelden: snelheid, specialistische kennis en toch één rode draad in al jouw marketing."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen een full-service marketing bureau en een specialist?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een full-service bureau regelt meerdere kanalen onder één dak: Google Ads, Meta Ads, SEO, content, tracking en soms ook website en branding. Een specialist richt zich op één of twee kanalen en gaat daar heel diep in. Full-service biedt overzicht en één aanspreekpunt, een specialist levert meer diepgang en vaak hogere kwaliteit per kanaal."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer is een full-service bureau de betere keuze?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een full-service bureau past goed bij bedrijven die geen interne marketeer hebben, meerdere kanalen tegelijk willen opzetten en behoefte hebben aan één aanspreekpunt. Ook bij kleinere budgetten onder 3.000 euro per maand is een full-service partij vaak praktischer dan drie losse specialisten inhuren."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer kies je beter voor een specialist?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een specialist is de betere keuze als één kanaal het grootste deel van jouw omzet bepaalt en je daar echt het maximale uit wilt halen. Denk aan een webshop die 70 procent van de omzet via Google Shopping draait, of een B2B-bedrijf dat volledig leunt op LinkedIn Ads. Ook bij budgetten boven de 15.000 euro per maand per kanaal levert een specialist meestal meer op."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost een full-service marketing bureau versus een specialist?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een full-service bureau werkt vaak met een vaste maandprijs tussen 1.500 en 5.000 euro voor een compleet pakket. Specialisten rekenen per kanaal en starten vanaf 1.000 tot 2.500 euro per maand. Voor drie kanalen via specialisten zit je al snel op 4.500 tot 7.500 euro. Onder de streep is full-service bij kleine tot middelgrote budgetten goedkoper, specialisten winnen bij grotere budgetten."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan een full-service bureau net zo diep gaan als een specialist?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "In de basis wel, maar alleen als het bureau per kanaal echte specialisten in dienst heeft. Let dus goed op wie het werk uitvoert. Een full-service partij waar één persoon alles doet, levert zelden specialistische kwaliteit. Een full-service bureau met een Google Ads-specialist, een Meta Ads-specialist en een SEO-specialist in het team kan wel degelijk concurreren met losse specialisten."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe combineer je een full-service bureau met in-house kennis?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Veel bedrijven werken met een hybride model: een interne marketeer die de strategie en merkverhaal bewaakt, en een full-service bureau dat de uitvoering op de advertentieplatformen en SEO verzorgt. Dat combineert het beste van twee werelden: snelheid, specialistische kennis en toch één rode draad in al jouw marketing."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Full-service bureau of specialist",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/full-service-marketing-bureau-specialist"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                            { "@type": "ListItem", "position": 4, "name": "Full-service bureau of specialist", "item": "https://www.empowers.nl/blogs/algemeen/full-service-marketing-bureau-specialist" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

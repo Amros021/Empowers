@@ -28,62 +28,109 @@ export default function BlogPostFullServiceMarketingBureauJuisteFase() {
 
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "Article",
-                    "headline": "Full service marketing bureau: wanneer is het de juiste keuze voor jouw fase?",
-                    "description": "Een full service marketing bureau past niet bij elke groeifase. Lees wanneer het slim is om alles onder één dak neer te leggen en wanneer je beter wacht.",
-                    "image": "https://www.empowers.nl/images/blogs/full-service-marketing-bureau-juiste-fase.jpg",
-                    "datePublished": "2026-05-21T08:00:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": {
-                        "@type": "Organization",
-                        "name": "Empowers",
-                        "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
-                    },
-                    "mainEntity": {
-                        "@type": "FAQPage",
-                        "mainEntity": [
-                            {
-                                "@type": "Question",
-                                "name": "Wanneer is een full service marketing bureau de juiste keuze?",
-                                "acceptedAnswer": { "@type": "Answer", "text": "Als jouw bedrijf op meerdere kanalen actief is of wil worden, geen intern marketingteam heeft, en een maandbudget van minstens 3.000 euro beschikbaar stelt. In die situatie weegt de tijdsbesparing en strategische samenhang op tegen de hogere kosten." }
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Full service marketing bureau: wanneer is het de juiste keuze voor jouw fase?",
+                            "description": "Een full service marketing bureau past niet bij elke groeifase. Lees wanneer het slim is om alles onder één dak neer te leggen en wanneer je beter wacht.",
+                            "image": "https://www.empowers.nl/images/blogs/full-service-marketing-bureau-juiste-fase.jpg",
+                            "datePublished": "2026-05-21T08:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
                             },
-                            {
-                                "@type": "Question",
-                                "name": "Wat kost een full service marketing bureau gemiddeld?",
-                                "acceptedAnswer": { "@type": "Answer", "text": "Voor MKB-bedrijven liggen de beheerskosten van een full service bureau doorgaans tussen de 2.500 en 6.000 euro per maand, exclusief advertentiebudget. Wat je daarvoor terugkrijgt verschilt sterk per bureau: sommige leveren strategisch werk, andere draaien op templates." }
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
                             },
-                            {
-                                "@type": "Question",
-                                "name": "Wat is het verschil tussen een full service bureau en een specialist?",
-                                "acceptedAnswer": { "@type": "Answer", "text": "Een full service bureau dekt meerdere kanalen (SEO, Google Ads, Meta Ads, content) en denkt strategisch over het geheel. Een specialist gaat diep op één kanaal. Een specialist is goedkoper per kanaal, maar jij moet zelf de samenhang bewaken." }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Is een full service bureau iets voor kleine bedrijven?",
-                                "acceptedAnswer": { "@type": "Answer", "text": "Niet standaard. Als je maandbudget onder de 2.000 euro ligt of je nog maar op één kanaal actief bent, betaal je bij een full service bureau voor capaciteit die je niet volledig gebruikt. Begin dan met één specialist en schakel op als je groeit." }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Hoe weet ik of ik klaar ben voor een full service bureau?",
-                                "acceptedAnswer": { "@type": "Answer", "text": "Drie signalen: je besteedt meer dan 10 uur per week aan marketingcoördinatie en dat kost je omzet. Je werkt met meerdere losse bureaus die niet met elkaar communiceren. En je mist overzicht over welke kanalen écht bijdragen aan groei." }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Kan ik later overstappen van specialist naar full service bureau?",
-                                "acceptedAnswer": { "@type": "Answer", "text": "Ja, en dat is zelfs de meest logische route. Start met het kanaal dat het meeste oplevert, bewijs het model, en breid dan uit naar een full service aanpak als het bedrijf er klaar voor is." }
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is een full service marketing bureau de juiste keuze?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Als jouw bedrijf op meerdere kanalen actief is of wil worden, geen intern marketingteam heeft, en een maandbudget van minstens 3.000 euro beschikbaar stelt. In die situatie weegt de tijdsbesparing en strategische samenhang op tegen de hogere kosten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost een full service marketing bureau gemiddeld?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor MKB-bedrijven liggen de beheerskosten van een full service bureau doorgaans tussen de 2.500 en 6.000 euro per maand, exclusief advertentiebudget. Wat je daarvoor terugkrijgt verschilt sterk per bureau: sommige leveren strategisch werk, andere draaien op templates."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen een full service bureau en een specialist?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een full service bureau dekt meerdere kanalen (SEO, Google Ads, Meta Ads, content) en denkt strategisch over het geheel. Een specialist gaat diep op één kanaal. Een specialist is goedkoper per kanaal, maar jij moet zelf de samenhang bewaken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is een full service bureau iets voor kleine bedrijven?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet standaard. Als je maandbudget onder de 2.000 euro ligt of je nog maar op één kanaal actief bent, betaal je bij een full service bureau voor capaciteit die je niet volledig gebruikt. Begin dan met één specialist en schakel op als je groeit."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of ik klaar ben voor een full service bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie signalen: je besteedt meer dan 10 uur per week aan marketingcoördinatie en dat kost je omzet. Je werkt met meerdere losse bureaus die niet met elkaar communiceren. En je mist overzicht over welke kanalen écht bijdragen aan groei."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik later overstappen van specialist naar full service bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, en dat is zelfs de meest logische route. Start met het kanaal dat het meeste oplevert, bewijs het model, en breid dan uit naar een full service aanpak als het bedrijf er klaar voor is."
+                                        }
+                                    }
+                                ]
                             }
-                        ]
-                    }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                        { "@type": "ListItem", "position": 4, "name": "Full service marketing bureau juiste fase", "item": "https://www.empowers.nl/blogs/algemeen/full-service-marketing-bureau-juiste-fase" }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Full service marketing bureau juiste fase",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/full-service-marketing-bureau-juiste-fase"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
             </Helmet>

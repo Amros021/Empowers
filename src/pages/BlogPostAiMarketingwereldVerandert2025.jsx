@@ -30,8 +30,16 @@ export default function BlogPostAiMarketingwereldVerandert2025() {
                             "headline": "Hoe AI de marketingwereld verandert in 2026",
                             "image": "https://www.empowers.nl/images/blogs/ai-marketingwereld-verandert-2025.jpg",
                             "description": "Leer hoe AI marketing fundamenteel verandert in 2026. Van gepersonaliseerde campaigns tot real-time optimalisatie. Wat je moet weten als MKB.",
-                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-03-26T00:00:00+01:00",
                             "dateModified": "2026-03-26T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/algemeen/ai-marketingwereld-verandert-2025"
@@ -39,28 +47,99 @@ export default function BlogPostAiMarketingwereldVerandert2025() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Kan ik als MKB AI-marketing zelf implementeren?", "acceptedAnswer": { "@type": "Answer", "text": "Gedeeltelijk wel. Veel AI-tools zijn vandaag toegankelijk en betaalbaar. Je kunt zelf aan de slag met chatbots, content-generatie en automatische emails. Voor volledige optimalisatie van je kampagnes op basis van je specifieke doelgroep heb je meer expertise nodig. De best praktijkende bedrijven combineren interne capaciteit met gerichte ondersteuning van buiten." } },
-                                { "@type": "Question", "name": "Hoeveel geld moet ik investeren in AI-marketing?", "acceptedAnswer": { "@type": "Answer", "text": "Dat hangt af van je huidige situatie. Je kunt beginnen met 200 tot 500 euro per maand voor basistools. De return is ook direct zichtbaar: bedrijven die AI inzetten voor personalisering zien gemiddeld 30% meer conversies. Kijk niet naar kosten, maar naar wat je ervan terugverdient." } },
-                                { "@type": "Question", "name": "Verlies ik controle over mijn marketing als ik AI gebruik?", "acceptedAnswer": { "@type": "Answer", "text": "Nee. AI neemt routinewerk uit handen, maar jij blijft in control. Jij bepaalt de strategie, de doelgroepen, de toon en de boodschap. AI voert uit, test en optimaliseert. Het verschil is dat je nu veel sneller resultaten ziet en veel efficiënter geld besteedt." } },
-                                { "@type": "Question", "name": "Werkt AI-marketing beter dan traditionele marketing?", "acceptedAnswer": { "@type": "Answer", "text": "Beter is het juiste woord niet. Effectiever is beter. AI-marketing voegt laagjes toe: real-time aanpassingen, massa-personalisatie en continu testen. De beste bedrijven combineren AI-efficiency met menselijke creativiteit en strategisch inzicht. Het is geen of-of, het is en-en." } },
-                                { "@type": "Question", "name": "Hoe weet ik of AI-marketing echt werkt voor mij?", "acceptedAnswer": { "@type": "Answer", "text": "Begin klein. Test AI-chatbots op je website, zet een gePERsonaliseerde emailcampagne op of gebruik AI voor contentoptimalisatie. Meet alles: bezoeken, tijd op site, leads, conversies. Na 6 weken heb je duidelijke data over wat werkt. Schaal vervolgens op wat resulteert." } },
-                                { "@type": "Question", "name": "Maakt AI al mijn marketingmedewerkers overbodig?", "acceptedAnswer": { "@type": "Answer", "text": "Absoluut niet. AI verandert de rol van marketers. Minder invoerwerk, meer strategisch denken. Je marketeer wordt vandaag meer een dirigent die orchestreert, analyseert en het verhaal bepaalt. Die rol is waardevol en wordt alleen maar belangrijker naarmate AI meer kan doen." } },
-                                { "@type": "Question", "name": "Moet ik nu mijn hele marketingbudget herindelen naar AI?", "acceptedAnswer": { "@type": "Answer", "text": "Nee. Voeg AI toe aan wat al werkt. Als je Google Ads loopt en daar goed van wordt, zet AI in om die campagnes slimmer te maken. Als je emailmarketing goed draait, gebruik AI om segmentatie en personalisatie te verbeteren. Incrementeel implementeren werkt beter dan alles tegelijk omgooien." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Kan ik als MKB AI-marketing zelf implementeren?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Gedeeltelijk wel. Veel AI-tools zijn vandaag toegankelijk en betaalbaar. Je kunt zelf aan de slag met chatbots, content-generatie en automatische emails. Voor volledige optimalisatie van je kampagnes op basis van je specifieke doelgroep heb je meer expertise nodig. De best praktijkende bedrijven combineren interne capaciteit met gerichte ondersteuning van buiten."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoeveel geld moet ik investeren in AI-marketing?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Dat hangt af van je huidige situatie. Je kunt beginnen met 200 tot 500 euro per maand voor basistools. De return is ook direct zichtbaar: bedrijven die AI inzetten voor personalisering zien gemiddeld 30% meer conversies. Kijk niet naar kosten, maar naar wat je ervan terugverdient."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Verlies ik controle over mijn marketing als ik AI gebruik?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Nee. AI neemt routinewerk uit handen, maar jij blijft in control. Jij bepaalt de strategie, de doelgroepen, de toon en de boodschap. AI voert uit, test en optimaliseert. Het verschil is dat je nu veel sneller resultaten ziet en veel efficiënter geld besteedt."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Werkt AI-marketing beter dan traditionele marketing?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Beter is het juiste woord niet. Effectiever is beter. AI-marketing voegt laagjes toe: real-time aanpassingen, massa-personalisatie en continu testen. De beste bedrijven combineren AI-efficiency met menselijke creativiteit en strategisch inzicht. Het is geen of-of, het is en-en."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe weet ik of AI-marketing echt werkt voor mij?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Begin klein. Test AI-chatbots op je website, zet een gePERsonaliseerde emailcampagne op of gebruik AI voor contentoptimalisatie. Meet alles: bezoeken, tijd op site, leads, conversies. Na 6 weken heb je duidelijke data over wat werkt. Schaal vervolgens op wat resulteert."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Maakt AI al mijn marketingmedewerkers overbodig?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Absoluut niet. AI verandert de rol van marketers. Minder invoerwerk, meer strategisch denken. Je marketeer wordt vandaag meer een dirigent die orchestreert, analyseert en het verhaal bepaalt. Die rol is waardevol en wordt alleen maar belangrijker naarmate AI meer kan doen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Moet ik nu mijn hele marketingbudget herindelen naar AI?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Nee. Voeg AI toe aan wat al werkt. Als je Google Ads loopt en daar goed van wordt, zet AI in om die campagnes slimmer te maken. Als je emailmarketing goed draait, gebruik AI om segmentatie en personalisatie te verbeteren. Incrementeel implementeren werkt beter dan alles tegelijk omgooien."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Hoe AI de marketingwereld verandert in 2026",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/ai-marketingwereld-verandert-2025"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                        { "@type": "ListItem", "position": 4, "name": "Hoe AI de marketingwereld verandert in 2026", "item": "https://www.empowers.nl/blogs/algemeen/ai-marketingwereld-verandert-2025" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Hoe AI de marketingwereld verandert in 2026" />
+        <meta name="twitter:description" content="Leer hoe AI marketing fundamenteel verandert in 2026. Van gepersonaliseerde campaigns tot real-time optimalisatie. Wat j" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

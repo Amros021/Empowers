@@ -28,92 +28,114 @@ export default function BlogPostBacklinksOpbouwen() {
                 <meta name="twitter:title" content="Backlinks opbouwen in 2026: wat werkt nog wél?" />
                 <meta name="twitter:description" content="Backlinks opbouwen is veranderd. Lees welke strategieën in 2026 nog resultaat opleveren." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Backlinks opbouwen in 2026: wat werkt nog wél?",
-                        "description": "Backlinks opbouwen is veranderd in 2026. Lees welke strategieën nog steeds werken, wat je moet vermijden en hoe je structureel autoriteit bouwt voor jouw website.",
-                        "image": "https://www.empowers.nl/images/blogs/backlinks-opbouwen.jpg",
-                        "datePublished": "2026-04-14T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Backlinks opbouwen in 2026: wat werkt nog wél?",
+                            "description": "Backlinks opbouwen is veranderd in 2026. Lees welke strategieën nog steeds werken, wat je moet vermijden en hoe je structureel autoriteit bouwt voor jouw website.",
+                            "image": "https://www.empowers.nl/images/blogs/backlinks-opbouwen.jpg",
+                            "datePublished": "2026-04-14T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel backlinks heb ik nodig om hoger te ranken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Kwaliteit weegt veel zwaarder dan aantal. Voor de meeste MKB-websites is 30 tot 50 kwalitatieve backlinks van relevante bronnen genoeg om merkbaar te stijgen. Focus op 2 tot 5 nieuwe backlinks per maand van websites die zelf autoriteit hebben. Dat levert meer op dan honderd links van willekeurige blogs."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werken backlinks van gastartikelen nog in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, mits je het goed doet. Een waardevol gastartikel op een relevant platform met echte lezers werkt nog steeds. Wat niet meer werkt zijn massaal geproduceerde gastartikelen op generieke contentplatforms. Google herkent die patronen en negeert de links of straft ze."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is linkbuilding kopen een goed idee?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. Gekochte links schaden je website vaker dan ze helpen. Google herkent onnatuurlijke linkpatronen steeds beter en straft websites die ze inkopen met manual actions of algoritmische penalties. Investeer je budget liever in content waar mensen van nature naar willen linken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Tellen backlinks van social media mee?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Links van social media zoals LinkedIn, X en Facebook zijn nofollow, dus ze geven geen directe linkjuice. Toch zijn ze waardevol. Content die veel gedeeld wordt op social trekt echte verwijzingen aan vanuit blogs en nieuwssites. Social is een versterker, geen vervanger van klassieke linkbuilding."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat backlinks effect hebben?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op 3 tot 6 maanden voordat nieuwe backlinks zichtbaar effect hebben op je posities. Google moet de links ontdekken, indexeren en waarderen. Sommige sterke links werken sneller, de meeste werken langzaam maar blijvend. Geduld is bij linkbuilding geen optie, het is een voorwaarde."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik nofollow-links nastreven of negeren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nofollow-links geven sinds 2020 ook een signaal aan Google. Ze zijn minder waardevol dan dofollow, maar niet waardeloos. Een gezond backlinkprofiel bestaat uit een mix. Streef vooral naar relevante links, ongeacht het follow-type. De diversiteit telt mee in hoe natuurlijk je profiel eruitziet."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel backlinks heb ik nodig om hoger te ranken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Kwaliteit weegt veel zwaarder dan aantal. Voor de meeste MKB-websites is 30 tot 50 kwalitatieve backlinks van relevante bronnen genoeg om merkbaar te stijgen. Focus op 2 tot 5 nieuwe backlinks per maand van websites die zelf autoriteit hebben. Dat levert meer op dan honderd links van willekeurige blogs."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Werken backlinks van gastartikelen nog in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, mits je het goed doet. Een waardevol gastartikel op een relevant platform met echte lezers werkt nog steeds. Wat niet meer werkt zijn massaal geproduceerde gastartikelen op generieke contentplatforms. Google herkent die patronen en negeert de links of straft ze."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Is linkbuilding kopen een goed idee?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee. Gekochte links schaden je website vaker dan ze helpen. Google herkent onnatuurlijke linkpatronen steeds beter en straft websites die ze inkopen met manual actions of algoritmische penalties. Investeer je budget liever in content waar mensen van nature naar willen linken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Tellen backlinks van social media mee?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Links van social media zoals LinkedIn, X en Facebook zijn nofollow, dus ze geven geen directe linkjuice. Toch zijn ze waardevol. Content die veel gedeeld wordt op social trekt echte verwijzingen aan vanuit blogs en nieuwssites. Social is een versterker, geen vervanger van klassieke linkbuilding."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat backlinks effect hebben?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op 3 tot 6 maanden voordat nieuwe backlinks zichtbaar effect hebben op je posities. Google moet de links ontdekken, indexeren en waarderen. Sommige sterke links werken sneller, de meeste werken langzaam maar blijvend. Geduld is bij linkbuilding geen optie, het is een voorwaarde."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik nofollow-links nastreven of negeren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nofollow-links geven sinds 2020 ook een signaal aan Google. Ze zijn minder waardevol dan dofollow, maar niet waardeloos. Een gezond backlinkprofiel bestaat uit een mix. Streef vooral naar relevante links, ongeacht het follow-type. De diversiteit telt mee in hoe natuurlijk je profiel eruitziet."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Backlinks opbouwen",
+                                    "item": "https://www.empowers.nl/blogs/seo/backlinks-opbouwen"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "SEO", "item": "https://www.empowers.nl/blogs/seo" },
-                            { "@type": "ListItem", "position": 4, "name": "Backlinks opbouwen", "item": "https://www.empowers.nl/blogs/seo/backlinks-opbouwen" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

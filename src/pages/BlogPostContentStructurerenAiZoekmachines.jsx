@@ -29,8 +29,16 @@ export default function BlogPostContentStructurerenAiZoekmachines() {
                             "headline": "Content structureren voor AI-zoekmachines: zo word je geciteerd",
                             "image": "https://www.empowers.nl/images/blogs/content-structureren-ai-zoekmachines.jpg",
                             "description": "Wil je dat ChatGPT, Perplexity en Gemini jou noemen? Leer hoe je content structureert voor AI-zoekmachines. Zeven praktische regels die direct werken.",
-                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-05-04T00:00:00+02:00",
                             "dateModified": "2026-05-04T00:00:00+02:00",
                             "url": "https://www.empowers.nl/blogs/geo/content-structureren-ai-zoekmachines"
@@ -38,28 +46,99 @@ export default function BlogPostContentStructurerenAiZoekmachines() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Wat is GEO en waarom is het anders dan SEO?", "acceptedAnswer": { "@type": "Answer", "text": "GEO staat voor Generative Engine Optimization. Het draait erom dat AI-zoekmachines zoals ChatGPT, Perplexity en Gemini jouw content opnemen in hun antwoord. SEO mikt op klikken vanuit Google. GEO mikt op vermeldingen in een AI-antwoord. De technische basis overlapt vaak, maar de structuur van je tekst en de manier waarop je informatie ordent verschilt." } },
-                                { "@type": "Question", "name": "Welk schema moet ik toevoegen voor AI-zoekmachines?", "acceptedAnswer": { "@type": "Answer", "text": "Begin met FAQPage-schema op pagina's met veelgestelde vragen, Article-schema op blogs en Organization-schema op je homepage. Heb je een fysieke locatie? Voeg LocalBusiness toe. Schema is geen wondermiddel, maar het maakt het voor AI-modellen makkelijker om jouw content correct te interpreteren en op te nemen in een antwoord." } },
-                                { "@type": "Question", "name": "Hoe lang duurt het voordat AI-zoekmachines mij oppikken?", "acceptedAnswer": { "@type": "Answer", "text": "Reken op vier tot acht maanden voor de eerste duidelijke vermeldingen in ChatGPT-antwoorden, mits je sterke content en autoriteit opbouwt. Perplexity gaat sneller, omdat die live web-resultaten gebruikt. Bij Google's AI Overviews zit je vaak op een paar weken zodra je pagina goed indexeert. Geen kanaal levert vandaag wat je morgen ziet." } },
-                                { "@type": "Question", "name": "Moet elke pagina een vraag-antwoord structuur hebben?", "acceptedAnswer": { "@type": "Answer", "text": "Niet elke pagina, maar wel de pagina's die antwoorden moeten geven. Productpagina's en categoriepagina's hebben een ander doel. Blogs, FAQ's en uitlegpagina's lenen zich uitstekend voor vraag-antwoord blokken. Schrijf de kop als de exacte vraag die je doelgroep stelt en geef in de eerste twee zinnen het kerneantwoord." } },
-                                { "@type": "Question", "name": "Werkt dit ook als mijn website nieuw is?", "acceptedAnswer": { "@type": "Answer", "text": "Ja, maar je hebt geduld nodig. AI-modellen geven vaker bronnen die ze al kennen. Een nieuwe website moet eerst autoriteit opbouwen via gastartikelen op andere sites en vermeldingen in branchedirectories. Tegelijk werk je aan goed gestructureerde content. Beide samen versnellen het proces. Een blog die nergens naar linkt en nergens vandaan gelinkt wordt, blijft onzichtbaar." } },
-                                { "@type": "Question", "name": "Welke tools meten of AI mij citeert?", "acceptedAnswer": { "@type": "Answer", "text": "Profound en Otterly.AI monitoren wanneer jouw merk in ChatGPT, Perplexity of Gemini opduikt. Voor losse checks kun je de chatbots zelf bevragen met je belangrijkste klantvragen. Houd ook je directe zoekopdrachten in Google Search Console in de gaten. Stijging in branded zoekopdrachten is vaak een vroege indicator dat AI je begint te noemen." } },
-                                { "@type": "Question", "name": "Helpt deze aanpak ook voor mijn ranking in Google?", "acceptedAnswer": { "@type": "Answer", "text": "Ja. De principes overlappen sterk. Heldere structuur, snelle antwoorden bovenaan, schema-markup en autoriteit zijn voor Google al lang belangrijke ranking-signalen. Wat je voor AI-zoekmachines bouwt, geeft Google een tweede reden om jou hoger te zetten. Eén stuk werk, twee opbrengsten." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is GEO en waarom is het anders dan SEO?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "GEO staat voor Generative Engine Optimization. Het draait erom dat AI-zoekmachines zoals ChatGPT, Perplexity en Gemini jouw content opnemen in hun antwoord. SEO mikt op klikken vanuit Google. GEO mikt op vermeldingen in een AI-antwoord. De technische basis overlapt vaak, maar de structuur van je tekst en de manier waarop je informatie ordent verschilt."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Welk schema moet ik toevoegen voor AI-zoekmachines?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Begin met FAQPage-schema op pagina's met veelgestelde vragen, Article-schema op blogs en Organization-schema op je homepage. Heb je een fysieke locatie? Voeg LocalBusiness toe. Schema is geen wondermiddel, maar het maakt het voor AI-modellen makkelijker om jouw content correct te interpreteren en op te nemen in een antwoord."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe lang duurt het voordat AI-zoekmachines mij oppikken?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Reken op vier tot acht maanden voor de eerste duidelijke vermeldingen in ChatGPT-antwoorden, mits je sterke content en autoriteit opbouwt. Perplexity gaat sneller, omdat die live web-resultaten gebruikt. Bij Google's AI Overviews zit je vaak op een paar weken zodra je pagina goed indexeert. Geen kanaal levert vandaag wat je morgen ziet."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Moet elke pagina een vraag-antwoord structuur hebben?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Niet elke pagina, maar wel de pagina's die antwoorden moeten geven. Productpagina's en categoriepagina's hebben een ander doel. Blogs, FAQ's en uitlegpagina's lenen zich uitstekend voor vraag-antwoord blokken. Schrijf de kop als de exacte vraag die je doelgroep stelt en geef in de eerste twee zinnen het kerneantwoord."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Werkt dit ook als mijn website nieuw is?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, maar je hebt geduld nodig. AI-modellen geven vaker bronnen die ze al kennen. Een nieuwe website moet eerst autoriteit opbouwen via gastartikelen op andere sites en vermeldingen in branchedirectories. Tegelijk werk je aan goed gestructureerde content. Beide samen versnellen het proces. Een blog die nergens naar linkt en nergens vandaan gelinkt wordt, blijft onzichtbaar."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Welke tools meten of AI mij citeert?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Profound en Otterly.AI monitoren wanneer jouw merk in ChatGPT, Perplexity of Gemini opduikt. Voor losse checks kun je de chatbots zelf bevragen met je belangrijkste klantvragen. Houd ook je directe zoekopdrachten in Google Search Console in de gaten. Stijging in branded zoekopdrachten is vaak een vroege indicator dat AI je begint te noemen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Helpt deze aanpak ook voor mijn ranking in Google?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja. De principes overlappen sterk. Heldere structuur, snelle antwoorden bovenaan, schema-markup en autoriteit zijn voor Google al lang belangrijke ranking-signalen. Wat je voor AI-zoekmachines bouwt, geeft Google een tweede reden om jou hoger te zetten. Eén stuk werk, twee opbrengsten."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Content structureren voor AI-zoekmachines",
+                                    "item": "https://www.empowers.nl/blogs/geo/content-structureren-ai-zoekmachines"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                        { "@type": "ListItem", "position": 4, "name": "Content structureren voor AI-zoekmachines", "item": "https://www.empowers.nl/blogs/geo/content-structureren-ai-zoekmachines" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Content structureren voor AI-zoekmachines: zo word je geciteerd" />
+        <meta name="twitter:description" content="Wil je dat ChatGPT, Perplexity en Gemini jou noemen? Leer hoe je content structureert voor AI-zoekmachines. Zeven prakti" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

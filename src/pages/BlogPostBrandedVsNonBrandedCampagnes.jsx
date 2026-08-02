@@ -28,97 +28,122 @@ export default function BlogPostBrandedVsNonBrandedCampagnes() {
                 <meta name="twitter:title" content="Branded vs non-branded campagnes in Google Ads: de juiste mix" />
                 <meta name="twitter:description" content="Zo verdeel je jouw Google Ads budget over branded en non-branded zoekwoorden." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Branded vs non-branded campagnes in Google Ads: de juiste mix",
-                        "description": "Branded en non-branded campagnes in Google Ads horen samen, maar werken verschillend. Lees hoe je de juiste mix bepaalt en jouw budget rendabel inzet.",
-                        "image": "https://www.empowers.nl/images/blogs/branded-vs-non-branded-campagnes.jpg",
-                        "datePublished": "2026-04-26T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Branded vs non-branded campagnes in Google Ads: de juiste mix",
+                            "description": "Branded en non-branded campagnes in Google Ads horen samen, maar werken verschillend. Lees hoe je de juiste mix bepaalt en jouw budget rendabel inzet.",
+                            "image": "https://www.empowers.nl/images/blogs/branded-vs-non-branded-campagnes.jpg",
+                            "datePublished": "2026-04-26T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen branded en non-branded Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Branded campagnes targeten zoekwoorden met jouw merknaam erin, zoals 'Coolblue koffiezetapparaat'. Non-branded campagnes targeten generieke zoektermen zonder merknaam, zoals 'beste koffiezetapparaat 2026'. Branded haalt mensen binnen die jou al kennen, non-branded vindt mensen die jouw bedrijf nog niet kennen maar wel naar jouw aanbod zoeken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik altijd op mijn eigen merknaam adverteren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, in vrijwel alle gevallen wel. Adverteer je niet op jouw eigen merknaam, dan kan een concurrent dat doen en jouw verkeer afsnoepen. De CPC is laag (vaak 10 tot 30 cent) en de Quality Score hoog. Voor het kleine bedrag dat je betaalt, bescherm je een groot deel van jouw warme verkeer."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verdeel je het budget tussen branded en non-branded?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een gangbare verdeling voor MKB is 10 tot 20 procent branded en 80 tot 90 procent non-branded. Branded campagnes hebben weinig budget nodig om alle kliks op te vangen. Non-branded heeft meer ruimte nodig omdat je daar de echte groei haalt: nieuwe klanten die jou nog niet kennen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede ROAS voor branded campagnes?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Branded campagnes halen vaak een ROAS van 8 tot 15, soms hoger. Dat klinkt mooi, maar deze bezoekers kwamen vaak ook zonder advertentie wel binnen via organisch verkeer. Voor non-branded is een ROAS van 3 tot 5 al goed, omdat je daar koud verkeer omzet in klanten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Adverteren concurrenten op mijn merknaam?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat gebeurt vaker dan je denkt, vooral in B2B en e-commerce. Concurrenten bieden op jouw merknaam om jouw warme verkeer af te snoepen. Met een eigen branded campagne sta je altijd boven hun advertentie, omdat Google jouw eigen domein een hoge relevantiescore geeft. Zonder eigen branded ben je kwetsbaar."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik of mijn non-branded campagne werkt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Kijk niet alleen naar ROAS of CPA, maar ook naar het aantal nieuwe bezoekers en eerste-aankoop-conversies. Non-branded brengt klanten die jou nog niet kenden. Een non-branded campagne die 'maar' break-even draait, is alsnog winst als die klant terugkomt. Meet daarom ook customer lifetime value waar mogelijk."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer voeg ik een aparte branded campagne toe?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Zodra jouw bedrijfsnaam regelmatig gezocht wordt via Google. Bekijk in Google Search Console of Google Ads zelf hoeveel zoekvolume jouw merknaam genereert. Vanaf zo'n 50 tot 100 zoekopdrachten per maand is een aparte branded campagne de moeite waard. Daaronder volstaat een merkterm in jouw bestaande non-branded campagne."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen branded en non-branded Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Branded campagnes targeten zoekwoorden met jouw merknaam erin, zoals 'Coolblue koffiezetapparaat'. Non-branded campagnes targeten generieke zoektermen zonder merknaam, zoals 'beste koffiezetapparaat 2026'. Branded haalt mensen binnen die jou al kennen, non-branded vindt mensen die jouw bedrijf nog niet kennen maar wel naar jouw aanbod zoeken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik altijd op mijn eigen merknaam adverteren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, in vrijwel alle gevallen wel. Adverteer je niet op jouw eigen merknaam, dan kan een concurrent dat doen en jouw verkeer afsnoepen. De CPC is laag (vaak 10 tot 30 cent) en de Quality Score hoog. Voor het kleine bedrag dat je betaalt, bescherm je een groot deel van jouw warme verkeer."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe verdeel je het budget tussen branded en non-branded?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een gangbare verdeling voor MKB is 10 tot 20 procent branded en 80 tot 90 procent non-branded. Branded campagnes hebben weinig budget nodig om alle kliks op te vangen. Non-branded heeft meer ruimte nodig omdat je daar de echte groei haalt: nieuwe klanten die jou nog niet kennen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede ROAS voor branded campagnes?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Branded campagnes halen vaak een ROAS van 8 tot 15, soms hoger. Dat klinkt mooi, maar deze bezoekers kwamen vaak ook zonder advertentie wel binnen via organisch verkeer. Voor non-branded is een ROAS van 3 tot 5 al goed, omdat je daar koud verkeer omzet in klanten."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Adverteren concurrenten op mijn merknaam?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dat gebeurt vaker dan je denkt, vooral in B2B en e-commerce. Concurrenten bieden op jouw merknaam om jouw warme verkeer af te snoepen. Met een eigen branded campagne sta je altijd boven hun advertentie, omdat Google jouw eigen domein een hoge relevantiescore geeft. Zonder eigen branded ben je kwetsbaar."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe meet ik of mijn non-branded campagne werkt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Kijk niet alleen naar ROAS of CPA, maar ook naar het aantal nieuwe bezoekers en eerste-aankoop-conversies. Non-branded brengt klanten die jou nog niet kenden. Een non-branded campagne die 'maar' break-even draait, is alsnog winst als die klant terugkomt. Meet daarom ook customer lifetime value waar mogelijk."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wanneer voeg ik een aparte branded campagne toe?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Zodra jouw bedrijfsnaam regelmatig gezocht wordt via Google. Bekijk in Google Search Console of Google Ads zelf hoeveel zoekvolume jouw merknaam genereert. Vanaf zo'n 50 tot 100 zoekopdrachten per maand is een aparte branded campagne de moeite waard. Daaronder volstaat een merkterm in jouw bestaande non-branded campagne."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Branded vs non-branded campagnes",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/branded-vs-non-branded-campagnes"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Branded vs non-branded campagnes", "item": "https://www.empowers.nl/blogs/google-ads/branded-vs-non-branded-campagnes" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

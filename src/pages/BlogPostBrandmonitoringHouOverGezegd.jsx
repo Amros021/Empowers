@@ -28,92 +28,114 @@ export default function BlogPostBrandmonitoringHouOverGezegd() {
                 <meta name="twitter:title" content="Brandmonitoring: hou bij wat er over je gezegd wordt" />
                 <meta name="twitter:description" content="Online reputatie monitoren zonder dure tools." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Brandmonitoring: hou bij wat er over je gezegd wordt",
-                        "description": "Klanten praten over je merk op plekken waar jij niet bent. Brandmonitoring brengt dat terug binnen handbereik. Welke kanalen tellen en hoe je er praktisch op stuurt.",
-                        "image": "https://www.empowers.nl/images/blogs/brandmonitoring-hou-over-gezegd.jpg",
-                        "datePublished": "2026-05-13T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Brandmonitoring: hou bij wat er over je gezegd wordt",
+                            "description": "Klanten praten over je merk op plekken waar jij niet bent. Brandmonitoring brengt dat terug binnen handbereik. Welke kanalen tellen en hoe je er praktisch op stuurt.",
+                            "image": "https://www.empowers.nl/images/blogs/brandmonitoring-hou-over-gezegd.jpg",
+                            "datePublished": "2026-05-13T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is brandmonitoring precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Brandmonitoring is het systematisch volgen van alles wat online over je merk, producten of bedrijfsnaam wordt gezegd. Dat gaat verder dan recensies lezen. Je kijkt naar reviews, forums, sociale media, nieuwsartikelen en sinds kort ook hoe AI-chatbots je beschrijven. Het doel: weten wat klanten en prospects over je horen, voordat je er via omzet over hoort."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke tools heb ik nodig om brandmonitoring op te zetten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste MKB-bedrijven volstaat een combinatie van gratis bronnen. Google Alerts voor je merknaam, een platform als Trustpilot of Google Reviews voor recensies, en handmatige zoekopdrachten in ChatGPT of Perplexity. Pas als je groeit komt een betaalde tool zoals Brand24, Mention of Meltwater in beeld voor centralisatie en social listening."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet ik mijn brandmentions checken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dagelijks een korte check van inkomende meldingen via Google Alerts en reviews. Wekelijks een uitgebreide blik op social media en forums. Maandelijks een audit waarbij je ook test wat AI-zoekmachines over je schrijven. Acute signalen, zoals een viraal negatief bericht, vragen direct actie. Routinemonitoring volgt een vast ritme."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe reageer je op een negatieve review?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Snel, eerlijk en publiekelijk. Reageer binnen 24 uur, bedank voor de feedback, erken het probleem en bied een concrete oplossing aan. Andere lezers zien hoe je reageert. Een goede respons op een slechte review versterkt vaak je reputatie meer dan tien lovende reacties. Wat je niet doet: discussiëren, ontkennen of de review proberen te laten verwijderen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat doe ik als ChatGPT verkeerde dingen over mijn bedrijf schrijft?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Maak eerst inzichtelijk welke bronnen de chatbot gebruikt. Vaak ontbreekt actuele content op je eigen site of staan er verouderde derde-bronnen op één lijn met je eigen pagina. Schrijf nieuwe, duidelijke content op je site met de juiste feiten. Voeg structured data toe en zorg dat je in andere autoritaire bronnen genoemd wordt. Binnen enkele maanden updaten de modellen hun beeld."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is brandmonitoring alleen relevant voor grote merken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee, juist voor het MKB is het krachtig. Eén negatieve review op een lokale dienstverlener weegt zwaarder dan honderd reviews op een groot merk. Tegelijk levert één goed beantwoorde klacht direct meer vertrouwen op bij potentiële klanten. Kleinere bedrijven hebben bovendien zelden een PR-afdeling, dus is een eenvoudig systeem het verschil tussen overzicht en verrassing."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is brandmonitoring precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Brandmonitoring is het systematisch volgen van alles wat online over je merk, producten of bedrijfsnaam wordt gezegd. Dat gaat verder dan recensies lezen. Je kijkt naar reviews, forums, sociale media, nieuwsartikelen en sinds kort ook hoe AI-chatbots je beschrijven. Het doel: weten wat klanten en prospects over je horen, voordat je er via omzet over hoort."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke tools heb ik nodig om brandmonitoring op te zetten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de meeste MKB-bedrijven volstaat een combinatie van gratis bronnen. Google Alerts voor je merknaam, een platform als Trustpilot of Google Reviews voor recensies, en handmatige zoekopdrachten in ChatGPT of Perplexity. Pas als je groeit komt een betaalde tool zoals Brand24, Mention of Meltwater in beeld voor centralisatie en social listening."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak moet ik mijn brandmentions checken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dagelijks een korte check van inkomende meldingen via Google Alerts en reviews. Wekelijks een uitgebreide blik op social media en forums. Maandelijks een audit waarbij je ook test wat AI-zoekmachines over je schrijven. Acute signalen, zoals een viraal negatief bericht, vragen direct actie. Routinemonitoring volgt een vast ritme."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe reageer je op een negatieve review?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Snel, eerlijk en publiekelijk. Reageer binnen 24 uur, bedank voor de feedback, erken het probleem en bied een concrete oplossing aan. Andere lezers zien hoe je reageert. Een goede respons op een slechte review versterkt vaak je reputatie meer dan tien lovende reacties. Wat je niet doet: discussiëren, ontkennen of de review proberen te laten verwijderen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat doe ik als ChatGPT verkeerde dingen over mijn bedrijf schrijft?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Maak eerst inzichtelijk welke bronnen de chatbot gebruikt. Vaak ontbreekt actuele content op je eigen site of staan er verouderde derde-bronnen op één lijn met je eigen pagina. Schrijf nieuwe, duidelijke content op je site met de juiste feiten. Voeg structured data toe en zorg dat je in andere autoritaire bronnen genoemd wordt. Binnen enkele maanden updaten de modellen hun beeld."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Is brandmonitoring alleen relevant voor grote merken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee, juist voor het MKB is het krachtig. Eén negatieve review op een lokale dienstverlener weegt zwaarder dan honderd reviews op een groot merk. Tegelijk levert één goed beantwoorde klacht direct meer vertrouwen op bij potentiële klanten. Kleinere bedrijven hebben bovendien zelden een PR-afdeling, dus is een eenvoudig systeem het verschil tussen overzicht en verrassing."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Brandmonitoring",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/brandmonitoring-hou-over-gezegd"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                            { "@type": "ListItem", "position": 4, "name": "Brandmonitoring", "item": "https://www.empowers.nl/blogs/algemeen/brandmonitoring-hou-over-gezegd" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

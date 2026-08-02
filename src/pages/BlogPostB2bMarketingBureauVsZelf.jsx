@@ -45,116 +45,115 @@ export default function BlogPostB2bMarketingBureauVsZelf() {
                 />
                 <meta name="twitter:image" content="https://www.empowers.nl/images/blogs/b2b-marketing-bureau-vs-zelf.jpg" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "B2B marketing bureau vs zelf doen: wat is slimmer voor jouw bedrijf?",
-                        "description": "Moet jij een B2B marketing bureau inhuren of kan je het zelf doen? Lees wanneer je beter een specialist kiest en wat je bespaard.",
-                        "image": "https://www.empowers.nl/images/blogs/b2b-marketing-bureau-vs-zelf.jpg",
-                        "datePublished": "2026-03-20T00:00:00+01:00",
-                        "dateModified": "2026-03-20T00:00:00+01:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "B2B marketing bureau vs zelf doen: wat is slimmer voor jouw bedrijf?",
+                            "description": "Moet jij een B2B marketing bureau inhuren of kan je het zelf doen? Lees wanneer je beter een specialist kiest en wat je bespaard.",
+                            "image": "https://www.empowers.nl/images/blogs/b2b-marketing-bureau-vs-zelf.jpg",
+                            "datePublished": "2026-03-20T00:00:00+01:00",
+                            "dateModified": "2026-03-20T00:00:00+01:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
                             }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "B2B marketing bureau vs zelf doen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/b2b-marketing-bureau-vs-zelf"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "Wanneer moet ik een B2B marketing bureau inhuren?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Huur een B2B marketing bureau in als je budget groter dan 5.000 euro per maand is, je geen 15-20 uur per week kan besteden of snel resultaten wilt. Een specialist haalt 40-60 procent betere resultaten dan amateurwerk in B2B."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoeveel kost een B2B marketing bureau?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "B2B marketing bureaus rekenen 2.500 tot 10.000 euro per maand. Dit hangt af van je doelgroep, kanalen (LinkedIn, content, e-mail) en omvang. Veel bureaus werken op uurbasis (75-150 euro per uur) of maandtarief."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Kan ik B2B marketing zelf doen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, je kan B2B marketing zelf doen als je 15-20 uur per week hebt, LinkedIn-savvy bent en inhoudelijk sterk bent. Voor kleine doelgroepen en lokale markten werkt dit goed. Voor snelle groei is professionele hulp beter."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is het verschil tussen een B2B en B2C marketing bureau?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "B2B marketing is langer en complexer. Je targetted kleinere doelgroepen op LinkedIn en e-mail. B2C is sneller en op schaal. Zorg dat je bureau B2B-ervaring heeft, niet alleen B2C."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe lang tot ik resultaten zie van een B2B bureau?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "B2B marketing werkt langzamer dan B2C. Verwacht eerste resultaten na 3-4 maanden. Full momentum krijg je na 6-9 maanden. Zorg dat je bureau geduld hebt en systematisch werkt."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat doet een B2B marketing bureau anders dan ik?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Een B2B bureau bouwt geïntegreerde campagnes op (LinkedIn ads, content, e-mail, events). Ze segmenteren je doelgroep scherp, schrijven overtuigende copy en analyseren data. Dit leidt tot meer leads en betere kwaliteit."
+                                    }
+                                }
+                            ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Nieuws",
-                                "item": "https://www.empowers.nl/nieuws"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Algemeen",
-                                "item": "https://www.empowers.nl/blogs/algemeen"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "B2B marketing bureau vs zelf doen",
-                                "item": "https://www.empowers.nl/blogs/algemeen/b2b-marketing-bureau-vs-zelf"
-                            }
-                        ]
-                    })}
-                </script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": [
-                            {
-                                "@type": "Question",
-                                "name": "Wanneer moet ik een B2B marketing bureau inhuren?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Huur een B2B marketing bureau in als je budget groter dan 5.000 euro per maand is, je geen 15-20 uur per week kan besteden of snel resultaten wilt. Een specialist haalt 40-60 procent betere resultaten dan amateurwerk in B2B."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Hoeveel kost een B2B marketing bureau?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "B2B marketing bureaus rekenen 2.500 tot 10.000 euro per maand. Dit hangt af van je doelgroep, kanalen (LinkedIn, content, e-mail) en omvang. Veel bureaus werken op uurbasis (75-150 euro per uur) of maandtarief."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Kan ik B2B marketing zelf doen?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Ja, je kan B2B marketing zelf doen als je 15-20 uur per week hebt, LinkedIn-savvy bent en inhoudelijk sterk bent. Voor kleine doelgroepen en lokale markten werkt dit goed. Voor snelle groei is professionele hulp beter."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Wat is het verschil tussen een B2B en B2C marketing bureau?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "B2B marketing is langer en complexer. Je targetted kleinere doelgroepen op LinkedIn en e-mail. B2C is sneller en op schaal. Zorg dat je bureau B2B-ervaring heeft, niet alleen B2C."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Hoe lang tot ik resultaten zie van een B2B bureau?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "B2B marketing werkt langzamer dan B2C. Verwacht eerste resultaten na 3-4 maanden. Full momentum krijg je na 6-9 maanden. Zorg dat je bureau geduld hebt en systematisch werkt."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Wat doet een B2B marketing bureau anders dan ik?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Een B2B bureau bouwt geïntegreerde campagnes op (LinkedIn ads, content, e-mail, events). Ze segmenteren je doelgroep scherp, schrijven overtuigende copy en analyseren data. Dit leidt tot meer leads en betere kwaliteit."
-                                }
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

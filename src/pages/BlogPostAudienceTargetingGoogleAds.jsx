@@ -28,87 +28,114 @@ export default function BlogPostAudienceTargetingGoogleAds() {
                 <meta name="twitter:title" content="Audience targeting in Google Ads: zo zet je doelgroepen scherp in" />
                 <meta name="twitter:description" content="De doelgroepen die er echt toe doen in Google Ads." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Audience targeting in Google Ads: zo zet je doelgroepen scherp in",
-                        "description": "Hoe je audience targeting in Google Ads inzet om wie je advertenties ziet beter te sturen zonder je bereik te verstikken.",
-                        "image": "https://www.empowers.nl/images/blogs/audience-targeting-google-ads.jpg",
-                        "datePublished": "2026-05-13T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Audience targeting in Google Ads: zo zet je doelgroepen scherp in",
+                            "description": "Hoe je audience targeting in Google Ads inzet om wie je advertenties ziet beter te sturen zonder je bereik te verstikken.",
+                            "image": "https://www.empowers.nl/images/blogs/audience-targeting-google-ads.jpg",
+                            "datePublished": "2026-05-13T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is audience targeting in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Audience targeting is de manier waarop je in Google Ads bepaalt wie binnen je gekozen kanaal je advertentie te zien krijgt. Niet alleen op basis van zoekwoorden of websites, maar ook op wie de gebruiker is: zijn interesses, koopintentie, demografische profiel of eerdere bezoeken aan jouw site. Het is een extra laag boven je keyword- of placement-strategie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke soorten doelgroepen kun je in Google Ads gebruiken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google Ads biedt vijf hoofdcategorieën: affinity audiences voor lange-termijn interesses, in-market audiences voor mensen die actief iets aan het kopen zijn, custom segments die je zelf bouwt op basis van zoekgedrag of bezochte sites, je eigen data via remarketing en Customer Match, en demografische segmenten op leeftijd, geslacht of inkomen. Combinaties tussen deze lagen werken vaak het sterkst."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen observation en targeting?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "In observation-modus voegt Google de doelgroep toe als datalaag zonder je bereik te beperken: je ziet hoe een segment presteert en kunt later bijbieden. In targeting-modus beperk je je bereik tot die doelgroep. Voor Search-campagnes is observation vrijwel altijd de juiste keuze omdat je daar al via keywords filtert. Targeting-modus past beter bij Display en YouTube waar je doelgroep de selectiefunctie heeft."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt audience targeting nog bij Performance Max?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij Performance Max kun je doelgroepen alleen als signaal aanleveren via Audience Signals. Google verplicht je niet om binnen die signalen te blijven, het algoritme gebruikt ze als startpunt. Goede signalen versnellen de leerfase aanzienlijk en geven betere resultaten in de eerste weken. Slechte of te brede signalen helpen het algoritme niet en kosten je leertijd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel bezoekers heb ik nodig voor een remarketing-lijst?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google hanteert sinds eind 2025 één drempel voor alle netwerken: minimaal 100 actieve bezoekers of gebruikers in de afgelopen 30 dagen. Onder dat aantal kan Google de lijst niet inzetten omdat het privacy-impact te groot zou zijn. Heb je weinig verkeer, kijk dan naar Customer Match, langere lookback-periodes of bredere paginadefinities om je lijst boven de drempel te krijgen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke fout maken adverteerders het vaakst met audience targeting?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Te vroeg targeting-modus aanzetten op Search-campagnes. Dat versmalt je bereik enorm omdat je tegelijk filtert op keyword en op doelgroep. Resultaat: weinig impressies, te weinig data voor het algoritme om te leren, en de illusie dat je targeting werkt omdat de CPA laag is. Beter: observation-modus, eerst data verzamelen, daarna bijbieden op segmenten die bewezen renderen."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is audience targeting in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Audience targeting is de manier waarop je in Google Ads bepaalt wie binnen je gekozen kanaal je advertentie te zien krijgt. Niet alleen op basis van zoekwoorden of websites, maar ook op wie de gebruiker is: zijn interesses, koopintentie, demografische profiel of eerdere bezoeken aan jouw site. Het is een extra laag boven je keyword- of placement-strategie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke soorten doelgroepen kun je in Google Ads gebruiken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google Ads biedt vijf hoofdcategorieën: affinity audiences voor lange-termijn interesses, in-market audiences voor mensen die actief iets aan het kopen zijn, custom segments die je zelf bouwt op basis van zoekgedrag of bezochte sites, je eigen data via remarketing en Customer Match, en demografische segmenten op leeftijd, geslacht of inkomen. Combinaties tussen deze lagen werken vaak het sterkst."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen observation en targeting?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "In observation-modus voegt Google de doelgroep toe als datalaag zonder je bereik te beperken: je ziet hoe een segment presteert en kunt later bijbieden. In targeting-modus beperk je je bereik tot die doelgroep. Voor Search-campagnes is observation vrijwel altijd de juiste keuze omdat je daar al via keywords filtert. Targeting-modus past beter bij Display en YouTube waar je doelgroep de selectiefunctie heeft."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Werkt audience targeting nog bij Performance Max?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij Performance Max kun je doelgroepen alleen als signaal aanleveren via Audience Signals. Google verplicht je niet om binnen die signalen te blijven, het algoritme gebruikt ze als startpunt. Goede signalen versnellen de leerfase aanzienlijk en geven betere resultaten in de eerste weken. Slechte of te brede signalen helpen het algoritme niet en kosten je leertijd."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel bezoekers heb ik nodig voor een remarketing-lijst?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google hanteert sinds eind 2025 één drempel voor alle netwerken: minimaal 100 actieve bezoekers of gebruikers in de afgelopen 30 dagen. Onder dat aantal kan Google de lijst niet inzetten omdat het privacy-impact te groot zou zijn. Heb je weinig verkeer, kijk dan naar Customer Match, langere lookback-periodes of bredere paginadefinities om je lijst boven de drempel te krijgen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke fout maken adverteerders het vaakst met audience targeting?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Te vroeg targeting-modus aanzetten op Search-campagnes. Dat versmalt je bereik enorm omdat je tegelijk filtert op keyword en op doelgroep. Resultaat: weinig impressies, te weinig data voor het algoritme om te leren, en de illusie dat je targeting werkt omdat de CPA laag is. Beter: observation-modus, eerst data verzamelen, daarna bijbieden op segmenten die bewezen renderen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Audience targeting in Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/audience-targeting-google-ads"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Audience targeting in Google Ads", "item": "https://www.empowers.nl/blogs/google-ads/audience-targeting-google-ads" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

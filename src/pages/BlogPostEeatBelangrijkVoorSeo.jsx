@@ -28,97 +28,122 @@ export default function BlogPostEeatBelangrijkVoorSeo() {
                 <meta name="twitter:title" content="Wat is E-E-A-T en waarom is het zo belangrijk voor SEO?" />
                 <meta name="twitter:description" content="E-E-A-T bepaalt mede hoe hoog je scoort in Google. Zo bouw je het op voor jouw site." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Wat is E-E-A-T en waarom is het zo belangrijk voor SEO?",
-                        "description": "E-E-A-T staat voor Experience, Expertise, Authoritativeness en Trustworthiness. Lees hoe Google jouw website hierop beoordeelt en wat je moet doen om hoger te scoren.",
-                        "image": "https://www.empowers.nl/images/blogs/eeat-belangrijk-voor-seo.jpg",
-                        "datePublished": "2026-05-02T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Wat is E-E-A-T en waarom is het zo belangrijk voor SEO?",
+                            "description": "E-E-A-T staat voor Experience, Expertise, Authoritativeness en Trustworthiness. Lees hoe Google jouw website hierop beoordeelt en wat je moet doen om hoger te scoren.",
+                            "image": "https://www.empowers.nl/images/blogs/eeat-belangrijk-voor-seo.jpg",
+                            "datePublished": "2026-05-02T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat betekent E-E-A-T precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "E-E-A-T staat voor Experience, Expertise, Authoritativeness en Trustworthiness. Het zijn vier signalen die Google gebruikt om de kwaliteit van content en de betrouwbaarheid van een website te beoordelen. Ervaring meet of de auteur het onderwerp echt heeft meegemaakt, expertise of de auteur deskundig is, autoriteit of anderen jouw site noemen als bron en vertrouwen of jouw site veilig en eerlijk is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is E-E-A-T een rankingfactor?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "E-E-A-T is geen directe rankingfactor in de zin van een meetbare score. Google gebruikt het als kwaliteitsmaatstaf in de Quality Rater Guidelines. Sites die op E-E-A-T sterk scoren krijgen indirect betere posities omdat Google de signalen verwerkt in algoritme-updates zoals helpful content updates en core updates."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Voor welke onderwerpen telt E-E-A-T het zwaarst?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor Your Money or Your Life onderwerpen telt E-E-A-T het zwaarst. Dat zijn pagina's die invloed hebben op gezondheid, financiën, juridische zaken of veiligheid van mensen. Voor een hypotheekadviseur, arts, advocaat of voedingsdeskundige is sterk E-E-A-T-bewijs vrijwel verplicht om bovenaan te komen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe toon ik Experience aan op mijn website?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Schrijf vanuit eigen ervaring en laat zien dat je het onderwerp hebt meegemaakt. Voeg foto's toe van jouw werk, klantcases met namen en bedrijven, voorbeelden uit jouw eigen praktijk en concrete cijfers van projecten. Vermijd algemene how-to-content die overal te vinden is. Google herkent gebrek aan eerstehands ervaring."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe bouw ik autoriteit op voor SEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Autoriteit bouw je op door vermeldingen van andere relevante websites in jouw branche, gastblogs op vakmedia, citaten in nieuwsartikelen en aanwezigheid op brancheplatforms. Backlinks van autoritaire sites tellen het zwaarst. Werk daarnaast aan brand searches: hoe vaker mensen jouw merknaam intypen, hoe sterker Google jouw autoriteit ziet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn directe acties om E-E-A-T te verbeteren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Concrete acties zijn: voeg auteursbio's toe met LinkedIn-link en kwalificaties, vermeld bronnen onderaan elk artikel, plaats reviews zichtbaar op landingspagina's, zorg voor een SSL-certificaat en duidelijke contactgegevens en houd content actueel. Update oude blogs minimaal elke 12 maanden zodat Google ziet dat de informatie nog klopt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik of mijn E-E-A-T verbetert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Direct meten kan niet, maar je ziet het indirect. Volg jouw posities op YMYL-zoekwoorden in Search Console, kijk of het aantal verwijzende domeinen groeit in tools als Ahrefs of Semrush en monitor het volume aan brand searches. Een stabiele groei op deze drie punten over 6 tot 12 maanden duidt op verbeterende E-E-A-T."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat betekent E-E-A-T precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "E-E-A-T staat voor Experience, Expertise, Authoritativeness en Trustworthiness. Het zijn vier signalen die Google gebruikt om de kwaliteit van content en de betrouwbaarheid van een website te beoordelen. Ervaring meet of de auteur het onderwerp echt heeft meegemaakt, expertise of de auteur deskundig is, autoriteit of anderen jouw site noemen als bron en vertrouwen of jouw site veilig en eerlijk is."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Is E-E-A-T een rankingfactor?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "E-E-A-T is geen directe rankingfactor in de zin van een meetbare score. Google gebruikt het als kwaliteitsmaatstaf in de Quality Rater Guidelines. Sites die op E-E-A-T sterk scoren krijgen indirect betere posities omdat Google de signalen verwerkt in algoritme-updates zoals helpful content updates en core updates."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Voor welke onderwerpen telt E-E-A-T het zwaarst?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor Your Money or Your Life onderwerpen telt E-E-A-T het zwaarst. Dat zijn pagina's die invloed hebben op gezondheid, financiën, juridische zaken of veiligheid van mensen. Voor een hypotheekadviseur, arts, advocaat of voedingsdeskundige is sterk E-E-A-T-bewijs vrijwel verplicht om bovenaan te komen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe toon ik Experience aan op mijn website?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Schrijf vanuit eigen ervaring en laat zien dat je het onderwerp hebt meegemaakt. Voeg foto's toe van jouw werk, klantcases met namen en bedrijven, voorbeelden uit jouw eigen praktijk en concrete cijfers van projecten. Vermijd algemene how-to-content die overal te vinden is. Google herkent gebrek aan eerstehands ervaring."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe bouw ik autoriteit op voor SEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Autoriteit bouw je op door vermeldingen van andere relevante websites in jouw branche, gastblogs op vakmedia, citaten in nieuwsartikelen en aanwezigheid op brancheplatforms. Backlinks van autoritaire sites tellen het zwaarst. Werk daarnaast aan brand searches: hoe vaker mensen jouw merknaam intypen, hoe sterker Google jouw autoriteit ziet."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat zijn directe acties om E-E-A-T te verbeteren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Concrete acties zijn: voeg auteursbio's toe met LinkedIn-link en kwalificaties, vermeld bronnen onderaan elk artikel, plaats reviews zichtbaar op landingspagina's, zorg voor een SSL-certificaat en duidelijke contactgegevens en houd content actueel. Update oude blogs minimaal elke 12 maanden zodat Google ziet dat de informatie nog klopt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe meet ik of mijn E-E-A-T verbetert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Direct meten kan niet, maar je ziet het indirect. Volg jouw posities op YMYL-zoekwoorden in Search Console, kijk of het aantal verwijzende domeinen groeit in tools als Ahrefs of Semrush en monitor het volume aan brand searches. Een stabiele groei op deze drie punten over 6 tot 12 maanden duidt op verbeterende E-E-A-T."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "E-E-A-T voor SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo/eeat-belangrijk-voor-seo"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "SEO", "item": "https://www.empowers.nl/blogs/seo" },
-                            { "@type": "ListItem", "position": 4, "name": "E-E-A-T voor SEO", "item": "https://www.empowers.nl/blogs/seo/eeat-belangrijk-voor-seo" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

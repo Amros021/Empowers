@@ -29,97 +29,122 @@ export default function BlogPostGenerativeEngineOptimizationCompleteGids2026() {
                 <meta name="twitter:title" content="Generative Engine Optimization: de complete gids voor 2026" />
                 <meta name="twitter:description" content="Hoe je in 2026 zichtbaar wordt in ChatGPT, Perplexity, Gemini en Google AI Overviews. Praktisch, eerlijk en zonder hype." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Generative Engine Optimization: de complete gids voor 2026",
-                        "description": "Wat is Generative Engine Optimization, hoe verschilt het van SEO en hoe pak je het in 2026 aan zonder budget te verbranden?",
-                        "image": "https://www.empowers.nl/images/blogs/generative-engine-optimization-complete-gids-2026.jpg",
-                        "datePublished": "2026-05-17T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Generative Engine Optimization: de complete gids voor 2026",
+                            "description": "Wat is Generative Engine Optimization, hoe verschilt het van SEO en hoe pak je het in 2026 aan zonder budget te verbranden?",
+                            "image": "https://www.empowers.nl/images/blogs/generative-engine-optimization-complete-gids-2026.jpg",
+                            "datePublished": "2026-05-17T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is Generative Engine Optimization precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Generative Engine Optimization, kortweg GEO, is het optimaliseren van je website en content zodat AI-zoekmachines zoals ChatGPT, Perplexity, Gemini, Claude en Google AI Overviews jouw merk meenemen in hun antwoorden. Waar SEO draait om een hoge plek in de blauwe links van Google, draait GEO om geciteerd worden in een generatief AI-antwoord. De technieken overlappen op een aantal punten, maar de doelen verschillen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Vervangt GEO klassieke SEO in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee, GEO vervangt SEO niet. Klassieke Google-zoekopdrachten blijven het overgrote deel van het zoekverkeer afhandelen. Wat verandert is dat informatieve zoekopdrachten steeds vaker eindigen in een AI-samenvatting in plaats van een klik. GEO en SEO werken samen: dezelfde sterke pagina kan zowel ranken als geciteerd worden, mits hij goed is gestructureerd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik of GEO werkt voor mijn bedrijf?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin handmatig. Open ChatGPT, Perplexity en Gemini en typ twintig vragen die jouw doelgroep stelt voordat ze klant worden. Noteer in een spreadsheet of je merk genoemd wordt, op welke plek en welke concurrenten meegenomen worden. Herhaal dit maandelijks. Na drie metingen heb je een trend en weet je of je vooruit beweegt of niet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke contentvorm werkt het best voor GEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Content die een vraag direct en compact beantwoordt in de eerste twee of drie zinnen, met daarna verdieping en een duidelijke structuur. FAQ-secties, vergelijkingen, definitiestukken en hoe-vragen worden aanmerkelijk vaker geciteerd dan algemene pagina's. Een goede regel: schrijf voor mensen, maar zorg dat een AI in twee seconden de kern eruit pikt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke tools heb ik nodig voor GEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "In de meeste gevallen geen, althans niet om te starten. Een spreadsheet en wat handwerk in ChatGPT en Perplexity geven al een prima beeld. Wanneer je structureel over meerdere markten of merken tegelijk wilt meten, loont een betaalde tool. Otterly past bij MKB, AthenaHQ bij groeibedrijven, Profound bij enterprise. Begin handmatig en investeer pas als de behoefte echt zichtbaar is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe snel zie ik resultaat van GEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op enkele maanden voordat je beweging ziet, niet op weken. AI-engines hercrawlen en herwegen content cyclisch. Een goed gestructureerde pagina kan binnen vier tot acht weken opduiken in citaties, terwijl een diepere domein-autoriteit jaren opbouwt. Snelheid komt vooral van timing: bedrijven die nu beginnen, hebben een aantoonbare voorsprong op partijen die nog wachten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is GEO interessant voor lokale ondernemers?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor pure servicebedrijven met een paar postcodes als afzetgebied is GEO minder prioritair. Klassieke Google Maps-zichtbaarheid en lokale SEO leveren daar meer op. Wie wel landelijk of online verkoopt, of een merk wil bouwen rondom een expertise, heeft veel meer aan GEO. Begin pas met GEO als je doelgroep ook daadwerkelijk in AI-engines zoekt naar wat jij aanbiedt."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is Generative Engine Optimization precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Generative Engine Optimization, kortweg GEO, is het optimaliseren van je website en content zodat AI-zoekmachines zoals ChatGPT, Perplexity, Gemini, Claude en Google AI Overviews jouw merk meenemen in hun antwoorden. Waar SEO draait om een hoge plek in de blauwe links van Google, draait GEO om geciteerd worden in een generatief AI-antwoord. De technieken overlappen op een aantal punten, maar de doelen verschillen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Vervangt GEO klassieke SEO in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee, GEO vervangt SEO niet. Klassieke Google-zoekopdrachten blijven het overgrote deel van het zoekverkeer afhandelen. Wat verandert is dat informatieve zoekopdrachten steeds vaker eindigen in een AI-samenvatting in plaats van een klik. GEO en SEO werken samen: dezelfde sterke pagina kan zowel ranken als geciteerd worden, mits hij goed is gestructureerd."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe meet ik of GEO werkt voor mijn bedrijf?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin handmatig. Open ChatGPT, Perplexity en Gemini en typ twintig vragen die jouw doelgroep stelt voordat ze klant worden. Noteer in een spreadsheet of je merk genoemd wordt, op welke plek en welke concurrenten meegenomen worden. Herhaal dit maandelijks. Na drie metingen heb je een trend en weet je of je vooruit beweegt of niet."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke contentvorm werkt het best voor GEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Content die een vraag direct en compact beantwoordt in de eerste twee of drie zinnen, met daarna verdieping en een duidelijke structuur. FAQ-secties, vergelijkingen, definitiestukken en hoe-vragen worden aanmerkelijk vaker geciteerd dan algemene pagina's. Een goede regel: schrijf voor mensen, maar zorg dat een AI in twee seconden de kern eruit pikt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke tools heb ik nodig voor GEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "In de meeste gevallen geen, althans niet om te starten. Een spreadsheet en wat handwerk in ChatGPT en Perplexity geven al een prima beeld. Wanneer je structureel over meerdere markten of merken tegelijk wilt meten, loont een betaalde tool. Otterly past bij MKB, AthenaHQ bij groeibedrijven, Profound bij enterprise. Begin handmatig en investeer pas als de behoefte echt zichtbaar is."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe snel zie ik resultaat van GEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op enkele maanden voordat je beweging ziet, niet op weken. AI-engines hercrawlen en herwegen content cyclisch. Een goed gestructureerde pagina kan binnen vier tot acht weken opduiken in citaties, terwijl een diepere domein-autoriteit jaren opbouwt. Snelheid komt vooral van timing: bedrijven die nu beginnen, hebben een aantoonbare voorsprong op partijen die nog wachten."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Is GEO interessant voor lokale ondernemers?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor pure servicebedrijven met een paar postcodes als afzetgebied is GEO minder prioritair. Klassieke Google Maps-zichtbaarheid en lokale SEO leveren daar meer op. Wie wel landelijk of online verkoopt, of een merk wil bouwen rondom een expertise, heeft veel meer aan GEO. Begin pas met GEO als je doelgroep ook daadwerkelijk in AI-engines zoekt naar wat jij aanbiedt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Generative Engine Optimization complete gids 2026",
+                                    "item": "https://www.empowers.nl/blogs/geo/generative-engine-optimization-complete-gids-2026"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "Generative Engine Optimization complete gids 2026", "item": "https://www.empowers.nl/blogs/geo/generative-engine-optimization-complete-gids-2026" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

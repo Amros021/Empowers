@@ -28,97 +28,122 @@ export default function BlogPostChatgptAdsSelfServePlatformOpenai() {
                 <meta name="twitter:title" content="ChatGPT Ads gaat live: wat OpenAI's self-serve platform betekent" />
                 <meta name="twitter:description" content="Self-serve Ads Manager, CPC bidding en pixel: wat OpenAI nu lanceert en wat het voor jou betekent." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "ChatGPT Ads gaat live: wat het self-serve platform van OpenAI betekent voor adverteerders",
-                        "description": "OpenAI opende op 5 mei 2026 de ChatGPT Ads Manager voor Amerikaanse adverteerders. Lees wat dat betekent en hoe je je in Nederland alvast voorbereidt.",
-                        "image": "https://www.empowers.nl/images/blogs/chatgpt-ads-self-serve-platform-openai.jpg",
-                        "datePublished": "2026-05-07T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "ChatGPT Ads gaat live: wat het self-serve platform van OpenAI betekent voor adverteerders",
+                            "description": "OpenAI opende op 5 mei 2026 de ChatGPT Ads Manager voor Amerikaanse adverteerders. Lees wat dat betekent en hoe je je in Nederland alvast voorbereidt.",
+                            "image": "https://www.empowers.nl/images/blogs/chatgpt-ads-self-serve-platform-openai.jpg",
+                            "datePublished": "2026-05-07T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is ChatGPT Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "ChatGPT Ads is OpenAI's advertentieplatform waarmee bedrijven advertenties kunnen plaatsen die in ChatGPT-gesprekken verschijnen. Sinds 5 mei 2026 kunnen Amerikaanse adverteerders zelfstandig campagnes aanmaken via een self-serve Ads Manager, met CPC-bidding, een Conversions API en een pixel voor conversiemeting."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer komt ChatGPT Ads naar Nederland?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "OpenAI heeft nog geen exacte datum genoemd voor de Nederlandse of EU-launch. Wel werkt het bedrijf aan een consent-framework voor de EU, wat duidt op een uitrol later in 2026. De eerste internationale uitbreidingen zijn het Verenigd Koninkrijk, Brazilie, Japan, Zuid-Korea en Mexico. Voor Nederland is voorbereiden op tracking en content nu de slimme zet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel kost adverteren op ChatGPT?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "OpenAI ondersteunt zowel CPM-buying als CPC-bidding. Voor CPC-campagnes adviseert OpenAI een startbod tussen 3 en 5 dollar per klik. De definitieve klikprijs wordt bepaald door een veiling, vergelijkbaar met Google Ads. In de eerste maanden ligt de klikprijs op nieuwe platforms doorgaans lager dan op volwassen platforms door beperkte concurrentie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet je conversies via ChatGPT Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "OpenAI heeft een eigen pixel en Conversions API gelanceerd. De pixel meet browser-side wat er op je site gebeurt na een klik vanuit een ChatGPT-advertentie. De Conversions API stuurt server-side conversies door, voor de momenten waarop het pixel mist door iOS-restricties of ad blockers. De architectuur lijkt sterk op die van Meta."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Vervangt ChatGPT Ads Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee, niet op korte termijn. Google Search behoudt het volume en Meta blijft het zwaartepunt voor conversiegerichte social ads. Wel ontstaat er een derde concurrent voor koopgerichte aandacht, vooral op vergelijkende vragen en hoe-doe-ik-vragen. Voor de meeste Nederlandse MKB-bedrijven wordt het een aanvulling, geen vervanging."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke advertentieformaten ondersteunt ChatGPT?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "ChatGPT-advertenties verschijnen contextueel in het gesprek zelf, gemarkeerd als sponsored. Ze tonen producten, aanbiedingen of merkboodschappen die aansluiten bij wat de gebruiker zojuist vroeg. Anders dan een banner volgt de advertentie de inhoud van het gesprek, dus korte productkaarten en scherp geformuleerde proposities werken het best."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat moet ik nu al doen om voorbereid te zijn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vier voorbereidingen zijn nu al nuttig: werk aan citatie-waardige content zodat ChatGPT jouw merk vindt, zet je server-side tracking via een Conversions API op orde, bouw advertentie-creatives die ook in een chatvenster werken, en houd budget vrij om binnen 2 weken na de NL-launch te kunnen testen. Wie voorbereid is, pakt de lagere klikprijzen mee in de openingsfase."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is ChatGPT Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "ChatGPT Ads is OpenAI's advertentieplatform waarmee bedrijven advertenties kunnen plaatsen die in ChatGPT-gesprekken verschijnen. Sinds 5 mei 2026 kunnen Amerikaanse adverteerders zelfstandig campagnes aanmaken via een self-serve Ads Manager, met CPC-bidding, een Conversions API en een pixel voor conversiemeting."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer komt ChatGPT Ads naar Nederland?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "OpenAI heeft nog geen exacte datum genoemd voor de Nederlandse of EU-launch. Wel werkt het bedrijf aan een consent-framework voor de EU, wat duidt op een uitrol later in 2026. De eerste internationale uitbreidingen zijn het Verenigd Koninkrijk, Brazilie, Japan, Zuid-Korea en Mexico. Voor Nederland is voorbereiden op tracking en content nu de slimme zet."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel kost adverteren op ChatGPT?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "OpenAI ondersteunt zowel CPM-buying als CPC-bidding. Voor CPC-campagnes adviseert OpenAI een startbod tussen 3 en 5 dollar per klik. De definitieve klikprijs wordt bepaald door een veiling, vergelijkbaar met Google Ads. In de eerste maanden ligt de klikprijs op nieuwe platforms doorgaans lager dan op volwassen platforms door beperkte concurrentie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AI Ads",
+                                    "item": "https://www.empowers.nl/blogs/ai-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe meet je conversies via ChatGPT Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "OpenAI heeft een eigen pixel en Conversions API gelanceerd. De pixel meet browser-side wat er op je site gebeurt na een klik vanuit een ChatGPT-advertentie. De Conversions API stuurt server-side conversies door, voor de momenten waarop het pixel mist door iOS-restricties of ad blockers. De architectuur lijkt sterk op die van Meta."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Vervangt ChatGPT Ads Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee, niet op korte termijn. Google Search behoudt het volume en Meta blijft het zwaartepunt voor conversiegerichte social ads. Wel ontstaat er een derde concurrent voor koopgerichte aandacht, vooral op vergelijkende vragen en hoe-doe-ik-vragen. Voor de meeste Nederlandse MKB-bedrijven wordt het een aanvulling, geen vervanging."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke advertentieformaten ondersteunt ChatGPT?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "ChatGPT-advertenties verschijnen contextueel in het gesprek zelf, gemarkeerd als sponsored. Ze tonen producten, aanbiedingen of merkboodschappen die aansluiten bij wat de gebruiker zojuist vroeg. Anders dan een banner volgt de advertentie de inhoud van het gesprek, dus korte productkaarten en scherp geformuleerde proposities werken het best."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat moet ik nu al doen om voorbereid te zijn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vier voorbereidingen zijn nu al nuttig: werk aan citatie-waardige content zodat ChatGPT jouw merk vindt, zet je server-side tracking via een Conversions API op orde, bouw advertentie-creatives die ook in een chatvenster werken, en houd budget vrij om binnen 2 weken na de NL-launch te kunnen testen. Wie voorbereid is, pakt de lagere klikprijzen mee in de openingsfase."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "ChatGPT Ads self-serve platform",
+                                    "item": "https://www.empowers.nl/blogs/ai-ads/chatgpt-ads-self-serve-platform-openai"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "AI Ads", "item": "https://www.empowers.nl/blogs/ai-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "ChatGPT Ads self-serve platform", "item": "https://www.empowers.nl/blogs/ai-ads/chatgpt-ads-self-serve-platform-openai" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

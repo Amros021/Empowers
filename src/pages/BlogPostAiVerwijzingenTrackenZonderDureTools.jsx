@@ -28,97 +28,122 @@ export default function BlogPostAiVerwijzingenTrackenZonderDureTools() {
                 <meta name="twitter:title" content="AI-verwijzingen tracken zonder dure tools" />
                 <meta name="twitter:description" content="Praktische stappen om AI-zichtbaarheid bij te houden zonder dure abonnementen." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe track je AI-verwijzingen zonder dure tools?",
-                        "description": "AI-verwijzingen tracken hoeft geen 300 euro per maand te kosten. Een gratis aanpak met Google Search Console, een spreadsheet en handmatige tests die werkt.",
-                        "image": "https://www.empowers.nl/images/blogs/ai-verwijzingen-tracken-zonder-dure-tools.jpg",
-                        "datePublished": "2026-05-09T15:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe track je AI-verwijzingen zonder dure tools?",
+                            "description": "AI-verwijzingen tracken hoeft geen 300 euro per maand te kosten. Een gratis aanpak met Google Search Console, een spreadsheet en handmatige tests die werkt.",
+                            "image": "https://www.empowers.nl/images/blogs/ai-verwijzingen-tracken-zonder-dure-tools.jpg",
+                            "datePublished": "2026-05-09T15:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik AI-verwijzingen echt tracken zonder betaalde tools?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Je krijgt geen real-time dashboard, maar wel een betrouwbare baseline. Combineer drie gratis bronnen: Google Search Console voor branded zoekvolume, een handmatige weeklijkse query-test in ChatGPT en Perplexity, en je analytics voor direct verkeer. Vastgelegd in een simpele spreadsheet zie je binnen acht weken het patroon."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke metrics laten AI-zichtbaarheid betrouwbaar zien?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Branded search-volume in Google Search Console (mensen typen jouw merknaam na een AI-antwoord), direct verkeer naar je homepage, citatie-percentage uit handmatige tests in AI-engines, en referral verkeer vanuit chat.openai.com en andere AI-domeinen. Geen enkele metric staat alleen, maar samen geven ze een duidelijk beeld."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet ik handmatig testen in ChatGPT en Perplexity?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een keer per week is genoeg om beweging te zien. Test elke week dezelfde tien tot vijftien kernvragen en log per vraag of jouw domein wordt genoemd. Dit kost ongeveer twintig minuten per week. Dagelijks testen heeft weinig zin, AI-antwoorden veranderen niet zo snel dat dat extra inzicht oplevert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe filter ik AI-verkeer in Google Analytics?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Maak een segment of filter op de bekende AI-domeinen als referrer: chat.openai.com, perplexity.ai, gemini.google.com en bing.com (voor Copilot). Voeg ze samen in een aangepaste rapportage. Houd er rekening mee dat AI-engines niet altijd een referrer doorgeven, dus dit is een ondergrens, geen totaal."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat doe ik als mijn merk niet wordt genoemd in AI-antwoorden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Eerst documenteer welke domeinen wel worden genoemd voor jouw kernvragen. Dan analyseer je waarom. Hebben die pagina's het antwoord vooraan, een sterke FAQ, recentere data dan jij. Daarna pas je je eigen pagina's aan op die elementen. Niet zichtbaar zijn is bijna altijd content-gerelateerd, niet techniek-gerelateerd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is een betaalde tool zoals AthenaHQ of Profound de moeite waard?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Als je honderden vragen wilt monitoren, meerdere talen wilt bestrijken of dagelijkse rapportage nodig hebt voor een team, schaal je sneller met een betaald platform. Voor de meeste MKB-bedrijven met tien tot vijftig kernvragen volstaat handmatig werk in het begin. Schaal je voorbij die grens, dan begint een tool zichzelf terug te verdienen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voor mijn tracking-baseline betrouwbaar wordt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op acht tot twaalf weken consistent meten voordat je trends ziet. Een enkele week zegt weinig, omdat AI-antwoorden ruis hebben. Pas bij een derde tot een halve maand consistent meten kun je beweging duiden. Geduld in de eerste fase voorkomt dat je op valse signalen reageert."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Kan ik AI-verwijzingen echt tracken zonder betaalde tools?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Je krijgt geen real-time dashboard, maar wel een betrouwbare baseline. Combineer drie gratis bronnen: Google Search Console voor branded zoekvolume, een handmatige weeklijkse query-test in ChatGPT en Perplexity, en je analytics voor direct verkeer. Vastgelegd in een simpele spreadsheet zie je binnen acht weken het patroon."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke metrics laten AI-zichtbaarheid betrouwbaar zien?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Branded search-volume in Google Search Console (mensen typen jouw merknaam na een AI-antwoord), direct verkeer naar je homepage, citatie-percentage uit handmatige tests in AI-engines, en referral verkeer vanuit chat.openai.com en andere AI-domeinen. Geen enkele metric staat alleen, maar samen geven ze een duidelijk beeld."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak moet ik handmatig testen in ChatGPT en Perplexity?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een keer per week is genoeg om beweging te zien. Test elke week dezelfde tien tot vijftien kernvragen en log per vraag of jouw domein wordt genoemd. Dit kost ongeveer twintig minuten per week. Dagelijks testen heeft weinig zin, AI-antwoorden veranderen niet zo snel dat dat extra inzicht oplevert."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe filter ik AI-verkeer in Google Analytics?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Maak een segment of filter op de bekende AI-domeinen als referrer: chat.openai.com, perplexity.ai, gemini.google.com en bing.com (voor Copilot). Voeg ze samen in een aangepaste rapportage. Houd er rekening mee dat AI-engines niet altijd een referrer doorgeven, dus dit is een ondergrens, geen totaal."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat doe ik als mijn merk niet wordt genoemd in AI-antwoorden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Eerst documenteer welke domeinen wel worden genoemd voor jouw kernvragen. Dan analyseer je waarom. Hebben die pagina's het antwoord vooraan, een sterke FAQ, recentere data dan jij. Daarna pas je je eigen pagina's aan op die elementen. Niet zichtbaar zijn is bijna altijd content-gerelateerd, niet techniek-gerelateerd."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wanneer is een betaalde tool zoals AthenaHQ of Profound de moeite waard?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Als je honderden vragen wilt monitoren, meerdere talen wilt bestrijken of dagelijkse rapportage nodig hebt voor een team, schaal je sneller met een betaald platform. Voor de meeste MKB-bedrijven met tien tot vijftig kernvragen volstaat handmatig werk in het begin. Schaal je voorbij die grens, dan begint een tool zichzelf terug te verdienen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voor mijn tracking-baseline betrouwbaar wordt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op acht tot twaalf weken consistent meten voordat je trends ziet. Een enkele week zegt weinig, omdat AI-antwoorden ruis hebben. Pas bij een derde tot een halve maand consistent meten kun je beweging duiden. Geduld in de eerste fase voorkomt dat je op valse signalen reageert."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "AI-verwijzingen tracken zonder dure tools",
+                                    "item": "https://www.empowers.nl/blogs/geo/ai-verwijzingen-tracken-zonder-dure-tools"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "AI-verwijzingen tracken zonder dure tools", "item": "https://www.empowers.nl/blogs/geo/ai-verwijzingen-tracken-zonder-dure-tools" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -28,120 +28,122 @@ export default function BlogPostAiZoekmachinesVsGoogle() {
                 <meta name="twitter:title" content="AI zoekmachines vs Google: hoe zorg je dat je overal gevonden wordt?" />
                 <meta name="twitter:description" content="AI zoekmachines veranderen hoe klanten zoeken. Lees hoe je overal gevonden wordt met GEO en SEO." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "AI zoekmachines vs Google: hoe zorg je dat je overal gevonden wordt?",
-                        "description": "AI zoekmachines zoals ChatGPT en Perplexity veranderen hoe klanten je vinden. Lees hoe je zichtbaar blijft in zowel Google als AI-tools met GEO en SEO.",
-                        "image": "https://www.empowers.nl/images/blogs/ai-zoekmachines-vs-google-overal.jpg",
-                        "datePublished": "2026-04-01T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "AI zoekmachines vs Google: hoe zorg je dat je overal gevonden wordt?",
+                            "description": "AI zoekmachines zoals ChatGPT en Perplexity veranderen hoe klanten je vinden. Lees hoe je zichtbaar blijft in zowel Google als AI-tools met GEO en SEO.",
+                            "image": "https://www.empowers.nl/images/blogs/ai-zoekmachines-vs-google-overal.jpg",
+                            "datePublished": "2026-04-01T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn AI zoekmachines precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "AI zoekmachines zijn tools zoals ChatGPT, Perplexity, Google Gemini en Claude die vragen beantwoorden met behulp van kunstmatige intelligentie. In plaats van een lijst met links geven ze direct een antwoord, vaak met bronvermelding. Steeds meer Nederlanders gebruiken ze naast of in plaats van Google."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Vervangt ChatGPT Google als zoekmachine?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee, niet volledig. Maar ChatGPT en soortgelijke AI-tools nemen wel een deel van het zoekverkeer over. Vooral informationele vragen worden steeds vaker aan AI gesteld. Google blijft sterk voor lokale zoekopdrachten en koopgerichte zoekvragen. Je hebt beide kanalen nodig."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe zorg ik dat mijn bedrijf in AI-antwoorden verschijnt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Schrijf content die directe antwoorden geeft op concrete vragen. Gebruik FAQ-schema markup op je pagina's. Zorg voor feitelijke, zelfstandig leesbare paragrafen met cijfers en bronnen. Dit heet GEO: Generative Engine Optimization. Hoe concreter je content, hoe groter de kans dat AI je citeert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen SEO en GEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "SEO richt zich op zichtbaarheid in Google zoekresultaten. GEO richt zich op zichtbaarheid in AI-gegenereerde antwoorden van tools als ChatGPT en Perplexity. SEO draait om rankings en klikken. GEO draait om geciteerd worden. De technieken overlappen deels, maar GEO vraagt extra aandacht voor feitelijkheid en structuur."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik kiezen tussen SEO en GEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. Je hebt beide nodig. SEO levert verkeer via Google. GEO zorgt dat AI-tools je aanbevelen. De basis is hetzelfde: goede content, technisch sterke website en autoriteit in je vakgebied. GEO voegt daar specifieke technieken aan toe zoals FAQ-schema en directe antwoorden bovenaan je pagina's."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel mensen gebruiken AI zoekmachines in Nederland?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Schattingen lopen uiteen, maar onderzoek wijst uit dat in 2026 zo'n 30 tot 40% van de Nederlanders wel eens een AI-tool gebruikt om informatie te zoeken. Onder jongere doelgroepen (18-35) ligt dat percentage hoger, rond 50 tot 60%. Dit groeit elk kwartaal."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost GEO optimalisatie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "GEO is geen los product maar een aanvulling op je bestaande contentstrategie. De extra investering zit in het aanpassen van je contentstructuur, het toevoegen van FAQ-schema en het herschrijven van bestaande pagina's. Bij een bureau kost dit 200 tot 500 euro extra per maand bovenop je SEO-budget."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat zijn AI zoekmachines precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "AI zoekmachines zijn tools zoals ChatGPT, Perplexity, Google Gemini en Claude die vragen beantwoorden met behulp van kunstmatige intelligentie. In plaats van een lijst met links geven ze direct een antwoord, vaak met bronvermelding. Steeds meer Nederlanders gebruiken ze naast of in plaats van Google."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Vervangt ChatGPT Google als zoekmachine?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee, niet volledig. Maar ChatGPT en soortgelijke AI-tools nemen wel een deel van het zoekverkeer over. Vooral informationele vragen worden steeds vaker aan AI gesteld. Google blijft sterk voor lokale zoekopdrachten en koopgerichte zoekvragen. Je hebt beide kanalen nodig."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe zorg ik dat mijn bedrijf in AI-antwoorden verschijnt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Schrijf content die directe antwoorden geeft op concrete vragen. Gebruik FAQ-schema markup op je pagina's. Zorg voor feitelijke, zelfstandig leesbare paragrafen met cijfers en bronnen. Dit heet GEO: Generative Engine Optimization. Hoe concreter je content, hoe groter de kans dat AI je citeert."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen SEO en GEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "SEO richt zich op zichtbaarheid in Google zoekresultaten. GEO richt zich op zichtbaarheid in AI-gegenereerde antwoorden van tools als ChatGPT en Perplexity. SEO draait om rankings en klikken. GEO draait om geciteerd worden. De technieken overlappen deels, maar GEO vraagt extra aandacht voor feitelijkheid en structuur."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik kiezen tussen SEO en GEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee. Je hebt beide nodig. SEO levert verkeer via Google. GEO zorgt dat AI-tools je aanbevelen. De basis is hetzelfde: goede content, technisch sterke website en autoriteit in je vakgebied. GEO voegt daar specifieke technieken aan toe zoals FAQ-schema en directe antwoorden bovenaan je pagina's."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel mensen gebruiken AI zoekmachines in Nederland?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Schattingen lopen uiteen, maar onderzoek wijst uit dat in 2026 zo'n 30 tot 40% van de Nederlanders wel eens een AI-tool gebruikt om informatie te zoeken. Onder jongere doelgroepen (18-35) ligt dat percentage hoger, rond 50 tot 60%. Dit groeit elk kwartaal."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat kost GEO optimalisatie?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "GEO is geen los product maar een aanvulling op je bestaande contentstrategie. De extra investering zit in het aanpassen van je contentstructuur, het toevoegen van FAQ-schema en het herschrijven van bestaande pagina's. Bij een bureau kost dit 200 tot 500 euro extra per maand bovenop je SEO-budget."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "AI zoekmachines vs Google",
+                                    "item": "https://www.empowers.nl/blogs/geo/ai-zoekmachines-vs-google-overal"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "GEO",
-                                "item": "https://www.empowers.nl/blogs/geo"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "AI zoekmachines vs Google",
-                                "item": "https://www.empowers.nl/blogs/geo/ai-zoekmachines-vs-google-overal"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

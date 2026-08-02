@@ -26,8 +26,16 @@ export default function BlogPostFacebookVsInstagramAdverteren() {
                             "headline": "Facebook vs Instagram adverteren: welk platform past bij jouw doelgroep?",
                             "image": "https://www.empowers.nl/images/blogs/facebook-vs-instagram-adverteren-welk.jpg",
                             "description": "Ontdek het verschil tussen Facebook en Instagram ads. We vergelijken doelgroepen, advertentieformaten en budgets zodat jij het juiste platform kiest.",
-                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-03-05T00:00:00+01:00",
                             "dateModified": "2026-03-05T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/social-ads/facebook-vs-instagram-adverteren-welk"
@@ -38,48 +46,88 @@ export default function BlogPostFacebookVsInstagramAdverteren() {
                                 {
                                     "@type": "Question",
                                     "name": "Wat is goedkoper: Facebook of Instagram adverteren?",
-                                    "acceptedAnswer": { "@type": "Answer", "text": "De advertentiekosten hangen af van jouw doelgroep en industrie, niet van het platform zelf. Je zet budgetten in via Meta Ads Manager en het systeem optimaliseert automatisch. Veel advertisers zien dat Instagram soms iets duurder is vanwege hogere engagement, maar dat levert ook meer conversies op." }
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "De advertentiekosten hangen af van jouw doelgroep en industrie, niet van het platform zelf. Je zet budgetten in via Meta Ads Manager en het systeem optimaliseert automatisch. Veel advertisers zien dat Instagram soms iets duurder is vanwege hogere engagement, maar dat levert ook meer conversies op."
+                                    }
                                 },
                                 {
                                     "@type": "Question",
                                     "name": "Kan ik dezelfde advertentie op beide platforms gebruiken?",
-                                    "acceptedAnswer": { "@type": "Answer", "text": "Ja, je kan één campagne instellen en laten draaien op zowel Facebook als Instagram. Meta Ads Manager optimaliseert automatisch. Maar onze ervaring: pas je creatieve assets aan per platform. Instagram ads presteren beter met verticale video's en minder tekst, Facebook wat meer tekst en info." }
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, je kan één campagne instellen en laten draaien op zowel Facebook als Instagram. Meta Ads Manager optimaliseert automatisch. Maar onze ervaring: pas je creatieve assets aan per platform. Instagram ads presteren beter met verticale video's en minder tekst, Facebook wat meer tekst en info."
+                                    }
                                 },
                                 {
                                     "@type": "Question",
                                     "name": "Voor welke producten werkt Facebook beter dan Instagram?",
-                                    "acceptedAnswer": { "@type": "Answer", "text": "Facebook presteert goed voor B2B diensten, oudere doelgroepen, diensten die uitleg nodig hebben, en wanneer je long-form content wilt gebruiken. Instagram werkt beter voor lifestyle, beauty, fashion, voeding en visual-heavy producten waar je snel aandacht moet trekken." }
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Facebook presteert goed voor B2B diensten, oudere doelgroepen, diensten die uitleg nodig hebben, en wanneer je long-form content wilt gebruiken. Instagram werkt beter voor lifestyle, beauty, fashion, voeding en visual-heavy producten waar je snel aandacht moet trekken."
+                                    }
                                 },
                                 {
                                     "@type": "Question",
                                     "name": "Welke leeftijdsgroep zit waar het meest op?",
-                                    "acceptedAnswer": { "@type": "Answer", "text": "Facebook gebruikers zijn gemiddeld ouder (35+), Instagram younger (18-40). Maar beide hebben alle leeftijdsgroepen. Het gaat meer om welke groep actief advertenties engageert. Test en meet welke doelgroep jij aantrekt per platform." }
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Facebook gebruikers zijn gemiddeld ouder (35+), Instagram younger (18-40). Maar beide hebben alle leeftijdsgroepen. Het gaat meer om welke groep actief advertenties engageert. Test en meet welke doelgroep jij aantrekt per platform."
+                                    }
                                 },
                                 {
                                     "@type": "Question",
                                     "name": "Hoeveel budget moet ik minimaal uitgeven?",
-                                    "acceptedAnswer": { "@type": "Answer", "text": "Meta adviseert minimaal €5 per dag per kampagne voor optimale machine learning. Veel bedrijven starten met €10-20 per dag totaal en schalen op basis van resultaten. Met minder budget krijg je minder data, dus minder optimalisatie door Meta's algoritme." }
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Meta adviseert minimaal €5 per dag per kampagne voor optimale machine learning. Veel bedrijven starten met €10-20 per dag totaal en schalen op basis van resultaten. Met minder budget krijg je minder data, dus minder optimalisatie door Meta's algoritme."
+                                    }
                                 },
                                 {
                                     "@type": "Question",
                                     "name": "Welk platform geeft betere ROI?",
-                                    "acceptedAnswer": { "@type": "Answer", "text": "Dat hangt volledig af van jouw product, publiek en creatieven. Sommige bedrijven zien 3x ROI op Instagram, anderen op Facebook. Het antwoord: test beide, meet nauwkeurig, en schaal waar je resultaten haalt. Daarom werken wij samen met je op strategie én uitvoering." }
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Dat hangt volledig af van jouw product, publiek en creatieven. Sommige bedrijven zien 3x ROI op Instagram, anderen op Facebook. Het antwoord: test beide, meet nauwkeurig, en schaal waar je resultaten haalt. Daarom werken wij samen met je op strategie én uitvoering."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Facebook vs Instagram adverteren",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/facebook-vs-instagram-adverteren-welk"
                                 }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Facebook vs Instagram adverteren", "item": "https://www.empowers.nl/blogs/social-ads/facebook-vs-instagram-adverteren-welk" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Facebook vs Instagram adverteren: welk platform past bij jouw doelgroep?" />
+        <meta name="twitter:description" content="Ontdek het verschil tussen Facebook en Instagram ads. We vergelijken doelgroepen, advertentieformaten en budgets zodat j" />
+      </Helmet>
             <Navbar />
             <article className="w-full pt-40 pb-24 px-6 relative">
                 <div className="max-w-4xl mx-auto">
