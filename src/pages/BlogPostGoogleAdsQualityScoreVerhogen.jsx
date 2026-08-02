@@ -28,120 +28,122 @@ export default function BlogPostGoogleAdsQualityScoreVerhogen() {
                 <meta name="twitter:title" content="Google Ads Quality Score verhogen: 7 concrete tips" />
                 <meta name="twitter:description" content="7 concrete tips om je Google Ads Quality Score te verbeteren en je klikprijs te verlagen." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google Ads Quality Score verhogen: 7 concrete tips",
-                        "description": "Een hogere Quality Score verlaagt je klikprijs en geeft je betere posities. Lees 7 concrete tips om je Google Ads Quality Score snel te verbeteren.",
-                        "image": "https://www.empowers.nl/images/blogs/google-ads-quality-score-verhogen.jpg",
-                        "datePublished": "2026-04-08T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads Quality Score verhogen: 7 concrete tips",
+                            "description": "Een hogere Quality Score verlaagt je klikprijs en geeft je betere posities. Lees 7 concrete tips om je Google Ads Quality Score snel te verbeteren.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-quality-score-verhogen.jpg",
+                            "datePublished": "2026-04-08T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is Quality Score in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Quality Score is een cijfer van 1 tot 10 dat Google geeft aan elk zoekwoord in je campagne. Het cijfer drukt uit hoe relevant je zoekwoord, advertentie en landingspagina zijn voor de zoekopdracht. Hoe hoger de score, hoe lager je klikprijs en hoe beter je positie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom is een hoge Quality Score zo belangrijk?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google rekent je meer voor een klik als je Quality Score laag is. In de praktijk kan het verschil tussen een score van 4 en een 8 betekenen dat je 30 tot 50% minder per klik betaalt voor dezelfde advertentiepositie. Op jaarbasis is dat duizenden euro's besparing."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Uit welke drie onderdelen bestaat de Quality Score?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De Quality Score bestaat uit verwachte doorklikratio (CTR), advertentierelevantie en landingspaginakwaliteit. Google beoordeelt elk onderdeel op bovengemiddeld, gemiddeld of ondergemiddeld. Alle drie tellen mee voor de uiteindelijke score."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe snel zie je het effect van een betere Quality Score?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Zoekwoordaanpassingen en nieuwe advertentieteksten geven binnen een tot twee weken effect. Verbeteringen aan je landingspagina hebben iets meer tijd nodig omdat Google genoeg verkeersdata moet verzamelen, reken op drie tot vier weken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede Quality Score?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Alles boven de 7 is goed. Een 8 of 9 is uitstekend en op een 10 moet je moeite doen. Zoekwoorden met een score van 5 of lager zijn een rode vlag: daar betaal je te veel of krijg je te weinig vertoningen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Beinvloedt landingspaginasnelheid de Quality Score?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Google meet de laadtijd en gebruikerservaring van je landingspagina. Een trage pagina zonder mobiele optimalisatie krijgt een lagere beoordeling op landingspaginakwaliteit, wat direct je Quality Score drukt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Telt Quality Score ook mee bij Performance Max?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "In Performance Max zie je geen zichtbare Quality Score, maar Google gebruikt dezelfde relevantie- en kwaliteitssignalen achter de schermen. Sterke assets, relevante doelgroepen en snelle landingspagina's werken dus ook daar in je voordeel."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is Quality Score in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Quality Score is een cijfer van 1 tot 10 dat Google geeft aan elk zoekwoord in je campagne. Het cijfer drukt uit hoe relevant je zoekwoord, advertentie en landingspagina zijn voor de zoekopdracht. Hoe hoger de score, hoe lager je klikprijs en hoe beter je positie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom is een hoge Quality Score zo belangrijk?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google rekent je meer voor een klik als je Quality Score laag is. In de praktijk kan het verschil tussen een score van 4 en een 8 betekenen dat je 30 tot 50% minder per klik betaalt voor dezelfde advertentiepositie. Op jaarbasis is dat duizenden euro's besparing."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Uit welke drie onderdelen bestaat de Quality Score?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De Quality Score bestaat uit verwachte doorklikratio (CTR), advertentierelevantie en landingspaginakwaliteit. Google beoordeelt elk onderdeel op bovengemiddeld, gemiddeld of ondergemiddeld. Alle drie tellen mee voor de uiteindelijke score."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe snel zie je het effect van een betere Quality Score?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Zoekwoordaanpassingen en nieuwe advertentieteksten geven binnen een tot twee weken effect. Verbeteringen aan je landingspagina hebben iets meer tijd nodig omdat Google genoeg verkeersdata moet verzamelen, reken op drie tot vier weken."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede Quality Score?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Alles boven de 7 is goed. Een 8 of 9 is uitstekend en op een 10 moet je moeite doen. Zoekwoorden met een score van 5 of lager zijn een rode vlag: daar betaal je te veel of krijg je te weinig vertoningen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Beinvloedt landingspaginasnelheid de Quality Score?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Google meet de laadtijd en gebruikerservaring van je landingspagina. Een trage pagina zonder mobiele optimalisatie krijgt een lagere beoordeling op landingspaginakwaliteit, wat direct je Quality Score drukt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Telt Quality Score ook mee bij Performance Max?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "In Performance Max zie je geen zichtbare Quality Score, maar Google gebruikt dezelfde relevantie- en kwaliteitssignalen achter de schermen. Sterke assets, relevante doelgroepen en snelle landingspagina's werken dus ook daar in je voordeel."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads Quality Score verhogen",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-quality-score-verhogen"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Google Ads Quality Score verhogen",
-                                "item": "https://www.empowers.nl/blogs/google-ads/google-ads-quality-score-verhogen"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

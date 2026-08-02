@@ -28,97 +28,122 @@ export default function BlogPostInstagramAdverteren2026CompleteGids() {
                 <meta name="twitter:title" content="Adverteren op Instagram in 2026: complete gids voor beginners" />
                 <meta name="twitter:description" content="Zo werkt Instagram adverteren in 2026, stap voor stap." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Adverteren op Instagram in 2026: de complete gids voor beginners",
-                        "description": "Stap-voor-stap Instagram adverteren leren in 2026. Lees wat adverteren op Instagram kost, welke campagnes werken en hoe je een eerste advertentie opzet die levert.",
-                        "image": "https://www.empowers.nl/images/blogs/instagram-adverteren-2026-complete-gids.jpg",
-                        "datePublished": "2026-04-05T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Adverteren op Instagram in 2026: de complete gids voor beginners",
+                            "description": "Stap-voor-stap Instagram adverteren leren in 2026. Lees wat adverteren op Instagram kost, welke campagnes werken en hoe je een eerste advertentie opzet die levert.",
+                            "image": "https://www.empowers.nl/images/blogs/instagram-adverteren-2026-complete-gids.jpg",
+                            "datePublished": "2026-04-05T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost adverteren op Instagram in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een gemiddelde Instagram Feed advertentie kost in 2026 ongeveer 3,35 dollar (rond 3 euro) per klik en 7,68 dollar CPM. Stories ads zijn voordeliger met circa 1,83 dollar per klik en 6,25 dollar CPM. Reels ads liggen daar nog onder met een CPC van rond 1,28 dollar. Reken voor een MKB-campagne op een minimum van 500 euro per maand om voldoende data op te bouwen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb je een Instagram bedrijfsaccount nodig om te adverteren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Je hebt een Instagram-account nodig dat is ingesteld als bedrijfs- of creatoraccount, gekoppeld aan Meta Business Suite. Daarnaast heb je een Facebook-paginatoegang nodig, zelfs als je alleen op Instagram wilt adverteren. Zonder die koppeling werken Meta Ads Manager-features niet en kun je geen advertenties starten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke campagnedoelen kies je in Meta Ads Manager?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Meta heeft sinds de ODAX-update zes doelen: Awareness, Traffic, Engagement, Leads, App Promotion en Sales. Voor MKB starten de meeste bedrijven met Sales (e-commerce), Leads (dienstverleners) of Traffic (cold awareness). Je kunt het doel niet meer veranderen tijdens de looptijd, dus kies bewust voordat je begint."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe groot moet je doelgroep zijn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Meta adviseert in 2026 een doelgroep van minimaal 1 tot 2 miljoen mensen voor een breed publiek of een Lookalike. Te smal targeten (onder 100.000) maakt schaal moeilijk en verhoogt de CPM. Voor retargeting is een kleinere groep (5.000 tot 50.000) prima, omdat die mensen jou al kennen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede CTR voor Instagram ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor Instagram Feed ads ligt de gemiddelde CTR tussen 0,22 en 0,88 procent. Stories ads zitten op 0,33 tot 0,54 procent. Een CTR boven 1 procent is sterk, een CTR onder 0,2 procent is een teken dat de creative of targeting niet aansluit. Test altijd minimaal drie creative-varianten om dit cijfer te verbeteren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voor je resultaat ziet?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op 7 tot 14 dagen voor de zogenaamde leerfase: dan verzamelt het algoritme genoeg data (50 conversies per advertentieset is de richtlijn) om te optimaliseren. Eerder ingrijpen verstoort het leerproces. Meet de eerste rendementsbeslissingen pas na de leerfase, niet ervoor."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik Instagram ads zelf opzetten of beter uitbesteden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor een eerste test van 500 tot 1.000 euro per maand kun je het zelf doen. Vanaf zo'n 2.000 euro budget en een doel om te schalen, levert een specialist meestal direct meer rendement op door betere creative-strategie, structuur en biedoptimalisatie. De grens ligt vaak bij het moment dat je geen tijd meer hebt om wekelijks te optimaliseren."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost adverteren op Instagram in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een gemiddelde Instagram Feed advertentie kost in 2026 ongeveer 3,35 dollar (rond 3 euro) per klik en 7,68 dollar CPM. Stories ads zijn voordeliger met circa 1,83 dollar per klik en 6,25 dollar CPM. Reels ads liggen daar nog onder met een CPC van rond 1,28 dollar. Reken voor een MKB-campagne op een minimum van 500 euro per maand om voldoende data op te bouwen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Heb je een Instagram bedrijfsaccount nodig om te adverteren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Je hebt een Instagram-account nodig dat is ingesteld als bedrijfs- of creatoraccount, gekoppeld aan Meta Business Suite. Daarnaast heb je een Facebook-paginatoegang nodig, zelfs als je alleen op Instagram wilt adverteren. Zonder die koppeling werken Meta Ads Manager-features niet en kun je geen advertenties starten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke campagnedoelen kies je in Meta Ads Manager?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Meta heeft sinds de ODAX-update zes doelen: Awareness, Traffic, Engagement, Leads, App Promotion en Sales. Voor MKB starten de meeste bedrijven met Sales (e-commerce), Leads (dienstverleners) of Traffic (cold awareness). Je kunt het doel niet meer veranderen tijdens de looptijd, dus kies bewust voordat je begint."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe groot moet je doelgroep zijn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Meta adviseert in 2026 een doelgroep van minimaal 1 tot 2 miljoen mensen voor een breed publiek of een Lookalike. Te smal targeten (onder 100.000) maakt schaal moeilijk en verhoogt de CPM. Voor retargeting is een kleinere groep (5.000 tot 50.000) prima, omdat die mensen jou al kennen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede CTR voor Instagram ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor Instagram Feed ads ligt de gemiddelde CTR tussen 0,22 en 0,88 procent. Stories ads zitten op 0,33 tot 0,54 procent. Een CTR boven 1 procent is sterk, een CTR onder 0,2 procent is een teken dat de creative of targeting niet aansluit. Test altijd minimaal drie creative-varianten om dit cijfer te verbeteren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voor je resultaat ziet?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op 7 tot 14 dagen voor de zogenaamde leerfase: dan verzamelt het algoritme genoeg data (50 conversies per advertentieset is de richtlijn) om te optimaliseren. Eerder ingrijpen verstoort het leerproces. Meet de eerste rendementsbeslissingen pas na de leerfase, niet ervoor."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik Instagram ads zelf opzetten of beter uitbesteden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor een eerste test van 500 tot 1.000 euro per maand kun je het zelf doen. Vanaf zo'n 2.000 euro budget en een doel om te schalen, levert een specialist meestal direct meer rendement op door betere creative-strategie, structuur en biedoptimalisatie. De grens ligt vaak bij het moment dat je geen tijd meer hebt om wekelijks te optimaliseren."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Instagram adverteren 2026",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/instagram-adverteren-2026-complete-gids"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Instagram adverteren 2026", "item": "https://www.empowers.nl/blogs/social-ads/instagram-adverteren-2026-complete-gids" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

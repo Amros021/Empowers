@@ -28,112 +28,114 @@ export default function BlogPostGoogleAdsLokaleBedrijven() {
                 <meta name="twitter:title" content="Google Ads voor lokale bedrijven: zo trek je klanten uit jouw regio" />
                 <meta name="twitter:description" content="Google Ads voor lokale bedrijven: locatietargeting, kosten en tips om klanten uit jouw regio te bereiken." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google Ads voor lokale bedrijven: zo trek je klanten uit jouw regio",
-                        "description": "Google Ads voor lokale bedrijven werkt als je de juiste instellingen gebruikt. Lees hoe je met locatietargeting klanten uit jouw regio bereikt en wat het kost.",
-                        "image": "https://www.empowers.nl/images/blogs/google-ads-lokale-bedrijven.jpg",
-                        "datePublished": "2026-04-12T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads voor lokale bedrijven: zo trek je klanten uit jouw regio",
+                            "description": "Google Ads voor lokale bedrijven werkt als je de juiste instellingen gebruikt. Lees hoe je met locatietargeting klanten uit jouw regio bereikt en wat het kost.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-lokale-bedrijven.jpg",
+                            "datePublished": "2026-04-12T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel kost Google Ads voor een lokaal bedrijf?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De meeste lokale bedrijven beginnen met 500 tot 1500 euro per maand aan advertentiebudget. De klikprijs verschilt per branche: een loodgieter betaalt 3 tot 8 euro per klik, een kapper 0,50 tot 2 euro. Daarnaast komen beheerskosten als je een bureau inschakelt, meestal 300 tot 700 euro per maand."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is locatietargeting in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Met locatietargeting bepaal je in welk gebied je advertenties worden vertoond. Je kiest een stad, provincie of straal rondom je bedrijfslocatie. Zo betaal je alleen voor klikken van mensen die daadwerkelijk in jouw regio zoeken. Dit voorkomt dat je budget weglekt naar klanten die je toch niet kunt bedienen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt Google Ads ook voor kleine lokale ondernemers?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Google Ads is juist geschikt voor kleine lokale bedrijven omdat je heel gericht kunt adverteren. Je kiest precies op welke zoektermen en in welk gebied je verschijnt. Met een budget van 15 tot 30 euro per dag bereik je al potentiele klanten die actief zoeken naar wat jij aanbiedt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe snel zie ik resultaat met lokale Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De eerste klikken en telefoontjes komen vaak al binnen de eerste week. Maar het duurt twee tot vier weken voordat Google genoeg data heeft om je campagne goed aan te sturen. Na een maand weet je welke zoektermen en advertenties het beste presteren. Echte resultaten beoordeel je na acht tot twaalf weken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik Google Ads combineren met een Google Bedrijfsprofiel?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Absoluut. Je Google Bedrijfsprofiel (voorheen Google Mijn Bedrijf) versterkt je advertenties. Met locatie-extensies toon je je adres en telefoonnummer direct in de advertentie. Dat verhoogt de klikratio met gemiddeld 10 tot 15 procent. Bovendien verschijn je dan ook in Google Maps resultaten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik zelf Google Ads instellen voor mijn lokale bedrijf?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat kan, maar de meeste ondernemers verspillen in de eerste maanden 30 tot 50 procent van hun budget door verkeerde instellingen. Vooral de locatie-instellingen, zoekwoordtypes en biedstrategieen vragen kennis. Begin je toch zelf? Start klein, meet alles en schaal pas op als je ziet wat werkt."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel kost Google Ads voor een lokaal bedrijf?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De meeste lokale bedrijven beginnen met 500 tot 1500 euro per maand aan advertentiebudget. De klikprijs verschilt per branche: een loodgieter betaalt 3 tot 8 euro per klik, een kapper 0,50 tot 2 euro. Daarnaast komen beheerskosten als je een bureau inschakelt, meestal 300 tot 700 euro per maand."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is locatietargeting in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Met locatietargeting bepaal je in welk gebied je advertenties worden vertoond. Je kiest een stad, provincie of straal rondom je bedrijfslocatie. Zo betaal je alleen voor klikken van mensen die daadwerkelijk in jouw regio zoeken. Dit voorkomt dat je budget weglekt naar klanten die je toch niet kunt bedienen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Werkt Google Ads ook voor kleine lokale ondernemers?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Google Ads is juist geschikt voor kleine lokale bedrijven omdat je heel gericht kunt adverteren. Je kiest precies op welke zoektermen en in welk gebied je verschijnt. Met een budget van 15 tot 30 euro per dag bereik je al potentiele klanten die actief zoeken naar wat jij aanbiedt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe snel zie ik resultaat met lokale Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De eerste klikken en telefoontjes komen vaak al binnen de eerste week. Maar het duurt twee tot vier weken voordat Google genoeg data heeft om je campagne goed aan te sturen. Na een maand weet je welke zoektermen en advertenties het beste presteren. Echte resultaten beoordeel je na acht tot twaalf weken."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik Google Ads combineren met een Google Bedrijfsprofiel?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Absoluut. Je Google Bedrijfsprofiel (voorheen Google Mijn Bedrijf) versterkt je advertenties. Met locatie-extensies toon je je adres en telefoonnummer direct in de advertentie. Dat verhoogt de klikratio met gemiddeld 10 tot 15 procent. Bovendien verschijn je dan ook in Google Maps resultaten."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik zelf Google Ads instellen voor mijn lokale bedrijf?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dat kan, maar de meeste ondernemers verspillen in de eerste maanden 30 tot 50 procent van hun budget door verkeerde instellingen. Vooral de locatie-instellingen, zoekwoordtypes en biedstrategieen vragen kennis. Begin je toch zelf? Start klein, meet alles en schaal pas op als je ziet wat werkt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads lokale bedrijven",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-lokale-bedrijven"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Google Ads lokale bedrijven",
-                                "item": "https://www.empowers.nl/blogs/google-ads/google-ads-lokale-bedrijven"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -23,36 +23,110 @@ export default function BlogPostGoogleAdsSpecialistVsBureauFreelancer() {
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "Article",
-                    "headline": "Google Ads specialist vs bureau: wanneer kies je een freelancer?",
-                    "description": "Hoe je tussen een freelance Google Ads specialist en een bureau kiest op basis van budget, complexiteit en begeleidingsbehoefte.",
-                    "image": "https://www.empowers.nl/images/blogs/google-ads-specialist-vs-bureau-freelancer.jpg",
-                    "datePublished": "2026-05-14T12:00:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                    "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                        { "@type": "Question", "name": "Wat is goedkoper: een freelancer of een bureau?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Op papier is een freelance specialist goedkoper, vaak een derde tot de helft van wat een bureau in rekening brengt. Op de bottomline ligt het complexer: een bureau heeft meerdere disciplines onder één dak, wat bij complexere accounts tijd en fouten bespaart. Voor accounts onder 5.000 euro maandelijks ad-spend is een freelancer in de regel rendabeler." } },
-                        { "@type": "Question", "name": "Kan een freelancer een Performance Max campagne goed beheren?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Ja, mits je een specialist hebt die Performance Max in zijn dagelijks werk heeft. Dat soort campagnes vragen wel om kennis van feed-management en signaal-input naast creatief werk en de standaard bidding-skills, dus check vooraf of die kennis aanwezig is. Een freelancer die alleen op Search-campagnes is opgegroeid, mist vaak de breedte." } },
-                        { "@type": "Question", "name": "Wat als mijn freelancer ziek of weg is?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Dat is het grootste single-point-of-failure risico. Bij een bureau pakt een collega tijdelijk over. Bij een freelancer staat je account stil. Vraag vooraf welke achtervang er is, of leg in het contract vast dat je bij langdurige uitval het account zelf over kunt nemen of een back-up specialist mag inschakelen." } },
-                        { "@type": "Question", "name": "Is een bureau slimmer of beter dan een freelancer?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Niet automatisch. Bureaus hebben senior- én junior-uren, en als jouw account aan een junior wordt toegewezen kun je minder krijgen dan bij een ervaren freelancer. Vraag concreet wie jouw account beheert (naam en CV) en of je dezelfde persoon ook over een jaar nog hebt." } },
-                        { "@type": "Question", "name": "Hoe weet ik welke setup bij mij past?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Vier vragen geven de meeste duidelijkheid. Hoeveel maandelijkse ad-spend heb je? Hoeveel campagnes en platforms tegelijk? Hoeveel intern marketing-team heb je beschikbaar? En hoe risico-gevoelig is je business voor uitval van één persoon? Vier keer 'beperkt' wijst richting freelancer. Vier keer 'fors' wijst richting bureau." } },
-                        { "@type": "Question", "name": "Mag ik combineren: freelancer plus bureau?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Soms wel, maar zelden raadzaam. Twee partijen op één account leidt vaak tot verantwoordelijkheidsdiffusie: als iets niet werkt wijst iedereen naar de ander. Beter: kies één partij die hoofdverantwoordelijk is, en huur eventueel een onafhankelijke audit-specialist apart in voor periodieke check-ups." } }
-                    ] }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Specialist vs bureau", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-specialist-vs-bureau-freelancer" }
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads specialist vs bureau: wanneer kies je een freelancer?",
+                            "description": "Hoe je tussen een freelance Google Ads specialist en een bureau kiest op basis van budget, complexiteit en begeleidingsbehoefte.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-specialist-vs-bureau-freelancer.jpg",
+                            "datePublished": "2026-05-14T12:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is goedkoper: een freelancer of een bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Op papier is een freelance specialist goedkoper, vaak een derde tot de helft van wat een bureau in rekening brengt. Op de bottomline ligt het complexer: een bureau heeft meerdere disciplines onder één dak, wat bij complexere accounts tijd en fouten bespaart. Voor accounts onder 5.000 euro maandelijks ad-spend is een freelancer in de regel rendabeler."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan een freelancer een Performance Max campagne goed beheren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, mits je een specialist hebt die Performance Max in zijn dagelijks werk heeft. Dat soort campagnes vragen wel om kennis van feed-management en signaal-input naast creatief werk en de standaard bidding-skills, dus check vooraf of die kennis aanwezig is. Een freelancer die alleen op Search-campagnes is opgegroeid, mist vaak de breedte."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat als mijn freelancer ziek of weg is?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat is het grootste single-point-of-failure risico. Bij een bureau pakt een collega tijdelijk over. Bij een freelancer staat je account stil. Vraag vooraf welke achtervang er is, of leg in het contract vast dat je bij langdurige uitval het account zelf over kunt nemen of een back-up specialist mag inschakelen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is een bureau slimmer of beter dan een freelancer?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet automatisch. Bureaus hebben senior- én junior-uren, en als jouw account aan een junior wordt toegewezen kun je minder krijgen dan bij een ervaren freelancer. Vraag concreet wie jouw account beheert (naam en CV) en of je dezelfde persoon ook over een jaar nog hebt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik welke setup bij mij past?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vier vragen geven de meeste duidelijkheid. Hoeveel maandelijkse ad-spend heb je? Hoeveel campagnes en platforms tegelijk? Hoeveel intern marketing-team heb je beschikbaar? En hoe risico-gevoelig is je business voor uitval van één persoon? Vier keer 'beperkt' wijst richting freelancer. Vier keer 'fors' wijst richting bureau."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Mag ik combineren: freelancer plus bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Soms wel, maar zelden raadzaam. Twee partijen op één account leidt vaak tot verantwoordelijkheidsdiffusie: als iets niet werkt wijst iedereen naar de ander. Beter: kies één partij die hoofdverantwoordelijk is, en huur eventueel een onafhankelijke audit-specialist apart in voor periodieke check-ups."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Specialist vs bureau",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-specialist-vs-bureau-freelancer"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />

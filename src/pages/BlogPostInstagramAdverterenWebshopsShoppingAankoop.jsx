@@ -28,97 +28,122 @@ export default function BlogPostInstagramAdverterenWebshopsShoppingAankoop() {
                 <meta name="twitter:title" content="Instagram Adverteren voor Webshops: Van Product Feed tot Aankoop" />
                 <meta name="twitter:description" content="Complete e-commerce flow voor Instagram Shopping ads in 2026." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Instagram Adverteren voor Webshops: Van Product Feed tot Aankoop",
-                        "description": "Instagram adverteren voor webshops draait om Shopping Ads, dynamische product feeds en retargeting. Lees de complete flow van setup tot aankoop.",
-                        "image": "https://www.empowers.nl/images/blogs/instagram-adverteren-webshops-shopping-aankoop.jpg",
-                        "datePublished": "2026-04-22T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Instagram Adverteren voor Webshops: Van Product Feed tot Aankoop",
+                            "description": "Instagram adverteren voor webshops draait om Shopping Ads, dynamische product feeds en retargeting. Lees de complete flow van setup tot aankoop.",
+                            "image": "https://www.empowers.nl/images/blogs/instagram-adverteren-webshops-shopping-aankoop.jpg",
+                            "datePublished": "2026-04-22T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe werkt Instagram Shopping voor webshops?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Instagram Shopping verbindt jouw productcatalogus met advertenties en organische posts. Gebruikers tikken op een product-tag, zien details en gaan via een paar taps direct naar jouw checkout. Voor adverteerders ontstaat zo de korste pad van impressie naar aankoop. Je hebt een Meta Commerce-account, een productcatalogus en een ingestelde Instagram Shop nodig."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een dynamische productadvertentie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dynamische productadvertenties tonen automatisch producten uit jouw catalogus aan mensen die specifiek interesse hadden in dat product (productpaginakijkers, abandon cart). De advertentie zelf is een sjabloon, de inhoud (foto, prijs, naam) verandert per gebruiker. Dit format heeft 20 tot 40 procent lagere CPA dan reguliere campagnes."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe zet je een productfeed op?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie manieren: directe koppeling met Shopify, WooCommerce of Magento (snelst), URL-feed waar Meta dagelijks data ophaalt (stabielst), of handmatige CSV-upload (alleen tijdelijk). Verplichte velden: id, title, description, availability, condition, price, link, image_link en brand. Voeg GTIN, productcategorie en custom labels toe voor betere optimalisatie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke campagne gebruik je voor een webshop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Sales-campagne met doel 'Aankoop' optimalisatie. Voor productcatalogi kies je 'Catalogusverkopen' als objective. Voor cold prospecting werkt Advantage+ Shopping Campaign in 2026 vrijwel altijd het beste, omdat het algoritme zelf de beste mensen vindt op basis van jouw conversiedata."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede ROAS voor een Instagram webshop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor webshops met 30 tot 50 procent marge is een gezonde ROAS 3 tot 5. Voor lagere marges (15 tot 25 procent) heb je 5 tot 8 nodig. Retargeting via productcatalogus haalt vaak 5 tot 10 ROAS, cold prospecting 2 tot 4. Beoordeel ze met aparte targets, niet als gemiddelde."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een typisch budget voor Instagram webshop ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een MKB-webshop start vaak rond 1.000 tot 2.000 euro per maand om voldoende data op te bouwen. Verdeel 60 procent naar cold prospecting met catalogusverkopen, 25 procent naar dynamische retargeting en 15 procent naar abandon cart-flow. Onder 500 euro per maand kom je niet aan voldoende conversies om uit de leerfase te komen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke producten lonen om op Instagram te adverteren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Producten met een visueel sterke uitstraling, een gemiddelde orderwaarde tussen 30 en 300 euro en herhalingsaankopen. Mode, beauty, interieur, lifestyle en fitness werken structureel goed. Producten boven 300 euro vragen vaak meer touchpoints en werken beter via funnel-flow met Stories en Reels naast catalogus."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe werkt Instagram Shopping voor webshops?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Instagram Shopping verbindt jouw productcatalogus met advertenties en organische posts. Gebruikers tikken op een product-tag, zien details en gaan via een paar taps direct naar jouw checkout. Voor adverteerders ontstaat zo de korste pad van impressie naar aankoop. Je hebt een Meta Commerce-account, een productcatalogus en een ingestelde Instagram Shop nodig."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een dynamische productadvertentie?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dynamische productadvertenties tonen automatisch producten uit jouw catalogus aan mensen die specifiek interesse hadden in dat product (productpaginakijkers, abandon cart). De advertentie zelf is een sjabloon, de inhoud (foto, prijs, naam) verandert per gebruiker. Dit format heeft 20 tot 40 procent lagere CPA dan reguliere campagnes."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe zet je een productfeed op?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie manieren: directe koppeling met Shopify, WooCommerce of Magento (snelst), URL-feed waar Meta dagelijks data ophaalt (stabielst), of handmatige CSV-upload (alleen tijdelijk). Verplichte velden: id, title, description, availability, condition, price, link, image_link en brand. Voeg GTIN, productcategorie en custom labels toe voor betere optimalisatie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke campagne gebruik je voor een webshop?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Sales-campagne met doel 'Aankoop' optimalisatie. Voor productcatalogi kies je 'Catalogusverkopen' als objective. Voor cold prospecting werkt Advantage+ Shopping Campaign in 2026 vrijwel altijd het beste, omdat het algoritme zelf de beste mensen vindt op basis van jouw conversiedata."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede ROAS voor een Instagram webshop?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor webshops met 30 tot 50 procent marge is een gezonde ROAS 3 tot 5. Voor lagere marges (15 tot 25 procent) heb je 5 tot 8 nodig. Retargeting via productcatalogus haalt vaak 5 tot 10 ROAS, cold prospecting 2 tot 4. Beoordeel ze met aparte targets, niet als gemiddelde."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is een typisch budget voor Instagram webshop ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een MKB-webshop start vaak rond 1.000 tot 2.000 euro per maand om voldoende data op te bouwen. Verdeel 60 procent naar cold prospecting met catalogusverkopen, 25 procent naar dynamische retargeting en 15 procent naar abandon cart-flow. Onder 500 euro per maand kom je niet aan voldoende conversies om uit de leerfase te komen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke producten lonen om op Instagram te adverteren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Producten met een visueel sterke uitstraling, een gemiddelde orderwaarde tussen 30 en 300 euro en herhalingsaankopen. Mode, beauty, interieur, lifestyle en fitness werken structureel goed. Producten boven 300 euro vragen vaak meer touchpoints en werken beter via funnel-flow met Stories en Reels naast catalogus."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Instagram adverteren webshops",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/instagram-adverteren-webshops-shopping-aankoop"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Instagram adverteren webshops", "item": "https://www.empowers.nl/blogs/social-ads/instagram-adverteren-webshops-shopping-aankoop" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

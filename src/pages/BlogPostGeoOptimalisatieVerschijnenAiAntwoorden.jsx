@@ -29,89 +29,114 @@ export default function BlogPostGeoOptimalisatieVerschijnenAiAntwoorden() {
                 <meta name="twitter:title" content="GEO optimalisatie: zo verschijnt jouw bedrijf in AI-antwoorden" />
                 <meta name="twitter:description" content="Wat GEO optimalisatie is en hoe je vandaag nog zichtbaarder wordt in AI-zoekopdrachten." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "GEO optimalisatie: zo verschijnt jouw bedrijf in AI-antwoorden",
-                        "description": "Een praktische gids voor GEO optimalisatie: hoe AI-engines antwoorden samenstellen en welke content-aanpassingen jou daarin zichtbaar maken.",
-                        "image": "https://www.empowers.nl/images/blogs/geo-optimalisatie-verschijnen-ai-antwoorden.jpg",
-                        "datePublished": "2026-05-22T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "GEO optimalisatie: zo verschijnt jouw bedrijf in AI-antwoorden",
+                            "description": "Een praktische gids voor GEO optimalisatie: hoe AI-engines antwoorden samenstellen en welke content-aanpassingen jou daarin zichtbaar maken.",
+                            "image": "https://www.empowers.nl/images/blogs/geo-optimalisatie-verschijnen-ai-antwoorden.jpg",
+                            "datePublished": "2026-05-22T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is GEO optimalisatie precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "GEO staat voor Generative Engine Optimization. Het is het proces waarbij je website-content zo structureert dat AI-gestuurde zoekmachines en chatbots als ChatGPT, Perplexity en Google AI Overviews jouw bedrijf kunnen herkennen, begrijpen en citeren in hun antwoorden. Waar SEO draait om rankings in een resultatenpagina, draait GEO om citaties in een gegenereerd antwoord."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe bepaalt een AI-engine welke bedrijven het noemt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "AI-engines wegen een combinatie van factoren: hoe duidelijk jouw content een vraag beantwoordt, of je gestructureerde data gebruikt (zoals FAQPage-schema), hoe gezaghebbend externe bronnen over jou schrijven, en hoe consistent jouw naam en expertise over meerdere pagina's terugkomt. Bedrijven die directe, scanbare antwoorden bieden op veelgestelde vragen worden vaker geciteerd dan bedrijven met alleen algemene tekst."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Verschilt GEO optimalisatie per AI-platform?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, elke AI-engine heeft zijn eigen bronprioriteiten. Google AI Overviews leunt sterk op de eigen zoekindex en E-E-A-T-signalen. Perplexity crawlt actief het web en geeft bronvermeldingen per antwoord. ChatGPT gebruikt een combinatie van trainingsdata en, bij de browse-functie, actuele webpagina's. De basis -- heldere structuur, FAQ-schema en gezaghebbende content -- werkt voor alle drie. Daarna kun je per platform verfijnen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat GEO optimalisatie effect heeft?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de eerste citaties in platforms als Perplexity doorgaans acht tot twaalf weken na publicatie van goed gestructureerde content. Google AI Overviews reageert sneller op pagina's die al sterk scoren in de organische zoekresultaten. Wie al een goede SEO-basis heeft, merkt doorgaans eerder resultaat dan wie helemaal opnieuw begint."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik GEO en SEO apart aanpakken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. De meeste GEO-aanpassingen versterken ook je SEO. FAQ-schema helpt Google zoekresultaten verrijken. Heldere H2-structuur verbetert zowel de leesbaarheid voor mensen als de parsability voor AI-engines. Externe vermeldingen op gezaghebbende sites tellen mee voor beide. Behandel GEO als een uitbreiding op je bestaande SEO-aanpak, niet als een volledig apart traject."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik GEO optimalisatie zelf doen zonder technische kennis?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De inhoudelijke stappen -- antwoord-first schrijven, FAQ-blokken toevoegen, autoriteitssignalen ophalen -- kun je grotendeels zelf uitvoeren. FAQ-schema vereist wat JSON-LD code, maar de meeste CMS-platformen hebben plugins die dit voor je afhandelen. Wil je doorlopend monitoren en optimaliseren over meerdere AI-platforms tegelijk, dan loont samenwerken met een specialist."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is GEO optimalisatie precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "GEO staat voor Generative Engine Optimization. Het is het proces waarbij je website-content zo structureert dat AI-gestuurde zoekmachines en chatbots als ChatGPT, Perplexity en Google AI Overviews jouw bedrijf kunnen herkennen, begrijpen en citeren in hun antwoorden. Waar SEO draait om rankings in een resultatenpagina, draait GEO om citaties in een gegenereerd antwoord."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe bepaalt een AI-engine welke bedrijven het noemt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "AI-engines wegen een combinatie van factoren: hoe duidelijk jouw content een vraag beantwoordt, of je gestructureerde data gebruikt (zoals FAQPage-schema), hoe gezaghebbend externe bronnen over jou schrijven, en hoe consistent jouw naam en expertise over meerdere pagina's terugkomt. Bedrijven die directe, scanbare antwoorden bieden op veelgestelde vragen worden vaker geciteerd dan bedrijven met alleen algemene tekst."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Verschilt GEO optimalisatie per AI-platform?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, elke AI-engine heeft zijn eigen bronprioriteiten. Google AI Overviews leunt sterk op de eigen zoekindex en E-E-A-T-signalen. Perplexity crawlt actief het web en geeft bronvermeldingen per antwoord. ChatGPT gebruikt een combinatie van trainingsdata en, bij de browse-functie, actuele webpagina's. De basis -- heldere structuur, FAQ-schema en gezaghebbende content -- werkt voor alle drie. Daarna kun je per platform verfijnen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat GEO optimalisatie effect heeft?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de eerste citaties in platforms als Perplexity doorgaans acht tot twaalf weken na publicatie van goed gestructureerde content. Google AI Overviews reageert sneller op pagina's die al sterk scoren in de organische zoekresultaten. Wie al een goede SEO-basis heeft, merkt doorgaans eerder resultaat dan wie helemaal opnieuw begint."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik GEO en SEO apart aanpakken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee. De meeste GEO-aanpassingen versterken ook je SEO. FAQ-schema helpt Google zoekresultaten verrijken. Heldere H2-structuur verbetert zowel de leesbaarheid voor mensen als de parsability voor AI-engines. Externe vermeldingen op gezaghebbende sites tellen mee voor beide. Behandel GEO als een uitbreiding op je bestaande SEO-aanpak, niet als een volledig apart traject."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik GEO optimalisatie zelf doen zonder technische kennis?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De inhoudelijke stappen -- antwoord-first schrijven, FAQ-blokken toevoegen, autoriteitssignalen ophalen -- kun je grotendeels zelf uitvoeren. FAQ-schema vereist wat JSON-LD code, maar de meeste CMS-platformen hebben plugins die dit voor je afhandelen. Wil je doorlopend monitoren en optimaliseren over meerdere AI-platforms tegelijk, dan loont samenwerken met een specialist."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "GEO optimalisatie: zo verschijnt jouw bedrijf in AI-antwoorden",
+                                    "item": "https://www.empowers.nl/blogs/geo/geo-optimalisatie-verschijnen-ai-antwoorden"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "GEO optimalisatie: zo verschijnt jouw bedrijf in AI-antwoorden", "item": "https://www.empowers.nl/blogs/geo/geo-optimalisatie-verschijnen-ai-antwoorden" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

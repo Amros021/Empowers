@@ -28,112 +28,114 @@ export default function BlogPostKiesJuisteOnlineMarketingBureau() {
                 <meta name="twitter:title" content="Hoe kies je het juiste online marketing bureau? 5 vragen" />
                 <meta name="twitter:description" content="Een online marketing bureau kiezen is lastig. Stel deze 5 vragen voordat je tekent." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe kies je het juiste online marketing bureau? 5 vragen die je moet stellen",
-                        "description": "Een online marketing bureau kiezen is lastig. Stel deze 5 vragen voordat je tekent. Lees waar je op let bij budget, specialisatie en rapportages.",
-                        "image": "https://www.empowers.nl/images/blogs/kies-juiste-online-marketing-bureau.jpg",
-                        "datePublished": "2026-03-28T00:00:00+01:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe kies je het juiste online marketing bureau? 5 vragen die je moet stellen",
+                            "description": "Een online marketing bureau kiezen is lastig. Stel deze 5 vragen voordat je tekent. Lees waar je op let bij budget, specialisatie en rapportages.",
+                            "image": "https://www.empowers.nl/images/blogs/kies-juiste-online-marketing-bureau.jpg",
+                            "datePublished": "2026-03-28T00:00:00+01:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost een online marketing bureau per maand?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een online marketing bureau kost gemiddeld 500 tot 3000 euro per maand. De prijs hangt af van de kanalen die je inzet, het advertentiebudget en de complexiteit van je markt. Kleine MKB-bedrijven beginnen vaak rond 750 tot 1500 euro per maand."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of een marketing bureau resultaat levert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vraag om maandelijkse rapportages met concrete cijfers: conversies, omzet uit campagnes, kosten per lead en ROAS. Een goed bureau laat zien wat elke euro oplevert. Geen vage verhalen over bereik of impressies, maar harde resultaten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik kiezen voor een full-service bureau of een specialist?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat hangt af van je situatie. Als je net begint met online marketing, kan een specialist in Google Ads of SEO meer opleveren dan een bureau dat alles een beetje doet. Groei je door naar meerdere kanalen? Dan helpt een bureau met brede kennis je verder."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang zit ik vast aan een contract bij een marketing bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Veel bureaus werken met contracten van 3 tot 12 maanden. Wees voorzichtig met langlopende contracten zonder tussentijdse evaluatie. Een goed bureau biedt flexibiliteit en laat resultaten zien voordat je je voor langere tijd vastlegt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik een deel zelf doen en een deel uitbesteden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, dat is een slimme aanpak voor MKB-bedrijven. Je kunt zelf social media en blogs bijhouden terwijl een bureau je betaalde campagnes en SEO beheert. Dat houdt de kosten lager en je houdt grip op je merk."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waar herken ik een slecht marketing bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Rode vlaggen zijn: gegarandeerde resultaten beloven, geen transparante rapportages geven, niet uitleggen wat ze doen en altijd een accountmanager tussen jou en de specialist plaatsen. Een goed bureau is open over wat werkt en wat niet."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost een online marketing bureau per maand?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een online marketing bureau kost gemiddeld 500 tot 3000 euro per maand. De prijs hangt af van de kanalen die je inzet, het advertentiebudget en de complexiteit van je markt. Kleine MKB-bedrijven beginnen vaak rond 750 tot 1500 euro per maand."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe weet ik of een marketing bureau resultaat levert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vraag om maandelijkse rapportages met concrete cijfers: conversies, omzet uit campagnes, kosten per lead en ROAS. Een goed bureau laat zien wat elke euro oplevert. Geen vage verhalen over bereik of impressies, maar harde resultaten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik kiezen voor een full-service bureau of een specialist?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dat hangt af van je situatie. Als je net begint met online marketing, kan een specialist in Google Ads of SEO meer opleveren dan een bureau dat alles een beetje doet. Groei je door naar meerdere kanalen? Dan helpt een bureau met brede kennis je verder."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang zit ik vast aan een contract bij een marketing bureau?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Veel bureaus werken met contracten van 3 tot 12 maanden. Wees voorzichtig met langlopende contracten zonder tussentijdse evaluatie. Een goed bureau biedt flexibiliteit en laat resultaten zien voordat je je voor langere tijd vastlegt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik een deel zelf doen en een deel uitbesteden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, dat is een slimme aanpak voor MKB-bedrijven. Je kunt zelf social media en blogs bijhouden terwijl een bureau je betaalde campagnes en SEO beheert. Dat houdt de kosten lager en je houdt grip op je merk."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Waar herken ik een slecht marketing bureau?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Rode vlaggen zijn: gegarandeerde resultaten beloven, geen transparante rapportages geven, niet uitleggen wat ze doen en altijd een accountmanager tussen jou en de specialist plaatsen. Een goed bureau is open over wat werkt en wat niet."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Hoe kies je het juiste online marketing bureau?",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/kies-juiste-online-marketing-bureau"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Algemeen",
-                                "item": "https://www.empowers.nl/blogs/algemeen"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Hoe kies je het juiste online marketing bureau?",
-                                "item": "https://www.empowers.nl/blogs/algemeen/kies-juiste-online-marketing-bureau"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

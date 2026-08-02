@@ -29,8 +29,15 @@ export default function BlogPostGoogleAds() {
                             "headline": "Google Ads voor MKB: zo stel je een campagne in die werkt",
                             "image": "https://www.empowers.nl/images/blogs/google-ads-campagne.jpg",
                             "description": "Google Ads voor MKB werkt als je het goed instelt. Lees wat het kost, hoe je een campagne opzet en wanneer je een specialist inschakelt.",
-                            "author": { "@type": "Organization", "name": "Empowers" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-03-24T00:00:00+01:00",
                             "dateModified": "2026-03-24T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/google-ads/google-ads-voor-mkb-campagne-instellen"
@@ -38,28 +45,99 @@ export default function BlogPostGoogleAds() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Hoeveel budget heb je nodig voor Google Ads?", "acceptedAnswer": { "@type": "Answer", "text": "De meeste MKB-bedrijven starten met 500 tot 1500 euro per maand aan advertentiebudget. Daarbovenop komen de beheerkosten van een specialist. Hoe competitiever je branche, hoe hoger de klikprijzen. In niches zoals juridisch advies of hypotheken betaal je soms 5 tot 15 euro per klik." } },
-                                { "@type": "Question", "name": "Wat is het verschil tussen zoekadvertenties en Performance Max?", "acceptedAnswer": { "@type": "Answer", "text": "Zoekadvertenties verschijnen als mensen actief zoeken op Google. Je kiest zelf op welke zoekwoorden je biedt. Performance Max combineert meerdere kanalen automatisch, waaronder zoeken, YouTube en Gmail. Voor MKB raden we vaak aan om eerst met zoekadvertenties te beginnen, zodat je meer controle hebt over je resultaten." } },
-                                { "@type": "Question", "name": "Kan ik Google Ads zelf beheren?", "acceptedAnswer": { "@type": "Answer", "text": "Ja, maar het vraagt tijd en kennis. Een slecht ingestelde campagne verbrandt je budget aan irrelevante klikken. Als je niet dagelijks de data bijhoudt en bijstuurt, betaal je te veel per conversie. Veel MKB-bedrijven starten zelf en schakelen na een paar maanden een specialist in als ze zien dat de resultaten tegenvallen." } },
-                                { "@type": "Question", "name": "Wat is een goede ROAS voor Google Ads?", "acceptedAnswer": { "@type": "Answer", "text": "Een ROAS van 3 betekent dat je voor elke euro advertentiebudget drie euro omzet genereert. Voor webshops is een ROAS van 3 tot 5 gezond. Dienstverleners kijken vaker naar kosten per lead. Een goed ingestelde campagne haalt in de eerste maanden gemiddeld een ROAS van 3 tot 5." } },
-                                { "@type": "Question", "name": "Hoe lang duurt het voordat Google Ads resultaat geeft?", "acceptedAnswer": { "@type": "Answer", "text": "Google Ads geeft sneller resultaat dan SEO. Binnen enkele dagen na het starten zie je al klikken en conversies. De eerste twee weken zijn het leerproces voor Google's algoritme. Na 4 tot 8 weken heb je genoeg data om campagnes structureel bij te sturen." } },
-                                { "@type": "Question", "name": "Wat zijn negatieve zoekwoorden en waarom zijn ze belangrijk?", "acceptedAnswer": { "@type": "Answer", "text": "Negatieve zoekwoorden zijn zoektermen waarbij je advertentie niet mag verschijnen. Als je fietsen verkoopt maar geen reparaties doet, voeg je 'reparatie' toe als negatief zoekwoord. Zonder een goede negatieve lijst betaal je voor klikken van mensen die nooit klant worden." } },
-                                { "@type": "Question", "name": "Wat is Smart Bidding bij Google Ads?", "acceptedAnswer": { "@type": "Answer", "text": "Smart Bidding is een geautomatiseerde biedstrategie waarbij Google het bod per veiling aanpast op basis van de kans op conversie. Varianten zijn onder andere Doel-CPA en Doel-ROAS. Smart Bidding werkt pas goed als je campagne genoeg conversiedata heeft, minimaal 30 tot 50 conversies per maand." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoeveel budget heb je nodig voor Google Ads?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "De meeste MKB-bedrijven starten met 500 tot 1500 euro per maand aan advertentiebudget. Daarbovenop komen de beheerkosten van een specialist. Hoe competitiever je branche, hoe hoger de klikprijzen. In niches zoals juridisch advies of hypotheken betaal je soms 5 tot 15 euro per klik."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is het verschil tussen zoekadvertenties en Performance Max?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Zoekadvertenties verschijnen als mensen actief zoeken op Google. Je kiest zelf op welke zoekwoorden je biedt. Performance Max combineert meerdere kanalen automatisch, waaronder zoeken, YouTube en Gmail. Voor MKB raden we vaak aan om eerst met zoekadvertenties te beginnen, zodat je meer controle hebt over je resultaten."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Kan ik Google Ads zelf beheren?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, maar het vraagt tijd en kennis. Een slecht ingestelde campagne verbrandt je budget aan irrelevante klikken. Als je niet dagelijks de data bijhoudt en bijstuurt, betaal je te veel per conversie. Veel MKB-bedrijven starten zelf en schakelen na een paar maanden een specialist in als ze zien dat de resultaten tegenvallen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is een goede ROAS voor Google Ads?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Een ROAS van 3 betekent dat je voor elke euro advertentiebudget drie euro omzet genereert. Voor webshops is een ROAS van 3 tot 5 gezond. Dienstverleners kijken vaker naar kosten per lead. Een goed ingestelde campagne haalt in de eerste maanden gemiddeld een ROAS van 3 tot 5."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe lang duurt het voordat Google Ads resultaat geeft?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Google Ads geeft sneller resultaat dan SEO. Binnen enkele dagen na het starten zie je al klikken en conversies. De eerste twee weken zijn het leerproces voor Google's algoritme. Na 4 tot 8 weken heb je genoeg data om campagnes structureel bij te sturen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat zijn negatieve zoekwoorden en waarom zijn ze belangrijk?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Negatieve zoekwoorden zijn zoektermen waarbij je advertentie niet mag verschijnen. Als je fietsen verkoopt maar geen reparaties doet, voeg je 'reparatie' toe als negatief zoekwoord. Zonder een goede negatieve lijst betaal je voor klikken van mensen die nooit klant worden."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is Smart Bidding bij Google Ads?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Smart Bidding is een geautomatiseerde biedstrategie waarbij Google het bod per veiling aanpast op basis van de kans op conversie. Varianten zijn onder andere Doel-CPA en Doel-ROAS. Smart Bidding werkt pas goed als je campagne genoeg conversiedata heeft, minimaal 30 tot 50 conversies per maand."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads voor MKB: zo stel je een campagne in die werkt",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-voor-mkb-campagne-instellen"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Google Ads voor MKB: zo stel je een campagne in die werkt", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-voor-mkb-campagne-instellen" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Google Ads voor MKB: zo stel je een campagne in die werkt" />
+        <meta name="twitter:description" content="Google Ads voor MKB werkt als je het goed instelt. Lees wat het kost, hoe je een campagne opzet en wanneer je een specia" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

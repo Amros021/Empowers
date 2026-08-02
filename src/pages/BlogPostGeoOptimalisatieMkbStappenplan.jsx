@@ -29,89 +29,114 @@ export default function BlogPostGeoOptimalisatieMkbStappenplan() {
                 <meta name="twitter:title" content="GEO optimalisatie voor MKB: praktisch stappenplan" />
                 <meta name="twitter:description" content="Zo word je als MKB-ondernemer zichtbaar in AI-antwoorden, met een aanpak die past bij jouw tijd en budget." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "GEO optimalisatie voor MKB: praktisch stappenplan",
-                        "description": "Een concreet stappenplan voor MKB-ondernemers die zichtbaar willen worden in AI-antwoorden van ChatGPT, Perplexity en Google AI, zonder groot budget.",
-                        "image": "https://www.empowers.nl/images/blogs/geo-optimalisatie-mkb-stappenplan.jpg",
-                        "datePublished": "2026-05-23T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "GEO optimalisatie voor MKB: praktisch stappenplan",
+                            "description": "Een concreet stappenplan voor MKB-ondernemers die zichtbaar willen worden in AI-antwoorden van ChatGPT, Perplexity en Google AI, zonder groot budget.",
+                            "image": "https://www.empowers.nl/images/blogs/geo-optimalisatie-mkb-stappenplan.jpg",
+                            "datePublished": "2026-05-23T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat GEO optimalisatie resultaat geeft voor een MKB?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de eerste vermeldingen in Perplexity of ChatGPT reken je doorgaans op acht tot twaalf weken na het publiceren van goed gestructureerde content. MKB-bedrijven met een duidelijke niche merken dit sneller dan generieke aanbieders, omdat AI-engines specifieke expertise makkelijker toewijzen. Wie al een degelijke SEO-basis heeft, profiteert eerder van GEO-aanpassingen dan wie helemaal opnieuw begint."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel tijd kost GEO optimalisatie per week voor een MKB?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De eerste fase, bestaande content aanpassen en FAQ-schema implementeren, kost eenmalig een halve dag tot een volledige dag per pagina afhankelijk van hoe sterk je content al is. Na die eerste ronde volstaat twee uur per maand voor het publiceren van nieuwe content en het handmatig testen van je zichtbaarheid in AI-platforms. Wie dit combineert met bestaande blogplannen, houdt de extra tijdsinvestering beperkt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik GEO optimalisatie zelf doen of heb ik een specialist nodig?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De inhoudelijke kern kun je grotendeels zelf uitvoeren: antwoord-first schrijven, FAQ-blokken toevoegen, en je Google Business Profile bijhouden. FAQPage-schema vereist wat technische kennis, maar de meeste CMS-platformen zoals WordPress en Shopify hebben plugins die dit afhandelen. Een specialist helpt wanneer je meerdere pagina's tegelijk wil optimaliseren, monitoring wil automatiseren, of wanneer je in een competitieve niche snel terrein wil winnen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke pagina's pak ik als eerste aan voor GEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin bij je vijf best bezochte pagina's. Die hebben al gezag bij Google en trekken verkeer, wat ze waardevolle kandidaten maakt voor GEO-optimalisatie. Daarna pak je je meest competitieve dienst- of productpagina's aan, gevolgd door pagina's die antwoord geven op vragen die jouw doelgroep aan AI stelt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik GEO-succes zonder dure tools?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Test maandelijks handmatig in ChatGPT en Perplexity: stel vragen die jouw klanten stellen en kijk of jouw bedrijf verschijnt. Noteer dit in een eenvoudige spreadsheet. Aanvullend gebruik je Google Search Console om CTR-veranderingen op informatieve pagina's te volgen. Een dalende CTR bij stabiele impressies wijst er vaak op dat AI-overzichten jouw antwoord overnemen, wat juist bevestigt dat je GEO-werk effect heeft."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is GEO optimalisatie anders voor lokale MKB-bedrijven?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, voor lokale bedrijven is Google Business Profile het startpunt. AI-platforms als Google AI Overviews en ChatGPT trekken informatie uit je bedrijfsprofiel voor lokale zoekopdrachten. Zorg dat je profiel volledig is, recent is bijgewerkt en positieve, uitgebreide reviews bevat. Daarna bouw je lokale content op je website die specifiek ingaat op vragen in jouw regio of stad."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat GEO optimalisatie resultaat geeft voor een MKB?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de eerste vermeldingen in Perplexity of ChatGPT reken je doorgaans op acht tot twaalf weken na het publiceren van goed gestructureerde content. MKB-bedrijven met een duidelijke niche merken dit sneller dan generieke aanbieders, omdat AI-engines specifieke expertise makkelijker toewijzen. Wie al een degelijke SEO-basis heeft, profiteert eerder van GEO-aanpassingen dan wie helemaal opnieuw begint."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel tijd kost GEO optimalisatie per week voor een MKB?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De eerste fase, bestaande content aanpassen en FAQ-schema implementeren, kost eenmalig een halve dag tot een volledige dag per pagina afhankelijk van hoe sterk je content al is. Na die eerste ronde volstaat twee uur per maand voor het publiceren van nieuwe content en het handmatig testen van je zichtbaarheid in AI-platforms. Wie dit combineert met bestaande blogplannen, houdt de extra tijdsinvestering beperkt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Kan ik GEO optimalisatie zelf doen of heb ik een specialist nodig?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De inhoudelijke kern kun je grotendeels zelf uitvoeren: antwoord-first schrijven, FAQ-blokken toevoegen, en je Google Business Profile bijhouden. FAQPage-schema vereist wat technische kennis, maar de meeste CMS-platformen zoals WordPress en Shopify hebben plugins die dit afhandelen. Een specialist helpt wanneer je meerdere pagina's tegelijk wil optimaliseren, monitoring wil automatiseren, of wanneer je in een competitieve niche snel terrein wil winnen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke pagina's pak ik als eerste aan voor GEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin bij je vijf best bezochte pagina's. Die hebben al gezag bij Google en trekken verkeer, wat ze waardevolle kandidaten maakt voor GEO-optimalisatie. Daarna pak je je meest competitieve dienst- of productpagina's aan, gevolgd door pagina's die antwoord geven op vragen die jouw doelgroep aan AI stelt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe meet ik GEO-succes zonder dure tools?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Test maandelijks handmatig in ChatGPT en Perplexity: stel vragen die jouw klanten stellen en kijk of jouw bedrijf verschijnt. Noteer dit in een eenvoudige spreadsheet. Aanvullend gebruik je Google Search Console om CTR-veranderingen op informatieve pagina's te volgen. Een dalende CTR bij stabiele impressies wijst er vaak op dat AI-overzichten jouw antwoord overnemen, wat juist bevestigt dat je GEO-werk effect heeft."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Is GEO optimalisatie anders voor lokale MKB-bedrijven?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, voor lokale bedrijven is Google Business Profile het startpunt. AI-platforms als Google AI Overviews en ChatGPT trekken informatie uit je bedrijfsprofiel voor lokale zoekopdrachten. Zorg dat je profiel volledig is, recent is bijgewerkt en positieve, uitgebreide reviews bevat. Daarna bouw je lokale content op je website die specifiek ingaat op vragen in jouw regio of stad."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "GEO optimalisatie voor MKB: praktisch stappenplan",
+                                    "item": "https://www.empowers.nl/blogs/geo/geo-optimalisatie-mkb-stappenplan"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "GEO optimalisatie voor MKB: praktisch stappenplan", "item": "https://www.empowers.nl/blogs/geo/geo-optimalisatie-mkb-stappenplan" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -29,89 +29,114 @@ export default function BlogPostGeoOptimalisatieUitbesteden() {
                 <meta name="twitter:title" content="GEO optimalisatie uitbesteden: wat je moet weten" />
                 <meta name="twitter:description" content="Wanneer heeft het zin om GEO optimalisatie uit te besteden en wat mag je verwachten van een specialist?" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "GEO optimalisatie uitbesteden: waarom steeds meer bedrijven dit doen",
-                        "description": "Wat houdt GEO optimalisatie uitbesteden in, wanneer loont het en hoe herken je een goede GEO partner?",
-                        "image": "https://www.empowers.nl/images/blogs/geo-optimalisatie-uitbesteden.jpg",
-                        "datePublished": "2026-05-24T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "GEO optimalisatie uitbesteden: waarom steeds meer bedrijven dit doen",
+                            "description": "Wat houdt GEO optimalisatie uitbesteden in, wanneer loont het en hoe herken je een goede GEO partner?",
+                            "image": "https://www.empowers.nl/images/blogs/geo-optimalisatie-uitbesteden.jpg",
+                            "datePublished": "2026-05-24T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost GEO optimalisatie uitbesteden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De kosten variëren sterk per scope. Een eenmalige analyse plus technische basisoptimalisatie kost minder dan een doorlopend traject waarbij content en doorlopende monitoring allemaal zijn inbegrepen. De meeste bureaus werken met een maandelijks retainer, vergelijkbaar met een SEO-traject. Wat je in elk geval vermijdt: jarenlang zelf tijd investeren in iets wat je collega's sneller en beter kunnen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is GEO uitbesteden zinvol als ik een klein bedrijf heb?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat hangt af van je markt, niet van je bedrijfsgrootte. Als jouw potentiële klanten vragen stellen aan AI-chatbots voordat ze contact opnemen, is GEO al relevant. Voor bedrijven die draaien op lokale mond-tot-mondreclame of impulsaankopen is de urgentie lager. Een goede GEO specialist helpt je snel te bepalen of dit voor jou nu loont."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verschilt GEO uitbesteden van SEO uitbesteden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij SEO stuur je op rankings in Google en meet je organisch verkeer. Bij GEO stuur je op citaties in AI-antwoorden en meet je merk-vermeldingen in AI-platforms als ChatGPT en Perplexity. De technische overlap is er, maar de content-aanpak en de meetmethode zijn wezenlijk anders. Een specialist die alleen over rankings praat, doet feitelijk geen GEO."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat GEO-werk resultaat oplevert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op acht tot twaalf weken voor de eerste aantoonbare citaties. AI-modellen updaten hun kennisbases niet op een vaste frequentie, maar goed gestructureerde antwoord-content werkt doorgaans sneller door dan een klassiek SEO-artikel. Na zes maanden heb je een patroon van waar je staat en wat nog bijgestuurd moet worden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik GEO deels zelf doen en deels uitbesteden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, dat werkt voor veel bedrijven goed. De technische implementatie en de strategie leg je bij een specialist neer. De contentproductie kun je zelf of met een freelancer invullen op basis van de doelvragen die de specialist aanlevert. Zo bespaar je op maandelijkse kosten en houd je grip op je eigen toon en kennis."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe controleer ik of een GEO bureau goed werk levert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vraag naar de meetmethode. Een serieuze partner toont je maandelijks welke vragen jouw merk nu opleveren in AI-antwoorden, in welke platforms en naast welke concurrenten. Als de rapportage alleen gaat over publiceerde artikelen of Google-rankings, meet je geen GEO. Vraag ook naar concrete voorbeelden bij andere klanten in een vergelijkbare niche."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost GEO optimalisatie uitbesteden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De kosten variëren sterk per scope. Een eenmalige analyse plus technische basisoptimalisatie kost minder dan een doorlopend traject waarbij content en doorlopende monitoring allemaal zijn inbegrepen. De meeste bureaus werken met een maandelijks retainer, vergelijkbaar met een SEO-traject. Wat je in elk geval vermijdt: jarenlang zelf tijd investeren in iets wat je collega's sneller en beter kunnen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Is GEO uitbesteden zinvol als ik een klein bedrijf heb?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dat hangt af van je markt, niet van je bedrijfsgrootte. Als jouw potentiële klanten vragen stellen aan AI-chatbots voordat ze contact opnemen, is GEO al relevant. Voor bedrijven die draaien op lokale mond-tot-mondreclame of impulsaankopen is de urgentie lager. Een goede GEO specialist helpt je snel te bepalen of dit voor jou nu loont."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe verschilt GEO uitbesteden van SEO uitbesteden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij SEO stuur je op rankings in Google en meet je organisch verkeer. Bij GEO stuur je op citaties in AI-antwoorden en meet je merk-vermeldingen in AI-platforms als ChatGPT en Perplexity. De technische overlap is er, maar de content-aanpak en de meetmethode zijn wezenlijk anders. Een specialist die alleen over rankings praat, doet feitelijk geen GEO."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat GEO-werk resultaat oplevert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op acht tot twaalf weken voor de eerste aantoonbare citaties. AI-modellen updaten hun kennisbases niet op een vaste frequentie, maar goed gestructureerde antwoord-content werkt doorgaans sneller door dan een klassiek SEO-artikel. Na zes maanden heb je een patroon van waar je staat en wat nog bijgestuurd moet worden."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik GEO deels zelf doen en deels uitbesteden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, dat werkt voor veel bedrijven goed. De technische implementatie en de strategie leg je bij een specialist neer. De contentproductie kun je zelf of met een freelancer invullen op basis van de doelvragen die de specialist aanlevert. Zo bespaar je op maandelijkse kosten en houd je grip op je eigen toon en kennis."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe controleer ik of een GEO bureau goed werk levert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vraag naar de meetmethode. Een serieuze partner toont je maandelijks welke vragen jouw merk nu opleveren in AI-antwoorden, in welke platforms en naast welke concurrenten. Als de rapportage alleen gaat over publiceerde artikelen of Google-rankings, meet je geen GEO. Vraag ook naar concrete voorbeelden bij andere klanten in een vergelijkbare niche."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "GEO optimalisatie uitbesteden",
+                                    "item": "https://www.empowers.nl/blogs/geo/geo-optimalisatie-uitbesteden"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "GEO optimalisatie uitbesteden", "item": "https://www.empowers.nl/blogs/geo/geo-optimalisatie-uitbesteden" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

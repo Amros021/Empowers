@@ -28,81 +28,106 @@ export default function BlogPostGoogleShopping() {
                 <meta name="twitter:title" content="Google Shopping adverteren: zo zet je een campagne op" />
                 <meta name="twitter:description" content="Zo zet je een Google Shopping-campagne op en verhoog je je ROAS." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google Shopping adverteren: zo zet je een campagne op",
-                        "description": "Google Shopping adverteren brengt jouw producten direct bovenaan de zoekresultaten. Lees hoe je een Shopping-campagne opzet, je producttitels optimaliseert en je ROAS verhoogt.",
-                        "image": "https://www.empowers.nl/images/blogs/google-shopping-adverteren.jpg",
-                        "datePublished": "2026-04-15T10:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Shopping adverteren: zo zet je een campagne op",
+                            "description": "Google Shopping adverteren brengt jouw producten direct bovenaan de zoekresultaten. Lees hoe je een Shopping-campagne opzet, je producttitels optimaliseert en je ROAS verhoogt.",
+                            "image": "https://www.empowers.nl/images/blogs/google-shopping-adverteren.jpg",
+                            "datePublished": "2026-04-15T10:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat heb je nodig om te beginnen met Google Shopping?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Je hebt een Google Merchant Center-account nodig met een goedgekeurde productfeed, een Google Ads-account en een website met HTTPS. Koppel het Merchant Center aan Google Ads en je kunt een Shopping-campagne aanmaken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen Standard Shopping en Performance Max?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Standard Shopping geeft je meer controle: je beheert biedingen per productgroep en ziet precies welke zoektermen leiden tot klikken. Performance Max combineert Shopping met andere plaatsingen (YouTube, Display, Gmail) en laat Google alles automatiseren. Voor starters is Standard Shopping overzichtelijker."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe optimaliseer ik mijn producttitels voor Google Shopping?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Zet het belangrijkste zoekwoord vooraan in de producttitel. Voeg merk, model, maat en kleur toe waar relevant. Vermijd marketingtaal als 'super' of 'geweldig'. Gebruik de exacte bewoording die jouw klanten intypen bij Google. Een goede titel heeft 70 tot 100 tekens."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke ROAS is realistisch bij Google Shopping?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De gemiddelde ROAS bij Google Shopping ligt tussen de 3 en 8, maar verschilt sterk per branche en marge. E-commerce met hoge marges haalt makkelijker een ROAS van 5 of hoger. Bij lage marges is een ROAS van 3 al winstgevend. Bereken altijd vanuit je eigen marges, niet vanuit benchmarks."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe voorkom ik dat Shopping-campagnes je budget verspillen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voeg negatieve zoekwoorden toe om irrelevante zoekopdrachten te blokkeren. Bekijk maandelijks de zoektermenrapportage. Segmenteer producten op basis van marge, zodat je meer budget geeft aan winstgevende producten. Sluit producten met lage marge of hoge CPC uit van campagnes."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat heb je nodig om te beginnen met Google Shopping?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Je hebt een Google Merchant Center-account nodig met een goedgekeurde productfeed, een Google Ads-account en een website met HTTPS. Koppel het Merchant Center aan Google Ads en je kunt een Shopping-campagne aanmaken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen Standard Shopping en Performance Max?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Standard Shopping geeft je meer controle: je beheert biedingen per productgroep en ziet precies welke zoektermen leiden tot klikken. Performance Max combineert Shopping met andere plaatsingen (YouTube, Display, Gmail) en laat Google alles automatiseren. Voor starters is Standard Shopping overzichtelijker."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe optimaliseer ik mijn producttitels voor Google Shopping?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Zet het belangrijkste zoekwoord vooraan in de producttitel. Voeg merk, model, maat en kleur toe waar relevant. Vermijd marketingtaal als 'super' of 'geweldig'. Gebruik de exacte bewoording die jouw klanten intypen bij Google. Een goede titel heeft 70 tot 100 tekens."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke ROAS is realistisch bij Google Shopping?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De gemiddelde ROAS bij Google Shopping ligt tussen de 3 en 8, maar verschilt sterk per branche en marge. E-commerce met hoge marges haalt makkelijker een ROAS van 5 of hoger. Bij lage marges is een ROAS van 3 al winstgevend. Bereken altijd vanuit je eigen marges, niet vanuit benchmarks."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe voorkom ik dat Shopping-campagnes je budget verspillen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voeg negatieve zoekwoorden toe om irrelevante zoekopdrachten te blokkeren. Bekijk maandelijks de zoektermenrapportage. Segmenteer producten op basis van marge, zodat je meer budget geeft aan winstgevende producten. Sluit producten met lage marge of hoge CPC uit van campagnes."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Shopping adverteren",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-shopping-adverteren-campagne"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Google Shopping adverteren", "item": "https://www.empowers.nl/blogs/google-ads/google-shopping-adverteren-campagne" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

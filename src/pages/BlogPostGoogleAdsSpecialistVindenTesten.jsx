@@ -29,89 +29,114 @@ export default function BlogPostGoogleAdsSpecialistVindenTesten() {
                 <meta name="twitter:title" content="Google Ads specialist vinden: waar zoek je en hoe test je?" />
                 <meta name="twitter:description" content="Waar je een goede Google Ads specialist vindt, waarop je let in het eerste gesprek en hoe je iemand test voordat je tekent." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google Ads specialist vinden: waar zoek je en hoe test je?",
-                        "description": "Een goede Google Ads specialist vinden? Waar je zoekt, waarop je let in het eerste gesprek en hoe je iemand test voordat je je vastlegt.",
-                        "image": "https://www.empowers.nl/images/blogs/google-ads-specialist-vinden-testen.jpg",
-                        "datePublished": "2026-05-30T10:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads specialist vinden: waar zoek je en hoe test je?",
+                            "description": "Een goede Google Ads specialist vinden? Waar je zoekt, waarop je let in het eerste gesprek en hoe je iemand test voordat je je vastlegt.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-specialist-vinden-testen.jpg",
+                            "datePublished": "2026-05-30T10:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waar vind je een goede Google Ads specialist?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De beste route is een aanbeveling van een ondernemer die zelf met een specialist werkt en de resultaten kent. Daarnaast vind je specialisten via marketingbureaus, via LinkedIn en via vakgerichte platforms. Een Google Partner-badge laat zien dat iemand met Google werkt, maar zegt weinig over de kwaliteit. Beoordeel altijd het werk, niet alleen het kanaal waar je iemand vond."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarop let je in het eerste gesprek met een Google Ads specialist?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Let op of de specialist meer vragen stelt dan beloftes doet. Iemand die eerst je marges, je doelen en je beste klanten wil begrijpen, denkt strategisch. Wie meteen een verdubbeling belooft zonder je bedrijf te kennen, verkoopt. Vraag ook of je account op je eigen naam blijft staan en hoe er gerapporteerd wordt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe test je een Google Ads specialist voordat je je vastlegt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Spreek een proefperiode van een paar maanden af met een opzegbaar contract, in plaats van meteen een jaarcontract. Laat de specialist vooraf benoemen welke resultaten in die periode realistisch zijn. Zet je accounts op je eigen naam. Zo houd je de regie en kun je zonder gedoe stoppen als het niet bevalt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost een Google Ads specialist?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een freelance specialist rekent vaak rond de 60 tot 90 euro per uur of een vast maandbedrag vanaf ongeveer 750 euro. Bureaus zitten doorgaans hoger. Daarbovenop komt je advertentiebudget, dat rechtstreeks naar Google gaat. Onder de 1000 euro advertentiebudget per maand is een specialist inhuren zelden rendabel."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik een specialist, een bureau of iemand in dienst kiezen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste MKB-bedrijven is een freelance specialist of een bureau de logische keuze. Iemand in dienst nemen loont pas als je zoveel adverteert dat het een fulltime functie rechtvaardigt. Een freelancer is goedkoper en directer, een bureau brengt capaciteit en meerdere kanalen onder één dak."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of een specialist ervaring heeft in mijn branche?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vraag naar voorbeelden uit een vergelijkbare markt en wat daar het resultaat was. Branche-ervaring is een pluspunt, maar geen harde eis. Een sterke specialist leest zich snel in en past bewezen principes toe. Belangrijker dan exacte branche-ervaring is of iemand de juiste vragen stelt over jouw bedrijf en marges."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Waar vind je een goede Google Ads specialist?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De beste route is een aanbeveling van een ondernemer die zelf met een specialist werkt en de resultaten kent. Daarnaast vind je specialisten via marketingbureaus, via LinkedIn en via vakgerichte platforms. Een Google Partner-badge laat zien dat iemand met Google werkt, maar zegt weinig over de kwaliteit. Beoordeel altijd het werk, niet alleen het kanaal waar je iemand vond."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarop let je in het eerste gesprek met een Google Ads specialist?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Let op of de specialist meer vragen stelt dan beloftes doet. Iemand die eerst je marges, je doelen en je beste klanten wil begrijpen, denkt strategisch. Wie meteen een verdubbeling belooft zonder je bedrijf te kennen, verkoopt. Vraag ook of je account op je eigen naam blijft staan en hoe er gerapporteerd wordt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe test je een Google Ads specialist voordat je je vastlegt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Spreek een proefperiode van een paar maanden af met een opzegbaar contract, in plaats van meteen een jaarcontract. Laat de specialist vooraf benoemen welke resultaten in die periode realistisch zijn. Zet je accounts op je eigen naam. Zo houd je de regie en kun je zonder gedoe stoppen als het niet bevalt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost een Google Ads specialist?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een freelance specialist rekent vaak rond de 60 tot 90 euro per uur of een vast maandbedrag vanaf ongeveer 750 euro. Bureaus zitten doorgaans hoger. Daarbovenop komt je advertentiebudget, dat rechtstreeks naar Google gaat. Onder de 1000 euro advertentiebudget per maand is een specialist inhuren zelden rendabel."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik een specialist, een bureau of iemand in dienst kiezen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de meeste MKB-bedrijven is een freelance specialist of een bureau de logische keuze. Iemand in dienst nemen loont pas als je zoveel adverteert dat het een fulltime functie rechtvaardigt. Een freelancer is goedkoper en directer, een bureau brengt capaciteit en meerdere kanalen onder één dak."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe weet ik of een specialist ervaring heeft in mijn branche?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vraag naar voorbeelden uit een vergelijkbare markt en wat daar het resultaat was. Branche-ervaring is een pluspunt, maar geen harde eis. Een sterke specialist leest zich snel in en past bewezen principes toe. Belangrijker dan exacte branche-ervaring is of iemand de juiste vragen stelt over jouw bedrijf en marges."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads specialist vinden testen",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-specialist-vinden-testen"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Google Ads specialist vinden testen", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-specialist-vinden-testen" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

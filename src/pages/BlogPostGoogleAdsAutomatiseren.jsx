@@ -28,81 +28,106 @@ export default function BlogPostGoogleAdsAutomatiseren() {
                 <meta name="twitter:title" content="Google Ads automatiseren: tijdwinst zonder kwaliteitsverlies" />
                 <meta name="twitter:description" content="Welke Google Ads automatiseringen werken en welke je beter handmatig houdt." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google Ads automatiseren: tijdwinst zonder kwaliteitsverlies",
-                        "description": "Google Ads automatiseren bespaart uren per week, maar verkeerd ingesteld kost het je budget. Lees welke automatiseringen werken, welke je beter handmatig houdt en hoe je de controle behoudt.",
-                        "image": "https://www.empowers.nl/images/blogs/google-ads-automatiseren.jpg",
-                        "datePublished": "2026-04-15T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads automatiseren: tijdwinst zonder kwaliteitsverlies",
+                            "description": "Google Ads automatiseren bespaart uren per week, maar verkeerd ingesteld kost het je budget. Lees welke automatiseringen werken, welke je beter handmatig houdt en hoe je de controle behoudt.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-automatiseren.jpg",
+                            "datePublished": "2026-04-15T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke Google Ads automatiseringen zijn het meest waardevol?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Smart Bidding (Target CPA of Target ROAS), Responsive Search Ads en automatische advertentierotatie leveren de meeste tijdwinst zonder kwaliteitsverlies. Deze zijn gebaseerd op miljarden signalen en presteren in stabiele accounts vaak beter dan handmatig instellen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke automatiseringen moet ik juist handmatig houden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Keyword-selectie, campagnestructuur, negatieve zoekwoorden en doelgroepsegmentatie houd je beter zelf in de hand. Google's automatisering optimaliseert voor conversies maar begrijpt niet jouw strategische prioriteiten: welke klanten je wél en welke je niet wilt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat Smart Bidding goed werkt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Smart Bidding heeft een leerfase van ongeveer 2 tot 4 weken en minimaal 30 tot 50 conversies per maand nodig. Pas daarna optimaliseert het algoritme effectief. In nieuwe of kleine accounts is handmatig bieden daarom vaak beter in de opstartfase."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het risico van te veel automatiseren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Te veel automatiseren zonder monitoring leidt tot budget verspilling. Google optimaliseert voor jouw doelen, maar als die doelen verkeerd zijn geconfigureerd (verkeerde conversie-events, verkeerde CPA-target) gaat het algoritme de foute kant op. Wekelijkse monitoring blijft essentieel."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik automatisering combineren met handmatige controle?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, dat is zelfs de aanbevolen aanpak. Gebruik Smart Bidding voor de biedstrategie, maar behoud handmatige controle over campagnestructuur, zoekwoorden en negatieve zoekwoorden. Stel duidelijke ROAS- of CPA-grenzen in en monitor wekelijks of het algoritme die respecteert."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke Google Ads automatiseringen zijn het meest waardevol?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Smart Bidding (Target CPA of Target ROAS), Responsive Search Ads en automatische advertentierotatie leveren de meeste tijdwinst zonder kwaliteitsverlies. Deze zijn gebaseerd op miljarden signalen en presteren in stabiele accounts vaak beter dan handmatig instellen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke automatiseringen moet ik juist handmatig houden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Keyword-selectie, campagnestructuur, negatieve zoekwoorden en doelgroepsegmentatie houd je beter zelf in de hand. Google's automatisering optimaliseert voor conversies maar begrijpt niet jouw strategische prioriteiten: welke klanten je wél en welke je niet wilt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat Smart Bidding goed werkt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Smart Bidding heeft een leerfase van ongeveer 2 tot 4 weken en minimaal 30 tot 50 conversies per maand nodig. Pas daarna optimaliseert het algoritme effectief. In nieuwe of kleine accounts is handmatig bieden daarom vaak beter in de opstartfase."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het risico van te veel automatiseren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Te veel automatiseren zonder monitoring leidt tot budget verspilling. Google optimaliseert voor jouw doelen, maar als die doelen verkeerd zijn geconfigureerd (verkeerde conversie-events, verkeerde CPA-target) gaat het algoritme de foute kant op. Wekelijkse monitoring blijft essentieel."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik automatisering combineren met handmatige controle?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, dat is zelfs de aanbevolen aanpak. Gebruik Smart Bidding voor de biedstrategie, maar behoud handmatige controle over campagnestructuur, zoekwoorden en negatieve zoekwoorden. Stel duidelijke ROAS- of CPA-grenzen in en monitor wekelijks of het algoritme die respecteert."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads automatiseren",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-automatiseren-tijdwinst-kwaliteitsverlies"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Google Ads automatiseren", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-automatiseren-tijdwinst-kwaliteitsverlies" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

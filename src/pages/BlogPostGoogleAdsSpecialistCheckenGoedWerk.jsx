@@ -29,89 +29,114 @@ export default function BlogPostGoogleAdsSpecialistCheckenGoedWerk() {
                 <meta name="twitter:title" content="Google Ads specialist beoordelen: zo check je of die goed presteert" />
                 <meta name="twitter:description" content="Op welke cijfers je let, hoe je het account zelf controleert en welke rode vlaggen wijzen op zwak werk." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google Ads specialist beoordelen: zo check je of die goed presteert",
-                        "description": "Hoe check je of je Google Ads specialist goed werk levert? Op welke cijfers je let, hoe je het account controleert en welke rode vlaggen je herkent.",
-                        "image": "https://www.empowers.nl/images/blogs/google-ads-specialist-checken-goed-werk.jpg",
-                        "datePublished": "2026-05-30T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads specialist beoordelen: zo check je of die goed presteert",
+                            "description": "Hoe check je of je Google Ads specialist goed werk levert? Op welke cijfers je let, hoe je het account controleert en welke rode vlaggen je herkent.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-specialist-checken-goed-werk.jpg",
+                            "datePublished": "2026-05-30T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Op welke cijfers beoordeel je een Google Ads specialist?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Kijk naar wat de campagnes aan omzet en marge opleveren, niet alleen naar CTR en klikprijs. De kosten per nieuwe klant en de verhouding tussen advertentiekosten en omzet zeggen veel meer over het werk dan losse klikstatistieken. Een hoge CTR met dalende omzet is geen succes, maar een waarschuwing."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe controleer ik zelf het werk in mijn Google Ads account?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Open het account en kijk naar de wijzigingsgeschiedenis. Daar staat wat er wanneer is aangepast. Een actief account toont regelmatig aanpassingen aan zoekwoorden, biedingen en advertenties. Staat er weken niets in, dan draait de campagne op de automaat zonder dat iemand meekijkt. Dat is precies waar je voor betaalt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke signalen wijzen op een goede Google Ads specialist?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een goede specialist gebruikt negatieve zoekwoorden om verspilling tegen te gaan, test verschillende advertenties tegen elkaar en kan uitleggen waarom hij iets heeft aangepast. De rapportage gaat over beslissingen en resultaten, niet alleen over cijfers. En je account staat op jouw eigen bedrijfsnaam, niet onder de specialist."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke rode vlaggen wijzen op een zwakke specialist?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een leeg wijzigingslog, rapporten met alleen kliks en vertoningen, geen negatieve zoekwoorden en bij tegenvallende cijfers altijd de schuld bij Google of het seizoen. Ook een account dat niet op jouw naam staat is een waarschuwing. Eén signaal is geen ramp, maar meerdere tegelijk betekent dat het tijd is voor een kritisch gesprek."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet ik mijn Google Ads specialist spreken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Minimaal één keer per maand een gesprek waarin de specialist uitlegt wat er is gedaan en waarom. Niet een rapport in je inbox, maar een gesprek waarin je vragen kunt stellen. Bij grotere budgetten of in drukke periodes mag dat vaker. Een specialist die alleen een maandrapport mailt zonder toelichting, houdt je op afstand."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik verstand van Google Ads hebben om mijn specialist te checken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. Je hoeft geen campagnes te kunnen bouwen om te zien of er gewerkt wordt. De wijzigingsgeschiedenis, de ontwikkeling van je omzet en de manier waarop de specialist beslissingen uitlegt vertellen je genoeg. Snap je de uitleg niet, dan ligt dat vaker aan slechte communicatie dan aan jouw kennis."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Op welke cijfers beoordeel je een Google Ads specialist?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Kijk naar wat de campagnes aan omzet en marge opleveren, niet alleen naar CTR en klikprijs. De kosten per nieuwe klant en de verhouding tussen advertentiekosten en omzet zeggen veel meer over het werk dan losse klikstatistieken. Een hoge CTR met dalende omzet is geen succes, maar een waarschuwing."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe controleer ik zelf het werk in mijn Google Ads account?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Open het account en kijk naar de wijzigingsgeschiedenis. Daar staat wat er wanneer is aangepast. Een actief account toont regelmatig aanpassingen aan zoekwoorden, biedingen en advertenties. Staat er weken niets in, dan draait de campagne op de automaat zonder dat iemand meekijkt. Dat is precies waar je voor betaalt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke signalen wijzen op een goede Google Ads specialist?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een goede specialist gebruikt negatieve zoekwoorden om verspilling tegen te gaan, test verschillende advertenties tegen elkaar en kan uitleggen waarom hij iets heeft aangepast. De rapportage gaat over beslissingen en resultaten, niet alleen over cijfers. En je account staat op jouw eigen bedrijfsnaam, niet onder de specialist."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke rode vlaggen wijzen op een zwakke specialist?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een leeg wijzigingslog, rapporten met alleen kliks en vertoningen, geen negatieve zoekwoorden en bij tegenvallende cijfers altijd de schuld bij Google of het seizoen. Ook een account dat niet op jouw naam staat is een waarschuwing. Eén signaal is geen ramp, maar meerdere tegelijk betekent dat het tijd is voor een kritisch gesprek."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak moet ik mijn Google Ads specialist spreken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Minimaal één keer per maand een gesprek waarin de specialist uitlegt wat er is gedaan en waarom. Niet een rapport in je inbox, maar een gesprek waarin je vragen kunt stellen. Bij grotere budgetten of in drukke periodes mag dat vaker. Een specialist die alleen een maandrapport mailt zonder toelichting, houdt je op afstand."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik verstand van Google Ads hebben om mijn specialist te checken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee. Je hoeft geen campagnes te kunnen bouwen om te zien of er gewerkt wordt. De wijzigingsgeschiedenis, de ontwikkeling van je omzet en de manier waarop de specialist beslissingen uitlegt vertellen je genoeg. Snap je de uitleg niet, dan ligt dat vaker aan slechte communicatie dan aan jouw kennis."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads specialist checken goed werk",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-specialist-checken-goed-werk"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Google Ads specialist checken goed werk", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-specialist-checken-goed-werk" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

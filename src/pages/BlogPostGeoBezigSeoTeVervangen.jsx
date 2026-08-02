@@ -28,97 +28,122 @@ export default function BlogPostGeoBezigSeoTeVervangen() {
                 <meta name="twitter:title" content="Vervangt GEO de SEO van merken?" />
                 <meta name="twitter:description" content="Hoe AI-zoeken organisch verkeer verschuift en wat dat voor jouw strategie betekent." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Is GEO bezig om SEO te vervangen? Wat de praktijk in 2026 laat zien",
-                        "description": "Vervangt GEO de SEO-strategie van merken? Lees hoe zoekgedrag verschuift, wat hetzelfde blijft, en hoe je beide rollen praktisch combineert in 2026.",
-                        "image": "https://www.empowers.nl/images/blogs/geo-bezig-seo-te-vervangen.jpg",
-                        "datePublished": "2026-05-09T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Is GEO bezig om SEO te vervangen? Wat de praktijk in 2026 laat zien",
+                            "description": "Vervangt GEO de SEO-strategie van merken? Lees hoe zoekgedrag verschuift, wat hetzelfde blijft, en hoe je beide rollen praktisch combineert in 2026.",
+                            "image": "https://www.empowers.nl/images/blogs/geo-bezig-seo-te-vervangen.jpg",
+                            "datePublished": "2026-05-09T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Vervangt GEO de SEO-strategie volledig?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. GEO breidt SEO uit, het lost de oude rol niet op. Klassieke ranking blijft de basis voor productpagina's, transactionele zoekopdrachten en lokale vindbaarheid. GEO komt erbovenop voor informatieve zoekvragen waar AI-antwoorden inmiddels de meeste klikken absorberen. Wie alleen op GEO zet, mist de bodem onder zijn zichtbaarheid. Wie alleen op SEO blijft, mist de bovenkant."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk type zoekvragen verschuift het snelst naar AI?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vooral informatieve en vergelijkende zoekopdrachten. Vragen als hoe werkt iets, wat is het verschil tussen, of welke optie past bij mijn situatie krijgen vaker een direct AI-antwoord dan een lijst blauwe links. Transactionele zoekopdrachten waarbij iemand klaar is om te kopen, blijven sterker bij Google en bij gerichte productzoekfuncties."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik mijn bestaande SEO-content overschrijven voor GEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Liever niet ineens. Begin met je belangrijkste informatieve pagina's en bekijk per pagina of het antwoord direct vooraan staat, of de structuur scanbaar is voor AI-bots, en of de bronvermeldingen kloppen. Veel blogs hoeven alleen een herstructurering, geen volledige herschrijving. Productpagina's en categoriepagina's pas je voorlopig vrijwel niet aan voor GEO."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Krijg ik nog wel verkeer als AI mijn antwoord overneemt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Het volume verandert, maar er zijn twee winstpunten. Citaties in AI-antwoorden bouwen merkherkenning, ook zonder klik. En de bezoekers die wel doorklikken, zijn doorgaans verder in hun beslissingsproces en converteren beter. De pure verkeer-KPI verliest waarde, terwijl de waarde per bezoek omhoog gaat."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke meeteenheden gebruik ik nu naast organisch verkeer?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vier metrics geven een breder beeld. Branded zoekvolume in Google Search Console, mentions van je merk in AI-antwoorden via tools als AthenaHQ of Profound, conversieratio per organische bezoeker en directe binnenkomers op je homepage. Stijgt branded zoekvolume terwijl algemeen verkeer stabiel of licht daalt, dan werkt GEO al voor je merk."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hebben kleine MKB-bedrijven hier al last of voordeel van?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vooral voordeel. AI-zoekmachines wegen autoriteit minder per backlink en meer per inhoudelijke duidelijkheid. Een sterk lokaal MKB met heldere uitleg op zijn site en goede reviews kan een groot landelijk merk verslaan in een AI-antwoord. Voor lokale dienstverlening en gespecialiseerde MKB-niches opent dit deuren die in klassieke SEO jaren werk vroegen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat ik effect ziet van GEO-werk?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Sneller dan bij klassieke SEO. Indexatie van content gaat hetzelfde, maar AI-zoekmachines wegen recente, goed gestructureerde antwoorden zwaarder dan tien jaar oude autoriteitspagina's. In de praktijk zie je binnen acht tot twaalf weken de eerste merkmentions verschijnen, mits je content op een aantal kernvragen direct en compleet antwoord geeft."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Vervangt GEO de SEO-strategie volledig?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee. GEO breidt SEO uit, het lost de oude rol niet op. Klassieke ranking blijft de basis voor productpagina's, transactionele zoekopdrachten en lokale vindbaarheid. GEO komt erbovenop voor informatieve zoekvragen waar AI-antwoorden inmiddels de meeste klikken absorberen. Wie alleen op GEO zet, mist de bodem onder zijn zichtbaarheid. Wie alleen op SEO blijft, mist de bovenkant."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welk type zoekvragen verschuift het snelst naar AI?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vooral informatieve en vergelijkende zoekopdrachten. Vragen als hoe werkt iets, wat is het verschil tussen, of welke optie past bij mijn situatie krijgen vaker een direct AI-antwoord dan een lijst blauwe links. Transactionele zoekopdrachten waarbij iemand klaar is om te kopen, blijven sterker bij Google en bij gerichte productzoekfuncties."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik mijn bestaande SEO-content overschrijven voor GEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Liever niet ineens. Begin met je belangrijkste informatieve pagina's en bekijk per pagina of het antwoord direct vooraan staat, of de structuur scanbaar is voor AI-bots, en of de bronvermeldingen kloppen. Veel blogs hoeven alleen een herstructurering, geen volledige herschrijving. Productpagina's en categoriepagina's pas je voorlopig vrijwel niet aan voor GEO."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Krijg ik nog wel verkeer als AI mijn antwoord overneemt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Het volume verandert, maar er zijn twee winstpunten. Citaties in AI-antwoorden bouwen merkherkenning, ook zonder klik. En de bezoekers die wel doorklikken, zijn doorgaans verder in hun beslissingsproces en converteren beter. De pure verkeer-KPI verliest waarde, terwijl de waarde per bezoek omhoog gaat."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke meeteenheden gebruik ik nu naast organisch verkeer?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vier metrics geven een breder beeld. Branded zoekvolume in Google Search Console, mentions van je merk in AI-antwoorden via tools als AthenaHQ of Profound, conversieratio per organische bezoeker en directe binnenkomers op je homepage. Stijgt branded zoekvolume terwijl algemeen verkeer stabiel of licht daalt, dan werkt GEO al voor je merk."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hebben kleine MKB-bedrijven hier al last of voordeel van?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vooral voordeel. AI-zoekmachines wegen autoriteit minder per backlink en meer per inhoudelijke duidelijkheid. Een sterk lokaal MKB met heldere uitleg op zijn site en goede reviews kan een groot landelijk merk verslaan in een AI-antwoord. Voor lokale dienstverlening en gespecialiseerde MKB-niches opent dit deuren die in klassieke SEO jaren werk vroegen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat ik effect ziet van GEO-werk?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Sneller dan bij klassieke SEO. Indexatie van content gaat hetzelfde, maar AI-zoekmachines wegen recente, goed gestructureerde antwoorden zwaarder dan tien jaar oude autoriteitspagina's. In de praktijk zie je binnen acht tot twaalf weken de eerste merkmentions verschijnen, mits je content op een aantal kernvragen direct en compleet antwoord geeft."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Vervangt GEO de SEO?",
+                                    "item": "https://www.empowers.nl/blogs/geo/geo-bezig-seo-te-vervangen"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "Vervangt GEO de SEO?", "item": "https://www.empowers.nl/blogs/geo/geo-bezig-seo-te-vervangen" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -28,114 +28,113 @@ export default function BlogPostHoeLangDuurtSeo() {
                 <meta name="twitter:title" content="Hoe lang duurt SEO? Realistische verwachtingen" />
                 <meta name="twitter:description" content="Hoe lang duurt SEO voordat je resultaten ziet? Ontdek realistische tijdlijnen, factoren die dit beïnvloeden en wat je mag verwachten." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe lang duurt SEO? Realistische verwachtingen voor nieuwe websites",
-                        "description": "Hoe lang duurt SEO voordat je resultaten ziet? Ontdek realistische tijdlijnen, factoren die dit beïnvloeden en wat je mag verwachten.",
-                        "image": "https://www.empowers.nl/images/blogs/lang-duurt-seo-realistische-verwachtingen.jpg",
-                        "datePublished": "2026-03-27T00:00:00+01:00",
-                        "author": {
-                            "@type": "Organization",
-                            "name": "Empowers"
-                        },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe lang duurt SEO? Realistische verwachtingen voor nieuwe websites",
+                            "description": "Hoe lang duurt SEO voordat je resultaten ziet? Ontdek realistische tijdlijnen, factoren die dit beïnvloeden en wat je mag verwachten.",
+                            "image": "https://www.empowers.nl/images/blogs/lang-duurt-seo-realistische-verwachtingen.jpg",
+                            "datePublished": "2026-03-27T00:00:00+01:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat SEO resultaat geeft?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De meeste websites zien eerste resultaten na 3-6 maanden. Significante verbeteringen in ranking en traffic verschijnen meestal tussen de 6-12 maanden. Dit hangt af van je industrie, concurrentie en huidige website-staat."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom duurt SEO zo lang?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google moet je website crawlen, indexeren en evalueren. Je content moet autoriteit opbouwen via links en gebruik. Deze processen nemen tijd. Voor nieuwe websites geldt ook een \"sandbox\" periode van enkele maanden voordat Google vol vertrouwen rankt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik SEO sneller laten werken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Met scherpe technische SEO, krachtige content en link building kom je sneller vooruit. Google Ads kan direct traffic brengen terwijl SEO werkt. Wij zien dat goed geplande SEO 2-3 maanden sneller resultaat geeft dan willekeurig aanpakken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is sneller: lokaal SEO of landelijk SEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Lokaal SEO is doorgaans sneller. Veel lokale zoeken hebben minder concurrentie. Je kunt al resultaten zien na 4-8 weken. Landelijk SEO kan 6-12 maanden kosten, vooral in populaire branches."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of SEO werkt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Volg je rankings met tools als Google Search Console. Monitor je traffic in Google Analytics. Let op keyword rankings, organische bezoekers en conversies. Na 3 maanden zou je eerste stijging moeten zien in minstens enkele keywords."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik SEO stoppen als ik geen resultaten zie na 3 maanden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee, maar evalueer je aanpak. Misschien werken je keywords niet of moet je meer content maken. SEO is voor lange termijn. Bedrijven die 12+ maanden consistent doorgaan, zien meestal sterke groeien waarbij ze marktleiders worden."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat SEO resultaat geeft?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De meeste websites zien eerste resultaten na 3-6 maanden. Significante verbeteringen in ranking en traffic verschijnen meestal tussen de 6-12 maanden. Dit hangt af van je industrie, concurrentie en huidige website-staat."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom duurt SEO zo lang?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google moet je website crawlen, indexeren en evalueren. Je content moet autoriteit opbouwen via links en gebruik. Deze processen nemen tijd. Voor nieuwe websites geldt ook een \"sandbox\" periode van enkele maanden voordat Google vol vertrouwen rankt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Kan ik SEO sneller laten werken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Met scherpe technische SEO, krachtige content en link building kom je sneller vooruit. Google Ads kan direct traffic brengen terwijl SEO werkt. Wij zien dat goed geplande SEO 2-3 maanden sneller resultaat geeft dan willekeurig aanpakken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is sneller: lokaal SEO of landelijk SEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Lokaal SEO is doorgaans sneller. Veel lokale zoeken hebben minder concurrentie. Je kunt al resultaten zien na 4-8 weken. Landelijk SEO kan 6-12 maanden kosten, vooral in populaire branches."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe weet ik of SEO werkt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Volg je rankings met tools als Google Search Console. Monitor je traffic in Google Analytics. Let op keyword rankings, organische bezoekers en conversies. Na 3 maanden zou je eerste stijging moeten zien in minstens enkele keywords."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik SEO stoppen als ik geen resultaten zie na 3 maanden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee, maar evalueer je aanpak. Misschien werken je keywords niet of moet je meer content maken. SEO is voor lange termijn. Bedrijven die 12+ maanden consistent doorgaan, zien meestal sterke groeien waarbij ze marktleiders worden."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Hoe lang duurt SEO?",
+                                    "item": "https://www.empowers.nl/blogs/seo/lang-duurt-seo-realistische-verwachtingen"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "SEO",
-                                "item": "https://www.empowers.nl/blogs/seo"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Hoe lang duurt SEO?",
-                                "item": "https://www.empowers.nl/blogs/seo/lang-duurt-seo-realistische-verwachtingen"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

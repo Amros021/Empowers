@@ -29,8 +29,15 @@ export default function BlogPostGoogleAdsVsSeoWerkt() {
                             "headline": "Google Ads vs SEO: wat werkt beter voor jouw bedrijf?",
                             "image": "https://www.empowers.nl/images/blogs/google-ads-vs-seo-werkt.jpg",
                             "description": "Google Ads levert direct verkeer, SEO bouwt duurzame zichtbaarheid. Ontdek welke aanpak het beste past bij jouw bedrijf, budget en doelen.",
-                            "author": { "@type": "Organization", "name": "Empowers" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-03-26T00:00:00+01:00",
                             "dateModified": "2026-03-26T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/algemeen/google-ads-vs-seo-werkt"
@@ -95,20 +102,42 @@ export default function BlogPostGoogleAdsVsSeoWerkt() {
                                     }
                                 }
                             ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads vs SEO: wat werkt beter voor jouw bedrijf?",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/google-ads-vs-seo-werkt"
+                                }
+                            ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                        { "@type": "ListItem", "position": 4, "name": "Google Ads vs SEO: wat werkt beter voor jouw bedrijf?", "item": "https://www.empowers.nl/blogs/algemeen/google-ads-vs-seo-werkt" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Google Ads vs SEO: wat werkt beter voor jouw bedrijf?" />
+        <meta name="twitter:description" content="Google Ads levert direct verkeer, SEO bouwt duurzame zichtbaarheid. Ontdek welke aanpak het beste past bij jouw bedrijf," />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

@@ -28,92 +28,114 @@ export default function BlogPostGoogleAdsCampagneStructuur() {
                 <meta name="twitter:title" content="Google Ads campagnestructuur die schaalt" />
                 <meta name="twitter:description" content="Hoe je campagnes, advertentiegroepen en zoekwoorden opbouwt voor maximale controle." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google Ads campagnestructuur: zo bouw je een account dat schaalt",
-                        "description": "Een goede Google Ads campagnestructuur is de basis van elk winstgevend account. Lees hoe je campagnes, advertentiegroepen en zoekwoorden opbouwt voor maximale controle.",
-                        "image": "https://www.empowers.nl/images/blogs/google-ads-campagne-structuur.jpg",
-                        "datePublished": "2026-04-14T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads campagnestructuur: zo bouw je een account dat schaalt",
+                            "description": "Een goede Google Ads campagnestructuur is de basis van elk winstgevend account. Lees hoe je campagnes, advertentiegroepen en zoekwoorden opbouwt voor maximale controle.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-campagne-structuur.jpg",
+                            "datePublished": "2026-04-14T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is de ideale campagnestructuur in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Er is geen one-size-fits-all, maar een logische structuur volgt je producten, diensten of zoekintentie. Scheid branded en non-branded, deel Search op naar thema en houd Shopping en PMax apart. Houd het overzichtelijk: tien goed gestructureerde campagnes verslaan vijftig rommelige."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel advertentiegroepen per campagne is te veel?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Meer dan 10 tot 15 advertentiegroepen per campagne wordt lastig te beheren. Beter is om de campagne op te splitsen naar thema of intentie. Kleine advertentiegroepen met 5 tot 15 zoekwoorden presteren meestal beter dan mega-groepen met honderd termen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik SKAG's nog gebruiken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Single Keyword Ad Groups zijn grotendeels achterhaald sinds Google match types heeft verruimd. Moderne thema-advertentiegroepen met 5 tot 15 nauw verwante zoekwoorden werken beter met huidige match types en biedautomatisering. SKAGs leveren nu vaak verwaarloosbare extra grip op ten opzichte van de extra beheerlast."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik campagnes per locatie of per product splitsen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Splits op basis waar je biedmanagement anders moet zijn. Verschillende budgetten per locatie vragen om aparte campagnes. Hetzelfde budget voor alle locaties kan in één campagne met locatietargeting. Voor producten geldt: splits wanneer marges of conversieratio's significant verschillen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom presteert mijn account opeens slechter na een restructurering?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nieuwe campagnes verliezen tijdelijk hun leerdata. Reken op 2 tot 4 weken voordat biedstrategieën weer stabiel draaien. Beperk herstructureringen tot wat echt nodig is. Een incrementele aanpak beschermt je prestaties beter dan één grote reset."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet ik mijn accountstructuur herzien?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een jaarlijkse structuurreview is gezond. Voor accounts die snel groeien zelfs elk kwartaal. Check of je campagnes nog passen bij je huidige aanbod, marges en doelen. Structuur die werkte bij 5000 euro budget, werkt zelden optimaal bij 50000 euro."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is de ideale campagnestructuur in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Er is geen one-size-fits-all, maar een logische structuur volgt je producten, diensten of zoekintentie. Scheid branded en non-branded, deel Search op naar thema en houd Shopping en PMax apart. Houd het overzichtelijk: tien goed gestructureerde campagnes verslaan vijftig rommelige."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel advertentiegroepen per campagne is te veel?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Meer dan 10 tot 15 advertentiegroepen per campagne wordt lastig te beheren. Beter is om de campagne op te splitsen naar thema of intentie. Kleine advertentiegroepen met 5 tot 15 zoekwoorden presteren meestal beter dan mega-groepen met honderd termen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik SKAG's nog gebruiken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Single Keyword Ad Groups zijn grotendeels achterhaald sinds Google match types heeft verruimd. Moderne thema-advertentiegroepen met 5 tot 15 nauw verwante zoekwoorden werken beter met huidige match types en biedautomatisering. SKAGs leveren nu vaak verwaarloosbare extra grip op ten opzichte van de extra beheerlast."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik campagnes per locatie of per product splitsen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Splits op basis waar je biedmanagement anders moet zijn. Verschillende budgetten per locatie vragen om aparte campagnes. Hetzelfde budget voor alle locaties kan in één campagne met locatietargeting. Voor producten geldt: splits wanneer marges of conversieratio's significant verschillen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Waarom presteert mijn account opeens slechter na een restructurering?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nieuwe campagnes verliezen tijdelijk hun leerdata. Reken op 2 tot 4 weken voordat biedstrategieën weer stabiel draaien. Beperk herstructureringen tot wat echt nodig is. Een incrementele aanpak beschermt je prestaties beter dan één grote reset."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak moet ik mijn accountstructuur herzien?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een jaarlijkse structuurreview is gezond. Voor accounts die snel groeien zelfs elk kwartaal. Check of je campagnes nog passen bij je huidige aanbod, marges en doelen. Structuur die werkte bij 5000 euro budget, werkt zelden optimaal bij 50000 euro."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Campagnestructuur",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-campagne-structuur"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Campagnestructuur", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-campagne-structuur" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

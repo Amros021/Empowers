@@ -28,47 +28,114 @@ export default function BlogPostHeatmapsLandingspaginaVerbeteren() {
                 <meta name="twitter:title" content="Heatmaps voor betere landingspagina's" />
                 <meta name="twitter:description" content="Wat bezoekers écht doen op je pagina, en wat je daarmee kunt." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Heatmaps gebruiken om je landingspagina te verbeteren",
-                        "description": "Met heatmaps zie je wat bezoekers écht doen op je landingspagina. Lees hoe je heatmaps leest, welke patronen ertoe doen en hoe je ze omzet in verbeteringen.",
-                        "image": "https://www.empowers.nl/images/blogs/heatmaps-om-landingspagina-te-verbeteren.jpg",
-                        "datePublished": "2026-05-11T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Heatmaps gebruiken om je landingspagina te verbeteren",
+                            "description": "Met heatmaps zie je wat bezoekers écht doen op je landingspagina. Lees hoe je heatmaps leest, welke patronen ertoe doen en hoe je ze omzet in verbeteringen.",
+                            "image": "https://www.empowers.nl/images/blogs/heatmaps-om-landingspagina-te-verbeteren.jpg",
+                            "datePublished": "2026-05-11T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een heatmap precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een heatmap is een visualisatie van het gedrag van bezoekers op een webpagina. Klikheatmaps tonen waar mensen klikken, scrollheatmaps tonen hoe ver mensen scrollen, en muisbewegingsheatmaps tonen waar de muis blijft hangen. Tools als Hotjar, Microsoft Clarity en Mouseflow leveren deze data."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke heatmap-tool kun je het beste gebruiken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Microsoft Clarity is gratis en goed genoeg voor de meeste MKB-toepassingen. Hotjar is uitgebreider en koppelt met opvragen via surveys, maar betaald boven een bepaald aantal sessies. Voor een eerste analyse is Clarity meer dan genoeg om te zien waar je pagina vastloopt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel sessies heb je nodig voor zinvolle heatmaps?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op minimaal honderd sessies per pagina voordat patronen betrouwbaar zijn. Voor een drukbezochte landingspagina haal je dat in dagen, voor een rustige pagina kan het weken duren. Trek geen conclusies uit vijftig sessies, dan kijk je vooral naar ruis."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn de meest waardevolle patronen om te zien?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie patronen leveren meestal direct werk op: kliks op niet-klikbare elementen (mensen verwachten dat iets klikbaar is), een scrolldiepte die ophoudt voor je CTA, en rage clicks of dead clicks die wijzen op kapotte functionaliteit. Deze drie aanwijzingen geven concrete fix-opties."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe combineer ik heatmaps met andere data?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Heatmaps tonen het wat, GA4 toont het hoeveel en surveys tonen het waarom. Een hoge bounce rate in GA4 plus een scrollheatmap die stopt bij de hero-sectie wijst op een falende belofte boven de vouw. Zonder de heatmap kun je de oorzaak niet lokaliseren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Schenden heatmaps de privacy van bezoekers?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet als je het goed instelt. Heatmap-tools maskeren standaard inputvelden zodat ingevulde teksten niet zichtbaar zijn. Sessieopnames werken met geanonimiseerde data. Zet wel een vermelding in je cookie- en privacyverklaring, en gebruik AVG-conforme tools. Voor Europese bedrijven is Microsoft Clarity met de EU-instellingen een veilige keuze."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
-                                { "@type": "Question", "name": "Wat is een heatmap precies?", "acceptedAnswer": { "@type": "Answer", "text": "Een heatmap is een visualisatie van het gedrag van bezoekers op een webpagina. Klikheatmaps tonen waar mensen klikken, scrollheatmaps tonen hoe ver mensen scrollen, en muisbewegingsheatmaps tonen waar de muis blijft hangen. Tools als Hotjar, Microsoft Clarity en Mouseflow leveren deze data." } },
-                                { "@type": "Question", "name": "Welke heatmap-tool kun je het beste gebruiken?", "acceptedAnswer": { "@type": "Answer", "text": "Microsoft Clarity is gratis en goed genoeg voor de meeste MKB-toepassingen. Hotjar is uitgebreider en koppelt met opvragen via surveys, maar betaald boven een bepaald aantal sessies. Voor een eerste analyse is Clarity meer dan genoeg om te zien waar je pagina vastloopt." } },
-                                { "@type": "Question", "name": "Hoeveel sessies heb je nodig voor zinvolle heatmaps?", "acceptedAnswer": { "@type": "Answer", "text": "Reken op minimaal honderd sessies per pagina voordat patronen betrouwbaar zijn. Voor een drukbezochte landingspagina haal je dat in dagen, voor een rustige pagina kan het weken duren. Trek geen conclusies uit vijftig sessies, dan kijk je vooral naar ruis." } },
-                                { "@type": "Question", "name": "Wat zijn de meest waardevolle patronen om te zien?", "acceptedAnswer": { "@type": "Answer", "text": "Drie patronen leveren meestal direct werk op: kliks op niet-klikbare elementen (mensen verwachten dat iets klikbaar is), een scrolldiepte die ophoudt voor je CTA, en rage clicks of dead clicks die wijzen op kapotte functionaliteit. Deze drie aanwijzingen geven concrete fix-opties." } },
-                                { "@type": "Question", "name": "Hoe combineer ik heatmaps met andere data?", "acceptedAnswer": { "@type": "Answer", "text": "Heatmaps tonen het wat, GA4 toont het hoeveel en surveys tonen het waarom. Een hoge bounce rate in GA4 plus een scrollheatmap die stopt bij de hero-sectie wijst op een falende belofte boven de vouw. Zonder de heatmap kun je de oorzaak niet lokaliseren." } },
-                                { "@type": "Question", "name": "Schenden heatmaps de privacy van bezoekers?", "acceptedAnswer": { "@type": "Answer", "text": "Niet als je het goed instelt. Heatmap-tools maskeren standaard inputvelden zodat ingevulde teksten niet zichtbaar zijn. Sessieopnames werken met geanonimiseerde data. Zet wel een vermelding in je cookie- en privacyverklaring, en gebruik AVG-conforme tools. Voor Europese bedrijven is Microsoft Clarity met de EU-instellingen een veilige keuze." } }
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Heatmaps voor landingspagina's",
+                                    "item": "https://www.empowers.nl/blogs/strategie/heatmaps-om-landingspagina-te-verbeteren"
+                                }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                            { "@type": "ListItem", "position": 4, "name": "Heatmaps voor landingspagina's", "item": "https://www.empowers.nl/blogs/strategie/heatmaps-om-landingspagina-te-verbeteren" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

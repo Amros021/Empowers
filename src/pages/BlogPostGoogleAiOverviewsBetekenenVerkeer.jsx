@@ -28,97 +28,122 @@ export default function BlogPostGoogleAiOverviewsBetekenenVerkeer() {
                 <meta name="twitter:title" content="Google AI Overviews: wat betekenen ze voor jouw verkeer" />
                 <meta name="twitter:description" content="Wat AI Overviews doen met organische CTR en hoe je content schrijft die wél kliks oplevert." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google AI Overviews: wat betekenen ze voor jouw verkeer (2026)",
-                        "description": "Google AI Overviews verlagen organische CTR's flink. Lees wat het betekent voor jouw verkeer en hoe je content schrijft die juist meer kliks oplevert.",
-                        "image": "https://www.empowers.nl/images/blogs/google-ai-overviews-betekenen-verkeer.jpg",
-                        "datePublished": "2026-05-04T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google AI Overviews: wat betekenen ze voor jouw verkeer (2026)",
+                            "description": "Google AI Overviews verlagen organische CTR's flink. Lees wat het betekent voor jouw verkeer en hoe je content schrijft die juist meer kliks oplevert.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ai-overviews-betekenen-verkeer.jpg",
+                            "datePublished": "2026-05-04T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn Google AI Overviews?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google AI Overviews zijn AI-gegenereerde antwoorden die bovenaan de zoekresultaten verschijnen. Google haalt informatie uit meerdere bronnen en stelt een direct antwoord samen, met links naar de bronnen die werden gebruikt. Voor zoekopdrachten met informatieve intentie verschijnt de Overview vrijwel altijd, waardoor de klassieke 10 blauwe links naar beneden zakken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel verkeer verlies je door AI Overviews?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Onderzoek van begin 2026 toont dat informatieve zoekopdrachten met AI Overview gemiddeld 30 tot 60 procent CTR-verlies op organische plek 1 zien. Voor commerciële zoekopdrachten is de impact kleiner: 10 tot 20 procent. Wie alleen op informatieve content rankt, ziet het meeste verlies."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe kom je in een Google AI Overview?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Pagina's die in de top 5 organisch staan en gestructureerde antwoorden bevatten worden het vaakst geciteerd. Schrijf het hoofdantwoord in de eerste 60 woorden, gebruik FAQ-secties met schema markup en voeg concrete cijfers toe. Pagina's met FAQPage-schema worden 3 tot 4 keer vaker als bron in een AI Overview gebruikt dan pagina's zonder."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt SEO nog wel met AI Overviews?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, sterker dan ooit. AI Overviews trekken hun bronnen vrijwel altijd uit de top 10 organische resultaten. Wie hoog rankt, wordt geciteerd; wie geciteerd wordt, krijgt zichtbaarheid bovenaan de pagina én klikken naar zijn site. SEO is dus geen tegenstander van AI Overviews, maar de motor erachter."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke content lijdt het meest onder AI Overviews?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Eenvoudige how-to's, definities, vergelijkingen en feitenvragen verliezen het meeste verkeer. AI beantwoordt deze direct in de Overview. Diepgaande gidsen, casestudies, gespecialiseerde content en commerciële pagina's met productinformatie blijven kliks aantrekken omdat de AI zelf doorverwijst voor het volledige verhaal."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe pas je jouw contentstrategie aan?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Verschuif content van puur informatief naar diepgaand, persoonlijk of commercieel. Schrijf gidsen die antwoord plus context plus voorbeeld bevatten. Voeg ervaringszinnen toe, casestudies en concrete cijfers uit eigen praktijk. AI Overviews citeren feiten, maar mensen klikken voor het verhaal achter de feiten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel pagina's verschijnen als bron in een Overview?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een typische AI Overview toont 3 tot 8 bron-links rechts naast de tekst. Voor specialistische onderwerpen kan dat oplopen tot 12. Vooraan staan meestal de 2 of 3 sites met het meest geciteerde antwoord. Daarna volgt aanvullende content. Beide posities leveren CTR op."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat zijn Google AI Overviews?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google AI Overviews zijn AI-gegenereerde antwoorden die bovenaan de zoekresultaten verschijnen. Google haalt informatie uit meerdere bronnen en stelt een direct antwoord samen, met links naar de bronnen die werden gebruikt. Voor zoekopdrachten met informatieve intentie verschijnt de Overview vrijwel altijd, waardoor de klassieke 10 blauwe links naar beneden zakken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel verkeer verlies je door AI Overviews?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Onderzoek van begin 2026 toont dat informatieve zoekopdrachten met AI Overview gemiddeld 30 tot 60 procent CTR-verlies op organische plek 1 zien. Voor commerciële zoekopdrachten is de impact kleiner: 10 tot 20 procent. Wie alleen op informatieve content rankt, ziet het meeste verlies."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe kom je in een Google AI Overview?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Pagina's die in de top 5 organisch staan en gestructureerde antwoorden bevatten worden het vaakst geciteerd. Schrijf het hoofdantwoord in de eerste 60 woorden, gebruik FAQ-secties met schema markup en voeg concrete cijfers toe. Pagina's met FAQPage-schema worden 3 tot 4 keer vaker als bron in een AI Overview gebruikt dan pagina's zonder."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Werkt SEO nog wel met AI Overviews?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, sterker dan ooit. AI Overviews trekken hun bronnen vrijwel altijd uit de top 10 organische resultaten. Wie hoog rankt, wordt geciteerd; wie geciteerd wordt, krijgt zichtbaarheid bovenaan de pagina én klikken naar zijn site. SEO is dus geen tegenstander van AI Overviews, maar de motor erachter."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke content lijdt het meest onder AI Overviews?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Eenvoudige how-to's, definities, vergelijkingen en feitenvragen verliezen het meeste verkeer. AI beantwoordt deze direct in de Overview. Diepgaande gidsen, casestudies, gespecialiseerde content en commerciële pagina's met productinformatie blijven kliks aantrekken omdat de AI zelf doorverwijst voor het volledige verhaal."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe pas je jouw contentstrategie aan?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Verschuif content van puur informatief naar diepgaand, persoonlijk of commercieel. Schrijf gidsen die antwoord plus context plus voorbeeld bevatten. Voeg ervaringszinnen toe, casestudies en concrete cijfers uit eigen praktijk. AI Overviews citeren feiten, maar mensen klikken voor het verhaal achter de feiten."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel pagina's verschijnen als bron in een Overview?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een typische AI Overview toont 3 tot 8 bron-links rechts naast de tekst. Voor specialistische onderwerpen kan dat oplopen tot 12. Vooraan staan meestal de 2 of 3 sites met het meest geciteerde antwoord. Daarna volgt aanvullende content. Beide posities leveren CTR op."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "AI Overviews en verkeer",
+                                    "item": "https://www.empowers.nl/blogs/geo/google-ai-overviews-betekenen-verkeer"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "AI Overviews en verkeer", "item": "https://www.empowers.nl/blogs/geo/google-ai-overviews-betekenen-verkeer" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

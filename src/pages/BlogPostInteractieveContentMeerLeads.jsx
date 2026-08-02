@@ -28,47 +28,114 @@ export default function BlogPostInteractieveContentMeerLeads() {
                 <meta name="twitter:title" content="Meer leads met interactieve content" />
                 <meta name="twitter:description" content="Hoe quizzen en calculators leads opleveren waar tekst dat niet doet." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Meer leads met interactieve content: zo pak je dat aan",
-                        "description": "Quizzen, calculators en configurators leveren vaak meer leads op dan statische pagina's. Lees hoe je interactieve content slim inzet zonder je site te overcomplicereen.",
-                        "image": "https://www.empowers.nl/images/blogs/interactieve-content-meer-leads.jpg",
-                        "datePublished": "2026-05-11T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Meer leads met interactieve content: zo pak je dat aan",
+                            "description": "Quizzen, calculators en configurators leveren vaak meer leads op dan statische pagina's. Lees hoe je interactieve content slim inzet zonder je site te overcomplicereen.",
+                            "image": "https://www.empowers.nl/images/blogs/interactieve-content-meer-leads.jpg",
+                            "datePublished": "2026-05-11T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is interactieve content precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Interactieve content is content waar de bezoeker actief mee doet in plaats van passief leest of bekijkt. Voorbeelden zijn quizzen, ROI-calculators, productconfigurators, beslisbomen en interactieve infographics. De bezoeker stuurt de inhoud, en jij krijgt waardevolle context terug over wat hij zoekt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom levert interactieve content meer leads op?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Mensen blijven langer op de pagina, voelen meer betrokkenheid en geven uit zichzelf informatie prijs die je anders zou moeten vragen. Het levert ook kwalitatievere leads op: iemand die zijn omzet in een ROI-calculator invult, is concreter aan het nadenken over een aankoop dan iemand die alleen een blog leest."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke vorm werkt het beste voor mijn bedrijf?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat hangt af van je dienst. Voor consultancy en SaaS werken ROI-calculators sterk omdat ze concrete besparingen of opbrengsten laten zien. Voor productbedrijven zijn configurators (kies-je-eigen-variant) effectief. Voor adviesdiensten werken quizzen of beslisbomen die de bezoeker naar het juiste pakket leiden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel kost het om interactieve content te bouwen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor een simpele quiz of calculator kun je terecht bij tools als Outgrow, Riddle of Typeform vanaf circa 30 tot 60 euro per maand. Maatwerk via een developer ligt meestal hoger, maar je houdt de data binnen je eigen systeem. Begin klein met een betaalde tool, en pas later overstappen naar maatwerk als het echt werkt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik vragen om een e-mailadres voordat de uitkomst zichtbaar is?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat kan, maar denk goed na over het moment. Vragen om een e-mailadres vóór de uitkomst verlaagt het aantal voltooide interacties fors. Pas vragen ná de uitkomst (bijvoorbeeld voor een gedetailleerd rapport) houdt meer mensen aan boord. Welke variant beter werkt verschilt per doelgroep, dus test het."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik of mijn interactieve content presteert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Kijk naar drie cijfers: voltooiingspercentage van de interactie, conversieratio naar lead en kwaliteit van de leads (afspraakratio of klantconversie). Een quiz met een hoog voltooiingspercentage maar lage leadkwaliteit vraagt te veel of te oppervlakkig. Een quiz met een laag voltooiingspercentage maar hoge leadkwaliteit is te streng. Bij goede interactieve content liggen beide hoog."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
-                                { "@type": "Question", "name": "Wat is interactieve content precies?", "acceptedAnswer": { "@type": "Answer", "text": "Interactieve content is content waar de bezoeker actief mee doet in plaats van passief leest of bekijkt. Voorbeelden zijn quizzen, ROI-calculators, productconfigurators, beslisbomen en interactieve infographics. De bezoeker stuurt de inhoud, en jij krijgt waardevolle context terug over wat hij zoekt." } },
-                                { "@type": "Question", "name": "Waarom levert interactieve content meer leads op?", "acceptedAnswer": { "@type": "Answer", "text": "Mensen blijven langer op de pagina, voelen meer betrokkenheid en geven uit zichzelf informatie prijs die je anders zou moeten vragen. Het levert ook kwalitatievere leads op: iemand die zijn omzet in een ROI-calculator invult, is concreter aan het nadenken over een aankoop dan iemand die alleen een blog leest." } },
-                                { "@type": "Question", "name": "Welke vorm werkt het beste voor mijn bedrijf?", "acceptedAnswer": { "@type": "Answer", "text": "Dat hangt af van je dienst. Voor consultancy en SaaS werken ROI-calculators sterk omdat ze concrete besparingen of opbrengsten laten zien. Voor productbedrijven zijn configurators (kies-je-eigen-variant) effectief. Voor adviesdiensten werken quizzen of beslisbomen die de bezoeker naar het juiste pakket leiden." } },
-                                { "@type": "Question", "name": "Hoeveel kost het om interactieve content te bouwen?", "acceptedAnswer": { "@type": "Answer", "text": "Voor een simpele quiz of calculator kun je terecht bij tools als Outgrow, Riddle of Typeform vanaf circa 30 tot 60 euro per maand. Maatwerk via een developer ligt meestal hoger, maar je houdt de data binnen je eigen systeem. Begin klein met een betaalde tool, en pas later overstappen naar maatwerk als het echt werkt." } },
-                                { "@type": "Question", "name": "Moet ik vragen om een e-mailadres voordat de uitkomst zichtbaar is?", "acceptedAnswer": { "@type": "Answer", "text": "Dat kan, maar denk goed na over het moment. Vragen om een e-mailadres vóór de uitkomst verlaagt het aantal voltooide interacties fors. Pas vragen ná de uitkomst (bijvoorbeeld voor een gedetailleerd rapport) houdt meer mensen aan boord. Welke variant beter werkt verschilt per doelgroep, dus test het." } },
-                                { "@type": "Question", "name": "Hoe meet ik of mijn interactieve content presteert?", "acceptedAnswer": { "@type": "Answer", "text": "Kijk naar drie cijfers: voltooiingspercentage van de interactie, conversieratio naar lead en kwaliteit van de leads (afspraakratio of klantconversie). Een quiz met een hoog voltooiingspercentage maar lage leadkwaliteit vraagt te veel of te oppervlakkig. Een quiz met een laag voltooiingspercentage maar hoge leadkwaliteit is te streng. Bij goede interactieve content liggen beide hoog." } }
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Interactieve content voor meer leads",
+                                    "item": "https://www.empowers.nl/blogs/strategie/interactieve-content-meer-leads"
+                                }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                            { "@type": "ListItem", "position": 4, "name": "Interactieve content voor meer leads", "item": "https://www.empowers.nl/blogs/strategie/interactieve-content-meer-leads" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

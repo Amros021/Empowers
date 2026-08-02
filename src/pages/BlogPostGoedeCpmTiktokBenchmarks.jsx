@@ -28,97 +28,122 @@ export default function BlogPostGoedeCpmTiktokBenchmarks() {
                 <meta name="twitter:title" content="Goede CPM op TikTok: realistische benchmarks 2026" />
                 <meta name="twitter:description" content="Wat is normaal, wat is duur en wat doe je eraan?" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Wat is een goede CPM op TikTok? Benchmarks per branche en doel",
-                        "description": "Realistische TikTok CPM-benchmarks voor 2026 en hoe je jouw eigen CPM omlaag krijgt.",
-                        "image": "https://www.empowers.nl/images/blogs/goede-cpm-tiktok-benchmarks.jpg",
-                        "datePublished": "2026-05-08T14:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Wat is een goede CPM op TikTok? Benchmarks per branche en doel",
+                            "description": "Realistische TikTok CPM-benchmarks voor 2026 en hoe je jouw eigen CPM omlaag krijgt.",
+                            "image": "https://www.empowers.nl/images/blogs/goede-cpm-tiktok-benchmarks.jpg",
+                            "datePublished": "2026-05-08T14:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede CPM op TikTok in Nederland?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste B2C-campagnes in Nederland ligt een gezonde TikTok CPM tussen 4 en 9 euro per duizend vertoningen. Onder de 4 euro zit je doorgaans op brede awareness met losse interest-targeting. Boven de 9 euro ben je vaak smal aan het targeten of zit je in een veiling met veel concurrentie zoals beauty of finance."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom verschillen CPM's tussen branches?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Veiling-druk. In branches waar veel adverteerders bieden op dezelfde doelgroep (beauty, fashion, financiele dienstverlening) loopt de CPM op. In branches met minder adverteerders (lokale dienstverlening, niche-hobbies, technische B2B) blijven CPM's structureel lager. De prijs van een impressie is een functie van wie er nog meer voor wil betalen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verlaag je je CPM op TikTok?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie wegen werken het sterkst. Verbreed je targeting zodat het algoritme een grotere pool heeft. Verbeter je creatives zodat de hookrate omhoog gaat (lagere CPM is een gevolg van hogere relevantie-score). En zet meerdere creatives tegelijk in een ad group zodat TikTok kan kiezen welke impressie voordelig is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Verschillen CPM's tussen Smart+ en handmatige campagnes?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vaak wel. Smart+ campagnes laten het algoritme bieden zonder targeting-restricties. Resultaat is meestal een lagere effectieve CPM omdat het systeem alleen impressies koopt die het waarschijnlijk acht voor conversie. Handmatige campagnes met smalle targeting hebben vaker een hogere CPM omdat je het algoritme door een kleinere pool dwingt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is een hoge CPM altijd slecht?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. CPM is een input-metric, geen output-metric. Een CPM van 12 euro met een conversiewaarde van 80 euro per klik is gezond. Een CPM van 3 euro met een ROAS van 0,5 is niets waard. Kijk naar CPM in samenhang met CTR, conversie-rate en CAC. Optimaliseer pas op CPM als alle andere knoppen al staan."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verschilt de CPM tussen video-doelen en conversie-doelen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Video-view-doelstellingen leveren typisch lagere CPM's op (3 tot 5 euro) omdat TikTok cheap-impressies kan inkopen. Conversie-doelstellingen liggen hoger (5 tot 10 euro) omdat het algoritme alleen impressies koopt waar het conversie verwacht. Reach-campagnes zitten ergens daartussenin."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een redelijke CPM voor B2B op TikTok?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor B2B-content op TikTok zien we CPM's tussen 3 en 7 euro voor de Nederlandse markt. Dat is fors lager dan vergelijkbaar bereik op LinkedIn (vaak 15 euro of meer). De catch is dat B2B-content op TikTok hoger in de funnel werkt en niet meteen vertaalt naar leads. De waarde komt later in de buyer journey."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede CPM op TikTok in Nederland?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de meeste B2C-campagnes in Nederland ligt een gezonde TikTok CPM tussen 4 en 9 euro per duizend vertoningen. Onder de 4 euro zit je doorgaans op brede awareness met losse interest-targeting. Boven de 9 euro ben je vaak smal aan het targeten of zit je in een veiling met veel concurrentie zoals beauty of finance."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom verschillen CPM's tussen branches?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Veiling-druk. In branches waar veel adverteerders bieden op dezelfde doelgroep (beauty, fashion, financiele dienstverlening) loopt de CPM op. In branches met minder adverteerders (lokale dienstverlening, niche-hobbies, technische B2B) blijven CPM's structureel lager. De prijs van een impressie is een functie van wie er nog meer voor wil betalen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe verlaag je je CPM op TikTok?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie wegen werken het sterkst. Verbreed je targeting zodat het algoritme een grotere pool heeft. Verbeter je creatives zodat de hookrate omhoog gaat (lagere CPM is een gevolg van hogere relevantie-score). En zet meerdere creatives tegelijk in een ad group zodat TikTok kan kiezen welke impressie voordelig is."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Verschillen CPM's tussen Smart+ en handmatige campagnes?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vaak wel. Smart+ campagnes laten het algoritme bieden zonder targeting-restricties. Resultaat is meestal een lagere effectieve CPM omdat het systeem alleen impressies koopt die het waarschijnlijk acht voor conversie. Handmatige campagnes met smalle targeting hebben vaker een hogere CPM omdat je het algoritme door een kleinere pool dwingt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Is een hoge CPM altijd slecht?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee. CPM is een input-metric, geen output-metric. Een CPM van 12 euro met een conversiewaarde van 80 euro per klik is gezond. Een CPM van 3 euro met een ROAS van 0,5 is niets waard. Kijk naar CPM in samenhang met CTR, conversie-rate en CAC. Optimaliseer pas op CPM als alle andere knoppen al staan."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe verschilt de CPM tussen video-doelen en conversie-doelen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Video-view-doelstellingen leveren typisch lagere CPM's op (3 tot 5 euro) omdat TikTok cheap-impressies kan inkopen. Conversie-doelstellingen liggen hoger (5 tot 10 euro) omdat het algoritme alleen impressies koopt waar het conversie verwacht. Reach-campagnes zitten ergens daartussenin."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is een redelijke CPM voor B2B op TikTok?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor B2B-content op TikTok zien we CPM's tussen 3 en 7 euro voor de Nederlandse markt. Dat is fors lager dan vergelijkbaar bereik op LinkedIn (vaak 15 euro of meer). De catch is dat B2B-content op TikTok hoger in de funnel werkt en niet meteen vertaalt naar leads. De waarde komt later in de buyer journey."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Goede CPM op TikTok benchmarks",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/goede-cpm-tiktok-benchmarks"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Goede CPM op TikTok benchmarks", "item": "https://www.empowers.nl/blogs/social-ads/goede-cpm-tiktok-benchmarks" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

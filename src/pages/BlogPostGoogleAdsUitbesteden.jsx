@@ -45,116 +45,115 @@ export default function BlogPostGoogleAdsUitbesteden() {
                 />
                 <meta name="twitter:image" content="https://www.empowers.nl/images/blogs/google-ads-uitbesteden-wanneer-zelf.jpg" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google Ads uitbesteden: wanneer doe je het zelf en wanneer niet?",
-                        "description": "Weet je niet of je Google Ads in-house beheer of uitbesteedt? Lees wanneer het rendabel is en wanneer je beter een specialist inhuurt.",
-                        "image": "https://www.empowers.nl/images/blogs/google-ads-uitbesteden-wanneer-zelf.jpg",
-                        "datePublished": "2026-03-27T00:00:00+01:00",
-                        "dateModified": "2026-03-27T00:00:00+01:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads uitbesteden: wanneer doe je het zelf en wanneer niet?",
+                            "description": "Weet je niet of je Google Ads in-house beheer of uitbesteedt? Lees wanneer het rendabel is en wanneer je beter een specialist inhuurt.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-uitbesteden-wanneer-zelf.jpg",
+                            "datePublished": "2026-03-27T00:00:00+01:00",
+                            "dateModified": "2026-03-27T00:00:00+01:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
                             }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads uitbesteden",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-uitbesteden-wanneer-zelf"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "Wanneer is het slimmer om Google Ads uit te besteden?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Besteed je Google Ads uit als je te weinig tijd hebt, geen ervaring heb of snel groei wilt. Een specialist haalt meer resultaten uit je budget."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoeveel kost het uitbesteden van Google Ads?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "De kosten variëren van 1.000 tot 5.000 euro per maand, afhankelijk van je budget en complexiteit. Veel agencies rekenen 10-20% van je advertentiebudget."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Kan ik mijn Google Ads kampagnes zelf beheren?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, je kan je Google Ads zelf beheren als je tijd hebt, willen leren en een klein budget hebt. Voor grotere budgetten is professioneel beheer meestal rendabeler."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe veel tijd kost Google Ads beheer per week?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Goed Google Ads beheer vraagt minstens 10-15 uur per week. Dat is minstens half-time werk. Zonder voldoende tijd dalen je resultaten snel."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat doet een Google Ads specialist anders dan ik?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Een specialist test voortdurend, optimaliseert je biedstrategie, analyseert data en zoekt naar verbeteringen. Dit leidt tot 30-50% betere ROAS."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Is Google Ads uitbesteden het risico waard?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, maar kies een betrouwbare agency. Een expert haalt meer uit je budget dan amateurwerk. Zorg dat je maandelijks rapportages en inzichten krijgt."
+                                    }
+                                }
+                            ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Google Ads uitbesteden",
-                                "item": "https://www.empowers.nl/blogs/google-ads/google-ads-uitbesteden-wanneer-zelf"
-                            }
-                        ]
-                    })}
-                </script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": [
-                            {
-                                "@type": "Question",
-                                "name": "Wanneer is het slimmer om Google Ads uit te besteden?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Besteed je Google Ads uit als je te weinig tijd hebt, geen ervaring heb of snel groei wilt. Een specialist haalt meer resultaten uit je budget."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Hoeveel kost het uitbesteden van Google Ads?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "De kosten variëren van 1.000 tot 5.000 euro per maand, afhankelijk van je budget en complexiteit. Veel agencies rekenen 10-20% van je advertentiebudget."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Kan ik mijn Google Ads kampagnes zelf beheren?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Ja, je kan je Google Ads zelf beheren als je tijd hebt, willen leren en een klein budget hebt. Voor grotere budgetten is professioneel beheer meestal rendabeler."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Hoe veel tijd kost Google Ads beheer per week?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Goed Google Ads beheer vraagt minstens 10-15 uur per week. Dat is minstens half-time werk. Zonder voldoende tijd dalen je resultaten snel."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Wat doet een Google Ads specialist anders dan ik?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Een specialist test voortdurend, optimaliseert je biedstrategie, analyseert data en zoekt naar verbeteringen. Dit leidt tot 30-50% betere ROAS."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Is Google Ads uitbesteden het risico waard?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Ja, maar kies een betrouwbare agency. Een expert haalt meer uit je budget dan amateurwerk. Zorg dat je maandelijks rapportages en inzichten krijgt."
-                                }
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

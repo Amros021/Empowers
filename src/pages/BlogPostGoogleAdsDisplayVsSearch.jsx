@@ -28,112 +28,114 @@ export default function BlogPostGoogleAdsDisplayVsSearch() {
                 <meta name="twitter:title" content="Google Ads Display vs Search: wanneer kies je wat" />
                 <meta name="twitter:description" content="Display en Search in Google Ads werken heel anders. Lees welk campagnetype past bij jouw doel en budget." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google Ads Display vs Search: wanneer kies je wat",
-                        "description": "Google Ads Display en Search zijn twee totaal verschillende campagnetypes. Lees wanneer je welk type inzet, wat de kosten zijn en welke fouten je moet vermijden.",
-                        "image": "https://www.empowers.nl/images/blogs/google-ads-display-vs-search.jpg",
-                        "datePublished": "2026-04-11T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads Display vs Search: wanneer kies je wat",
+                            "description": "Google Ads Display en Search zijn twee totaal verschillende campagnetypes. Lees wanneer je welk type inzet, wat de kosten zijn en welke fouten je moet vermijden.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-display-vs-search.jpg",
+                            "datePublished": "2026-04-11T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen Google Ads Display en Search?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Search-advertenties verschijnen bovenaan de Google zoekresultaten wanneer iemand actief zoekt op jouw zoekwoord. Display-advertenties zijn visuele banners die worden getoond op websites, apps en YouTube terwijl mensen browsen. Search vangt bestaande vraag op. Display creëert zichtbaarheid en bewustzijn."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost Google Ads Display per klik vergeleken met Search?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Display-advertenties kosten gemiddeld 0,20 tot 1,50 euro per klik. Search-advertenties kosten gemiddeld 1 tot 8 euro per klik, afhankelijk van je branche. Display is goedkoper per klik maar levert meestal een lagere conversieratio op. De kosten per conversie kunnen daardoor vergelijkbaar zijn."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer kies je voor Search-campagnes?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Kies Search als je product of dienst actief gezocht wordt. Bij directe koopintentie zoals 'loodgieter spoed' of 'boekhouder Amsterdam' presteren Search-campagnes het best. Je vangt dan bestaande vraag op van mensen die klaar zijn om actie te ondernemen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer kies je voor Display-campagnes?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Kies Display als je naamsbekendheid wilt opbouwen, een nieuw product lanceert of wilt retargeten. Display werkt goed voor visuele producten en als aanvulling op Search-campagnes. Het bereik is enorm: het Google Display Netwerk omvat meer dan 2 miljoen websites."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kun je Display en Search tegelijk gebruiken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, en dat is vaak de beste aanpak. Search vangt de directe koopintentie op. Display bouwt bekendheid op bij een breder publiek en haalt via retargeting verloren bezoekers terug. De combinatie levert meer conversies op dan een van beide apart."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is de gemiddelde conversieratio van Display vs Search?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Search-campagnes halen gemiddeld een conversieratio van 3 tot 5 procent. Display-campagnes zitten gemiddeld op 0,5 tot 1,5 procent. Dat verschil komt doordat Search-verkeer actieve koopintentie heeft, terwijl Display-verkeer nog in de oriëntatiefase zit."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen Google Ads Display en Search?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Search-advertenties verschijnen bovenaan de Google zoekresultaten wanneer iemand actief zoekt op jouw zoekwoord. Display-advertenties zijn visuele banners die worden getoond op websites, apps en YouTube terwijl mensen browsen. Search vangt bestaande vraag op. Display creëert zichtbaarheid en bewustzijn."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost Google Ads Display per klik vergeleken met Search?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Display-advertenties kosten gemiddeld 0,20 tot 1,50 euro per klik. Search-advertenties kosten gemiddeld 1 tot 8 euro per klik, afhankelijk van je branche. Display is goedkoper per klik maar levert meestal een lagere conversieratio op. De kosten per conversie kunnen daardoor vergelijkbaar zijn."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer kies je voor Search-campagnes?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Kies Search als je product of dienst actief gezocht wordt. Bij directe koopintentie zoals 'loodgieter spoed' of 'boekhouder Amsterdam' presteren Search-campagnes het best. Je vangt dan bestaande vraag op van mensen die klaar zijn om actie te ondernemen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer kies je voor Display-campagnes?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Kies Display als je naamsbekendheid wilt opbouwen, een nieuw product lanceert of wilt retargeten. Display werkt goed voor visuele producten en als aanvulling op Search-campagnes. Het bereik is enorm: het Google Display Netwerk omvat meer dan 2 miljoen websites."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kun je Display en Search tegelijk gebruiken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, en dat is vaak de beste aanpak. Search vangt de directe koopintentie op. Display bouwt bekendheid op bij een breder publiek en haalt via retargeting verloren bezoekers terug. De combinatie levert meer conversies op dan een van beide apart."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is de gemiddelde conversieratio van Display vs Search?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Search-campagnes halen gemiddeld een conversieratio van 3 tot 5 procent. Display-campagnes zitten gemiddeld op 0,5 tot 1,5 procent. Dat verschil komt doordat Search-verkeer actieve koopintentie heeft, terwijl Display-verkeer nog in de oriëntatiefase zit."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Display vs Search",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-display-vs-search"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Display vs Search",
-                                "item": "https://www.empowers.nl/blogs/google-ads/google-ads-display-vs-search"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

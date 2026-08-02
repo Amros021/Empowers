@@ -28,97 +28,122 @@ export default function BlogPostInstagramReelsAdsConverterenCaseStudies() {
                 <meta name="twitter:title" content="Instagram Reels Advertenties: Zo Maak je Ads die Converteren" />
                 <meta name="twitter:description" content="Case studies van Reels ads die niet alleen views maar ook conversies leveren." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Instagram Reels Advertenties: Zo Maak je Ads die Converteren (Niet Alleen Views)",
-                        "description": "Reels ads krijgen vaak veel views maar weinig conversies. Lees met case studies hoe je Reels bouwt die niet alleen scrollen pakken maar ook verkopen.",
-                        "image": "https://www.empowers.nl/images/blogs/instagram-reels-ads-converteren-case-studies.jpg",
-                        "datePublished": "2026-04-14T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Instagram Reels Advertenties: Zo Maak je Ads die Converteren (Niet Alleen Views)",
+                            "description": "Reels ads krijgen vaak veel views maar weinig conversies. Lees met case studies hoe je Reels bouwt die niet alleen scrollen pakken maar ook verkopen.",
+                            "image": "https://www.empowers.nl/images/blogs/instagram-reels-ads-converteren-case-studies.jpg",
+                            "datePublished": "2026-04-14T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom geven mijn Reels veel views maar weinig conversies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Meestal omdat de eerste 3 seconden geen koopintentie aanspreken. Een Reel kan 'entertaining' zijn zonder commercieel signaal. Andromeda toont hem dan aan een breed publiek dat kijkt voor entertainment, niet voor kopen. Voeg in seconde 1 tot 3 een specifiek probleem of resultaat toe dat alleen jouw doelgroep aanspreekt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen Reels en Stories ads in conversie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reels heeft een lagere CPC (1,28 dollar versus 1,83 dollar) en bereikt cold prospects. Stories heeft een hogere outbound tap rate (0,3 tot 0,8 procent) en werkt beter voor warm verkeer. Combineer ze: Reels voor cold prospecting, Stories voor retargeting. Een fashion-shop ging zo van 1,8 ROAS naar 3,4 ROAS in 6 weken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke Reels-formules converteren het beste?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie formules werken consistent: 'Probleem-oplossing-bewijs' (8 tot 12 seconden probleem, 8 tot 12 seconden oplossing, 5 tot 8 seconden klantbewijs), 'voor-en-na transformatie' (visueel direct verschil tonen) en 'persoonlijk verhaal' (gezicht recht in camera, persoonlijke pitch, directe CTA). Skip ASMR-style of pure entertainment-formats voor commerciele Reels."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang moet een conversiegerichte Reel zijn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Tussen 15 en 25 seconden. Korter dan 15 mist context voor een aankoopbeslissing. Langer dan 25 verliest 60 tot 80 procent van de kijkers voor de CTA komt. Voor productdemo's mag het tot 45 seconden, maar zorg dat de hook in de eerste 3 seconden zit en het verhaal blijft verschuiven."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke metric vertelt of je Reels converteert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet completion rate of view count, maar hold rate na seconde 3 en cost per outbound click. Een Reel met 30 procent hold na seconde 3 en 1,50 euro per outbound click presteert beter dan een Reel met 80 procent completion en 4 euro per outbound click. Volume zonder intentie is geen winst."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werken UGC Reels beter dan studio-Reels?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "In 2026 vrijwel altijd. Native-stijl Reels (telefoon, natuurlijk licht, lo-fi editing) hebben gemiddeld 47 procent lagere CPA dan studio-producties. Het Andromeda algoritme distribueert ze breder omdat ze als organische content worden gezien. Investeer in 5 tot 10 UGC Reels per maand, niet in één perfecte studio-versie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel Reels test je tegelijk?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Minimaal drie verschillende creatives per advertentieset, met variatie in hook, formule en CTA. Het algoritme verdeelt budget automatisch naar de winnaar. Vervang elke 2 weken een verliezer door een nieuwe variant. Een gezond Reels-account heeft 8 tot 12 actieve creatives per maand om creative fatigue tegen te gaan."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom geven mijn Reels veel views maar weinig conversies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Meestal omdat de eerste 3 seconden geen koopintentie aanspreken. Een Reel kan 'entertaining' zijn zonder commercieel signaal. Andromeda toont hem dan aan een breed publiek dat kijkt voor entertainment, niet voor kopen. Voeg in seconde 1 tot 3 een specifiek probleem of resultaat toe dat alleen jouw doelgroep aanspreekt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen Reels en Stories ads in conversie?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reels heeft een lagere CPC (1,28 dollar versus 1,83 dollar) en bereikt cold prospects. Stories heeft een hogere outbound tap rate (0,3 tot 0,8 procent) en werkt beter voor warm verkeer. Combineer ze: Reels voor cold prospecting, Stories voor retargeting. Een fashion-shop ging zo van 1,8 ROAS naar 3,4 ROAS in 6 weken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke Reels-formules converteren het beste?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie formules werken consistent: 'Probleem-oplossing-bewijs' (8 tot 12 seconden probleem, 8 tot 12 seconden oplossing, 5 tot 8 seconden klantbewijs), 'voor-en-na transformatie' (visueel direct verschil tonen) en 'persoonlijk verhaal' (gezicht recht in camera, persoonlijke pitch, directe CTA). Skip ASMR-style of pure entertainment-formats voor commerciele Reels."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang moet een conversiegerichte Reel zijn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Tussen 15 en 25 seconden. Korter dan 15 mist context voor een aankoopbeslissing. Langer dan 25 verliest 60 tot 80 procent van de kijkers voor de CTA komt. Voor productdemo's mag het tot 45 seconden, maar zorg dat de hook in de eerste 3 seconden zit en het verhaal blijft verschuiven."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke metric vertelt of je Reels converteert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet completion rate of view count, maar hold rate na seconde 3 en cost per outbound click. Een Reel met 30 procent hold na seconde 3 en 1,50 euro per outbound click presteert beter dan een Reel met 80 procent completion en 4 euro per outbound click. Volume zonder intentie is geen winst."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werken UGC Reels beter dan studio-Reels?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "In 2026 vrijwel altijd. Native-stijl Reels (telefoon, natuurlijk licht, lo-fi editing) hebben gemiddeld 47 procent lagere CPA dan studio-producties. Het Andromeda algoritme distribueert ze breder omdat ze als organische content worden gezien. Investeer in 5 tot 10 UGC Reels per maand, niet in één perfecte studio-versie."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel Reels test je tegelijk?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Minimaal drie verschillende creatives per advertentieset, met variatie in hook, formule en CTA. Het algoritme verdeelt budget automatisch naar de winnaar. Vervang elke 2 weken een verliezer door een nieuwe variant. Een gezond Reels-account heeft 8 tot 12 actieve creatives per maand om creative fatigue tegen te gaan."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Reels ads converteren",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/instagram-reels-ads-converteren-case-studies"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Reels ads converteren", "item": "https://www.empowers.nl/blogs/social-ads/instagram-reels-ads-converteren-case-studies" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

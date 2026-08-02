@@ -28,87 +28,114 @@ export default function BlogPostGoogleAdsDemandGen() {
                 <meta name="twitter:title" content="Google Ads Demand Gen uitgelegd" />
                 <meta name="twitter:description" content="Wat is Demand Gen en wanneer past het bij jouw campagnemix?" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google Ads Demand Gen: wat is het en wanneer gebruik je het?",
-                        "description": "Demand Gen-campagnes bedienen YouTube, Discover en Gmail in één campagne. Wat het is, hoe het verschilt van Performance Max en wanneer het past in jouw mediamix.",
-                        "image": "https://www.empowers.nl/images/blogs/google-ads-demand-gen.jpg",
-                        "datePublished": "2026-05-14T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads Demand Gen: wat is het en wanneer gebruik je het?",
+                            "description": "Demand Gen-campagnes bedienen YouTube, Discover en Gmail in één campagne. Wat het is, hoe het verschilt van Performance Max en wanneer het past in jouw mediamix.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-demand-gen.jpg",
+                            "datePublished": "2026-05-14T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is Google Ads Demand Gen precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Demand Gen is een campagnetype van Google Ads dat advertenties toont op YouTube (inclusief Shorts en in-stream), Discover en Gmail. Het format is opgezet voor visueel sterke campagnes die op sociale media-achtige feeds vraag creëren bij mensen die nog niet actief zoeken. Het verving het oudere Discovery-campagnetype begin 2024."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen Demand Gen en Performance Max?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Performance Max bedient alle Google-inventory (Search, Display, YouTube, Maps, Gmail, Discover) in één campagne. Demand Gen bedient alleen de visuele kanalen YouTube, Discover en Gmail. Demand Gen geeft meer creatieve controle over de visuele kant en is geschikt voor merken die specifiek vraag willen creëren met video en beeld zonder dat een algoritme tegelijk Search-budget verdeelt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer moet ik Demand Gen gebruiken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Demand Gen werkt het beste wanneer je nieuwe doelgroepen wilt bereiken met sterk visueel materiaal, vooral als je goede video-assets hebt en je product visueel aansprekend is. Webshops, lifestyle-merken en bedrijven met productlanceringen halen er meestal de meeste waarde uit. Voor pure Search-intent of B2B-leadgen met weinig visuele assets is het minder geschikt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke creatives heb ik nodig voor Demand Gen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Idealiter een mix van vertical video (9:16) voor YouTube Shorts, horizontal video (16:9) voor in-stream YouTube en square (1:1) en horizontal (1.91:1) beeldformaten voor Discover en Gmail. Plus carrousels van meerdere afbeeldingen voor product-georiënteerde campagnes. Hoe meer kwaliteits-assets je aanlevert, hoe beter het algoritme kan optimaliseren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke biedstrategieën zijn beschikbaar bij Demand Gen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Demand Gen ondersteunt Maximize Conversions, Maximize Conversion Value, Target CPA en Target ROAS, plus Maximize Clicks voor traffic-doelen. De keuze hangt af van je doel: voor leadgen werkt Target CPA goed zodra je 30 tot 50 conversies per maand haalt, voor webshops levert Target ROAS de beste sturing op marges."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goed startbudget voor Demand Gen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op minimaal 30 tot 50 euro per dag per campagne om de leerfase door te komen, in B2C webshop-cases vaak hoger. Een Demand Gen-campagne heeft volume nodig om te leren wat werkt. Met een te laag budget verzandt de campagne in de leerfase zonder bruikbare data op te leveren. Begin met één campagne, twee tot drie ad groups en focus op consistent leveren in plaats van breed uitproberen."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is Google Ads Demand Gen precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Demand Gen is een campagnetype van Google Ads dat advertenties toont op YouTube (inclusief Shorts en in-stream), Discover en Gmail. Het format is opgezet voor visueel sterke campagnes die op sociale media-achtige feeds vraag creëren bij mensen die nog niet actief zoeken. Het verving het oudere Discovery-campagnetype begin 2024."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen Demand Gen en Performance Max?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Performance Max bedient alle Google-inventory (Search, Display, YouTube, Maps, Gmail, Discover) in één campagne. Demand Gen bedient alleen de visuele kanalen YouTube, Discover en Gmail. Demand Gen geeft meer creatieve controle over de visuele kant en is geschikt voor merken die specifiek vraag willen creëren met video en beeld zonder dat een algoritme tegelijk Search-budget verdeelt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer moet ik Demand Gen gebruiken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Demand Gen werkt het beste wanneer je nieuwe doelgroepen wilt bereiken met sterk visueel materiaal, vooral als je goede video-assets hebt en je product visueel aansprekend is. Webshops, lifestyle-merken en bedrijven met productlanceringen halen er meestal de meeste waarde uit. Voor pure Search-intent of B2B-leadgen met weinig visuele assets is het minder geschikt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke creatives heb ik nodig voor Demand Gen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Idealiter een mix van vertical video (9:16) voor YouTube Shorts, horizontal video (16:9) voor in-stream YouTube en square (1:1) en horizontal (1.91:1) beeldformaten voor Discover en Gmail. Plus carrousels van meerdere afbeeldingen voor product-georiënteerde campagnes. Hoe meer kwaliteits-assets je aanlevert, hoe beter het algoritme kan optimaliseren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke biedstrategieën zijn beschikbaar bij Demand Gen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Demand Gen ondersteunt Maximize Conversions, Maximize Conversion Value, Target CPA en Target ROAS, plus Maximize Clicks voor traffic-doelen. De keuze hangt af van je doel: voor leadgen werkt Target CPA goed zodra je 30 tot 50 conversies per maand haalt, voor webshops levert Target ROAS de beste sturing op marges."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is een goed startbudget voor Demand Gen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op minimaal 30 tot 50 euro per dag per campagne om de leerfase door te komen, in B2C webshop-cases vaak hoger. Een Demand Gen-campagne heeft volume nodig om te leren wat werkt. Met een te laag budget verzandt de campagne in de leerfase zonder bruikbare data op te leveren. Begin met één campagne, twee tot drie ad groups en focus op consistent leveren in plaats van breed uitproberen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Demand Gen uitgelegd",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-demand-gen"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Demand Gen uitgelegd", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-demand-gen" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

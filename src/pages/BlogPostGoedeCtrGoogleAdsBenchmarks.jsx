@@ -28,112 +28,114 @@ export default function BlogPostGoedeCtrGoogleAdsBenchmarks() {
                 <meta name="twitter:title" content="Wat is een goede CTR in Google Ads: benchmarks per branche" />
                 <meta name="twitter:description" content="CTR benchmarks per branche voor Google Ads. Ontdek wat normaal is en hoe je jouw klikratio verbetert." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Wat is een goede CTR in Google Ads: benchmarks per branche",
-                        "description": "Een goede CTR in Google Ads ligt tussen de 3 en 8 procent, afhankelijk van je branche. Bekijk de benchmarks per sector en leer hoe je jouw klikratio verbetert.",
-                        "image": "https://www.empowers.nl/images/blogs/goede-ctr-google-ads-benchmarks.jpg",
-                        "datePublished": "2026-04-13T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Wat is een goede CTR in Google Ads: benchmarks per branche",
+                            "description": "Een goede CTR in Google Ads ligt tussen de 3 en 8 procent, afhankelijk van je branche. Bekijk de benchmarks per sector en leer hoe je jouw klikratio verbetert.",
+                            "image": "https://www.empowers.nl/images/blogs/goede-ctr-google-ads-benchmarks.jpg",
+                            "datePublished": "2026-04-13T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede CTR in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een goede CTR in Google Ads voor zoekadvertenties ligt tussen de 3 en 8 procent. Het verschilt sterk per branche. E-commerce en lokale diensten halen vaak 5 tot 8 procent. Juridische en financiele diensten zitten eerder rond 2 tot 4 procent. Alles onder de 2 procent verdient aandacht."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is CTR precies in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "CTR staat voor Click-Through Rate, oftewel klikratio. Het is het percentage mensen dat op je advertentie klikt nadat ze hem hebben gezien. Als 100 mensen je advertentie zien en 5 klikken, is je CTR 5 procent. Google toont dit in je campagne-dashboard."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verbeter je een lage CTR in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin met je zoekwoorden aanscherpen. Brede zoekwoorden trekken irrelevante vertoningen aan die je CTR verlagen. Voeg negatieve zoekwoorden toe. Schrijf koppen die direct aansluiten bij wat iemand zoekt. En test meerdere advertentievarianten om te zien welke beter presteren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Telt CTR mee voor de Quality Score?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, verwachte CTR is een van de drie factoren van je Quality Score. Een hogere CTR verbetert je score, waardoor je minder betaalt per klik en een hogere positie kunt bereiken. Het is een van de snelste manieren om je advertentiekosten te verlagen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede CTR voor Display advertenties?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor Display advertenties is een CTR van 0,5 tot 1 procent al goed. Display werkt anders dan zoekadvertenties. Mensen zoeken niet actief, ze zien je banner terwijl ze iets anders doen. Een lagere CTR is hier normaal en zegt weinig over de kwaliteit van je campagne."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Verschilt de CTR per apparaat in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, mobiel heeft gemiddeld een hogere CTR dan desktop. Dat komt doordat er minder ruimte is op het scherm en advertenties prominenter worden getoond. Maar een hogere CTR op mobiel betekent niet altijd meer conversies. Check altijd je conversieratio per apparaat."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede CTR in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een goede CTR in Google Ads voor zoekadvertenties ligt tussen de 3 en 8 procent. Het verschilt sterk per branche. E-commerce en lokale diensten halen vaak 5 tot 8 procent. Juridische en financiele diensten zitten eerder rond 2 tot 4 procent. Alles onder de 2 procent verdient aandacht."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is CTR precies in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "CTR staat voor Click-Through Rate, oftewel klikratio. Het is het percentage mensen dat op je advertentie klikt nadat ze hem hebben gezien. Als 100 mensen je advertentie zien en 5 klikken, is je CTR 5 procent. Google toont dit in je campagne-dashboard."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe verbeter je een lage CTR in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin met je zoekwoorden aanscherpen. Brede zoekwoorden trekken irrelevante vertoningen aan die je CTR verlagen. Voeg negatieve zoekwoorden toe. Schrijf koppen die direct aansluiten bij wat iemand zoekt. En test meerdere advertentievarianten om te zien welke beter presteren."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Telt CTR mee voor de Quality Score?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, verwachte CTR is een van de drie factoren van je Quality Score. Een hogere CTR verbetert je score, waardoor je minder betaalt per klik en een hogere positie kunt bereiken. Het is een van de snelste manieren om je advertentiekosten te verlagen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede CTR voor Display advertenties?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor Display advertenties is een CTR van 0,5 tot 1 procent al goed. Display werkt anders dan zoekadvertenties. Mensen zoeken niet actief, ze zien je banner terwijl ze iets anders doen. Een lagere CTR is hier normaal en zegt weinig over de kwaliteit van je campagne."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Verschilt de CTR per apparaat in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, mobiel heeft gemiddeld een hogere CTR dan desktop. Dat komt doordat er minder ruimte is op het scherm en advertenties prominenter worden getoond. Maar een hogere CTR op mobiel betekent niet altijd meer conversies. Check altijd je conversieratio per apparaat."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "CTR benchmarks Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/goede-ctr-google-ads-benchmarks"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "CTR benchmarks Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads/goede-ctr-google-ads-benchmarks"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -29,97 +29,122 @@ export default function BlogPostGeoMkbNodigKunWachten() {
                 <meta name="twitter:title" content="GEO voor MKB: nu starten of nog wachten?" />
                 <meta name="twitter:description" content="Wanneer GEO voor het MKB al verschil maakt en wanneer je nog rustig kunt wachten." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "GEO voor MKB: is het al nodig of kun je nog wachten?",
-                        "description": "Een eerlijke analyse voor MKB-ondernemers: wanneer GEO al telt, wanneer wachten kan, en welke basisstappen je nu al zet.",
-                        "image": "https://www.empowers.nl/images/blogs/geo-mkb-nodig-kun-wachten.jpg",
-                        "datePublished": "2026-05-10T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "GEO voor MKB: is het al nodig of kun je nog wachten?",
+                            "description": "Een eerlijke analyse voor MKB-ondernemers: wanneer GEO al telt, wanneer wachten kan, en welke basisstappen je nu al zet.",
+                            "image": "https://www.empowers.nl/images/blogs/geo-mkb-nodig-kun-wachten.jpg",
+                            "datePublished": "2026-05-10T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is GEO nu al nodig voor MKB-bedrijven?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Het hangt af van wat je verkoopt en aan wie. Verkoop je informatieproducten, software, advies of B2B-diensten waar mensen vergelijken voordat ze kopen, dan loont het om nu te starten. Doe je vooral lokaal werk of impulsaankopen, dan kun je voorlopig met SEO en Google Business Profile uitkomen. De urgentie is geen jaartal, maar een functie van je doelgroep."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Aan welke signalen zie je dat GEO nu al impact heeft op je MKB?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie signalen tellen. Daling van organisch verkeer op je informatieve content terwijl rankings stabiel blijven. Klanten die in een eerste gesprek zinnen gebruiken die uit een AI-overzicht lijken te komen. Concurrenten die je niet kent, maar die wel in een ChatGPT- of Perplexity-antwoord verschijnen wanneer je je eigen vakgebied bevraagt. Eén signaal is geen reden tot paniek, twee tegelijk is reden om iets te doen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost een GEO-aanpak voor een MKB?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Veel minder dan een full-service SEO-traject. Een eenmalige scan van je tien belangrijkste pagina's plus FAQ-implementatie ligt vaak rond een paar honderd euro aan eigen werk of een dagdeel met een specialist. Doorlopende monitoring kun je gratis via ChatGPT-tests en Search Console doen. Pas wanneer je structureel zichtbaarheid wilt sturen over meerdere AI-platforms, lopen kosten op."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat GEO-werk effect heeft voor een MKB?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de eerste mentions doorgaans acht tot twaalf weken na publicatie van goed gestructureerde content. Voor MKB ligt het sneller dan voor grote merken, omdat AI-engines minder per backlink wegen en meer per inhoudelijke duidelijkheid. Wel onthoud: één goed FAQ-blok is geen garantie. Het werkt alleen als je hele pagina-architectuur scanbaar is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik GEO uitstellen tot 2027 zonder klanten te verliezen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor sommige bedrijven ja, voor andere niet. Lokale dienstverleners met sterke reviews en een Google Business Profile dat klopt, lopen voorlopig weinig risico. Vergelijkende of informatieve niches niet, want daar verschuift het zoekgedrag het hardst. Wie wil afwachten, doet dat best wel met een minimumaanpak op zak: heldere antwoorden bovenaan elke kernpagina en een werkend FAQ-schema. Dat kost weinig en maakt later opschalen makkelijker."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb ik een specialist nodig of kan ik GEO zelf starten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De eerste stappen kun je zelf zetten. Je tien meest bezochte pagina's herstructureren zodat het antwoord vooraan staat, FAQPage-schema toevoegen, en testen of je merk verschijnt in AI-chatbots. Een specialist verdient zich pas terug wanneer je doorlopend wilt sturen op zichtbaarheid over meerdere platforms tegelijk, of wanneer je content schaalt voor specifieke AI-doelvragen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt GEO ook als ik geen blog of contentmarketing heb?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Beperkt. AI-engines hebben tekst nodig om uit te citeren. Als je site enkel uit een homepage met een korte prijslijst bestaat, valt er weinig te citeren. Een paar uitleg-pagina's of een handvol veelgestelde vragen op een eigen FAQ-pagina geven AI-engines voldoende handvat. Je hoeft geen wekelijkse blog te starten, je hoeft je site wel uit te breiden met antwoord-content."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Is GEO nu al nodig voor MKB-bedrijven?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Het hangt af van wat je verkoopt en aan wie. Verkoop je informatieproducten, software, advies of B2B-diensten waar mensen vergelijken voordat ze kopen, dan loont het om nu te starten. Doe je vooral lokaal werk of impulsaankopen, dan kun je voorlopig met SEO en Google Business Profile uitkomen. De urgentie is geen jaartal, maar een functie van je doelgroep."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Aan welke signalen zie je dat GEO nu al impact heeft op je MKB?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie signalen tellen. Daling van organisch verkeer op je informatieve content terwijl rankings stabiel blijven. Klanten die in een eerste gesprek zinnen gebruiken die uit een AI-overzicht lijken te komen. Concurrenten die je niet kent, maar die wel in een ChatGPT- of Perplexity-antwoord verschijnen wanneer je je eigen vakgebied bevraagt. Eén signaal is geen reden tot paniek, twee tegelijk is reden om iets te doen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost een GEO-aanpak voor een MKB?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Veel minder dan een full-service SEO-traject. Een eenmalige scan van je tien belangrijkste pagina's plus FAQ-implementatie ligt vaak rond een paar honderd euro aan eigen werk of een dagdeel met een specialist. Doorlopende monitoring kun je gratis via ChatGPT-tests en Search Console doen. Pas wanneer je structureel zichtbaarheid wilt sturen over meerdere AI-platforms, lopen kosten op."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat GEO-werk effect heeft voor een MKB?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de eerste mentions doorgaans acht tot twaalf weken na publicatie van goed gestructureerde content. Voor MKB ligt het sneller dan voor grote merken, omdat AI-engines minder per backlink wegen en meer per inhoudelijke duidelijkheid. Wel onthoud: één goed FAQ-blok is geen garantie. Het werkt alleen als je hele pagina-architectuur scanbaar is."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik GEO uitstellen tot 2027 zonder klanten te verliezen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor sommige bedrijven ja, voor andere niet. Lokale dienstverleners met sterke reviews en een Google Business Profile dat klopt, lopen voorlopig weinig risico. Vergelijkende of informatieve niches niet, want daar verschuift het zoekgedrag het hardst. Wie wil afwachten, doet dat best wel met een minimumaanpak op zak: heldere antwoorden bovenaan elke kernpagina en een werkend FAQ-schema. Dat kost weinig en maakt later opschalen makkelijker."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Heb ik een specialist nodig of kan ik GEO zelf starten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De eerste stappen kun je zelf zetten. Je tien meest bezochte pagina's herstructureren zodat het antwoord vooraan staat, FAQPage-schema toevoegen, en testen of je merk verschijnt in AI-chatbots. Een specialist verdient zich pas terug wanneer je doorlopend wilt sturen op zichtbaarheid over meerdere platforms tegelijk, of wanneer je content schaalt voor specifieke AI-doelvragen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt GEO ook als ik geen blog of contentmarketing heb?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Beperkt. AI-engines hebben tekst nodig om uit te citeren. Als je site enkel uit een homepage met een korte prijslijst bestaat, valt er weinig te citeren. Een paar uitleg-pagina's of een handvol veelgestelde vragen op een eigen FAQ-pagina geven AI-engines voldoende handvat. Je hoeft geen wekelijkse blog te starten, je hoeft je site wel uit te breiden met antwoord-content."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "GEO voor MKB",
+                                    "item": "https://www.empowers.nl/blogs/geo/geo-mkb-nodig-kun-wachten"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "GEO voor MKB", "item": "https://www.empowers.nl/blogs/geo/geo-mkb-nodig-kun-wachten" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

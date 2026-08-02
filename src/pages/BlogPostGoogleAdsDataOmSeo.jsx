@@ -28,97 +28,122 @@ export default function BlogPostGoogleAdsDataOmSeo() {
                 <meta name="twitter:title" content="Google Ads data gebruiken om je SEO te verbeteren" />
                 <meta name="twitter:description" content="Hoe je zoektermen, conversies en kliks uit Google Ads inzet om sneller hoger te ranken." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google Ads data gebruiken om je SEO te verbeteren (2026)",
-                        "description": "Google Ads data is goud voor je SEO. Lees hoe je zoektermen, conversies en kliks uit Ads gebruikt om sneller hoger te ranken in Google.",
-                        "image": "https://www.empowers.nl/images/blogs/google-ads-data-om-seo.jpg",
-                        "datePublished": "2026-05-04T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads data gebruiken om je SEO te verbeteren (2026)",
+                            "description": "Google Ads data is goud voor je SEO. Lees hoe je zoektermen, conversies en kliks uit Ads gebruikt om sneller hoger te ranken in Google.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-data-om-seo.jpg",
+                            "datePublished": "2026-05-04T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke Google Ads data is bruikbaar voor SEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De vier waardevolste exports zijn het Search Terms rapport, conversiedata per zoekwoord, advertentieteksten met de hoogste CTR en data over landingspagina's met de hoogste kwaliteitsscore. Deze data laat zien welke termen mensen écht typen, welke woorden tot omzet leiden en welke pagina's al goed presteren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe gebruik je het Search Terms rapport voor SEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Exporteer alle zoektermen van de afgelopen 90 dagen met meer dan 10 vertoningen. Filter op termen die conversies opleverden of een hoge CTR hadden. Dit is een lijst echte zoekvragen waarvoor jouw aanbod relevant is. Bouw blogs en landingspagina's rond die termen, in plaats van te gokken in een keyword tool."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet je welke zoekwoorden geld opleveren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Open in Google Ads het zoekwoorden-rapport en sorteer op conversiewaarde. De zoekwoorden bovenaan zijn de termen die nu al euro's binnenbrengen. Voor diezelfde termen organisch ranken levert vrijwel zeker omzet op zonder klikkosten. SEO-investering op deze termen heeft de laagste risico's."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat dit oplevert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op 3 tot 6 maanden voordat nieuwe SEO content gebaseerd op Ads data zichtbaar resultaat oplevert. Bestaande pagina's optimaliseren met dezelfde data ziet vaak al binnen 4 tot 8 weken stijging in rankings, omdat Google de pagina al kent en alleen de relevantie opnieuw weegt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel Google Ads budget heb je nodig om bruikbare data te verzamelen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor bruikbare zoektermen-data heb je minimaal 30 tot 50 conversies of 500 tot 1000 kliks per campagne nodig. Voor MKB-bedrijven betekent dat meestal 800 tot 2000 euro adverteren over 60 tot 90 dagen. Daarna heb je een dataset waar elk SEO-besluit op te onderbouwen is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt deze aanpak ook voor B2B?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, in B2B is deze methode juist krachtiger. Zoekwoordtools missen vaak niche-vakjargon, maar Google Ads laat exact zien welke termen jouw klanten typen. Een paar honderd kliks op een gerichte campagne levert al een goudmijn aan SEO-zoekwoorden waar concurrenten niet op letten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke fouten kost ondernemers het vaakst budget?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ze gebruiken Ads en SEO als gescheiden silo's. Het Ads-team optimaliseert kliks, het SEO-team gokt op zoekwoorden uit een tool. De data uit Ads blijft ongebruikt. Wie beide combineert, vermijdt blogs schrijven over termen die niemand zoekt en advertentiebudget verbranden op landingspagina's met dunne content."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke Google Ads data is bruikbaar voor SEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De vier waardevolste exports zijn het Search Terms rapport, conversiedata per zoekwoord, advertentieteksten met de hoogste CTR en data over landingspagina's met de hoogste kwaliteitsscore. Deze data laat zien welke termen mensen écht typen, welke woorden tot omzet leiden en welke pagina's al goed presteren."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe gebruik je het Search Terms rapport voor SEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Exporteer alle zoektermen van de afgelopen 90 dagen met meer dan 10 vertoningen. Filter op termen die conversies opleverden of een hoge CTR hadden. Dit is een lijst echte zoekvragen waarvoor jouw aanbod relevant is. Bouw blogs en landingspagina's rond die termen, in plaats van te gokken in een keyword tool."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe weet je welke zoekwoorden geld opleveren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Open in Google Ads het zoekwoorden-rapport en sorteer op conversiewaarde. De zoekwoorden bovenaan zijn de termen die nu al euro's binnenbrengen. Voor diezelfde termen organisch ranken levert vrijwel zeker omzet op zonder klikkosten. SEO-investering op deze termen heeft de laagste risico's."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat dit oplevert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op 3 tot 6 maanden voordat nieuwe SEO content gebaseerd op Ads data zichtbaar resultaat oplevert. Bestaande pagina's optimaliseren met dezelfde data ziet vaak al binnen 4 tot 8 weken stijging in rankings, omdat Google de pagina al kent en alleen de relevantie opnieuw weegt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel Google Ads budget heb je nodig om bruikbare data te verzamelen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor bruikbare zoektermen-data heb je minimaal 30 tot 50 conversies of 500 tot 1000 kliks per campagne nodig. Voor MKB-bedrijven betekent dat meestal 800 tot 2000 euro adverteren over 60 tot 90 dagen. Daarna heb je een dataset waar elk SEO-besluit op te onderbouwen is."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt deze aanpak ook voor B2B?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, in B2B is deze methode juist krachtiger. Zoekwoordtools missen vaak niche-vakjargon, maar Google Ads laat exact zien welke termen jouw klanten typen. Een paar honderd kliks op een gerichte campagne levert al een goudmijn aan SEO-zoekwoorden waar concurrenten niet op letten."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke fouten kost ondernemers het vaakst budget?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ze gebruiken Ads en SEO als gescheiden silo's. Het Ads-team optimaliseert kliks, het SEO-team gokt op zoekwoorden uit een tool. De data uit Ads blijft ongebruikt. Wie beide combineert, vermijdt blogs schrijven over termen die niemand zoekt en advertentiebudget verbranden op landingspagina's met dunne content."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads data om SEO te verbeteren",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-data-om-seo"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Google Ads data om SEO te verbeteren", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-data-om-seo" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

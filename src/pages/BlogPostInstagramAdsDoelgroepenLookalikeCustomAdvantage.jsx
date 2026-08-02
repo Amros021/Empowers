@@ -28,97 +28,122 @@ export default function BlogPostInstagramAdsDoelgroepenLookalikeCustomAdvantage(
                 <meta name="twitter:title" content="Instagram Ads Doelgroepen: Lookalike, Custom en Advantage+ Audiences" />
                 <meta name="twitter:description" content="Wanneer kies je welke targeting voor Instagram ads in 2026?" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Instagram Ads Doelgroepen: Lookalike, Custom en Advantage+ Audiences Uitgelegd",
-                        "description": "Welke doelgroep kies je voor Instagram ads in 2026? Uitleg van Lookalike, Custom en Advantage+ Audiences plus wanneer je welke gebruikt.",
-                        "image": "https://www.empowers.nl/images/blogs/instagram-ads-doelgroepen-lookalike-custom-advantage.jpg",
-                        "datePublished": "2026-04-19T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Instagram Ads Doelgroepen: Lookalike, Custom en Advantage+ Audiences Uitgelegd",
+                            "description": "Welke doelgroep kies je voor Instagram ads in 2026? Uitleg van Lookalike, Custom en Advantage+ Audiences plus wanneer je welke gebruikt.",
+                            "image": "https://www.empowers.nl/images/blogs/instagram-ads-doelgroepen-lookalike-custom-advantage.jpg",
+                            "datePublished": "2026-04-19T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke doelgroep moet ik kiezen voor Instagram ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "In 2026 raadt Meta primair Advantage+ Audiences aan, een brede AI-gestuurde doelgroep waarbij het algoritme zelf de juiste mensen vindt. Voor cold prospecting werkt dat beter dan smal handmatig targeten. Voor retargeting gebruik je Custom Audiences (websitebezoekers, klantenlijst). Voor opschalen Lookalikes van jouw beste klanten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een Custom Audience?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een Custom Audience is een doelgroep die je samenstelt uit jouw eigen data: websitebezoekers via de Pixel, klantenlijst via een geuploade CSV, mensen die met jouw Instagram of Facebook hebben geinteracteerd, of videokijkers. Custom Audiences zijn de basis van retargeting en hebben vrijwel altijd de hoogste ROAS van alle audience-types."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een Lookalike Audience?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een Lookalike Audience laat Meta mensen vinden die statistisch lijken op een bestaande Custom Audience (bijvoorbeeld jouw beste klanten). Je kiest een percentage van 1 tot 10 procent van een land. 1 procent (de smalste) lijkt het meest op de bron en heeft de hoogste conversiekans, 10 procent is breedste maar minder gericht."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn Advantage+ Audiences?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Advantage+ Audiences (sinds 2024) is Meta's AI-gestuurde doelgroep die zelf de juiste mensen vindt op basis van jouw conversiesignalen. Je geeft alleen brede signalen mee (locatie, leeftijd) en optioneel een 'audience suggestion' die het algoritme als startpunt gebruikt. In 2026 is dit het standaard-aanbevolen audience-type voor cold prospecting."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer gebruik je welke doelgroep?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Cold prospecting (top of funnel): Advantage+ Audience of Lookalike 1 tot 5 procent. Mid-funnel (mensen die jou kennen): Custom Audiences van videokijkers, profielbezoekers, engagement. Bottom of funnel (warm verkeer): Custom Audiences van websitebezoekers, abandon cart, klantenlijst. Verschuif budget richting de funnel-fase met de hoogste ROAS."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe groot moet een doelgroep zijn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor cold prospecting raadt Meta in 2026 minimaal 1 tot 2 miljoen mensen aan. Te smal getarget (onder 100.000) maakt schaal moeilijk en verhoogt de CPM. Voor retargeting werkt 5.000 tot 50.000 prima omdat die mensen jou al kennen. Onder 1.000 mensen werkt audience te slecht en stopt Meta vaak met uitleveren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt interesse-targeting nog in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, maar niet zoals vroeger. Privacywijzigingen en het Andromeda-algoritme maken handmatige interesse-targeting steeds minder effectief. In 2026 fungeert interesse-targeting vaak als 'audience suggestion' binnen Advantage+ Audiences. Het algoritme gebruikt jouw interesses als startpunt maar mag breder zoeken om de juiste conversies te vinden."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke doelgroep moet ik kiezen voor Instagram ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "In 2026 raadt Meta primair Advantage+ Audiences aan, een brede AI-gestuurde doelgroep waarbij het algoritme zelf de juiste mensen vindt. Voor cold prospecting werkt dat beter dan smal handmatig targeten. Voor retargeting gebruik je Custom Audiences (websitebezoekers, klantenlijst). Voor opschalen Lookalikes van jouw beste klanten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een Custom Audience?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een Custom Audience is een doelgroep die je samenstelt uit jouw eigen data: websitebezoekers via de Pixel, klantenlijst via een geuploade CSV, mensen die met jouw Instagram of Facebook hebben geinteracteerd, of videokijkers. Custom Audiences zijn de basis van retargeting en hebben vrijwel altijd de hoogste ROAS van alle audience-types."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een Lookalike Audience?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een Lookalike Audience laat Meta mensen vinden die statistisch lijken op een bestaande Custom Audience (bijvoorbeeld jouw beste klanten). Je kiest een percentage van 1 tot 10 procent van een land. 1 procent (de smalste) lijkt het meest op de bron en heeft de hoogste conversiekans, 10 procent is breedste maar minder gericht."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat zijn Advantage+ Audiences?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Advantage+ Audiences (sinds 2024) is Meta's AI-gestuurde doelgroep die zelf de juiste mensen vindt op basis van jouw conversiesignalen. Je geeft alleen brede signalen mee (locatie, leeftijd) en optioneel een 'audience suggestion' die het algoritme als startpunt gebruikt. In 2026 is dit het standaard-aanbevolen audience-type voor cold prospecting."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wanneer gebruik je welke doelgroep?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Cold prospecting (top of funnel): Advantage+ Audience of Lookalike 1 tot 5 procent. Mid-funnel (mensen die jou kennen): Custom Audiences van videokijkers, profielbezoekers, engagement. Bottom of funnel (warm verkeer): Custom Audiences van websitebezoekers, abandon cart, klantenlijst. Verschuif budget richting de funnel-fase met de hoogste ROAS."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe groot moet een doelgroep zijn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor cold prospecting raadt Meta in 2026 minimaal 1 tot 2 miljoen mensen aan. Te smal getarget (onder 100.000) maakt schaal moeilijk en verhoogt de CPM. Voor retargeting werkt 5.000 tot 50.000 prima omdat die mensen jou al kennen. Onder 1.000 mensen werkt audience te slecht en stopt Meta vaak met uitleveren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt interesse-targeting nog in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, maar niet zoals vroeger. Privacywijzigingen en het Andromeda-algoritme maken handmatige interesse-targeting steeds minder effectief. In 2026 fungeert interesse-targeting vaak als 'audience suggestion' binnen Advantage+ Audiences. Het algoritme gebruikt jouw interesses als startpunt maar mag breder zoeken om de juiste conversies te vinden."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Instagram Ads doelgroepen",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/instagram-ads-doelgroepen-lookalike-custom-advantage"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Instagram Ads doelgroepen", "item": "https://www.empowers.nl/blogs/social-ads/instagram-ads-doelgroepen-lookalike-custom-advantage" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

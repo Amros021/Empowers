@@ -28,97 +28,122 @@ export default function BlogPostGoogleAdsRapportageMetricsEcht() {
                 <meta name="twitter:title" content="Google Ads rapportage: welke metrics zijn echt belangrijk" />
                 <meta name="twitter:description" content="Welke Google Ads metrics tellen en welke negeer je gewoon." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google Ads rapportage: welke metrics zijn echt belangrijk",
-                        "description": "Een Google Ads rapportage zit vol cijfers, maar maar een handvol is echt belangrijk. Lees welke metrics tellen en welke je rustig kunt negeren.",
-                        "image": "https://www.empowers.nl/images/blogs/google-ads-rapportage-metrics-echt.jpg",
-                        "datePublished": "2026-04-26T13:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads rapportage: welke metrics zijn echt belangrijk",
+                            "description": "Een Google Ads rapportage zit vol cijfers, maar maar een handvol is echt belangrijk. Lees welke metrics tellen en welke je rustig kunt negeren.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-rapportage-metrics-echt.jpg",
+                            "datePublished": "2026-04-26T13:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke metrics zijn het belangrijkst in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De belangrijkste metrics zijn conversies, kosten per conversie (CPA) en ROAS. Daarnaast geven impression share, conversieratio en gemiddelde positie inzicht in waar je verbetering kunt halen. Klikken en CTR zijn vaak ondergeschikt: een hoge CTR zonder conversies is geen succes."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede ROAS in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een goede ROAS hangt af van jouw marges. Als vuistregel: bij een marge van 50 procent is een ROAS van 2 break-even, dus mik op minimaal 3. Voor producten met lagere marges (15 tot 25 procent) heb je een ROAS van 5 tot 7 nodig om winstgevend te zijn."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik letten op CTR (klikfrequentie)?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "CTR is een hulpmetric, geen doel. Een hoge CTR betekent dat jouw advertentie aanspreekt, maar zegt niets over of die mensen converteren. Combineer CTR altijd met conversieratio. Een advertentie met 8 procent CTR maar 0.5 procent conversieratio levert minder op dan een advertentie met 3 procent CTR en 4 procent conversieratio."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede impression share?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor branded campagnes mik je op 90 procent of hoger, zodat je vrijwel iedereen die jouw merk zoekt bereikt. Voor non-branded is 40 tot 70 procent realistisch, afhankelijk van budget en concurrentie. Onder 30 procent loop je structureel verkeer mis door budget- of biedlimieten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak controleer ik mijn Google Ads rapportage?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dagelijks even kort kijken voor anomalieën, wekelijks een grondige check op trends en maandelijks een diepe rapportage met budget- en strategische beslissingen. Niet vaker, want kortere intervallen leiden tot overreageren op natuurlijke ruis. Reken op minimaal 100 conversies per beslismoment voor betrouwbare data."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke metrics laat ik weg uit mijn rapportage?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vermijd vanity metrics als 'totaal aantal vertoningen' zonder context, of 'gemiddelde positie' (Google rapporteert die niet meer betrouwbaar). Ook 'klikken zonder conversies' is alleen interessant als je echt iets gaat fixen. Houd jouw rapportage strak en richt je op metrics die tot beslissingen leiden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet je het effect van je campagnes op de lange termijn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Combineer Google Ads-data met GA4 of een ander analyseplatform. Kijk niet alleen naar de eerste conversie maar ook naar terugkerende klanten, customer lifetime value en assist-conversies. Een campagne die op het eerste oog 'geen ROAS' lijkt te halen, kan wel laag in de funnel zitten en assist conversies genereren voor andere kanalen."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke metrics zijn het belangrijkst in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De belangrijkste metrics zijn conversies, kosten per conversie (CPA) en ROAS. Daarnaast geven impression share, conversieratio en gemiddelde positie inzicht in waar je verbetering kunt halen. Klikken en CTR zijn vaak ondergeschikt: een hoge CTR zonder conversies is geen succes."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede ROAS in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een goede ROAS hangt af van jouw marges. Als vuistregel: bij een marge van 50 procent is een ROAS van 2 break-even, dus mik op minimaal 3. Voor producten met lagere marges (15 tot 25 procent) heb je een ROAS van 5 tot 7 nodig om winstgevend te zijn."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik letten op CTR (klikfrequentie)?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "CTR is een hulpmetric, geen doel. Een hoge CTR betekent dat jouw advertentie aanspreekt, maar zegt niets over of die mensen converteren. Combineer CTR altijd met conversieratio. Een advertentie met 8 procent CTR maar 0.5 procent conversieratio levert minder op dan een advertentie met 3 procent CTR en 4 procent conversieratio."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede impression share?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor branded campagnes mik je op 90 procent of hoger, zodat je vrijwel iedereen die jouw merk zoekt bereikt. Voor non-branded is 40 tot 70 procent realistisch, afhankelijk van budget en concurrentie. Onder 30 procent loop je structureel verkeer mis door budget- of biedlimieten."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak controleer ik mijn Google Ads rapportage?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dagelijks even kort kijken voor anomalieën, wekelijks een grondige check op trends en maandelijks een diepe rapportage met budget- en strategische beslissingen. Niet vaker, want kortere intervallen leiden tot overreageren op natuurlijke ruis. Reken op minimaal 100 conversies per beslismoment voor betrouwbare data."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke metrics laat ik weg uit mijn rapportage?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vermijd vanity metrics als 'totaal aantal vertoningen' zonder context, of 'gemiddelde positie' (Google rapporteert die niet meer betrouwbaar). Ook 'klikken zonder conversies' is alleen interessant als je echt iets gaat fixen. Houd jouw rapportage strak en richt je op metrics die tot beslissingen leiden."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe meet je het effect van je campagnes op de lange termijn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Combineer Google Ads-data met GA4 of een ander analyseplatform. Kijk niet alleen naar de eerste conversie maar ook naar terugkerende klanten, customer lifetime value en assist-conversies. Een campagne die op het eerste oog 'geen ROAS' lijkt te halen, kan wel laag in de funnel zitten en assist conversies genereren voor andere kanalen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads rapportage metrics",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-rapportage-metrics-echt"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Google Ads rapportage metrics", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-rapportage-metrics-echt" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

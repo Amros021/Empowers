@@ -28,97 +28,122 @@ export default function BlogPostInstagramStoriesAdsConverterenFormules() {
                 <meta name="twitter:title" content="Instagram Stories ads die converteren: 7 bewezen formules" />
                 <meta name="twitter:description" content="Stop met geld verspillen aan Stories die worden weggetapt." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Instagram Stories ads die converteren: 7 bewezen formules",
-                        "description": "Stories ads zijn full-screen, snel en goedkoper dan Feed. Lees 7 bewezen formules om jouw Stories advertenties laten converteren in 2026.",
-                        "image": "https://www.empowers.nl/images/blogs/instagram-stories-ads-converteren-formules.jpg",
-                        "datePublished": "2026-04-17T13:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Instagram Stories ads die converteren: 7 bewezen formules",
+                            "description": "Stories ads zijn full-screen, snel en goedkoper dan Feed. Lees 7 bewezen formules om jouw Stories advertenties laten converteren in 2026.",
+                            "image": "https://www.empowers.nl/images/blogs/instagram-stories-ads-converteren-formules.jpg",
+                            "datePublished": "2026-04-17T13:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn Instagram Stories ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Stories ads zijn full-screen verticale advertenties die tussen organische Stories van mensen verschijnen die je volgt. Het format is 1080x1920 pixels (9:16), maximaal 60 seconden video of statische afbeeldingen die 5 seconden tonen. Ze zijn instant te tappen weg, dus de eerste 2 seconden bepalen alles."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost een Instagram Stories advertentie in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Stories ads hebben in 2026 een gemiddelde CPC van 1,83 dollar (rond 1,70 euro) en een CPM van 6,25 dollar. Dat is aanzienlijk lager dan Feed ads (3,35 dollar CPC, 7,68 dollar CPM). De lagere CPC komt omdat het format immersief en snel is, gebouwd voor directe interactie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang moet een Stories ad zijn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "15 seconden is de sweet spot. Korter dan 10 seconden mist context, langer dan 20 seconden ziet de helft van de kijkers niet het einde. Verdeel de 15 seconden in drie blokken: seconde 1 tot 3 hook, 4 tot 10 boodschap, 11 tot 15 CTA met duidelijke instructie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede Stories ad CTR?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor Stories ligt de gemiddelde CTR tussen 0,33 en 0,54 procent. Belangrijker dan CTR is de outbound tap rate, het percentage kijkers dat op de CTA-knop tikt. Een gezonde benchmark is 0,3 tot 0,8 procent. Boven 1 procent is sterk. Letterboxed creative scoort 30 tot 40 procent slechter dan native 9:16."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke CTA werkt het beste op Stories?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Specifieke CTA's verslaan generieke. 'Swipe up voor de gratis audit' presteert 30 tot 50 procent beter dan 'Learn more'. Vertel exact wat er gebeurt na de tap. Vermijd vage uitspraken als 'Link in bio' of 'Check this out'. Lage frictie + duidelijk voordeel converteert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak mag een gebruiker dezelfde Stories ad zien?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Cap de frequentie op 3 tot 4 vertoningen per 7 dagen voor warm verkeer en 2 tot 3 voor cold verkeer. Daarboven raakt het algoritme oververhit en stijgt de CPM. Te lage frequentie (onder 1) zorgt dat de boodschap niet blijft hangen. Houd de frequentie tussen 1,5 en 2,5 voor de meest efficiënte schaal."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke metrics laten zien of een Stories ad werkt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Naast standaard ROAS en CPA: tap-forward rate (mensen die wegswipen, idealiter onder 70 procent), exit rate (mensen die Stories sluiten, onder 5 procent gezond), reply rate en outbound tap rate. Een hoge tap-forward op kaart 2 betekent dat de narrative drop heeft. Monitor die per kaart, niet alleen op campagneniveau."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat zijn Instagram Stories ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Stories ads zijn full-screen verticale advertenties die tussen organische Stories van mensen verschijnen die je volgt. Het format is 1080x1920 pixels (9:16), maximaal 60 seconden video of statische afbeeldingen die 5 seconden tonen. Ze zijn instant te tappen weg, dus de eerste 2 seconden bepalen alles."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost een Instagram Stories advertentie in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Stories ads hebben in 2026 een gemiddelde CPC van 1,83 dollar (rond 1,70 euro) en een CPM van 6,25 dollar. Dat is aanzienlijk lager dan Feed ads (3,35 dollar CPC, 7,68 dollar CPM). De lagere CPC komt omdat het format immersief en snel is, gebouwd voor directe interactie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang moet een Stories ad zijn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "15 seconden is de sweet spot. Korter dan 10 seconden mist context, langer dan 20 seconden ziet de helft van de kijkers niet het einde. Verdeel de 15 seconden in drie blokken: seconde 1 tot 3 hook, 4 tot 10 boodschap, 11 tot 15 CTA met duidelijke instructie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede Stories ad CTR?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor Stories ligt de gemiddelde CTR tussen 0,33 en 0,54 procent. Belangrijker dan CTR is de outbound tap rate, het percentage kijkers dat op de CTA-knop tikt. Een gezonde benchmark is 0,3 tot 0,8 procent. Boven 1 procent is sterk. Letterboxed creative scoort 30 tot 40 procent slechter dan native 9:16."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke CTA werkt het beste op Stories?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Specifieke CTA's verslaan generieke. 'Swipe up voor de gratis audit' presteert 30 tot 50 procent beter dan 'Learn more'. Vertel exact wat er gebeurt na de tap. Vermijd vage uitspraken als 'Link in bio' of 'Check this out'. Lage frictie + duidelijk voordeel converteert."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak mag een gebruiker dezelfde Stories ad zien?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Cap de frequentie op 3 tot 4 vertoningen per 7 dagen voor warm verkeer en 2 tot 3 voor cold verkeer. Daarboven raakt het algoritme oververhit en stijgt de CPM. Te lage frequentie (onder 1) zorgt dat de boodschap niet blijft hangen. Houd de frequentie tussen 1,5 en 2,5 voor de meest efficiënte schaal."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke metrics laten zien of een Stories ad werkt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Naast standaard ROAS en CPA: tap-forward rate (mensen die wegswipen, idealiter onder 70 procent), exit rate (mensen die Stories sluiten, onder 5 procent gezond), reply rate en outbound tap rate. Een hoge tap-forward op kaart 2 betekent dat de narrative drop heeft. Monitor die per kaart, niet alleen op campagneniveau."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Instagram Stories ads formules",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/instagram-stories-ads-converteren-formules"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Instagram Stories ads formules", "item": "https://www.empowers.nl/blogs/social-ads/instagram-stories-ads-converteren-formules" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

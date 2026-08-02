@@ -29,8 +29,16 @@ export default function BlogPostGoogleAdsSeizoensgebondenAdverteren() {
                             "headline": "Google Ads seizoensgebonden adverteren: speel in op pieken",
                             "image": "https://www.empowers.nl/images/blogs/google-ads-seizoensgebonden-adverteren-speel.jpg",
                             "description": "Pieken in jouw branche slim benutten met Google Ads? Lees hoe je vooraf opbouwt, tijdens de piek wint en daarna niets weglekt.",
-                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-05-05T09:00:00+02:00",
                             "dateModified": "2026-05-05T09:00:00+02:00",
                             "url": "https://www.empowers.nl/blogs/google-ads/google-ads-seizoensgebonden-adverteren-speel"
@@ -38,27 +46,91 @@ export default function BlogPostGoogleAdsSeizoensgebondenAdverteren() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Hoe ver van tevoren start je een seizoenscampagne?", "acceptedAnswer": { "@type": "Answer", "text": "Reken op vier tot zes weken aanloop voor consumentenpieken zoals Sinterklaas, Black Friday of Moederdag. Smart Bidding heeft minimaal twee weken nodig om patronen te leren, en je wilt voor de echte piek al stabiel draaien. Voor B2B-pieken die kleiner en langer zijn (zoals begin-van-het-kwartaal) kan twee weken vooraf voldoende zijn." } },
-                                { "@type": "Question", "name": "Moet ik mijn budget verhogen tijdens een piek?", "acceptedAnswer": { "@type": "Answer", "text": "Bijna altijd. Concurrentie veilt op dezelfde momenten, dus je CPC stijgt mee. Verhoog niet het maximum maar het dagbudget. Bij Maximize Conversions of tROAS volgt het systeem de vraag, mits je niet beperkt wordt door het dagbudget. Reken doorgaans op een verdubbeling van je gewone dagbudget tijdens echte piekdagen, soms wat meer." } },
-                                { "@type": "Question", "name": "Werkt Smart Bidding goed tijdens een piek?", "acceptedAnswer": { "@type": "Answer", "text": "Ja, op voorwaarde dat je de seizoensaanpassing in Google Ads correct instelt. Geef het systeem een seizoensaanpassing op met de verwachte conversieratio-stijging en de exacte datums. Zo weet de algoritme dat het hoger mag bieden zonder verkeerde conclusies te trekken uit een tijdelijke piek." } },
-                                { "@type": "Question", "name": "Welke seizoenen telt voor jouw branche?", "acceptedAnswer": { "@type": "Answer", "text": "Voor webshops: Black Friday, Sinterklaas, Kerst, Valentijn, Moederdag, Vaderdag, en de seizoenswissels (zomer/winter). Voor diensten: vaak januari (nieuwe budgetten, nieuwe doelen) en september (terug van vakantie). Check Google Trends en je eigen Analytics-historie. De pieken die jij ziet, zien jouw concurrenten ook." } },
-                                { "@type": "Question", "name": "Hoe voorkom je dat je na de piek geld blijft wegspoelen?", "acceptedAnswer": { "@type": "Answer", "text": "Plan een afbouwperiode net zo zorgvuldig als de opbouw. Schroef budgetten en biedingen geleidelijk terug, niet in één klap. En zet je seizoensaanpassing in Google Ads ook weer uit. Veel adverteerders vergeten dat en houden tot weken later een opgeblazen kostenstructuur." } },
-                                { "@type": "Question", "name": "Loont seizoensgebonden adverteren ook voor kleine adverteerders?", "acceptedAnswer": { "@type": "Answer", "text": "Voor kleine MKB-budgetten zijn pieken juist het slimste moment om te adverteren. De zoekintentie is hoog, de conversiekans is groter en je kunt je beperkte budget concentreren waar het het meeste oplevert. Liever vier weken volle gas dan twaalf maanden half." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe ver van tevoren start je een seizoenscampagne?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Reken op vier tot zes weken aanloop voor consumentenpieken zoals Sinterklaas, Black Friday of Moederdag. Smart Bidding heeft minimaal twee weken nodig om patronen te leren, en je wilt voor de echte piek al stabiel draaien. Voor B2B-pieken die kleiner en langer zijn (zoals begin-van-het-kwartaal) kan twee weken vooraf voldoende zijn."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Moet ik mijn budget verhogen tijdens een piek?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Bijna altijd. Concurrentie veilt op dezelfde momenten, dus je CPC stijgt mee. Verhoog niet het maximum maar het dagbudget. Bij Maximize Conversions of tROAS volgt het systeem de vraag, mits je niet beperkt wordt door het dagbudget. Reken doorgaans op een verdubbeling van je gewone dagbudget tijdens echte piekdagen, soms wat meer."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Werkt Smart Bidding goed tijdens een piek?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, op voorwaarde dat je de seizoensaanpassing in Google Ads correct instelt. Geef het systeem een seizoensaanpassing op met de verwachte conversieratio-stijging en de exacte datums. Zo weet de algoritme dat het hoger mag bieden zonder verkeerde conclusies te trekken uit een tijdelijke piek."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Welke seizoenen telt voor jouw branche?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Voor webshops: Black Friday, Sinterklaas, Kerst, Valentijn, Moederdag, Vaderdag, en de seizoenswissels (zomer/winter). Voor diensten: vaak januari (nieuwe budgetten, nieuwe doelen) en september (terug van vakantie). Check Google Trends en je eigen Analytics-historie. De pieken die jij ziet, zien jouw concurrenten ook."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe voorkom je dat je na de piek geld blijft wegspoelen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Plan een afbouwperiode net zo zorgvuldig als de opbouw. Schroef budgetten en biedingen geleidelijk terug, niet in één klap. En zet je seizoensaanpassing in Google Ads ook weer uit. Veel adverteerders vergeten dat en houden tot weken later een opgeblazen kostenstructuur."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Loont seizoensgebonden adverteren ook voor kleine adverteerders?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Voor kleine MKB-budgetten zijn pieken juist het slimste moment om te adverteren. De zoekintentie is hoog, de conversiekans is groter en je kunt je beperkte budget concentreren waar het het meeste oplevert. Liever vier weken volle gas dan twaalf maanden half."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads seizoensgebonden adverteren",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-seizoensgebonden-adverteren-speel"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Google Ads seizoensgebonden adverteren", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-seizoensgebonden-adverteren-speel" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Google Ads seizoensgebonden adverteren: speel in op pieken" />
+        <meta name="twitter:description" content="Pieken in jouw branche slim benutten met Google Ads? Lees hoe je vooraf opbouwt, tijdens de piek wint en daarna niets we" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

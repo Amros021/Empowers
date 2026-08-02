@@ -28,97 +28,122 @@ export default function BlogPostInstagramReelsAdvertentiesBereikMeer() {
                 <meta name="twitter:title" content="Instagram Reels advertenties: bereik meer klanten met korte video" />
                 <meta name="twitter:description" content="Zo maak je Reels-advertenties die scrollers laten stoppen." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Instagram Reels advertenties: bereik meer klanten met korte video",
-                        "description": "Reels ads zijn in 2026 het goedkoopste Instagram-formaat. Lees hoe je een Reels advertentie maakt die scrollt, vasthoudt en converteert.",
-                        "image": "https://www.empowers.nl/images/blogs/instagram-reels-advertenties-bereik-meer.jpg",
-                        "datePublished": "2026-04-11T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Instagram Reels advertenties: bereik meer klanten met korte video",
+                            "description": "Reels ads zijn in 2026 het goedkoopste Instagram-formaat. Lees hoe je een Reels advertentie maakt die scrollt, vasthoudt en converteert.",
+                            "image": "https://www.empowers.nl/images/blogs/instagram-reels-advertenties-bereik-meer.jpg",
+                            "datePublished": "2026-04-11T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een Instagram Reels advertentie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een Reels-advertentie is een verticale videoadvertentie van maximaal 90 seconden die tussen organische Reels op Instagram en Facebook wordt getoond. Het format is 1080x1920 pixels (9:16 ratio), volledig schermvullend en speelt automatisch af met geluid aan. Ze gedragen zich als organische Reels, maar bevatten een 'Sponsored'-label en een CTA-knop."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost een Reels advertentie in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reels ads hebben in 2026 een gemiddelde CPC van rond 1,28 dollar, dat is 26 procent lager dan Facebook Feed ads. CPM ligt afhankelijk van de branche tussen 4 en 9 dollar. Voor MKB-bedrijven zijn Reels daarmee vaak het goedkoopste plaatsingstype binnen Meta, vooral voor cold prospecting waar volume telt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang moet een Reels advertentie zijn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Tussen 15 en 30 seconden werkt het beste. Reels-gebruikers verwachten korte, snelle content. Langer dan 30 seconden zorgt voor een sterk hogere drop-off en lagere completion rate. Voor productuitleg of demo's mag het tot 60 seconden, maar zorg dan dat de hook in de eerste 3 seconden zit."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke afmetingen heeft een Reels advertentie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "1080x1920 pixels in 9:16 verticale ratio. Houd belangrijke tekst en logo's binnen de safe zone: minstens 250 pixels van de bovenkant en 340 pixels van de onderkant vrijhouden, anders verschijnen ze achter Instagram-UI elementen. Bestandsformaat MP4 of MOV met H.264-codec en maximaal 4 GB."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt geluid uit op Reels?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Geluid is op Reels juist een voordeel. In tegenstelling tot Feed (waar de meeste mensen kijken zonder geluid) zit de Reels-gebruiker vrijwel altijd in sound-on mode. Reels met audio scoren gemiddeld 35 procent beter op completion rate dan dezelfde video zonder geluid. Gebruik dus altijd voice-over, muziek of natuurlijk audio."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet je een Reels advertentie professioneel laten opnemen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee, integendeel. In 2026 presteren native-stijl Reels (handheld telefoon, natuurlijk licht, lo-fi editing) consistent beter dan studio-producties. Mensen herkennen polished ads instant en scrollen door. Een ondernemer die we begeleidden zag de CPA met 47 procent dalen door over te stappen van een agency-shoot naar telefoonopnames."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kun je Reels combineren met andere plaatsingen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Met Advantage+ Placements verdeelt Meta jouw budget automatisch over de plaatsingen die het beste presteren. Voor een goede Reels-campagne maak je wel een aparte verticale 9:16 video aan, anders wordt jouw Feed-creative gecropt en presteert die slecht in Reels. Dit kost je 30 tot 40 procent engagement."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een Instagram Reels advertentie?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een Reels-advertentie is een verticale videoadvertentie van maximaal 90 seconden die tussen organische Reels op Instagram en Facebook wordt getoond. Het format is 1080x1920 pixels (9:16 ratio), volledig schermvullend en speelt automatisch af met geluid aan. Ze gedragen zich als organische Reels, maar bevatten een 'Sponsored'-label en een CTA-knop."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost een Reels advertentie in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reels ads hebben in 2026 een gemiddelde CPC van rond 1,28 dollar, dat is 26 procent lager dan Facebook Feed ads. CPM ligt afhankelijk van de branche tussen 4 en 9 dollar. Voor MKB-bedrijven zijn Reels daarmee vaak het goedkoopste plaatsingstype binnen Meta, vooral voor cold prospecting waar volume telt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang moet een Reels advertentie zijn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Tussen 15 en 30 seconden werkt het beste. Reels-gebruikers verwachten korte, snelle content. Langer dan 30 seconden zorgt voor een sterk hogere drop-off en lagere completion rate. Voor productuitleg of demo's mag het tot 60 seconden, maar zorg dan dat de hook in de eerste 3 seconden zit."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke afmetingen heeft een Reels advertentie?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "1080x1920 pixels in 9:16 verticale ratio. Houd belangrijke tekst en logo's binnen de safe zone: minstens 250 pixels van de bovenkant en 340 pixels van de onderkant vrijhouden, anders verschijnen ze achter Instagram-UI elementen. Bestandsformaat MP4 of MOV met H.264-codec en maximaal 4 GB."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt geluid uit op Reels?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Geluid is op Reels juist een voordeel. In tegenstelling tot Feed (waar de meeste mensen kijken zonder geluid) zit de Reels-gebruiker vrijwel altijd in sound-on mode. Reels met audio scoren gemiddeld 35 procent beter op completion rate dan dezelfde video zonder geluid. Gebruik dus altijd voice-over, muziek of natuurlijk audio."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet je een Reels advertentie professioneel laten opnemen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee, integendeel. In 2026 presteren native-stijl Reels (handheld telefoon, natuurlijk licht, lo-fi editing) consistent beter dan studio-producties. Mensen herkennen polished ads instant en scrollen door. Een ondernemer die we begeleidden zag de CPA met 47 procent dalen door over te stappen van een agency-shoot naar telefoonopnames."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kun je Reels combineren met andere plaatsingen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Met Advantage+ Placements verdeelt Meta jouw budget automatisch over de plaatsingen die het beste presteren. Voor een goede Reels-campagne maak je wel een aparte verticale 9:16 video aan, anders wordt jouw Feed-creative gecropt en presteert die slecht in Reels. Dit kost je 30 tot 40 procent engagement."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Instagram Reels advertenties",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/instagram-reels-advertenties-bereik-meer"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Instagram Reels advertenties", "item": "https://www.empowers.nl/blogs/social-ads/instagram-reels-advertenties-bereik-meer" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

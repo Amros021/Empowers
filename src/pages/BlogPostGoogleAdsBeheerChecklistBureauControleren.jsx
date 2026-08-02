@@ -28,97 +28,122 @@ export default function BlogPostGoogleAdsBeheerChecklistBureauControleren() {
                 <meta name="twitter:title" content="Google Ads Beheer Checklist 2026: controleer of jouw bureau echt levert" />
                 <meta name="twitter:description" content="In 30 minuten weten of je Google Ads beheer rendement oplevert." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google Ads Beheer: Maandelijkse Checklist om je Bureau te Controleren 2026",
-                        "description": "Heb je een bureau dat jouw Google Ads beheer doet? Met deze maandelijkse checklist controleer je in 30 minuten of zij echt voor jouw rendement werken.",
-                        "image": "https://www.empowers.nl/images/blogs/google-ads-beheer-checklist-bureau-controleren.jpg",
-                        "datePublished": "2026-04-28T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads Beheer: Maandelijkse Checklist om je Bureau te Controleren 2026",
+                            "description": "Heb je een bureau dat jouw Google Ads beheer doet? Met deze maandelijkse checklist controleer je in 30 minuten of zij echt voor jouw rendement werken.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-beheer-checklist-bureau-controleren.jpg",
+                            "datePublished": "2026-04-28T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet ik mijn Google Ads beheer bureau controleren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Maandelijks 30 minuten is genoeg om de belangrijkste signalen te checken. Wekelijks bijhouden leidt tot ruis-gedreven beslissingen want kortetermijnschommelingen zijn statistisch onbetrouwbaar. Een grondige kwartaalreview met een onafhankelijke audit helpt om dieper te kijken naar accountstructuur en strategische beslissingen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke metrics laten zien of mijn Google Ads beheer goed gaat?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vier metrics tellen echt: ROAS (omzet per euro spend), CPA (kosten per conversie), conversieratio en impression share lost to rank. Een gezonde campagne laat een stabiele of stijgende ROAS zien over kwartalen, een CPA binnen jouw target en impression share lost to rank onder 30 procent."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een rode vlag in Google Ads beheer?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vijf rode vlaggen: een rapportage zonder concrete actiepunten voor de komende maand, dezelfde campagnestructuur al 6 maanden ongewijzigd, geen splitsing tussen branded en non-branded, geen wekelijkse zoekwoordcheck en een ROAS die alleen wordt gerapporteerd op gemiddelde (niet per campagnetype). Eén of twee van deze signalen zijn al reden om kritisch door te vragen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Mag ik zelf in mijn Google Ads account kijken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet alleen mag het, het hoort. Vraag standaard read-only toegang tot het Google Ads account zelf, niet alleen tot de rapportages die het bureau stuurt. Een goed bureau geeft die toegang zonder discussie. Weigert het bureau dat, of doet het moeilijk over login-credentials, dan is dat een serieuze rode vlag."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost goed Google Ads beheer per maand?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "In Nederland reken je voor MKB op 500 tot 1.500 euro per maand beheerskosten, soms als vast bedrag, soms als percentage van het mediabudget (10 tot 15 procent gangbaar). Onder de 500 euro krijg je vaak alleen automatisering, geen strategische input. Boven de 1.500 euro mag je een specialist verwachten met wekelijkse touchpoints."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of mijn campagnestructuur goed is?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie eisen: branded en non-branded staan in aparte campagnes, advertentiegroepen bevatten thematisch geclusterde zoekwoorden (max 15 tot 20 per groep) en biedstrategie matched het doel (Doel-CPA voor leads, Doel-ROAS voor e-commerce). Een chaotische structuur met 1 advertentiegroep van 100 zoekwoorden is bijna altijd een teken dat het bureau geen tijd of expertise erin steekt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer moet ik overstappen naar een ander bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Als drie of meer rode vlaggen al maandenlang aanwezig zijn, als de rapportage nooit verandert ondanks veranderde resultaten, of als je merkt dat je antwoorden krijgt die niet kloppen bij de cijfers in het account zelf. Geef wel altijd eerst de kans om bij te sturen via een concreet gesprek met een actielijst en deadline. Pas als ook dat niet leidt tot verandering is overstappen verstandig."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak moet ik mijn Google Ads beheer bureau controleren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Maandelijks 30 minuten is genoeg om de belangrijkste signalen te checken. Wekelijks bijhouden leidt tot ruis-gedreven beslissingen want kortetermijnschommelingen zijn statistisch onbetrouwbaar. Een grondige kwartaalreview met een onafhankelijke audit helpt om dieper te kijken naar accountstructuur en strategische beslissingen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke metrics laten zien of mijn Google Ads beheer goed gaat?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vier metrics tellen echt: ROAS (omzet per euro spend), CPA (kosten per conversie), conversieratio en impression share lost to rank. Een gezonde campagne laat een stabiele of stijgende ROAS zien over kwartalen, een CPA binnen jouw target en impression share lost to rank onder 30 procent."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een rode vlag in Google Ads beheer?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vijf rode vlaggen: een rapportage zonder concrete actiepunten voor de komende maand, dezelfde campagnestructuur al 6 maanden ongewijzigd, geen splitsing tussen branded en non-branded, geen wekelijkse zoekwoordcheck en een ROAS die alleen wordt gerapporteerd op gemiddelde (niet per campagnetype). Eén of twee van deze signalen zijn al reden om kritisch door te vragen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Mag ik zelf in mijn Google Ads account kijken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet alleen mag het, het hoort. Vraag standaard read-only toegang tot het Google Ads account zelf, niet alleen tot de rapportages die het bureau stuurt. Een goed bureau geeft die toegang zonder discussie. Weigert het bureau dat, of doet het moeilijk over login-credentials, dan is dat een serieuze rode vlag."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat kost goed Google Ads beheer per maand?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "In Nederland reken je voor MKB op 500 tot 1.500 euro per maand beheerskosten, soms als vast bedrag, soms als percentage van het mediabudget (10 tot 15 procent gangbaar). Onder de 500 euro krijg je vaak alleen automatisering, geen strategische input. Boven de 1.500 euro mag je een specialist verwachten met wekelijkse touchpoints."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe weet ik of mijn campagnestructuur goed is?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie eisen: branded en non-branded staan in aparte campagnes, advertentiegroepen bevatten thematisch geclusterde zoekwoorden (max 15 tot 20 per groep) en biedstrategie matched het doel (Doel-CPA voor leads, Doel-ROAS voor e-commerce). Een chaotische structuur met 1 advertentiegroep van 100 zoekwoorden is bijna altijd een teken dat het bureau geen tijd of expertise erin steekt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wanneer moet ik overstappen naar een ander bureau?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Als drie of meer rode vlaggen al maandenlang aanwezig zijn, als de rapportage nooit verandert ondanks veranderde resultaten, of als je merkt dat je antwoorden krijgt die niet kloppen bij de cijfers in het account zelf. Geef wel altijd eerst de kans om bij te sturen via een concreet gesprek met een actielijst en deadline. Pas als ook dat niet leidt tot verandering is overstappen verstandig."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads beheer checklist",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-beheer-checklist-bureau-controleren"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Google Ads beheer checklist", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-beheer-checklist-bureau-controleren" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

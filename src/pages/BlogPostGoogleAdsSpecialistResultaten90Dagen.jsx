@@ -23,36 +23,110 @@ export default function BlogPostGoogleAdsSpecialistResultaten90Dagen() {
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "Article",
-                    "headline": "Google Ads specialist inhuren: deze 3 resultaten moet je binnen 90 dagen zien",
-                    "description": "De drie concrete resultaten die een Google Ads specialist binnen drie maanden moet leveren en hoe je ze als opdrachtgever zelf controleert.",
-                    "image": "https://www.empowers.nl/images/blogs/google-ads-specialist-resultaten-90-dagen.jpg",
-                    "datePublished": "2026-05-14T11:00:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                    "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                        { "@type": "Question", "name": "Hoe snel mag ik resultaat verwachten van een Google Ads specialist?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor accounts met bestaande campagnes mag je binnen 30 dagen wezenlijke verbetering in CPA of ROAS zien. Voor nieuwe accounts ligt de eerste meetbare beweging na 4 tot 6 weken, omdat Smart Bidding eerst zijn leerfase moet doorlopen. Op 90 dagen mag je structurele beweging zien op drie fronten: kosten per conversie, kwaliteit van de leads en accountstructuur." } },
-                        { "@type": "Question", "name": "Wat als ik na 90 dagen geen verbetering zie?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Plan een open gesprek met de specialist waarin je vraagt naar concrete verklaringen per metric. Is de CPA gestegen door externe markt, of door verkeerde bidding strategy? Komt het aan op trackingproblemen, of op slechte landingspagina's? Een professional heeft een gegrond verhaal per beweging. Een vage uitleg is op zichzelf al een diagnose." } },
-                        { "@type": "Question", "name": "Wat kost een Google Ads specialist gemiddeld in 2026?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor een gespecialiseerde freelancer ligt het maandelijkse fee tussen 1.000 en 3.500 euro bij MKB-budgetten. Bureaus zitten doorgaans iets hoger door overhead. Onder de 750 euro per maand krijg je vrijwel altijd account-onderhoud zonder strategie. Boven de 5.000 euro maandelijks is het redelijk een team van meerdere disciplines te verwachten." } },
-                        { "@type": "Question", "name": "Wat is een redelijke CPA-verbetering in 90 dagen?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Dat hangt sterk af van de startsituatie. Bij een verwaarloosd account met veel wasted spend is een daling van een derde of meer realistisch. Bij een al goed lopend account zijn winsten kleiner en zijn enkelvoudige percentage-verbeteringen al een gezond signaal. Specialisten die direct beloven 'de CPA te halveren' liegen meestal of zien de startsituatie nog niet." } },
-                        { "@type": "Question", "name": "Kan ik zelf zien wat een specialist in mijn account heeft veranderd?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Ja. In Google Ads zit een Change History (Wijzigingsgeschiedenis) waar elke wijziging chronologisch is gelogd, inclusief wie hem deed. Vraag bij twijfel een export van die geschiedenis over de afgelopen 90 dagen. Komt er een schamel lijstje uit? Dan was er weinig actie. Komt er een lange lijst structurele wijzigingen uit? Dan was er een plan." } },
-                        { "@type": "Question", "name": "Moet ik een Google Ads specialist of een bureau kiezen?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor accounts onder 5.000 euro maandbudget volstaat een specialist meestal. Daarboven loont een bureau omdat je dan toegang krijgt tot meerdere disciplines (analytics, content, design). Voor complexe webshops of internationale campagnes hoort een team rondom de specialist te staan, anders blijft groei kunstmatig beperkt." } }
-                    ] }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Google Ads specialist resultaten 90 dagen", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-specialist-resultaten-90-dagen" }
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads specialist inhuren: deze 3 resultaten moet je binnen 90 dagen zien",
+                            "description": "De drie concrete resultaten die een Google Ads specialist binnen drie maanden moet leveren en hoe je ze als opdrachtgever zelf controleert.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-specialist-resultaten-90-dagen.jpg",
+                            "datePublished": "2026-05-14T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe snel mag ik resultaat verwachten van een Google Ads specialist?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor accounts met bestaande campagnes mag je binnen 30 dagen wezenlijke verbetering in CPA of ROAS zien. Voor nieuwe accounts ligt de eerste meetbare beweging na 4 tot 6 weken, omdat Smart Bidding eerst zijn leerfase moet doorlopen. Op 90 dagen mag je structurele beweging zien op drie fronten: kosten per conversie, kwaliteit van de leads en accountstructuur."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat als ik na 90 dagen geen verbetering zie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Plan een open gesprek met de specialist waarin je vraagt naar concrete verklaringen per metric. Is de CPA gestegen door externe markt, of door verkeerde bidding strategy? Komt het aan op trackingproblemen, of op slechte landingspagina's? Een professional heeft een gegrond verhaal per beweging. Een vage uitleg is op zichzelf al een diagnose."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost een Google Ads specialist gemiddeld in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor een gespecialiseerde freelancer ligt het maandelijkse fee tussen 1.000 en 3.500 euro bij MKB-budgetten. Bureaus zitten doorgaans iets hoger door overhead. Onder de 750 euro per maand krijg je vrijwel altijd account-onderhoud zonder strategie. Boven de 5.000 euro maandelijks is het redelijk een team van meerdere disciplines te verwachten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een redelijke CPA-verbetering in 90 dagen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat hangt sterk af van de startsituatie. Bij een verwaarloosd account met veel wasted spend is een daling van een derde of meer realistisch. Bij een al goed lopend account zijn winsten kleiner en zijn enkelvoudige percentage-verbeteringen al een gezond signaal. Specialisten die direct beloven 'de CPA te halveren' liegen meestal of zien de startsituatie nog niet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik zelf zien wat een specialist in mijn account heeft veranderd?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. In Google Ads zit een Change History (Wijzigingsgeschiedenis) waar elke wijziging chronologisch is gelogd, inclusief wie hem deed. Vraag bij twijfel een export van die geschiedenis over de afgelopen 90 dagen. Komt er een schamel lijstje uit? Dan was er weinig actie. Komt er een lange lijst structurele wijzigingen uit? Dan was er een plan."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik een Google Ads specialist of een bureau kiezen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor accounts onder 5.000 euro maandbudget volstaat een specialist meestal. Daarboven loont een bureau omdat je dan toegang krijgt tot meerdere disciplines (analytics, content, design). Voor complexe webshops of internationale campagnes hoort een team rondom de specialist te staan, anders blijft groei kunstmatig beperkt."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads specialist resultaten 90 dagen",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-specialist-resultaten-90-dagen"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />

@@ -28,97 +28,122 @@ export default function BlogPostInstagramAdverterenKostenCpmBudget2026() {
                 <meta name="twitter:title" content="Instagram Adverteren: Kosten per Klik, CPM en Budget Berekenen 2026" />
                 <meta name="twitter:description" content="Wat kost Instagram adverteren echt in 2026? Concrete benchmarks." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Instagram Adverteren: Kosten per Klik, CPM en Budget Berekenen 2026",
-                        "description": "Wat kost adverteren op Instagram in 2026? Concrete CPC, CPM en budget benchmarks per branche, plus hoe je een budget berekent dat rendement levert.",
-                        "image": "https://www.empowers.nl/images/blogs/instagram-adverteren-kosten-cpm-budget-2026.jpg",
-                        "datePublished": "2026-04-08T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Instagram Adverteren: Kosten per Klik, CPM en Budget Berekenen 2026",
+                            "description": "Wat kost adverteren op Instagram in 2026? Concrete CPC, CPM en budget benchmarks per branche, plus hoe je een budget berekent dat rendement levert.",
+                            "image": "https://www.empowers.nl/images/blogs/instagram-adverteren-kosten-cpm-budget-2026.jpg",
+                            "datePublished": "2026-04-08T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost adverteren op Instagram in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een Instagram Feed advertentie kost in 2026 gemiddeld 3,35 dollar per klik en 7,68 dollar CPM. Stories ads zijn voordeliger met circa 1,83 dollar per klik en 6,25 dollar CPM. Reels ads liggen het laagst met een CPC rond 1,28 dollar. Voor MKB-bedrijven is een minimum maandbudget van 500 euro realistisch."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede CPM voor Instagram?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een gezonde CPM voor Feed ligt tussen 6 en 12 dollar, voor Stories tussen 5 en 8 dollar en voor Reels tussen 4 en 9 dollar. CPMs schommelen seizoensafhankelijk. In Q4 piekt de globale mediaan rond 25 dollar door Black Friday en de feestdagen, om begin Q1 weer te zakken richting 15 dollar. Plan piekmaanden niet zonder hogere budgetten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe bereken je een Instagram advertentiebudget?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken terug vanaf jouw doel. Stel: je wilt 50 conversies per maand bij een gemiddelde CPA van 25 euro. Dat is 1.250 euro budget. Het algoritme heeft minimaal 50 conversies per advertentieset per week nodig om uit de leerfase te komen. Onder de 500 euro per maand kom je daar niet aan en blijft de optimalisatie achter."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede ROAS voor Instagram in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor Sales-campagnes ligt het 2026-gemiddelde rond 2,79 ROAS. Een ROAS van 3 tot 5 is gezond voor producten met 25 tot 40 procent marge. Voor lage marges (15 tot 25 procent) heb je 5 tot 7 ROAS nodig om winst te maken. Branded Meta-campagnes halen vaak 8 tot 15 ROAS, maar dat verkeer was vaak ook organisch gekomen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede CPC voor Instagram?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor Traffic-campagnes ligt de CPC rond 0,70 dollar. Voor Sales 1,50 tot 3,00 dollar. Voor Lead Gen ads 1,80 tot 4,00 dollar. Reels-ads zitten gemiddeld 26 procent lager dan Facebook Feed (rond 1,28 dollar). Een CPC boven 4 dollar buiten Lead Gen is meestal een teken dat de creative of targeting niet aansluit."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Verschillen Instagram-kosten per branche?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Sterk. Mode en lifestyle: CPM 5 tot 9 dollar. E-commerce algemeen: 7 tot 12 dollar. SaaS en B2B: 12 tot 25 dollar. Finance en juridisch: 20 tot 40 dollar. Hoe specialistischer en duurder de doelgroep, hoe hoger de CPM. Reken bij hoge CPM altijd met hogere LTV om het rendabel te houden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Stijgen Instagram-kosten in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, gemiddeld 8 tot 15 procent per jaar. Meer adverteerders betekent meer concurrentie op dezelfde aandacht. Tegelijk groeit het beschikbare advertentievolume (Reels, Search, Shop) waardoor de stijging niet helemaal doorslaat. Reken in 2026 op een CPC die 10 tot 20 procent hoger ligt dan in 2024 voor dezelfde campagne."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost adverteren op Instagram in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een Instagram Feed advertentie kost in 2026 gemiddeld 3,35 dollar per klik en 7,68 dollar CPM. Stories ads zijn voordeliger met circa 1,83 dollar per klik en 6,25 dollar CPM. Reels ads liggen het laagst met een CPC rond 1,28 dollar. Voor MKB-bedrijven is een minimum maandbudget van 500 euro realistisch."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede CPM voor Instagram?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een gezonde CPM voor Feed ligt tussen 6 en 12 dollar, voor Stories tussen 5 en 8 dollar en voor Reels tussen 4 en 9 dollar. CPMs schommelen seizoensafhankelijk. In Q4 piekt de globale mediaan rond 25 dollar door Black Friday en de feestdagen, om begin Q1 weer te zakken richting 15 dollar. Plan piekmaanden niet zonder hogere budgetten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe bereken je een Instagram advertentiebudget?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken terug vanaf jouw doel. Stel: je wilt 50 conversies per maand bij een gemiddelde CPA van 25 euro. Dat is 1.250 euro budget. Het algoritme heeft minimaal 50 conversies per advertentieset per week nodig om uit de leerfase te komen. Onder de 500 euro per maand kom je daar niet aan en blijft de optimalisatie achter."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede ROAS voor Instagram in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor Sales-campagnes ligt het 2026-gemiddelde rond 2,79 ROAS. Een ROAS van 3 tot 5 is gezond voor producten met 25 tot 40 procent marge. Voor lage marges (15 tot 25 procent) heb je 5 tot 7 ROAS nodig om winst te maken. Branded Meta-campagnes halen vaak 8 tot 15 ROAS, maar dat verkeer was vaak ook organisch gekomen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede CPC voor Instagram?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor Traffic-campagnes ligt de CPC rond 0,70 dollar. Voor Sales 1,50 tot 3,00 dollar. Voor Lead Gen ads 1,80 tot 4,00 dollar. Reels-ads zitten gemiddeld 26 procent lager dan Facebook Feed (rond 1,28 dollar). Een CPC boven 4 dollar buiten Lead Gen is meestal een teken dat de creative of targeting niet aansluit."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Verschillen Instagram-kosten per branche?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Sterk. Mode en lifestyle: CPM 5 tot 9 dollar. E-commerce algemeen: 7 tot 12 dollar. SaaS en B2B: 12 tot 25 dollar. Finance en juridisch: 20 tot 40 dollar. Hoe specialistischer en duurder de doelgroep, hoe hoger de CPM. Reken bij hoge CPM altijd met hogere LTV om het rendabel te houden."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Stijgen Instagram-kosten in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, gemiddeld 8 tot 15 procent per jaar. Meer adverteerders betekent meer concurrentie op dezelfde aandacht. Tegelijk groeit het beschikbare advertentievolume (Reels, Search, Shop) waardoor de stijging niet helemaal doorslaat. Reken in 2026 op een CPC die 10 tot 20 procent hoger ligt dan in 2024 voor dezelfde campagne."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Instagram kosten en budget 2026",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/instagram-adverteren-kosten-cpm-budget-2026"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Instagram kosten en budget 2026", "item": "https://www.empowers.nl/blogs/social-ads/instagram-adverteren-kosten-cpm-budget-2026" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

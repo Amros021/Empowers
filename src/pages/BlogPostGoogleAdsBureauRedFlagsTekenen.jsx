@@ -23,36 +23,110 @@ export default function BlogPostGoogleAdsBureauRedFlagsTekenen() {
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "Article",
-                    "headline": "Google Ads bureau red flags: 9 tekenen dat je bureau niet deugt",
-                    "description": "Negen alarmsignalen dat je Google Ads bureau onder presteert, met een concreet stappenplan om het zelf te controleren.",
-                    "image": "https://www.empowers.nl/images/blogs/google-ads-bureau-red-flags-tekenen.jpg",
-                    "datePublished": "2026-05-15T09:00:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                    "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                        { "@type": "Question", "name": "Hoe snel zie ik of mijn Google Ads bureau goed werk levert?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Binnen twee tot drie maanden zou je structuur in je account moeten zien: gescheiden campagnes voor merk en niet-merk, opgeschoonde zoektermenrapporten en een eerste serie van negatieve zoekwoorden. Krijg je na 90 dagen nog steeds een rommelige structuur en vage maandrapportages, dan is dat al een serieus signaal." } },
-                        { "@type": "Question", "name": "Wat is de belangrijkste red flag van een Google Ads bureau?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Een Google Ads account dat op naam staat van het bureau in plaats van op jouw naam. Daarmee verlies je niet alleen de eigendom van je historische data, je kunt ook niet zonder gedoe overstappen. Een eerlijk bureau zet jouw account altijd op jouw bedrijfsnaam en krijgt zelf alleen werknemer-toegang." } },
-                        { "@type": "Question", "name": "Mag een bureau alleen op klikken of CTR sturen?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Nee. CTR en aantal klikken zeggen niets over omzet of leadkwaliteit. Een serieus bureau stuurt op conversies en omzet, niet op vanity metrics. Vult jouw maandrapport zich vooral met CTR-cijfers en impressies? Dan optimaliseert het bureau op het verkeerde signaal." } },
-                        { "@type": "Question", "name": "Moet mijn bureau Smart Bidding gebruiken?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Niet automatisch ja, niet automatisch nee. Smart Bidding werkt goed bij voldoende conversiedata en correct ingerichte conversietracking. Een bureau dat klakkeloos Maximize Conversions aanzet zonder eerst de conversiestructuur op orde te brengen, optimaliseert op ruis. Vraag waarom welke biedstrategie is gekozen en welke alternatieven zijn afgewogen." } },
-                        { "@type": "Question", "name": "Hoe vaak hoort een Google Ads specialist mijn account aan te raken?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Bij een gemiddeld MKB-account met een budget van enkele duizenden euro's per maand verwacht je elke week wat activiteit. Niet elke dag, dat is teveel sleutelen. Maar geen wijzigingen in een hele maand betekent dat er niets gebeurt en je betaalt voor stilstand." } },
-                        { "@type": "Question", "name": "Wat doe ik als ik vermoed dat mijn bureau niet deugt?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Vraag eerst rechtstreeks Eigenaar-toegang tot je Google Ads account aan. Loop dan de negen signalen uit dit artikel langs. Kom je op vier of meer red flags, dan is een second opinion van een ander bureau verstandig. Geef het bureau eventueel nog 30 dagen met concrete verbeterpunten, en stap anders over." } }
-                    ] }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Red flags Google Ads bureau", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-bureau-red-flags-tekenen" }
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads bureau red flags: 9 tekenen dat je bureau niet deugt",
+                            "description": "Negen alarmsignalen dat je Google Ads bureau onder presteert, met een concreet stappenplan om het zelf te controleren.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-bureau-red-flags-tekenen.jpg",
+                            "datePublished": "2026-05-15T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe snel zie ik of mijn Google Ads bureau goed werk levert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Binnen twee tot drie maanden zou je structuur in je account moeten zien: gescheiden campagnes voor merk en niet-merk, opgeschoonde zoektermenrapporten en een eerste serie van negatieve zoekwoorden. Krijg je na 90 dagen nog steeds een rommelige structuur en vage maandrapportages, dan is dat al een serieus signaal."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is de belangrijkste red flag van een Google Ads bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een Google Ads account dat op naam staat van het bureau in plaats van op jouw naam. Daarmee verlies je niet alleen de eigendom van je historische data, je kunt ook niet zonder gedoe overstappen. Een eerlijk bureau zet jouw account altijd op jouw bedrijfsnaam en krijgt zelf alleen werknemer-toegang."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Mag een bureau alleen op klikken of CTR sturen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. CTR en aantal klikken zeggen niets over omzet of leadkwaliteit. Een serieus bureau stuurt op conversies en omzet, niet op vanity metrics. Vult jouw maandrapport zich vooral met CTR-cijfers en impressies? Dan optimaliseert het bureau op het verkeerde signaal."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet mijn bureau Smart Bidding gebruiken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet automatisch ja, niet automatisch nee. Smart Bidding werkt goed bij voldoende conversiedata en correct ingerichte conversietracking. Een bureau dat klakkeloos Maximize Conversions aanzet zonder eerst de conversiestructuur op orde te brengen, optimaliseert op ruis. Vraag waarom welke biedstrategie is gekozen en welke alternatieven zijn afgewogen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak hoort een Google Ads specialist mijn account aan te raken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij een gemiddeld MKB-account met een budget van enkele duizenden euro's per maand verwacht je elke week wat activiteit. Niet elke dag, dat is teveel sleutelen. Maar geen wijzigingen in een hele maand betekent dat er niets gebeurt en je betaalt voor stilstand."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat doe ik als ik vermoed dat mijn bureau niet deugt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vraag eerst rechtstreeks Eigenaar-toegang tot je Google Ads account aan. Loop dan de negen signalen uit dit artikel langs. Kom je op vier of meer red flags, dan is een second opinion van een ander bureau verstandig. Geef het bureau eventueel nog 30 dagen met concrete verbeterpunten, en stap anders over."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Red flags Google Ads bureau",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-bureau-red-flags-tekenen"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />

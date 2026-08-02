@@ -28,92 +28,114 @@ export default function BlogPostGoogleAdsCommerceVerhoogRoas() {
                 <meta name="twitter:title" content="Google Ads voor e-commerce: zo verhoog je je ROAS" />
                 <meta name="twitter:description" content="Meer omzet uit Google Ads als webshop? Lees hoe je ROAS structureel verhoogt." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google Ads voor e-commerce: zo verhoog je je ROAS in 2026",
-                        "description": "Google Ads voor e-commerce draait om ROAS. Lees welke campagnes werken, hoe je Shopping en Performance Max combineert en welke instellingen je winstgevendheid bepalen.",
-                        "image": "https://www.empowers.nl/images/blogs/google-ads-commerce-verhoog-roas.jpg",
-                        "datePublished": "2026-04-14T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads voor e-commerce: zo verhoog je je ROAS in 2026",
+                            "description": "Google Ads voor e-commerce draait om ROAS. Lees welke campagnes werken, hoe je Shopping en Performance Max combineert en welke instellingen je winstgevendheid bepalen.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-commerce-verhoog-roas.jpg",
+                            "datePublished": "2026-04-14T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede ROAS voor een webshop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een gezonde ROAS ligt meestal tussen de 4 en 8. Bij lage marges mik je hoger, bij hoge marges kan 3 al winstgevend zijn. Bereken altijd op basis van jouw marge en orderwaarde, niet op branchegemiddelden. Een ROAS van 4 betekent dat je voor elke euro advertentie-uitgave 4 euro omzet binnenhaalt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is Shopping of Performance Max beter voor webshops?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor webshops is een combinatie vaak het sterkst. Shopping geeft je controle over zoekintentie en zoekwoorden. Performance Max verbreedt naar Display, YouTube en Gmail. Start met Standard Shopping om data te bouwen en breid later uit met PMax voor schaal."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel budget heb ik nodig om in Google Ads te starten als webshop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op minimaal 1500 euro per maand om genoeg data te verzamelen voor slim bieden. Met minder dan 30 conversies per maand kan Google moeilijk optimaliseren. Heb je minder budget, begin dan met handmatig bieden op je beste producten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom daalt mijn ROAS opeens?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Veel voorkomende oorzaken zijn seizoensdalingen, concurrentie die scherper biedt, een slechter product feed of een defect op je website. Check je Search Term Report, je Competition Metrics en of alle conversies nog goed doorkomen. Een ROAS-daling is zelden een algoritme-probleem, vaker een operationeel signaal."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik handmatig bieden of slim bieden gebruiken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Zodra je 30 conversies per maand per campagne haalt, presteert slim bieden meestal beter. Target ROAS en Maximize Conversion Value werken goed voor webshops. Voor kleinere accounts of nieuwe campagnes blijft handmatig bieden soms nog beter totdat er voldoende data is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe belangrijk is mijn product feed voor Shopping-campagnes?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Je feed is het belangrijkste. Titels, beschrijvingen, afbeeldingen en attributen bepalen wanneer Google je producten toont en tegen welke kosten. Een geoptimaliseerde feed kan je ROAS verdubbelen zonder extra budget. Investeer hier altijd als eerste in."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede ROAS voor een webshop?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een gezonde ROAS ligt meestal tussen de 4 en 8. Bij lage marges mik je hoger, bij hoge marges kan 3 al winstgevend zijn. Bereken altijd op basis van jouw marge en orderwaarde, niet op branchegemiddelden. Een ROAS van 4 betekent dat je voor elke euro advertentie-uitgave 4 euro omzet binnenhaalt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Is Shopping of Performance Max beter voor webshops?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor webshops is een combinatie vaak het sterkst. Shopping geeft je controle over zoekintentie en zoekwoorden. Performance Max verbreedt naar Display, YouTube en Gmail. Start met Standard Shopping om data te bouwen en breid later uit met PMax voor schaal."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel budget heb ik nodig om in Google Ads te starten als webshop?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op minimaal 1500 euro per maand om genoeg data te verzamelen voor slim bieden. Met minder dan 30 conversies per maand kan Google moeilijk optimaliseren. Heb je minder budget, begin dan met handmatig bieden op je beste producten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom daalt mijn ROAS opeens?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Veel voorkomende oorzaken zijn seizoensdalingen, concurrentie die scherper biedt, een slechter product feed of een defect op je website. Check je Search Term Report, je Competition Metrics en of alle conversies nog goed doorkomen. Een ROAS-daling is zelden een algoritme-probleem, vaker een operationeel signaal."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik handmatig bieden of slim bieden gebruiken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Zodra je 30 conversies per maand per campagne haalt, presteert slim bieden meestal beter. Target ROAS en Maximize Conversion Value werken goed voor webshops. Voor kleinere accounts of nieuwe campagnes blijft handmatig bieden soms nog beter totdat er voldoende data is."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe belangrijk is mijn product feed voor Shopping-campagnes?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Je feed is het belangrijkste. Titels, beschrijvingen, afbeeldingen en attributen bepalen wanneer Google je producten toont en tegen welke kosten. Een geoptimaliseerde feed kan je ROAS verdubbelen zonder extra budget. Investeer hier altijd als eerste in."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads voor e-commerce",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-commerce-verhoog-roas"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Google Ads voor e-commerce", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-commerce-verhoog-roas" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

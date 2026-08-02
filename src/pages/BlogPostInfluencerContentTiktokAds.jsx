@@ -28,97 +28,122 @@ export default function BlogPostInfluencerContentTiktokAds() {
                 <meta name="twitter:title" content="Influencer content in TikTok Ads: zo werkt het" />
                 <meta name="twitter:description" content="Spark Ads, briefings en rights management voor creator-content op TikTok." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe gebruik je influencer content in TikTok Ads",
-                        "description": "Influencer content in TikTok Ads schaalt vaak beter dan brand-content.",
-                        "image": "https://www.empowers.nl/images/blogs/influencer-content-tiktok-ads.jpg",
-                        "datePublished": "2026-05-08T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe gebruik je influencer content in TikTok Ads",
+                            "description": "Influencer content in TikTok Ads schaalt vaak beter dan brand-content.",
+                            "image": "https://www.empowers.nl/images/blogs/influencer-content-tiktok-ads.jpg",
+                            "datePublished": "2026-05-08T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een Spark Ad?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een Spark Ad is een TikTok-advertentie die een bestaande organische post van een creator gebruikt als advertentie. De like, comments en shares blijven behouden. Voor de viewer ziet het er authentiek uit, omdat het lijkt op een gewone TikTok-video die hij gewoon scrollend tegenkomt. De adverteerder betaalt voor het bereik en stuurt de targeting."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom werkt creator-content vaak beter dan brand-content?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Het past bij de feed. TikTok-gebruikers herkennen merkadvertenties binnen drie seconden en scrollen door. Creator-content lijkt op de organische video's die ze gewoonlijk bekijken en hapt door die filter. Daardoor hogere watchtime, betere thumb-stop en uiteindelijk betere CPA. Resultaat is een effect dat in veel sectoren de standaard-brand-creative met dubbele cijfers verslaat."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe regel je de rechten om influencer-content als ad te gebruiken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Met een TikTok Ad Code, ofwel TAC. De creator deelt vanuit zijn eigen TikTok-account een tijdgebonden code die jij koppelt aan je Ads Manager. Daarmee mag je dat specifieke filmpje als Spark Ad runnen. Zonder TAC mag je de video niet als ad inzetten, ook niet als de creator akkoord is gegaan in een mailtje."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat moet er in een briefing staan voor een TikTok-creator?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Houd het kort. Je product en USP in twee regels, drie do's en drie don'ts, een paar referentie-video's die de stijl vangen, en de gewenste call-to-action. Geef vrijheid in de uitvoering. Creators presteren slechter zodra je een script aanlevert. Vertrouw op hun stem, omdat dat exact is wat je publiek herkent."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke ROAS is realistisch voor influencer-creatives?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor webshops zien we doorgaans 1,5 tot 3 keer betere ROAS bij creator-content vergeleken met klassieke brand-creatives, mits de creator past bij de doelgroep en het product geschikt is voor visuele uitleg. Voor B2B-software ligt het effect lager omdat de funnel langer is, maar ook daar voegt creator-content geloofwaardigheid toe in de eerste touchpoints."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik macro- of micro-influencers kiezen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor TikTok Ads-content werken micro-creators (10.000 tot 100.000 volgers) bijna altijd beter dan macro's. Lagere productiekosten, authentiekere stijl, scherpere niche. Je betaalt minder per video en kunt meer creators tegelijk testen. Macro's hebben hun plek bij grote brand-campagnes met awareness-doelen, niet bij conversie-creatives."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel creator-video's moet je tegelijk testen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor een nieuwe campagne adviseren we minimaal vijf tot acht verschillende creator-video's tegelijk te lanceren. Niet allemaal hetzelfde verhaal. Wel allemaal hetzelfde product. Op basis van performance kies je daarna welke je doorzet en welke je kort houdt. Wat in week 1 wint is zelden wat je vooraf zelf had voorspeld."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een Spark Ad?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een Spark Ad is een TikTok-advertentie die een bestaande organische post van een creator gebruikt als advertentie. De like, comments en shares blijven behouden. Voor de viewer ziet het er authentiek uit, omdat het lijkt op een gewone TikTok-video die hij gewoon scrollend tegenkomt. De adverteerder betaalt voor het bereik en stuurt de targeting."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom werkt creator-content vaak beter dan brand-content?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Het past bij de feed. TikTok-gebruikers herkennen merkadvertenties binnen drie seconden en scrollen door. Creator-content lijkt op de organische video's die ze gewoonlijk bekijken en hapt door die filter. Daardoor hogere watchtime, betere thumb-stop en uiteindelijk betere CPA. Resultaat is een effect dat in veel sectoren de standaard-brand-creative met dubbele cijfers verslaat."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe regel je de rechten om influencer-content als ad te gebruiken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Met een TikTok Ad Code, ofwel TAC. De creator deelt vanuit zijn eigen TikTok-account een tijdgebonden code die jij koppelt aan je Ads Manager. Daarmee mag je dat specifieke filmpje als Spark Ad runnen. Zonder TAC mag je de video niet als ad inzetten, ook niet als de creator akkoord is gegaan in een mailtje."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat moet er in een briefing staan voor een TikTok-creator?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Houd het kort. Je product en USP in twee regels, drie do's en drie don'ts, een paar referentie-video's die de stijl vangen, en de gewenste call-to-action. Geef vrijheid in de uitvoering. Creators presteren slechter zodra je een script aanlevert. Vertrouw op hun stem, omdat dat exact is wat je publiek herkent."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke ROAS is realistisch voor influencer-creatives?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor webshops zien we doorgaans 1,5 tot 3 keer betere ROAS bij creator-content vergeleken met klassieke brand-creatives, mits de creator past bij de doelgroep en het product geschikt is voor visuele uitleg. Voor B2B-software ligt het effect lager omdat de funnel langer is, maar ook daar voegt creator-content geloofwaardigheid toe in de eerste touchpoints."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik macro- of micro-influencers kiezen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor TikTok Ads-content werken micro-creators (10.000 tot 100.000 volgers) bijna altijd beter dan macro's. Lagere productiekosten, authentiekere stijl, scherpere niche. Je betaalt minder per video en kunt meer creators tegelijk testen. Macro's hebben hun plek bij grote brand-campagnes met awareness-doelen, niet bij conversie-creatives."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel creator-video's moet je tegelijk testen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor een nieuwe campagne adviseren we minimaal vijf tot acht verschillende creator-video's tegelijk te lanceren. Niet allemaal hetzelfde verhaal. Wel allemaal hetzelfde product. Op basis van performance kies je daarna welke je doorzet en welke je kort houdt. Wat in week 1 wint is zelden wat je vooraf zelf had voorspeld."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Influencer content in TikTok Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/influencer-content-tiktok-ads"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Influencer content in TikTok Ads", "item": "https://www.empowers.nl/blogs/social-ads/influencer-content-tiktok-ads" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

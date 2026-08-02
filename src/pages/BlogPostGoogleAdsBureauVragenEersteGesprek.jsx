@@ -23,36 +23,110 @@ export default function BlogPostGoogleAdsBureauVragenEersteGesprek() {
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "Article",
-                    "headline": "Google Ads bureau: 5 vragen die je moet stellen in het eerste gesprek",
-                    "description": "De vijf belangrijkste vragen voor je intake met een Google Ads bureau, plus hoe je het antwoord beoordeelt.",
-                    "image": "https://www.empowers.nl/images/blogs/google-ads-bureau-vragen-eerste-gesprek.jpg",
-                    "datePublished": "2026-05-14T16:00:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                    "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                        { "@type": "Question", "name": "Hoeveel tijd moet ik nemen voor een intake-gesprek?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Plan minimaal een uur. Onder een uur is er geen tijd om de vijf belangrijke vragen behoorlijk te bespreken. Boven anderhalf uur is meestal overbodig en wordt het meer pitch dan gesprek. Een uur tot vijf kwartier is de sweet spot waarin je een goed beeld krijgt." } },
-                        { "@type": "Question", "name": "Mag ik in het intake-gesprek ook prijzen vragen?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Ja, maar pas in de laatste 15 minuten. Wie te vroeg over prijzen begint mist de inhoud van het gesprek. Een serieus bureau wil eerst je situatie begrijpen voordat het over fees praat, want zonder context kan het geen reëel voorstel doen. Wie meteen met een vast pakket komt, verkoopt sjabloon-werk." } },
-                        { "@type": "Question", "name": "Wat als ik zelf weinig van Google Ads weet?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Dat is normaal en geen bezwaar. De vijf vragen in dit artikel zijn zo opgesteld dat je geen Google Ads-expert hoeft te zijn om ze te stellen of de antwoorden te beoordelen. Wat je beoordeelt is helderheid, eerlijkheid en methodiek, niet de technische uitvoering. Een specialist die wartaal antwoordt om kennis te demonstreren is een verkoper, geen leraar." } },
-                        { "@type": "Question", "name": "Moet ik meerdere bureaus tegelijk spreken?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Drie tot vijf intake-gesprekken levert het meest evenwichtig beeld op. Minder en je hebt geen referentie. Meer en de gesprekken gaan door elkaar lopen. Plan ze in dezelfde week zodat de vergelijking scherp blijft. Maak na elk gesprek per direct korte aantekeningen, anders vervaagt het verschil tussen bureaus snel." } },
-                        { "@type": "Question", "name": "Wat als een bureau gegevens niet wil delen tijdens de intake?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Een NDA aanbieden is een legitieme oplossing voor bureaus die klantnamen niet mogen tonen. Maar geanonimiseerde data over hun werkwijze, sample experimenten en aanpak hoort altijd te kunnen. Wie zelfs dat niet wil delen verbergt iets, en dat is op zichzelf het antwoord op je vraag." } },
-                        { "@type": "Question", "name": "Hoe lang na het gesprek hoor ik een voorstel?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Bij een serieus bureau binnen een week. Een korter dan dat is een sjabloon-voorstel dat ze paraat hadden. Langer dan twee weken is een bureau zonder strakke salescyclus. Het ideale voorstel komt na 3 tot 7 werkdagen, met daarin een korte audit van wat zij in jouw account hebben gezien plus een concreet plan voor de eerste maand." } }
-                    ] }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "5 vragen eerste gesprek", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-bureau-vragen-eerste-gesprek" }
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads bureau: 5 vragen die je moet stellen in het eerste gesprek",
+                            "description": "De vijf belangrijkste vragen voor je intake met een Google Ads bureau, plus hoe je het antwoord beoordeelt.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-bureau-vragen-eerste-gesprek.jpg",
+                            "datePublished": "2026-05-14T16:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel tijd moet ik nemen voor een intake-gesprek?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Plan minimaal een uur. Onder een uur is er geen tijd om de vijf belangrijke vragen behoorlijk te bespreken. Boven anderhalf uur is meestal overbodig en wordt het meer pitch dan gesprek. Een uur tot vijf kwartier is de sweet spot waarin je een goed beeld krijgt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Mag ik in het intake-gesprek ook prijzen vragen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, maar pas in de laatste 15 minuten. Wie te vroeg over prijzen begint mist de inhoud van het gesprek. Een serieus bureau wil eerst je situatie begrijpen voordat het over fees praat, want zonder context kan het geen reëel voorstel doen. Wie meteen met een vast pakket komt, verkoopt sjabloon-werk."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat als ik zelf weinig van Google Ads weet?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat is normaal en geen bezwaar. De vijf vragen in dit artikel zijn zo opgesteld dat je geen Google Ads-expert hoeft te zijn om ze te stellen of de antwoorden te beoordelen. Wat je beoordeelt is helderheid, eerlijkheid en methodiek, niet de technische uitvoering. Een specialist die wartaal antwoordt om kennis te demonstreren is een verkoper, geen leraar."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik meerdere bureaus tegelijk spreken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie tot vijf intake-gesprekken levert het meest evenwichtig beeld op. Minder en je hebt geen referentie. Meer en de gesprekken gaan door elkaar lopen. Plan ze in dezelfde week zodat de vergelijking scherp blijft. Maak na elk gesprek per direct korte aantekeningen, anders vervaagt het verschil tussen bureaus snel."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat als een bureau gegevens niet wil delen tijdens de intake?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een NDA aanbieden is een legitieme oplossing voor bureaus die klantnamen niet mogen tonen. Maar geanonimiseerde data over hun werkwijze, sample experimenten en aanpak hoort altijd te kunnen. Wie zelfs dat niet wil delen verbergt iets, en dat is op zichzelf het antwoord op je vraag."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang na het gesprek hoor ik een voorstel?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij een serieus bureau binnen een week. Een korter dan dat is een sjabloon-voorstel dat ze paraat hadden. Langer dan twee weken is een bureau zonder strakke salescyclus. Het ideale voorstel komt na 3 tot 7 werkdagen, met daarin een korte audit van wat zij in jouw account hebben gezien plus een concreet plan voor de eerste maand."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "5 vragen eerste gesprek",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-bureau-vragen-eerste-gesprek"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />

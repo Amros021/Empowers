@@ -28,81 +28,106 @@ export default function BlogPostGoogleAdsB2b() {
                 <meta name="twitter:title" content="Google Ads voor B2B: zo bereik je zakelijke beslissers" />
                 <meta name="twitter:description" content="Zo bereik je met Google Ads de juiste zakelijke beslissers in jouw markt." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Google Ads voor B2B: zo bereik je zakelijke beslissers",
-                        "description": "Google Ads voor B2B werkt anders dan voor consumenten. Langere salesycli, hogere CPCs en meerdere beslissers vragen een andere aanpak.",
-                        "image": "https://www.empowers.nl/images/blogs/google-ads-b2b.jpg",
-                        "datePublished": "2026-04-15T08:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Google Ads voor B2B: zo bereik je zakelijke beslissers",
+                            "description": "Google Ads voor B2B werkt anders dan voor consumenten. Langere salesycli, hogere CPCs en meerdere beslissers vragen een andere aanpak.",
+                            "image": "https://www.empowers.nl/images/blogs/google-ads-b2b.jpg",
+                            "datePublished": "2026-04-15T08:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt Google Ads goed voor B2B?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, maar het vereist een andere aanpak dan B2C. B2B-kopers zoeken actief naar oplossingen voor zakelijke problemen. Google Ads is effectief om op het juiste moment zichtbaar te zijn. De CPC is hoger, de salescyclus langer en de conversie-attributie complexer, maar de klantwaarde is ook veel groter."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke zoekwoorden gebruik je voor B2B Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Focus op zakelijke zoekwoorden met koopintentie: 'softwarepakket voor mkb', 'it-beheer uitbesteden', 'groothandel kantoorartikelen'. Voeg ook probleemgerichte termen toe: 'hoe verlaag ik serverkosten', 'salarisadministratie automatiseren'. Vermijd te brede, consumentgerichte zoekwoorden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet je conversies bij B2B Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Meet formuliersubmissies, telefoongesprekken, demo-aanvragen en whitepaper-downloads als micro-conversies. De macro-conversie is de gewonnen deal in je CRM. Koppel Google Ads aan je CRM via offline conversie-import om te zien welke campagnes daadwerkelijk omzet opleveren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een realistische CPA voor B2B leads via Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De CPA voor B2B leads via Google Ads ligt typisch tussen de 50 en 500 euro, afhankelijk van branche en dealgrootte. Bereken je maximale CPA vanuit de gemiddelde klantwaarde en sluitingsratio. Als een klant 10.000 euro waard is en je sluit 1 op 10 leads, is een CPA van 500 euro prima."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik bij B2B Google Ads ook remarketing inzetten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, remarketing is bij B2B essentieel. De meeste B2B-kopers converteren niet bij het eerste bezoek. Zorg dat je bezoekers van je website minimaal 30 tot 90 dagen kunt volgen met display- en zoekadvertenties. Segmenteer op paginabezoeken: iemand die je paginaprijzen bekeek, is veel verder in de funnel dan iemand die alleen de homepage zag."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Werkt Google Ads goed voor B2B?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, maar het vereist een andere aanpak dan B2C. B2B-kopers zoeken actief naar oplossingen voor zakelijke problemen. Google Ads is effectief om op het juiste moment zichtbaar te zijn. De CPC is hoger, de salescyclus langer en de conversie-attributie complexer, maar de klantwaarde is ook veel groter."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke zoekwoorden gebruik je voor B2B Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Focus op zakelijke zoekwoorden met koopintentie: 'softwarepakket voor mkb', 'it-beheer uitbesteden', 'groothandel kantoorartikelen'. Voeg ook probleemgerichte termen toe: 'hoe verlaag ik serverkosten', 'salarisadministratie automatiseren'. Vermijd te brede, consumentgerichte zoekwoorden."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe meet je conversies bij B2B Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Meet formuliersubmissies, telefoongesprekken, demo-aanvragen en whitepaper-downloads als micro-conversies. De macro-conversie is de gewonnen deal in je CRM. Koppel Google Ads aan je CRM via offline conversie-import om te zien welke campagnes daadwerkelijk omzet opleveren."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een realistische CPA voor B2B leads via Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De CPA voor B2B leads via Google Ads ligt typisch tussen de 50 en 500 euro, afhankelijk van branche en dealgrootte. Bereken je maximale CPA vanuit de gemiddelde klantwaarde en sluitingsratio. Als een klant 10.000 euro waard is en je sluit 1 op 10 leads, is een CPA van 500 euro prima."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik bij B2B Google Ads ook remarketing inzetten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, remarketing is bij B2B essentieel. De meeste B2B-kopers converteren niet bij het eerste bezoek. Zorg dat je bezoekers van je website minimaal 30 tot 90 dagen kunt volgen met display- en zoekadvertenties. Segmenteer op paginabezoeken: iemand die je paginaprijzen bekeek, is veel verder in de funnel dan iemand die alleen de homepage zag."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads voor B2B",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-b2b-bereik-zakelijke"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Google Ads voor B2B", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-b2b-bereik-zakelijke" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

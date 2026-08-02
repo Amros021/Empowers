@@ -24,44 +24,114 @@ export default function BlogPostInstagramStoriesEffectiefAdvertenties() {
                 <meta property="article:published_time" content="2026-05-13T12:30:00+02:00" />
                 <meta property="article:section" content="Social Ads" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org", "@type": "Article",
-                        "headline": "Instagram Stories advertenties: zo zet je het format effectief in",
-                        "description": "Hoe je Instagram Story-ads bouwt die scrollers stoppen en converteren.",
-                        "image": "https://www.empowers.nl/images/blogs/instagram-stories-effectief-advertenties.jpg",
-                        "datePublished": "2026-05-13T12:30:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                        "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                            { "@type": "Question", "name": "Waarom is een Instagram Story-ad anders dan een feed-ad?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Stories zijn fullscreen, verticaal en vluchtig. Gebruikers tappen door wanneer ze niets boeit. Je hebt drie seconden om de boodschap te brengen voor de gebruiker doortikt. Feed-ads krijgen meer ruimte: mensen scrollen langzamer en lezen ook captions. In Stories werkt alleen wat direct visueel landt." } },
-                            { "@type": "Question", "name": "Welke aspectratio moet ik gebruiken voor Story-ads?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "9:16 verticaal fullscreen. Resolutie minstens 1080 x 1920 pixels. Belangrijke tekst en logo's binnen de veilige zone houden: blijf weg van de bovenste 250 pixels (gebruikersnaam en profielfoto) en de onderste 250 pixels (waar de CTA-knop en swipe-icoon verschijnen)." } },
-                            { "@type": "Question", "name": "Welke duur werkt voor Story-video's?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Korter is bijna altijd beter. Onder de 6 seconden voor prospecting, tot 12 seconden voor retargeting waar je iets concreters mag vertellen. Boven de 15 seconden tappen mensen door voordat je echte boodschap aankomt. Wie meer wil zeggen splitst het op in twee opeenvolgende Story-cards." } },
-                            { "@type": "Question", "name": "Heb je een swipe-up of sticker-CTA nodig?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Een duidelijke CTA-laag is verplicht. Met de Meta Ads Manager-CTA-knop krijg je een tappable balk onderaan. Combineer dat met een visueel pointer-element naar die balk (een pijl of een handsymbool) en je tap-rate stijgt zichtbaar. Eén CTA per Story, geen drie verschillende acties." } },
-                            { "@type": "Question", "name": "Werkt usergenerated content beter in Stories?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Vaak wel. Studio-opnames voelen in Stories al snel als 'advertentie', terwijl UGC organisch oogt en het scrollritme van native content matcht. Voor prospecting-campagnes zien we UGC-ads gemiddeld duidelijk hogere CTR halen dan polished studiomateriaal. Voor retargeting kan studio-content beter werken omdat warme bezoekers professionaliteit verwachten." } },
-                            { "@type": "Question", "name": "Welke fout maken adverteerders het vaakst in Stories?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Een feed-creative hergebruiken in vierkant formaat. Dat oogt op je telefoon als een zwart blok met een klein vierkantje in het midden. Gebruikers herkennen dat onmiddellijk als luiheid en tappen door. Story-ads moeten van begin af aan voor fullscreen vertical worden ontworpen." } }
-                        ] }
-                    })}
-                </script>
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Instagram Stories advertenties: zo zet je het format effectief in",
+                            "description": "Hoe je Instagram Story-ads bouwt die scrollers stoppen en converteren.",
+                            "image": "https://www.empowers.nl/images/blogs/instagram-stories-effectief-advertenties.jpg",
+                            "datePublished": "2026-05-13T12:30:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom is een Instagram Story-ad anders dan een feed-ad?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Stories zijn fullscreen, verticaal en vluchtig. Gebruikers tappen door wanneer ze niets boeit. Je hebt drie seconden om de boodschap te brengen voor de gebruiker doortikt. Feed-ads krijgen meer ruimte: mensen scrollen langzamer en lezen ook captions. In Stories werkt alleen wat direct visueel landt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke aspectratio moet ik gebruiken voor Story-ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "9:16 verticaal fullscreen. Resolutie minstens 1080 x 1920 pixels. Belangrijke tekst en logo's binnen de veilige zone houden: blijf weg van de bovenste 250 pixels (gebruikersnaam en profielfoto) en de onderste 250 pixels (waar de CTA-knop en swipe-icoon verschijnen)."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke duur werkt voor Story-video's?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Korter is bijna altijd beter. Onder de 6 seconden voor prospecting, tot 12 seconden voor retargeting waar je iets concreters mag vertellen. Boven de 15 seconden tappen mensen door voordat je echte boodschap aankomt. Wie meer wil zeggen splitst het op in twee opeenvolgende Story-cards."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb je een swipe-up of sticker-CTA nodig?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een duidelijke CTA-laag is verplicht. Met de Meta Ads Manager-CTA-knop krijg je een tappable balk onderaan. Combineer dat met een visueel pointer-element naar die balk (een pijl of een handsymbool) en je tap-rate stijgt zichtbaar. Eén CTA per Story, geen drie verschillende acties."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt usergenerated content beter in Stories?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vaak wel. Studio-opnames voelen in Stories al snel als 'advertentie', terwijl UGC organisch oogt en het scrollritme van native content matcht. Voor prospecting-campagnes zien we UGC-ads gemiddeld duidelijk hogere CTR halen dan polished studiomateriaal. Voor retargeting kan studio-content beter werken omdat warme bezoekers professionaliteit verwachten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke fout maken adverteerders het vaakst in Stories?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een feed-creative hergebruiken in vierkant formaat. Dat oogt op je telefoon als een zwart blok met een klein vierkantje in het midden. Gebruikers herkennen dat onmiddellijk als luiheid en tappen door. Story-ads moeten van begin af aan voor fullscreen vertical worden ontworpen."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Instagram Stories advertenties",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/instagram-stories-effectief-advertenties"
+                                }
+                            ]
+                        }
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org", "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Instagram Stories advertenties", "item": "https://www.empowers.nl/blogs/social-ads/instagram-stories-effectief-advertenties" }
-                        ]
-                    })}
-                </script>
                     <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Instagram Stories advertenties: zo zet je het format effectief in" />
         <meta name="twitter:description" content="Instagram Stories ads zijn anders dan feed-ads. Wat de eerste 3 seconden moet doen, hoe je een vertical creative bouwt e" />
