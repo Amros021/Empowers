@@ -28,97 +28,122 @@ export default function BlogPostTiktokVsInstagramReelsAdverteren() {
                 <meta name="twitter:title" content="TikTok vs Instagram Reels adverteren: wat past bij jou?" />
                 <meta name="twitter:description" content="Twee verticale videoplatformen, twee compleet verschillende publieken. Lees waar jouw advertenties het hardst werken." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "TikTok vs Instagram Reels adverteren: wat past bij jou?",
-                        "description": "Vergelijking tussen TikTok-advertenties en Instagram Reels-advertenties: kosten, doelgroep, creative en wanneer je voor welk platform kiest.",
-                        "image": "https://www.empowers.nl/images/blogs/tiktok-vs-instagram-reels-adverteren.jpg",
-                        "datePublished": "2026-05-07T17:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "TikTok vs Instagram Reels adverteren: wat past bij jou?",
+                            "description": "Vergelijking tussen TikTok-advertenties en Instagram Reels-advertenties: kosten, doelgroep, creative en wanneer je voor welk platform kiest.",
+                            "image": "https://www.empowers.nl/images/blogs/tiktok-vs-instagram-reels-adverteren.jpg",
+                            "datePublished": "2026-05-07T17:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het belangrijkste verschil tussen TikTok en Instagram Reels adverteren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Het verschil zit in publiek en creative-cultuur. TikTok heeft een jonger, gemiddeld experimenteler publiek dat actief content opzoekt. Instagram Reels bedient een breder leeftijdspublic dat al op het platform zit voor andere redenen. Op TikTok werkt rauwe, organisch ogende video; op Reels mag het iets gepolijster, en bestaande Instagram-content kan vaak gerecycled worden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke kosten kun je verwachten op beide platformen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "TikTok heeft doorgaans een lagere CPM dan Instagram Reels, vooral voor brede consumentencampagnes. Reken op CPM's tussen 5 en 12 euro op TikTok versus 8 en 20 euro op Reels. Voor B2C-merken zonder uitgesproken niche valt TikTok daardoor goedkoper uit, hoewel klikkwaliteit en conversion rate die rekensom snel kunnen omdraaien."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Voor welk type bedrijf werkt TikTok het beste?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "TikTok werkt het beste voor B2C-merken met visueel aantrekkelijke producten of een sterk verhaal. Denk aan mode, beauty, food en lifestyle-categorieën waar entertainmentwaarde meetelt. Het platform belont creatives die passen bij de native cultuur. Voor B2B, premium dienstverlening of lokale niches met oudere doelgroepen blijft TikTok een twijfelgeval, hoewel het publiek elk jaar diverser wordt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Voor welk type bedrijf werkt Instagram Reels het beste?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Instagram Reels werkt vooral goed voor merken die al een Instagram-presence hebben en die hun bestaande visuele stijl kunnen vertalen naar verticaal video. Mode, interior, food, fitness, travel en wellness scoren doorgaans bovengemiddeld. Het bredere leeftijdspubliek (25 tot 55) maakt Reels geschikter voor producten die buiten de Gen Z-doelgroep landen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kun je dezelfde video op beide platformen inzetten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Technisch kan het, maar het werkt zelden goed. TikTok-publiek prikt direct door content die Instagram-stijl uitstraalt, en omgekeerd kan TikTok-stijl op Reels te ruig overkomen voor sommige doelgroepen. Maak per platform een variant met aangepaste hook, voice-over en muziek. De video-opbouw kan hetzelfde zijn, de afwerking moet verschillen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk platform werkt beter voor directe sales?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor directe sales (laat staan e-commerce) wint Instagram Reels in de meeste gevallen. Het Meta-ecosysteem heeft een meer ontwikkeld conversion-pad: koppeling met productcatalogus, Shop-tabs, retargeting via Pixel. TikTok is sterker voor de upper funnel: brand awareness en interesse opbouwen. TikTok Shop maakt die kloof wel kleiner."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verdeel je het budget tussen TikTok en Instagram Reels?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin niet 50/50. Test eerst welk platform voor jouw merk werkt door één maand minstens 80 procent van je budget op de meest waarschijnlijke fit te zetten. Pas na duidelijke data van een paar weken durf je te splitsen. Voor de meeste B2C-merken die we begeleiden landt de uiteindelijke verdeling rond 60/40, in welke richting hangt af van het product."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het belangrijkste verschil tussen TikTok en Instagram Reels adverteren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Het verschil zit in publiek en creative-cultuur. TikTok heeft een jonger, gemiddeld experimenteler publiek dat actief content opzoekt. Instagram Reels bedient een breder leeftijdspublic dat al op het platform zit voor andere redenen. Op TikTok werkt rauwe, organisch ogende video; op Reels mag het iets gepolijster, en bestaande Instagram-content kan vaak gerecycled worden."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke kosten kun je verwachten op beide platformen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "TikTok heeft doorgaans een lagere CPM dan Instagram Reels, vooral voor brede consumentencampagnes. Reken op CPM's tussen 5 en 12 euro op TikTok versus 8 en 20 euro op Reels. Voor B2C-merken zonder uitgesproken niche valt TikTok daardoor goedkoper uit, hoewel klikkwaliteit en conversion rate die rekensom snel kunnen omdraaien."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Voor welk type bedrijf werkt TikTok het beste?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "TikTok werkt het beste voor B2C-merken met visueel aantrekkelijke producten of een sterk verhaal. Denk aan mode, beauty, food en lifestyle-categorieën waar entertainmentwaarde meetelt. Het platform belont creatives die passen bij de native cultuur. Voor B2B, premium dienstverlening of lokale niches met oudere doelgroepen blijft TikTok een twijfelgeval, hoewel het publiek elk jaar diverser wordt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Voor welk type bedrijf werkt Instagram Reels het beste?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Instagram Reels werkt vooral goed voor merken die al een Instagram-presence hebben en die hun bestaande visuele stijl kunnen vertalen naar verticaal video. Mode, interior, food, fitness, travel en wellness scoren doorgaans bovengemiddeld. Het bredere leeftijdspubliek (25 tot 55) maakt Reels geschikter voor producten die buiten de Gen Z-doelgroep landen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kun je dezelfde video op beide platformen inzetten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Technisch kan het, maar het werkt zelden goed. TikTok-publiek prikt direct door content die Instagram-stijl uitstraalt, en omgekeerd kan TikTok-stijl op Reels te ruig overkomen voor sommige doelgroepen. Maak per platform een variant met aangepaste hook, voice-over en muziek. De video-opbouw kan hetzelfde zijn, de afwerking moet verschillen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welk platform werkt beter voor directe sales?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor directe sales (laat staan e-commerce) wint Instagram Reels in de meeste gevallen. Het Meta-ecosysteem heeft een meer ontwikkeld conversion-pad: koppeling met productcatalogus, Shop-tabs, retargeting via Pixel. TikTok is sterker voor de upper funnel: brand awareness en interesse opbouwen. TikTok Shop maakt die kloof wel kleiner."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe verdeel je het budget tussen TikTok en Instagram Reels?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin niet 50/50. Test eerst welk platform voor jouw merk werkt door één maand minstens 80 procent van je budget op de meest waarschijnlijke fit te zetten. Pas na duidelijke data van een paar weken durf je te splitsen. Voor de meeste B2C-merken die we begeleiden landt de uiteindelijke verdeling rond 60/40, in welke richting hangt af van het product."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "TikTok vs Instagram Reels",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/tiktok-vs-instagram-reels-adverteren"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "TikTok vs Instagram Reels", "item": "https://www.empowers.nl/blogs/social-ads/tiktok-vs-instagram-reels-adverteren" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

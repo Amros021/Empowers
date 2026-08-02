@@ -28,97 +28,122 @@ export default function BlogPostTiktokShopAdverterenVerkopenPlatform() {
                 <meta name="twitter:title" content="TikTok Shop: adverteren en verkopen op één platform" />
                 <meta name="twitter:description" content="Hoe TikTok Shop werkt en wat de Nederlandse launch betekent voor jouw webshop." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "TikTok Shop: adverteren en verkopen op één platform",
-                        "description": "Hoe TikTok Shop verkoop en advertenties combineert, wat het Nederlandse webshops oplevert en hoe je je voorbereidt op de NL launch.",
-                        "image": "https://www.empowers.nl/images/blogs/tiktok-shop-adverteren-verkopen-platform.jpg",
-                        "datePublished": "2026-05-07T21:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "TikTok Shop: adverteren en verkopen op één platform",
+                            "description": "Hoe TikTok Shop verkoop en advertenties combineert, wat het Nederlandse webshops oplevert en hoe je je voorbereidt op de NL launch.",
+                            "image": "https://www.empowers.nl/images/blogs/tiktok-shop-adverteren-verkopen-platform.jpg",
+                            "datePublished": "2026-05-07T21:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is TikTok Shop precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "TikTok Shop is een ingebouwde marketplace binnen het TikTok-platform waar gebruikers producten kunnen kopen zonder de app te verlaten. Verkopers koppelen hun productcatalogus, en advertenties of organische videos kunnen direct doorklikbaar gemaakt worden naar de in-app checkout. Het verschil met klassiek adverteren via TikTok: bij Shop hoeft de koper niet meer naar je externe webshop, de transactie gebeurt binnen TikTok zelf."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is TikTok Shop al beschikbaar in Nederland?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Op moment van schrijven (mei 2026) is TikTok Shop nog niet officieel gelanceerd in Nederland, hoewel de infrastructuur volgens publieke berichten in voorbereiding is. Een launch in de zomer van 2026 wordt verwacht, samen met Polen en België. Tot die tijd kunnen Nederlandse verkopers in beperkte mate via de Britse of Duitse TikTok Shop verkopen, mits ze aan de daar geldende eisen voldoen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn de voordelen voor webshops?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Het belangrijkste voordeel: minder uitval in de funnel. Een gebruiker die nu nog moet doorklikken naar je site, een account aanmaken en checkout doorlopen, klikt straks twee keer en heeft een product binnen TikTok besteld. Daarnaast is de attributie helderder, omdat alles binnen één platform gebeurt en signaalverlies door iOS-tracking minder speelt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn de nadelen of risico's?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "TikTok houdt een commissie in op elke verkoop, doorgaans tussen de 5 en 8 procent afhankelijk van categorie. Bovendien wordt klantdata vastgehouden binnen het TikTok-ecosysteem, waardoor je minder eigenaarschap hebt over de relatie met je klanten. Voor merken die op klantbinding bouwen is dat een serieus aandachtspunt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke producten werken het beste op TikTok Shop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Producten die in een korte video te demonstreren zijn werken het best. Mode, beauty, food, gadgets en accessoires zijn de top-categorieën in markten waar TikTok Shop al actief is. Items met een prijspunt onder de 50 euro doen het structureel beter, omdat impulsaankopen vaker voorkomen. Premium of complexe producten passen minder goed bij de impuls-aankoop dynamiek van het platform."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe combineer je TikTok Shop met je bestaande webshop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Behandel TikTok Shop als een extra verkoopkanaal, niet als vervanging. Gebruik je eigen webshop als hoofdrelatie met klanten, en zet TikTok Shop in voor impulsaankopen of cross-sell van specifieke productcategorieën. Voorraadsynchronisatie via Shopify of vergelijkbare platforms is essentieel, anders verkoop je producten die je niet meer hebt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe bereid je je nu al voor op de Nederlandse launch?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bouw nu al een TikTok-publiek op via reguliere advertenties en organische content. Zorg dat je productcatalogus gestructureerd staat met goede titels, beschrijvingen en hoge-resolutie beelden. Investeer in UGC-stijl video-content. Zodra TikTok Shop in Nederland live gaat, heb je een vliegende start zonder vanaf nul te beginnen."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is TikTok Shop precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "TikTok Shop is een ingebouwde marketplace binnen het TikTok-platform waar gebruikers producten kunnen kopen zonder de app te verlaten. Verkopers koppelen hun productcatalogus, en advertenties of organische videos kunnen direct doorklikbaar gemaakt worden naar de in-app checkout. Het verschil met klassiek adverteren via TikTok: bij Shop hoeft de koper niet meer naar je externe webshop, de transactie gebeurt binnen TikTok zelf."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Is TikTok Shop al beschikbaar in Nederland?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Op moment van schrijven (mei 2026) is TikTok Shop nog niet officieel gelanceerd in Nederland, hoewel de infrastructuur volgens publieke berichten in voorbereiding is. Een launch in de zomer van 2026 wordt verwacht, samen met Polen en België. Tot die tijd kunnen Nederlandse verkopers in beperkte mate via de Britse of Duitse TikTok Shop verkopen, mits ze aan de daar geldende eisen voldoen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat zijn de voordelen voor webshops?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Het belangrijkste voordeel: minder uitval in de funnel. Een gebruiker die nu nog moet doorklikken naar je site, een account aanmaken en checkout doorlopen, klikt straks twee keer en heeft een product binnen TikTok besteld. Daarnaast is de attributie helderder, omdat alles binnen één platform gebeurt en signaalverlies door iOS-tracking minder speelt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat zijn de nadelen of risico's?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "TikTok houdt een commissie in op elke verkoop, doorgaans tussen de 5 en 8 procent afhankelijk van categorie. Bovendien wordt klantdata vastgehouden binnen het TikTok-ecosysteem, waardoor je minder eigenaarschap hebt over de relatie met je klanten. Voor merken die op klantbinding bouwen is dat een serieus aandachtspunt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke producten werken het beste op TikTok Shop?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Producten die in een korte video te demonstreren zijn werken het best. Mode, beauty, food, gadgets en accessoires zijn de top-categorieën in markten waar TikTok Shop al actief is. Items met een prijspunt onder de 50 euro doen het structureel beter, omdat impulsaankopen vaker voorkomen. Premium of complexe producten passen minder goed bij de impuls-aankoop dynamiek van het platform."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe combineer je TikTok Shop met je bestaande webshop?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Behandel TikTok Shop als een extra verkoopkanaal, niet als vervanging. Gebruik je eigen webshop als hoofdrelatie met klanten, en zet TikTok Shop in voor impulsaankopen of cross-sell van specifieke productcategorieën. Voorraadsynchronisatie via Shopify of vergelijkbare platforms is essentieel, anders verkoop je producten die je niet meer hebt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe bereid je je nu al voor op de Nederlandse launch?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bouw nu al een TikTok-publiek op via reguliere advertenties en organische content. Zorg dat je productcatalogus gestructureerd staat met goede titels, beschrijvingen en hoge-resolutie beelden. Investeer in UGC-stijl video-content. Zodra TikTok Shop in Nederland live gaat, heb je een vliegende start zonder vanaf nul te beginnen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "TikTok Shop",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/tiktok-shop-adverteren-verkopen-platform"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "TikTok Shop", "item": "https://www.empowers.nl/blogs/social-ads/tiktok-shop-adverteren-verkopen-platform" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

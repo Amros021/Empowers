@@ -28,97 +28,122 @@ export default function BlogPostZichtbaarWordenAiZoekmachines() {
                 <meta name="twitter:title" content="Zo word je zichtbaar in AI-zoekmachines" />
                 <meta name="twitter:description" content="Praktische gids voor zichtbaarheid in ChatGPT, Perplexity en Gemini." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Zo word je zichtbaar in AI-zoekmachines",
-                        "description": "Hoe zorg je dat ChatGPT, Perplexity en Gemini jouw merk noemen? Een praktische gids met wat wel en niet werkt.",
-                        "image": "https://www.empowers.nl/images/blogs/zichtbaar-worden-ai-zoekmachines.jpg",
-                        "datePublished": "2026-05-09T13:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Zo word je zichtbaar in AI-zoekmachines",
+                            "description": "Hoe zorg je dat ChatGPT, Perplexity en Gemini jouw merk noemen? Een praktische gids met wat wel en niet werkt.",
+                            "image": "https://www.empowers.nl/images/blogs/zichtbaar-worden-ai-zoekmachines.jpg",
+                            "datePublished": "2026-05-09T13:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat moet ik als eerste doen om zichtbaar te worden in AI-zoekmachines?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin met een lijst van de tien tot vijftien vragen die jouw doelgroep echt stelt en typ ze in ChatGPT, Perplexity en Gemini. Zo zie je waar je nu wel of niet verschijnt. Pas daarna pak je de pagina's aan die voor de meest relevante vragen open ruimte laten. Een audit eerst, daarna gericht herschrijven."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke type content werkt het best voor AI-zichtbaarheid?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Content die een vraag direct beantwoordt, helder is opgebouwd en met bron is onderbouwd. AI-engines kiezen bij voorkeur pagina's met het antwoord vooraan, een logische kop-structuur en een FAQ-blok onderaan. Generieke keyword-stuffed blogs presteren steeds slechter, terwijl diepe expert-content stijgt in zichtbaarheid."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voor een nieuwe pagina opduikt in AI-antwoorden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "In de praktijk vaak vier tot acht weken. AI-engines indexeren nieuwe content niet onmiddellijk, en het kost tijd voordat een pagina autoriteit krijgt voor de bijbehorende vraag. Snellere zichtbaarheid haal je door te schrijven over onderwerpen waar weinig sterke bestaande bronnen zijn, in plaats van te concurreren in verzadigde categorieen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Maakt mijn bestaande SEO-werk verschil voor AI-zichtbaarheid?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, in grote mate. AI-engines crawlen sites met dezelfde infrastructuur als Googlebot. Wie technisch een sterke SEO-fundering heeft (snelle laadtijd, mobielvriendelijk, schone sitemap, schema markup), heeft een voorsprong. Slechte SEO blokkeert AI-zichtbaarheid even hard als klassieke zichtbaarheid in Google."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik betalen voor zichtbaarheid in AI-zoekmachines?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee, organische zichtbaarheid in AI-engines is op dit moment volledig gratis verdiend. Sommige platforms experimenteren met sponsored placements (ChatGPT en Perplexity hebben aankondigingen gedaan over advertenties), maar de meeste citaties komen via natuurlijke ranking van content. Investeren doe je in betere content, niet in AI-advertenties."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik of mijn AI-zichtbaarheid groeit?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Combineer drie meetlijnen. Branded zoekvolume in Google Search Console laat zien of mensen na een AI-antwoord naar jouw merk zoeken. Tools als AthenaHQ of Profound loggen per query welke domeinen door een AI-engine als bron worden genoemd. En direct verkeer naar je homepage stijgt vaak als je merk vaker wordt geciteerd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Helpt het om mijn merk in andere AI-bronnen te krijgen, zoals Wikipedia?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, indirect. AI-engines wegen autoriteits-bronnen zwaarder. Wie als bron wordt genoemd op Wikipedia, in vakmedia, op sterke industrie-blogs en in podcast-shownotes, krijgt vaker zelf citaties. Het is geen quick-win, maar een doorlopende investering in vermeldingen elders op het web."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat moet ik als eerste doen om zichtbaar te worden in AI-zoekmachines?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin met een lijst van de tien tot vijftien vragen die jouw doelgroep echt stelt en typ ze in ChatGPT, Perplexity en Gemini. Zo zie je waar je nu wel of niet verschijnt. Pas daarna pak je de pagina's aan die voor de meest relevante vragen open ruimte laten. Een audit eerst, daarna gericht herschrijven."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke type content werkt het best voor AI-zichtbaarheid?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Content die een vraag direct beantwoordt, helder is opgebouwd en met bron is onderbouwd. AI-engines kiezen bij voorkeur pagina's met het antwoord vooraan, een logische kop-structuur en een FAQ-blok onderaan. Generieke keyword-stuffed blogs presteren steeds slechter, terwijl diepe expert-content stijgt in zichtbaarheid."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voor een nieuwe pagina opduikt in AI-antwoorden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "In de praktijk vaak vier tot acht weken. AI-engines indexeren nieuwe content niet onmiddellijk, en het kost tijd voordat een pagina autoriteit krijgt voor de bijbehorende vraag. Snellere zichtbaarheid haal je door te schrijven over onderwerpen waar weinig sterke bestaande bronnen zijn, in plaats van te concurreren in verzadigde categorieen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Maakt mijn bestaande SEO-werk verschil voor AI-zichtbaarheid?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, in grote mate. AI-engines crawlen sites met dezelfde infrastructuur als Googlebot. Wie technisch een sterke SEO-fundering heeft (snelle laadtijd, mobielvriendelijk, schone sitemap, schema markup), heeft een voorsprong. Slechte SEO blokkeert AI-zichtbaarheid even hard als klassieke zichtbaarheid in Google."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik betalen voor zichtbaarheid in AI-zoekmachines?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee, organische zichtbaarheid in AI-engines is op dit moment volledig gratis verdiend. Sommige platforms experimenteren met sponsored placements (ChatGPT en Perplexity hebben aankondigingen gedaan over advertenties), maar de meeste citaties komen via natuurlijke ranking van content. Investeren doe je in betere content, niet in AI-advertenties."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe meet ik of mijn AI-zichtbaarheid groeit?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Combineer drie meetlijnen. Branded zoekvolume in Google Search Console laat zien of mensen na een AI-antwoord naar jouw merk zoeken. Tools als AthenaHQ of Profound loggen per query welke domeinen door een AI-engine als bron worden genoemd. En direct verkeer naar je homepage stijgt vaak als je merk vaker wordt geciteerd."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Helpt het om mijn merk in andere AI-bronnen te krijgen, zoals Wikipedia?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, indirect. AI-engines wegen autoriteits-bronnen zwaarder. Wie als bron wordt genoemd op Wikipedia, in vakmedia, op sterke industrie-blogs en in podcast-shownotes, krijgt vaker zelf citaties. Het is geen quick-win, maar een doorlopende investering in vermeldingen elders op het web."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Zichtbaar in AI-zoekmachines",
+                                    "item": "https://www.empowers.nl/blogs/geo/zichtbaar-worden-ai-zoekmachines"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "Zichtbaar in AI-zoekmachines", "item": "https://www.empowers.nl/blogs/geo/zichtbaar-worden-ai-zoekmachines" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

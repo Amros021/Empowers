@@ -28,97 +28,122 @@ export default function BlogPostTiktokAdsWebshopsBoostSales() {
                 <meta name="twitter:title" content="TikTok Ads voor webshops: zo boost je je sales" />
                 <meta name="twitter:description" content="Hoe webshops TikTok-advertenties opzetten die werkelijk omzet draaien." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "TikTok Ads voor webshops: zo boost je je sales",
-                        "description": "Praktische gids voor webshops om TikTok-advertenties op te zetten die converteren. Van creative tot tracking en optimalisatie.",
-                        "image": "https://www.empowers.nl/images/blogs/tiktok-ads-webshops-boost-sales.jpg",
-                        "datePublished": "2026-05-07T19:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "TikTok Ads voor webshops: zo boost je je sales",
+                            "description": "Praktische gids voor webshops om TikTok-advertenties op te zetten die converteren. Van creative tot tracking en optimalisatie.",
+                            "image": "https://www.empowers.nl/images/blogs/tiktok-ads-webshops-boost-sales.jpg",
+                            "datePublished": "2026-05-07T19:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werken TikTok Ads voor elke webshop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet voor elke webshop. TikTok werkt het beste voor producten met visuele aantrekkingskracht of een verhaal dat in 15 seconden te vertellen is. Mode, beauty, food, accessoires en lifestyle scoren bovengemiddeld. Webshops met technische producten, B2B-aanbod of premium niches halen vaak meer rendement uit Meta of Google Shopping."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost adverteren op TikTok voor een webshop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een minimaal werkbaar maandbudget begint rond 1.500 euro. Onder dat niveau krijgt het algoritme te weinig data om effectief te leren en blijft de leerfase hangen. CPM's voor brede doelgroepen liggen tussen 5 en 12 euro, CPC's tussen 0,30 en 1 euro. Realistische ROAS voor goedlopende campagnes ligt rond 2 tot 5, afhankelijk van branche en marge."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke creative werkt het beste op TikTok voor webshops?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "User-generated content (UGC) en native ogende videos werken structureel beter dan gepolijste reclames. Het format dat doorgaans wint: een persoon die het product in eigen omgeving demonstreert, met een hook in de eerste drie seconden en een duidelijke prijs of aanbieding. Voice-over werkt meestal beter dan tekst-overlay alleen, omdat geluid een groot deel van de TikTok-ervaring is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb je een TikTok Pixel nodig?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, en bij voorkeur ook de TikTok Events API. De Pixel meet client-side gedrag op je site, de Events API doet hetzelfde server-side waardoor signaalverlies door iOS-tracking en cookie-blockers wegvalt. Zonder deze tracking weet TikTok niet wie er converteert en optimaliseert het algoritme blind. De installatie is technisch vergelijkbaar met de Meta Pixel."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe bouw je een TikTok-campagne op voor webshops?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin met één campagne gericht op aankopen, met de productcatalogus gekoppeld. Splits in twee adsets: één voor cold prospecting met brede targeting (laat het algoritme werken), één voor retargeting van mensen die je site bezochten zonder kopen. Houd minimaal drie creatives per adset draaien zodat het algoritme kan testen. Geef de campagne minstens twee weken voordat je iets wijzigt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is Smart+ en moet ik dat gebruiken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Smart+ is TikTok's geautomatiseerde campagnemodus, vergelijkbaar met Advantage+ Shopping van Meta. Het algoritme kiest zelf doelgroep, plaatsing en biedstrategie binnen jouw budget. Voor webshops met een gevulde productcatalogus en gezonde Pixel-data werkt Smart+ doorgaans beter dan handmatige campagnes. Voor accounts zonder data of met een beperkt assortiment is een handmatige opzet nog steeds te verkiezen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke fouten maken webshops het vaakst op TikTok?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De meest gemaakte fouten: te gepolijste creatives die niet in de feed thuishoren, een productcatalogus die niet up-to-date is, geen Events API geïnstalleerd waardoor tracking mank loopt, en te snel knoppen omzetten waardoor de leerfase niet doorkomt. Webshops die deze valkuilen ontwijken zien doorgaans binnen drie maanden een gezonde ROAS."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Werken TikTok Ads voor elke webshop?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet voor elke webshop. TikTok werkt het beste voor producten met visuele aantrekkingskracht of een verhaal dat in 15 seconden te vertellen is. Mode, beauty, food, accessoires en lifestyle scoren bovengemiddeld. Webshops met technische producten, B2B-aanbod of premium niches halen vaak meer rendement uit Meta of Google Shopping."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost adverteren op TikTok voor een webshop?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een minimaal werkbaar maandbudget begint rond 1.500 euro. Onder dat niveau krijgt het algoritme te weinig data om effectief te leren en blijft de leerfase hangen. CPM's voor brede doelgroepen liggen tussen 5 en 12 euro, CPC's tussen 0,30 en 1 euro. Realistische ROAS voor goedlopende campagnes ligt rond 2 tot 5, afhankelijk van branche en marge."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke creative werkt het beste op TikTok voor webshops?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "User-generated content (UGC) en native ogende videos werken structureel beter dan gepolijste reclames. Het format dat doorgaans wint: een persoon die het product in eigen omgeving demonstreert, met een hook in de eerste drie seconden en een duidelijke prijs of aanbieding. Voice-over werkt meestal beter dan tekst-overlay alleen, omdat geluid een groot deel van de TikTok-ervaring is."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Heb je een TikTok Pixel nodig?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, en bij voorkeur ook de TikTok Events API. De Pixel meet client-side gedrag op je site, de Events API doet hetzelfde server-side waardoor signaalverlies door iOS-tracking en cookie-blockers wegvalt. Zonder deze tracking weet TikTok niet wie er converteert en optimaliseert het algoritme blind. De installatie is technisch vergelijkbaar met de Meta Pixel."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe bouw je een TikTok-campagne op voor webshops?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin met één campagne gericht op aankopen, met de productcatalogus gekoppeld. Splits in twee adsets: één voor cold prospecting met brede targeting (laat het algoritme werken), één voor retargeting van mensen die je site bezochten zonder kopen. Houd minimaal drie creatives per adset draaien zodat het algoritme kan testen. Geef de campagne minstens twee weken voordat je iets wijzigt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is Smart+ en moet ik dat gebruiken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Smart+ is TikTok's geautomatiseerde campagnemodus, vergelijkbaar met Advantage+ Shopping van Meta. Het algoritme kiest zelf doelgroep, plaatsing en biedstrategie binnen jouw budget. Voor webshops met een gevulde productcatalogus en gezonde Pixel-data werkt Smart+ doorgaans beter dan handmatige campagnes. Voor accounts zonder data of met een beperkt assortiment is een handmatige opzet nog steeds te verkiezen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke fouten maken webshops het vaakst op TikTok?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De meest gemaakte fouten: te gepolijste creatives die niet in de feed thuishoren, een productcatalogus die niet up-to-date is, geen Events API geïnstalleerd waardoor tracking mank loopt, en te snel knoppen omzetten waardoor de leerfase niet doorkomt. Webshops die deze valkuilen ontwijken zien doorgaans binnen drie maanden een gezonde ROAS."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "TikTok Ads webshops",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-webshops-boost-sales"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "TikTok Ads webshops", "item": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-webshops-boost-sales" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

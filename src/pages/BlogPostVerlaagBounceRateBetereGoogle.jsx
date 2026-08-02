@@ -26,51 +26,114 @@ export default function BlogPostVerlaagBounceRateBetereGoogle() {
                 <meta property="article:section" content="Google Ads" />
                 <meta name="twitter:card" content="summary_large_image" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Bounce rate verlagen met betere Google Ads landingspagina's",
-                        "description": "Hoe je je Google Ads landingspagina's bouwt zodat bezoekers blijven, doorklikken en converteren.",
-                        "image": "https://www.empowers.nl/images/blogs/verlaag-bounce-rate-betere-google.jpg",
-                        "datePublished": "2026-05-13T11:30:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Bounce rate verlagen met betere Google Ads landingspagina's",
+                            "description": "Hoe je je Google Ads landingspagina's bouwt zodat bezoekers blijven, doorklikken en converteren.",
+                            "image": "https://www.empowers.nl/images/blogs/verlaag-bounce-rate-betere-google.jpg",
+                            "datePublished": "2026-05-13T11:30:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede bounce rate voor Google Ads-landingspagina's?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een gezonde benchmark ligt rond de 40 procent voor B2B-lead-pagina's en rond de 55 procent voor e-commerce productpagina's. Boven de 70 procent geeft Google Ads-verkeer een duidelijk signaal dat je pagina niet aansluit op de zoekintentie of dat de techniek niet klopt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke factor heeft de grootste impact op bounce rate?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Message match: de mate waarin je advertentietekst en je landingspagina dezelfde belofte doen. Wie op een advertentie over rode hardloopschoenen klikt en op een algemene merkpagina belandt, klikt vrijwel altijd binnen vijf seconden weg. Eén-op-één match tussen ad en pagina levert in de praktijk vaak halvering van de bounce rate."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe snel moet een landingspagina laden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Largest Contentful Paint onder 2,5 seconden op mobiel is de norm volgens Google. Boven die drempel haakt een groot deel van de mobiele bezoekers af. Op trage 4G-netwerken haalt vrijwel geen WordPress-site dit zonder serieuze optimalisatie van afbeeldingen, lettertypes, JavaScript en third-party scripts."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Zijn aparte landingspagina's per campagne nodig?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor Search-campagnes met scherpe zoekintentie loont een aparte landingspagina vrijwel altijd. Per advertentiegroep een pagina die exact aansluit op de zoekopdracht. Dat verlaagt bounce rate én verhoogt je quality score, waardoor je effectief minder CPC betaalt voor dezelfde click."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke fout zien jullie het meest op klant-landingspagina's?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Te veel boodschappen tegelijk. Een pagina probeert in de hero zowel het USP te zeggen, social proof te tonen en drie verschillende doelgroepen aan te spreken. Resultaat: niemand voelt zich aangesproken. Beter: één duidelijke belofte, gericht op de zoekopdracht waar het verkeer op binnenkomt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik bounce rate na de GA4-update?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "GA4 toont standaard engagement rate; bounce rate is het tegenovergestelde. Een sessie telt als geëngageerd als hij langer dan 10 seconden duurt, een conversie genereert of meerdere pagina's bekijkt. Activeer bounce rate als metric in GA4 onder Customize Report om hem expliciet te zien."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
-                                { "@type": "Question", "name": "Wat is een goede bounce rate voor Google Ads-landingspagina's?",
-                                  "acceptedAnswer": { "@type": "Answer", "text": "Een gezonde benchmark ligt rond de 40 procent voor B2B-lead-pagina's en rond de 55 procent voor e-commerce productpagina's. Boven de 70 procent geeft Google Ads-verkeer een duidelijk signaal dat je pagina niet aansluit op de zoekintentie of dat de techniek niet klopt." } },
-                                { "@type": "Question", "name": "Welke factor heeft de grootste impact op bounce rate?",
-                                  "acceptedAnswer": { "@type": "Answer", "text": "Message match: de mate waarin je advertentietekst en je landingspagina dezelfde belofte doen. Wie op een advertentie over rode hardloopschoenen klikt en op een algemene merkpagina belandt, klikt vrijwel altijd binnen vijf seconden weg. Eén-op-één match tussen ad en pagina levert in de praktijk vaak halvering van de bounce rate." } },
-                                { "@type": "Question", "name": "Hoe snel moet een landingspagina laden?",
-                                  "acceptedAnswer": { "@type": "Answer", "text": "Largest Contentful Paint onder 2,5 seconden op mobiel is de norm volgens Google. Boven die drempel haakt een groot deel van de mobiele bezoekers af. Op trage 4G-netwerken haalt vrijwel geen WordPress-site dit zonder serieuze optimalisatie van afbeeldingen, lettertypes, JavaScript en third-party scripts." } },
-                                { "@type": "Question", "name": "Zijn aparte landingspagina's per campagne nodig?",
-                                  "acceptedAnswer": { "@type": "Answer", "text": "Voor Search-campagnes met scherpe zoekintentie loont een aparte landingspagina vrijwel altijd. Per advertentiegroep een pagina die exact aansluit op de zoekopdracht. Dat verlaagt bounce rate én verhoogt je quality score, waardoor je effectief minder CPC betaalt voor dezelfde click." } },
-                                { "@type": "Question", "name": "Welke fout zien jullie het meest op klant-landingspagina's?",
-                                  "acceptedAnswer": { "@type": "Answer", "text": "Te veel boodschappen tegelijk. Een pagina probeert in de hero zowel het USP te zeggen, social proof te tonen en drie verschillende doelgroepen aan te spreken. Resultaat: niemand voelt zich aangesproken. Beter: één duidelijke belofte, gericht op de zoekopdracht waar het verkeer op binnenkomt." } },
-                                { "@type": "Question", "name": "Hoe meet ik bounce rate na de GA4-update?",
-                                  "acceptedAnswer": { "@type": "Answer", "text": "GA4 toont standaard engagement rate; bounce rate is het tegenovergestelde. Een sessie telt als geëngageerd als hij langer dan 10 seconden duurt, een conversie genereert of meerdere pagina's bekijkt. Activeer bounce rate als metric in GA4 onder Customize Report om hem expliciet te zien." } }
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Bounce rate verlagen",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/verlaag-bounce-rate-betere-google"
+                                }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Bounce rate verlagen", "item": "https://www.empowers.nl/blogs/google-ads/verlaag-bounce-rate-betere-google" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -23,36 +23,110 @@ export default function BlogPostZoekmachineOptimalisatieBureauKiezenGids() {
                 <meta property="article:section" content="SEO" />
 
                 <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "Article",
-                    "headline": "Zoekmachine optimalisatie bureau kiezen: de complete gids",
-                    "description": "Een gids om een SEO-bureau te kiezen dat verder gaat dan rapportjes en daadwerkelijk omzet bouwt.",
-                    "image": "https://www.empowers.nl/images/blogs/zoekmachine-optimalisatie-bureau-kiezen-gids.jpg",
-                    "datePublished": "2026-05-13T17:00:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                    "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                        { "@type": "Question", "name": "Hoe herken ik een goed SEO-bureau?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Aan vier signalen. Het bureau praat over organisch verkeer dat conversies oplevert, niet over keyword-posities op zich. Ze hebben technisch én content-talent in huis. Ze laten een live klantaccount zien met meetbare progressie. En ze hanteren een tijdshorizon van minstens 6 maanden voor SEO-resultaat, want beloftes van resultaten binnen weken zijn een rode vlag." } },
-                        { "@type": "Question", "name": "Hoeveel kost een SEO-bureau gemiddeld?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor MKB-pakketten ligt de management fee meestal tussen 1.500 en 4.000 euro per maand, afhankelijk van scope en complexiteit. Voor enterprise-projecten of internationale SEO loopt dit hoger op. Pakketten onder de 750 euro per maand zijn meestal sjabloon-werk: standaard keyword-onderzoek, een paar blog-posts en wat link-bouw, zonder strategisch werk." } },
-                        { "@type": "Question", "name": "Hoe lang voor je SEO-resultaten ziet?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor de meeste websites: drie tot zes maanden voordat organisch verkeer significant beweegt op niet-merk-zoekopdrachten. Voor zeer competitieve markten (financiën, verzekeringen) loopt dat door tot 9 of 12 maanden. Een bureau dat resultaten binnen 30 of 60 dagen belooft hanteert óf black-hat technieken óf liegt. Beide leiden tot trouble." } },
-                        { "@type": "Question", "name": "Wat zijn rode vlaggen bij SEO-bureaus?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Garanties op specifieke rankings (Google geeft geen enkele garantie aan wie dan ook). Massale link-pakketten van 100 backlinks per maand (vrijwel altijd lage kwaliteit). Geen access tot je Google Search Console of Analytics willen. Vaste contracten van 12 maanden zonder evaluatiemoment. En SEO-rapportages die alleen over 'rankings' praten zonder verkeer of conversies te koppelen." } },
-                        { "@type": "Question", "name": "Wat moet er in een SEO-contract staan?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Eigendom van content en backlinks blijft bij jou. Een opzegtermijn van maximaal één maand na een proefperiode van 1 tot 3 maanden. Heldere lijst maandelijkse deliverables (technische audits, content-output, link-acquisitie). Toegang voor het bureau via je eigen Search Console en Analytics, niet via een gedeeld account. En een prestatie-clausule als KPI's structureel niet gehaald worden." } },
-                        { "@type": "Question", "name": "Heb ik nog SEO nodig in het GEO-tijdperk?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Ja, sterker dan ooit. AI-zoekmachines zoals ChatGPT en Perplexity halen hun antwoorden uit dezelfde basis-content die SEO optimaliseert. Goed gestructureerde content met heldere FAQ-blokken en autoritaire bronnen wordt zowel hoog gerankt in Google als geciteerd door AI. Hoe je dat goed inricht hebben we beschreven in onze blog over Generative Engine Optimization." } }
-                    ] }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "SEO", "item": "https://www.empowers.nl/blogs/seo" },
-                        { "@type": "ListItem", "position": 4, "name": "SEO bureau kiezen", "item": "https://www.empowers.nl/blogs/seo/zoekmachine-optimalisatie-bureau-kiezen-gids" }
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Zoekmachine optimalisatie bureau kiezen: de complete gids",
+                            "description": "Een gids om een SEO-bureau te kiezen dat verder gaat dan rapportjes en daadwerkelijk omzet bouwt.",
+                            "image": "https://www.empowers.nl/images/blogs/zoekmachine-optimalisatie-bureau-kiezen-gids.jpg",
+                            "datePublished": "2026-05-13T17:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe herken ik een goed SEO-bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Aan vier signalen. Het bureau praat over organisch verkeer dat conversies oplevert, niet over keyword-posities op zich. Ze hebben technisch én content-talent in huis. Ze laten een live klantaccount zien met meetbare progressie. En ze hanteren een tijdshorizon van minstens 6 maanden voor SEO-resultaat, want beloftes van resultaten binnen weken zijn een rode vlag."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel kost een SEO-bureau gemiddeld?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor MKB-pakketten ligt de management fee meestal tussen 1.500 en 4.000 euro per maand, afhankelijk van scope en complexiteit. Voor enterprise-projecten of internationale SEO loopt dit hoger op. Pakketten onder de 750 euro per maand zijn meestal sjabloon-werk: standaard keyword-onderzoek, een paar blog-posts en wat link-bouw, zonder strategisch werk."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang voor je SEO-resultaten ziet?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste websites: drie tot zes maanden voordat organisch verkeer significant beweegt op niet-merk-zoekopdrachten. Voor zeer competitieve markten (financiën, verzekeringen) loopt dat door tot 9 of 12 maanden. Een bureau dat resultaten binnen 30 of 60 dagen belooft hanteert óf black-hat technieken óf liegt. Beide leiden tot trouble."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn rode vlaggen bij SEO-bureaus?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Garanties op specifieke rankings (Google geeft geen enkele garantie aan wie dan ook). Massale link-pakketten van 100 backlinks per maand (vrijwel altijd lage kwaliteit). Geen access tot je Google Search Console of Analytics willen. Vaste contracten van 12 maanden zonder evaluatiemoment. En SEO-rapportages die alleen over 'rankings' praten zonder verkeer of conversies te koppelen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat moet er in een SEO-contract staan?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Eigendom van content en backlinks blijft bij jou. Een opzegtermijn van maximaal één maand na een proefperiode van 1 tot 3 maanden. Heldere lijst maandelijkse deliverables (technische audits, content-output, link-acquisitie). Toegang voor het bureau via je eigen Search Console en Analytics, niet via een gedeeld account. En een prestatie-clausule als KPI's structureel niet gehaald worden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb ik nog SEO nodig in het GEO-tijdperk?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, sterker dan ooit. AI-zoekmachines zoals ChatGPT en Perplexity halen hun antwoorden uit dezelfde basis-content die SEO optimaliseert. Goed gestructureerde content met heldere FAQ-blokken en autoritaire bronnen wordt zowel hoog gerankt in Google als geciteerd door AI. Hoe je dat goed inricht hebben we beschreven in onze blog over Generative Engine Optimization."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "SEO bureau kiezen",
+                                    "item": "https://www.empowers.nl/blogs/seo/zoekmachine-optimalisatie-bureau-kiezen-gids"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />

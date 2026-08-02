@@ -28,97 +28,122 @@ export default function BlogPostTiktokAdsVsMetaAds() {
                 <meta name="twitter:title" content="TikTok Ads vs Meta Ads: waar zit jouw doelgroep?" />
                 <meta name="twitter:description" content="Welk platform past bij jouw doelgroep — TikTok of Meta? Een eerlijke vergelijking voor 2026." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "TikTok Ads vs Meta Ads: waar zit jouw doelgroep?",
-                        "description": "TikTok Ads of Meta Ads? Lees waar jouw doelgroep zit, welke creatives werken op elk platform en hoe je het juiste budget verdeelt voor maximale ROAS.",
-                        "image": "https://www.empowers.nl/images/blogs/tiktok-ads-vs-meta-ads.jpg",
-                        "datePublished": "2026-05-02T13:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "TikTok Ads vs Meta Ads: waar zit jouw doelgroep?",
+                            "description": "TikTok Ads of Meta Ads? Lees waar jouw doelgroep zit, welke creatives werken op elk platform en hoe je het juiste budget verdeelt voor maximale ROAS.",
+                            "image": "https://www.empowers.nl/images/blogs/tiktok-ads-vs-meta-ads.jpg",
+                            "datePublished": "2026-05-02T13:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het grootste verschil tussen TikTok Ads en Meta Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "TikTok draait om ontdekking. Mensen zien content waarvan ze niet wisten dat ze die wilden zien. Meta draait om relaties en bekenden. De algoritmes belonen daarom andere creatives. Op TikTok werkt rauwe, native video met een sterke hook. Op Meta werken polished cases en testimonials beter omdat het publiek wat ouder en zakelijker is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk platform heeft de jongste doelgroep?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "TikTok heeft de jongste doelgroep. In Nederland is rond 60 procent van de TikTok-gebruikers tussen 16 en 34 jaar. Meta blijft sterk in de leeftijdsgroep 25 tot 55. Voor merken die zich richten op tieners en twintigers wint TikTok in bereik. Voor 35-plus blijft Meta het kanaal met de grootste schaal."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk platform heeft de laagste kosten per klik?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "TikTok heeft in 2026 doorgaans 30 tot 50 procent lagere kosten per klik dan Meta. De gemiddelde CPC op TikTok ligt rond 0,80 tot 1,30 euro, op Meta tussen 1,20 en 2,00 euro. Lagere CPC betekent niet automatisch lagere kosten per conversie. TikTok-gebruikers converteren vaak na meer touchpoints, dus reken het hele traject door."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke creatives werken op TikTok en welke op Meta?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "TikTok beloont native, ongepolijste video met een sterke eerste 3 seconden, gesproken tekst, ondertiteling en een trending sound. Meta beloont gepolijste creatives met heldere boodschap, klantcases met namen en herkenbare statische beelden of korte explainers. Een TikTok-video op Meta presteert vaak slecht en omgekeerd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk minimumbudget heb je nodig voor TikTok of Meta?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Op Meta reken je op 15 tot 25 euro per dag per ad set om uit de leerfase te komen, oftewel 450 tot 750 euro per maand per campagne. Op TikTok lukt het al vanaf 20 euro per dag, omdat het algoritme sneller leert. Voor een eerlijke test op een nieuw platform reken je op minimaal 6 weken en 1.500 tot 2.500 euro budget."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt TikTok ook voor B2B?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor klassieke enterprise B2B niet, voor MKB-B2B steeds vaker wel. TikTok wordt in 2026 ook door zakelijke beslissers gebruikt, vooral in marketing, e-commerce en SaaS. Voor B2B-aanbiedingen tot 25.000 euro per jaar haalt TikTok soms verrassend goedkope leads. Voor zware enterprise-deals blijft LinkedIn de eerste keuze."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik kiezen tussen TikTok en Meta?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste merken niet. De slimste opzet is een combinatie: Meta voor stabiele schaal en remarketing, TikTok voor goedkope topfunnel-bekendheid en jongere doelgroepen. Verdeel jouw budget 60 tot 70 procent op het sterkste platform en 30 tot 40 procent op het tweede. Werkt het tweede platform na 8 weken niet, dan schuif je budget terug."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het grootste verschil tussen TikTok Ads en Meta Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "TikTok draait om ontdekking. Mensen zien content waarvan ze niet wisten dat ze die wilden zien. Meta draait om relaties en bekenden. De algoritmes belonen daarom andere creatives. Op TikTok werkt rauwe, native video met een sterke hook. Op Meta werken polished cases en testimonials beter omdat het publiek wat ouder en zakelijker is."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welk platform heeft de jongste doelgroep?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "TikTok heeft de jongste doelgroep. In Nederland is rond 60 procent van de TikTok-gebruikers tussen 16 en 34 jaar. Meta blijft sterk in de leeftijdsgroep 25 tot 55. Voor merken die zich richten op tieners en twintigers wint TikTok in bereik. Voor 35-plus blijft Meta het kanaal met de grootste schaal."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welk platform heeft de laagste kosten per klik?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "TikTok heeft in 2026 doorgaans 30 tot 50 procent lagere kosten per klik dan Meta. De gemiddelde CPC op TikTok ligt rond 0,80 tot 1,30 euro, op Meta tussen 1,20 en 2,00 euro. Lagere CPC betekent niet automatisch lagere kosten per conversie. TikTok-gebruikers converteren vaak na meer touchpoints, dus reken het hele traject door."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke creatives werken op TikTok en welke op Meta?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "TikTok beloont native, ongepolijste video met een sterke eerste 3 seconden, gesproken tekst, ondertiteling en een trending sound. Meta beloont gepolijste creatives met heldere boodschap, klantcases met namen en herkenbare statische beelden of korte explainers. Een TikTok-video op Meta presteert vaak slecht en omgekeerd."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welk minimumbudget heb je nodig voor TikTok of Meta?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Op Meta reken je op 15 tot 25 euro per dag per ad set om uit de leerfase te komen, oftewel 450 tot 750 euro per maand per campagne. Op TikTok lukt het al vanaf 20 euro per dag, omdat het algoritme sneller leert. Voor een eerlijke test op een nieuw platform reken je op minimaal 6 weken en 1.500 tot 2.500 euro budget."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt TikTok ook voor B2B?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor klassieke enterprise B2B niet, voor MKB-B2B steeds vaker wel. TikTok wordt in 2026 ook door zakelijke beslissers gebruikt, vooral in marketing, e-commerce en SaaS. Voor B2B-aanbiedingen tot 25.000 euro per jaar haalt TikTok soms verrassend goedkope leads. Voor zware enterprise-deals blijft LinkedIn de eerste keuze."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik kiezen tussen TikTok en Meta?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de meeste merken niet. De slimste opzet is een combinatie: Meta voor stabiele schaal en remarketing, TikTok voor goedkope topfunnel-bekendheid en jongere doelgroepen. Verdeel jouw budget 60 tot 70 procent op het sterkste platform en 30 tot 40 procent op het tweede. Werkt het tweede platform na 8 weken niet, dan schuif je budget terug."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "TikTok Ads vs Meta Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-vs-meta-ads"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "TikTok Ads vs Meta Ads", "item": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-vs-meta-ads" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

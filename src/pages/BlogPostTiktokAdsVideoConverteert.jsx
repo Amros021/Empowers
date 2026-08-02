@@ -28,97 +28,122 @@ export default function BlogPostTiktokAdsVideoConverteert() {
                 <meta name="twitter:title" content="Hoe maak je een TikTok Ads video die converteert?" />
                 <meta name="twitter:description" content="Welke hooks, opbouw en CTA's structureel meer omzet opleveren in TikTok-advertenties." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe maak je een TikTok Ads video die converteert?",
-                        "description": "Praktische gids voor TikTok-videos die niet alleen views opleveren maar ook conversies. Van hook tot opbouw en CTA.",
-                        "image": "https://www.empowers.nl/images/blogs/tiktok-ads-video-converteert.jpg",
-                        "datePublished": "2026-05-07T22:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe maak je een TikTok Ads video die converteert?",
+                            "description": "Praktische gids voor TikTok-videos die niet alleen views opleveren maar ook conversies. Van hook tot opbouw en CTA.",
+                            "image": "https://www.empowers.nl/images/blogs/tiktok-ads-video-converteert.jpg",
+                            "datePublished": "2026-05-07T22:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang moet een TikTok Ads video zijn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De zoete plek voor TikTok-advertenties ligt tussen 15 en 30 seconden. Korter dan 15 seconden geeft te weinig ruimte voor opbouw en CTA, langer dan 30 seconden zorgt voor steile drop-off in retentie. Voor cold prospecting werken 15 tot 20 seconden meestal het beste, retargeting kan iets langer."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat moet er in de eerste drie seconden gebeuren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De hook moet binnen drie seconden landen, anders ben je je kijker kwijt. Wat werkt: een directe vraag aan de kijker, een onverwacht beeld, een claim die nieuwsgierig maakt, of het zichtbaar tonen van het probleem dat je product oplost. Wat niet werkt: een logo-intro, een rustige opbouw of context-setting voordat de actie begint."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt UGC-stijl beter dan studio-content?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste merken: ja. UGC-stijl content (gemaakt door creators die op gewone gebruikers lijken) heeft op TikTok structureel hogere engagement en lagere CPA's dan gepolijste reclame. Het ziet er authentiek uit en valt minder op als advertentie. Studio-content kan werken voor luxe of premium merken, maar voor B2C-massamarkt verliest het bijna altijd van UGC."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke CTA werkt het beste in een TikTok-video?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een directe, concrete CTA werkt beter dan een vrijblijvende uitnodiging. Niet 'klik voor meer info' maar 'pak je 15 procent korting nu' of 'koop deze look'. De CTA komt zowel visueel (tekst-overlay) als auditief (voice-over) terug en eindigt in de laatste twee seconden van de video. Een video zonder duidelijke CTA krijgt vaak meer views maar minder conversies."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel video-varianten moet je testen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Per campagne minimaal drie tot vijf varianten tegelijk. Variatie in hook, in pacing, in CTA-stijl. Het algoritme vindt zelf de winnaar binnen een paar dagen, mits je voldoende impressies geeft (idealiter minimaal 10.000 per variant voordat je conclusies trekt). Met één variant adverteren is geen testen, maar gokken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik geluid en muziek gebruiken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, geluid is geen toegift maar een fundament. Het overgrote deel van TikTok-gebruikers kijkt met geluid aan, dus voice-over en muziek bepalen mede of de hook werkt. Trending sounds kunnen extra reach geven, maar dan alleen als ze passen bij je boodschap. Een geforceerde trend werkt averechts."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn de meest gemaakte fouten in TikTok-videos?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie fouten domineren: een trage hook waardoor de eerste drie seconden verloren gaan, te gepolijste productie die direct herkenbaar is als advertentie, en een ontbrekende of vrijblijvende CTA waardoor kijkers wel kijken maar niet klikken. Wie deze drie elementen oplost ziet doorgaans direct verbetering in CTR en conversie."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang moet een TikTok Ads video zijn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De zoete plek voor TikTok-advertenties ligt tussen 15 en 30 seconden. Korter dan 15 seconden geeft te weinig ruimte voor opbouw en CTA, langer dan 30 seconden zorgt voor steile drop-off in retentie. Voor cold prospecting werken 15 tot 20 seconden meestal het beste, retargeting kan iets langer."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat moet er in de eerste drie seconden gebeuren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De hook moet binnen drie seconden landen, anders ben je je kijker kwijt. Wat werkt: een directe vraag aan de kijker, een onverwacht beeld, een claim die nieuwsgierig maakt, of het zichtbaar tonen van het probleem dat je product oplost. Wat niet werkt: een logo-intro, een rustige opbouw of context-setting voordat de actie begint."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Werkt UGC-stijl beter dan studio-content?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de meeste merken: ja. UGC-stijl content (gemaakt door creators die op gewone gebruikers lijken) heeft op TikTok structureel hogere engagement en lagere CPA's dan gepolijste reclame. Het ziet er authentiek uit en valt minder op als advertentie. Studio-content kan werken voor luxe of premium merken, maar voor B2C-massamarkt verliest het bijna altijd van UGC."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke CTA werkt het beste in een TikTok-video?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een directe, concrete CTA werkt beter dan een vrijblijvende uitnodiging. Niet 'klik voor meer info' maar 'pak je 15 procent korting nu' of 'koop deze look'. De CTA komt zowel visueel (tekst-overlay) als auditief (voice-over) terug en eindigt in de laatste twee seconden van de video. Een video zonder duidelijke CTA krijgt vaak meer views maar minder conversies."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel video-varianten moet je testen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Per campagne minimaal drie tot vijf varianten tegelijk. Variatie in hook, in pacing, in CTA-stijl. Het algoritme vindt zelf de winnaar binnen een paar dagen, mits je voldoende impressies geeft (idealiter minimaal 10.000 per variant voordat je conclusies trekt). Met één variant adverteren is geen testen, maar gokken."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik geluid en muziek gebruiken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, geluid is geen toegift maar een fundament. Het overgrote deel van TikTok-gebruikers kijkt met geluid aan, dus voice-over en muziek bepalen mede of de hook werkt. Trending sounds kunnen extra reach geven, maar dan alleen als ze passen bij je boodschap. Een geforceerde trend werkt averechts."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat zijn de meest gemaakte fouten in TikTok-videos?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie fouten domineren: een trage hook waardoor de eerste drie seconden verloren gaan, te gepolijste productie die direct herkenbaar is als advertentie, en een ontbrekende of vrijblijvende CTA waardoor kijkers wel kijken maar niet klikken. Wie deze drie elementen oplost ziet doorgaans direct verbetering in CTR en conversie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "TikTok Ads video",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-video-converteert"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "TikTok Ads video", "item": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-video-converteert" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

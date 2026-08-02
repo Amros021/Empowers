@@ -29,8 +29,16 @@ export default function BlogPostVerbeterenGoogleAiOverviewsCtr() {
                             "headline": "Hoe verbeteren Google AI Overviews jouw CTR ondanks minder klikken?",
                             "image": "https://www.empowers.nl/images/blogs/verbeteren-google-ai-overviews-ctr.jpg",
                             "description": "Google AI Overviews geven rechtstreekse antwoorden, maar jouw CTR kan omlaag gaan. Leer hoe je meer conversies haalt uit minder zoekklikken en jouw autoriteit laat zien.",
-                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-03-26T00:00:00+01:00",
                             "dateModified": "2026-05-09T00:00:00+02:00",
                             "url": "https://www.empowers.nl/blogs/seo/verbeteren-google-ai-overviews-ctr"
@@ -38,28 +46,99 @@ export default function BlogPostVerbeterenGoogleAiOverviewsCtr() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Waarom daalt mijn CTR door Google AI Overviews?", "acceptedAnswer": { "@type": "Answer", "text": "Google AI Overviews geven direct antwoord in de zoekresultaten. Voor veel vragen hoeft iemand dus niet meer door te klikken naar je website. Je website krijgt minder kliks terwijl je hetzelfde zoekverkeer aantrekt. Dit is normaal voor informatievragen, maar voor commerciële vragen kun je nog steeds veel bezoeken krijgen als je goed aansluit op wat het AI-model toont." } },
-                                { "@type": "Question", "name": "Hoe meet ik of AI Overviews mijn traffic beïnvloeden?", "acceptedAnswer": { "@type": "Answer", "text": "Controleer Google Search Console op twee dingen: het aantal impressies per keyword (zoekvragen waarbij je toont) en de CTR (het percentage dat werkelijk doorklikt). Als je merkt dat een keyword nu veel meer impressies krijgt maar minder kliks, dan raakt AI Overviews je waarschijnlijk. Je ziet ook in Google Analytics of je zoekverkeer stagneert terwijl Search Console meer impressies toont." } },
-                                { "@type": "Question", "name": "Kunnen mijn producten in AI Overviews komen?", "acceptedAnswer": { "@type": "Answer", "text": "Ja, maar niet automatisch. AI Overviews tonen producten als je op de eerste pagina van Google staat en je product data helder gestructureerd hebt (met schema-markup). Je moet ook beter zijn dan je concurrenten: beter beschreven, meer reviews, betere beschikbaarheid. Het helpt als je ook in Google Shopping staat." } },
-                                { "@type": "Question", "name": "Wat is het verschil tussen AI Overviews en reguliere snippets?", "acceptedAnswer": { "@type": "Answer", "text": "Reguliere snippets tonen tekst van één pagina plus een link. AI Overviews combineert informatie van meerdere websites en geeft direct antwoord op je vraag. Voor informatievragen sterven snippets en featured snippets uit; die worden vervangen door AI Overviews. Voor commerciële vragen en product-gerelateerde vragen blijft de traditionele layout langer." } },
-                                { "@type": "Question", "name": "Moet ik mijn SEO-strategie aanpassen door AI Overviews?", "acceptedAnswer": { "@type": "Answer", "text": "Ja en nee. De basis van goed SEO—autoritatieve content, snelle website, goede ervaring—blijft hetzelfde. Maar je moet veel meer nadenken over de intentie van je bezoeker. Voor informatievragen zul je minder directe kliks zien, maar je kunt nog steeds indruk maken in de AI Overview en vertrouwen opbouwen. Voor commerciële vragen blijf je op de eerste pagina dus geld verdienen." } },
-                                { "@type": "Question", "name": "Hoe krijg ik meer kliks vanuit AI Overviews?", "acceptedAnswer": { "@type": "Answer", "text": "Zorg dat je link in de AI Overview-bronnen staat vermeld. De meeste AI Overviews tonen bronnen aan het einde. Als jij daar staat, klik je veel vaker door. Dit gebeurt automatisch als je op pagina 1 staat, goed antwoord geeft en je website snel en betrouwbaar is. Voeg ook 'Lees meer' call-to-actions toe na je antwoord, zodat lezers sneller doorclick naar je site." } },
-                                { "@type": "Question", "name": "Welke keywords worden het meest geraakt door AI Overviews?", "acceptedAnswer": { "@type": "Answer", "text": "Informatie- en how-to-vragen. Bijvoorbeeld 'hoe werkt ...', 'wat is ...', 'waarom ...'. Deze vragen krijgen direct antwoord van AI. Commerciële vragen zoals 'buy ...' en 'price ...' hebben nog steeds veel directe kliks naar winkelresultaten en advertenties. Als jij die informatievragen goed beantwoordt, bouw je autoriteit op die later tot klanten leidt." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Waarom daalt mijn CTR door Google AI Overviews?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Google AI Overviews geven direct antwoord in de zoekresultaten. Voor veel vragen hoeft iemand dus niet meer door te klikken naar je website. Je website krijgt minder kliks terwijl je hetzelfde zoekverkeer aantrekt. Dit is normaal voor informatievragen, maar voor commerciële vragen kun je nog steeds veel bezoeken krijgen als je goed aansluit op wat het AI-model toont."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe meet ik of AI Overviews mijn traffic beïnvloeden?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Controleer Google Search Console op twee dingen: het aantal impressies per keyword (zoekvragen waarbij je toont) en de CTR (het percentage dat werkelijk doorklikt). Als je merkt dat een keyword nu veel meer impressies krijgt maar minder kliks, dan raakt AI Overviews je waarschijnlijk. Je ziet ook in Google Analytics of je zoekverkeer stagneert terwijl Search Console meer impressies toont."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Kunnen mijn producten in AI Overviews komen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, maar niet automatisch. AI Overviews tonen producten als je op de eerste pagina van Google staat en je product data helder gestructureerd hebt (met schema-markup). Je moet ook beter zijn dan je concurrenten: beter beschreven, meer reviews, betere beschikbaarheid. Het helpt als je ook in Google Shopping staat."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is het verschil tussen AI Overviews en reguliere snippets?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Reguliere snippets tonen tekst van één pagina plus een link. AI Overviews combineert informatie van meerdere websites en geeft direct antwoord op je vraag. Voor informatievragen sterven snippets en featured snippets uit; die worden vervangen door AI Overviews. Voor commerciële vragen en product-gerelateerde vragen blijft de traditionele layout langer."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Moet ik mijn SEO-strategie aanpassen door AI Overviews?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja en nee. De basis van goed SEO—autoritatieve content, snelle website, goede ervaring—blijft hetzelfde. Maar je moet veel meer nadenken over de intentie van je bezoeker. Voor informatievragen zul je minder directe kliks zien, maar je kunt nog steeds indruk maken in de AI Overview en vertrouwen opbouwen. Voor commerciële vragen blijf je op de eerste pagina dus geld verdienen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe krijg ik meer kliks vanuit AI Overviews?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Zorg dat je link in de AI Overview-bronnen staat vermeld. De meeste AI Overviews tonen bronnen aan het einde. Als jij daar staat, klik je veel vaker door. Dit gebeurt automatisch als je op pagina 1 staat, goed antwoord geeft en je website snel en betrouwbaar is. Voeg ook 'Lees meer' call-to-actions toe na je antwoord, zodat lezers sneller doorclick naar je site."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Welke keywords worden het meest geraakt door AI Overviews?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Informatie- en how-to-vragen. Bijvoorbeeld 'hoe werkt ...', 'wat is ...', 'waarom ...'. Deze vragen krijgen direct antwoord van AI. Commerciële vragen zoals 'buy ...' en 'price ...' hebben nog steeds veel directe kliks naar winkelresultaten en advertenties. Als jij die informatievragen goed beantwoordt, bouw je autoriteit op die later tot klanten leidt."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Hoe verbeteren Google AI Overviews jouw CTR ondanks minder klikken?",
+                                    "item": "https://www.empowers.nl/blogs/seo/verbeteren-google-ai-overviews-ctr"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "SEO", "item": "https://www.empowers.nl/blogs/seo" },
-                        { "@type": "ListItem", "position": 4, "name": "Hoe verbeteren Google AI Overviews jouw CTR ondanks minder klikken?", "item": "https://www.empowers.nl/blogs/seo/verbeteren-google-ai-overviews-ctr" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Google AI Overviews en CTR: Hoe jij meer klanten krijgt met minder klikken" />
+        <meta name="twitter:description" content="Google AI Overviews geven rechtstreekse antwoorden, maar jouw CTR kan omlaag gaan. Leer hoe je meer conversies haalt uit" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

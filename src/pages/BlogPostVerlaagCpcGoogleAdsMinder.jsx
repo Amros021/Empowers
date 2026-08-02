@@ -28,120 +28,122 @@ export default function BlogPostVerlaagCpcGoogleAdsMinder() {
                 <meta name="twitter:title" content="Hoe verlaag je je CPC in Google Ads zonder minder bereik?" />
                 <meta name="twitter:description" content="CPC verlagen zonder bereik in te leveren? Zo pak je dat aan in Google Ads." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe verlaag je je CPC in Google Ads zonder minder bereik?",
-                        "description": "CPC verlagen in Google Ads kan zonder minder bereik. Lees 7 bewezen methoden om je klikprijs te drukken en meer uit je budget te halen.",
-                        "image": "https://www.empowers.nl/images/blogs/verlaag-cpc-google-ads-minder.jpg",
-                        "datePublished": "2026-04-10T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe verlaag je je CPC in Google Ads zonder minder bereik?",
+                            "description": "CPC verlagen in Google Ads kan zonder minder bereik. Lees 7 bewezen methoden om je klikprijs te drukken en meer uit je budget te halen.",
+                            "image": "https://www.empowers.nl/images/blogs/verlaag-cpc-google-ads-minder.jpg",
+                            "datePublished": "2026-04-10T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede CPC in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat verschilt per branche. In e-commerce betaal je gemiddeld 0,50 tot 2 euro per klik. In verzekeringen of juridische diensten kan dat oplopen tot 10 tot 20 euro. Vergelijk je CPC altijd met je marge en conversieratio om te bepalen of het rendabel is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Helpt een hogere Quality Score echt om CPC te verlagen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, Google beloont relevantie. Een Quality Score van 8 of hoger kan je klikprijs met 30 tot 50 procent verlagen ten opzichte van een score van 5. Werk aan je advertentietekst, landingspagina en verwachte CTR om je score omhoog te krijgen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik CPC verlagen met Smart Bidding?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Smart Bidding verlaagt je CPC niet per definitie, maar het verdeelt je budget slimmer. Strategieën als Doel-CPA en Doel-ROAS bieden minder op kliks die waarschijnlijk niet converteren. Het resultaat is vaak een lagere effectieve CPC op winstgevende kliks."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel kan ik besparen door negatieve zoekwoorden toe te voegen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij de meeste accounts die we analyseren gaat 15 tot 30 procent van het budget naar irrelevante zoekopdrachten. Door wekelijks je zoektermen te controleren en negatieve zoekwoorden toe te voegen, bespaar je dat bedrag direct. De vrijgemaakte ruimte gaat naar kliks die wél converteren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Verlaagt een betere landingspagina mijn CPC?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Indirect wel. Google beoordeelt je landingspagina-ervaring als onderdeel van je Quality Score. Een snelle, relevante pagina die goed aansluit op je advertentie verhoogt je score en verlaagt daarmee je klikprijs. Bovendien converteert zo'n pagina beter, waardoor je effectieve kosten per klant dalen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik mijn CPC handmatig instellen of automatisch laten bieden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij minder dan 30 conversies per maand heb je vaak meer controle met handmatig bieden of Verbeterde CPC. Bij meer dan 50 conversies per maand werkt automatisch bieden meestal beter omdat Google genoeg data heeft om patronen te herkennen. Test beide en vergelijk de resultaten over minimaal vier weken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik CPC verlagen door op andere tijden te adverteren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Analyseer je advertentieplanningsrapport op dag en uur. Vaak zijn avonduren en weekenden goedkoper terwijl de conversieratio vergelijkbaar blijft. Door je biedingen per dagdeel aan te passen, betaal je minder voor dezelfde kliks op de momenten dat het rendabel is."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede CPC in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dat verschilt per branche. In e-commerce betaal je gemiddeld 0,50 tot 2 euro per klik. In verzekeringen of juridische diensten kan dat oplopen tot 10 tot 20 euro. Vergelijk je CPC altijd met je marge en conversieratio om te bepalen of het rendabel is."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Helpt een hogere Quality Score echt om CPC te verlagen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, Google beloont relevantie. Een Quality Score van 8 of hoger kan je klikprijs met 30 tot 50 procent verlagen ten opzichte van een score van 5. Werk aan je advertentietekst, landingspagina en verwachte CTR om je score omhoog te krijgen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Kan ik CPC verlagen met Smart Bidding?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Smart Bidding verlaagt je CPC niet per definitie, maar het verdeelt je budget slimmer. Strategieën als Doel-CPA en Doel-ROAS bieden minder op kliks die waarschijnlijk niet converteren. Het resultaat is vaak een lagere effectieve CPC op winstgevende kliks."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel kan ik besparen door negatieve zoekwoorden toe te voegen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij de meeste accounts die we analyseren gaat 15 tot 30 procent van het budget naar irrelevante zoekopdrachten. Door wekelijks je zoektermen te controleren en negatieve zoekwoorden toe te voegen, bespaar je dat bedrag direct. De vrijgemaakte ruimte gaat naar kliks die wél converteren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Verlaagt een betere landingspagina mijn CPC?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Indirect wel. Google beoordeelt je landingspagina-ervaring als onderdeel van je Quality Score. Een snelle, relevante pagina die goed aansluit op je advertentie verhoogt je score en verlaagt daarmee je klikprijs. Bovendien converteert zo'n pagina beter, waardoor je effectieve kosten per klant dalen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik mijn CPC handmatig instellen of automatisch laten bieden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij minder dan 30 conversies per maand heb je vaak meer controle met handmatig bieden of Verbeterde CPC. Bij meer dan 50 conversies per maand werkt automatisch bieden meestal beter omdat Google genoeg data heeft om patronen te herkennen. Test beide en vergelijk de resultaten over minimaal vier weken."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik CPC verlagen door op andere tijden te adverteren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Analyseer je advertentieplanningsrapport op dag en uur. Vaak zijn avonduren en weekenden goedkoper terwijl de conversieratio vergelijkbaar blijft. Door je biedingen per dagdeel aan te passen, betaal je minder voor dezelfde kliks op de momenten dat het rendabel is."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "CPC verlagen Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/verlaag-cpc-google-ads-minder"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "CPC verlagen Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads/verlaag-cpc-google-ads-minder"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

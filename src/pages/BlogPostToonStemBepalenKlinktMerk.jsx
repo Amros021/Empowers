@@ -28,87 +28,114 @@ export default function BlogPostToonStemBepalenKlinktMerk() {
                 <meta name="twitter:title" content="Tone of voice bepalen: zo klinkt jouw merk consistent" />
                 <meta name="twitter:description" content="Van vaag merkgevoel naar werkbare schrijfregels." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Tone of voice bepalen: zo klinkt jouw merk consistent",
-                        "description": "Een herkenbare merkstem ontstaat niet vanzelf. Hoe je in een halve dag een werkbare tone of voice vastlegt die je hele team kan gebruiken.",
-                        "image": "https://www.empowers.nl/images/blogs/toon-stem-bepalen-klinkt-merk.jpg",
-                        "datePublished": "2026-05-13T15:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Tone of voice bepalen: zo klinkt jouw merk consistent",
+                            "description": "Een herkenbare merkstem ontstaat niet vanzelf. Hoe je in een halve dag een werkbare tone of voice vastlegt die je hele team kan gebruiken.",
+                            "image": "https://www.empowers.nl/images/blogs/toon-stem-bepalen-klinkt-merk.jpg",
+                            "datePublished": "2026-05-13T15:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een tone of voice precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een tone of voice is de manier waarop je merk zich uitdrukt, los van wat het zegt. Het gaat om woordkeuze, zinslengte, formaliteit, humor en houding. Twee bedrijven kunnen hetzelfde product verkopen met heel verschillende tone of voice: de één formeel en autoritair, de ander speels en toegankelijk. Een vastgelegde tone of voice zorgt dat al je communicatie als één merk klinkt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom is een consistente merkstem belangrijk?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Consistentie bouwt herkenning op. Wanneer klanten elke keer hetzelfde gevoel krijgen van je website, je e-mails en je social posts, ontstaat vertrouwen. Inconsistente communicatie maakt je merk onbetrouwbaar zonder dat mensen kunnen aanwijzen waarom. Voor het MKB is consistentie bovendien het verschil tussen amateur en professioneel ogen, ongeacht je werkelijke bedrijfsgrootte."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vind ik mijn tone of voice?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin bij wie je bent en wie je klanten zijn. Drie vragen helpen: hoe zou een goede vriend ons beschrijven, welke woorden gebruiken onze beste klanten, en wat willen we absoluut niet klinken? De antwoorden geven richting. Een tweede check: vergelijk jezelf met drie concurrenten en bepaal in welke dimensies je anders wil klinken. Het verschil maakt je herkenbaar."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe leg je een tone of voice vast?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Met een eenvoudig document van twee tot vier pagina's. Daarop drie tot vijf kernkenmerken, met per kenmerk een 'wel/niet'-tabel en concrete voorbeelden. Plus enkele woordenlijsten: termen die je wel gebruikt, termen die je vermijdt. En een paar voor-en-na-voorbeelden uit echte communicatie. Maak het kort genoeg dat iedereen het leest, concreet genoeg dat iedereen het kan toepassen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe train ik mijn team in onze tone of voice?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Documenteren is niet genoeg. Houd een gezamenlijke werksessie waarin je oude communicatie samen herschrijft volgens de nieuwe stem. Stel een 'voice champion' aan die nieuwe content reviewt voor publicatie. Bouw goede voorbeelden in je teamomgeving op zodat mensen kunnen kopiëren wat werkt. Na drie maanden zit de stem in het hoofd, daarna gaat het vanzelf."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Verandert een tone of voice over tijd?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een goede tone of voice is stabiel maar niet bevroren. De kernkenmerken blijven jaren staan, de voorbeelden en woordenlijsten evolueren met je product, je doelgroep en de tijd. Plan jaarlijks een evaluatie. Klinkt onze stem nog zoals we willen, past hij nog bij wie onze klanten geworden zijn, hoeven we iets bij te stellen. Te veel veranderen verwart, te weinig veranderen veroudert."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een tone of voice precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een tone of voice is de manier waarop je merk zich uitdrukt, los van wat het zegt. Het gaat om woordkeuze, zinslengte, formaliteit, humor en houding. Twee bedrijven kunnen hetzelfde product verkopen met heel verschillende tone of voice: de één formeel en autoritair, de ander speels en toegankelijk. Een vastgelegde tone of voice zorgt dat al je communicatie als één merk klinkt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom is een consistente merkstem belangrijk?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Consistentie bouwt herkenning op. Wanneer klanten elke keer hetzelfde gevoel krijgen van je website, je e-mails en je social posts, ontstaat vertrouwen. Inconsistente communicatie maakt je merk onbetrouwbaar zonder dat mensen kunnen aanwijzen waarom. Voor het MKB is consistentie bovendien het verschil tussen amateur en professioneel ogen, ongeacht je werkelijke bedrijfsgrootte."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe vind ik mijn tone of voice?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin bij wie je bent en wie je klanten zijn. Drie vragen helpen: hoe zou een goede vriend ons beschrijven, welke woorden gebruiken onze beste klanten, en wat willen we absoluut niet klinken? De antwoorden geven richting. Een tweede check: vergelijk jezelf met drie concurrenten en bepaal in welke dimensies je anders wil klinken. Het verschil maakt je herkenbaar."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe leg je een tone of voice vast?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Met een eenvoudig document van twee tot vier pagina's. Daarop drie tot vijf kernkenmerken, met per kenmerk een 'wel/niet'-tabel en concrete voorbeelden. Plus enkele woordenlijsten: termen die je wel gebruikt, termen die je vermijdt. En een paar voor-en-na-voorbeelden uit echte communicatie. Maak het kort genoeg dat iedereen het leest, concreet genoeg dat iedereen het kan toepassen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe train ik mijn team in onze tone of voice?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Documenteren is niet genoeg. Houd een gezamenlijke werksessie waarin je oude communicatie samen herschrijft volgens de nieuwe stem. Stel een 'voice champion' aan die nieuwe content reviewt voor publicatie. Bouw goede voorbeelden in je teamomgeving op zodat mensen kunnen kopiëren wat werkt. Na drie maanden zit de stem in het hoofd, daarna gaat het vanzelf."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Verandert een tone of voice over tijd?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een goede tone of voice is stabiel maar niet bevroren. De kernkenmerken blijven jaren staan, de voorbeelden en woordenlijsten evolueren met je product, je doelgroep en de tijd. Plan jaarlijks een evaluatie. Klinkt onze stem nog zoals we willen, past hij nog bij wie onze klanten geworden zijn, hoeven we iets bij te stellen. Te veel veranderen verwart, te weinig veranderen veroudert."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Tone of voice",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/tone-of-voice-bepalen-klinkt-merk"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                            { "@type": "ListItem", "position": 4, "name": "Tone of voice", "item": "https://www.empowers.nl/blogs/algemeen/tone-of-voice-bepalen-klinkt-merk" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

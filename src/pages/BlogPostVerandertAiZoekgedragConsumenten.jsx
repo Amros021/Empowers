@@ -28,97 +28,122 @@ export default function BlogPostVerandertAiZoekgedragConsumenten() {
                 <meta name="twitter:title" content="Hoe verandert AI het zoekgedrag van consumenten?" />
                 <meta name="twitter:description" content="Welk consumentengedrag verschuift en hoe je daarop inspeelt." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe verandert AI het zoekgedrag van consumenten?",
-                        "description": "AI-zoekmachines veranderen hoe consumenten producten en diensten vinden. Lees welk gedrag verschuift en wat dat voor jouw marketingstrategie betekent.",
-                        "image": "https://www.empowers.nl/images/blogs/verandert-ai-zoekgedrag-consumenten.jpg",
-                        "datePublished": "2026-05-09T17:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe verandert AI het zoekgedrag van consumenten?",
+                            "description": "AI-zoekmachines veranderen hoe consumenten producten en diensten vinden. Lees welk gedrag verschuift en wat dat voor jouw marketingstrategie betekent.",
+                            "image": "https://www.empowers.nl/images/blogs/verandert-ai-zoekgedrag-consumenten.jpg",
+                            "datePublished": "2026-05-09T17:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verandert AI het zoekgedrag van consumenten in de praktijk?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Consumenten typen langere, meer complete zinnen, stellen vervolgvragen alsof ze een gesprek voeren, en verwachten een direct antwoord in plaats van een lijst links. Het zoekgedrag is conversationeler geworden. Iemand vraagt niet meer om losse zoekwoorden, maar beschrijft de hele situatie en vraagt om een advies. Dat verandert welke pagina's worden geciteerd en welke worden genegeerd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke leeftijdsgroepen gebruiken AI-zoekmachines het meest?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Jongere consumenten (18 tot 34 jaar) lopen voorop in het gebruik van ChatGPT en Perplexity als primaire zoekmachine. Maar ook 35-plussers gebruiken AI-engines steeds vaker, vooral voor informatieve en vergelijkende zoekopdrachten. De adoptie groeit bij vrijwel alle groepen, alleen het tempo verschilt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Worden er minder klikken naar websites gegenereerd door AI?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor informatieve zoekopdrachten ja, voor transactionele zoekopdrachten nauwelijks. Wie zoekt om iets te leren, krijgt steeds vaker een direct AI-antwoord en klikt niet door. Wie zoekt om iets te kopen, klikt nog vrijwel altijd door naar een productpagina. Het verkeersverlies is dus selectief, niet uniform."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe stellen consumenten vragen aan AI-zoekmachines anders dan aan Google?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vragen aan AI zijn gemiddeld twee tot drie keer langer dan klassieke zoekopdrachten. Consumenten geven context: hun situatie, hun voorkeuren, hun budget. Een Google-zoekopdracht is 'beste laptop'. Een AI-vraag is 'welke laptop is goed voor een student grafisch ontwerp met een budget van rond de 1500 euro'. Voor merken betekent dit dat algemene content minder werkt en specifieke profielen het beter doen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Houden consumenten Google nog gebruiken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, voor lokale zoekopdrachten, transactionele queries en navigatie naar bekende merken. Google verliest vooral terrein bij informatieve queries die door AI direct worden beantwoord. Voor 'tandarts in de buurt', 'openingstijden Albert Heijn' of 'Ikea Utrecht' blijft Google dominant. Voor 'hoe werkt een hypotheek' verschuift het."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Vertrouwen consumenten AI-antwoorden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Met enige voorzichtigheid, maar het vertrouwen groeit. Veel consumenten weten dat AI fouten maakt en checken belangrijke beslissingen na via traditionele bronnen. Voor onomkeerbare beslissingen (medisch, juridisch, financieel) is dat vertrouwen het laagst. Voor productadvies, vergelijkingen en uitleg is het al hoog en stijgend. Merken die consistent worden geciteerd, profiteren van die overdracht van vertrouwen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat moet ik nu aanpassen aan mijn marketing?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie acties op korte termijn. Schrijf je informatieve content om naar conversationele vraag-en-antwoord-vorm. Bouw je productdetails uit met specifieke gebruiksprofielen (voor wie, wanneer, in welke situatie). Investeer in zichtbaarheid op review-platforms en vakmedia, want AI-engines wegen die bronnen zwaar. De rest van je marketing-mix kun je grotendeels laten staan."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe verandert AI het zoekgedrag van consumenten in de praktijk?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Consumenten typen langere, meer complete zinnen, stellen vervolgvragen alsof ze een gesprek voeren, en verwachten een direct antwoord in plaats van een lijst links. Het zoekgedrag is conversationeler geworden. Iemand vraagt niet meer om losse zoekwoorden, maar beschrijft de hele situatie en vraagt om een advies. Dat verandert welke pagina's worden geciteerd en welke worden genegeerd."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke leeftijdsgroepen gebruiken AI-zoekmachines het meest?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Jongere consumenten (18 tot 34 jaar) lopen voorop in het gebruik van ChatGPT en Perplexity als primaire zoekmachine. Maar ook 35-plussers gebruiken AI-engines steeds vaker, vooral voor informatieve en vergelijkende zoekopdrachten. De adoptie groeit bij vrijwel alle groepen, alleen het tempo verschilt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Worden er minder klikken naar websites gegenereerd door AI?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor informatieve zoekopdrachten ja, voor transactionele zoekopdrachten nauwelijks. Wie zoekt om iets te leren, krijgt steeds vaker een direct AI-antwoord en klikt niet door. Wie zoekt om iets te kopen, klikt nog vrijwel altijd door naar een productpagina. Het verkeersverlies is dus selectief, niet uniform."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe stellen consumenten vragen aan AI-zoekmachines anders dan aan Google?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vragen aan AI zijn gemiddeld twee tot drie keer langer dan klassieke zoekopdrachten. Consumenten geven context: hun situatie, hun voorkeuren, hun budget. Een Google-zoekopdracht is 'beste laptop'. Een AI-vraag is 'welke laptop is goed voor een student grafisch ontwerp met een budget van rond de 1500 euro'. Voor merken betekent dit dat algemene content minder werkt en specifieke profielen het beter doen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Houden consumenten Google nog gebruiken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, voor lokale zoekopdrachten, transactionele queries en navigatie naar bekende merken. Google verliest vooral terrein bij informatieve queries die door AI direct worden beantwoord. Voor 'tandarts in de buurt', 'openingstijden Albert Heijn' of 'Ikea Utrecht' blijft Google dominant. Voor 'hoe werkt een hypotheek' verschuift het."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Vertrouwen consumenten AI-antwoorden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Met enige voorzichtigheid, maar het vertrouwen groeit. Veel consumenten weten dat AI fouten maakt en checken belangrijke beslissingen na via traditionele bronnen. Voor onomkeerbare beslissingen (medisch, juridisch, financieel) is dat vertrouwen het laagst. Voor productadvies, vergelijkingen en uitleg is het al hoog en stijgend. Merken die consistent worden geciteerd, profiteren van die overdracht van vertrouwen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat moet ik nu aanpassen aan mijn marketing?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie acties op korte termijn. Schrijf je informatieve content om naar conversationele vraag-en-antwoord-vorm. Bouw je productdetails uit met specifieke gebruiksprofielen (voor wie, wanneer, in welke situatie). Investeer in zichtbaarheid op review-platforms en vakmedia, want AI-engines wegen die bronnen zwaar. De rest van je marketing-mix kun je grotendeels laten staan."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "AI verandert zoekgedrag consumenten",
+                                    "item": "https://www.empowers.nl/blogs/geo/verandert-ai-zoekgedrag-consumenten"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "AI verandert zoekgedrag consumenten", "item": "https://www.empowers.nl/blogs/geo/verandert-ai-zoekgedrag-consumenten" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

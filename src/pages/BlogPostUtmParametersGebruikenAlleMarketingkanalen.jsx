@@ -29,8 +29,16 @@ export default function BlogPostUtmParametersGebruikenAlleMarketingkanalen() {
                             "headline": "UTM-parameters gebruiken: alle marketingkanalen bijhouden",
                             "image": "https://www.empowers.nl/images/blogs/utm-parameters-gebruiken-alle-marketingkanalen.jpg",
                             "description": "Leer hoe je UTM-parameters inzet om al je marketingkanalen bij te houden. Praktische stappen, veelgemaakte fouten, en hoe je inzicht krijgt in welke kanalen werkelijk conversies brengen.",
-                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-03-26T00:00:00+01:00",
                             "dateModified": "2026-03-26T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/tracking/utm-parameters-gebruiken-alle-marketingkanalen"
@@ -38,28 +46,99 @@ export default function BlogPostUtmParametersGebruikenAlleMarketingkanalen() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Wat zijn UTM-parameters precies?", "acceptedAnswer": { "@type": "Answer", "text": "UTM-parameters zijn kleine code-stukjes die je aan het einde van een URL toevoegt. Ze tellen Google Analytics wat de bron van het bezoek is: welk kanaal, welke campagne, welk medium. Zonder UTM-parameters ziet Google Analytics veel traffic als 'direct', wat betekent dat je niet weet waar bezoekers vandaan komen. Met UTM-parameters krijg je volledige zichtbaarheid over welke marketingkanaal werkelijk conversies brengt." } },
-                                { "@type": "Question", "name": "Waarom zijn UTM-parameters belangrijk voor MKB's?", "acceptedAnswer": { "@type": "Answer", "text": "Omdat je marketing-euro's niet rond te gooien zijn. Bij onze klanten zien we dat bedrijven zonder UTM-tracking gemiddeld 30% tot 40% van hun marketing-investering verspillen op kanalen die niet werken. UTM-parameters laten precies zien welke kanalen, advertenties en campagnes werkelijk leads en omzet opleveren. Daarom kunnen je budget veel efficiënter inzetten." } },
-                                { "@type": "Question", "name": "Wat is het verschil tussen utm_source, utm_medium en utm_campaign?", "acceptedAnswer": { "@type": "Answer", "text": "utm_source vertelt waar het bezoek vandaan komt (bijvoorbeeld: facebook, google, newsletter). utm_medium vertelt hoe het bezoek binnenkomt (bijvoorbeeld: cpc voor betaalde ads, email, organic). utm_campaign is de naam van de specifieke campagne (bijvoorbeeld: lente-sale-2026, webinar-april). Samen vertellen ze het volledige verhaal van hoe een bezoeker bij jou terechtkwam." } },
-                                { "@type": "Question", "name": "Kan ik UTM-parameters zelf maken en gebruiken?", "acceptedAnswer": { "@type": "Answer", "text": "Ja, zeker. UTM-parameters zijn gewoon teksttoevoegingen aan je URL. Je kunt ze handmatig toevoegen of een gratis UTM-builder online gebruiken. Google zelf biedt ook een Campaign URL Builder. Het kost geen geld en je hoeft geen technische expertise te hebben. Wel is het belangrijk om consistent te zijn met naamgeving, anders krijg je rommel in je analytics." } },
-                                { "@type": "Question", "name": "Werken UTM-parameters ook met Google Ads en Facebook Ads?", "acceptedAnswer": { "@type": "Answer", "text": "Ja, dat klopt. Bij Google Ads kun je UTM-parameters handmatig toevoegen aan je landing page URL's. Facebook Ads heeft z'n eigen tracking pixels, maar je kunt ook UTM-parameters gebruiken. Voor beide platforms geldt: zorg dat je UTM's consistent zijn, zodat je later de resultaten goed kunt analyseren. Het helpt om te beginnen met een tracking sheet zodat je alle URL's met parameter centraal bijhoudt." } },
-                                { "@type": "Question", "name": "Wat gebeurt er als ik de UTM-parameters fout zet?", "acceptedAnswer": { "@type": "Answer", "text": "Dan verzamelt Google Analytics de data, maar het is nutteloos. Als je bijvoorbeeld 'facebook' en 'Facebook' door elkaar gebruikt, ziet Analytics dit als twee verschillende bronnen. Je analytics worden een puinhoop en je kunt geen goed inzicht krijgen. Daarom is het essentieel om van tevoren een naamconventie op te stellen. Zorg dat iedereen in je team dezelfde afspraken hanteert." } },
-                                { "@type": "Question", "name": "Kan ik UTM-tracking combineren met Google Ads conversies?", "acceptedAnswer": { "@type": "Answer", "text": "Ja, en dat moet je zeker doen. Google Ads heeft automatische tagging, maar dat voegt niet altijd alle data toe die jij nodig hebt. Door UTM-parameters bovenop de Google Ads-tracking te leggen, krijg je meer gedetailleerde data. Je ziet niet alleen dat een advertentie een conversie bracht, maar je ziet ook precies welke campagne, keyword en ad group eraan bijdroegen. Dit helpt je budgetten scherp af te stellen." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat zijn UTM-parameters precies?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "UTM-parameters zijn kleine code-stukjes die je aan het einde van een URL toevoegt. Ze tellen Google Analytics wat de bron van het bezoek is: welk kanaal, welke campagne, welk medium. Zonder UTM-parameters ziet Google Analytics veel traffic als 'direct', wat betekent dat je niet weet waar bezoekers vandaan komen. Met UTM-parameters krijg je volledige zichtbaarheid over welke marketingkanaal werkelijk conversies brengt."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Waarom zijn UTM-parameters belangrijk voor MKB's?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Omdat je marketing-euro's niet rond te gooien zijn. Bij onze klanten zien we dat bedrijven zonder UTM-tracking gemiddeld 30% tot 40% van hun marketing-investering verspillen op kanalen die niet werken. UTM-parameters laten precies zien welke kanalen, advertenties en campagnes werkelijk leads en omzet opleveren. Daarom kunnen je budget veel efficiënter inzetten."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is het verschil tussen utm_source, utm_medium en utm_campaign?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "utm_source vertelt waar het bezoek vandaan komt (bijvoorbeeld: facebook, google, newsletter). utm_medium vertelt hoe het bezoek binnenkomt (bijvoorbeeld: cpc voor betaalde ads, email, organic). utm_campaign is de naam van de specifieke campagne (bijvoorbeeld: lente-sale-2026, webinar-april). Samen vertellen ze het volledige verhaal van hoe een bezoeker bij jou terechtkwam."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Kan ik UTM-parameters zelf maken en gebruiken?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, zeker. UTM-parameters zijn gewoon teksttoevoegingen aan je URL. Je kunt ze handmatig toevoegen of een gratis UTM-builder online gebruiken. Google zelf biedt ook een Campaign URL Builder. Het kost geen geld en je hoeft geen technische expertise te hebben. Wel is het belangrijk om consistent te zijn met naamgeving, anders krijg je rommel in je analytics."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Werken UTM-parameters ook met Google Ads en Facebook Ads?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, dat klopt. Bij Google Ads kun je UTM-parameters handmatig toevoegen aan je landing page URL's. Facebook Ads heeft z'n eigen tracking pixels, maar je kunt ook UTM-parameters gebruiken. Voor beide platforms geldt: zorg dat je UTM's consistent zijn, zodat je later de resultaten goed kunt analyseren. Het helpt om te beginnen met een tracking sheet zodat je alle URL's met parameter centraal bijhoudt."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat gebeurt er als ik de UTM-parameters fout zet?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Dan verzamelt Google Analytics de data, maar het is nutteloos. Als je bijvoorbeeld 'facebook' en 'Facebook' door elkaar gebruikt, ziet Analytics dit als twee verschillende bronnen. Je analytics worden een puinhoop en je kunt geen goed inzicht krijgen. Daarom is het essentieel om van tevoren een naamconventie op te stellen. Zorg dat iedereen in je team dezelfde afspraken hanteert."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Kan ik UTM-tracking combineren met Google Ads conversies?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, en dat moet je zeker doen. Google Ads heeft automatische tagging, maar dat voegt niet altijd alle data toe die jij nodig hebt. Door UTM-parameters bovenop de Google Ads-tracking te leggen, krijg je meer gedetailleerde data. Je ziet niet alleen dat een advertentie een conversie bracht, maar je ziet ook precies welke campagne, keyword en ad group eraan bijdroegen. Dit helpt je budgetten scherp af te stellen."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Tracking",
+                                    "item": "https://www.empowers.nl/blogs/tracking"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "UTM-parameters gebruiken: alle marketingkanalen bijhouden",
+                                    "item": "https://www.empowers.nl/blogs/tracking/utm-parameters-gebruiken-alle-marketingkanalen"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Tracking", "item": "https://www.empowers.nl/blogs/tracking" },
-                        { "@type": "ListItem", "position": 4, "name": "UTM-parameters gebruiken: alle marketingkanalen bijhouden", "item": "https://www.empowers.nl/blogs/tracking/utm-parameters-gebruiken-alle-marketingkanalen" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="UTM-parameters gebruiken: alle marketingkanalen bijhouden" />
+        <meta name="twitter:description" content="Leer hoe je UTM-parameters inzet om al je marketingkanalen bij te houden. Praktische stappen, veelgemaakte fouten, en ho" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

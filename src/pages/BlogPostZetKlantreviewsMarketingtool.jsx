@@ -28,87 +28,114 @@ export default function BlogPostZetKlantreviewsMarketingtool() {
                 <meta name="twitter:title" content="Hoe zet je klantreviews in als marketingtool?" />
                 <meta name="twitter:description" content="Het complete plan om reviews te laten werken voor je marketing." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe zet je klantreviews in als marketingtool?",
-                        "description": "Reviews zijn meer dan sterren onder je productpagina. Slim ingezet versterken ze je rankings, je advertenties en je conversiepercentage. Zo pak je dat aan.",
-                        "image": "https://www.empowers.nl/images/blogs/zet-klantreviews-marketingtool.jpg",
-                        "datePublished": "2026-05-13T13:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe zet je klantreviews in als marketingtool?",
+                            "description": "Reviews zijn meer dan sterren onder je productpagina. Slim ingezet versterken ze je rankings, je advertenties en je conversiepercentage. Zo pak je dat aan.",
+                            "image": "https://www.empowers.nl/images/blogs/zet-klantreviews-marketingtool.jpg",
+                            "datePublished": "2026-05-13T13:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom zijn klantreviews zo belangrijk voor marketing?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reviews geven sociale bewijskracht. Wie twijfelt tussen jou en een concurrent leest reviews om de keuze te onderbouwen. Daarnaast wegen reviews zwaar in Google's lokale rankings, helpen sterren in zoekresultaten de doorklikratio, en geven AI-zoekmachines reviews als signaal dat je betrouwbaar bent. Eén positieve review met inhoud doet meer voor je marketing dan tien algemene claims op je website."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Op welke platforms moet ik reviews verzamelen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin bij Google Reviews via je Google Business Profile. Dat is de plek waar de meeste mensen je eerst zien. Voor webshops voegt Trustpilot of Kiyoh waarde toe omdat ze zijn opgenomen in Google's rich results. Voor branche-specifieke bedrijven helpen platforms zoals Werkspot, Klantenvertellen, Independer of branche-fora. Concentreer je op één hoofdplatform en eventueel één branche-platform, niet vijftien tegelijk."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vraag ik klanten om een review?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vraag op het juiste moment: vlak na een succesvolle ervaring. Voor een webshop: een paar dagen na bezorging. Voor een dienstverlener: direct na een afgerond traject. Maak het simpel. Eén klik, één korte zin, één directe link. Hoe meer wrijving, hoe minder reviews je krijgt. Een persoonlijke vraag levert vaak meer op dan een geautomatiseerde mail, maar de mail haalt de meeste schaalbaarheid."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Mag ik klanten belonen voor een review?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vraag nooit om een positieve review in ruil voor een beloning. Dat overtreedt de richtlijnen van Google en de meeste platforms en kan je listing schaden. Een kleine attentie voor het achterlaten van een review zonder voorwaarde aan de inhoud is in sommige branches toegestaan, maar transparantie is belangrijk. Check altijd de specifieke voorwaarden van het platform dat je gebruikt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe gebruik ik reviews in mijn advertenties?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Citeer letterlijke klantzinnen in je ad-teksten in plaats van zelfgeschreven beloftes. Een klant die zegt 'ze hielpen me terwijl ik dacht dat het te laat was' werkt sterker dan 'wij zijn behulpzaam'. Op Google Ads kun je via de seller ratings sterren in je advertenties laten zien. Op Meta werken video-testimonials of social-proof banners erg goed in retargeting-campagnes."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat doe ik als ik een negatieve review krijg?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet verbergen, wel professioneel beantwoorden. Reageer publiekelijk binnen 24 uur, erken het probleem, leg uit wat je gaat doen, en bied een offline vervolg aan. Andere lezers vormen hun mening niet alleen op de klacht, maar vooral op hoe jij ermee omgaat. Een goed beantwoorde negatieve review versterkt vaak vertrouwen meer dan een rij vijfsterren-recensies."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom zijn klantreviews zo belangrijk voor marketing?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reviews geven sociale bewijskracht. Wie twijfelt tussen jou en een concurrent leest reviews om de keuze te onderbouwen. Daarnaast wegen reviews zwaar in Google's lokale rankings, helpen sterren in zoekresultaten de doorklikratio, en geven AI-zoekmachines reviews als signaal dat je betrouwbaar bent. Eén positieve review met inhoud doet meer voor je marketing dan tien algemene claims op je website."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Op welke platforms moet ik reviews verzamelen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin bij Google Reviews via je Google Business Profile. Dat is de plek waar de meeste mensen je eerst zien. Voor webshops voegt Trustpilot of Kiyoh waarde toe omdat ze zijn opgenomen in Google's rich results. Voor branche-specifieke bedrijven helpen platforms zoals Werkspot, Klantenvertellen, Independer of branche-fora. Concentreer je op één hoofdplatform en eventueel één branche-platform, niet vijftien tegelijk."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe vraag ik klanten om een review?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vraag op het juiste moment: vlak na een succesvolle ervaring. Voor een webshop: een paar dagen na bezorging. Voor een dienstverlener: direct na een afgerond traject. Maak het simpel. Eén klik, één korte zin, één directe link. Hoe meer wrijving, hoe minder reviews je krijgt. Een persoonlijke vraag levert vaak meer op dan een geautomatiseerde mail, maar de mail haalt de meeste schaalbaarheid."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Mag ik klanten belonen voor een review?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vraag nooit om een positieve review in ruil voor een beloning. Dat overtreedt de richtlijnen van Google en de meeste platforms en kan je listing schaden. Een kleine attentie voor het achterlaten van een review zonder voorwaarde aan de inhoud is in sommige branches toegestaan, maar transparantie is belangrijk. Check altijd de specifieke voorwaarden van het platform dat je gebruikt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe gebruik ik reviews in mijn advertenties?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Citeer letterlijke klantzinnen in je ad-teksten in plaats van zelfgeschreven beloftes. Een klant die zegt 'ze hielpen me terwijl ik dacht dat het te laat was' werkt sterker dan 'wij zijn behulpzaam'. Op Google Ads kun je via de seller ratings sterren in je advertenties laten zien. Op Meta werken video-testimonials of social-proof banners erg goed in retargeting-campagnes."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat doe ik als ik een negatieve review krijg?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet verbergen, wel professioneel beantwoorden. Reageer publiekelijk binnen 24 uur, erken het probleem, leg uit wat je gaat doen, en bied een offline vervolg aan. Andere lezers vormen hun mening niet alleen op de klacht, maar vooral op hoe jij ermee omgaat. Een goed beantwoorde negatieve review versterkt vaak vertrouwen meer dan een rij vijfsterren-recensies."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Klantreviews als marketingtool",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/zet-klantreviews-marketingtool"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                            { "@type": "ListItem", "position": 4, "name": "Klantreviews als marketingtool", "item": "https://www.empowers.nl/blogs/algemeen/zet-klantreviews-marketingtool" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

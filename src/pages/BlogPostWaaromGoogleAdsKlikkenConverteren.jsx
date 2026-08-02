@@ -29,8 +29,15 @@ export default function BlogPostWaaromGoogleAdsKlikkenConverteren() {
                             "headline": "Waarom jouw Google Ads wel klikken maar niet converteren",
                             "image": "https://www.empowers.nl/images/blogs/waarom-google-ads-klikken-converteren.jpg",
                             "description": "Veel klikken maar geen conversies in Google Ads? Ontdek de 6 meest voorkomende oorzaken en los ze vandaag nog op. Praktische tips voor MKB.",
-                            "author": { "@type": "Organization", "name": "Empowers" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-03-26T00:00:00+01:00",
                             "dateModified": "2026-03-26T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/google-ads/waarom-google-ads-klikken-converteren"
@@ -95,20 +102,42 @@ export default function BlogPostWaaromGoogleAdsKlikkenConverteren() {
                                     }
                                 }
                             ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Waarom jouw Google Ads wel klikken maar niet converteren",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/waarom-google-ads-klikken-converteren"
+                                }
+                            ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Waarom jouw Google Ads wel klikken maar niet converteren", "item": "https://www.empowers.nl/blogs/google-ads/waarom-google-ads-klikken-converteren" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Waarom jouw Google Ads wel klikken maar niet converteren" />
+        <meta name="twitter:description" content="Veel klikken maar geen conversies in Google Ads? Ontdek de 6 meest voorkomende oorzaken en los ze vandaag nog op. Prakti" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

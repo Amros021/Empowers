@@ -23,36 +23,110 @@ export default function BlogPostZoekmachineOptimalisatieBureauGeenResultaatMis()
                 <meta property="article:section" content="SEO" />
 
                 <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "Article",
-                    "headline": "Zoekmachine optimalisatie bureau ingehuurd en geen resultaat? Dit ging er mis",
-                    "description": "Diagnose van de meest voorkomende redenen waarom SEO-trajecten met een bureau geen resultaat opleveren, plus hoe je het zelf kunt zien in je data.",
-                    "image": "https://www.empowers.nl/images/blogs/zoekmachine-optimalisatie-bureau-geen-resultaat-mis.jpg",
-                    "datePublished": "2026-05-14T10:00:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                    "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                        { "@type": "Question", "name": "Hoe lang moet ik wachten voor ik mijn SEO-bureau erop aanspreek?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Geef het zes maanden voordat je hard oordeelt op organische verkeers-cijfers. Maar evalueer wel maandelijks of de output klopt: wordt er daadwerkelijk content gepubliceerd, lopen er technische fixes, komen er backlinks bij? Als die zichtbare activiteit ontbreekt heb je na drie maanden al een serieus gesprek nodig, niet pas na zes." } },
-                        { "@type": "Question", "name": "Hoe weet ik of het aan het bureau ligt of aan mijn website?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Vraag een onafhankelijke audit aan. Een tweede SEO-specialist (niet je huidige bureau) kan in een paar uur zien of de basis op orde is, of de content kwaliteit heeft, en of de backlinks die zijn opgebouwd waarde toevoegen. Een externe blik laat snel zien of het aan uitvoering of aan uitgangssituatie ligt." } },
-                        { "@type": "Question", "name": "Mag ik mijn SEO-bureau tussentijds opzeggen?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Dat hangt af van je contract. Veel SEO-bureaus werken met jaarcontracten en een opzegtermijn van een tot drie maanden. Lees de exit-clausule zorgvuldig. Vraag bij twijfel of er een evaluatiemoment in zit waarbij wederzijds beoordeeld wordt. Als die er niet in staat heb je een leerpunt voor je volgende contract." } },
-                        { "@type": "Question", "name": "Wat doe ik met content die het bureau heeft geschreven?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Eigendom hoort bij jou te liggen. Controleer dat in je contract. Als de content slecht presteert kun je hem zelf herschrijven, samenvoegen of opnieuw publiceren onder een sterker artikel. Verwijderen is alleen verstandig als de content actief schade doet, bijvoorbeeld door dunne content die je hele site omlaag trekt." } },
-                        { "@type": "Question", "name": "Krijg ik mijn geld terug als het bureau niet levert?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "In de meeste contracten niet. SEO-bureaus garanderen inspanning, geen resultaat, en die juridische lat is moeilijk te halen. Wat wel kan: je restant van je contract niet uitbetalen en bij ernstige tekortkomingen (geen levering, geen rapportage, niet bereikbaar) ingebrekestelling sturen. Voor preventie is contract-screening vooraf veruit het belangrijkst." } },
-                        { "@type": "Question", "name": "Hoe vind ik een beter bureau voor de volgende stap?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Vraag in je intake naar concrete klantcases met traffic-data over een vol jaar, naar de samenstelling van het team (techniek en content gescheiden), naar wie schrijft en wie publiceert, en naar hun aanpak voor citaties in AI-zoekmachines. Een professioneel bureau heeft op alle vier punten een direct antwoord." } }
-                    ] }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "SEO", "item": "https://www.empowers.nl/blogs/seo" },
-                        { "@type": "ListItem", "position": 4, "name": "SEO-bureau geen resultaat", "item": "https://www.empowers.nl/blogs/seo/zoekmachine-optimalisatie-bureau-geen-resultaat-mis" }
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Zoekmachine optimalisatie bureau ingehuurd en geen resultaat? Dit ging er mis",
+                            "description": "Diagnose van de meest voorkomende redenen waarom SEO-trajecten met een bureau geen resultaat opleveren, plus hoe je het zelf kunt zien in je data.",
+                            "image": "https://www.empowers.nl/images/blogs/zoekmachine-optimalisatie-bureau-geen-resultaat-mis.jpg",
+                            "datePublished": "2026-05-14T10:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang moet ik wachten voor ik mijn SEO-bureau erop aanspreek?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Geef het zes maanden voordat je hard oordeelt op organische verkeers-cijfers. Maar evalueer wel maandelijks of de output klopt: wordt er daadwerkelijk content gepubliceerd, lopen er technische fixes, komen er backlinks bij? Als die zichtbare activiteit ontbreekt heb je na drie maanden al een serieus gesprek nodig, niet pas na zes."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of het aan het bureau ligt of aan mijn website?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vraag een onafhankelijke audit aan. Een tweede SEO-specialist (niet je huidige bureau) kan in een paar uur zien of de basis op orde is, of de content kwaliteit heeft, en of de backlinks die zijn opgebouwd waarde toevoegen. Een externe blik laat snel zien of het aan uitvoering of aan uitgangssituatie ligt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Mag ik mijn SEO-bureau tussentijds opzeggen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat hangt af van je contract. Veel SEO-bureaus werken met jaarcontracten en een opzegtermijn van een tot drie maanden. Lees de exit-clausule zorgvuldig. Vraag bij twijfel of er een evaluatiemoment in zit waarbij wederzijds beoordeeld wordt. Als die er niet in staat heb je een leerpunt voor je volgende contract."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat doe ik met content die het bureau heeft geschreven?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Eigendom hoort bij jou te liggen. Controleer dat in je contract. Als de content slecht presteert kun je hem zelf herschrijven, samenvoegen of opnieuw publiceren onder een sterker artikel. Verwijderen is alleen verstandig als de content actief schade doet, bijvoorbeeld door dunne content die je hele site omlaag trekt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Krijg ik mijn geld terug als het bureau niet levert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "In de meeste contracten niet. SEO-bureaus garanderen inspanning, geen resultaat, en die juridische lat is moeilijk te halen. Wat wel kan: je restant van je contract niet uitbetalen en bij ernstige tekortkomingen (geen levering, geen rapportage, niet bereikbaar) ingebrekestelling sturen. Voor preventie is contract-screening vooraf veruit het belangrijkst."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vind ik een beter bureau voor de volgende stap?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vraag in je intake naar concrete klantcases met traffic-data over een vol jaar, naar de samenstelling van het team (techniek en content gescheiden), naar wie schrijft en wie publiceert, en naar hun aanpak voor citaties in AI-zoekmachines. Een professioneel bureau heeft op alle vier punten een direct antwoord."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "SEO-bureau geen resultaat",
+                                    "item": "https://www.empowers.nl/blogs/seo/zoekmachine-optimalisatie-bureau-geen-resultaat-mis"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />

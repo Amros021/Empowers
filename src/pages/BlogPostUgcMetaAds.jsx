@@ -29,8 +29,16 @@ export default function BlogPostUgcMetaAds() {
                             "headline": "Hoe gebruik je UGC in Meta Ads: praktische gids voor 2026",
                             "image": "https://www.empowers.nl/images/blogs/ugc-meta-ads.jpg",
                             "description": "UGC werkt op Facebook en Instagram beter dan studio-content. Lees hoe je UGC verzamelt, inzet en meet zonder dat je adverteren goedkoop oogt.",
-                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-05-05T10:00:00+02:00",
                             "dateModified": "2026-05-05T10:00:00+02:00",
                             "url": "https://www.empowers.nl/blogs/social-ads/ugc-meta-ads"
@@ -38,27 +46,91 @@ export default function BlogPostUgcMetaAds() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Wat is UGC precies?", "acceptedAnswer": { "@type": "Answer", "text": "UGC staat voor User Generated Content. Dat is content gemaakt door echte mensen, vaak klanten, in plaats van door een professioneel productieteam. In de praktijk zie je UGC als telefoonopnames, unboxing-video's, recensies in beeld en eenvoudige reviews. Het ziet eruit alsof iemand het op de bank heeft opgenomen, omdat dat ook zo is." } },
-                                { "@type": "Question", "name": "Werkt UGC echt beter dan studio-content?", "acceptedAnswer": { "@type": "Answer", "text": "Voor cold audiences op Facebook en Instagram presteert UGC vrijwel overal beter dan strakke studio-content. Mensen scrollen sneller voorbij iets wat eruitziet als reclame. Een onbewerkte video met een eerlijke stem houdt de aandacht langer vast. Voor warme doelgroepen (retargeting) werken polished assets vaak beter, omdat de drempel daar laag is en de boodschap helder moet." } },
-                                { "@type": "Question", "name": "Mag ik UGC zomaar gebruiken in advertenties?", "acceptedAnswer": { "@type": "Answer", "text": "Niet zomaar. Je hebt schriftelijke toestemming nodig van de maker, zelfs als ze jou hebben getagd. Bouw een korte UGC-toestemmingsbrief op die ze digitaal ondertekenen voordat je hun beelden inzet. Zonder die handtekening loop je auteursrechtelijk risico, en Meta kan adverties weigeren of pauzeren bij rechtenklachten." } },
-                                { "@type": "Question", "name": "Hoeveel UGC-varianten moet ik per maand draaien?", "acceptedAnswer": { "@type": "Answer", "text": "Reken voor een actief Meta-account op vier tot zes verse UGC-creatives per maand. Dat is genoeg om creative fatigue voor te blijven en regelmatig nieuwe winnaars te ontdekken. Heb je minder budget? Dan zijn twee nieuwe varianten per maand al een prima ritme om te beginnen, mits je oude winnaars opfrist met kleine bewerkingen." } },
-                                { "@type": "Question", "name": "Hoe vind ik de juiste UGC-makers?", "acceptedAnswer": { "@type": "Answer", "text": "Begin bij je bestaande klanten. Vraag tevreden kopers of ze een korte video willen maken in ruil voor een tegoedbon of korting. Werkt dat niet of wil je opschalen, dan zijn UGC-marketplaces zoals Billo, Cohley en Insense bekende routes. De makers daar zijn gewend aan briefings en leveren binnen een paar dagen ruwe video aan." } },
-                                { "@type": "Question", "name": "Hoe meet ik of UGC daadwerkelijk werkt?", "acceptedAnswer": { "@type": "Answer", "text": "Vergelijk UGC en studio-content niet op kostprijs alleen. Kijk naar hookrate (kijkers die de eerste drie seconden blijven), thumbstop ratio en doorklikratio. En uiteindelijk de CPA. UGC heeft vaak een hogere hookrate maar soms iets lagere conversie. Wat telt is de combinatie. Pak ROAS over een rollend venster van veertien dagen, niet enkele losse dagen." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is UGC precies?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "UGC staat voor User Generated Content. Dat is content gemaakt door echte mensen, vaak klanten, in plaats van door een professioneel productieteam. In de praktijk zie je UGC als telefoonopnames, unboxing-video's, recensies in beeld en eenvoudige reviews. Het ziet eruit alsof iemand het op de bank heeft opgenomen, omdat dat ook zo is."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Werkt UGC echt beter dan studio-content?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Voor cold audiences op Facebook en Instagram presteert UGC vrijwel overal beter dan strakke studio-content. Mensen scrollen sneller voorbij iets wat eruitziet als reclame. Een onbewerkte video met een eerlijke stem houdt de aandacht langer vast. Voor warme doelgroepen (retargeting) werken polished assets vaak beter, omdat de drempel daar laag is en de boodschap helder moet."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Mag ik UGC zomaar gebruiken in advertenties?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Niet zomaar. Je hebt schriftelijke toestemming nodig van de maker, zelfs als ze jou hebben getagd. Bouw een korte UGC-toestemmingsbrief op die ze digitaal ondertekenen voordat je hun beelden inzet. Zonder die handtekening loop je auteursrechtelijk risico, en Meta kan adverties weigeren of pauzeren bij rechtenklachten."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoeveel UGC-varianten moet ik per maand draaien?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Reken voor een actief Meta-account op vier tot zes verse UGC-creatives per maand. Dat is genoeg om creative fatigue voor te blijven en regelmatig nieuwe winnaars te ontdekken. Heb je minder budget? Dan zijn twee nieuwe varianten per maand al een prima ritme om te beginnen, mits je oude winnaars opfrist met kleine bewerkingen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe vind ik de juiste UGC-makers?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Begin bij je bestaande klanten. Vraag tevreden kopers of ze een korte video willen maken in ruil voor een tegoedbon of korting. Werkt dat niet of wil je opschalen, dan zijn UGC-marketplaces zoals Billo, Cohley en Insense bekende routes. De makers daar zijn gewend aan briefings en leveren binnen een paar dagen ruwe video aan."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe meet ik of UGC daadwerkelijk werkt?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Vergelijk UGC en studio-content niet op kostprijs alleen. Kijk naar hookrate (kijkers die de eerste drie seconden blijven), thumbstop ratio en doorklikratio. En uiteindelijk de CPA. UGC heeft vaak een hogere hookrate maar soms iets lagere conversie. Wat telt is de combinatie. Pak ROAS over een rollend venster van veertien dagen, niet enkele losse dagen."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Hoe gebruik je UGC in Meta Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/ugc-meta-ads"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Hoe gebruik je UGC in Meta Ads", "item": "https://www.empowers.nl/blogs/social-ads/ugc-meta-ads" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Hoe gebruik je UGC in Meta Ads: praktische gids voor 2026" />
+        <meta name="twitter:description" content="UGC werkt op Facebook en Instagram beter dan studio-content. Lees hoe je UGC verzamelt, inzet en meet zonder dat je adve" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

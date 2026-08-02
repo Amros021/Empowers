@@ -28,112 +28,114 @@ export default function BlogPostWinnendeMetaAdsVideo2026() {
                 <meta name="twitter:title" content="Hoe maak je een winnende Meta Ads video in 2026?" />
                 <meta name="twitter:description" content="Een winnende Meta Ads video begint met een scroll-stop in de eerste seconde. Lees wat in 2026 werkt." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe maak je een winnende Meta Ads video in 2026?",
-                        "description": "Een winnende Meta Ads video begint met een scroll-stop in de eerste seconde. Lees welke video formats, hooks en lengtes in 2026 echt converteren op Facebook en Instagram.",
-                        "image": "https://www.empowers.nl/images/blogs/winnende-meta-ads-video-2026.jpg",
-                        "datePublished": "2026-04-20T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe maak je een winnende Meta Ads video in 2026?",
+                            "description": "Een winnende Meta Ads video begint met een scroll-stop in de eerste seconde. Lees welke video formats, hooks en lengtes in 2026 echt converteren op Facebook en Instagram.",
+                            "image": "https://www.empowers.nl/images/blogs/winnende-meta-ads-video-2026.jpg",
+                            "datePublished": "2026-04-20T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang moet een Meta Ads video zijn in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste Meta Ads video's werkt 15 tot 30 seconden het beste. Reels en in-feed video's presteren sterk rond 20 seconden, Stories rond 10 tot 15 seconden. Langere video's van 45 tot 60 seconden werken alleen als je in de eerste 3 seconden een harde hook hebt. Alles boven de 60 seconden is meestal verspild budget, tenzij je een bewuste storytelling-campagne draait."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk format werkt het beste voor Meta Ads video's?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Gebruik altijd verticale video in 9:16 formaat. Dat is het standaardformaat voor Reels, Stories en de mobile feed. Meer dan 95 procent van je doelgroep zit op mobiel. Een horizontale video krijgt zwarte balken en voelt direct als een advertentie. Vierkante video 1:1 is een tweede keuze voor in-feed placements, maar verliest terrein."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb ik een professionele videograaf nodig voor Meta Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet per se. User generated content opgenomen met een telefoon presteert in veel branches beter dan een gepolijste productie. Het voelt authentiek en stopt de scroll. Wel belangrijk: goede belichting, scherp beeld en heldere audio. Een ruwe video die eerlijk aanvoelt wint het vaak van een glossy commercial."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik ondertiteling toevoegen aan mijn Meta Ads video?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, altijd. Ongeveer 80 procent van de kijkers heeft het geluid uit. Zonder ondertiteling mis je die groep compleet. Gebruik grote, leesbare letters die contrasten met de achtergrond. Plaats de tekst in het midden van het scherm zodat de Meta UI-elementen bovenaan en onderaan niets afdekken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel Meta Ads video's moet ik testen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Start met 3 tot 5 verschillende video's per campagne. Elke video krijgt een andere hook of invalshoek, met dezelfde aanbieding. Geef elke video minimaal 3 tot 5 dagen om data te verzamelen. Daarna houd je de winnaars, skaleer je op en test je nieuwe varianten tegen de winnaar. Zo bouw je een bibliotheek van video's die bewezen werken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer vervang ik mijn Meta Ads video?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Zodra de frequentie boven de 3 komt of je kosten per conversie met meer dan 25 procent stijgen. Dat zijn signalen van creative fatigue: je doelgroep heeft de video te vaak gezien. Bij een goed presterende video werk je vaak met varianten: dezelfde structuur, andere opening, nieuwe stem of andere muziek. Zo verleng je de levensduur zonder alles opnieuw te maken."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang moet een Meta Ads video zijn in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de meeste Meta Ads video's werkt 15 tot 30 seconden het beste. Reels en in-feed video's presteren sterk rond 20 seconden, Stories rond 10 tot 15 seconden. Langere video's van 45 tot 60 seconden werken alleen als je in de eerste 3 seconden een harde hook hebt. Alles boven de 60 seconden is meestal verspild budget, tenzij je een bewuste storytelling-campagne draait."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welk format werkt het beste voor Meta Ads video's?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Gebruik altijd verticale video in 9:16 formaat. Dat is het standaardformaat voor Reels, Stories en de mobile feed. Meer dan 95 procent van je doelgroep zit op mobiel. Een horizontale video krijgt zwarte balken en voelt direct als een advertentie. Vierkante video 1:1 is een tweede keuze voor in-feed placements, maar verliest terrein."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Heb ik een professionele videograaf nodig voor Meta Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet per se. User generated content opgenomen met een telefoon presteert in veel branches beter dan een gepolijste productie. Het voelt authentiek en stopt de scroll. Wel belangrijk: goede belichting, scherp beeld en heldere audio. Een ruwe video die eerlijk aanvoelt wint het vaak van een glossy commercial."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik ondertiteling toevoegen aan mijn Meta Ads video?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, altijd. Ongeveer 80 procent van de kijkers heeft het geluid uit. Zonder ondertiteling mis je die groep compleet. Gebruik grote, leesbare letters die contrasten met de achtergrond. Plaats de tekst in het midden van het scherm zodat de Meta UI-elementen bovenaan en onderaan niets afdekken."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel Meta Ads video's moet ik testen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Start met 3 tot 5 verschillende video's per campagne. Elke video krijgt een andere hook of invalshoek, met dezelfde aanbieding. Geef elke video minimaal 3 tot 5 dagen om data te verzamelen. Daarna houd je de winnaars, skaleer je op en test je nieuwe varianten tegen de winnaar. Zo bouw je een bibliotheek van video's die bewezen werken."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wanneer vervang ik mijn Meta Ads video?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Zodra de frequentie boven de 3 komt of je kosten per conversie met meer dan 25 procent stijgen. Dat zijn signalen van creative fatigue: je doelgroep heeft de video te vaak gezien. Bij een goed presterende video werk je vaak met varianten: dezelfde structuur, andere opening, nieuwe stem of andere muziek. Zo verleng je de levensduur zonder alles opnieuw te maken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Winnende Meta Ads video in 2026",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/winnende-meta-ads-video-2026"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Social Ads",
-                                "item": "https://www.empowers.nl/blogs/social-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Winnende Meta Ads video in 2026",
-                                "item": "https://www.empowers.nl/blogs/social-ads/winnende-meta-ads-video-2026"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

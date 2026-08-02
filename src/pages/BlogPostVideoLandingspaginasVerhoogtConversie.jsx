@@ -28,47 +28,114 @@ export default function BlogPostVideoLandingspaginasVerhoogtConversie() {
                 <meta name="twitter:title" content="Video op je landingspagina: ja of nee?" />
                 <meta name="twitter:description" content="Wanneer video je conversie helpt en wanneer hij hem juist breekt." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Video op je landingspagina: verhoogt het echt je conversie?",
-                        "description": "Een video op je landingspagina belooft hogere conversie. Maar werkt dat altijd? Lees wanneer video helpt, wanneer het tegen je werkt en hoe je hem inzet.",
-                        "image": "https://www.empowers.nl/images/blogs/video-landingspaginas-verhoogt-conversie.jpg",
-                        "datePublished": "2026-05-11T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Video op je landingspagina: verhoogt het echt je conversie?",
+                            "description": "Een video op je landingspagina belooft hogere conversie. Maar werkt dat altijd? Lees wanneer video helpt, wanneer het tegen je werkt en hoe je hem inzet.",
+                            "image": "https://www.empowers.nl/images/blogs/video-landingspaginas-verhoogt-conversie.jpg",
+                            "datePublished": "2026-05-11T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Verhoogt video op een landingspagina altijd de conversie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. Video kan conversie verhogen wanneer hij iets uitlegt wat tekst niet goed kan, bijvoorbeeld een complex product of dienst. Voor eenvoudige aanbiedingen waar de bezoeker al weet wat hij wil, is video vaak een vertrager. Plaats hem op de juiste plek en zorg dat hij niet automatisch start met geluid."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang mag een video op een landingspagina zijn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Houd het kort. Voor een uitleg of demo werkt 60 tot 90 seconden meestal goed. Voor een klanttestimonial volstaat soms 30 seconden. Onder de minuut blijven dwingt je tot scherpte. Lange video's worden vaak weggeklikt voordat de boodschap binnenkomt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet de video automatisch afspelen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Automatisch afspelen kan, maar zet het geluid uit en toon ondertitels. Geluid dat zonder waarschuwing aanknalt schrikt mensen af, vooral op kantoor of in het openbaar vervoer. Een stille autoplay-video met duidelijke ondertitels werkt het beste."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waar plaats ik de video op de pagina?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Plaats de video boven de vouw alleen als hij essentieel is voor het begrijpen van je aanbod. Anders zit hij beter halverwege de pagina, na de eerste tekst en sociale proof. Een video die de bezoeker meteen ziet kan afleiden van de hoofdboodschap en de CTA."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is hosten op YouTube of zelf hosten beter?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor pure marketingvideo's op je landingspagina werkt een lichte zelfhost-oplossing of Wistia of Vimeo vaak beter. YouTube voegt suggesties van andere video's toe aan het einde, en je geeft je bezoeker een afslag naar YouTube. Wistia en Vimeo houden de bezoeker op je pagina."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat voor video werkt het best?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Klanttestimonials zijn nummer één. Authentieke verhalen van echte gebruikers wegen zwaarder dan productdemo's. Op de tweede plek komt een korte uitleg of demo. Op derde plek een persoonlijke video van de eigenaar die het probleem en de oplossing in eigen woorden uitlegt."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
-                                { "@type": "Question", "name": "Verhoogt video op een landingspagina altijd de conversie?", "acceptedAnswer": { "@type": "Answer", "text": "Nee. Video kan conversie verhogen wanneer hij iets uitlegt wat tekst niet goed kan, bijvoorbeeld een complex product of dienst. Voor eenvoudige aanbiedingen waar de bezoeker al weet wat hij wil, is video vaak een vertrager. Plaats hem op de juiste plek en zorg dat hij niet automatisch start met geluid." } },
-                                { "@type": "Question", "name": "Hoe lang mag een video op een landingspagina zijn?", "acceptedAnswer": { "@type": "Answer", "text": "Houd het kort. Voor een uitleg of demo werkt 60 tot 90 seconden meestal goed. Voor een klanttestimonial volstaat soms 30 seconden. Onder de minuut blijven dwingt je tot scherpte. Lange video's worden vaak weggeklikt voordat de boodschap binnenkomt." } },
-                                { "@type": "Question", "name": "Moet de video automatisch afspelen?", "acceptedAnswer": { "@type": "Answer", "text": "Automatisch afspelen kan, maar zet het geluid uit en toon ondertitels. Geluid dat zonder waarschuwing aanknalt schrikt mensen af, vooral op kantoor of in het openbaar vervoer. Een stille autoplay-video met duidelijke ondertitels werkt het beste." } },
-                                { "@type": "Question", "name": "Waar plaats ik de video op de pagina?", "acceptedAnswer": { "@type": "Answer", "text": "Plaats de video boven de vouw alleen als hij essentieel is voor het begrijpen van je aanbod. Anders zit hij beter halverwege de pagina, na de eerste tekst en sociale proof. Een video die de bezoeker meteen ziet kan afleiden van de hoofdboodschap en de CTA." } },
-                                { "@type": "Question", "name": "Is hosten op YouTube of zelf hosten beter?", "acceptedAnswer": { "@type": "Answer", "text": "Voor pure marketingvideo's op je landingspagina werkt een lichte zelfhost-oplossing of Wistia of Vimeo vaak beter. YouTube voegt suggesties van andere video's toe aan het einde, en je geeft je bezoeker een afslag naar YouTube. Wistia en Vimeo houden de bezoeker op je pagina." } },
-                                { "@type": "Question", "name": "Wat voor video werkt het best?", "acceptedAnswer": { "@type": "Answer", "text": "Klanttestimonials zijn nummer één. Authentieke verhalen van echte gebruikers wegen zwaarder dan productdemo's. Op de tweede plek komt een korte uitleg of demo. Op derde plek een persoonlijke video van de eigenaar die het probleem en de oplossing in eigen woorden uitlegt." } }
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Video op landingspagina's",
+                                    "item": "https://www.empowers.nl/blogs/strategie/video-landingspaginas-verhoogt-conversie"
+                                }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                            { "@type": "ListItem", "position": 4, "name": "Video op landingspagina's", "item": "https://www.empowers.nl/blogs/strategie/video-landingspaginas-verhoogt-conversie" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

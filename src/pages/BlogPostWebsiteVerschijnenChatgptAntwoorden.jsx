@@ -29,97 +29,122 @@ export default function BlogPostWebsiteVerschijnenChatgptAntwoorden() {
                 <meta name="twitter:title" content="Website in ChatGPT laten verschijnen" />
                 <meta name="twitter:description" content="Wat werkt om door ChatGPT geciteerd te worden, en wat is verspilde moeite?" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe je jouw website laat verschijnen in ChatGPT-antwoorden",
-                        "description": "Concreet stappenplan om je website in ChatGPT-antwoorden te laten verschijnen. Welke content werkt en hoe je test of het lukt.",
-                        "image": "https://www.empowers.nl/images/blogs/website-verschijnen-chatgpt-antwoorden.jpg",
-                        "datePublished": "2026-05-10T13:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe je jouw website laat verschijnen in ChatGPT-antwoorden",
+                            "description": "Concreet stappenplan om je website in ChatGPT-antwoorden te laten verschijnen. Welke content werkt en hoe je test of het lukt.",
+                            "image": "https://www.empowers.nl/images/blogs/website-verschijnen-chatgpt-antwoorden.jpg",
+                            "datePublished": "2026-05-10T13:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak indexeert ChatGPT nieuwe content?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "ChatGPT gebruikt twee bronnen. Voor diepe kennis put het uit zijn trainingsdata, die periodiek wordt bijgewerkt. Voor actuele informatie gebruikt het zoekfuncties die nieuwe pagina's binnen dagen tot weken kunnen ophalen. Voor jou betekent het: nieuwe content komt sneller in de zoekgebaseerde antwoorden dan in de getrainde antwoorden. Wil je in beide voorkomen, dan helpt langere zichtbaarheid in tijd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik OpenAI iets aanleveren of heeft ChatGPT mijn site al?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Je hoeft niets actief aan te leveren. ChatGPT crawlt het web via OAI-SearchBot en GPTBot. Wat wel belangrijk is: dat je robots.txt deze bots niet blokkeert. Veel sites doen dat per ongeluk via een te strikte instelling. Controleer jouw robots.txt en sta GPTBot en OAI-SearchBot expliciet toe als je geciteerd wilt worden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke schema markup helpt het meest voor ChatGPT?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "FAQPage en Article schema zijn de twee belangrijkste. FAQPage helpt ChatGPT om vraag-en-antwoord paren direct te begrijpen. Article schema geeft auteurs- en datumcontext. Voor productpagina's voegt Product schema waarde toe. Schema is geen garantie, maar wel een signaal dat AI-engines waarderen wanneer ze content moeten interpreteren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Helpt het om mijn merknaam vaak te herhalen op de pagina?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet zoals het ouderwetse keyword-stuffing. Wat wel telt: dat je merknaam consistent op de pagina staat in zinnen die hem aan jouw expertise koppelen. Eén keer in de inleiding, één keer in een over-ons of footer-blok, en eventueel in een case-voorbeeld. AI-engines herkennen patronen, niet frequentie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of ChatGPT mijn site al kent?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Open ChatGPT en stel een vraag waarop jouw content een goed antwoord geeft. Vraag daarna expliciet welke bronnen werden geraadpleegd of voeg de webzoekoptie toe. Als je merknaam of URL verschijnt, ben je geïndexeerd. Ze niet? Probeer dezelfde vraag in Perplexity, want die toont citaties standaard. Ook daar afwezig? Dan staat je site nog niet in beeld."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het tot je effect ziet van GEO-werk voor ChatGPT?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de zoekgebaseerde antwoorden van ChatGPT vaak binnen acht weken na publicatie. Voor de getrainde kennis duurt het langer, omdat OpenAI niet wekelijks zijn modellen hertraint. Concreet: een nieuwe FAQ-pagina kan binnen twee maanden in een ChatGPT-zoekantwoord verschijnen. Maar in een algemeen ChatGPT-antwoord zonder webzoekfunctie kan het maanden duren voordat je naam genoemd wordt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is de grootste fout die ik kan maken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "GPTBot of OAI-SearchBot blokkeren in robots.txt zonder dat je weet dat je dat doet. Of: content schrijven die uitsluitend voor zoekvolume is gemaakt, met dunne antwoorden en veel filler. Beide signalen worden door AI-engines gestraft. Zorg dat je robots.txt klopt en dat je content echt antwoord geeft op de vraag die je in de titel stelt."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak indexeert ChatGPT nieuwe content?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "ChatGPT gebruikt twee bronnen. Voor diepe kennis put het uit zijn trainingsdata, die periodiek wordt bijgewerkt. Voor actuele informatie gebruikt het zoekfuncties die nieuwe pagina's binnen dagen tot weken kunnen ophalen. Voor jou betekent het: nieuwe content komt sneller in de zoekgebaseerde antwoorden dan in de getrainde antwoorden. Wil je in beide voorkomen, dan helpt langere zichtbaarheid in tijd."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik OpenAI iets aanleveren of heeft ChatGPT mijn site al?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Je hoeft niets actief aan te leveren. ChatGPT crawlt het web via OAI-SearchBot en GPTBot. Wat wel belangrijk is: dat je robots.txt deze bots niet blokkeert. Veel sites doen dat per ongeluk via een te strikte instelling. Controleer jouw robots.txt en sta GPTBot en OAI-SearchBot expliciet toe als je geciteerd wilt worden."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke schema markup helpt het meest voor ChatGPT?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "FAQPage en Article schema zijn de twee belangrijkste. FAQPage helpt ChatGPT om vraag-en-antwoord paren direct te begrijpen. Article schema geeft auteurs- en datumcontext. Voor productpagina's voegt Product schema waarde toe. Schema is geen garantie, maar wel een signaal dat AI-engines waarderen wanneer ze content moeten interpreteren."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Helpt het om mijn merknaam vaak te herhalen op de pagina?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet zoals het ouderwetse keyword-stuffing. Wat wel telt: dat je merknaam consistent op de pagina staat in zinnen die hem aan jouw expertise koppelen. Eén keer in de inleiding, één keer in een over-ons of footer-blok, en eventueel in een case-voorbeeld. AI-engines herkennen patronen, niet frequentie."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe weet ik of ChatGPT mijn site al kent?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Open ChatGPT en stel een vraag waarop jouw content een goed antwoord geeft. Vraag daarna expliciet welke bronnen werden geraadpleegd of voeg de webzoekoptie toe. Als je merknaam of URL verschijnt, ben je geïndexeerd. Ze niet? Probeer dezelfde vraag in Perplexity, want die toont citaties standaard. Ook daar afwezig? Dan staat je site nog niet in beeld."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het tot je effect ziet van GEO-werk voor ChatGPT?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de zoekgebaseerde antwoorden van ChatGPT vaak binnen acht weken na publicatie. Voor de getrainde kennis duurt het langer, omdat OpenAI niet wekelijks zijn modellen hertraint. Concreet: een nieuwe FAQ-pagina kan binnen twee maanden in een ChatGPT-zoekantwoord verschijnen. Maar in een algemeen ChatGPT-antwoord zonder webzoekfunctie kan het maanden duren voordat je naam genoemd wordt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is de grootste fout die ik kan maken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "GPTBot of OAI-SearchBot blokkeren in robots.txt zonder dat je weet dat je dat doet. Of: content schrijven die uitsluitend voor zoekvolume is gemaakt, met dunne antwoorden en veel filler. Beide signalen worden door AI-engines gestraft. Zorg dat je robots.txt klopt en dat je content echt antwoord geeft op de vraag die je in de titel stelt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Website in ChatGPT",
+                                    "item": "https://www.empowers.nl/blogs/geo/website-verschijnen-chatgpt-antwoorden"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "Website in ChatGPT", "item": "https://www.empowers.nl/blogs/geo/website-verschijnen-chatgpt-antwoorden" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

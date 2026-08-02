@@ -28,97 +28,122 @@ export default function BlogPostTiktokPixelInstellen() {
                 <meta name="twitter:title" content="TikTok Pixel instellen: stap-voor-stap handleiding" />
                 <meta name="twitter:description" content="Zo installeer je de TikTok Pixel goed en zorg je voor schone tracking met Events API en server-side koppeling." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "TikTok Pixel instellen: stap-voor-stap handleiding (2026)",
-                        "description": "TikTok Pixel installeren en koppelen met events, GTM en Events API. Volg deze stap-voor-stap handleiding voor schone tracking en meer rendement op TikTok Ads.",
-                        "image": "https://www.empowers.nl/images/blogs/tiktok-pixel-instellen-stap-stap.jpg",
-                        "datePublished": "2026-04-29T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "TikTok Pixel instellen: stap-voor-stap handleiding (2026)",
+                            "description": "TikTok Pixel installeren en koppelen met events, GTM en Events API. Volg deze stap-voor-stap handleiding voor schone tracking en meer rendement op TikTok Ads.",
+                            "image": "https://www.empowers.nl/images/blogs/tiktok-pixel-instellen-stap-stap.jpg",
+                            "datePublished": "2026-04-29T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is de TikTok Pixel en waarom heb je hem nodig?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De TikTok Pixel is een stukje code dat je op je website plaatst om bezoekers en hun acties te meten. Zonder Pixel weet TikTok niet welke campagne tot een aankoop, lead of contact heeft geleid. Met Pixel kun je conversies meten, retargeting opbouwen en lookalike-audiences maken op basis van echt gedrag op je site."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe installeer je de TikTok Pixel op je website?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Maak een Pixel aan in TikTok Events Manager, kies tussen handmatige installatie of een partner-integratie zoals Shopify of Google Tag Manager. Plak vervolgens de basiscode in de header van je site of laat hem via GTM laden. Test daarna met de TikTok Pixel Helper of de Pixel actief is op alle pagina's."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen TikTok Pixel en de Events API?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De Pixel werkt vanuit de browser en is gevoelig voor adblockers en cookie-restricties. De Events API stuurt events vanaf jouw server rechtstreeks naar TikTok. Beide naast elkaar gebruiken zorgt voor de meest complete data, vergelijkbaar met de combinatie van Meta Pixel en Conversie API."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke events moet je minimaal meten met de TikTok Pixel?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor een webshop minimaal: ViewContent, AddToCart, InitiateCheckout en CompletePayment. Voor een dienstenbedrijf: ViewContent, ClickButton, SubmitForm en Contact. Stuur waar mogelijk de waarde en het valuta-veld mee, zodat TikTok kan optimaliseren op omzet in plaats van alleen op aantallen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe controleer je of de TikTok Pixel goed werkt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Installeer de TikTok Pixel Helper in Chrome en bezoek je site. De extensie toont welke events afvuren en met welke parameters. Daarnaast zie je in TikTok Events Manager binnen 20 minuten of events binnenkomen. Voor diepere controle gebruik je de Test Events functie en stuur je een specifiek event op met je eigen IP."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt de TikTok Pixel ook met iOS en cookieless tracking?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De Pixel mist data bij iOS-gebruikers die toestemming geweigerd hebben en bij browsers met sterke cookie-blocking. Daarom is een server-side koppeling via de Events API geen luxe meer. Combineer Pixel en Events API met deduplicatie via event_id zodat je geen dubbeltellingen krijgt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kun je de TikTok Pixel ook via Google Tag Manager beheren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. TikTok heeft een officiële GTM-template in de Tag Manager Gallery. Daarmee laad je de basiscode en zet je events op via triggers. Beheer via GTM is overzichtelijker dan losse code in je site, vooral als je meerdere advertentienetwerken combineert."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is de TikTok Pixel en waarom heb je hem nodig?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De TikTok Pixel is een stukje code dat je op je website plaatst om bezoekers en hun acties te meten. Zonder Pixel weet TikTok niet welke campagne tot een aankoop, lead of contact heeft geleid. Met Pixel kun je conversies meten, retargeting opbouwen en lookalike-audiences maken op basis van echt gedrag op je site."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe installeer je de TikTok Pixel op je website?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Maak een Pixel aan in TikTok Events Manager, kies tussen handmatige installatie of een partner-integratie zoals Shopify of Google Tag Manager. Plak vervolgens de basiscode in de header van je site of laat hem via GTM laden. Test daarna met de TikTok Pixel Helper of de Pixel actief is op alle pagina's."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen TikTok Pixel en de Events API?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De Pixel werkt vanuit de browser en is gevoelig voor adblockers en cookie-restricties. De Events API stuurt events vanaf jouw server rechtstreeks naar TikTok. Beide naast elkaar gebruiken zorgt voor de meest complete data, vergelijkbaar met de combinatie van Meta Pixel en Conversie API."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke events moet je minimaal meten met de TikTok Pixel?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor een webshop minimaal: ViewContent, AddToCart, InitiateCheckout en CompletePayment. Voor een dienstenbedrijf: ViewContent, ClickButton, SubmitForm en Contact. Stuur waar mogelijk de waarde en het valuta-veld mee, zodat TikTok kan optimaliseren op omzet in plaats van alleen op aantallen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe controleer je of de TikTok Pixel goed werkt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Installeer de TikTok Pixel Helper in Chrome en bezoek je site. De extensie toont welke events afvuren en met welke parameters. Daarnaast zie je in TikTok Events Manager binnen 20 minuten of events binnenkomen. Voor diepere controle gebruik je de Test Events functie en stuur je een specifiek event op met je eigen IP."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt de TikTok Pixel ook met iOS en cookieless tracking?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De Pixel mist data bij iOS-gebruikers die toestemming geweigerd hebben en bij browsers met sterke cookie-blocking. Daarom is een server-side koppeling via de Events API geen luxe meer. Combineer Pixel en Events API met deduplicatie via event_id zodat je geen dubbeltellingen krijgt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kun je de TikTok Pixel ook via Google Tag Manager beheren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. TikTok heeft een officiële GTM-template in de Tag Manager Gallery. Daarmee laad je de basiscode en zet je events op via triggers. Beheer via GTM is overzichtelijker dan losse code in je site, vooral als je meerdere advertentienetwerken combineert."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "TikTok Pixel instellen",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/tiktok-pixel-instellen-stap-stap"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "TikTok Pixel instellen", "item": "https://www.empowers.nl/blogs/social-ads/tiktok-pixel-instellen-stap-stap" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

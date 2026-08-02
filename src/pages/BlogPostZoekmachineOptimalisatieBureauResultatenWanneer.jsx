@@ -29,89 +29,114 @@ export default function BlogPostZoekmachineOptimalisatieBureauResultatenWanneer(
                 <meta name="twitter:title" content="Zoekmachine optimalisatie bureau: wanneer zie je de eerste resultaten?" />
                 <meta name="twitter:description" content="Welke signalen je na zes weken ziet, wanneer SEO omzet oplevert en wat je doet als de groei uitblijft." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Zoekmachine optimalisatie bureau: wanneer zie je de eerste resultaten?",
-                        "description": "Wanneer levert een zoekmachine optimalisatie bureau resultaat? Welke signalen je na zes weken ziet, wanneer omzet volgt en wat je doet als het uitblijft.",
-                        "image": "https://www.empowers.nl/images/blogs/zoekmachine-optimalisatie-bureau-resultaten-wanneer.jpg",
-                        "datePublished": "2026-05-30T12:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Zoekmachine optimalisatie bureau: wanneer zie je de eerste resultaten?",
+                            "description": "Wanneer levert een zoekmachine optimalisatie bureau resultaat? Welke signalen je na zes weken ziet, wanneer omzet volgt en wat je doet als het uitblijft.",
+                            "image": "https://www.empowers.nl/images/blogs/zoekmachine-optimalisatie-bureau-resultaten-wanneer.jpg",
+                            "datePublished": "2026-05-30T12:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voor een SEO-bureau resultaat levert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Eerste signalen zoals meer vertoningen en stijgende posities op long-tail zoekwoorden zie je vaak rond zes tot acht weken. Groei in verkeer en omzet die je echt voelt, komt meestal na drie tot zes maanden. Hoe lang het precies duurt hangt af van je concurrentie, de staat van je website en hoeveel content er moet worden bijgemaakt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom duurt SEO langer dan adverteren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Met Google Ads koop je direct een positie bovenaan. SEO moet die positie verdienen. Google heeft tijd nodig om nieuwe content te ontdekken, te beoordelen en vertrouwen op te bouwen. Dat proces versnel je niet door meer te betalen. Daardoor levert SEO later op dan advertenties, maar zonder dat je per klik blijft betalen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke signalen laten zien dat SEO de goede kant op gaat?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Meer vertoningen in Google Search Console, stijgende posities op specifieke zoekwoorden en groei van het aantal pagina's dat verkeer trekt. Deze vroege signalen lopen voor op de omzet. Als ze de goede kant op bewegen, is dat een teken dat het bureau aan de juiste knoppen draait, ook al zie je nog geen extra klanten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat doe ik als er na zes maanden nog niets gebeurt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vraag het bureau om de cijfers uit Google Search Console te laten zien, niet alleen een eigen rapport. Beweegt daar echt niets, geen extra vertoningen en geen stijgende posities, dan klopt er iets niet. Dat kan liggen aan een te zwakke aanpak, een technisch probleem op de site of een te competitieve markt voor het budget."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe versnel je de eerste SEO-resultaten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin bij content rond zoekwoorden waar minder concurrentie op zit, zodat je sneller stijgt. Zorg dat de techniek van je site klopt voordat je content maakt. En combineer SEO de eerste maanden met Google Ads, zodat je omzet binnenkomt terwijl het organische verkeer opbouwt. Die combinatie overbrugt de wachttijd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is SEO sneller voor een lokaal bedrijf?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vaak wel. Lokale zoekopdrachten kennen minder concurrentie dan landelijke zoekwoorden, dus een lokaal bedrijf kan binnen enkele maanden in de buurt bovenaan staan. Een goed ingericht Google Bedrijfsprofiel helpt daarbij. Voor een landelijke webshop in een drukke markt duurt hetzelfde resultaat doorgaans langer."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voor een SEO-bureau resultaat levert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Eerste signalen zoals meer vertoningen en stijgende posities op long-tail zoekwoorden zie je vaak rond zes tot acht weken. Groei in verkeer en omzet die je echt voelt, komt meestal na drie tot zes maanden. Hoe lang het precies duurt hangt af van je concurrentie, de staat van je website en hoeveel content er moet worden bijgemaakt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom duurt SEO langer dan adverteren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Met Google Ads koop je direct een positie bovenaan. SEO moet die positie verdienen. Google heeft tijd nodig om nieuwe content te ontdekken, te beoordelen en vertrouwen op te bouwen. Dat proces versnel je niet door meer te betalen. Daardoor levert SEO later op dan advertenties, maar zonder dat je per klik blijft betalen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke signalen laten zien dat SEO de goede kant op gaat?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Meer vertoningen in Google Search Console, stijgende posities op specifieke zoekwoorden en groei van het aantal pagina's dat verkeer trekt. Deze vroege signalen lopen voor op de omzet. Als ze de goede kant op bewegen, is dat een teken dat het bureau aan de juiste knoppen draait, ook al zie je nog geen extra klanten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat doe ik als er na zes maanden nog niets gebeurt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vraag het bureau om de cijfers uit Google Search Console te laten zien, niet alleen een eigen rapport. Beweegt daar echt niets, geen extra vertoningen en geen stijgende posities, dan klopt er iets niet. Dat kan liggen aan een te zwakke aanpak, een technisch probleem op de site of een te competitieve markt voor het budget."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe versnel je de eerste SEO-resultaten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin bij content rond zoekwoorden waar minder concurrentie op zit, zodat je sneller stijgt. Zorg dat de techniek van je site klopt voordat je content maakt. En combineer SEO de eerste maanden met Google Ads, zodat je omzet binnenkomt terwijl het organische verkeer opbouwt. Die combinatie overbrugt de wachttijd."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Is SEO sneller voor een lokaal bedrijf?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vaak wel. Lokale zoekopdrachten kennen minder concurrentie dan landelijke zoekwoorden, dus een lokaal bedrijf kan binnen enkele maanden in de buurt bovenaan staan. Een goed ingericht Google Bedrijfsprofiel helpt daarbij. Voor een landelijke webshop in een drukke markt duurt hetzelfde resultaat doorgaans langer."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Zoekmachine optimalisatie bureau resultaten wanneer",
+                                    "item": "https://www.empowers.nl/blogs/seo/zoekmachine-optimalisatie-bureau-resultaten-wanneer"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "SEO", "item": "https://www.empowers.nl/blogs/seo" },
-                            { "@type": "ListItem", "position": 4, "name": "Zoekmachine optimalisatie bureau resultaten wanneer", "item": "https://www.empowers.nl/blogs/seo/zoekmachine-optimalisatie-bureau-resultaten-wanneer" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

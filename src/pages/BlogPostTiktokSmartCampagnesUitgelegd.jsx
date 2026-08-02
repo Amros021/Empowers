@@ -28,97 +28,122 @@ export default function BlogPostTiktokSmartCampagnesUitgelegd() {
                 <meta name="twitter:title" content="TikTok Smart+ campagnes uitgelegd" />
                 <meta name="twitter:description" content="Wanneer Smart+ campagnes werken, wanneer handmatig beter is, en hoe je het algoritme goed voedt." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "TikTok Smart+ campagnes uitgelegd",
-                        "description": "Hoe TikTok Smart+ campagnes werken, voor wie ze renderen en welke fouten je voorkomt om het algoritme zijn werk te laten doen.",
-                        "image": "https://www.empowers.nl/images/blogs/tiktok-smart-campagnes-uitgelegd.jpg",
-                        "datePublished": "2026-05-07T23:30:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "TikTok Smart+ campagnes uitgelegd",
+                            "description": "Hoe TikTok Smart+ campagnes werken, voor wie ze renderen en welke fouten je voorkomt om het algoritme zijn werk te laten doen.",
+                            "image": "https://www.empowers.nl/images/blogs/tiktok-smart-campagnes-uitgelegd.jpg",
+                            "datePublished": "2026-05-07T23:30:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn TikTok Smart+ campagnes precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Smart+ is TikTok's volledig geautomatiseerde campagnemodus, vergelijkbaar met Advantage+ Shopping van Meta. Je levert je productcatalogus, je creatives en je budget. Het algoritme bepaalt zelf welke gebruiker je advertentie ziet, op welke plaatsing, met welk bod en welke creative. Je hebt minder controle, maar in ruil daarvoor put het algoritme veel breder dan een handmatig opgezette campagne kan."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Voor wie werken Smart+ campagnes het beste?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Smart+ werkt het beste voor webshops met een gevulde productcatalogus, gezonde Pixel-data en minimaal twintig conversies per week per campagne. Bij minder data heeft het algoritme te weinig signaal om effectief te leren. Voor accounts in de opstartfase of met een beperkt assortiment werkt een handmatige campagne meestal beter."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil met handmatige campagnes?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij een handmatige campagne kies je zelf de doelgroep, plus de plaatsing, het bod en alle randvoorwaarden. Bij Smart+ doet het algoritme dat. Het voordeel van Smart+: je bereikt mensen die je handmatig nooit als doelgroep zou hebben gekozen, op basis van gedragspatronen die jij niet kunt zien. Het nadeel: je kunt minder bijsturen als de campagne niet renderen. Voor de meeste accounts met voldoende data is Smart+ structureel efficiënter."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel creatives moet je leveren voor Smart+?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Minimaal vijf tot tien creatives, idealiter rond de vijftien voor een serieuze schaal. Het algoritme test ze tegen verschillende doelgroepen en gebruikt de resultaten om creatives toe te wijzen aan personen waarop ze het beste landen. Met te weinig creatives krijgt het algoritme niet genoeg variatie om te optimaliseren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel budget heb je nodig voor Smart+?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op minimaal 50 tot 100 euro per dag om Smart+ effectief te laten werken. Lager dan dat krijgt het algoritme onvoldoende ruimte om te testen en blijft de leerfase hangen. Voor grotere webshops met dagbudgetten boven de 200 euro speelt Smart+ vaak zijn echte kracht uit, omdat het algoritme dan voldoende experimenten kan draaien."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kun je Smart+ combineren met handmatige campagnes?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, en het wordt vaak aanbevolen. Een veelgebruikte structuur: Smart+ voor brede prospecting en algemene catalogusverkoop, handmatige campagnes voor specifieke promoties zoals retargeting of branded acties. Zo combineer je de schaalbaarheid van Smart+ met de controle van handmatig opgezette campagnes voor specifieke doelen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke fouten worden bij Smart+ vaak gemaakt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De meest gemaakte fouten: te vroeg ingrijpen in de leerfase, een onvolledige productfeed waardoor producten worden afgekeurd, te weinig creatives waardoor het algoritme niet kan testen, en te lage budgetten waardoor de campagne nooit door de leerfase komt. Wie deze valkuilen voorkomt ziet Smart+ doorgaans renderen binnen drie tot vier weken."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat zijn TikTok Smart+ campagnes precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Smart+ is TikTok's volledig geautomatiseerde campagnemodus, vergelijkbaar met Advantage+ Shopping van Meta. Je levert je productcatalogus, je creatives en je budget. Het algoritme bepaalt zelf welke gebruiker je advertentie ziet, op welke plaatsing, met welk bod en welke creative. Je hebt minder controle, maar in ruil daarvoor put het algoritme veel breder dan een handmatig opgezette campagne kan."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Voor wie werken Smart+ campagnes het beste?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Smart+ werkt het beste voor webshops met een gevulde productcatalogus, gezonde Pixel-data en minimaal twintig conversies per week per campagne. Bij minder data heeft het algoritme te weinig signaal om effectief te leren. Voor accounts in de opstartfase of met een beperkt assortiment werkt een handmatige campagne meestal beter."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil met handmatige campagnes?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij een handmatige campagne kies je zelf de doelgroep, plus de plaatsing, het bod en alle randvoorwaarden. Bij Smart+ doet het algoritme dat. Het voordeel van Smart+: je bereikt mensen die je handmatig nooit als doelgroep zou hebben gekozen, op basis van gedragspatronen die jij niet kunt zien. Het nadeel: je kunt minder bijsturen als de campagne niet renderen. Voor de meeste accounts met voldoende data is Smart+ structureel efficiënter."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel creatives moet je leveren voor Smart+?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Minimaal vijf tot tien creatives, idealiter rond de vijftien voor een serieuze schaal. Het algoritme test ze tegen verschillende doelgroepen en gebruikt de resultaten om creatives toe te wijzen aan personen waarop ze het beste landen. Met te weinig creatives krijgt het algoritme niet genoeg variatie om te optimaliseren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel budget heb je nodig voor Smart+?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op minimaal 50 tot 100 euro per dag om Smart+ effectief te laten werken. Lager dan dat krijgt het algoritme onvoldoende ruimte om te testen en blijft de leerfase hangen. Voor grotere webshops met dagbudgetten boven de 200 euro speelt Smart+ vaak zijn echte kracht uit, omdat het algoritme dan voldoende experimenten kan draaien."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kun je Smart+ combineren met handmatige campagnes?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, en het wordt vaak aanbevolen. Een veelgebruikte structuur: Smart+ voor brede prospecting en algemene catalogusverkoop, handmatige campagnes voor specifieke promoties zoals retargeting of branded acties. Zo combineer je de schaalbaarheid van Smart+ met de controle van handmatig opgezette campagnes voor specifieke doelen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke fouten worden bij Smart+ vaak gemaakt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De meest gemaakte fouten: te vroeg ingrijpen in de leerfase, een onvolledige productfeed waardoor producten worden afgekeurd, te weinig creatives waardoor het algoritme niet kan testen, en te lage budgetten waardoor de campagne nooit door de leerfase komt. Wie deze valkuilen voorkomt ziet Smart+ doorgaans renderen binnen drie tot vier weken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "TikTok Smart+ campagnes",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/tiktok-smart-campagnes-uitgelegd"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "TikTok Smart+ campagnes", "item": "https://www.empowers.nl/blogs/social-ads/tiktok-smart-campagnes-uitgelegd" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

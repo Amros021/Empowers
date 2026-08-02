@@ -28,97 +28,122 @@ export default function BlogPostTiktokAdverteren2026CompleteGidsBeginners() {
                 <meta name="twitter:title" content="TikTok Adverteren in 2026: Complete Gids voor Beginners" />
                 <meta name="twitter:description" content="Stap-voor-stap TikTok adverteren leren in 2026 met formats, kosten en tips." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "TikTok Adverteren in 2026: Complete Gids voor Beginners (Formats, Kosten en Tips)",
-                        "description": "Complete gids over TikTok adverteren in 2026. Lees welke formats werken, wat het kost, hoe je een campagne opzet en wanneer TikTok adverteren uitbesteden zin heeft.",
-                        "image": "https://www.empowers.nl/images/blogs/tiktok-adverteren-2026-complete-gids-beginners.jpg",
-                        "datePublished": "2026-04-29T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "TikTok Adverteren in 2026: Complete Gids voor Beginners (Formats, Kosten en Tips)",
+                            "description": "Complete gids over TikTok adverteren in 2026. Lees welke formats werken, wat het kost, hoe je een campagne opzet en wanneer TikTok adverteren uitbesteden zin heeft.",
+                            "image": "https://www.empowers.nl/images/blogs/tiktok-adverteren-2026-complete-gids-beginners.jpg",
+                            "datePublished": "2026-04-29T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost TikTok adverteren in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "TikTok adverteren kost in 2026 gemiddeld 0,50 tot 1,50 dollar per klik en 6 tot 12 dollar CPM voor In-Feed Ads. CPA loopt tussen 15 en 80 dollar afhankelijk van branche en conversie-event. Het minimum campagnebudget bij TikTok is 500 dollar lifetime, met een ad-group dagminimum van 20 dollar. Voor MKB start je realistisch op 500 tot 1.500 euro per maand."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke advertentieformats heeft TikTok?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "TikTok heeft vijf formats. Self-serve: In-Feed Ads (verticale videos in For You feed) en Spark Ads (organische posts boosten als advertentie). Premium reservation: TopView (eerste video bij app-opening), Brand Takeover (full-screen direct bij open) en Branded Hashtag Challenge. De self-serve formats starten vanaf 500 euro per maand. Premium formats vragen 25.000 euro of meer per campagne."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is Smart+ in TikTok Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Smart+ is TikTok's AI-gestuurde campagnetype dat sinds 2024 automatisch targeting, biedingen en creative-rotation optimaliseert. In 2026 gaat circa 42 procent van alle performance-spend op TikTok via Smart+. Het werkt het beste bij brede audiences en goede conversiesignalen. Voor MKB-bedrijven is Smart+ vaak de snelste route naar gunstige CPA's."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke video lengte werkt op TikTok?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Tussen 9 en 15 seconden voor cold prospecting werkt het beste. Korter dan 9 seconden mist context. Langer dan 30 seconden zorgt voor een drop-off van 60 tot 80 procent voor de CTA. Voor productdemo's mag het tot 60 seconden, mits de hook in de eerste 2 seconden zit en het ritme blijft verschuiven."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt TikTok adverteren voor MKB?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, vooral voor producten en diensten met een visuele uitstraling, een prijspunt onder 200 euro, en een breed consumentenpubliek. Mode, beauty, lifestyle, fitness en lokale diensten doen het structureel goed. Voor pure B2B met een lange koopcyclus werkt LinkedIn vaak beter. TikTok presteert ook minder bij een doelgroep boven 50 jaar."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb ik veel volgers nodig voor TikTok ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. Je kunt TikTok-advertenties draaien zonder een actief organisch account. Wel werkt een account met enige organische geschiedenis (10 tot 30 posts) beter omdat het algoritme dan meer signalen heeft. Voor de eerste test kun je beginnen met een nieuw business-account, maar reken op 2 tot 4 weken voordat de campagne stabiel presteert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is TikTok adverteren uitbesteden zinvol?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor budgetten boven 1.500 euro per maand betaalt een gespecialiseerd bureau zichzelf vrijwel altijd terug door creative-strategie, biedoptimalisatie en structuur. TikTok adverteren uitbesteden loont vooral als je geen tijd hebt om wekelijks 5 tot 10 nieuwe creatives te maken. Native UGC-stijl content presteert in 2026 47 procent beter dan studio-producties, dus snelheid van content-productie is belangrijker dan budget."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost TikTok adverteren in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "TikTok adverteren kost in 2026 gemiddeld 0,50 tot 1,50 dollar per klik en 6 tot 12 dollar CPM voor In-Feed Ads. CPA loopt tussen 15 en 80 dollar afhankelijk van branche en conversie-event. Het minimum campagnebudget bij TikTok is 500 dollar lifetime, met een ad-group dagminimum van 20 dollar. Voor MKB start je realistisch op 500 tot 1.500 euro per maand."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke advertentieformats heeft TikTok?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "TikTok heeft vijf formats. Self-serve: In-Feed Ads (verticale videos in For You feed) en Spark Ads (organische posts boosten als advertentie). Premium reservation: TopView (eerste video bij app-opening), Brand Takeover (full-screen direct bij open) en Branded Hashtag Challenge. De self-serve formats starten vanaf 500 euro per maand. Premium formats vragen 25.000 euro of meer per campagne."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is Smart+ in TikTok Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Smart+ is TikTok's AI-gestuurde campagnetype dat sinds 2024 automatisch targeting, biedingen en creative-rotation optimaliseert. In 2026 gaat circa 42 procent van alle performance-spend op TikTok via Smart+. Het werkt het beste bij brede audiences en goede conversiesignalen. Voor MKB-bedrijven is Smart+ vaak de snelste route naar gunstige CPA's."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke video lengte werkt op TikTok?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Tussen 9 en 15 seconden voor cold prospecting werkt het beste. Korter dan 9 seconden mist context. Langer dan 30 seconden zorgt voor een drop-off van 60 tot 80 procent voor de CTA. Voor productdemo's mag het tot 60 seconden, mits de hook in de eerste 2 seconden zit en het ritme blijft verschuiven."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt TikTok adverteren voor MKB?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, vooral voor producten en diensten met een visuele uitstraling, een prijspunt onder 200 euro, en een breed consumentenpubliek. Mode, beauty, lifestyle, fitness en lokale diensten doen het structureel goed. Voor pure B2B met een lange koopcyclus werkt LinkedIn vaak beter. TikTok presteert ook minder bij een doelgroep boven 50 jaar."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Heb ik veel volgers nodig voor TikTok ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee. Je kunt TikTok-advertenties draaien zonder een actief organisch account. Wel werkt een account met enige organische geschiedenis (10 tot 30 posts) beter omdat het algoritme dan meer signalen heeft. Voor de eerste test kun je beginnen met een nieuw business-account, maar reken op 2 tot 4 weken voordat de campagne stabiel presteert."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wanneer is TikTok adverteren uitbesteden zinvol?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor budgetten boven 1.500 euro per maand betaalt een gespecialiseerd bureau zichzelf vrijwel altijd terug door creative-strategie, biedoptimalisatie en structuur. TikTok adverteren uitbesteden loont vooral als je geen tijd hebt om wekelijks 5 tot 10 nieuwe creatives te maken. Native UGC-stijl content presteert in 2026 47 procent beter dan studio-producties, dus snelheid van content-productie is belangrijker dan budget."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "TikTok adverteren 2026 complete gids",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/tiktok-adverteren-2026-complete-gids-beginners"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "TikTok adverteren 2026 complete gids", "item": "https://www.empowers.nl/blogs/social-ads/tiktok-adverteren-2026-complete-gids-beginners" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />
