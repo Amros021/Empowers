@@ -419,6 +419,18 @@ const BlogPostSeoWebshops10BelangrijksteRegels = React.lazy(() => import('./page
 const BlogPostVerlorenOrganischVerkeerTerugwinnenGoogleUpdate = React.lazy(() => import('./pages/BlogPostVerlorenOrganischVerkeerTerugwinnenGoogleUpdate'));
 const BlogPostTiktokRetargetingVerlorenBezoekersTerugwinnen = React.lazy(() => import('./pages/BlogPostTiktokRetargetingVerlorenBezoekersTerugwinnen'));
 const BlogPostUgcTiktokAdsAuthentiekeAdvertenties = React.lazy(() => import('./pages/BlogPostUgcTiktokAdsAuthentiekeAdvertenties'));
+const BlogPostRankPerplexityAi = React.lazy(() => import('./pages/BlogPostRankPerplexityAi'));
+const BlogPostAiZoekstrategieVeranderen2026 = React.lazy(() => import('./pages/BlogPostAiZoekstrategieVeranderen2026'));
+const BlogPostAiContentVertrouwen = React.lazy(() => import('./pages/BlogPostAiContentVertrouwen'));
+const BlogPostReviewsLogosLandingspagina = React.lazy(() => import('./pages/BlogPostReviewsLogosLandingspagina'));
+const BlogPostFormulierenLandingspaginasSimpelEffectief = React.lazy(() => import('./pages/BlogPostFormulierenLandingspaginasSimpelEffectief'));
+const BlogPostLandingspaginaTestenWeinigVerkeer = React.lazy(() => import('./pages/BlogPostLandingspaginaTestenWeinigVerkeer'));
+const BlogPostKoppenLandingspaginaMeerKlikken = React.lazy(() => import('./pages/BlogPostKoppenLandingspaginaMeerKlikken'));
+const BlogPostGeenContentInspiratieTips = React.lazy(() => import('./pages/BlogPostGeenContentInspiratieTips'));
+const BlogPostMetaAdsCoachesTrainersLeads = React.lazy(() => import('./pages/BlogPostMetaAdsCoachesTrainersLeads'));
+const BlogPostConcurrentieanalyseOnlineCheckConcurrent = React.lazy(() => import('./pages/BlogPostConcurrentieanalyseOnlineCheckConcurrent'));
+const BlogPostLinkGoogleAdsGoogleAnalytics = React.lazy(() => import('./pages/BlogPostLinkGoogleAdsGoogleAnalytics'));
+const BlogPostCallOnlyCampagnesGoogleAds = React.lazy(() => import('./pages/BlogPostCallOnlyCampagnesGoogleAds'));
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -739,6 +751,18 @@ function App() {
           <Route path="/blogs/seo/verloren-organisch-verkeer-terugwinnen-google-update" element={<BlogPostVerlorenOrganischVerkeerTerugwinnenGoogleUpdate />} />
           <Route path="/blogs/social-ads/tiktok-retargeting-verloren-bezoekers-terugwinnen" element={<BlogPostTiktokRetargetingVerlorenBezoekersTerugwinnen />} />
           <Route path="/blogs/social-ads/ugc-tiktok-ads-authentieke-advertenties" element={<BlogPostUgcTiktokAdsAuthentiekeAdvertenties />} />
+          <Route path="/blogs/geo/rank-perplexity-ai" element={<BlogPostRankPerplexityAi />} />
+          <Route path="/blogs/geo/ai-zoekstrategie-veranderen-2026" element={<BlogPostAiZoekstrategieVeranderen2026 />} />
+          <Route path="/blogs/geo/ai-content-vertrouwen" element={<BlogPostAiContentVertrouwen />} />
+          <Route path="/blogs/strategie/reviews-logos-landingspagina" element={<BlogPostReviewsLogosLandingspagina />} />
+          <Route path="/blogs/strategie/formulieren-landingspaginas-simpel-effectief" element={<BlogPostFormulierenLandingspaginasSimpelEffectief />} />
+          <Route path="/blogs/strategie/landingspagina-testen-weinig-verkeer" element={<BlogPostLandingspaginaTestenWeinigVerkeer />} />
+          <Route path="/blogs/strategie/koppen-landingspagina-meer-klikken" element={<BlogPostKoppenLandingspaginaMeerKlikken />} />
+          <Route path="/blogs/strategie/geen-content-inspiratie-tips" element={<BlogPostGeenContentInspiratieTips />} />
+          <Route path="/blogs/social-ads/meta-ads-coaches-trainers-leads" element={<BlogPostMetaAdsCoachesTrainersLeads />} />
+          <Route path="/blogs/algemeen/concurrentieanalyse-online-check-concurrent" element={<BlogPostConcurrentieanalyseOnlineCheckConcurrent />} />
+          <Route path="/blogs/google-ads/link-google-ads-google-analytics" element={<BlogPostLinkGoogleAdsGoogleAnalytics />} />
+          <Route path="/blogs/google-ads/call-only-campagnes-google-ads" element={<BlogPostCallOnlyCampagnesGoogleAds />} />
           <Route path="/blogs/geo/generative-engine-optimization-complete-gids-2026" element={<BlogPostGenerativeEngineOptimizationCompleteGids2026 />} />
           <Route path="/blogs/geo/generative-engine-optimization-webshops" element={<BlogPostGenerativeEngineOptimizationWebshops />} />
           <Route path="/blogs/geo/generative-engine-optimization-uitbesteden" element={<BlogPostGenerativeEngineOptimizationUitbesteden />} />
@@ -798,6 +822,7 @@ function App() {
           <Route path="/blogs/algemeen/klantretentie-behouden-goedkoper-nieuwe-klanten" element={<BlogPostKlantretentieBehoudenGoedkoperNieuweKlanten />} />
           <Route path="/blogs/algemeen/zet-klantreviews-marketingtool" element={<BlogPostZetKlantreviewsMarketingtool />} />
           <Route path="/blogs/algemeen/tone-of-voice-bepalen-klinkt-merk" element={<BlogPostToonStemBepalenKlinktMerk />} />
+          <Route path="/blogs/algemeen/toon-stem-bepalen-klinkt-merk" element={<Navigate to="/blogs/algemeen/tone-of-voice-bepalen-klinkt-merk" replace />} />
           <Route path="/blogs/algemeen/bouw-sterke-merkidentiteit-online" element={<BlogPostBouwSterkeMerkidentiteitOnline />} />
           <Route path="/blogs/google-ads/google-ads-demand-gen" element={<BlogPostGoogleAdsDemandGen />} />
           <Route path="/blogs/google-ads/maximaliseer-conversies-vs-doel-cpa" element={<BlogPostMaximaliseerConversiesVsDoelCpa />} />
