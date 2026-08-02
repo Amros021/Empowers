@@ -28,89 +28,114 @@ export default function BlogPostMetaAdsCreativeTesting() {
                 <meta name="twitter:title" content="Meta Ads creative testing: zo weet je wat werkt" />
                 <meta name="twitter:description" content="Concrete testopzet voor Meta Ads creatives, met budget, metrics en winnaars-strategie." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Meta Ads creative testing: zo weet je wat werkt",
-                        "description": "Meta Ads creative testing laat zien welke beelden en hooks écht verkopen. Lees hoe je een testopzet bouwt, hoeveel budget je nodig hebt en welke metrics tellen.",
-                        "image": "https://www.empowers.nl/images/blogs/meta-ads-creative-testing-weet.jpg",
-                        "datePublished": "2026-04-23T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Meta Ads creative testing: zo weet je wat werkt",
+                            "description": "Meta Ads creative testing laat zien welke beelden en hooks écht verkopen. Lees hoe je een testopzet bouwt, hoeveel budget je nodig hebt en welke metrics tellen.",
+                            "image": "https://www.empowers.nl/images/blogs/meta-ads-creative-testing-weet.jpg",
+                            "datePublished": "2026-04-23T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is Meta Ads creative testing precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Creative testing is het systematisch vergelijken van advertentiebeelden, video's en teksten om vast te stellen welke variant het hoogste rendement geeft. Je laat het algoritme van Meta zelf budget verschuiven naar de winnaars en stopt verliezers tijdig, in plaats van te gokken op één creative."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel creatives moet je tegelijk testen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie tot zes creatives per ad set is een prima vuistregel. Met minder dan drie test je niet, met meer dan zes verdun je het budget. Zorg dat de varianten één duidelijk verschil hebben — bijvoorbeeld dezelfde tekst maar een ander beeld — anders kun je niet zien waarom de ene wint."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel budget heb je nodig per creative test?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op minimaal 50 conversies per variant voor een betrouwbaar oordeel. In de praktijk komt dat neer op 50 tot 150 euro per creative voor laaggeprijsde producten en 300 tot 1000 euro voor hooggeprijsde diensten. Heb je weinig budget? Test op een goedkopere event verder boven in de funnel, zoals een view of een klik."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt een creative test?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie tot zeven dagen is gebruikelijk. Korter dan drie dagen geeft te veel ruis door dag- en weekpatronen. Langer dan zeven dagen kost onnodig veel budget als de winnaar al duidelijk is. Bekijk de cijfers iedere ochtend en stop verliezers actief zodra ze 50 procent slechter presteren dan de leider."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede CTR voor een Meta Ad in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor feed-advertenties geldt een CTR van 1 tot 2 procent als gemiddeld, 2 tot 4 procent als sterk en boven de 4 procent als uitzonderlijk. Voor Reels en Stories ligt de CTR vaak iets lager omdat het scrollgedrag sneller is. Belangrijker dan CTR alleen is de combinatie met conversiepercentage en kostprijs per resultaat."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet je foto of video testen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Allebei. Video wint in 2026 vaker op Reels en Stories, foto blijft sterk in de feed en bij retargeting van warme doelgroepen. Begin een test altijd met minstens één video én één statisch beeld in dezelfde ad set, zodat je direct ziet welk format het beste landt bij die specifieke doelgroep."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is Meta Ads creative testing precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Creative testing is het systematisch vergelijken van advertentiebeelden, video's en teksten om vast te stellen welke variant het hoogste rendement geeft. Je laat het algoritme van Meta zelf budget verschuiven naar de winnaars en stopt verliezers tijdig, in plaats van te gokken op één creative."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel creatives moet je tegelijk testen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie tot zes creatives per ad set is een prima vuistregel. Met minder dan drie test je niet, met meer dan zes verdun je het budget. Zorg dat de varianten één duidelijk verschil hebben — bijvoorbeeld dezelfde tekst maar een ander beeld — anders kun je niet zien waarom de ene wint."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel budget heb je nodig per creative test?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op minimaal 50 conversies per variant voor een betrouwbaar oordeel. In de praktijk komt dat neer op 50 tot 150 euro per creative voor laaggeprijsde producten en 300 tot 1000 euro voor hooggeprijsde diensten. Heb je weinig budget? Test op een goedkopere event verder boven in de funnel, zoals een view of een klik."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt een creative test?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie tot zeven dagen is gebruikelijk. Korter dan drie dagen geeft te veel ruis door dag- en weekpatronen. Langer dan zeven dagen kost onnodig veel budget als de winnaar al duidelijk is. Bekijk de cijfers iedere ochtend en stop verliezers actief zodra ze 50 procent slechter presteren dan de leider."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede CTR voor een Meta Ad in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor feed-advertenties geldt een CTR van 1 tot 2 procent als gemiddeld, 2 tot 4 procent als sterk en boven de 4 procent als uitzonderlijk. Voor Reels en Stories ligt de CTR vaak iets lager omdat het scrollgedrag sneller is. Belangrijker dan CTR alleen is de combinatie met conversiepercentage en kostprijs per resultaat."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet je foto of video testen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Allebei. Video wint in 2026 vaker op Reels en Stories, foto blijft sterk in de feed en bij retargeting van warme doelgroepen. Begin een test altijd met minstens één video én één statisch beeld in dezelfde ad set, zodat je direct ziet welk format het beste landt bij die specifieke doelgroep."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Meta Ads creative testing",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-creative-testing-weet"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Meta Ads creative testing", "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-creative-testing-weet" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

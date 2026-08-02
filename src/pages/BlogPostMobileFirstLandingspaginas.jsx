@@ -29,97 +29,122 @@ export default function BlogPostMobileFirstLandingspaginas() {
                 <meta name="twitter:title" content="Mobile-first: geen optie meer" />
                 <meta name="twitter:description" content="Waarom mobile-first design niet langer optioneel is voor je landingspagina." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Mobile-first landingspagina's: waarom het geen optie meer is",
-                        "description": "Mobiel verkeer is de meerderheid op de meeste MKB-sites. Tijd om landingspagina's mobile-first te bouwen.",
-                        "image": "https://www.empowers.nl/images/blogs/mobile-first-landingspaginas-geen-optie.jpg",
-                        "datePublished": "2026-05-10T21:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Mobile-first landingspagina's: waarom het geen optie meer is",
+                            "description": "Mobiel verkeer is de meerderheid op de meeste MKB-sites. Tijd om landingspagina's mobile-first te bouwen.",
+                            "image": "https://www.empowers.nl/images/blogs/mobile-first-landingspaginas-geen-optie.jpg",
+                            "datePublished": "2026-05-10T21:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat betekent mobile-first eigenlijk?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Mobile-first betekent dat je de mobiele versie van een pagina ontwerpt voordat de desktop-versie wordt uitgewerkt. Niet andersom. Vroeger werden sites gebouwd voor desktop en daarna 'responsief gemaakt' voor mobiel. Bij mobile-first is mobiel de standaard waar het ontwerp begint, en wordt desktop een uitbreiding. Het resultaat is een pagina die op een telefoon goed werkt, niet een ingedikte versie van een desktop-pagina."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom is mobile-first nu echt verplicht geworden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie redenen. Mobiel verkeer is bij de meeste MKB-sites de meerderheid. Google indexeert sinds 2021 standaard met de mobiele bot, dus jouw mobiele site is wat Google ziet. En de meeste advertentieklikken komen mobiel binnen. Bouw je je landingspagina niet eerst voor mobiel, dan ontwerp je voor de minderheid van je verkeer."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of mijn site echt mobile-first is?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Open je site op een telefoon, niet op een browser-emulatie. Werkt de hero op de eerste schermhoogte zonder zoomen? Zijn knoppen duim-vriendelijk en niet te dicht op elkaar? Laadt de pagina onder de drie seconden op 4G? Begint je content met het belangrijkste, niet met een lange aanloop? Drie keer nee? Dan is je site responsief gebouwd, niet mobile-first."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil met responsief design?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Responsief design schaalt een desktop-pagina automatisch mee naar kleinere schermen. Mobile-first ontwerpt eerst voor mobiel en breidt uit naar desktop. Beide eindigen vaak in vergelijkbare HTML, maar de denkrichting is anders. Mobile-first dwingt focus af, want op een telefoon kun je nu eenmaal niet alles tonen. Responsief kan een desktop-overflow voortbrengen die op mobiel verwarrend is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke elementen werken op mobiel anders?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Navigatie wordt vaak een hamburger-menu. Tekst wordt korter, koppen iets kleiner maar nog steeds prominent. Knoppen worden groter en hebben meer witruimte eromheen. Formulieren krijgen minder velden of worden in stappen opgebroken. Afbeeldingen worden geoptimaliseerd voor lagere bandbreedte. En de volgorde van content kan anders: wat op desktop naast elkaar staat, gaat op mobiel onder elkaar."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel conversie verlies ik met een slechte mobiele ervaring?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Concrete cijfers verschillen per site, maar de richting is duidelijk. Een formulier dat op mobiel moeilijk in te vullen is, daalt in conversie. Een knop die te klein is, krijgt minder klikken. Een pagina die op mobiel niet binnen drie seconden laadt, verliest een aanzienlijk deel van zijn verkeer. Bij audits van trage of slecht mobiel-vriendelijke pagina's zien we vaak dat verbeteringen tussen 20 en 50 procent extra conversie kunnen opleveren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik mijn site opnieuw bouwen voor mobile-first?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet altijd. Veel sites kunnen mobile-first worden gemaakt door bestaande templates aan te passen, content te herstructureren en knoppen en formulieren te optimaliseren. Een herbouw is alleen nodig wanneer de onderliggende structuur de mobiele aanpak fundamenteel blokkeert. Voor de meeste MKB-sites is een gerichte mobiele audit met aanpassingen in CMS-instellingen meer dan genoeg."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat betekent mobile-first eigenlijk?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Mobile-first betekent dat je de mobiele versie van een pagina ontwerpt voordat de desktop-versie wordt uitgewerkt. Niet andersom. Vroeger werden sites gebouwd voor desktop en daarna 'responsief gemaakt' voor mobiel. Bij mobile-first is mobiel de standaard waar het ontwerp begint, en wordt desktop een uitbreiding. Het resultaat is een pagina die op een telefoon goed werkt, niet een ingedikte versie van een desktop-pagina."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom is mobile-first nu echt verplicht geworden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie redenen. Mobiel verkeer is bij de meeste MKB-sites de meerderheid. Google indexeert sinds 2021 standaard met de mobiele bot, dus jouw mobiele site is wat Google ziet. En de meeste advertentieklikken komen mobiel binnen. Bouw je je landingspagina niet eerst voor mobiel, dan ontwerp je voor de minderheid van je verkeer."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe weet ik of mijn site echt mobile-first is?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Open je site op een telefoon, niet op een browser-emulatie. Werkt de hero op de eerste schermhoogte zonder zoomen? Zijn knoppen duim-vriendelijk en niet te dicht op elkaar? Laadt de pagina onder de drie seconden op 4G? Begint je content met het belangrijkste, niet met een lange aanloop? Drie keer nee? Dan is je site responsief gebouwd, niet mobile-first."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil met responsief design?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Responsief design schaalt een desktop-pagina automatisch mee naar kleinere schermen. Mobile-first ontwerpt eerst voor mobiel en breidt uit naar desktop. Beide eindigen vaak in vergelijkbare HTML, maar de denkrichting is anders. Mobile-first dwingt focus af, want op een telefoon kun je nu eenmaal niet alles tonen. Responsief kan een desktop-overflow voortbrengen die op mobiel verwarrend is."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke elementen werken op mobiel anders?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Navigatie wordt vaak een hamburger-menu. Tekst wordt korter, koppen iets kleiner maar nog steeds prominent. Knoppen worden groter en hebben meer witruimte eromheen. Formulieren krijgen minder velden of worden in stappen opgebroken. Afbeeldingen worden geoptimaliseerd voor lagere bandbreedte. En de volgorde van content kan anders: wat op desktop naast elkaar staat, gaat op mobiel onder elkaar."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel conversie verlies ik met een slechte mobiele ervaring?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Concrete cijfers verschillen per site, maar de richting is duidelijk. Een formulier dat op mobiel moeilijk in te vullen is, daalt in conversie. Een knop die te klein is, krijgt minder klikken. Een pagina die op mobiel niet binnen drie seconden laadt, verliest een aanzienlijk deel van zijn verkeer. Bij audits van trage of slecht mobiel-vriendelijke pagina's zien we vaak dat verbeteringen tussen 20 en 50 procent extra conversie kunnen opleveren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik mijn site opnieuw bouwen voor mobile-first?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet altijd. Veel sites kunnen mobile-first worden gemaakt door bestaande templates aan te passen, content te herstructureren en knoppen en formulieren te optimaliseren. Een herbouw is alleen nodig wanneer de onderliggende structuur de mobiele aanpak fundamenteel blokkeert. Voor de meeste MKB-sites is een gerichte mobiele audit met aanpassingen in CMS-instellingen meer dan genoeg."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Mobile-first landingspagina's",
+                                    "item": "https://www.empowers.nl/blogs/strategie/mobile-first-landingspaginas-geen-optie"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                            { "@type": "ListItem", "position": 4, "name": "Mobile-first landingspagina's", "item": "https://www.empowers.nl/blogs/strategie/mobile-first-landingspaginas-geen-optie" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

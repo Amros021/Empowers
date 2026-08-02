@@ -28,97 +28,122 @@ export default function BlogPostMetaAdsCatalogProductenAutomatisch() {
                 <meta name="twitter:title" content="Meta Ads Catalog: producten automatisch adverteren" />
                 <meta name="twitter:description" content="Zo werkt de Meta Ads Catalog en zo haal je er rendement uit." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Meta Ads Catalog: producten automatisch adverteren",
-                        "description": "Met een Meta Ads Catalog adverteer je producten automatisch op Facebook en Instagram. Lees hoe je hem opzet en welke fouten je voorkomt.",
-                        "image": "https://www.empowers.nl/images/blogs/meta-ads-catalog-producten-automatisch.jpg",
-                        "datePublished": "2026-04-26T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Meta Ads Catalog: producten automatisch adverteren",
+                            "description": "Met een Meta Ads Catalog adverteer je producten automatisch op Facebook en Instagram. Lees hoe je hem opzet en welke fouten je voorkomt.",
+                            "image": "https://www.empowers.nl/images/blogs/meta-ads-catalog-producten-automatisch.jpg",
+                            "datePublished": "2026-04-26T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een Meta Ads Catalog?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een Meta Ads Catalog is een productbestand binnen Meta Business Manager. Daarin staan al jouw producten met afbeelding, prijs, beschrijving en voorraadstatus. Meta gebruikt die feed om producten dynamisch te tonen aan mensen op Facebook en Instagram, gebaseerd op hun gedrag en interesse."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Voor wie werkt een productcatalogus?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vooral voor webshops met meer dan 10 producten. Hoe meer producten, hoe meer rendement omdat Meta ze automatisch combineert per gebruiker. B2B-bedrijven zonder e-commerce halen meestal weinig uit een catalogus en kunnen beter klassieke campagnes draaien."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe upload je producten naar de catalogus?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Er zijn drie manieren: een directe koppeling met Shopify, WooCommerce of Magento, een handmatige CSV-feed, of een dynamische URL die Meta dagelijks ophaalt. De URL-feed is de stabielste optie omdat voorraad en prijs altijd actueel blijven zonder handmatig werk."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een dynamische productadvertentie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een dynamische productadvertentie toont automatisch de producten waar een specifieke bezoeker eerder naar keek of die op zijn profiel passen. De advertentie zelf is een sjabloon, de inhoud verandert per gebruiker. Dat maakt schaal mogelijk: je hoeft niet per product een advertentie te bouwen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke fouten kom je vaak tegen in productfeeds?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De meeste fouten zitten in afgekeurde producten. Vaak ontbreken verplichte velden zoals brand, GTIN of EAN, of zijn afbeeldingen kleiner dan 500 bij 500 pixels. Controleer wekelijks de Diagnose-tab in Commerce Manager om afgekeurde producten direct te fixen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost adverteren met een catalogus?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De setup van een catalogus is gratis. De advertentiekosten verschillen per branche, maar dynamische productadvertenties hebben gemiddeld een 20 tot 40 procent lagere CPA dan reguliere campagnes. Reken op een budget vanaf 500 euro per maand om voldoende data te verzamelen voor optimalisatie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt een catalogus voor cold of warm verkeer?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor allebei, maar warm verkeer levert hogere ROAS. Retargeting via de catalogus haalt meestal een ROAS van 5 tot 10. Cold prospecting via de catalogus zit op 2 tot 4. Combineer altijd een retargetingflow met een prospecting-laag voor doorlopende groei."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een Meta Ads Catalog?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een Meta Ads Catalog is een productbestand binnen Meta Business Manager. Daarin staan al jouw producten met afbeelding, prijs, beschrijving en voorraadstatus. Meta gebruikt die feed om producten dynamisch te tonen aan mensen op Facebook en Instagram, gebaseerd op hun gedrag en interesse."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Voor wie werkt een productcatalogus?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vooral voor webshops met meer dan 10 producten. Hoe meer producten, hoe meer rendement omdat Meta ze automatisch combineert per gebruiker. B2B-bedrijven zonder e-commerce halen meestal weinig uit een catalogus en kunnen beter klassieke campagnes draaien."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe upload je producten naar de catalogus?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Er zijn drie manieren: een directe koppeling met Shopify, WooCommerce of Magento, een handmatige CSV-feed, of een dynamische URL die Meta dagelijks ophaalt. De URL-feed is de stabielste optie omdat voorraad en prijs altijd actueel blijven zonder handmatig werk."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een dynamische productadvertentie?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een dynamische productadvertentie toont automatisch de producten waar een specifieke bezoeker eerder naar keek of die op zijn profiel passen. De advertentie zelf is een sjabloon, de inhoud verandert per gebruiker. Dat maakt schaal mogelijk: je hoeft niet per product een advertentie te bouwen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke fouten kom je vaak tegen in productfeeds?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De meeste fouten zitten in afgekeurde producten. Vaak ontbreken verplichte velden zoals brand, GTIN of EAN, of zijn afbeeldingen kleiner dan 500 bij 500 pixels. Controleer wekelijks de Diagnose-tab in Commerce Manager om afgekeurde producten direct te fixen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat kost adverteren met een catalogus?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De setup van een catalogus is gratis. De advertentiekosten verschillen per branche, maar dynamische productadvertenties hebben gemiddeld een 20 tot 40 procent lagere CPA dan reguliere campagnes. Reken op een budget vanaf 500 euro per maand om voldoende data te verzamelen voor optimalisatie."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt een catalogus voor cold of warm verkeer?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor allebei, maar warm verkeer levert hogere ROAS. Retargeting via de catalogus haalt meestal een ROAS van 5 tot 10. Cold prospecting via de catalogus zit op 2 tot 4. Combineer altijd een retargetingflow met een prospecting-laag voor doorlopende groei."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Meta Ads Catalog",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-catalog-producten-automatisch"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Meta Ads Catalog", "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-catalog-producten-automatisch" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

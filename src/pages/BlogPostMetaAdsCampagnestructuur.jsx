@@ -28,89 +28,114 @@ export default function BlogPostMetaAdsCampagnestructuur() {
                 <meta name="twitter:title" content="Meta Ads campagnestructuur: zo bouw je het goed op" />
                 <meta name="twitter:description" content="Hoe deel je campagnes, ad sets en ads in voor maximaal rendement?" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Meta Ads campagnestructuur: zo bouw je het goed op",
-                        "description": "Een goede Meta Ads campagnestructuur bepaalt of je budget rendeert. Lees hoe je campagnes, ad sets en ads logisch indeelt en welke fouten je voorkomt.",
-                        "image": "https://www.empowers.nl/images/blogs/meta-ads-campagnestructuur-bouw-goed.jpg",
-                        "datePublished": "2026-04-27T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Meta Ads campagnestructuur: zo bouw je het goed op",
+                            "description": "Een goede Meta Ads campagnestructuur bepaalt of je budget rendeert. Lees hoe je campagnes, ad sets en ads logisch indeelt en welke fouten je voorkomt.",
+                            "image": "https://www.empowers.nl/images/blogs/meta-ads-campagnestructuur-bouw-goed.jpg",
+                            "datePublished": "2026-04-27T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is de beste Meta Ads campagnestructuur voor MKB?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor MKB werkt een gestroomlijnde structuur het best: één tot drie campagnes per funnel-fase (cold, warm, hot), met per campagne 2 tot 4 ad sets en per ad set 3 tot 6 ads. Te veel ad sets verspreidt het budget en remt het leerproces van het algoritme."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel ad sets moet ik per campagne maken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Twee tot vier ad sets per campagne is in de meeste gevallen genoeg. Minder maakt testen lastig, meer verspreidt je budget zo dun dat het algoritme niet kan leren. Een ad set heeft minimaal 50 conversies per week nodig om uit de leerfase te komen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen CBO en ABO in Meta Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Met Campaign Budget Optimization (CBO) verdeelt Meta het budget automatisch over je ad sets op basis van prestaties. Met Ad Set Budget Optimization (ABO) bepaal jij zelf hoeveel elke ad set krijgt. CBO werkt beter bij voldoende data, ABO geeft meer controle bij testen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik per doelgroep een aparte campagne maken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet per definitie. Splits doelgroepen alleen op campagne-niveau als ze een fundamenteel andere strategie of budget vereisen. Verschillende interesses of lookalikes hoor je vaak in dezelfde campagne als losse ad sets, niet in losse campagnes."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet ik mijn campagnestructuur aanpassen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet vaak. Een ad set heeft 7 tot 14 dagen nodig om uit de leerfase te komen. Te vaak aanpassen reset dat proces en kost je geld. Maandelijks evalueren en alleen ingrijpen als de data daar duidelijk om vraagt is genoeg."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is de grootste fout bij Meta Ads campagnestructuur?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Te veel ad sets met te weinig budget per stuk. Wij zien accounts met 15 of 20 ad sets die elk 5 euro per dag krijgen. Het algoritme komt nooit uit de leerfase en het budget verdampt zonder resultaat. Minder ad sets met meer budget presteert vrijwel altijd beter."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is de beste Meta Ads campagnestructuur voor MKB?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor MKB werkt een gestroomlijnde structuur het best: één tot drie campagnes per funnel-fase (cold, warm, hot), met per campagne 2 tot 4 ad sets en per ad set 3 tot 6 ads. Te veel ad sets verspreidt het budget en remt het leerproces van het algoritme."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel ad sets moet ik per campagne maken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Twee tot vier ad sets per campagne is in de meeste gevallen genoeg. Minder maakt testen lastig, meer verspreidt je budget zo dun dat het algoritme niet kan leren. Een ad set heeft minimaal 50 conversies per week nodig om uit de leerfase te komen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen CBO en ABO in Meta Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Met Campaign Budget Optimization (CBO) verdeelt Meta het budget automatisch over je ad sets op basis van prestaties. Met Ad Set Budget Optimization (ABO) bepaal jij zelf hoeveel elke ad set krijgt. CBO werkt beter bij voldoende data, ABO geeft meer controle bij testen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik per doelgroep een aparte campagne maken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet per definitie. Splits doelgroepen alleen op campagne-niveau als ze een fundamenteel andere strategie of budget vereisen. Verschillende interesses of lookalikes hoor je vaak in dezelfde campagne als losse ad sets, niet in losse campagnes."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak moet ik mijn campagnestructuur aanpassen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet vaak. Een ad set heeft 7 tot 14 dagen nodig om uit de leerfase te komen. Te vaak aanpassen reset dat proces en kost je geld. Maandelijks evalueren en alleen ingrijpen als de data daar duidelijk om vraagt is genoeg."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is de grootste fout bij Meta Ads campagnestructuur?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Te veel ad sets met te weinig budget per stuk. Wij zien accounts met 15 of 20 ad sets die elk 5 euro per dag krijgen. Het algoritme komt nooit uit de leerfase en het budget verdampt zonder resultaat. Minder ad sets met meer budget presteert vrijwel altijd beter."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Meta Ads campagnestructuur",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-campagnestructuur-bouw-goed"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Meta Ads campagnestructuur", "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-campagnestructuur-bouw-goed" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

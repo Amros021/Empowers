@@ -28,112 +28,114 @@ export default function BlogPostLinkedInSponsoredContentVsMessage() {
                 <meta name="twitter:title" content="LinkedIn Sponsored Content vs Message Ads: wat levert meer op?" />
                 <meta name="twitter:description" content="Zo kies je tussen LinkedIn Sponsored Content en Message Ads en haal je er maximale leads uit." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "LinkedIn Sponsored Content vs Message Ads: wat levert meer op?",
-                        "description": "LinkedIn Sponsored Content of Message Ads? Lees wat het verschil is, wat het kost en welk format echt leads oplevert voor jouw B2B bedrijf.",
-                        "image": "https://www.empowers.nl/images/blogs/linkedin-sponsored-content-vs-message.jpg",
-                        "datePublished": "2026-04-08T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "LinkedIn Sponsored Content vs Message Ads: wat levert meer op?",
+                            "description": "LinkedIn Sponsored Content of Message Ads? Lees wat het verschil is, wat het kost en welk format echt leads oplevert voor jouw B2B bedrijf.",
+                            "image": "https://www.empowers.nl/images/blogs/linkedin-sponsored-content-vs-message.jpg",
+                            "datePublished": "2026-04-08T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen LinkedIn Sponsored Content en Message Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Sponsored Content zijn betaalde posts die in de LinkedIn feed verschijnen tussen de gewone updates door. Message Ads zijn persoonlijke berichten die direct in de inbox van je doelgroep landen. Sponsored Content bouwt bereik en merkbekendheid op, Message Ads dwingen een directe reactie af."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is duurder: Sponsored Content of Message Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Message Ads hebben een hogere kostprijs per verzonden bericht (1 tot 1,50 euro), maar leveren vaak goedkopere leads omdat de openratio boven de 50% ligt. Sponsored Content betaal je per klik (4 tot 10 euro) of per 1000 impressies. Per lead zijn beide formats meestal redelijk vergelijkbaar als je ze goed inzet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk format werkt het beste voor B2B leadgeneratie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor leadgeneratie via een whitepaper, webinar of demo werkt Sponsored Content met een Lead Gen Form in de meeste gevallen het beste. De drempel is laag en de kwaliteit is hoog. Message Ads zijn beter voor directe sales outreach of het boeken van een gesprek bij een kleine, gespecialiseerde doelgroep."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een realistisch budget voor LinkedIn Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op minimaal 1500 tot 3000 euro per maand om serieuze resultaten te halen. LinkedIn heeft hogere klikprijzen dan Meta of Google, maar de doelgroepen zijn veel scherper. Onder de 1000 euro per maand is het lastig om genoeg data te verzamelen om te optimaliseren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik Sponsored Content en Message Ads combineren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, en dat is vaak de slimste aanpak. Gebruik Sponsored Content om bereik en herkenning op te bouwen, en zet Message Ads in voor de warme doelgroep die je content al heeft gezien. Zo voelt het bericht in de inbox veel minder koud en stijgt je responseratio fors."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Zijn Message Ads in Europa nog toegestaan?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, Message Ads zijn nog steeds beschikbaar in de meeste EU-landen, maar LinkedIn heeft de frequentie en targeting aangescherpt. Je kunt dezelfde persoon niet meer elke paar weken bereiken. Houd je boodschap relevant en persoonlijk, dan blijft dit format werken."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen LinkedIn Sponsored Content en Message Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Sponsored Content zijn betaalde posts die in de LinkedIn feed verschijnen tussen de gewone updates door. Message Ads zijn persoonlijke berichten die direct in de inbox van je doelgroep landen. Sponsored Content bouwt bereik en merkbekendheid op, Message Ads dwingen een directe reactie af."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is duurder: Sponsored Content of Message Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Message Ads hebben een hogere kostprijs per verzonden bericht (1 tot 1,50 euro), maar leveren vaak goedkopere leads omdat de openratio boven de 50% ligt. Sponsored Content betaal je per klik (4 tot 10 euro) of per 1000 impressies. Per lead zijn beide formats meestal redelijk vergelijkbaar als je ze goed inzet."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welk format werkt het beste voor B2B leadgeneratie?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor leadgeneratie via een whitepaper, webinar of demo werkt Sponsored Content met een Lead Gen Form in de meeste gevallen het beste. De drempel is laag en de kwaliteit is hoog. Message Ads zijn beter voor directe sales outreach of het boeken van een gesprek bij een kleine, gespecialiseerde doelgroep."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een realistisch budget voor LinkedIn Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op minimaal 1500 tot 3000 euro per maand om serieuze resultaten te halen. LinkedIn heeft hogere klikprijzen dan Meta of Google, maar de doelgroepen zijn veel scherper. Onder de 1000 euro per maand is het lastig om genoeg data te verzamelen om te optimaliseren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik Sponsored Content en Message Ads combineren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, en dat is vaak de slimste aanpak. Gebruik Sponsored Content om bereik en herkenning op te bouwen, en zet Message Ads in voor de warme doelgroep die je content al heeft gezien. Zo voelt het bericht in de inbox veel minder koud en stijgt je responseratio fors."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Zijn Message Ads in Europa nog toegestaan?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, Message Ads zijn nog steeds beschikbaar in de meeste EU-landen, maar LinkedIn heeft de frequentie en targeting aangescherpt. Je kunt dezelfde persoon niet meer elke paar weken bereiken. Houd je boodschap relevant en persoonlijk, dan blijft dit format werken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "LinkedIn Sponsored Content vs Message Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/linkedin-sponsored-content-vs-message"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Social Ads",
-                                "item": "https://www.empowers.nl/blogs/social-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "LinkedIn Sponsored Content vs Message Ads",
-                                "item": "https://www.empowers.nl/blogs/social-ads/linkedin-sponsored-content-vs-message"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

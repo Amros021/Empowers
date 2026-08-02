@@ -28,112 +28,114 @@ export default function BlogPostMeetRoiGoogleAdsCampagne() {
                 <meta name="twitter:title" content="Hoe meet je de ROI van je Google Ads campagne?" />
                 <meta name="twitter:description" content="Zo bereken je de echte ROI van je Google Ads campagne, zonder jezelf rijk te rekenen." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe meet je de ROI van je Google Ads campagne?",
-                        "description": "ROI meten in Google Ads is meer dan kijken naar conversies. Lees welke cijfers je echt moet volgen om te weten of je campagne geld oplevert.",
-                        "image": "https://www.empowers.nl/images/blogs/meet-roi-google-ads-campagne.jpg",
-                        "datePublished": "2026-04-09T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe meet je de ROI van je Google Ads campagne?",
+                            "description": "ROI meten in Google Ads is meer dan kijken naar conversies. Lees welke cijfers je echt moet volgen om te weten of je campagne geld oplevert.",
+                            "image": "https://www.empowers.nl/images/blogs/meet-roi-google-ads-campagne.jpg",
+                            "datePublished": "2026-04-09T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede ROI voor Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een gezonde ROI hangt af van je marge, maar als vuistregel geldt dat je minimaal 4 euro omzet wilt zien voor elke euro advertentiebudget. Bij webshops met lage marges is 6 tot 8 euro gebruikelijker. Voor dienstenbedrijven met hoge marges kan een ROI van 3 al winstgevend zijn."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen ROI en ROAS?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "ROAS (Return On Ad Spend) meet alleen de omzet die tegenover je advertentiekosten staat. ROI (Return On Investment) kijkt naar de daadwerkelijke winst na aftrek van inkoop, marge en kosten. ROAS is sneller te meten, ROI vertelt of je echt geld verdient."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe stel ik conversietracking in voor ROI meten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Koppel Google Ads aan je website via Google Tag Manager en stel conversies in voor elke waardevolle actie: aankoop, lead, telefoongesprek of offerte-aanvraag. Geef elke conversie een waarde zodat Google kan optimaliseren op omzet, niet op losse kliks."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik ook offline conversies meenemen in mijn ROI berekening?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, anders onderschat je je campagne flink. Telefoongesprekken, showroombezoeken en deals die pas na weken sluiten horen erbij. Importeer offline conversies via een CSV-upload of CRM-koppeling zodat Google de volledige klantreis ziet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang moet ik wachten voordat ik ROI kan beoordelen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij webshops zie je binnen twee tot vier weken een betrouwbaar beeld. Bij leadgeneratie of lange verkooptrajecten heb je minimaal acht tot twaalf weken nodig voordat je ROI echt representatief is. Trek dus niet te snel conclusies."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom klopt de ROI in Google Ads niet altijd met mijn boekhouding?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google Ads rapporteert op klikdatum, je boekhouding op factuurdatum. Daarnaast telt Google soms dubbele conversies of assisted conversies mee. Vergelijk daarom altijd maandcijfers en gebruik je eigen CRM of boekhouding als leidraad."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede ROI voor Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een gezonde ROI hangt af van je marge, maar als vuistregel geldt dat je minimaal 4 euro omzet wilt zien voor elke euro advertentiebudget. Bij webshops met lage marges is 6 tot 8 euro gebruikelijker. Voor dienstenbedrijven met hoge marges kan een ROI van 3 al winstgevend zijn."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen ROI en ROAS?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "ROAS (Return On Ad Spend) meet alleen de omzet die tegenover je advertentiekosten staat. ROI (Return On Investment) kijkt naar de daadwerkelijke winst na aftrek van inkoop, marge en kosten. ROAS is sneller te meten, ROI vertelt of je echt geld verdient."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe stel ik conversietracking in voor ROI meten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Koppel Google Ads aan je website via Google Tag Manager en stel conversies in voor elke waardevolle actie: aankoop, lead, telefoongesprek of offerte-aanvraag. Geef elke conversie een waarde zodat Google kan optimaliseren op omzet, niet op losse kliks."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik ook offline conversies meenemen in mijn ROI berekening?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, anders onderschat je je campagne flink. Telefoongesprekken, showroombezoeken en deals die pas na weken sluiten horen erbij. Importeer offline conversies via een CSV-upload of CRM-koppeling zodat Google de volledige klantreis ziet."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang moet ik wachten voordat ik ROI kan beoordelen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij webshops zie je binnen twee tot vier weken een betrouwbaar beeld. Bij leadgeneratie of lange verkooptrajecten heb je minimaal acht tot twaalf weken nodig voordat je ROI echt representatief is. Trek dus niet te snel conclusies."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Waarom klopt de ROI in Google Ads niet altijd met mijn boekhouding?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google Ads rapporteert op klikdatum, je boekhouding op factuurdatum. Daarnaast telt Google soms dubbele conversies of assisted conversies mee. Vergelijk daarom altijd maandcijfers en gebruik je eigen CRM of boekhouding als leidraad."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "ROI Google Ads meten",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/meet-roi-google-ads-campagne"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "ROI Google Ads meten",
-                                "item": "https://www.empowers.nl/blogs/google-ads/meet-roi-google-ads-campagne"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

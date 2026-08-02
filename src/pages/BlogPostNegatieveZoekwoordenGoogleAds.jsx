@@ -28,120 +28,122 @@ export default function BlogPostNegatieveZoekwoordenGoogleAds() {
                 <meta name="twitter:title" content="Negatieve zoekwoorden in Google Ads: hoe en wanneer gebruik je ze" />
                 <meta name="twitter:description" content="Negatieve zoekwoorden voorkomen verspild budget in Google Ads. Lees hoe je ze instelt en wanneer." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Negatieve zoekwoorden in Google Ads: hoe en wanneer gebruik je ze",
-                        "description": "Negatieve zoekwoorden in Google Ads voorkomen dat je betaalt voor klikken die niets opleveren. Lees hoe je ze instelt, wanneer je ze gebruikt en welke fouten je moet vermijden.",
-                        "image": "https://www.empowers.nl/images/blogs/negatieve-zoekwoorden-google-ads.jpg",
-                        "datePublished": "2026-04-11T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Negatieve zoekwoorden in Google Ads: hoe en wanneer gebruik je ze",
+                            "description": "Negatieve zoekwoorden in Google Ads voorkomen dat je betaalt voor klikken die niets opleveren. Lees hoe je ze instelt, wanneer je ze gebruikt en welke fouten je moet vermijden.",
+                            "image": "https://www.empowers.nl/images/blogs/negatieve-zoekwoorden-google-ads.jpg",
+                            "datePublished": "2026-04-11T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn negatieve zoekwoorden in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Negatieve zoekwoorden zijn woorden of zinnen waarvoor je advertentie niet mag verschijnen. Als je 'gratis' als negatief zoekwoord toevoegt, ziet niemand die zoekt op 'gratis SEO advies' jouw advertentie. Zo voorkom je klikken van mensen die niet bij je passen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel negatieve zoekwoorden heb je nodig?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Er is geen vast aantal. De meeste accounts beginnen met 20 tot 50 negatieve zoekwoorden. Na drie maanden actief beheer groeit dat vaak naar 100 tot 300. Het belangrijkste is dat je wekelijks je zoektermrapport bekijkt en irrelevante zoekopdrachten direct uitsluit."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen negatieve zoekwoorden op campagne- en accountniveau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Negatieve zoekwoorden op campagneniveau gelden alleen voor die ene campagne. Op accountniveau gelden ze voor alle campagnes tegelijk. Gebruik accountniveau voor breed irrelevante termen zoals 'gratis' of 'vacature'. Campagneniveau is handig als je specifieke campagnes wilt afschermen van bepaalde zoekopdrachten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet je negatieve zoekwoorden bijwerken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Minimaal wekelijks. Open het zoektermrapport, sorteer op kosten en sluit alles uit wat irrelevant is. In het begin van een campagne is het zelfs verstandig om elke twee tot drie dagen te controleren. Na een paar maanden stabiliseert het en volstaat wekelijks."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kunnen negatieve zoekwoorden mijn bereik te veel beperken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, als je te breed uitsluit. Het woord 'goedkoop' uitsluiten klinkt logisch, maar als je budget-bewuste klanten bedient, mis je potentiele kopers. Gebruik de exacte of woordgroep-match voor negatieve zoekwoorden en controleer regelmatig of je niet onbedoeld relevante zoekopdrachten blokkeert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werken negatieve zoekwoorden ook in Performance Max campagnes?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Sinds 2024 kun je negatieve zoekwoorden toevoegen aan Performance Max campagnes op accountniveau. Dat was eerder niet mogelijk. Gebruik dit om merknamen van concurrenten en breed irrelevante termen uit te sluiten. Het geeft je meer controle over waar je budget naartoe gaat."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een negatieve zoekwoordenlijst?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een negatieve zoekwoordenlijst is een verzameling uitsluitingswoorden die je aan meerdere campagnes tegelijk koppelt. Je maakt de lijst een keer aan en voegt hem toe aan alle relevante campagnes. Dat bespaart tijd en zorgt voor consistentie. De meeste accounts hebben minstens twee lijsten: een voor breed irrelevante termen en een branchespecifieke."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat zijn negatieve zoekwoorden in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Negatieve zoekwoorden zijn woorden of zinnen waarvoor je advertentie niet mag verschijnen. Als je 'gratis' als negatief zoekwoord toevoegt, ziet niemand die zoekt op 'gratis SEO advies' jouw advertentie. Zo voorkom je klikken van mensen die niet bij je passen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel negatieve zoekwoorden heb je nodig?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Er is geen vast aantal. De meeste accounts beginnen met 20 tot 50 negatieve zoekwoorden. Na drie maanden actief beheer groeit dat vaak naar 100 tot 300. Het belangrijkste is dat je wekelijks je zoektermrapport bekijkt en irrelevante zoekopdrachten direct uitsluit."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen negatieve zoekwoorden op campagne- en accountniveau?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Negatieve zoekwoorden op campagneniveau gelden alleen voor die ene campagne. Op accountniveau gelden ze voor alle campagnes tegelijk. Gebruik accountniveau voor breed irrelevante termen zoals 'gratis' of 'vacature'. Campagneniveau is handig als je specifieke campagnes wilt afschermen van bepaalde zoekopdrachten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak moet je negatieve zoekwoorden bijwerken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Minimaal wekelijks. Open het zoektermrapport, sorteer op kosten en sluit alles uit wat irrelevant is. In het begin van een campagne is het zelfs verstandig om elke twee tot drie dagen te controleren. Na een paar maanden stabiliseert het en volstaat wekelijks."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kunnen negatieve zoekwoorden mijn bereik te veel beperken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, als je te breed uitsluit. Het woord 'goedkoop' uitsluiten klinkt logisch, maar als je budget-bewuste klanten bedient, mis je potentiele kopers. Gebruik de exacte of woordgroep-match voor negatieve zoekwoorden en controleer regelmatig of je niet onbedoeld relevante zoekopdrachten blokkeert."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werken negatieve zoekwoorden ook in Performance Max campagnes?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Sinds 2024 kun je negatieve zoekwoorden toevoegen aan Performance Max campagnes op accountniveau. Dat was eerder niet mogelijk. Gebruik dit om merknamen van concurrenten en breed irrelevante termen uit te sluiten. Het geeft je meer controle over waar je budget naartoe gaat."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is een negatieve zoekwoordenlijst?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een negatieve zoekwoordenlijst is een verzameling uitsluitingswoorden die je aan meerdere campagnes tegelijk koppelt. Je maakt de lijst een keer aan en voegt hem toe aan alle relevante campagnes. Dat bespaart tijd en zorgt voor consistentie. De meeste accounts hebben minstens twee lijsten: een voor breed irrelevante termen en een branchespecifieke."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Negatieve zoekwoorden",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/negatieve-zoekwoorden-google-ads"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Negatieve zoekwoorden",
-                                "item": "https://www.empowers.nl/blogs/google-ads/negatieve-zoekwoorden-google-ads"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

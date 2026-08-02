@@ -28,92 +28,114 @@ export default function BlogPostLinkedInLeadGenFormsWaarom() {
                 <meta name="twitter:title" content="LinkedIn Lead Gen Forms: waarom gebruiken?" />
                 <meta name="twitter:description" content="Meer B2B-leads voor minder geld. Lees hoe Lead Gen Forms werken." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "LinkedIn Lead Gen Forms: waarom je ze zou moeten gebruiken",
-                        "description": "LinkedIn Lead Gen Forms leveren B2B-leads tegen lagere kosten dan landingspagina's. Lees hoe ze werken, wanneer je ze inzet en hoe je de kwaliteit hoog houdt.",
-                        "image": "https://www.empowers.nl/images/blogs/linkedin-lead-gen-forms-waarom.jpg",
-                        "datePublished": "2026-04-14T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "LinkedIn Lead Gen Forms: waarom je ze zou moeten gebruiken",
+                            "description": "LinkedIn Lead Gen Forms leveren B2B-leads tegen lagere kosten dan landingspagina's. Lees hoe ze werken, wanneer je ze inzet en hoe je de kwaliteit hoog houdt.",
+                            "image": "https://www.empowers.nl/images/blogs/linkedin-lead-gen-forms-waarom.jpg",
+                            "datePublished": "2026-04-14T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn LinkedIn Lead Gen Forms?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Lead Gen Forms zijn formulieren die direct binnen LinkedIn geopend worden. Velden als naam, e-mailadres en functietitel worden automatisch ingevuld vanuit het profiel van de gebruiker. Het resultaat: een lead die in twee klikken is ingediend, zonder dat iemand de app hoeft te verlaten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil met een landingspagina?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij een landingspagina verlaat de gebruiker LinkedIn en moet hij of zij alle velden zelf invullen. Dat kost conversie. Lead Gen Forms houden de gebruiker in de app en vullen gegevens automatisch in. Gemiddeld zien we 2 tot 4 keer zoveel leads voor hetzelfde budget."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Verlies ik kwaliteit door Lead Gen Forms?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Iets. De drempel ligt lager, dus ook mensen die slechts half geïnteresseerd zijn vullen makkelijker in. Compenseer dit met custom vragen in het formulier, bijvoorbeeld over budget of timing. Dat filtert de echt koopklare leads eruit zonder het conversieratio te vernietigen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe krijg ik de leads in mijn CRM?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "LinkedIn integreert standaard met HubSpot, Salesforce, Zapier en een aantal andere tools. Heb je een ander systeem, dan kun je leads downloaden via een CSV of koppelen via een Make- of Zapier-flow. Koppel altijd voordat je de campagne start, anders blijven leads in LinkedIn hangen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Voor welke doelgroepen werken Lead Gen Forms het best?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Lead Gen Forms werken voor elke B2B-doelgroep, maar leveren het meeste op bij top-of-funnel aanbiedingen zoals whitepapers, demo-aanvragen en webinars. Voor directe aankopen of consultaties werken landingspagina's soms beter, omdat daar meer informatie vooraf verwacht wordt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel velden mag een Lead Gen Form hebben?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Technisch tot 12, maar hou het praktisch op 3 tot 5. Elk extra veld verlaagt de conversie. Begin met de basis: naam, e-mailadres, bedrijfsnaam en functie. Heb je echt meer info nodig, voeg één of twee custom vragen toe om kwalificatie te verbeteren."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat zijn LinkedIn Lead Gen Forms?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Lead Gen Forms zijn formulieren die direct binnen LinkedIn geopend worden. Velden als naam, e-mailadres en functietitel worden automatisch ingevuld vanuit het profiel van de gebruiker. Het resultaat: een lead die in twee klikken is ingediend, zonder dat iemand de app hoeft te verlaten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil met een landingspagina?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij een landingspagina verlaat de gebruiker LinkedIn en moet hij of zij alle velden zelf invullen. Dat kost conversie. Lead Gen Forms houden de gebruiker in de app en vullen gegevens automatisch in. Gemiddeld zien we 2 tot 4 keer zoveel leads voor hetzelfde budget."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Verlies ik kwaliteit door Lead Gen Forms?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Iets. De drempel ligt lager, dus ook mensen die slechts half geïnteresseerd zijn vullen makkelijker in. Compenseer dit met custom vragen in het formulier, bijvoorbeeld over budget of timing. Dat filtert de echt koopklare leads eruit zonder het conversieratio te vernietigen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe krijg ik de leads in mijn CRM?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "LinkedIn integreert standaard met HubSpot, Salesforce, Zapier en een aantal andere tools. Heb je een ander systeem, dan kun je leads downloaden via een CSV of koppelen via een Make- of Zapier-flow. Koppel altijd voordat je de campagne start, anders blijven leads in LinkedIn hangen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Voor welke doelgroepen werken Lead Gen Forms het best?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Lead Gen Forms werken voor elke B2B-doelgroep, maar leveren het meeste op bij top-of-funnel aanbiedingen zoals whitepapers, demo-aanvragen en webinars. Voor directe aankopen of consultaties werken landingspagina's soms beter, omdat daar meer informatie vooraf verwacht wordt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel velden mag een Lead Gen Form hebben?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Technisch tot 12, maar hou het praktisch op 3 tot 5. Elk extra veld verlaagt de conversie. Begin met de basis: naam, e-mailadres, bedrijfsnaam en functie. Heb je echt meer info nodig, voeg één of twee custom vragen toe om kwalificatie te verbeteren."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "LinkedIn Lead Gen Forms",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/linkedin-lead-gen-forms-waarom"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "LinkedIn Lead Gen Forms", "item": "https://www.empowers.nl/blogs/social-ads/linkedin-lead-gen-forms-waarom" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

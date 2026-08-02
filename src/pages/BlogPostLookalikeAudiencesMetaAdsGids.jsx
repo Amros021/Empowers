@@ -29,8 +29,16 @@ export default function BlogPostLookalikeAudiencesMetaAdsGids() {
                             "headline": "Lookalike audiences in Meta Ads: de complete gids",
                             "image": "https://www.empowers.nl/images/blogs/lookalike-audiences-meta-ads-gids.jpg",
                             "description": "Ontdek hoe je lookalike audiences in Meta Ads effectief inzet om je bereik te vergroten. Leer de stappen, tips en veelgemaakte fouten. Verhoog je conversies met deze strategie.",
-                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-03-26T00:00:00+01:00",
                             "dateModified": "2026-03-26T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/social-ads/lookalike-audiences-meta-ads-gids"
@@ -38,28 +46,99 @@ export default function BlogPostLookalikeAudiencesMetaAdsGids() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Wat is een lookalike audience in Meta Ads?", "acceptedAnswer": { "@type": "Answer", "text": "Een lookalike audience is een doelgroep op Facebook en Instagram die bestaat uit mensen die veel overeenkomsten hebben met je bestaande klanten of websitebezoekers. Meta analyseert de kenmerken van je brongroep en zoekt naar vergelijkbare profielen. Dit helpt je om nieuwe potentiële klanten te bereiken die waarschijnlijk al geïnteresseerd zijn in wat jij aanbiedt. Het is effectief omdat je niet blind adverteert, maar gericht zoekt naar mensen met dezelfde voorkeur en gedrag." } },
-                                { "@type": "Question", "name": "Hoe groot moet mijn brongroep zijn voor een lookalike audience?", "acceptedAnswer": { "@type": "Answer", "text": "Meta adviseert minimaal 100 mensen in je brongroep, maar het ideale minimum is 500. Hoe groter je brongroep, hoe beter Meta de patronen kan herkennen. Bij 1000+ mensen krijg je de meest nauwkeurige lookalikes. Als je minder dan 100 hebt, kan Meta geen lookalike audience aanmaken. Als je klein bedrijf bent, focus dan op het opbouwen van je brongroep via website-conversies, e-maillijsten of bestaande klanten." } },
-                                { "@type": "Question", "name": "Wat is het verschil tussen lookalike audiences van verschillende groottes?", "acceptedAnswer": { "@type": "Answer", "text": "Meta biedt lookalikes in verschillende groottes: 1%, 2%, 5% en 10% (van de bevolking van het geselecteerde land). De 1%-lookalike is het meest gelijkend op je brongroep, maar bereikt minder mensen. De 10%-lookalike bereikt meer, maar zijn minder gelijk aan je originele klanten. Voor conversie-georiënteerde campagnes (waar je veel geld uitgeeft) begin je met 1-2%. Voor awareness of bereik, gebruik je 5-10%." } },
-                                { "@type": "Question", "name": "Kan ik meerdere lookalike audiences op dezelfde advertentie zetten?", "acceptedAnswer": { "@type": "Answer", "text": "Ja, dat kan. Je kunt meerdere lookalikes combineren in één ad set of separate ad sets maken per lookalike. Als je meerdere lookalikes combineert in één ad set, zal Meta budgetoptimalisatie gebruiken en meer budget naar de best presterende groep sturen. Over het algemeen werken separate ad sets beter, zodat je het prestatie per lookalike kunt meten en optimaliseren. Dit geeft je ook meer controle over biedstrategieën." } },
-                                { "@type": "Question", "name": "Hoe vaak moet ik mijn lookalike audience bijwerken?", "acceptedAnswer": { "@type": "Answer", "text": "Update je lookalikes minstens één keer per maand, beter nog wekelijks als je veel conversies hebt. Meta werkt met een draaischijf-principe: je verwijdert de oude audience en maakt een nieuwe. De algoritmes van Meta verbeteren, dus een nieuwe lookalike met dezelfde brongroep kan beter presteren dan de oude. Bij snelgroeiende bedrijven (veel nieuwe klanten) is wekelijkse update essentieel. Bij stabiele bedrijven kan maandelijks volstaan." } },
-                                { "@type": "Question", "name": "Wat is beter: lookalikes of retargeting?", "acceptedAnswer": { "@type": "Answer", "text": "Beide hebben hun plaats in je strategie. Retargeting spreekt mensen aan die je al hebben bezocht. Lookalikes brengen nieuwe potentiële klanten naar je toe. Voor optimale resultaten combineer je beide. Start je funnel met lookalikes om nieuwe traffic te genereren, en zet retargeting in om mensen die al interesse toonden terug te halen. Bij onze klanten zien we dat combineert veel beter werken dan apart." } },
-                                { "@type": "Question", "name": "Waarom presteer ik niet goed met mijn lookalike audience?", "acceptedAnswer": { "@type": "Answer", "text": "Veelgestelde oorzaken zijn: (1) te kleine brongroep (onder 500), (2) slechte kwaliteit in je brongroep (bijvoorbeeld spam-clicks), (3) niet-relevante creatieve content, (4) verkeerde landing page voor de doelgroep, (5) lookalike van een verkeerde segment (klanten die je niet wilt) of (6) biedstrategie die niet aansluit bij je doelstelling. Test altijd je creatieve content voordat je grote budgetten inzet. Controleer ook of je lookalike werkelijk op dezelfde landen/talen is gericht als je campagne." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is een lookalike audience in Meta Ads?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Een lookalike audience is een doelgroep op Facebook en Instagram die bestaat uit mensen die veel overeenkomsten hebben met je bestaande klanten of websitebezoekers. Meta analyseert de kenmerken van je brongroep en zoekt naar vergelijkbare profielen. Dit helpt je om nieuwe potentiële klanten te bereiken die waarschijnlijk al geïnteresseerd zijn in wat jij aanbiedt. Het is effectief omdat je niet blind adverteert, maar gericht zoekt naar mensen met dezelfde voorkeur en gedrag."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe groot moet mijn brongroep zijn voor een lookalike audience?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Meta adviseert minimaal 100 mensen in je brongroep, maar het ideale minimum is 500. Hoe groter je brongroep, hoe beter Meta de patronen kan herkennen. Bij 1000+ mensen krijg je de meest nauwkeurige lookalikes. Als je minder dan 100 hebt, kan Meta geen lookalike audience aanmaken. Als je klein bedrijf bent, focus dan op het opbouwen van je brongroep via website-conversies, e-maillijsten of bestaande klanten."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is het verschil tussen lookalike audiences van verschillende groottes?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Meta biedt lookalikes in verschillende groottes: 1%, 2%, 5% en 10% (van de bevolking van het geselecteerde land). De 1%-lookalike is het meest gelijkend op je brongroep, maar bereikt minder mensen. De 10%-lookalike bereikt meer, maar zijn minder gelijk aan je originele klanten. Voor conversie-georiënteerde campagnes (waar je veel geld uitgeeft) begin je met 1-2%. Voor awareness of bereik, gebruik je 5-10%."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Kan ik meerdere lookalike audiences op dezelfde advertentie zetten?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, dat kan. Je kunt meerdere lookalikes combineren in één ad set of separate ad sets maken per lookalike. Als je meerdere lookalikes combineert in één ad set, zal Meta budgetoptimalisatie gebruiken en meer budget naar de best presterende groep sturen. Over het algemeen werken separate ad sets beter, zodat je het prestatie per lookalike kunt meten en optimaliseren. Dit geeft je ook meer controle over biedstrategieën."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe vaak moet ik mijn lookalike audience bijwerken?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Update je lookalikes minstens één keer per maand, beter nog wekelijks als je veel conversies hebt. Meta werkt met een draaischijf-principe: je verwijdert de oude audience en maakt een nieuwe. De algoritmes van Meta verbeteren, dus een nieuwe lookalike met dezelfde brongroep kan beter presteren dan de oude. Bij snelgroeiende bedrijven (veel nieuwe klanten) is wekelijkse update essentieel. Bij stabiele bedrijven kan maandelijks volstaan."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is beter: lookalikes of retargeting?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Beide hebben hun plaats in je strategie. Retargeting spreekt mensen aan die je al hebben bezocht. Lookalikes brengen nieuwe potentiële klanten naar je toe. Voor optimale resultaten combineer je beide. Start je funnel met lookalikes om nieuwe traffic te genereren, en zet retargeting in om mensen die al interesse toonden terug te halen. Bij onze klanten zien we dat combineert veel beter werken dan apart."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Waarom presteer ik niet goed met mijn lookalike audience?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Veelgestelde oorzaken zijn: (1) te kleine brongroep (onder 500), (2) slechte kwaliteit in je brongroep (bijvoorbeeld spam-clicks), (3) niet-relevante creatieve content, (4) verkeerde landing page voor de doelgroep, (5) lookalike van een verkeerde segment (klanten die je niet wilt) of (6) biedstrategie die niet aansluit bij je doelstelling. Test altijd je creatieve content voordat je grote budgetten inzet. Controleer ook of je lookalike werkelijk op dezelfde landen/talen is gericht als je campagne."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Lookalike audiences in Meta Ads: de complete gids",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/lookalike-audiences-meta-ads-gids"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Lookalike audiences in Meta Ads: de complete gids", "item": "https://www.empowers.nl/blogs/social-ads/lookalike-audiences-meta-ads-gids" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Lookalike audiences in Meta Ads: de complete gids" />
+        <meta name="twitter:description" content="Ontdek hoe je lookalike audiences in Meta Ads effectief inzet om je bereik te vergroten. Leer de stappen, tips en veelge" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

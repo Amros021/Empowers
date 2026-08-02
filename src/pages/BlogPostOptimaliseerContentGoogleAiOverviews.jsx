@@ -29,8 +29,15 @@ export default function BlogPostOptimaliseerContentGoogleAiOverviews() {
                             "headline": "Hoe optimaliseer je content voor Google AI Overviews?",
                             "image": "https://www.empowers.nl/images/blogs/optimaliseer-content-google-ai-overviews.jpg",
                             "description": "Google AI Overviews tonen AI-antwoorden boven de zoekresultaten. Leer hoe je jouw content zo schrijft dat Google jou citeert in die antwoorden.",
-                            "author": { "@type": "Organization", "name": "Empowers" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-03-26T00:00:00+01:00",
                             "dateModified": "2026-03-26T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/geo/optimaliseer-content-google-ai-overviews"
@@ -38,28 +45,99 @@ export default function BlogPostOptimaliseerContentGoogleAiOverviews() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Wat zijn Google AI Overviews precies?", "acceptedAnswer": { "@type": "Answer", "text": "Google AI Overviews zijn AI-gegenereerde samenvattingen die bovenaan de zoekresultaten verschijnen. Google gebruikt zijn Gemini-model om een direct antwoord te geven op de zoekvraag, met bronverwijzingen naar websites die het antwoord onderbouwen. Ze verschijnen bij steeds meer zoekopdrachten en zijn in 2026 beschikbaar in meer dan 100 landen, waaronder Nederland." } },
-                                { "@type": "Question", "name": "Hoe bepaalt Google welke websites in AI Overviews komen?", "acceptedAnswer": { "@type": "Answer", "text": "Google selecteert bronnen op basis van relevantie, betrouwbaarheid en de kwaliteit van het antwoord. Pagina's die een zoekvraag direct en feitelijk beantwoorden, met duidelijke structuur en schema markup, maken de meeste kans. Het is geen apart algoritme maar een uitbreiding van de bestaande zoekindex, aangevuld met AI-beoordeling van contentkwaliteit." } },
-                                { "@type": "Question", "name": "Verlies ik verkeer door AI Overviews?", "acceptedAnswer": { "@type": "Answer", "text": "Dat hangt af van je positie. Websites die als bron worden genoemd in een AI Overview krijgen juist meer klikken, omdat ze zichtbaar worden voor gebruikers die anders misschien niet doorklikten. Uit onderzoek blijkt dat bronnen in AI Overviews gemiddeld 12 tot 18% meer verkeer krijgen dan vergelijkbare posities in de gewone zoekresultaten. Wie niet genoemd wordt, kan wel verkeer verliezen." } },
-                                { "@type": "Question", "name": "Moet ik mijn SEO-strategie aanpassen voor AI Overviews?", "acceptedAnswer": { "@type": "Answer", "text": "Je hoeft je SEO niet te vervangen, maar wel aan te vullen. De basis blijft hetzelfde: goede content, technische gezondheid en relevante backlinks. Wat je toevoegt is directe antwoorden bovenaan je pagina's, FAQ-schema markup en content die zelfstandig leesbaar is per sectie. Die aanpassingen helpen zowel bij AI Overviews als bij je reguliere zoekposities." } },
-                                { "@type": "Question", "name": "Werkt FAQ-schema markup echt voor AI Overviews?", "acceptedAnswer": { "@type": "Answer", "text": "Ja. Pagina's met FAQPage-schema worden aanzienlijk vaker opgenomen als bron in AI Overviews. Google kan de vragen en antwoorden direct uitlezen en gebruiken in het AI-antwoord. Het is een van de snelste manieren om je kans op zichtbaarheid in AI Overviews te vergroten, en het kost relatief weinig technische inspanning om toe te voegen." } },
-                                { "@type": "Question", "name": "Hoe snel zie ik resultaat als ik mijn content aanpas?", "acceptedAnswer": { "@type": "Answer", "text": "De eerste veranderingen zijn vaak binnen 2 tot 4 weken zichtbaar, nadat Google je pagina opnieuw heeft gecrawld. Structurele verbeteringen zoals het toevoegen van schema markup en het herschrijven van je eerste alinea's hebben het snelste effect. Een volledige contentstrategie gericht op AI Overviews levert na 2 tot 3 maanden meetbaar meer zichtbaarheid op." } },
-                                { "@type": "Question", "name": "Kan ik AI Overviews ook gebruiken voor lokale vindbaarheid?", "acceptedAnswer": { "@type": "Answer", "text": "Ja. Google toont steeds vaker AI Overviews bij lokale zoekopdrachten zoals 'beste loodgieter in Amsterdam' of 'marketingbureau Rotterdam'. Zorg dat je Google Bedrijfsprofiel compleet en actueel is, dat je website lokale content bevat en dat externe bronnen je noemen in de context van je regio. Lokale bedrijven die hierop inspelen hebben nu nog weinig concurrentie in AI Overviews." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat zijn Google AI Overviews precies?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Google AI Overviews zijn AI-gegenereerde samenvattingen die bovenaan de zoekresultaten verschijnen. Google gebruikt zijn Gemini-model om een direct antwoord te geven op de zoekvraag, met bronverwijzingen naar websites die het antwoord onderbouwen. Ze verschijnen bij steeds meer zoekopdrachten en zijn in 2026 beschikbaar in meer dan 100 landen, waaronder Nederland."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe bepaalt Google welke websites in AI Overviews komen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Google selecteert bronnen op basis van relevantie, betrouwbaarheid en de kwaliteit van het antwoord. Pagina's die een zoekvraag direct en feitelijk beantwoorden, met duidelijke structuur en schema markup, maken de meeste kans. Het is geen apart algoritme maar een uitbreiding van de bestaande zoekindex, aangevuld met AI-beoordeling van contentkwaliteit."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Verlies ik verkeer door AI Overviews?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Dat hangt af van je positie. Websites die als bron worden genoemd in een AI Overview krijgen juist meer klikken, omdat ze zichtbaar worden voor gebruikers die anders misschien niet doorklikten. Uit onderzoek blijkt dat bronnen in AI Overviews gemiddeld 12 tot 18% meer verkeer krijgen dan vergelijkbare posities in de gewone zoekresultaten. Wie niet genoemd wordt, kan wel verkeer verliezen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Moet ik mijn SEO-strategie aanpassen voor AI Overviews?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Je hoeft je SEO niet te vervangen, maar wel aan te vullen. De basis blijft hetzelfde: goede content, technische gezondheid en relevante backlinks. Wat je toevoegt is directe antwoorden bovenaan je pagina's, FAQ-schema markup en content die zelfstandig leesbaar is per sectie. Die aanpassingen helpen zowel bij AI Overviews als bij je reguliere zoekposities."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Werkt FAQ-schema markup echt voor AI Overviews?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja. Pagina's met FAQPage-schema worden aanzienlijk vaker opgenomen als bron in AI Overviews. Google kan de vragen en antwoorden direct uitlezen en gebruiken in het AI-antwoord. Het is een van de snelste manieren om je kans op zichtbaarheid in AI Overviews te vergroten, en het kost relatief weinig technische inspanning om toe te voegen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe snel zie ik resultaat als ik mijn content aanpas?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "De eerste veranderingen zijn vaak binnen 2 tot 4 weken zichtbaar, nadat Google je pagina opnieuw heeft gecrawld. Structurele verbeteringen zoals het toevoegen van schema markup en het herschrijven van je eerste alinea's hebben het snelste effect. Een volledige contentstrategie gericht op AI Overviews levert na 2 tot 3 maanden meetbaar meer zichtbaarheid op."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Kan ik AI Overviews ook gebruiken voor lokale vindbaarheid?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja. Google toont steeds vaker AI Overviews bij lokale zoekopdrachten zoals 'beste loodgieter in Amsterdam' of 'marketingbureau Rotterdam'. Zorg dat je Google Bedrijfsprofiel compleet en actueel is, dat je website lokale content bevat en dat externe bronnen je noemen in de context van je regio. Lokale bedrijven die hierop inspelen hebben nu nog weinig concurrentie in AI Overviews."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Content voor Google AI Overviews",
+                                    "item": "https://www.empowers.nl/blogs/geo/optimaliseer-content-google-ai-overviews"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                        { "@type": "ListItem", "position": 4, "name": "Content voor Google AI Overviews", "item": "https://www.empowers.nl/blogs/geo/optimaliseer-content-google-ai-overviews" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Hoe optimaliseer je content voor Google AI Overviews?" />
+        <meta name="twitter:description" content="Google AI Overviews tonen AI-antwoorden boven de zoekresultaten. Leer hoe je jouw content zo schrijft dat Google jou cit" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

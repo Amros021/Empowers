@@ -28,112 +28,114 @@ export default function BlogPostOffPageSeo() {
                 <meta name="twitter:title" content="Off-page SEO uitgelegd: backlinks, autoriteit en meer" />
                 <meta name="twitter:description" content="Off-page SEO bepaalt je autoriteit in Google. Lees hoe backlinks werken en wat echt resultaat oplevert." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Off-page SEO uitgelegd: backlinks, autoriteit en meer",
-                        "description": "Off-page SEO bepaalt hoe Google de autoriteit van je website beoordeelt. Lees wat backlinks zijn, hoe je ze opbouwt en welke strategieën werken in 2026.",
-                        "image": "https://www.empowers.nl/images/blogs/off-page-seo.jpg",
-                        "datePublished": "2026-04-11T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Off-page SEO uitgelegd: backlinks, autoriteit en meer",
+                            "description": "Off-page SEO bepaalt hoe Google de autoriteit van je website beoordeelt. Lees wat backlinks zijn, hoe je ze opbouwt en welke strategieën werken in 2026.",
+                            "image": "https://www.empowers.nl/images/blogs/off-page-seo.jpg",
+                            "datePublished": "2026-04-11T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is off-page SEO precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Off-page SEO omvat alles wat buiten je eigen website gebeurt en invloed heeft op je positie in Google. Denk aan backlinks van andere websites, vermeldingen van je bedrijfsnaam, reviews en social signals. Het draait om autoriteit: hoe meer betrouwbare websites naar jou verwijzen, hoe hoger Google je waardeert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel backlinks heb ik nodig om hoger te ranken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Het gaat niet om aantallen maar om kwaliteit. Een backlink van een gezaghebbende website in jouw branche is meer waard dan honderd links van onbekende blogs. Focus op 2 tot 5 kwalitatieve backlinks per maand. Na 6 maanden merk je het verschil in je posities."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Zijn backlinks kopen een goed idee?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. Google herkent gekochte links steeds beter en bestraft websites die dit doen. Je riskeert een penalty waardoor je juist lager komt te staan. Investeer liever in content die van nature gedeeld wordt en in relaties met relevante websites in jouw branche."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen on-page en off-page SEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "On-page SEO gaat over alles op je eigen website: teksten, titels, snelheid, structuur. Off-page SEO gaat over signalen van buiten je website: backlinks, vermeldingen, reviews. Je hebt beide nodig. On-page zorgt dat Google je pagina begrijpt. Off-page zorgt dat Google je pagina vertrouwt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat off-page SEO resultaat oplevert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op 3 tot 6 maanden voordat je structureel hogere posities ziet. Backlinks hebben tijd nodig om door Google geindexeerd en gewaardeerd te worden. Het is een langetermijnstrategie, maar het effect is duurzaam. Eenmaal opgebouwde autoriteit verlies je niet snel."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik off-page SEO zelf doen of heb ik een bureau nodig?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De basis kun je zelf doen: zorg voor vermeldingen in lokale gidsen, vraag samenwerkingspartners om een link en schrijf gastartikelen. Maar een gerichte linkbuildingstrategie kost veel tijd en kennis. Een bureau als Empowers neemt dat werk uit handen en bouwt structureel aan je autoriteit."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is off-page SEO precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Off-page SEO omvat alles wat buiten je eigen website gebeurt en invloed heeft op je positie in Google. Denk aan backlinks van andere websites, vermeldingen van je bedrijfsnaam, reviews en social signals. Het draait om autoriteit: hoe meer betrouwbare websites naar jou verwijzen, hoe hoger Google je waardeert."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel backlinks heb ik nodig om hoger te ranken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Het gaat niet om aantallen maar om kwaliteit. Een backlink van een gezaghebbende website in jouw branche is meer waard dan honderd links van onbekende blogs. Focus op 2 tot 5 kwalitatieve backlinks per maand. Na 6 maanden merk je het verschil in je posities."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Zijn backlinks kopen een goed idee?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee. Google herkent gekochte links steeds beter en bestraft websites die dit doen. Je riskeert een penalty waardoor je juist lager komt te staan. Investeer liever in content die van nature gedeeld wordt en in relaties met relevante websites in jouw branche."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen on-page en off-page SEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "On-page SEO gaat over alles op je eigen website: teksten, titels, snelheid, structuur. Off-page SEO gaat over signalen van buiten je website: backlinks, vermeldingen, reviews. Je hebt beide nodig. On-page zorgt dat Google je pagina begrijpt. Off-page zorgt dat Google je pagina vertrouwt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat off-page SEO resultaat oplevert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op 3 tot 6 maanden voordat je structureel hogere posities ziet. Backlinks hebben tijd nodig om door Google geindexeerd en gewaardeerd te worden. Het is een langetermijnstrategie, maar het effect is duurzaam. Eenmaal opgebouwde autoriteit verlies je niet snel."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik off-page SEO zelf doen of heb ik een bureau nodig?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De basis kun je zelf doen: zorg voor vermeldingen in lokale gidsen, vraag samenwerkingspartners om een link en schrijf gastartikelen. Maar een gerichte linkbuildingstrategie kost veel tijd en kennis. Een bureau als Empowers neemt dat werk uit handen en bouwt structureel aan je autoriteit."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Off-page SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo/off-page-seo"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "SEO",
-                                "item": "https://www.empowers.nl/blogs/seo"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Off-page SEO",
-                                "item": "https://www.empowers.nl/blogs/seo/off-page-seo"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

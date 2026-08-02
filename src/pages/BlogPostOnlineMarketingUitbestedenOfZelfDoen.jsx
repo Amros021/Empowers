@@ -23,36 +23,110 @@ export default function BlogPostOnlineMarketingUitbestedenOfZelfDoen() {
                 <meta property="article:section" content="Algemeen" />
 
                 <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "Article",
-                    "headline": "Online marketing uitbesteden of zelf doen: de eerlijke vergelijking",
-                    "description": "Een nuchtere afweging tussen zelf online marketing doen en uitbesteden, met concrete drempelwaarden.",
-                    "image": "https://www.empowers.nl/images/blogs/online-marketing-uitbesteden-of-zelf-doen.jpg",
-                    "datePublished": "2026-05-13T15:30:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                    "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                        { "@type": "Question", "name": "Wanneer is zelf doen slimmer?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Bij een advertentiebudget onder 2.000 euro per maand, bij specifieke nichekennis die externe partijen niet snel inlopen, of als je tijd ruim hebt en marketing oprecht interessant vindt. Zelf doen kost gemiddeld rond de 12 uur per maand voor één kanaal, plus de leercurve van enkele maanden voordat je beslissingen onderbouwd worden." } },
-                        { "@type": "Question", "name": "Wanneer is uitbesteden slimmer?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Vanaf circa 3.000 euro mediabudget per maand wordt uitbesteden meestal rendabel: het bureau kan voldoende uren in optimalisatie steken om zijn fee terug te verdienen. Ook als je tijd liever in je kernactiviteit steekt en de leercurve niet wilt aflopen. Voor meerkanaalsstrategie (Google plus Meta plus SEO) wordt zelf doen vrijwel altijd te complex voor MKB-ondernemers." } },
-                        { "@type": "Question", "name": "Hoeveel tijd kost zelf doen werkelijk?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor één serieus betaald kanaal: ongeveer rond de 12 uur per maand zodra je het ritme te pakken hebt. De eerste drie tot zes maanden vaak het dubbele, vanwege de leercurve. Wie reken: 12 uur per maand op een uurtarief van 75 euro is 900 euro per maand. Vergelijk dat met een management fee voor uitbesteden, plus de waarde van wat je niet in je business kan stoppen." } },
-                        { "@type": "Question", "name": "Wat is een hybride aanpak?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Een combinatie waar je een specialist eenmalig de account-architectuur laat opzetten en tracking laat inrichten, en het daarna zelf draait met een kwartaalcheck. Vooral voor ondernemers met een klein budget die de strategische basis goed willen hebben zonder een doorlopende fee te betalen. Coaching-trajecten van vier tot zes sessies werken hier vaak goed voor." } },
-                        { "@type": "Question", "name": "Wat verlies je financieel met zelf doen?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Twee dingen meestal. Onbenut rendement omdat je de geavanceerde optimalisaties niet kent (te late negatieve zoekwoorden, verkeerde biedstrategie, ondermaatse landingspagina's). En leerverlies in de eerste maanden waar je geld op campagnes verbrandt die later ingericht beter hadden gewerkt. Voor MKB-ondernemers schat we dat verlies vaak op tussen de 20 en 40 procent rendement in het eerste jaar." } },
-                        { "@type": "Question", "name": "Welke kanalen zijn het lastigst zelf te doen?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Performance Max, omdat het algoritme dat draait moeilijk te interpreteren is zonder ervaring. LinkedIn Ads, omdat de kosten per klik hoog zijn en fouten direct duur worden. SEO, omdat de feedback-loop maanden duurt en je dus traag leert. Het makkelijkst zelf te doen: Search-campagnes met long-tail keywords en eenvoudige Meta-campagnes voor warme doelgroepen." } }
-                    ] }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                        { "@type": "ListItem", "position": 4, "name": "Uitbesteden of zelf doen", "item": "https://www.empowers.nl/blogs/algemeen/online-marketing-uitbesteden-of-zelf-doen" }
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Online marketing uitbesteden of zelf doen: de eerlijke vergelijking",
+                            "description": "Een nuchtere afweging tussen zelf online marketing doen en uitbesteden, met concrete drempelwaarden.",
+                            "image": "https://www.empowers.nl/images/blogs/online-marketing-uitbesteden-of-zelf-doen.jpg",
+                            "datePublished": "2026-05-13T15:30:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is zelf doen slimmer?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij een advertentiebudget onder 2.000 euro per maand, bij specifieke nichekennis die externe partijen niet snel inlopen, of als je tijd ruim hebt en marketing oprecht interessant vindt. Zelf doen kost gemiddeld rond de 12 uur per maand voor één kanaal, plus de leercurve van enkele maanden voordat je beslissingen onderbouwd worden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is uitbesteden slimmer?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vanaf circa 3.000 euro mediabudget per maand wordt uitbesteden meestal rendabel: het bureau kan voldoende uren in optimalisatie steken om zijn fee terug te verdienen. Ook als je tijd liever in je kernactiviteit steekt en de leercurve niet wilt aflopen. Voor meerkanaalsstrategie (Google plus Meta plus SEO) wordt zelf doen vrijwel altijd te complex voor MKB-ondernemers."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel tijd kost zelf doen werkelijk?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor één serieus betaald kanaal: ongeveer rond de 12 uur per maand zodra je het ritme te pakken hebt. De eerste drie tot zes maanden vaak het dubbele, vanwege de leercurve. Wie reken: 12 uur per maand op een uurtarief van 75 euro is 900 euro per maand. Vergelijk dat met een management fee voor uitbesteden, plus de waarde van wat je niet in je business kan stoppen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een hybride aanpak?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een combinatie waar je een specialist eenmalig de account-architectuur laat opzetten en tracking laat inrichten, en het daarna zelf draait met een kwartaalcheck. Vooral voor ondernemers met een klein budget die de strategische basis goed willen hebben zonder een doorlopende fee te betalen. Coaching-trajecten van vier tot zes sessies werken hier vaak goed voor."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat verlies je financieel met zelf doen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Twee dingen meestal. Onbenut rendement omdat je de geavanceerde optimalisaties niet kent (te late negatieve zoekwoorden, verkeerde biedstrategie, ondermaatse landingspagina's). En leerverlies in de eerste maanden waar je geld op campagnes verbrandt die later ingericht beter hadden gewerkt. Voor MKB-ondernemers schat we dat verlies vaak op tussen de 20 en 40 procent rendement in het eerste jaar."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke kanalen zijn het lastigst zelf te doen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Performance Max, omdat het algoritme dat draait moeilijk te interpreteren is zonder ervaring. LinkedIn Ads, omdat de kosten per klik hoog zijn en fouten direct duur worden. SEO, omdat de feedback-loop maanden duurt en je dus traag leert. Het makkelijkst zelf te doen: Search-campagnes met long-tail keywords en eenvoudige Meta-campagnes voor warme doelgroepen."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Uitbesteden of zelf doen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/online-marketing-uitbesteden-of-zelf-doen"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />

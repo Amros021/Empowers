@@ -29,8 +29,16 @@ export default function BlogPostMetaAdsAutomatischePlaatsingenVsHandmatig() {
                             "headline": "Meta Ads automatische plaatsingen vs handmatig instellen: wat werkt beter?",
                             "image": "https://www.empowers.nl/images/blogs/meta-ads-automatische-plaatsingen-vs-handmatig.jpg",
                             "description": "Advantage+ plaatsingen of handmatig kiezen in Meta Ads? Lees wanneer automatisch winst oplevert en wanneer handmatig juist meer rendement geeft.",
-                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-05-05T12:00:00+02:00",
                             "dateModified": "2026-05-05T12:00:00+02:00",
                             "url": "https://www.empowers.nl/blogs/social-ads/meta-ads-automatische-plaatsingen-vs-handmatig"
@@ -38,27 +46,91 @@ export default function BlogPostMetaAdsAutomatischePlaatsingenVsHandmatig() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Wat is het verschil tussen automatische en handmatige plaatsingen?", "acceptedAnswer": { "@type": "Answer", "text": "Bij automatische plaatsingen (Advantage+ Placements) verdeelt Meta jouw budget over alle beschikbare plaatsingen op Facebook, Instagram, Messenger en Audience Network. Bij handmatige plaatsingen kies je zelf welke plaatsingen je wel of niet meedoet. Automatisch geeft het algoritme volledige vrijheid, handmatig houd je de regie." } },
-                                { "@type": "Question", "name": "Wat raadt Meta zelf aan?", "acceptedAnswer": { "@type": "Answer", "text": "Meta raadt voor de meeste campagnes Advantage+ Placements aan. Het argument: lagere CPA gemiddeld, omdat het systeem dynamisch budget verschuift naar de plaatsingen waar conversies binnenkomen. Voor accounts met genoeg conversiedata klopt dat advies vaak. Voor kleine accounts of niche-doelgroepen werkt handmatig beter." } },
-                                { "@type": "Question", "name": "Wanneer zijn automatische plaatsingen het slimst?", "acceptedAnswer": { "@type": "Answer", "text": "Bij accounts met meer dan 50 conversies per week, brede doelgroepen en visueel sterke creatives die op meerdere plaatsingen werken. Het algoritme heeft genoeg signalen om plaatsings-allocatie goed te leren. Webshops met dagelijkse aankopen en MKB-merken die meerdere weken stabiel draaien, halen er vaak het meeste uit." } },
-                                { "@type": "Question", "name": "Wanneer kies je beter voor handmatige plaatsingen?", "acceptedAnswer": { "@type": "Answer", "text": "Bij niche-targeting, lage budgetten (onder 30 euro per dag), B2B-doelgroepen of als je creatives niet in elke plaatsing werken. Een advertentie met veel tekst werkt slecht op Stories of Reels, en moet je daar uitsluiten. Ook bij merken met sterke voorkeur voor Instagram boven Audience Network (vanwege placement-kwaliteit) heeft handmatig zin." } },
-                                { "@type": "Question", "name": "Mag ik mixen: sommige plaatsingen aan, andere uit?", "acceptedAnswer": { "@type": "Answer", "text": "Ja, en dat is vaak de slimste route. Begin met handmatige plaatsingen, schakel bewust de placements uit waarvan je weet dat ze niet bij je merk passen (zoals Audience Network bij premium-merken) en laat de rest aan. Zo krijg je de algoritmische voordelen van Advantage+ binnen de plaatsingen die voor jou kloppen." } },
-                                { "@type": "Question", "name": "Hoe weet ik welke plaatsingen het best presteren?", "acceptedAnswer": { "@type": "Answer", "text": "In Ads Manager kun je de breakdown 'Placement' aanzetten in elk rapport. Je ziet dan per plaatsing CPA en ROAS, samen met CTR en het aantal conversies. Draai een ad set minimaal twee weken voordat je conclusies trekt, en kijk naar plaatsingen met genoeg volume. Plaatsingen met minder dan twintig conversies geven vaak ruis in plaats van inzicht." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is het verschil tussen automatische en handmatige plaatsingen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Bij automatische plaatsingen (Advantage+ Placements) verdeelt Meta jouw budget over alle beschikbare plaatsingen op Facebook, Instagram, Messenger en Audience Network. Bij handmatige plaatsingen kies je zelf welke plaatsingen je wel of niet meedoet. Automatisch geeft het algoritme volledige vrijheid, handmatig houd je de regie."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat raadt Meta zelf aan?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Meta raadt voor de meeste campagnes Advantage+ Placements aan. Het argument: lagere CPA gemiddeld, omdat het systeem dynamisch budget verschuift naar de plaatsingen waar conversies binnenkomen. Voor accounts met genoeg conversiedata klopt dat advies vaak. Voor kleine accounts of niche-doelgroepen werkt handmatig beter."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wanneer zijn automatische plaatsingen het slimst?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Bij accounts met meer dan 50 conversies per week, brede doelgroepen en visueel sterke creatives die op meerdere plaatsingen werken. Het algoritme heeft genoeg signalen om plaatsings-allocatie goed te leren. Webshops met dagelijkse aankopen en MKB-merken die meerdere weken stabiel draaien, halen er vaak het meeste uit."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wanneer kies je beter voor handmatige plaatsingen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Bij niche-targeting, lage budgetten (onder 30 euro per dag), B2B-doelgroepen of als je creatives niet in elke plaatsing werken. Een advertentie met veel tekst werkt slecht op Stories of Reels, en moet je daar uitsluiten. Ook bij merken met sterke voorkeur voor Instagram boven Audience Network (vanwege placement-kwaliteit) heeft handmatig zin."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Mag ik mixen: sommige plaatsingen aan, andere uit?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, en dat is vaak de slimste route. Begin met handmatige plaatsingen, schakel bewust de placements uit waarvan je weet dat ze niet bij je merk passen (zoals Audience Network bij premium-merken) en laat de rest aan. Zo krijg je de algoritmische voordelen van Advantage+ binnen de plaatsingen die voor jou kloppen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe weet ik welke plaatsingen het best presteren?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "In Ads Manager kun je de breakdown 'Placement' aanzetten in elk rapport. Je ziet dan per plaatsing CPA en ROAS, samen met CTR en het aantal conversies. Draai een ad set minimaal twee weken voordat je conclusies trekt, en kijk naar plaatsingen met genoeg volume. Plaatsingen met minder dan twintig conversies geven vaak ruis in plaats van inzicht."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Automatische vs handmatige plaatsingen",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-automatische-plaatsingen-vs-handmatig"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Automatische vs handmatige plaatsingen", "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-automatische-plaatsingen-vs-handmatig" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Meta Ads automatische plaatsingen vs handmatig: wat werkt beter?" />
+        <meta name="twitter:description" content="Advantage+ plaatsingen of handmatig kiezen in Meta Ads? Lees wanneer automatisch winst oplevert, wanneer handmatig juist" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

@@ -28,97 +28,122 @@ export default function BlogPostMarketingUitbestedenMkbZelfDoen() {
                 <meta name="twitter:title" content="Waarom MKB-bedrijven hun marketing uitbesteden (en wanneer je het beter zelf doet)" />
                 <meta name="twitter:description" content="Eerlijke beslishulp voor MKB: wanneer wel uitbesteden en wanneer is zelf doen slimmer?" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Waarom MKB-bedrijven hun marketing uitbesteden (en wanneer je het beter zelf doet)",
-                        "description": "Wanneer is marketing uitbesteden de slimste keuze voor MKB en wanneer doe je het beter zelf? Eerlijke beslishulp met herkenbare situaties en valkuilen.",
-                        "image": "https://www.empowers.nl/images/blogs/marketing-uitbesteden-mkb-zelf-doen.jpg",
-                        "datePublished": "2026-05-03T15:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Waarom MKB-bedrijven hun marketing uitbesteden (en wanneer je het beter zelf doet)",
+                            "description": "Wanneer is marketing uitbesteden de slimste keuze voor MKB en wanneer doe je het beter zelf? Eerlijke beslishulp met herkenbare situaties en valkuilen.",
+                            "image": "https://www.empowers.nl/images/blogs/marketing-uitbesteden-mkb-zelf-doen.jpg",
+                            "datePublished": "2026-05-03T15:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is het slim om marketing uit te besteden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Uitbesteden is slim als je tempo wilt maken, jouw eigen team al vol zit, je specifieke expertise mist (zoals Google Ads, SEO of Meta Ads) of als groei stagneert ondanks dat je zelf hard werkt. Wie minder dan 4 tot 6 uur per week aan marketing kan besteden, levert structureel onder."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer doe je marketing beter zelf?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Zelf doen past als je tijd hebt, snel leert, de uitvoering volhoudt en jouw aanbod nog niet stabiel genoeg is om aan een externe partij over te dragen. Voor bedrijven met minder dan 100.000 euro omzet of in een proof-of-concept fase is zelf doen vaak rendabeler dan uitbesteden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost marketing uitbesteden voor MKB in Nederland?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bureaukosten in Nederland liggen tussen 750 en 5.000 euro per maand exclusief mediabudget, met uurtarieven tussen 80 en 200 euro per uur. Kleine MKB met omzet onder 250.000 euro zit doorgaans op 500 tot 1.500 euro bureaukosten, groeiende MKB op 1.500 tot 3.500 euro, gevestigde bedrijven op 3.500 tot 10.000 euro."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is uitbesteden goedkoper dan een marketeer in dienst?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste MKB-bedrijven is uitbesteden 30 tot 50 procent goedkoper dan een fulltime marketeer in dienst. Een fulltime marketeer kost 40.000 tot 60.000 euro per jaar plus werkgeverslasten, plus tools en trainingen. Een bureau levert vaak meerdere specialismes voor minder geld."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is de samenwerking met een bureau klaar?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De samenwerking is klaar zodra resultaten 3 maanden achter elkaar verslechteren zonder uitleg, communicatie stroef wordt of het bureau geen ruimte heeft voor jouw groeifase. Ook bij interne opbouw van een marketingteam wordt het bureau vaak afgebouwd tot specifieke specialismes."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat een bureau resultaat oplevert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor Google Ads en social ads zie je binnen 4 tot 8 weken eerste resultaten. Voor SEO reken je op 3 tot 6 maanden. Voor email marketing 8 tot 12 weken voor merkbare opbouw. Bureaus die binnen 4 weken wonderen beloven, verkopen lucht."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke valkuilen heeft uitbesteden voor MKB?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De grootste valkuil is een bureau kiezen dat niet past bij jouw schaalfase. Kleine MKB krijgt vaak de junior van een groot bureau, terwijl grotere MKB een specialist nodig heeft die ontbreekt bij een eenmansbureau. Andere valkuilen zijn geen eigenaarschap over data, vage rapportages en een contract dat je gevangen houdt."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer is het slim om marketing uit te besteden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Uitbesteden is slim als je tempo wilt maken, jouw eigen team al vol zit, je specifieke expertise mist (zoals Google Ads, SEO of Meta Ads) of als groei stagneert ondanks dat je zelf hard werkt. Wie minder dan 4 tot 6 uur per week aan marketing kan besteden, levert structureel onder."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer doe je marketing beter zelf?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Zelf doen past als je tijd hebt, snel leert, de uitvoering volhoudt en jouw aanbod nog niet stabiel genoeg is om aan een externe partij over te dragen. Voor bedrijven met minder dan 100.000 euro omzet of in een proof-of-concept fase is zelf doen vaak rendabeler dan uitbesteden."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost marketing uitbesteden voor MKB in Nederland?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bureaukosten in Nederland liggen tussen 750 en 5.000 euro per maand exclusief mediabudget, met uurtarieven tussen 80 en 200 euro per uur. Kleine MKB met omzet onder 250.000 euro zit doorgaans op 500 tot 1.500 euro bureaukosten, groeiende MKB op 1.500 tot 3.500 euro, gevestigde bedrijven op 3.500 tot 10.000 euro."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Is uitbesteden goedkoper dan een marketeer in dienst?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de meeste MKB-bedrijven is uitbesteden 30 tot 50 procent goedkoper dan een fulltime marketeer in dienst. Een fulltime marketeer kost 40.000 tot 60.000 euro per jaar plus werkgeverslasten, plus tools en trainingen. Een bureau levert vaak meerdere specialismes voor minder geld."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wanneer is de samenwerking met een bureau klaar?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De samenwerking is klaar zodra resultaten 3 maanden achter elkaar verslechteren zonder uitleg, communicatie stroef wordt of het bureau geen ruimte heeft voor jouw groeifase. Ook bij interne opbouw van een marketingteam wordt het bureau vaak afgebouwd tot specifieke specialismes."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat een bureau resultaat oplevert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor Google Ads en social ads zie je binnen 4 tot 8 weken eerste resultaten. Voor SEO reken je op 3 tot 6 maanden. Voor email marketing 8 tot 12 weken voor merkbare opbouw. Bureaus die binnen 4 weken wonderen beloven, verkopen lucht."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke valkuilen heeft uitbesteden voor MKB?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De grootste valkuil is een bureau kiezen dat niet past bij jouw schaalfase. Kleine MKB krijgt vaak de junior van een groot bureau, terwijl grotere MKB een specialist nodig heeft die ontbreekt bij een eenmansbureau. Andere valkuilen zijn geen eigenaarschap over data, vage rapportages en een contract dat je gevangen houdt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Marketing uitbesteden MKB",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/marketing-uitbesteden-mkb-zelf-doen"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                            { "@type": "ListItem", "position": 4, "name": "Marketing uitbesteden MKB", "item": "https://www.empowers.nl/blogs/algemeen/marketing-uitbesteden-mkb-zelf-doen" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

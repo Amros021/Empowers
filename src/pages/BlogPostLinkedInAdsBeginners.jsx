@@ -28,120 +28,122 @@ export default function BlogPostLinkedInAdsBeginners() {
                 <meta name="twitter:title" content="LinkedIn Ads voor beginners: zo start je jouw eerste B2B campagne" />
                 <meta name="twitter:description" content="LinkedIn Ads zijn het sterkste B2B advertentiekanaal. Lees hoe je je eerste campagne opzet." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "LinkedIn Ads voor beginners: zo start je jouw eerste B2B campagne",
-                        "description": "LinkedIn Ads zijn het sterkste B2B advertentiekanaal in Nederland. Lees hoe je je eerste campagne opzet, wat het kost en welke fouten je moet vermijden.",
-                        "image": "https://www.empowers.nl/images/blogs/linkedin-ads-beginners-eerste-b2b.jpg",
-                        "datePublished": "2026-04-02T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "LinkedIn Ads voor beginners: zo start je jouw eerste B2B campagne",
+                            "description": "LinkedIn Ads zijn het sterkste B2B advertentiekanaal in Nederland. Lees hoe je je eerste campagne opzet, wat het kost en welke fouten je moet vermijden.",
+                            "image": "https://www.empowers.nl/images/blogs/linkedin-ads-beginners-eerste-b2b.jpg",
+                            "datePublished": "2026-04-02T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kosten LinkedIn Ads per klik?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op 3 tot 12 euro per klik, afhankelijk van je doelgroep en concurrentie. Dat is hoger dan Google of Meta, maar de kwaliteit van B2B-leads is vaak ook aanzienlijk beter. Een lead via LinkedIn is gemiddeld 2 tot 3 keer meer waard dan via andere kanalen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel budget heb je nodig voor LinkedIn Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "LinkedIn hanteert een minimaal dagbudget van 10 euro. Voor een serieuze test heb je minimaal 1500 tot 2500 euro per maand nodig. Onder die grens heeft het platform te weinig data om je campagne goed te laten presteren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke campagnedoelen zijn er in LinkedIn Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "LinkedIn biedt drie hoofddoelen: awareness (merkbekendheid), consideration (websitebezoek, engagement, videoweergaven) en conversions (leadgeneratie, websiteconversies, sollicitaties). Voor B2B-leadgeneratie kies je meestal Lead Gen Forms of websiteconversies."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Zijn LinkedIn Ads geschikt voor kleine bedrijven?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, mits je een duidelijke B2B-doelgroep hebt en je product of dienst voldoende marge heeft. Als een klant je duizenden euro's oplevert, zijn de hogere klikkosten op LinkedIn de investering waard. Verkoop je producten van 50 euro? Dan zijn Google of Meta slimmer."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen LinkedIn Ads en Google Ads voor B2B?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google Ads bereikt mensen die actief zoeken naar een oplossing. LinkedIn Ads bereikt mensen op basis van hun functie, bedrijf en branche, ook als ze nog niet zoeken. LinkedIn is sterker voor awareness en leadgeneratie bij een specifieke doelgroep. Google werkt beter voor directe koopintentie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat LinkedIn Ads resultaat opleveren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De eerste data zie je binnen een week. Maar voor betrouwbare resultaten heb je 4 tot 8 weken nodig. LinkedIn heeft meer tijd nodig dan Meta of Google om voldoende data te verzamelen, vooral als je doelgroep klein is. Na 2 tot 3 maanden weet je of het kanaal voor jou werkt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn Lead Gen Forms op LinkedIn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Lead Gen Forms zijn formulieren die direct in LinkedIn openen. De gebruiker hoeft de app niet te verlaten. Contactgegevens worden automatisch ingevuld vanuit het LinkedIn-profiel. Dat verlaagt de drempel en verhoogt je conversieratio. Bij onze klanten converteren Lead Gen Forms 2 tot 4 keer beter dan een landingspagina."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kosten LinkedIn Ads per klik?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op 3 tot 12 euro per klik, afhankelijk van je doelgroep en concurrentie. Dat is hoger dan Google of Meta, maar de kwaliteit van B2B-leads is vaak ook aanzienlijk beter. Een lead via LinkedIn is gemiddeld 2 tot 3 keer meer waard dan via andere kanalen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel budget heb je nodig voor LinkedIn Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "LinkedIn hanteert een minimaal dagbudget van 10 euro. Voor een serieuze test heb je minimaal 1500 tot 2500 euro per maand nodig. Onder die grens heeft het platform te weinig data om je campagne goed te laten presteren."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke campagnedoelen zijn er in LinkedIn Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "LinkedIn biedt drie hoofddoelen: awareness (merkbekendheid), consideration (websitebezoek, engagement, videoweergaven) en conversions (leadgeneratie, websiteconversies, sollicitaties). Voor B2B-leadgeneratie kies je meestal Lead Gen Forms of websiteconversies."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Zijn LinkedIn Ads geschikt voor kleine bedrijven?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, mits je een duidelijke B2B-doelgroep hebt en je product of dienst voldoende marge heeft. Als een klant je duizenden euro's oplevert, zijn de hogere klikkosten op LinkedIn de investering waard. Verkoop je producten van 50 euro? Dan zijn Google of Meta slimmer."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen LinkedIn Ads en Google Ads voor B2B?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google Ads bereikt mensen die actief zoeken naar een oplossing. LinkedIn Ads bereikt mensen op basis van hun functie, bedrijf en branche, ook als ze nog niet zoeken. LinkedIn is sterker voor awareness en leadgeneratie bij een specifieke doelgroep. Google werkt beter voor directe koopintentie."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat LinkedIn Ads resultaat opleveren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De eerste data zie je binnen een week. Maar voor betrouwbare resultaten heb je 4 tot 8 weken nodig. LinkedIn heeft meer tijd nodig dan Meta of Google om voldoende data te verzamelen, vooral als je doelgroep klein is. Na 2 tot 3 maanden weet je of het kanaal voor jou werkt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat zijn Lead Gen Forms op LinkedIn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Lead Gen Forms zijn formulieren die direct in LinkedIn openen. De gebruiker hoeft de app niet te verlaten. Contactgegevens worden automatisch ingevuld vanuit het LinkedIn-profiel. Dat verlaagt de drempel en verhoogt je conversieratio. Bij onze klanten converteren Lead Gen Forms 2 tot 4 keer beter dan een landingspagina."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "LinkedIn Ads voor beginners",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/linkedin-ads-beginners-eerste-b2b"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Social Ads",
-                                "item": "https://www.empowers.nl/blogs/social-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "LinkedIn Ads voor beginners",
-                                "item": "https://www.empowers.nl/blogs/social-ads/linkedin-ads-beginners-eerste-b2b"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

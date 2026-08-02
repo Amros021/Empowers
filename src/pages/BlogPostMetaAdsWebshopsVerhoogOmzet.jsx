@@ -28,120 +28,122 @@ export default function BlogPostMetaAdsWebshopsVerhoogOmzet() {
                 <meta name="twitter:title" content="Meta Ads voor webshops: zo verhoog je je omzet" />
                 <meta name="twitter:description" content="Meta Ads voor webshops: van doelgroep tot ROAS. Zo zet je campagnes op die verkopen." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Meta Ads voor webshops: zo verhoog je je omzet",
-                        "description": "Meta Ads voor webshops leveren gemiddeld een ROAS van 4 tot 8 als je het goed aanpakt. Lees hoe je campagnes opzet, je doelgroep bereikt en meer omzet haalt.",
-                        "image": "https://www.empowers.nl/images/blogs/meta-ads-webshops-verhoog-omzet.jpg",
-                        "datePublished": "2026-04-11T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Meta Ads voor webshops: zo verhoog je je omzet",
+                            "description": "Meta Ads voor webshops leveren gemiddeld een ROAS van 4 tot 8 als je het goed aanpakt. Lees hoe je campagnes opzet, je doelgroep bereikt en meer omzet haalt.",
+                            "image": "https://www.empowers.nl/images/blogs/meta-ads-webshops-verhoog-omzet.jpg",
+                            "datePublished": "2026-04-11T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel budget heb je nodig voor Meta Ads als webshop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Start met minimaal 500 tot 1000 euro per maand aan advertentiebudget. Daarmee test je twee tot drie doelgroepen en meerdere advertenties. Na twee tot drie weken heb je genoeg data om te zien wat werkt. Schaal daarna op met 15 tot 20 procent per week op de winnende combinaties."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede ROAS voor een webshop op Meta Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een gezonde ROAS voor webshops via Meta Ads ligt tussen 4 en 8. Dat betekent dat je voor elke euro die je uitgeeft, 4 tot 8 euro terugkrijgt in omzet. Het hangt af van je marges, productprijs en branche. Fashion en beauty halen vaak hogere ROAS dan elektronica."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werken Meta Ads beter dan Google Ads voor webshops?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat hangt af van je product. Meta Ads zijn sterker voor visuele producten en impulsaankopen. Google Ads werkt beter als mensen actief zoeken naar wat je verkoopt. De beste resultaten behaal je door beide kanalen te combineren: Meta voor ontdekking, Google voor koopintentie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb ik de Meta Pixel nodig voor mijn webshop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, zonder de Meta Pixel mis je 80 procent van het potentieel. De Pixel volgt wat bezoekers doen op je webshop: bekijken, toevoegen aan winkelwagen, kopen. Die data gebruikt Meta om je advertenties te tonen aan mensen die het meest waarschijnlijk kopen. Installeer de Pixel voor je je eerste campagne start."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke campagnetypen werken het beste voor webshops?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Advantage+ Shopping campagnes zijn momenteel het sterkste format voor webshops. Meta's algoritme kiest zelf de beste doelgroep, plaatsing en advertentie. Daarnaast werken Dynamic Product Ads goed voor retargeting: ze tonen automatisch de producten die iemand al heeft bekeken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe voorkom ik dat mijn Meta Ads budget verspild wordt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie dingen: installeer de Pixel correct, test meerdere advertenties tegelijk en sluit irrelevante doelgroepen uit. Controleer wekelijks je frequentie. Als mensen je advertentie meer dan 3 keer zien zonder te klikken, is het tijd voor nieuwe creatives. Schaal alleen op wat aantoonbaar rendeert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik Meta Ads zelf beheren of heb ik een bureau nodig?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Met een budget tot 1000 euro per maand kun je het zelf proberen, mits je tijd investeert in leren. Boven de 1000 euro loont een specialist. Een goed bureau verdient zichzelf terug door hogere ROAS en minder verspilling. Bij Empowers beheren we campagnes vanaf 750 euro per maand."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel budget heb je nodig voor Meta Ads als webshop?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Start met minimaal 500 tot 1000 euro per maand aan advertentiebudget. Daarmee test je twee tot drie doelgroepen en meerdere advertenties. Na twee tot drie weken heb je genoeg data om te zien wat werkt. Schaal daarna op met 15 tot 20 procent per week op de winnende combinaties."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede ROAS voor een webshop op Meta Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een gezonde ROAS voor webshops via Meta Ads ligt tussen 4 en 8. Dat betekent dat je voor elke euro die je uitgeeft, 4 tot 8 euro terugkrijgt in omzet. Het hangt af van je marges, productprijs en branche. Fashion en beauty halen vaak hogere ROAS dan elektronica."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Werken Meta Ads beter dan Google Ads voor webshops?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dat hangt af van je product. Meta Ads zijn sterker voor visuele producten en impulsaankopen. Google Ads werkt beter als mensen actief zoeken naar wat je verkoopt. De beste resultaten behaal je door beide kanalen te combineren: Meta voor ontdekking, Google voor koopintentie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Heb ik de Meta Pixel nodig voor mijn webshop?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, zonder de Meta Pixel mis je 80 procent van het potentieel. De Pixel volgt wat bezoekers doen op je webshop: bekijken, toevoegen aan winkelwagen, kopen. Die data gebruikt Meta om je advertenties te tonen aan mensen die het meest waarschijnlijk kopen. Installeer de Pixel voor je je eerste campagne start."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke campagnetypen werken het beste voor webshops?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Advantage+ Shopping campagnes zijn momenteel het sterkste format voor webshops. Meta's algoritme kiest zelf de beste doelgroep, plaatsing en advertentie. Daarnaast werken Dynamic Product Ads goed voor retargeting: ze tonen automatisch de producten die iemand al heeft bekeken."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe voorkom ik dat mijn Meta Ads budget verspild wordt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie dingen: installeer de Pixel correct, test meerdere advertenties tegelijk en sluit irrelevante doelgroepen uit. Controleer wekelijks je frequentie. Als mensen je advertentie meer dan 3 keer zien zonder te klikken, is het tijd voor nieuwe creatives. Schaal alleen op wat aantoonbaar rendeert."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik Meta Ads zelf beheren of heb ik een bureau nodig?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Met een budget tot 1000 euro per maand kun je het zelf proberen, mits je tijd investeert in leren. Boven de 1000 euro loont een specialist. Een goed bureau verdient zichzelf terug door hogere ROAS en minder verspilling. Bij Empowers beheren we campagnes vanaf 750 euro per maand."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Meta Ads webshops",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-webshops-verhoog-omzet"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Social Ads",
-                                "item": "https://www.empowers.nl/blogs/social-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Meta Ads webshops",
-                                "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-webshops-verhoog-omzet"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

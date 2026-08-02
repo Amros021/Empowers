@@ -29,8 +29,16 @@ export default function BlogPostMetaAdsReelsAdvertentiesEffectief() {
                             "headline": "Meta Ads Reels advertenties: zo zet je ze effectief in",
                             "image": "https://www.empowers.nl/images/blogs/meta-ads-reels-advertenties-effectief.jpg",
                             "description": "Reels-advertenties leveren goedkope impressies, maar alleen als je creatives kloppen. Lees welke video's werken en hoe je Reels-ads bouwt die converteren.",
-                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-05-05T11:00:00+02:00",
                             "dateModified": "2026-05-05T11:00:00+02:00",
                             "url": "https://www.empowers.nl/blogs/social-ads/meta-ads-reels-advertenties-effectief"
@@ -38,27 +46,91 @@ export default function BlogPostMetaAdsReelsAdvertentiesEffectief() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Wat zijn Reels advertenties precies?", "acceptedAnswer": { "@type": "Answer", "text": "Reels-advertenties zijn verticale video-advertenties die tussen organische Reels door op Instagram en Facebook worden getoond. Ze beslaan het volledige scherm, duren maximaal 90 seconden en lopen af met een call-to-action knop. Voor de gebruiker voelt het als een gewone Reel, voor de adverteerder zit er een aparte plaatsing achter binnen Meta Ads Manager." } },
-                                { "@type": "Question", "name": "Werken Reels advertenties beter dan feed-ads?", "acceptedAnswer": { "@type": "Answer", "text": "Voor cold audiences zijn Reels-ads vaak goedkoper per impressie dan feed-plaatsingen, omdat de concurrentie er nog lager is. Voor conversie hangt het af van je product en doelgroep. Webshops met visueel sterke producten halen er veel uit. Voor B2B-diensten kan feed beter werken, omdat de kijktijd daar langer is en er meer tekst geconsumeerd wordt." } },
-                                { "@type": "Question", "name": "Hoe lang moet een Reels advertentie zijn?", "acceptedAnswer": { "@type": "Answer", "text": "De meeste high-performing Reels-ads zitten tussen 15 en 30 seconden. Korter werkt voor herinneren en bekendheid, langer voor uitleg of demonstraties. Onder de 7 seconden mist je vaak te veel ruimte voor een goede hook plus boodschap. Boven de 45 seconden haakt een groot deel van de kijkers af voordat de call-to-action verschijnt." } },
-                                { "@type": "Question", "name": "Welk formaat moet ik gebruiken voor Reels?", "acceptedAnswer": { "@type": "Answer", "text": "Verticaal 9:16 met een resolutie van minimaal 1080 bij 1920 pixels. Houd de bovenste en onderste 14 procent van het beeld vrij van belangrijke elementen, want daar verschijnen de gebruikersnaam, beschrijving en knoppen. Tekst die je in die randen zet, valt achter de UI en wordt niet gelezen." } },
-                                { "@type": "Question", "name": "Moet ik aparte creatives maken voor Reels en feed?", "acceptedAnswer": { "@type": "Answer", "text": "Ja, voor het beste rendement wel. Een feed-versie kan rustiger zijn met meer tekst en bredere shots. Een Reels-versie heeft een hardere hook in de eerste seconde nodig en moet als een echte Reel aanvoelen. Hetzelfde script kan vaak wel, maar de pacing en visuele stijl verschillen. De extra moeite betaalt zich terug in lagere CPA's." } },
-                                { "@type": "Question", "name": "Hoe meet ik of mijn Reels ads goed presteren?", "acceptedAnswer": { "@type": "Answer", "text": "Kijk naar hookrate (kijkers die voorbij de eerste drie seconden komen), gemiddelde kijktijd en doorklikratio. En uiteindelijk de CPA. Reels-ads presteren vaak met hoge hookrate maar iets lagere doorklikratio dan feed-ads. Wat telt is de combinatie. Vergelijk binnen plaatsing, niet over plaatsingen heen, want CPM en intent verschillen." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat zijn Reels advertenties precies?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Reels-advertenties zijn verticale video-advertenties die tussen organische Reels door op Instagram en Facebook worden getoond. Ze beslaan het volledige scherm, duren maximaal 90 seconden en lopen af met een call-to-action knop. Voor de gebruiker voelt het als een gewone Reel, voor de adverteerder zit er een aparte plaatsing achter binnen Meta Ads Manager."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Werken Reels advertenties beter dan feed-ads?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Voor cold audiences zijn Reels-ads vaak goedkoper per impressie dan feed-plaatsingen, omdat de concurrentie er nog lager is. Voor conversie hangt het af van je product en doelgroep. Webshops met visueel sterke producten halen er veel uit. Voor B2B-diensten kan feed beter werken, omdat de kijktijd daar langer is en er meer tekst geconsumeerd wordt."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe lang moet een Reels advertentie zijn?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "De meeste high-performing Reels-ads zitten tussen 15 en 30 seconden. Korter werkt voor herinneren en bekendheid, langer voor uitleg of demonstraties. Onder de 7 seconden mist je vaak te veel ruimte voor een goede hook plus boodschap. Boven de 45 seconden haakt een groot deel van de kijkers af voordat de call-to-action verschijnt."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Welk formaat moet ik gebruiken voor Reels?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Verticaal 9:16 met een resolutie van minimaal 1080 bij 1920 pixels. Houd de bovenste en onderste 14 procent van het beeld vrij van belangrijke elementen, want daar verschijnen de gebruikersnaam, beschrijving en knoppen. Tekst die je in die randen zet, valt achter de UI en wordt niet gelezen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Moet ik aparte creatives maken voor Reels en feed?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, voor het beste rendement wel. Een feed-versie kan rustiger zijn met meer tekst en bredere shots. Een Reels-versie heeft een hardere hook in de eerste seconde nodig en moet als een echte Reel aanvoelen. Hetzelfde script kan vaak wel, maar de pacing en visuele stijl verschillen. De extra moeite betaalt zich terug in lagere CPA's."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe meet ik of mijn Reels ads goed presteren?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Kijk naar hookrate (kijkers die voorbij de eerste drie seconden komen), gemiddelde kijktijd en doorklikratio. En uiteindelijk de CPA. Reels-ads presteren vaak met hoge hookrate maar iets lagere doorklikratio dan feed-ads. Wat telt is de combinatie. Vergelijk binnen plaatsing, niet over plaatsingen heen, want CPM en intent verschillen."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Meta Ads Reels advertenties",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-reels-advertenties-effectief"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Meta Ads Reels advertenties", "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-reels-advertenties-effectief" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Meta Ads Reels advertenties: zo zet je ze effectief in (2026)" />
+        <meta name="twitter:description" content="Reels-advertenties leveren goedkope impressies, maar alleen als je creatives kloppen. Lees welke video's werken, welke f" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

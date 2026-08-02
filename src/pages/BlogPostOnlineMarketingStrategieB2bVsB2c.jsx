@@ -38,108 +38,107 @@ export default function BlogPostOnlineMarketingStrategieB2bVsB2c() {
                 />
                 <meta name="twitter:image" content="https://www.empowers.nl/images/blogs/online-marketing-strategie-b2b-vs-b2c.jpg" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Online marketing strategie voor B2B: dit werkt anders dan B2C",
-                        "description": "B2B en B2C marketing draaien op heel andere knoppen. Zo bouw je een online marketing strategie die past bij langere salescycli en kritischer kopers.",
-                        "image": "https://www.empowers.nl/images/blogs/online-marketing-strategie-b2b-vs-b2c.jpg",
-                        "datePublished": "2026-05-27T09:00:00+02:00",
-                        "dateModified": "2026-05-27T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Online marketing strategie voor B2B: dit werkt anders dan B2C",
+                            "description": "B2B en B2C marketing draaien op heel andere knoppen. Zo bouw je een online marketing strategie die past bij langere salescycli en kritischer kopers.",
+                            "image": "https://www.empowers.nl/images/blogs/online-marketing-strategie-b2b-vs-b2c.jpg",
+                            "datePublished": "2026-05-27T09:00:00+02:00",
+                            "dateModified": "2026-05-27T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
                             }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Online marketing strategie B2B vs B2C",
+                                    "item": "https://www.empowers.nl/blogs/strategie/online-marketing-strategie-b2b-vs-b2c"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is het belangrijkste verschil tussen B2B en B2C marketing?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "B2B heeft een kleinere doelgroep, een langere koopcyclus en meerdere beslissers per deal. B2C draait op snellere, vaak emotionelere keuzes van een individu. Daardoor hoort bij B2B vooral content, LinkedIn en lead nurturing, en bij B2C breder bereik en directe conversies."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Welke kanalen werken het beste voor B2B?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Voor de meeste B2B-bedrijven zijn de sterkste kanalen LinkedIn (organisch en ads), Google Ads op commerciële zoekwoorden, content marketing (whitepapers, cases, blogs) en e-mail. Welke combinatie wint, hangt af van je salescyclus en gemiddelde dealwaarde."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe lang duurt het tot een B2B marketing strategie resultaat oplevert?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Reken op een aanloop van een paar maanden voordat je richting consistente leads gaat. Op LinkedIn en in content komt momentum doorgaans na ruim drie maanden, en op Google Ads kun je sneller meten of zoekvraag en aanbod kloppen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Past Google Ads bij een B2B strategie?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, mits je je richt op zoekwoorden met duidelijke intent en je landingspagina afgestemd is op één rol (bijvoorbeeld inkoper of IT-manager). De volumes zijn kleiner dan in B2C, de kosten per klik meestal hoger, maar de waarde per lead ook."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat moet er in een B2B marketing funnel staan?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Een funnel die past bij een complexe aankoop: educatieve content bovenin (blogs, video), bewijslast in het midden (cases, demo's, whitepapers) en concrete actiepunten onderaan (prijsindicatie, contactformulier, gesprek inplannen). Tussen elke stap zit nurturing via e-mail of retargeting."
+                                    }
+                                }
+                            ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Nieuws",
-                                "item": "https://www.empowers.nl/nieuws"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Strategie",
-                                "item": "https://www.empowers.nl/blogs/strategie"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Online marketing strategie B2B vs B2C",
-                                "item": "https://www.empowers.nl/blogs/strategie/online-marketing-strategie-b2b-vs-b2c"
-                            }
-                        ]
-                    })}
-                </script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": [
-                            {
-                                "@type": "Question",
-                                "name": "Wat is het belangrijkste verschil tussen B2B en B2C marketing?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "B2B heeft een kleinere doelgroep, een langere koopcyclus en meerdere beslissers per deal. B2C draait op snellere, vaak emotionelere keuzes van een individu. Daardoor hoort bij B2B vooral content, LinkedIn en lead nurturing, en bij B2C breder bereik en directe conversies."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Welke kanalen werken het beste voor B2B?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Voor de meeste B2B-bedrijven zijn de sterkste kanalen LinkedIn (organisch en ads), Google Ads op commerciële zoekwoorden, content marketing (whitepapers, cases, blogs) en e-mail. Welke combinatie wint, hangt af van je salescyclus en gemiddelde dealwaarde."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Hoe lang duurt het tot een B2B marketing strategie resultaat oplevert?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Reken op een aanloop van een paar maanden voordat je richting consistente leads gaat. Op LinkedIn en in content komt momentum doorgaans na ruim drie maanden, en op Google Ads kun je sneller meten of zoekvraag en aanbod kloppen."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Past Google Ads bij een B2B strategie?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Ja, mits je je richt op zoekwoorden met duidelijke intent en je landingspagina afgestemd is op één rol (bijvoorbeeld inkoper of IT-manager). De volumes zijn kleiner dan in B2C, de kosten per klik meestal hoger, maar de waarde per lead ook."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Wat moet er in een B2B marketing funnel staan?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Een funnel die past bij een complexe aankoop: educatieve content bovenin (blogs, video), bewijslast in het midden (cases, demo's, whitepapers) en concrete actiepunten onderaan (prijsindicatie, contactformulier, gesprek inplannen). Tussen elke stap zit nurturing via e-mail of retargeting."
-                                }
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -28,89 +28,114 @@ export default function BlogPostLlmZichtbaarheidMeten() {
                 <meta name="twitter:title" content="LLM-zichtbaarheid meten: zo weet je of AI jou ziet" />
                 <meta name="twitter:description" content="Zo meet je of AI-tools jouw content citeren en hoe je die metingen omzet naar groei." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "LLM-zichtbaarheid meten: zo weet je of AI jou ziet",
-                        "description": "LLM-zichtbaarheid meten betekent checken of AI-tools jouw content citeren. Lees welke tools je hiervoor gebruikt, welke signalen tellen en hoe je de metingen omzet naar groei.",
-                        "image": "https://www.empowers.nl/images/blogs/llm-zichtbaarheid-meten-ai-ziet.jpg",
-                        "datePublished": "2026-04-22T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "LLM-zichtbaarheid meten: zo weet je of AI jou ziet",
+                            "description": "LLM-zichtbaarheid meten betekent checken of AI-tools jouw content citeren. Lees welke tools je hiervoor gebruikt, welke signalen tellen en hoe je de metingen omzet naar groei.",
+                            "image": "https://www.empowers.nl/images/blogs/llm-zichtbaarheid-meten-ai-ziet.jpg",
+                            "datePublished": "2026-04-22T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat betekent LLM-zichtbaarheid precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "LLM-zichtbaarheid is de mate waarin grote taalmodellen zoals ChatGPT, Claude, Perplexity en Gemini jouw merk, website of content oppakken in hun antwoorden. Het gaat om twee dingen: of ze jouw content kennen en of ze die daadwerkelijk citeren in antwoorden aan eindgebruikers."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke tools meten LLM-zichtbaarheid?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De bekendste tools zijn Peec AI, Profound, Otterly.ai, AthenaHQ en Bluegill. Ze simuleren prompts die jouw doelgroep stelt en loggen hoe vaak jouw domein als bron verschijnt. Voor een snelle gratis check gebruik je de zoekfunctie in ChatGPT of Perplexity zelf."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet je LLM-zichtbaarheid meten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een wekelijkse of tweewekelijkse meting werkt voor de meeste bedrijven. Modellen updaten hun indexen en antwoorden veranderen sneller dan in klassieke SEO. Meet altijd rond een vaste dag en tijd, want antwoorden wisselen gedurende de dag."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede LLM-zichtbaarheidsscore?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Er is geen harde norm. Bij onze klanten zien we dat een share of voice van 10 tot 25 procent binnen een duidelijk gedefinieerd onderwerp al serieuze impact geeft. Groter dan je denkt, want AI-tools tonen gemiddeld maar drie tot vijf bronnen per antwoord."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Helpt een hoge Google-ranking bij LLM-zichtbaarheid?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Gedeeltelijk. Google AI Overviews leunen sterk op de reguliere Google-index, dus een goede ranking helpt daar direct. ChatGPT en Perplexity gebruiken andere bronnen en eigen indexen. Een goede SEO-basis is nuttig, maar geen garantie voor citaties in andere AI-tools."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kun je LLM-zichtbaarheid zelf meten zonder dure tool?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Maak een lijst van vijftien tot dertig prompts die jouw doelgroep zou stellen, stel ze handmatig aan ChatGPT, Perplexity en Google AI Overviews, en leg vast welke bronnen worden genoemd. Zet dat in een spreadsheet. Dat kost tijd, maar geeft een eerlijk basisbeeld."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat betekent LLM-zichtbaarheid precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "LLM-zichtbaarheid is de mate waarin grote taalmodellen zoals ChatGPT, Claude, Perplexity en Gemini jouw merk, website of content oppakken in hun antwoorden. Het gaat om twee dingen: of ze jouw content kennen en of ze die daadwerkelijk citeren in antwoorden aan eindgebruikers."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke tools meten LLM-zichtbaarheid?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De bekendste tools zijn Peec AI, Profound, Otterly.ai, AthenaHQ en Bluegill. Ze simuleren prompts die jouw doelgroep stelt en loggen hoe vaak jouw domein als bron verschijnt. Voor een snelle gratis check gebruik je de zoekfunctie in ChatGPT of Perplexity zelf."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak moet je LLM-zichtbaarheid meten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een wekelijkse of tweewekelijkse meting werkt voor de meeste bedrijven. Modellen updaten hun indexen en antwoorden veranderen sneller dan in klassieke SEO. Meet altijd rond een vaste dag en tijd, want antwoorden wisselen gedurende de dag."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede LLM-zichtbaarheidsscore?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Er is geen harde norm. Bij onze klanten zien we dat een share of voice van 10 tot 25 procent binnen een duidelijk gedefinieerd onderwerp al serieuze impact geeft. Groter dan je denkt, want AI-tools tonen gemiddeld maar drie tot vijf bronnen per antwoord."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Helpt een hoge Google-ranking bij LLM-zichtbaarheid?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Gedeeltelijk. Google AI Overviews leunen sterk op de reguliere Google-index, dus een goede ranking helpt daar direct. ChatGPT en Perplexity gebruiken andere bronnen en eigen indexen. Een goede SEO-basis is nuttig, maar geen garantie voor citaties in andere AI-tools."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kun je LLM-zichtbaarheid zelf meten zonder dure tool?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Maak een lijst van vijftien tot dertig prompts die jouw doelgroep zou stellen, stel ze handmatig aan ChatGPT, Perplexity en Google AI Overviews, en leg vast welke bronnen worden genoemd. Zet dat in een spreadsheet. Dat kost tijd, maar geeft een eerlijk basisbeeld."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "LLM-zichtbaarheid meten",
+                                    "item": "https://www.empowers.nl/blogs/geo/llm-zichtbaarheid-meten-ai-ziet"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "LLM-zichtbaarheid meten", "item": "https://www.empowers.nl/blogs/geo/llm-zichtbaarheid-meten-ai-ziet" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

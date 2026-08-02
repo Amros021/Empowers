@@ -28,97 +28,122 @@ export default function BlogPostLinkedinAbmAccountBasedMarketing() {
                 <meta name="twitter:title" content="LinkedIn ABM: Account-Based Marketing effectief inzetten" />
                 <meta name="twitter:description" content="Een praktische ABM-aanpak in LinkedIn voor B2B-bedrijven met een lange salescyclus." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "LinkedIn ABM: Account-Based Marketing effectief inzetten",
-                        "description": "Een praktische ABM-aanpak in LinkedIn: van accountlijst tot campagnes en meetbare resultaten.",
-                        "image": "https://www.empowers.nl/images/blogs/linkedin-abm-account-based-marketing.jpg",
-                        "datePublished": "2026-05-07T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "LinkedIn ABM: Account-Based Marketing effectief inzetten",
+                            "description": "Een praktische ABM-aanpak in LinkedIn: van accountlijst tot campagnes en meetbare resultaten.",
+                            "image": "https://www.empowers.nl/images/blogs/linkedin-abm-account-based-marketing.jpg",
+                            "datePublished": "2026-05-07T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is Account-Based Marketing op LinkedIn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Account-Based Marketing op LinkedIn betekent dat je een vooraf vastgestelde lijst van bedrijven targeting krijgt in plaats van een brede demografische doelgroep. Je upload een accountlijst, LinkedIn matcht die met bedrijfspagina's, en de advertenties worden alleen getoond aan medewerkers van die specifieke organisaties."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel bedrijven moeten op mijn accountlijst staan?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "LinkedIn vereist minimaal 300 matched bedrijven om een campagne te kunnen draaien, met een aanbeveling om naar 1.000 plus te gaan voor goede targeting. Voor zinvol bereik werkt een lijst van 5.000 tot 10.000 bedrijven het beste, omdat dan voldoende medewerkers per bedrijf in de doelgroep zitten. Voor zeer specifieke high-value accounts werkt een kleinere lijst alleen als je tegelijkertijd persoonlijke benadering vanuit sales meedraait."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke LinkedIn-formats werken het beste voor ABM?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Sponsored Content voor brand awareness binnen target accounts en Lead Gen Forms voor conversie werken doorgaans het beste. Conversation Ads zijn geschikt zodra je accountlijst groter dan 500 medewerkers oplevert. Combineer formats: gebruik Sponsored Content om eerst herkenbaarheid op te bouwen, dan een Lead Gen Form of Conversation Ad om de relatie te verdiepen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet je het succes van een ABM-campagne?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "ABM meet je niet op clicks of CPL, maar op accountniveau. Belangrijke metrics zijn: aantal Marketing Qualified Accounts, engagement-niveau per account (hoeveel mensen binnen een bedrijf hebben jouw content gezien), pipeline-impact en uiteindelijk de gewonnen deals binnen de target lijst. LinkedIn's Account Insights laat per bedrijf zien hoeveel medewerkers betrokken zijn."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen ABM en gewone B2B-targeting?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Gewone B2B-targeting kiest doelgroepen op basis van demografische kenmerken zoals functie, branche of bedrijfsgrootte. ABM kiest specifieke bedrijven en richt zich daar volledig op. Het verschil zit in de aanpak: bij ABM tellen sales en marketing samen welke accounts ertoe doen en bouwen daar gezamenlijk omheen, in plaats van leads via een trechter te jagen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost een ABM-campagne op LinkedIn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "ABM-campagnes op LinkedIn kosten doorgaans meer per CPM of CPC dan brede B2B-campagnes, omdat je een specifieke doelgroep aanspreekt waar veel concurrentie op zit. Reken op CPM's tussen 30 en 80 euro voor Sponsored Content. Voor een serieus ABM-programma met meerdere formats en accounts adviseren wij een minimum maandbudget rond de 3.000 euro."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb je sales nodig om ABM te laten werken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. ABM werkt alleen als marketing en sales op dezelfde accountlijst sturen. Marketing bouwt herkenbaarheid en levert engagement signalen, sales gebruikt die signalen voor outreach via Sales Navigator of e-mail. Zonder sales-betrokkenheid blijven leads in de inbox hangen omdat niemand het accountniveau bewaakt."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is Account-Based Marketing op LinkedIn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Account-Based Marketing op LinkedIn betekent dat je een vooraf vastgestelde lijst van bedrijven targeting krijgt in plaats van een brede demografische doelgroep. Je upload een accountlijst, LinkedIn matcht die met bedrijfspagina's, en de advertenties worden alleen getoond aan medewerkers van die specifieke organisaties."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel bedrijven moeten op mijn accountlijst staan?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "LinkedIn vereist minimaal 300 matched bedrijven om een campagne te kunnen draaien, met een aanbeveling om naar 1.000 plus te gaan voor goede targeting. Voor zinvol bereik werkt een lijst van 5.000 tot 10.000 bedrijven het beste, omdat dan voldoende medewerkers per bedrijf in de doelgroep zitten. Voor zeer specifieke high-value accounts werkt een kleinere lijst alleen als je tegelijkertijd persoonlijke benadering vanuit sales meedraait."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke LinkedIn-formats werken het beste voor ABM?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Sponsored Content voor brand awareness binnen target accounts en Lead Gen Forms voor conversie werken doorgaans het beste. Conversation Ads zijn geschikt zodra je accountlijst groter dan 500 medewerkers oplevert. Combineer formats: gebruik Sponsored Content om eerst herkenbaarheid op te bouwen, dan een Lead Gen Form of Conversation Ad om de relatie te verdiepen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe meet je het succes van een ABM-campagne?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "ABM meet je niet op clicks of CPL, maar op accountniveau. Belangrijke metrics zijn: aantal Marketing Qualified Accounts, engagement-niveau per account (hoeveel mensen binnen een bedrijf hebben jouw content gezien), pipeline-impact en uiteindelijk de gewonnen deals binnen de target lijst. LinkedIn's Account Insights laat per bedrijf zien hoeveel medewerkers betrokken zijn."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen ABM en gewone B2B-targeting?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Gewone B2B-targeting kiest doelgroepen op basis van demografische kenmerken zoals functie, branche of bedrijfsgrootte. ABM kiest specifieke bedrijven en richt zich daar volledig op. Het verschil zit in de aanpak: bij ABM tellen sales en marketing samen welke accounts ertoe doen en bouwen daar gezamenlijk omheen, in plaats van leads via een trechter te jagen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat kost een ABM-campagne op LinkedIn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "ABM-campagnes op LinkedIn kosten doorgaans meer per CPM of CPC dan brede B2B-campagnes, omdat je een specifieke doelgroep aanspreekt waar veel concurrentie op zit. Reken op CPM's tussen 30 en 80 euro voor Sponsored Content. Voor een serieus ABM-programma met meerdere formats en accounts adviseren wij een minimum maandbudget rond de 3.000 euro."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Heb je sales nodig om ABM te laten werken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. ABM werkt alleen als marketing en sales op dezelfde accountlijst sturen. Marketing bouwt herkenbaarheid en levert engagement signalen, sales gebruikt die signalen voor outreach via Sales Navigator of e-mail. Zonder sales-betrokkenheid blijven leads in de inbox hangen omdat niemand het accountniveau bewaakt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "LinkedIn ABM",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/linkedin-abm-account-based-marketing"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "LinkedIn ABM", "item": "https://www.empowers.nl/blogs/social-ads/linkedin-abm-account-based-marketing" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

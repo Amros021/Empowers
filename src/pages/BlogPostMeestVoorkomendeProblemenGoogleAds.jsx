@@ -28,112 +28,114 @@ export default function BlogPostMeestVoorkomendeProblemenGoogleAds() {
                 <meta name="twitter:title" content="De meest voorkomende problemen in Google Ads" />
                 <meta name="twitter:description" content="9 problemen die je budget verbranden — en hoe je ze vandaag nog oplost." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "De meest voorkomende problemen in Google Ads (en hoe je ze oplost)",
-                        "description": "Verbrand jij budget in Google Ads zonder resultaat? Ontdek de 9 meest voorkomende problemen in Google Ads en hoe je ze stap voor stap oplost.",
-                        "image": "https://www.empowers.nl/images/blogs/meest-voorkomende-problemen-google-ads.jpg",
-                        "datePublished": "2026-04-08T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "De meest voorkomende problemen in Google Ads (en hoe je ze oplost)",
+                            "description": "Verbrand jij budget in Google Ads zonder resultaat? Ontdek de 9 meest voorkomende problemen in Google Ads en hoe je ze stap voor stap oplost.",
+                            "image": "https://www.empowers.nl/images/blogs/meest-voorkomende-problemen-google-ads.jpg",
+                            "datePublished": "2026-04-08T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn de meest voorkomende problemen in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De problemen die we het vaakst tegenkomen zijn: ontbrekende of foute conversietracking, te brede zoekwoorden zonder negatives, een rommelige campagnestructuur, slechte landingspagina's, te lage budgetten op winnaars, verkeerde biedstrategieën, onvolledige advertentie-extensies, ongebruikt zoektermenrapport en geen koppeling met Google Analytics 4."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom verbrandt mijn Google Ads budget zonder resultaat?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "In 9 van de 10 gevallen zit het probleem in tracking of in zoekwoorden. Zonder werkende conversietracking weet Google niet wat een goede klant is en optimaliseert het algoritme op het verkeerde signaal. Te brede zoekwoorden zorgen daarnaast voor klikken van mensen die nooit klant worden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe controleer ik of mijn Google Ads tracking goed staat?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Open in Google Ads het tabblad Doelen en kijk of je conversies in de afgelopen 7 dagen 'OK' staan. Doe daarna een testaankoop of testlead en controleer of de conversie binnen 24 uur in het account verschijnt. Geen melding? Dan is je tag fout geplaatst of staat de conversie niet als primair ingesteld."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel negatieve zoekwoorden moet ik gebruiken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Er is geen vast aantal, maar een gezond account heeft tientallen tot honderden negatieve zoekwoorden. Loop wekelijks het zoektermenrapport door en voeg alles toe wat niet bij je dienst of product past. Zo houd je verkeer schoon en je klikprijs laag."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is mijn Google Ads campagne te klein om winst te maken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Onder de 300 euro per maand is het lastig om voldoende data te verzamelen voor goede optimalisatie. Het algoritme heeft minimaal 30 conversies in 30 dagen nodig om automatisch te kunnen bieden. Heb je dat niet, kies dan handmatig bieden of verklein je doelgroep."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een veelgemaakte fout met Performance Max?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De grootste fout is Performance Max naast een gewone zoekcampagne draaien zonder accountstructuur. Performance Max kannibaliseert dan je merkverkeer en je betaalt onnodig veel. Sluit altijd je merkterm en bestaande zoekwoorden uit van Performance Max."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat zijn de meest voorkomende problemen in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De problemen die we het vaakst tegenkomen zijn: ontbrekende of foute conversietracking, te brede zoekwoorden zonder negatives, een rommelige campagnestructuur, slechte landingspagina's, te lage budgetten op winnaars, verkeerde biedstrategieën, onvolledige advertentie-extensies, ongebruikt zoektermenrapport en geen koppeling met Google Analytics 4."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom verbrandt mijn Google Ads budget zonder resultaat?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "In 9 van de 10 gevallen zit het probleem in tracking of in zoekwoorden. Zonder werkende conversietracking weet Google niet wat een goede klant is en optimaliseert het algoritme op het verkeerde signaal. Te brede zoekwoorden zorgen daarnaast voor klikken van mensen die nooit klant worden."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe controleer ik of mijn Google Ads tracking goed staat?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Open in Google Ads het tabblad Doelen en kijk of je conversies in de afgelopen 7 dagen 'OK' staan. Doe daarna een testaankoop of testlead en controleer of de conversie binnen 24 uur in het account verschijnt. Geen melding? Dan is je tag fout geplaatst of staat de conversie niet als primair ingesteld."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel negatieve zoekwoorden moet ik gebruiken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Er is geen vast aantal, maar een gezond account heeft tientallen tot honderden negatieve zoekwoorden. Loop wekelijks het zoektermenrapport door en voeg alles toe wat niet bij je dienst of product past. Zo houd je verkeer schoon en je klikprijs laag."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wanneer is mijn Google Ads campagne te klein om winst te maken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Onder de 300 euro per maand is het lastig om voldoende data te verzamelen voor goede optimalisatie. Het algoritme heeft minimaal 30 conversies in 30 dagen nodig om automatisch te kunnen bieden. Heb je dat niet, kies dan handmatig bieden of verklein je doelgroep."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is een veelgemaakte fout met Performance Max?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De grootste fout is Performance Max naast een gewone zoekcampagne draaien zonder accountstructuur. Performance Max kannibaliseert dan je merkverkeer en je betaalt onnodig veel. Sluit altijd je merkterm en bestaande zoekwoorden uit van Performance Max."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Meest voorkomende problemen in Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/meest-voorkomende-problemen-google-ads"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Meest voorkomende problemen in Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads/meest-voorkomende-problemen-google-ads"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

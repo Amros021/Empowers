@@ -28,120 +28,122 @@ export default function BlogPostMetaAdsUitbesteden() {
                 <meta name="twitter:title" content="Meta Ads uitbesteden: wat doet een bureau voor jou?" />
                 <meta name="twitter:description" content="Meta Ads uitbesteden kost 500 tot 2500 euro per maand. Lees wat een bureau doet en wanneer het loont." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Meta Ads uitbesteden: wat doet een bureau voor jou?",
-                        "description": "Meta Ads uitbesteden kost 500 tot 2500 euro per maand. Lees wat een bureau doet, wanneer het loont en waar je op let voordat je kiest.",
-                        "image": "https://www.empowers.nl/images/blogs/meta-ads-uitbesteden-bureau-jou.jpg",
-                        "datePublished": "2026-03-29T00:00:00+01:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Meta Ads uitbesteden: wat doet een bureau voor jou?",
+                            "description": "Meta Ads uitbesteden kost 500 tot 2500 euro per maand. Lees wat een bureau doet, wanneer het loont en waar je op let voordat je kiest.",
+                            "image": "https://www.empowers.nl/images/blogs/meta-ads-uitbesteden-bureau-jou.jpg",
+                            "datePublished": "2026-03-29T00:00:00+01:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost Meta Ads uitbesteden per maand?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op 500 tot 2500 euro per maand aan beheerkosten, bovenop je advertentiebudget. De exacte prijs hangt af van het aantal campagnes, de complexiteit van je doelgroepen en of je ook creative laat maken door het bureau."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik Meta Ads niet gewoon zelf doen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, maar het kost meer tijd dan je denkt. Doelgroepen instellen, advertenties testen, budgetten verdelen en resultaten analyseren vraagt 8 tot 15 uur per week. Als je die tijd niet hebt of je campagnes presteren ondermaats, is uitbesteden slimmer."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe snel zie ik resultaat na het uitbesteden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De eerste verbeteringen zie je meestal binnen 2 tot 4 weken. Een bureau heeft 1 tot 2 maanden nodig om campagnes volledig te testen en de beste doelgroepen en advertenties te vinden. Na 3 maanden moet de ROAS stabiel stijgen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen Meta Ads en Facebook Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Geen verschil. Facebook Ads heet officieel Meta Ads sinds de naamswijziging in 2021. Het platform omvat advertenties op Facebook, Instagram, Messenger en het Audience Network. Alles wordt beheerd vanuit hetzelfde Meta Business Suite dashboard."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb ik een groot budget nodig voor Meta Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. Je kunt al beginnen met 500 euro per maand aan advertentiebudget. Maar onder de 300 euro per maand heeft het algoritme te weinig data om goed te presteren. Een budget van 1000 tot 3000 euro per maand is de sweet spot voor MKB-bedrijven."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet het bureau ook mijn advertenties ontwerpen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet per se, maar het is wel aan te raden. Goede visuals en video maken het verschil op Meta. Veel bureaus bieden creative als onderdeel van hun pakket aan. Vraag vooraf wat er bij de beheervergoeding inbegrepen is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of een Meta Ads bureau goed is?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Check hun eigen advertenties en social media. Vraag om case studies met concrete ROAS-cijfers. Een goed bureau laat resultaten zien, stelt vragen over jouw doelen en legt helder uit wat ze gaan doen. Geen vage beloftes, maar data."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost Meta Ads uitbesteden per maand?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op 500 tot 2500 euro per maand aan beheerkosten, bovenop je advertentiebudget. De exacte prijs hangt af van het aantal campagnes, de complexiteit van je doelgroepen en of je ook creative laat maken door het bureau."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Kan ik Meta Ads niet gewoon zelf doen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, maar het kost meer tijd dan je denkt. Doelgroepen instellen, advertenties testen, budgetten verdelen en resultaten analyseren vraagt 8 tot 15 uur per week. Als je die tijd niet hebt of je campagnes presteren ondermaats, is uitbesteden slimmer."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe snel zie ik resultaat na het uitbesteden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De eerste verbeteringen zie je meestal binnen 2 tot 4 weken. Een bureau heeft 1 tot 2 maanden nodig om campagnes volledig te testen en de beste doelgroepen en advertenties te vinden. Na 3 maanden moet de ROAS stabiel stijgen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen Meta Ads en Facebook Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Geen verschil. Facebook Ads heet officieel Meta Ads sinds de naamswijziging in 2021. Het platform omvat advertenties op Facebook, Instagram, Messenger en het Audience Network. Alles wordt beheerd vanuit hetzelfde Meta Business Suite dashboard."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Heb ik een groot budget nodig voor Meta Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee. Je kunt al beginnen met 500 euro per maand aan advertentiebudget. Maar onder de 300 euro per maand heeft het algoritme te weinig data om goed te presteren. Een budget van 1000 tot 3000 euro per maand is de sweet spot voor MKB-bedrijven."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet het bureau ook mijn advertenties ontwerpen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet per se, maar het is wel aan te raden. Goede visuals en video maken het verschil op Meta. Veel bureaus bieden creative als onderdeel van hun pakket aan. Vraag vooraf wat er bij de beheervergoeding inbegrepen is."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe weet ik of een Meta Ads bureau goed is?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Check hun eigen advertenties en social media. Vraag om case studies met concrete ROAS-cijfers. Een goed bureau laat resultaten zien, stelt vragen over jouw doelen en legt helder uit wat ze gaan doen. Geen vage beloftes, maar data."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Meta Ads uitbesteden",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-uitbesteden-bureau-jou"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Social Ads",
-                                "item": "https://www.empowers.nl/blogs/social-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Meta Ads uitbesteden",
-                                "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-uitbesteden-bureau-jou"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

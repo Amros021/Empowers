@@ -28,112 +28,114 @@ export default function BlogPostMetaAdsDoelgroepenInstellen() {
                 <meta name="twitter:title" content="Meta Ads doelgroepen instellen: zo bereik je de juiste mensen" />
                 <meta name="twitter:description" content="Meta Ads doelgroepen instellen bepaalt of je advertenties presteren of geld verbranden. Zo doe je het goed in 2026." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Meta Ads doelgroepen instellen: zo bereik je de juiste mensen",
-                        "description": "Meta Ads doelgroepen instellen bepaalt of je advertenties presteren of geld verbranden. Lees hoe je interesses, custom audiences en lookalikes inzet voor meer omzet.",
-                        "image": "https://www.empowers.nl/images/blogs/meta-ads-doelgroepen.jpg",
-                        "datePublished": "2026-04-14T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Meta Ads doelgroepen instellen: zo bereik je de juiste mensen",
+                            "description": "Meta Ads doelgroepen instellen bepaalt of je advertenties presteren of geld verbranden. Lees hoe je interesses, custom audiences en lookalikes inzet voor meer omzet.",
+                            "image": "https://www.empowers.nl/images/blogs/meta-ads-doelgroepen.jpg",
+                            "datePublished": "2026-04-14T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede grootte voor een Meta Ads doelgroep?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste MKB-adverteerders werkt een doelgroep van 500.000 tot 2 miljoen mensen het beste. Te klein en het algoritme krijgt te weinig data om te leren. Te groot en je verspilt budget aan mensen die niet relevant zijn. Bij Advantage+ campagnes mag je breder gaan, omdat het algoritme zelf de juiste mensen vindt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel doelgroepen moet ik testen in Meta Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin met 2 tot 4 doelgroepen per campagne. Eén interessegerichte doelgroep, één lookalike, één custom audience en eventueel een brede Advantage+ doelgroep. Geef elke doelgroep minimaal 7 dagen en 50 conversies om eerlijk te kunnen vergelijken. Daarna schaal je op wat werkt en stop je wat onderpresteert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werken interesse-targeting doelgroepen in 2026 nog?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, maar minder dan vroeger. Door iOS-privacywijzigingen en het verdwijnen van detailed targeting opties is het algoritme leidend geworden. Interesses zijn nu een startsignaal, geen exacte filter. Een brede doelgroep met goede creatives presteert vaak beter dan een nauwkeurig getargete doelgroep met middelmatige creatives."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen een custom audience en een lookalike audience?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een custom audience bestaat uit mensen die jouw bedrijf al kennen: websitebezoekers, klantenlijsten, video kijkers of Instagram volgers. Een lookalike audience is gebaseerd op een custom audience en bevat mensen die op die groep lijken. Custom audiences gebruik je voor retargeting en upsell. Lookalikes gebruik je om nieuwe klanten te vinden die op je beste klanten lijken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik mijn doelgroepen handmatig instellen of Advantage+ gebruiken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat hangt af van je dataset. Heb je veel conversiedata en een goed werkende Pixel of Conversie API, dan presteert Advantage+ vaak beter. Heb je een nieuwe campagne of weinig data, dan geeft handmatige targeting je meer controle om het algoritme te trainen. Vaak werkt een combinatie het beste: een Advantage+ campagne naast een handmatig getargete campagne om te vergelijken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet ik mijn Meta Ads doelgroepen aanpassen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet te vaak. Pas je doelgroep alleen aan na minimaal 7 tot 14 dagen, en alleen als de data daar reden toe geeft. Het algoritme heeft tijd nodig om te leren. Custom audiences zoals websitebezoekers en klantenlijsten ververs je elke maand. Lookalikes laat je doorlopend draaien en herbouw je elk kwartaal met de nieuwste data."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede grootte voor een Meta Ads doelgroep?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de meeste MKB-adverteerders werkt een doelgroep van 500.000 tot 2 miljoen mensen het beste. Te klein en het algoritme krijgt te weinig data om te leren. Te groot en je verspilt budget aan mensen die niet relevant zijn. Bij Advantage+ campagnes mag je breder gaan, omdat het algoritme zelf de juiste mensen vindt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel doelgroepen moet ik testen in Meta Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin met 2 tot 4 doelgroepen per campagne. Eén interessegerichte doelgroep, één lookalike, één custom audience en eventueel een brede Advantage+ doelgroep. Geef elke doelgroep minimaal 7 dagen en 50 conversies om eerlijk te kunnen vergelijken. Daarna schaal je op wat werkt en stop je wat onderpresteert."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Werken interesse-targeting doelgroepen in 2026 nog?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, maar minder dan vroeger. Door iOS-privacywijzigingen en het verdwijnen van detailed targeting opties is het algoritme leidend geworden. Interesses zijn nu een startsignaal, geen exacte filter. Een brede doelgroep met goede creatives presteert vaak beter dan een nauwkeurig getargete doelgroep met middelmatige creatives."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen een custom audience en een lookalike audience?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een custom audience bestaat uit mensen die jouw bedrijf al kennen: websitebezoekers, klantenlijsten, video kijkers of Instagram volgers. Een lookalike audience is gebaseerd op een custom audience en bevat mensen die op die groep lijken. Custom audiences gebruik je voor retargeting en upsell. Lookalikes gebruik je om nieuwe klanten te vinden die op je beste klanten lijken."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik mijn doelgroepen handmatig instellen of Advantage+ gebruiken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dat hangt af van je dataset. Heb je veel conversiedata en een goed werkende Pixel of Conversie API, dan presteert Advantage+ vaak beter. Heb je een nieuwe campagne of weinig data, dan geeft handmatige targeting je meer controle om het algoritme te trainen. Vaak werkt een combinatie het beste: een Advantage+ campagne naast een handmatig getargete campagne om te vergelijken."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak moet ik mijn Meta Ads doelgroepen aanpassen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet te vaak. Pas je doelgroep alleen aan na minimaal 7 tot 14 dagen, en alleen als de data daar reden toe geeft. Het algoritme heeft tijd nodig om te leren. Custom audiences zoals websitebezoekers en klantenlijsten ververs je elke maand. Lookalikes laat je doorlopend draaien en herbouw je elk kwartaal met de nieuwste data."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Meta Ads doelgroepen instellen",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-doelgroepen"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Social Ads",
-                                "item": "https://www.empowers.nl/blogs/social-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Meta Ads doelgroepen instellen",
-                                "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-doelgroepen"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

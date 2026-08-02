@@ -28,87 +28,114 @@ export default function BlogPostMaximaliseerConversiesVsDoelCpa() {
                 <meta name="twitter:title" content="Maximaliseer Conversies vs Doel-CPA: wanneer wat?" />
                 <meta name="twitter:description" content="Praktische gids om de juiste biedstrategie te kiezen." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Maximaliseer Conversies vs Doel-CPA in Google Ads: wanneer wat?",
-                        "description": "Twee biedstrategieën, twee verschillende doelen. Wanneer Maximaliseer Conversies sterker werkt dan Doel-CPA en andersom.",
-                        "image": "https://www.empowers.nl/images/blogs/maximaliseer-conversies-vs-doel-cpa.jpg",
-                        "datePublished": "2026-05-14T13:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Maximaliseer Conversies vs Doel-CPA in Google Ads: wanneer wat?",
+                            "description": "Twee biedstrategieën, twee verschillende doelen. Wanneer Maximaliseer Conversies sterker werkt dan Doel-CPA en andersom.",
+                            "image": "https://www.empowers.nl/images/blogs/maximaliseer-conversies-vs-doel-cpa.jpg",
+                            "datePublished": "2026-05-14T13:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen Maximaliseer Conversies en Doel-CPA?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Maximaliseer Conversies probeert binnen je budget zoveel mogelijk conversies te halen, zonder vaste prijslimiet per conversie. Doel-CPA stuurt op een gemiddelde kost per conversie die jij instelt. Maximaliseer Conversies is geschikt als je vooral volume wilt of nog onvoldoende historie hebt. Doel-CPA past wanneer je weet wat een conversie maximaal mag kosten en je rendement wilt beheersen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer kies ik Maximaliseer Conversies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij nieuwe campagnes zonder voldoende historische data, bij sterke volumegroei waarbij je marktaandeel wilt veroveren, of als de waarde per conversie hoog genoeg is om kostschommelingen op te vangen. Ook geschikt als je conversievolume per maand onder de drempel zit waarbij Doel-CPA betrouwbaar werkt, doorgaans rond de 30 conversies per maand."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer kies ik Doel-CPA?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Zodra je campagne een stabiele historie heeft, doorgaans minstens 30 conversies per maand, en je weet wat een conversie maximaal mag kosten op basis van je marge of customer lifetime value. Doel-CPA voorkomt dat het algoritme dure clicks koopt om het volume vol te houden en past beter bij marges die scherp zijn."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel conversies heb je nodig voor Doel-CPA?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google adviseert minimaal 30 conversies in 30 dagen voordat Doel-CPA betrouwbaar genoeg werkt. Onder die drempel mist het algoritme genoeg leerdata om consistent op CPA te sturen. Bij minder volume blijf je beter op Maximaliseer Conversies, eventueel met een dagbudget-limiet, en wacht je tot je voldoende historie hebt voor de overstap."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe stel ik mijn Doel-CPA juist in?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Start bij je werkelijke gemiddelde CPA van de afgelopen 30 dagen. Stel je doel daar 10 tot 15 procent onder als je rendement wilt verbeteren, maar niet veel scherper, anders verstik je het volume. Pas je doel maandelijks aan op basis van wat de campagne werkelijk levert. Een te ambitieus Doel-CPA leidt tot lage impressievolumes en gemiste kansen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat doe ik als Doel-CPA niet werkt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie controles. Eerst: zit je boven de 30 conversies per maand? Zo nee, dan is Doel-CPA te vroeg ingezet. Tweede: is je doel realistisch, oftewel niet meer dan 10 tot 15 procent onder je werkelijke CPA? Derde: heb je voldoende creatives en keyword-coverage om het algoritme keuzes te geven? Voldoet alles, geef Doel-CPA dan minimaal twee weken om in te leren voordat je oordeelt."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen Maximaliseer Conversies en Doel-CPA?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Maximaliseer Conversies probeert binnen je budget zoveel mogelijk conversies te halen, zonder vaste prijslimiet per conversie. Doel-CPA stuurt op een gemiddelde kost per conversie die jij instelt. Maximaliseer Conversies is geschikt als je vooral volume wilt of nog onvoldoende historie hebt. Doel-CPA past wanneer je weet wat een conversie maximaal mag kosten en je rendement wilt beheersen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer kies ik Maximaliseer Conversies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij nieuwe campagnes zonder voldoende historische data, bij sterke volumegroei waarbij je marktaandeel wilt veroveren, of als de waarde per conversie hoog genoeg is om kostschommelingen op te vangen. Ook geschikt als je conversievolume per maand onder de drempel zit waarbij Doel-CPA betrouwbaar werkt, doorgaans rond de 30 conversies per maand."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer kies ik Doel-CPA?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Zodra je campagne een stabiele historie heeft, doorgaans minstens 30 conversies per maand, en je weet wat een conversie maximaal mag kosten op basis van je marge of customer lifetime value. Doel-CPA voorkomt dat het algoritme dure clicks koopt om het volume vol te houden en past beter bij marges die scherp zijn."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel conversies heb je nodig voor Doel-CPA?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google adviseert minimaal 30 conversies in 30 dagen voordat Doel-CPA betrouwbaar genoeg werkt. Onder die drempel mist het algoritme genoeg leerdata om consistent op CPA te sturen. Bij minder volume blijf je beter op Maximaliseer Conversies, eventueel met een dagbudget-limiet, en wacht je tot je voldoende historie hebt voor de overstap."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe stel ik mijn Doel-CPA juist in?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Start bij je werkelijke gemiddelde CPA van de afgelopen 30 dagen. Stel je doel daar 10 tot 15 procent onder als je rendement wilt verbeteren, maar niet veel scherper, anders verstik je het volume. Pas je doel maandelijks aan op basis van wat de campagne werkelijk levert. Een te ambitieus Doel-CPA leidt tot lage impressievolumes en gemiste kansen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat doe ik als Doel-CPA niet werkt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie controles. Eerst: zit je boven de 30 conversies per maand? Zo nee, dan is Doel-CPA te vroeg ingezet. Tweede: is je doel realistisch, oftewel niet meer dan 10 tot 15 procent onder je werkelijke CPA? Derde: heb je voldoende creatives en keyword-coverage om het algoritme keuzes te geven? Voldoet alles, geef Doel-CPA dan minimaal twee weken om in te leren voordat je oordeelt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Maximaliseer Conversies vs Doel-CPA",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/maximaliseer-conversies-vs-doel-cpa"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Maximaliseer Conversies vs Doel-CPA", "item": "https://www.empowers.nl/blogs/google-ads/maximaliseer-conversies-vs-doel-cpa" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

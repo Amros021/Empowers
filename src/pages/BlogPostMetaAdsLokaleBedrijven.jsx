@@ -28,97 +28,122 @@ export default function BlogPostMetaAdsLokaleBedrijven() {
                 <meta name="twitter:title" content="Meta Ads voor lokale bedrijven: bereik mensen in jouw buurt" />
                 <meta name="twitter:description" content="Hoe je met Meta Ads klanten uit jouw regio bereikt zonder je budget weg te gooien aan onzichtbaar verkeer." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Meta Ads voor lokale bedrijven: bereik mensen in jouw buurt",
-                        "description": "Meta Ads voor lokale bedrijven werkt als je locatie-targeting, creatives en budget goed afstemt op jouw regio. Lees hoe je klanten uit de buurt bereikt en wat het kost.",
-                        "image": "https://www.empowers.nl/images/blogs/meta-ads-lokale-bedrijven-bereik.jpg",
-                        "datePublished": "2026-05-01T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Meta Ads voor lokale bedrijven: bereik mensen in jouw buurt",
+                            "description": "Meta Ads voor lokale bedrijven werkt als je locatie-targeting, creatives en budget goed afstemt op jouw regio. Lees hoe je klanten uit de buurt bereikt en wat het kost.",
+                            "image": "https://www.empowers.nl/images/blogs/meta-ads-lokale-bedrijven-bereik.jpg",
+                            "datePublished": "2026-05-01T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt Meta Ads voor lokale bedrijven?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, Meta Ads werkt prima voor lokale bedrijven mits je locatie-targeting goed instelt, lokale herkenning in je creatives stopt en realistisch budget per dag inzet. Voor branches als horeca, fysiotherapie, kappers, autobedrijven en kleine retailers leveren campagnes met een straal van 5 tot 25 kilometer rond een vestiging vaak de meeste rendabele leads en klanten op."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel budget heb ik nodig voor lokale Meta Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor een lokaal bedrijf is een minimum van 10 tot 20 euro per dag per campagne realistisch om Meta het algoritme te laten leren. Maandelijks komt dat neer op 300 tot 600 euro per actieve campagne. Een kleine kapper heeft genoeg aan 300 tot 500 euro per maand, een autobedrijf met meerdere vestigingen rekent al snel op 1.500 tot 3.000 euro per maand voor zinvolle resultaten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke straal stel ik in voor lokale Meta Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin met een straal van 5 tot 15 kilometer rond jouw vestiging voor branches waar mensen graag dichtbij zaken doen, zoals horeca, kappers en kinderopvang. Voor specialistische diensten zoals een autobedrijf, tandtechnicus of bruidskledingzaak werkt 25 tot 40 kilometer beter. Test altijd verschillende stralen tegen elkaar en kijk waar de kosten per lead het laagst zijn."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen lokale Meta Ads en Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google Ads bereikt mensen die actief zoeken naar jouw dienst, bijvoorbeeld 'kapper Utrecht'. Meta Ads bereikt mensen die nog niet zoeken maar wel passen bij jouw doelgroep, bijvoorbeeld 25-jarige vrouwen op 5 kilometer afstand met interesse in beauty. Voor lokale bedrijven werken beide kanalen het best in combinatie: Google voor de actieve vraag, Meta voor merkbekendheid en herhaalbezoek."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik of mijn lokale Meta Ads echt werken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Meet niet alleen klikken en weergaven maar ook offline conversies. Vraag nieuwe klanten waar ze je gevonden hebben, gebruik unieke kortingscodes per campagne, koppel telefoongesprekken aan ad clicks en zet de Meta Pixel plus Conversions API in voor websiteverkeer. Lokale bedrijven die dit doen zien al snel of een campagne winstgevend is of niet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke advertentievorm werkt het beste voor lokale bedrijven?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Korte verticale video's tot 15 seconden presteren in 2026 het best voor lokale bedrijven. Toon jouw vestiging, jouw team of jouw product in echte omgeving zonder stockfoto-uitstraling. Carrousels werken voor menukaarten of productlijnen. Statische beelden gebruik je vooral voor remarketing op websitebezoekers en bestaande klantenlijsten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer schakel ik een specialist in voor mijn Meta Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Als je merkt dat je veel uitgeeft maar weinig duidelijke leads krijgt, als je structureel meer dan 800 euro per maand investeert of als je meerdere vestigingen hebt, loont een specialist zich vaak binnen drie maanden terug. Een vakkundige opzet voorkomt verspilling op verkeerde doelgroepen en zorgt dat jouw budget naar de buurt gaat waar jouw klanten daadwerkelijk wonen."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Werkt Meta Ads voor lokale bedrijven?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, Meta Ads werkt prima voor lokale bedrijven mits je locatie-targeting goed instelt, lokale herkenning in je creatives stopt en realistisch budget per dag inzet. Voor branches als horeca, fysiotherapie, kappers, autobedrijven en kleine retailers leveren campagnes met een straal van 5 tot 25 kilometer rond een vestiging vaak de meeste rendabele leads en klanten op."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel budget heb ik nodig voor lokale Meta Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor een lokaal bedrijf is een minimum van 10 tot 20 euro per dag per campagne realistisch om Meta het algoritme te laten leren. Maandelijks komt dat neer op 300 tot 600 euro per actieve campagne. Een kleine kapper heeft genoeg aan 300 tot 500 euro per maand, een autobedrijf met meerdere vestigingen rekent al snel op 1.500 tot 3.000 euro per maand voor zinvolle resultaten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke straal stel ik in voor lokale Meta Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin met een straal van 5 tot 15 kilometer rond jouw vestiging voor branches waar mensen graag dichtbij zaken doen, zoals horeca, kappers en kinderopvang. Voor specialistische diensten zoals een autobedrijf, tandtechnicus of bruidskledingzaak werkt 25 tot 40 kilometer beter. Test altijd verschillende stralen tegen elkaar en kijk waar de kosten per lead het laagst zijn."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen lokale Meta Ads en Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google Ads bereikt mensen die actief zoeken naar jouw dienst, bijvoorbeeld 'kapper Utrecht'. Meta Ads bereikt mensen die nog niet zoeken maar wel passen bij jouw doelgroep, bijvoorbeeld 25-jarige vrouwen op 5 kilometer afstand met interesse in beauty. Voor lokale bedrijven werken beide kanalen het best in combinatie: Google voor de actieve vraag, Meta voor merkbekendheid en herhaalbezoek."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe meet ik of mijn lokale Meta Ads echt werken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Meet niet alleen klikken en weergaven maar ook offline conversies. Vraag nieuwe klanten waar ze je gevonden hebben, gebruik unieke kortingscodes per campagne, koppel telefoongesprekken aan ad clicks en zet de Meta Pixel plus Conversions API in voor websiteverkeer. Lokale bedrijven die dit doen zien al snel of een campagne winstgevend is of niet."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke advertentievorm werkt het beste voor lokale bedrijven?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Korte verticale video's tot 15 seconden presteren in 2026 het best voor lokale bedrijven. Toon jouw vestiging, jouw team of jouw product in echte omgeving zonder stockfoto-uitstraling. Carrousels werken voor menukaarten of productlijnen. Statische beelden gebruik je vooral voor remarketing op websitebezoekers en bestaande klantenlijsten."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wanneer schakel ik een specialist in voor mijn Meta Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Als je merkt dat je veel uitgeeft maar weinig duidelijke leads krijgt, als je structureel meer dan 800 euro per maand investeert of als je meerdere vestigingen hebt, loont een specialist zich vaak binnen drie maanden terug. Een vakkundige opzet voorkomt verspilling op verkeerde doelgroepen en zorgt dat jouw budget naar de buurt gaat waar jouw klanten daadwerkelijk wonen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Meta Ads voor lokale bedrijven",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-lokale-bedrijven-bereik"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Meta Ads voor lokale bedrijven", "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-lokale-bedrijven-bereik" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -28,97 +28,122 @@ export default function BlogPostLinkedinConversationAdsWerken() {
                 <meta name="twitter:title" content="LinkedIn Conversation Ads: wat zijn ze en wanneer werken ze?" />
                 <meta name="twitter:description" content="Conversation Ads geven jouw doelgroep meerdere keuzes in één bericht. Zo werken ze in de praktijk." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "LinkedIn Conversation Ads: wat zijn ze en wanneer werken ze?",
-                        "description": "Conversation Ads laten LinkedIn-gebruikers kiezen welk pad ze volgen in een advertentie. Lees wanneer dat oplevert en wanneer je beter een ander format pakt.",
-                        "image": "https://www.empowers.nl/images/blogs/linkedin-conversation-ads-werken.jpg",
-                        "datePublished": "2026-05-07T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "LinkedIn Conversation Ads: wat zijn ze en wanneer werken ze?",
+                            "description": "Conversation Ads laten LinkedIn-gebruikers kiezen welk pad ze volgen in een advertentie. Lees wanneer dat oplevert en wanneer je beter een ander format pakt.",
+                            "image": "https://www.empowers.nl/images/blogs/linkedin-conversation-ads-werken.jpg",
+                            "datePublished": "2026-05-07T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn LinkedIn Conversation Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Conversation Ads zijn interactieve berichten die in de LinkedIn-inbox van een gebruiker landen. Anders dan een gewoon advertentiebericht geef je de ontvanger meerdere keuzeknoppen waarmee hij zelf bepaalt welk pad hij volgt. Elk pad leidt naar een vervolgbericht of externe pagina, waardoor het format aanvoelt als een gesprek in plaats van een eenzijdige boodschap."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen Conversation Ads en Message Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij een Message Ad stuur je één boodschap met één call-to-action. Bij een Conversation Ad bouw je een beslisstructuur met meerdere keuzeknoppen, elk met een eigen vervolg. Daardoor kun je in één campagne verschillende behoeftes binnen je doelgroep bedienen. Een prospect die wil snuffelen krijgt iets anders aangeboden dan iemand die direct een demo wil."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost een Conversation Ad gemiddeld?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "LinkedIn rekent per verzonden bericht. De prijs schommelt rond 50 cent tot ruim een euro per send, afhankelijk van het seniority-niveau van de doelgroep en de concurrentie binnen jouw branche. C-level beslissers in financiële sectoren liggen hoger, junior rollen in creatieve hoeken doorgaans lager."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel keuzeknoppen kun je toevoegen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "LinkedIn staat tot vijf keuzeknoppen per bericht toe, maar in de praktijk werkt twee tot drie het beste. Meer opties leidt tot keuzestress en lagere klikratio's. Beperk je tot heldere, onderscheidende paden zodat de ontvanger snel kan beslissen welke route bij hem past."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wie moet de afzender zijn van een Conversation Ad?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De afzender is altijd een persoon binnen jouw organisatie, niet de bedrijfspagina zelf. Een sales manager, marketing director of CEO werkt het beste, omdat de ontvanger eerder klikt op een naam dan op een logo. Die persoon geeft jou via LinkedIn toestemming om namens hem berichten te versturen. De toestemming blijft actief totdat de afzender hem intrekt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke open rates zijn realistisch?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Goed opgezette Conversation Ads halen open rates die ruim boven die van koude e-mailcampagnes liggen. Wij zien openingen die regelmatig de 40 procent passeren, met uitschieters naar boven bij goed gesegmenteerde doelgroepen en herkenbare afzenders. De CTR op de eerste keuzeknop ligt vaak rond enkele procenten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werken Conversation Ads voor elk type B2B-bedrijf?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. Voor producten met een korte beslisroute is een Message Ad of Sponsored Content goedkoper en effectiever. Conversation Ads renderen pas zodra je doelgroep meerdere informatiebehoeftes heeft die je vooraf niet eenduidig kunt voorspellen. Bij hele kleine doelgroepen onder de vijfhonderd matches loont de extra opzet de moeite vaak niet."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat zijn LinkedIn Conversation Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Conversation Ads zijn interactieve berichten die in de LinkedIn-inbox van een gebruiker landen. Anders dan een gewoon advertentiebericht geef je de ontvanger meerdere keuzeknoppen waarmee hij zelf bepaalt welk pad hij volgt. Elk pad leidt naar een vervolgbericht of externe pagina, waardoor het format aanvoelt als een gesprek in plaats van een eenzijdige boodschap."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen Conversation Ads en Message Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij een Message Ad stuur je één boodschap met één call-to-action. Bij een Conversation Ad bouw je een beslisstructuur met meerdere keuzeknoppen, elk met een eigen vervolg. Daardoor kun je in één campagne verschillende behoeftes binnen je doelgroep bedienen. Een prospect die wil snuffelen krijgt iets anders aangeboden dan iemand die direct een demo wil."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost een Conversation Ad gemiddeld?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "LinkedIn rekent per verzonden bericht. De prijs schommelt rond 50 cent tot ruim een euro per send, afhankelijk van het seniority-niveau van de doelgroep en de concurrentie binnen jouw branche. C-level beslissers in financiële sectoren liggen hoger, junior rollen in creatieve hoeken doorgaans lager."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel keuzeknoppen kun je toevoegen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "LinkedIn staat tot vijf keuzeknoppen per bericht toe, maar in de praktijk werkt twee tot drie het beste. Meer opties leidt tot keuzestress en lagere klikratio's. Beperk je tot heldere, onderscheidende paden zodat de ontvanger snel kan beslissen welke route bij hem past."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wie moet de afzender zijn van een Conversation Ad?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De afzender is altijd een persoon binnen jouw organisatie, niet de bedrijfspagina zelf. Een sales manager, marketing director of CEO werkt het beste, omdat de ontvanger eerder klikt op een naam dan op een logo. Die persoon geeft jou via LinkedIn toestemming om namens hem berichten te versturen. De toestemming blijft actief totdat de afzender hem intrekt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke open rates zijn realistisch?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Goed opgezette Conversation Ads halen open rates die ruim boven die van koude e-mailcampagnes liggen. Wij zien openingen die regelmatig de 40 procent passeren, met uitschieters naar boven bij goed gesegmenteerde doelgroepen en herkenbare afzenders. De CTR op de eerste keuzeknop ligt vaak rond enkele procenten."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werken Conversation Ads voor elk type B2B-bedrijf?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee. Voor producten met een korte beslisroute is een Message Ad of Sponsored Content goedkoper en effectiever. Conversation Ads renderen pas zodra je doelgroep meerdere informatiebehoeftes heeft die je vooraf niet eenduidig kunt voorspellen. Bij hele kleine doelgroepen onder de vijfhonderd matches loont de extra opzet de moeite vaak niet."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "LinkedIn Conversation Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/linkedin-conversation-ads-werken"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "LinkedIn Conversation Ads", "item": "https://www.empowers.nl/blogs/social-ads/linkedin-conversation-ads-werken" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

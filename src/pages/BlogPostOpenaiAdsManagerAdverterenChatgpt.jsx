@@ -28,97 +28,122 @@ export default function BlogPostOpenaiAdsManagerAdverterenChatgpt() {
                 <meta name="twitter:title" content="OpenAI Ads Manager uitgelegd: CPC, CPM en conversies in ChatGPT" />
                 <meta name="twitter:description" content="Praktische gids door het OpenAI Ads Manager platform: biedmodellen, conversie-tracking en je eerste campagne." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "OpenAI Ads Manager uitgelegd: zo werkt adverteren in ChatGPT (CPC, CPM, conversions)",
-                        "description": "Hoe werkt het OpenAI Ads Manager platform? Leer hoe CPC- en CPM-bidding op ChatGPT werken, hoe je conversies meet via pixel en Conversions API, en hoe je een eerste campagne opzet.",
-                        "image": "https://www.empowers.nl/images/blogs/openai-ads-manager-adverteren-chatgpt.jpg",
-                        "datePublished": "2026-05-08T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "OpenAI Ads Manager uitgelegd: zo werkt adverteren in ChatGPT (CPC, CPM, conversions)",
+                            "description": "Hoe werkt het OpenAI Ads Manager platform? Leer hoe CPC- en CPM-bidding op ChatGPT werken, hoe je conversies meet via pixel en Conversions API, en hoe je een eerste campagne opzet.",
+                            "image": "https://www.empowers.nl/images/blogs/openai-ads-manager-adverteren-chatgpt.jpg",
+                            "datePublished": "2026-05-08T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is de OpenAI Ads Manager?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De OpenAI Ads Manager is het self-serve advertentieplatform van OpenAI, te vinden op ads.openai.com. Adverteerders kunnen zich verifieren, een betaalmethode toevoegen, een budget instellen, advertenties uploaden en performance bekijken in een dashboard. De ads verschijnen vervolgens contextueel in ChatGPT-gesprekken, gemarkeerd als sponsored."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen CPC en CPM in ChatGPT Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij CPC (cost-per-click) betaal je alleen wanneer iemand jouw advertentie aanklikt. Bij CPM (cost-per-mille) betaal je per duizend vertoningen. CPC sluit aan bij conversiegerichte campagnes en is voor de meeste MKB-adverteerders het logische startpunt. CPM is interessanter voor merkcampagnes waar bereik en frequentie tellen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk bod adviseert OpenAI voor een CPC-campagne?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "OpenAI adviseert in de Ads Manager een startbod tussen drie en vijf dollar per klik. Dat is het venster dat het algoritme nodig heeft om je advertentie in de veiling te plaatsen. Het uiteindelijke bedrag is meestal lager omdat je betaalt op basis van de second-price-auction, vergelijkbaar met Google Ads."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet je conversies vanuit ChatGPT Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "OpenAI heeft een eigen pixel en een Conversions API gelanceerd. De pixel draait browser-side op je website en meet pageviews, productviews, leads, sign-ups en aankopen. De Conversions API stuurt diezelfde events server-side door, zodat je geen data verliest aan ad blockers of iOS-restricties. Beide samen leveren het meest complete beeld."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke conversiestappen kun je tracken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Standaardevents zijn pageview, productview, add-to-cart, lead, sign-up en purchase. Je kunt ook custom events instellen voor specifieke acties op je site. Voor een webshop is purchase met waarde de belangrijkste, voor een leadgen-bedrijf is dat de leadsubmit. Stem het event-design af op wat in jouw funnel telt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik vanuit Nederland al een ChatGPT Ads-campagne opzetten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De self-serve toegang is op dit moment alleen beschikbaar voor Amerikaanse bedrijven. OpenAI bouwt aan een EU-consent-framework, wat duidt op een Europese uitrol later in 2026. Tot die tijd kun je vanuit Nederland al wel je tracking en je advertentie-formats voorbereiden, zodat je in de openingsweken van een NL-launch direct kunt testen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe ziet een campagne in de Ads Manager eruit?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De Ads Manager werkt met een drie-laags structuur. Je begint met een campagne (doelstelling), daaronder vallen ad groups (publiek en bod), en daarbinnen je creatives (de advertenties zelf). Vergelijkbaar met Google Ads. Per ad group stel je een dagbudget, een bod en een conversie-event in waarop het algoritme moet optimaliseren."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is de OpenAI Ads Manager?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De OpenAI Ads Manager is het self-serve advertentieplatform van OpenAI, te vinden op ads.openai.com. Adverteerders kunnen zich verifieren, een betaalmethode toevoegen, een budget instellen, advertenties uploaden en performance bekijken in een dashboard. De ads verschijnen vervolgens contextueel in ChatGPT-gesprekken, gemarkeerd als sponsored."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen CPC en CPM in ChatGPT Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij CPC (cost-per-click) betaal je alleen wanneer iemand jouw advertentie aanklikt. Bij CPM (cost-per-mille) betaal je per duizend vertoningen. CPC sluit aan bij conversiegerichte campagnes en is voor de meeste MKB-adverteerders het logische startpunt. CPM is interessanter voor merkcampagnes waar bereik en frequentie tellen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welk bod adviseert OpenAI voor een CPC-campagne?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "OpenAI adviseert in de Ads Manager een startbod tussen drie en vijf dollar per klik. Dat is het venster dat het algoritme nodig heeft om je advertentie in de veiling te plaatsen. Het uiteindelijke bedrag is meestal lager omdat je betaalt op basis van de second-price-auction, vergelijkbaar met Google Ads."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "AI Ads",
+                                    "item": "https://www.empowers.nl/blogs/ai-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe meet je conversies vanuit ChatGPT Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "OpenAI heeft een eigen pixel en een Conversions API gelanceerd. De pixel draait browser-side op je website en meet pageviews, productviews, leads, sign-ups en aankopen. De Conversions API stuurt diezelfde events server-side door, zodat je geen data verliest aan ad blockers of iOS-restricties. Beide samen leveren het meest complete beeld."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke conversiestappen kun je tracken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Standaardevents zijn pageview, productview, add-to-cart, lead, sign-up en purchase. Je kunt ook custom events instellen voor specifieke acties op je site. Voor een webshop is purchase met waarde de belangrijkste, voor een leadgen-bedrijf is dat de leadsubmit. Stem het event-design af op wat in jouw funnel telt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik vanuit Nederland al een ChatGPT Ads-campagne opzetten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De self-serve toegang is op dit moment alleen beschikbaar voor Amerikaanse bedrijven. OpenAI bouwt aan een EU-consent-framework, wat duidt op een Europese uitrol later in 2026. Tot die tijd kun je vanuit Nederland al wel je tracking en je advertentie-formats voorbereiden, zodat je in de openingsweken van een NL-launch direct kunt testen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe ziet een campagne in de Ads Manager eruit?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De Ads Manager werkt met een drie-laags structuur. Je begint met een campagne (doelstelling), daaronder vallen ad groups (publiek en bod), en daarbinnen je creatives (de advertenties zelf). Vergelijkbaar met Google Ads. Per ad group stel je een dagbudget, een bod en een conversie-event in waarop het algoritme moet optimaliseren."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "OpenAI Ads Manager uitgelegd",
+                                    "item": "https://www.empowers.nl/blogs/ai-ads/openai-ads-manager-adverteren-chatgpt"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "AI Ads", "item": "https://www.empowers.nl/blogs/ai-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "OpenAI Ads Manager uitgelegd", "item": "https://www.empowers.nl/blogs/ai-ads/openai-ads-manager-adverteren-chatgpt" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

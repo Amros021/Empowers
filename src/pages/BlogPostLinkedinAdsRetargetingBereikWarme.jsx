@@ -28,97 +28,122 @@ export default function BlogPostLinkedinAdsRetargetingBereikWarme() {
                 <meta name="twitter:title" content="LinkedIn Ads retargeting: zo bereik je warme leads opnieuw" />
                 <meta name="twitter:description" content="Welke audiences werken voor LinkedIn-retargeting en welke fouten kosten budget? Lees de praktische gids." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "LinkedIn Ads retargeting: zo bereik je warme leads opnieuw",
-                        "description": "LinkedIn Ads retargeting laat je warme leads opnieuw bereiken zonder dat je opnieuw voor de eerste klik betaalt. Lees hoe je het opzet, welke fouten je voorkomt en wat het oplevert.",
-                        "image": "https://www.empowers.nl/images/blogs/linkedin-ads-retargeting-bereik-warme.jpg",
-                        "datePublished": "2026-05-03T10:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "LinkedIn Ads retargeting: zo bereik je warme leads opnieuw",
+                            "description": "LinkedIn Ads retargeting laat je warme leads opnieuw bereiken zonder dat je opnieuw voor de eerste klik betaalt. Lees hoe je het opzet, welke fouten je voorkomt en wat het oplevert.",
+                            "image": "https://www.empowers.nl/images/blogs/linkedin-ads-retargeting-bereik-warme.jpg",
+                            "datePublished": "2026-05-03T10:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is LinkedIn Ads retargeting precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "LinkedIn Ads retargeting toont advertenties aan mensen die al eerder met jouw merk in aanraking kwamen. Dat kan via een websitebezoek, een video die ze grotendeels bekeken, een Lead Gen Form dat ze openden of jouw LinkedIn-bedrijfspagina die ze bezochten. Je richt de campagne op een Matched Audience binnen Campaign Manager."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel websitebezoekers heb je minimaal nodig?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "LinkedIn vraagt minstens 300 personen in een audience voordat advertenties live gaan. Voor een werkbare retargeting-campagne reken je op minimaal 1.000 tot 3.000 unieke bezoekers per maand. Heb je minder, combineer dan websitebezoek met video- en Lead Gen-engagement om het volume op te krikken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk budget heb je nodig voor LinkedIn-retargeting?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "LinkedIn vraagt 25 euro per dag per campagne, dus 750 euro per maand minimum. Voor effectieve retargeting reken je op 1.000 tot 1.500 euro per maand zodat je twee tot drie audience-segmenten met gerichte boodschappen kunt draaien. Kleinere budgetten leiden tot te dunne segmenten en frequencies die te laag uitvallen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke biedstrategie werkt het best voor retargeting?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor warme audiences kies je in eerste instantie maximum delivery of een handmatige CPM-bid. Daarmee zorg je dat je voldoende impressies binnen jouw kleine doelgroep haalt. Conversiebiedstrategieën werken pas zodra je 30 tot 50 conversies per maand uit dezelfde audience hebt verzameld."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak mag dezelfde persoon jouw retargeting-advertentie zien?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Houd de frequency tussen 3 en 8 vertoningen per maand. Daaronder herkent niemand jouw merk, daarboven raken mensen geïrriteerd. Stel een frequency cap in op campaign-niveau en wissel creatives elke 2 tot 4 weken om bannerblindheid te voorkomen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt retargeting beter dan koude LinkedIn-campagnes?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, op kosten per lead aanzienlijk. Retargeting-leads kosten gemiddeld 30 tot 50 procent minder dan koude campagnes. De conversieratio ligt 2 tot 4 keer hoger omdat je merk al bekend is. Wel heb je koude campagnes nodig om de retargeting-pool gevuld te houden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke creatives werken voor LinkedIn-retargeting?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Wissel af tussen drie soorten content. Eén: social proof zoals klantcases en cijfers. Twee: een concrete volgende stap zoals een demo, een gratis check of een proefperiode. Drie: bewijs van expertise zoals een whitepaper, webinar of branche-rapport. Pas de boodschap per audience-segment aan op de fase waarin de bezoeker zit."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is LinkedIn Ads retargeting precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "LinkedIn Ads retargeting toont advertenties aan mensen die al eerder met jouw merk in aanraking kwamen. Dat kan via een websitebezoek, een video die ze grotendeels bekeken, een Lead Gen Form dat ze openden of jouw LinkedIn-bedrijfspagina die ze bezochten. Je richt de campagne op een Matched Audience binnen Campaign Manager."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel websitebezoekers heb je minimaal nodig?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "LinkedIn vraagt minstens 300 personen in een audience voordat advertenties live gaan. Voor een werkbare retargeting-campagne reken je op minimaal 1.000 tot 3.000 unieke bezoekers per maand. Heb je minder, combineer dan websitebezoek met video- en Lead Gen-engagement om het volume op te krikken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welk budget heb je nodig voor LinkedIn-retargeting?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "LinkedIn vraagt 25 euro per dag per campagne, dus 750 euro per maand minimum. Voor effectieve retargeting reken je op 1.000 tot 1.500 euro per maand zodat je twee tot drie audience-segmenten met gerichte boodschappen kunt draaien. Kleinere budgetten leiden tot te dunne segmenten en frequencies die te laag uitvallen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke biedstrategie werkt het best voor retargeting?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor warme audiences kies je in eerste instantie maximum delivery of een handmatige CPM-bid. Daarmee zorg je dat je voldoende impressies binnen jouw kleine doelgroep haalt. Conversiebiedstrategieën werken pas zodra je 30 tot 50 conversies per maand uit dezelfde audience hebt verzameld."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak mag dezelfde persoon jouw retargeting-advertentie zien?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Houd de frequency tussen 3 en 8 vertoningen per maand. Daaronder herkent niemand jouw merk, daarboven raken mensen geïrriteerd. Stel een frequency cap in op campaign-niveau en wissel creatives elke 2 tot 4 weken om bannerblindheid te voorkomen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt retargeting beter dan koude LinkedIn-campagnes?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, op kosten per lead aanzienlijk. Retargeting-leads kosten gemiddeld 30 tot 50 procent minder dan koude campagnes. De conversieratio ligt 2 tot 4 keer hoger omdat je merk al bekend is. Wel heb je koude campagnes nodig om de retargeting-pool gevuld te houden."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke creatives werken voor LinkedIn-retargeting?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Wissel af tussen drie soorten content. Eén: social proof zoals klantcases en cijfers. Twee: een concrete volgende stap zoals een demo, een gratis check of een proefperiode. Drie: bewijs van expertise zoals een whitepaper, webinar of branche-rapport. Pas de boodschap per audience-segment aan op de fase waarin de bezoeker zit."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "LinkedIn Ads retargeting",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/linkedin-ads-retargeting-bereik-warme"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "LinkedIn Ads retargeting", "item": "https://www.empowers.nl/blogs/social-ads/linkedin-ads-retargeting-bereik-warme" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -28,120 +28,122 @@ export default function BlogPostLinkedInAdverterenGoogleAds() {
                 <meta name="twitter:title" content="LinkedIn adverteren of Google Ads: wat werkt beter voor B2B?" />
                 <meta name="twitter:description" content="LinkedIn Ads of Google Ads voor B2B? Lees wanneer je welk platform kiest." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "LinkedIn adverteren of Google Ads: wat werkt beter voor B2B?",
-                        "description": "LinkedIn Ads en Google Ads zijn allebei krachtig voor B2B. Lees wanneer je welk platform kiest, wat het kost en hoe je het meeste uit je budget haalt.",
-                        "image": "https://www.empowers.nl/images/blogs/linkedin-adverteren-google-ads-werkt.jpg",
-                        "datePublished": "2026-04-03T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "LinkedIn adverteren of Google Ads: wat werkt beter voor B2B?",
+                            "description": "LinkedIn Ads en Google Ads zijn allebei krachtig voor B2B. Lees wanneer je welk platform kiest, wat het kost en hoe je het meeste uit je budget haalt.",
+                            "image": "https://www.empowers.nl/images/blogs/linkedin-adverteren-google-ads-werkt.jpg",
+                            "datePublished": "2026-04-03T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is goedkoper: LinkedIn Ads of Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google Ads is per klik goedkoper. Reken op 1 tot 5 euro per klik voor B2B-zoekwoorden, tegenover 3 tot 12 euro op LinkedIn. Maar goedkoper per klik betekent niet altijd goedkoper per klant. LinkedIn-leads zijn voor B2B vaak kwalitatief beter, waardoor de kosten per gewonnen klant vergelijkbaar kunnen zijn."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik LinkedIn Ads en Google Ads tegelijk gebruiken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, en dat is vaak de slimste aanpak. Google Ads vangt mensen op die actief zoeken naar jouw oplossing. LinkedIn bereikt beslissers die nog niet zoeken maar wel in je doelgroep vallen. Samen dekken ze de volledige klantreis af, van bewustwording tot aankoop."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel budget heb ik nodig om LinkedIn Ads te testen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Minimaal 1500 tot 2500 euro per maand voor een serieuze test. LinkedIn heeft meer data nodig dan Google om goed te presteren. Met minder budget duurt het te lang voordat je weet of het kanaal voor jou werkt. Plan minimaal 6 tot 8 weken testperiode."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk platform levert sneller resultaat op voor B2B?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google Ads levert sneller resultaat als mensen al zoeken naar wat je aanbiedt. Binnen 2 tot 4 weken zie je de eerste leads. LinkedIn heeft 4 tot 8 weken nodig om voldoende data te verzamelen. Maar LinkedIn bereikt ook beslissers die nog niet actief zoeken, wat Google niet kan."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is LinkedIn Ads geschikt voor kleine B2B-bedrijven?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, mits je product of dienst voldoende marge heeft. Als een klant je minimaal 2000 tot 3000 euro oplevert, zijn de hogere klikkosten op LinkedIn de investering waard. Verkoop je producten onder de 500 euro? Dan haal je waarschijnlijk meer rendement uit Google Ads."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het grootste verschil in targeting tussen LinkedIn en Google?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google target op zoekintentie: wat iemand typt in de zoekbalk. LinkedIn target op wie iemand is: functietitel, bedrijfsgrootte, branche en senioriteit. Google bereikt mensen met een acute behoefte. LinkedIn bereikt de juiste personen, ook als ze nog geen behoefte hebben."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik welk platform beter werkt voor mijn bedrijf?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Kijk niet alleen naar kosten per lead, maar naar kosten per gewonnen klant. Meet de volledige klantreis van klik tot deal. Gebruik UTM-parameters en CRM-koppelingen om te zien welk kanaal de meest waardevolle klanten oplevert. Na 2 tot 3 maanden heb je voldoende data voor een eerlijke vergelijking."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is goedkoper: LinkedIn Ads of Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google Ads is per klik goedkoper. Reken op 1 tot 5 euro per klik voor B2B-zoekwoorden, tegenover 3 tot 12 euro op LinkedIn. Maar goedkoper per klik betekent niet altijd goedkoper per klant. LinkedIn-leads zijn voor B2B vaak kwalitatief beter, waardoor de kosten per gewonnen klant vergelijkbaar kunnen zijn."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Kan ik LinkedIn Ads en Google Ads tegelijk gebruiken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, en dat is vaak de slimste aanpak. Google Ads vangt mensen op die actief zoeken naar jouw oplossing. LinkedIn bereikt beslissers die nog niet zoeken maar wel in je doelgroep vallen. Samen dekken ze de volledige klantreis af, van bewustwording tot aankoop."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel budget heb ik nodig om LinkedIn Ads te testen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Minimaal 1500 tot 2500 euro per maand voor een serieuze test. LinkedIn heeft meer data nodig dan Google om goed te presteren. Met minder budget duurt het te lang voordat je weet of het kanaal voor jou werkt. Plan minimaal 6 tot 8 weken testperiode."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welk platform levert sneller resultaat op voor B2B?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google Ads levert sneller resultaat als mensen al zoeken naar wat je aanbiedt. Binnen 2 tot 4 weken zie je de eerste leads. LinkedIn heeft 4 tot 8 weken nodig om voldoende data te verzamelen. Maar LinkedIn bereikt ook beslissers die nog niet actief zoeken, wat Google niet kan."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Is LinkedIn Ads geschikt voor kleine B2B-bedrijven?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, mits je product of dienst voldoende marge heeft. Als een klant je minimaal 2000 tot 3000 euro oplevert, zijn de hogere klikkosten op LinkedIn de investering waard. Verkoop je producten onder de 500 euro? Dan haal je waarschijnlijk meer rendement uit Google Ads."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is het grootste verschil in targeting tussen LinkedIn en Google?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google target op zoekintentie: wat iemand typt in de zoekbalk. LinkedIn target op wie iemand is: functietitel, bedrijfsgrootte, branche en senioriteit. Google bereikt mensen met een acute behoefte. LinkedIn bereikt de juiste personen, ook als ze nog geen behoefte hebben."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe meet ik welk platform beter werkt voor mijn bedrijf?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Kijk niet alleen naar kosten per lead, maar naar kosten per gewonnen klant. Meet de volledige klantreis van klik tot deal. Gebruik UTM-parameters en CRM-koppelingen om te zien welk kanaal de meest waardevolle klanten oplevert. Na 2 tot 3 maanden heb je voldoende data voor een eerlijke vergelijking."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "LinkedIn adverteren of Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/linkedin-adverteren-google-ads-werkt"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Social Ads",
-                                "item": "https://www.empowers.nl/blogs/social-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "LinkedIn adverteren of Google Ads",
-                                "item": "https://www.empowers.nl/blogs/social-ads/linkedin-adverteren-google-ads-werkt"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

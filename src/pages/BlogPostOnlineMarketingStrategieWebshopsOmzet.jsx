@@ -23,36 +23,110 @@ export default function BlogPostOnlineMarketingStrategieWebshopsOmzet() {
                 <meta property="article:section" content="Strategie" />
 
                 <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "Article",
-                    "headline": "Online marketing strategie voor webshops: van traffic naar omzet",
-                    "description": "De marketingstrategie die voor webshops verkeer omzet in conversie en marge.",
-                    "image": "https://www.empowers.nl/images/blogs/online-marketing-strategie-webshops-omzet.jpg",
-                    "datePublished": "2026-05-13T16:00:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                    "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                        { "@type": "Question", "name": "Welke kanalen werken het beste voor webshops?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor de meeste webshops is Google Shopping plus Performance Max het rendementsfundament, aangevuld met Meta Ads voor merkopbouw en remarketing. SEO en email marketing zijn de twee kanalen waar je marge het hoogst is omdat je geen advertentiekosten per click betaalt. Een gezonde mix combineert betaalde traffic voor groei met organische kanalen voor marge." } },
-                        { "@type": "Question", "name": "Wat is een goede conversie-rate voor webshops?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Branche-afhankelijk. Voor fashion en lifestyle ligt het Nederlandse gemiddelde tussen de 1,5 en 2,5 procent. Voor elektronica en B2B-producten meestal lager, rond de 1 procent. Niche-producten met sterke koopintentie halen vaak 3 tot 5 procent. Een conversie-rate onder 0,7 procent is voor vrijwel elke webshop een signaal dat de basis (productpagina's, checkout, vertrouwen) niet op orde is." } },
-                        { "@type": "Question", "name": "Hoeveel moet ik aan online marketing besteden?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor groeiende webshops ligt het gangbare marketingbudget tussen de 10 en 20 procent van de omzet. Voor schaalfase-webshops die agressief willen groeien zelfs hoger. Belangrijker dan het percentage is de ROAS-target per kanaal: kosten moet je terugverdienen binnen de gewenste payback-periode. Marketingbudget zonder rendementsdoel is een uitgavenpost, geen investering." } },
-                        { "@type": "Question", "name": "Hoe verdeel ik mijn budget over kanalen?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Een werkbare verdeling voor MKB-webshops: rond de 50 procent naar Google Ads (Shopping en Performance Max), 25 procent naar Meta Ads voor merk en remarketing, 15 procent naar SEO en content, en 10 procent naar email marketing en CRO. Pas dit aan op basis van wat per euro het meest oplevert in jouw branche, niet op basis van vuistregels." } },
-                        { "@type": "Question", "name": "Wat is belangrijker, AOV of conversie-rate?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Beide tellen maar voor de meeste webshops levert het verhogen van AOV (gemiddelde orderwaarde) meer marge op dan conversie-rate optimaliseren. Een 10 procent hogere AOV kost zelden meer in advertentie-uitgaven maar verhoogt direct je marge. Conversie-rate omhoog brengen vraagt meestal werk aan de hele website. Begin bij AOV als je tussen die twee moet kiezen." } },
-                        { "@type": "Question", "name": "Hoe meet ik of mijn marketing werkt?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Vier metrics samen: ROAS per kanaal, CAC (klantacquisitiekosten), gemiddelde orderwaarde en customer lifetime value. Eén metric is nooit genoeg. ROAS van 5 op een kanaal met dunne marges kan verlies zijn, ROAS van 3 op fat-margin producten kan winst zijn. Bouw een dashboard waar alle vier deze metrics samenkomen per kanaal." } }
-                    ] }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                        { "@type": "ListItem", "position": 4, "name": "Marketingstrategie webshops", "item": "https://www.empowers.nl/blogs/strategie/online-marketing-strategie-webshops-omzet" }
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Online marketing strategie voor webshops: van traffic naar omzet",
+                            "description": "De marketingstrategie die voor webshops verkeer omzet in conversie en marge.",
+                            "image": "https://www.empowers.nl/images/blogs/online-marketing-strategie-webshops-omzet.jpg",
+                            "datePublished": "2026-05-13T16:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke kanalen werken het beste voor webshops?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste webshops is Google Shopping plus Performance Max het rendementsfundament, aangevuld met Meta Ads voor merkopbouw en remarketing. SEO en email marketing zijn de twee kanalen waar je marge het hoogst is omdat je geen advertentiekosten per click betaalt. Een gezonde mix combineert betaalde traffic voor groei met organische kanalen voor marge."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede conversie-rate voor webshops?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Branche-afhankelijk. Voor fashion en lifestyle ligt het Nederlandse gemiddelde tussen de 1,5 en 2,5 procent. Voor elektronica en B2B-producten meestal lager, rond de 1 procent. Niche-producten met sterke koopintentie halen vaak 3 tot 5 procent. Een conversie-rate onder 0,7 procent is voor vrijwel elke webshop een signaal dat de basis (productpagina's, checkout, vertrouwen) niet op orde is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel moet ik aan online marketing besteden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor groeiende webshops ligt het gangbare marketingbudget tussen de 10 en 20 procent van de omzet. Voor schaalfase-webshops die agressief willen groeien zelfs hoger. Belangrijker dan het percentage is de ROAS-target per kanaal: kosten moet je terugverdienen binnen de gewenste payback-periode. Marketingbudget zonder rendementsdoel is een uitgavenpost, geen investering."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verdeel ik mijn budget over kanalen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een werkbare verdeling voor MKB-webshops: rond de 50 procent naar Google Ads (Shopping en Performance Max), 25 procent naar Meta Ads voor merk en remarketing, 15 procent naar SEO en content, en 10 procent naar email marketing en CRO. Pas dit aan op basis van wat per euro het meest oplevert in jouw branche, niet op basis van vuistregels."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is belangrijker, AOV of conversie-rate?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Beide tellen maar voor de meeste webshops levert het verhogen van AOV (gemiddelde orderwaarde) meer marge op dan conversie-rate optimaliseren. Een 10 procent hogere AOV kost zelden meer in advertentie-uitgaven maar verhoogt direct je marge. Conversie-rate omhoog brengen vraagt meestal werk aan de hele website. Begin bij AOV als je tussen die twee moet kiezen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik of mijn marketing werkt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vier metrics samen: ROAS per kanaal, CAC (klantacquisitiekosten), gemiddelde orderwaarde en customer lifetime value. Eén metric is nooit genoeg. ROAS van 5 op een kanaal met dunne marges kan verlies zijn, ROAS van 3 op fat-margin producten kan winst zijn. Bouw een dashboard waar alle vier deze metrics samenkomen per kanaal."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Marketingstrategie webshops",
+                                    "item": "https://www.empowers.nl/blogs/strategie/online-marketing-strategie-webshops-omzet"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />

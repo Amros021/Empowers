@@ -29,89 +29,114 @@ export default function BlogPostOnlineMarketingUitbestedenWebshop() {
                 <meta name="twitter:title" content="Online marketing uitbesteden als webshop: hier moet je op letten" />
                 <meta name="twitter:description" content="Hoe je een marketingpartner kiest die je webshop echt verder helpt, en waar je op moet letten voor je tekent." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Online marketing uitbesteden als webshop: hier moet je op letten",
-                        "description": "Wat een webshop in 2026 mag verwachten van een marketingpartner en hoe je een goede van een matige onderscheidt.",
-                        "image": "https://www.empowers.nl/images/blogs/online-marketing-uitbesteden-webshop.jpg",
-                        "datePublished": "2026-05-25T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Online marketing uitbesteden als webshop: hier moet je op letten",
+                            "description": "Wat een webshop in 2026 mag verwachten van een marketingpartner en hoe je een goede van een matige onderscheidt.",
+                            "image": "https://www.empowers.nl/images/blogs/online-marketing-uitbesteden-webshop.jpg",
+                            "datePublished": "2026-05-25T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is het zinvol om als webshop online marketing uit te besteden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Zodra je doorlopend advertentiebudget draait of een serieuze ambitie hebt om je omzet te laten groeien. Een webshop met een paar honderd euro testbudget en alle tijd om zelf te experimenteren kan beter zelf starten. Zodra het budget richting duizend euro per maand gaat of de tijd ontbreekt om campagnes goed te onderhouden, gaat een partner zichzelf doorgaans snel terugbetalen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost online marketing uitbesteden voor een webshop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bureaus werken doorgaans met een vast bedrag per maand voor het beheer plus jouw eigen advertentiebudget. Voor een MKB-webshop zit dat maandbedrag vaak rond de duizend euro voor beheer van één kanaal, oplopend afhankelijk van scope en omzet. Sommige partners werken op fee-basis, anderen op percentage van het mediabudget. Vraag altijd door waar het bedrag uit bestaat."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke kanalen besteed ik als webshop het eerst uit?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin bij het kanaal waar je nu het meest verbrandt of het meest mist. Voor de meeste webshops zijn dat Google Shopping en Meta Ads, omdat daar het grootste deel van het advertentiebudget naartoe gaat. SEO en e-mail kun je vaak nog even zelf doen, omdat die minder dagelijkse aandacht vragen. Wat je laatst aanpakt is meestal wat het minste pijn doet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of het bureau echt resultaat boekt voor mijn webshop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Kijk naar ROAS, conversie, gemiddelde orderwaarde en de blended kosten over al je kanalen heen. Niet alleen naar klikprijs of bereik. Een goede partner stuurt op omzet en marge, niet op vanity metrics. Vraag elke maand om een korte sessie waarin het bureau uitlegt wat ze hebben aangepast en waarom."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat moet ik regelen voor ik de samenwerking start?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Zorg dat je marketingaccounts op jouw bedrijfsnaam staan en dat je toegang verleent in plaats van overdraagt. Dat geldt voor Google Ads, Meta Business Manager, GA4 en je shopplatform. Leg vooraf vast hoe je samenwerkt, wat de looptijd is en wat er gebeurt bij beëindiging. Een partner die hier moeilijk over doet, is een rode vlag voor je tekent."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik beter een specialist of een full-service bureau kiezen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een specialist gaat dieper op één kanaal, een full-service partner zorgt voor samenhang tussen kanalen. Voor webshops met één hoofdkanaal werkt een specialist vaak het scherpst. Zodra je drie of meer kanalen draait wordt de afstemming belangrijker en wint een full-service aanpak het op tijdwinst en consistentie."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer is het zinvol om als webshop online marketing uit te besteden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Zodra je doorlopend advertentiebudget draait of een serieuze ambitie hebt om je omzet te laten groeien. Een webshop met een paar honderd euro testbudget en alle tijd om zelf te experimenteren kan beter zelf starten. Zodra het budget richting duizend euro per maand gaat of de tijd ontbreekt om campagnes goed te onderhouden, gaat een partner zichzelf doorgaans snel terugbetalen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost online marketing uitbesteden voor een webshop?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bureaus werken doorgaans met een vast bedrag per maand voor het beheer plus jouw eigen advertentiebudget. Voor een MKB-webshop zit dat maandbedrag vaak rond de duizend euro voor beheer van één kanaal, oplopend afhankelijk van scope en omzet. Sommige partners werken op fee-basis, anderen op percentage van het mediabudget. Vraag altijd door waar het bedrag uit bestaat."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke kanalen besteed ik als webshop het eerst uit?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin bij het kanaal waar je nu het meest verbrandt of het meest mist. Voor de meeste webshops zijn dat Google Shopping en Meta Ads, omdat daar het grootste deel van het advertentiebudget naartoe gaat. SEO en e-mail kun je vaak nog even zelf doen, omdat die minder dagelijkse aandacht vragen. Wat je laatst aanpakt is meestal wat het minste pijn doet."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe weet ik of het bureau echt resultaat boekt voor mijn webshop?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Kijk naar ROAS, conversie, gemiddelde orderwaarde en de blended kosten over al je kanalen heen. Niet alleen naar klikprijs of bereik. Een goede partner stuurt op omzet en marge, niet op vanity metrics. Vraag elke maand om een korte sessie waarin het bureau uitlegt wat ze hebben aangepast en waarom."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat moet ik regelen voor ik de samenwerking start?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Zorg dat je marketingaccounts op jouw bedrijfsnaam staan en dat je toegang verleent in plaats van overdraagt. Dat geldt voor Google Ads, Meta Business Manager, GA4 en je shopplatform. Leg vooraf vast hoe je samenwerkt, wat de looptijd is en wat er gebeurt bij beëindiging. Een partner die hier moeilijk over doet, is een rode vlag voor je tekent."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik beter een specialist of een full-service bureau kiezen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een specialist gaat dieper op één kanaal, een full-service partner zorgt voor samenhang tussen kanalen. Voor webshops met één hoofdkanaal werkt een specialist vaak het scherpst. Zodra je drie of meer kanalen draait wordt de afstemming belangrijker en wint een full-service aanpak het op tijdwinst en consistentie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Online marketing uitbesteden webshop",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/online-marketing-uitbesteden-webshop"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                            { "@type": "ListItem", "position": 4, "name": "Online marketing uitbesteden webshop", "item": "https://www.empowers.nl/blogs/algemeen/online-marketing-uitbesteden-webshop" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

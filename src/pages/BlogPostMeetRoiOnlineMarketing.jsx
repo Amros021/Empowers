@@ -28,112 +28,114 @@ export default function BlogPostMeetRoiOnlineMarketing() {
                 <meta name="twitter:title" content="Hoe meet je de ROI van je online marketing?" />
                 <meta name="twitter:description" content="Zo bereken je de echte ROI van je online marketing per kanaal." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe meet je de ROI van je online marketing?",
-                        "description": "ROI berekenen van je online marketing is meer dan een formule. Lees welke cijfers je echt nodig hebt, hoe je per kanaal rekent en welke fouten je voorkomt.",
-                        "image": "https://www.empowers.nl/images/blogs/meet-roi-online-marketing.jpg",
-                        "datePublished": "2026-05-12T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe meet je de ROI van je online marketing?",
+                            "description": "ROI berekenen van je online marketing is meer dan een formule. Lees welke cijfers je echt nodig hebt, hoe je per kanaal rekent en welke fouten je voorkomt.",
+                            "image": "https://www.empowers.nl/images/blogs/meet-roi-online-marketing.jpg",
+                            "datePublished": "2026-05-12T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is de ROI van online marketing?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De ROI van online marketing is het percentage winst dat je terugverdient op je marketinginvestering. Je rekent het uit door de winst uit een kanaal te verminderen met de kosten en het resultaat te delen door diezelfde kosten. Vermenigvuldig met honderd voor het percentage. Een ROI van 200 procent betekent dat elke geïnvesteerde euro twee euro winst oplevert bovenop de inleg."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke kosten neem ik mee in mijn ROI berekening?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Tel naast je advertentiebudget ook de bureaukosten, software-abonnementen, content-productie en de tijd van je team. Anders lijkt je ROI mooi op papier maar zit je in de praktijk te krap. Voor een eerlijke vergelijking tussen kanalen gebruik je altijd dezelfde kostenposten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang moet ik wachten voordat ROI betrouwbaar is?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor webshops en directe verkoop heb je vaak na een maand een eerste signaal. Bij leadgeneratie of B2B-trajecten met lange salescycli reken je op drie tot zes maanden voordat je conclusies kunt trekken. Begin daarom altijd met een nulmeting en een duidelijke verwachting per kanaal."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede ROI voor online marketing?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat hangt af van je marge en je doel. Een webshop met krappe marges wil minstens 300 procent ROI om winstgevend te draaien. Bij B2B-diensten met hoge marges kan 100 procent al uitstekend zijn. Vergelijk je ROI niet met die van een ander bedrijf maar met je eigen historische cijfers en met andere investeringen in je bedrijf."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verdeel ik ROI over meerdere kanalen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Gebruik een data-driven attributiemodel via GA4 of een mediamix-analyse. Zo zie je welke kanalen meehelpen aan een conversie, ook als ze niet de laatste klik leveren. Last-click attributie geeft een vertekend beeld en doodt vaak juist de campagnes die nieuwe klanten introduceren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik ROI van content marketing of SEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "SEO en content krijgen de leads die later via een andere klik converteren. Bekijk daarom assisted conversions in GA4, kijk naar de organische sessies die in de salesfunnel komen en reken met een gemiddelde dealwaarde. Geen 1-op-1 koppeling, wel een betrouwbaar beeld over een langere periode."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is de ROI van online marketing?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De ROI van online marketing is het percentage winst dat je terugverdient op je marketinginvestering. Je rekent het uit door de winst uit een kanaal te verminderen met de kosten en het resultaat te delen door diezelfde kosten. Vermenigvuldig met honderd voor het percentage. Een ROI van 200 procent betekent dat elke geïnvesteerde euro twee euro winst oplevert bovenop de inleg."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke kosten neem ik mee in mijn ROI berekening?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Tel naast je advertentiebudget ook de bureaukosten, software-abonnementen, content-productie en de tijd van je team. Anders lijkt je ROI mooi op papier maar zit je in de praktijk te krap. Voor een eerlijke vergelijking tussen kanalen gebruik je altijd dezelfde kostenposten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang moet ik wachten voordat ROI betrouwbaar is?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor webshops en directe verkoop heb je vaak na een maand een eerste signaal. Bij leadgeneratie of B2B-trajecten met lange salescycli reken je op drie tot zes maanden voordat je conclusies kunt trekken. Begin daarom altijd met een nulmeting en een duidelijke verwachting per kanaal."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Tracking",
+                                    "item": "https://www.empowers.nl/blogs/tracking"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede ROI voor online marketing?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dat hangt af van je marge en je doel. Een webshop met krappe marges wil minstens 300 procent ROI om winstgevend te draaien. Bij B2B-diensten met hoge marges kan 100 procent al uitstekend zijn. Vergelijk je ROI niet met die van een ander bedrijf maar met je eigen historische cijfers en met andere investeringen in je bedrijf."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe verdeel ik ROI over meerdere kanalen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Gebruik een data-driven attributiemodel via GA4 of een mediamix-analyse. Zo zie je welke kanalen meehelpen aan een conversie, ook als ze niet de laatste klik leveren. Last-click attributie geeft een vertekend beeld en doodt vaak juist de campagnes die nieuwe klanten introduceren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe meet ik ROI van content marketing of SEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "SEO en content krijgen de leads die later via een andere klik converteren. Bekijk daarom assisted conversions in GA4, kijk naar de organische sessies die in de salesfunnel komen en reken met een gemiddelde dealwaarde. Geen 1-op-1 koppeling, wel een betrouwbaar beeld over een langere periode."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "ROI online marketing meten",
+                                    "item": "https://www.empowers.nl/blogs/tracking/meet-roi-online-marketing"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Tracking",
-                                "item": "https://www.empowers.nl/blogs/tracking"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "ROI online marketing meten",
-                                "item": "https://www.empowers.nl/blogs/tracking/meet-roi-online-marketing"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

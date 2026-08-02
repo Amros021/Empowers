@@ -26,8 +26,16 @@ export default function BlogPostMetaPixelInstellen() {
                             "headline": "Meta Pixel instellen: stap-voor-stap handleiding 2026",
                             "image": "https://www.empowers.nl/images/blogs/meta-pixel-instellen-stap-stap.jpg",
                             "description": "Leer hoe je de Meta Pixel stap voor stap installeert op je website. Meet conversies, bouw doelgroepen en verbeter je Facebook en Instagram Ads.",
-                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-03-08T00:00:00+01:00",
                             "dateModified": "2026-03-08T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/social-ads/meta-pixel-instellen-stap-stap"
@@ -92,17 +100,36 @@ export default function BlogPostMetaPixelInstellen() {
                                     }
                                 }
                             ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Meta Pixel instellen",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/meta-pixel-instellen-stap-stap"
+                                }
+                            ]
                         }
-                    ]
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Meta Pixel instellen", "item": "https://www.empowers.nl/blogs/social-ads/meta-pixel-instellen-stap-stap" }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />

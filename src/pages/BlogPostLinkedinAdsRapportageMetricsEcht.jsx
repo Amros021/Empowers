@@ -28,97 +28,122 @@ export default function BlogPostLinkedinAdsRapportageMetricsEcht() {
                 <meta name="twitter:title" content="LinkedIn Ads rapportage: welke metrics zijn echt belangrijk?" />
                 <meta name="twitter:description" content="Welke metrics in LinkedIn Campaign Manager je rapportage moeten aansturen, en welke je beter negeert." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "LinkedIn Ads rapportage: welke metrics zijn echt belangrijk?",
-                        "description": "Praktische gids voor zinvolle LinkedIn Ads rapportage. Welke cijfers ertoe doen, welke valkuilen er zijn en hoe je rapporten leesbaar maakt voor de directie.",
-                        "image": "https://www.empowers.nl/images/blogs/linkedin-ads-rapportage-metrics-echt.jpg",
-                        "datePublished": "2026-05-07T15:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "LinkedIn Ads rapportage: welke metrics zijn echt belangrijk?",
+                            "description": "Praktische gids voor zinvolle LinkedIn Ads rapportage. Welke cijfers ertoe doen, welke valkuilen er zijn en hoe je rapporten leesbaar maakt voor de directie.",
+                            "image": "https://www.empowers.nl/images/blogs/linkedin-ads-rapportage-metrics-echt.jpg",
+                            "datePublished": "2026-05-07T15:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke LinkedIn Ads metrics zijn het belangrijkst?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De belangrijkste metrics hangen af van je doel. Voor lead generation tellen vooral conversiekost per lead (CPL), conversion rate en de uiteindelijke leadkwaliteit (sales-feedback). Voor brand awareness kijk je naar reach, frequency, CTR en top-of-funnel ontwikkeling per maand. CPM en CPC zijn ondersteunende metrics die context geven, geen sturingsmetrics."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede CTR op LinkedIn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor Sponsored Content ligt een gezonde CTR doorgaans tussen 0,5 en 1 procent. Hoger dan 1 procent is uitzonderlijk en duidt vaak op een bijzonder goede creative-doelgroep match. Onder de 0,3 procent is een signaal dat je creative niet werkt voor de doelgroep, en daar pak je dan ook eerst op aan."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke metrics rapporteer je het beste richting de directie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Directies hebben weinig met klikratio's. Rapporteer in business-termen: aantal opgeleverde MQL's, sales-geaccepteerde leads, pipeline-impact en uiteindelijk de gewonnen deals. Houd één LinkedIn-specifieke metric als context (bijvoorbeeld CPL of conversion rate) zodat optimalisaties uitgelegd kunnen worden, maar laat de operationele cijfers in een appendix."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet je de echte ROI van LinkedIn Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Echte ROI meet je door LinkedIn-leads te koppelen aan CRM-data. Bij een lange salescyclus heb je een attributiemodel nodig dat zowel first-touch als multi-touch laat zien. Conversion API koppelen of UTM-parameters strak doorzetten naar je CRM is de basis. Zonder die koppeling rapporteer je over leadcijfers, niet over rendement."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke metrics geven een vals beeld?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Engagement-metrics zoals likes, reacties en delingen zien er goed uit op een rapport, maar voorspellen zelden conversie. Hetzelfde geldt voor video-views: een view in LinkedIn telt vanaf twee seconden, dus drukke feed-impressies kunnen je videoview-aantallen kunstmatig opblazen. Stuur niet op deze cijfers, gebruik ze hooguit als achtergrondinformatie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet je LinkedIn Ads rapporteren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Operationeel kijk je wekelijks naar de cijfers. Maandelijks rapporteer je richting de business, en eens per kwartaal trek je de strategische conclusies. Dagelijks naar de cijfers staren leidt tot impulsieve aanpassingen die het algoritme verstoren. Bouw discipline in en weersta de neiging tot continue check-ins."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een gezond CPM op LinkedIn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor Sponsored Content ligt CPM doorgaans tussen 25 en 70 euro, afhankelijk van seniority en branche. Voor C-level beslissers in financiële sectoren is een CPM boven de 80 euro normaal. Vergelijk je CPM nooit zonder context: een hoge CPM kan een teken zijn van scherpe targeting, niet van slechte performance."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke LinkedIn Ads metrics zijn het belangrijkst?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De belangrijkste metrics hangen af van je doel. Voor lead generation tellen vooral conversiekost per lead (CPL), conversion rate en de uiteindelijke leadkwaliteit (sales-feedback). Voor brand awareness kijk je naar reach, frequency, CTR en top-of-funnel ontwikkeling per maand. CPM en CPC zijn ondersteunende metrics die context geven, geen sturingsmetrics."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede CTR op LinkedIn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor Sponsored Content ligt een gezonde CTR doorgaans tussen 0,5 en 1 procent. Hoger dan 1 procent is uitzonderlijk en duidt vaak op een bijzonder goede creative-doelgroep match. Onder de 0,3 procent is een signaal dat je creative niet werkt voor de doelgroep, en daar pak je dan ook eerst op aan."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke metrics rapporteer je het beste richting de directie?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Directies hebben weinig met klikratio's. Rapporteer in business-termen: aantal opgeleverde MQL's, sales-geaccepteerde leads, pipeline-impact en uiteindelijk de gewonnen deals. Houd één LinkedIn-specifieke metric als context (bijvoorbeeld CPL of conversion rate) zodat optimalisaties uitgelegd kunnen worden, maar laat de operationele cijfers in een appendix."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe meet je de echte ROI van LinkedIn Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Echte ROI meet je door LinkedIn-leads te koppelen aan CRM-data. Bij een lange salescyclus heb je een attributiemodel nodig dat zowel first-touch als multi-touch laat zien. Conversion API koppelen of UTM-parameters strak doorzetten naar je CRM is de basis. Zonder die koppeling rapporteer je over leadcijfers, niet over rendement."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke metrics geven een vals beeld?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Engagement-metrics zoals likes, reacties en delingen zien er goed uit op een rapport, maar voorspellen zelden conversie. Hetzelfde geldt voor video-views: een view in LinkedIn telt vanaf twee seconden, dus drukke feed-impressies kunnen je videoview-aantallen kunstmatig opblazen. Stuur niet op deze cijfers, gebruik ze hooguit als achtergrondinformatie."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak moet je LinkedIn Ads rapporteren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Operationeel kijk je wekelijks naar de cijfers. Maandelijks rapporteer je richting de business, en eens per kwartaal trek je de strategische conclusies. Dagelijks naar de cijfers staren leidt tot impulsieve aanpassingen die het algoritme verstoren. Bouw discipline in en weersta de neiging tot continue check-ins."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is een gezond CPM op LinkedIn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor Sponsored Content ligt CPM doorgaans tussen 25 en 70 euro, afhankelijk van seniority en branche. Voor C-level beslissers in financiële sectoren is een CPM boven de 80 euro normaal. Vergelijk je CPM nooit zonder context: een hoge CPM kan een teken zijn van scherpe targeting, niet van slechte performance."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "LinkedIn Ads rapportage",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/linkedin-ads-rapportage-metrics-echt"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "LinkedIn Ads rapportage", "item": "https://www.empowers.nl/blogs/social-ads/linkedin-ads-rapportage-metrics-echt" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

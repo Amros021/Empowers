@@ -24,102 +24,102 @@ export default function BlogPostOnlineMarketingBureau() {
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Wat is een online marketing bureau en wat doet het? | Empowers" />
                 <meta name="twitter:description" content="Een online marketing bureau helpt je groeien via Google Ads, SEO, social ads en meer. Leer wat een bureau doet en wanneer je er een inschakelt." />
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Wat is een online marketing bureau en wat doet het?",
-                        "description": "Een online marketing bureau helpt je groeien via Google Ads, SEO, social ads en meer. Leer wat een bureau doet en wanneer je er een inschakelt.",
-                        "image": "https://www.empowers.nl/images/blogs/online-marketing-bureau.jpg",
-                        "datePublished": "2026-03-27T00:00:00+01:00",
-                        "dateModified": "2026-05-09T00:00:00+02:00",
-                        "author": {
-                            "@type": "Organization",
-                            "name": "Empowers"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Wat is een online marketing bureau en wat doet het?",
+                            "description": "Een online marketing bureau helpt je groeien via Google Ads, SEO, social ads en meer. Leer wat een bureau doet en wanneer je er een inschakelt.",
+                            "image": "https://www.empowers.nl/images/blogs/online-marketing-bureau.jpg",
+                            "datePublished": "2026-03-27T00:00:00+01:00",
+                            "dateModified": "2026-05-09T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            }
                         },
-                        "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" }
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": [
-                            {
-                                "@type": "Question",
-                                "name": "Wat doet een online marketing bureau precies?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Een online marketing bureau verzorgt alle digitale marketingactiviteiten voor jouw bedrijf. Dit omvat Google Ads, SEO, social media advertising, tracking en strategie-ontwikkeling. Het bureau zorgt dat je via online kanalen meer zichtbaarheid en klanten bereikt."
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat doet een online marketing bureau precies?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Een online marketing bureau verzorgt alle digitale marketingactiviteiten voor jouw bedrijf. Dit omvat Google Ads, SEO, social media advertising, tracking en strategie-ontwikkeling. Het bureau zorgt dat je via online kanalen meer zichtbaarheid en klanten bereikt."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wanneer heb ik een online marketing bureau nodig?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Je hebt een online marketing bureau nodig als je online niet voldoende zichtbaarheid hebt, niet weet hoe je digital marketing in moet zetten, of als je huidige marketing geen resultaten oplevert. Een bureau helpt je met strategie, uitvoering en optimalisatie."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is het verschil tussen Google Ads en SEO?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Google Ads zijn betaalde advertenties bovenaan zoekresultaten die direct leads opleveren. SEO is het gratis verbeteren van je website zodat je hoger in Google rankt. Beide zijn belangrijk en werken het beste samen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe helpen Meta Ads mij meer klanten te krijgen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Meta Ads (Facebook en Instagram) richten zich op specifieke doelgroepen op basis van interesses, gedrag en demografie. Dit helpt je jouw ideale klanten te bereiken met doelgerichte campagnes die conversies opleveren."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is tracking en waarom is het belangrijk?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Tracking betekent dat je volgt welke klanten naar je website komen, wat ze doen en of ze iets kopen. Dit helpt je begrijpen welke marketingkanalen werken en waar je je geld het beste inzet."
+                                    }
                                 }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Wanneer heb ik een online marketing bureau nodig?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Je hebt een online marketing bureau nodig als je online niet voldoende zichtbaarheid hebt, niet weet hoe je digital marketing in moet zetten, of als je huidige marketing geen resultaten oplevert. Een bureau helpt je met strategie, uitvoering en optimalisatie."
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Wat is een online marketing bureau en wat doet het?",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/online-marketing-bureau"
                                 }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Wat is het verschil tussen Google Ads en SEO?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Google Ads zijn betaalde advertenties bovenaan zoekresultaten die direct leads opleveren. SEO is het gratis verbeteren van je website zodat je hoger in Google rankt. Beide zijn belangrijk en werken het beste samen."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Hoe helpen Meta Ads mij meer klanten te krijgen?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Meta Ads (Facebook en Instagram) richten zich op specifieke doelgroepen op basis van interesses, gedrag en demografie. Dit helpt je jouw ideale klanten te bereiken met doelgerichte campagnes die conversies opleveren."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Wat is tracking en waarom is het belangrijk?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Tracking betekent dat je volgt welke klanten naar je website komen, wat ze doen en of ze iets kopen. Dit helpt je begrijpen welke marketingkanalen werken en waar je je geld het beste inzet."
-                                }
-                            }
-                        ]
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Algemeen",
-                                "item": "https://www.empowers.nl/blogs/algemeen"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Wat is een online marketing bureau en wat doet het?",
-                                "item": "https://www.empowers.nl/blogs/algemeen/online-marketing-bureau"
-                            }
-                        ]
-                    })}
-                </script>
+                            ]
+                        }
+                    ]
+                })}</script>
             </Helmet>
 
             <Navbar />

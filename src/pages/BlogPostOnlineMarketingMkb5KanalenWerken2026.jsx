@@ -28,97 +28,122 @@ export default function BlogPostOnlineMarketingMkb5KanalenWerken2026() {
                 <meta name="twitter:title" content="Online marketing voor MKB: 5 kanalen die écht werken in 2026" />
                 <meta name="twitter:description" content="De 5 marketingkanalen die in 2026 werken voor MKB, met budgetadvies en valkuilen." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Online marketing voor MKB: 5 kanalen die écht werken in 2026",
-                        "description": "Welke marketingkanalen leveren MKB in 2026 het meeste op? Lees welke 5 kanalen werken, hoe je tijd en budget verdeelt en welke je beter overslaat.",
-                        "image": "https://www.empowers.nl/images/blogs/online-marketing-mkb-5-kanalen-werken-2026.jpg",
-                        "datePublished": "2026-05-03T14:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Online marketing voor MKB: 5 kanalen die écht werken in 2026",
+                            "description": "Welke marketingkanalen leveren MKB in 2026 het meeste op? Lees welke 5 kanalen werken, hoe je tijd en budget verdeelt en welke je beter overslaat.",
+                            "image": "https://www.empowers.nl/images/blogs/online-marketing-mkb-5-kanalen-werken-2026.jpg",
+                            "datePublished": "2026-05-03T14:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke marketingkanalen werken het best voor MKB in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste MKB-bedrijven werken vijf kanalen het hardst: Google Bedrijfsprofiel met SEO, Google Ads, Meta Ads (Facebook en Instagram), email marketing en LinkedIn voor B2B. Welke combinatie past bij jou hangt af van of je B2C of B2B bent en of mensen acuut zoeken naar jouw aanbod."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel budget heb je nodig voor MKB-marketing?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De vuistregel is 5 tot 10 procent van jouw omzet investeren in marketing. Voor een MKB-bedrijf met 500.000 euro omzet betekent dat 2.000 tot 4.000 euro per maand inclusief mediabudget. Begin laag bij groei-fase, schaal op zodra je weet welk kanaal levert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke kanalen zijn het belangrijkst voor lokaal MKB?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor lokaal MKB zijn Google Bedrijfsprofiel en Google Ads de twee zwaarste kanalen. Een volledig profiel met wekelijkse posts, foto's en minimaal 5 nieuwe reviews per maand levert continu lokaal verkeer. Aanvullend werkt Google Ads op zoekopdrachten met plaatsnaam vaak onder 1 euro per klik."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt email marketing nog in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, email marketing heeft nog altijd de hoogste ROI van alle kanalen. Je betaalt geen platformkosten per bereik, je eigent je doelgroep zelf en je houdt het kanaal in eigen beheer. Voor MKB is dit het meest onderschatte kanaal van 2026, vaak rendabel vanaf 100 tot 500 euro per maand."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heeft een MKB-bedrijf social media nodig?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet automatisch. Voor B2C-bedrijven met visuele producten of diensten zoals interieur, beauty of horeca werkt Meta uitstekend. Voor B2B is LinkedIn vaak nuttiger dan Facebook of Instagram. Veel MKB-bedrijven verspillen tijd op kanalen waar hun klant niet zit. Kies op basis van waar jouw klant de aandacht heeft."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke kanalen kun je als MKB beter overslaan?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "TikTok werkt zelden voor klassiek MKB tenzij je doelgroep onder 30 zit en je content puur aan de start van de funnel inzet. X is voor de meeste MKB-bedrijven verloren tijd. Pinterest werkt alleen voor visuele B2C-producten. Begin liever met 2 sterke kanalen dan met 6 oppervlakkige."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verdeel je tijd over kanalen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een werkbare verdeling voor MKB is 50 procent tijd op het kanaal dat al levert, 30 procent op een tweede kanaal in groei en 20 procent op test. Een MKB-eigenaar zonder marketingteam reken je op 4 tot 6 uur per week aan structurele marketing-uitvoering, of je besteedt het uit."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke marketingkanalen werken het best voor MKB in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de meeste MKB-bedrijven werken vijf kanalen het hardst: Google Bedrijfsprofiel met SEO, Google Ads, Meta Ads (Facebook en Instagram), email marketing en LinkedIn voor B2B. Welke combinatie past bij jou hangt af van of je B2C of B2B bent en of mensen acuut zoeken naar jouw aanbod."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel budget heb je nodig voor MKB-marketing?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De vuistregel is 5 tot 10 procent van jouw omzet investeren in marketing. Voor een MKB-bedrijf met 500.000 euro omzet betekent dat 2.000 tot 4.000 euro per maand inclusief mediabudget. Begin laag bij groei-fase, schaal op zodra je weet welk kanaal levert."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke kanalen zijn het belangrijkst voor lokaal MKB?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor lokaal MKB zijn Google Bedrijfsprofiel en Google Ads de twee zwaarste kanalen. Een volledig profiel met wekelijkse posts, foto's en minimaal 5 nieuwe reviews per maand levert continu lokaal verkeer. Aanvullend werkt Google Ads op zoekopdrachten met plaatsnaam vaak onder 1 euro per klik."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Werkt email marketing nog in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, email marketing heeft nog altijd de hoogste ROI van alle kanalen. Je betaalt geen platformkosten per bereik, je eigent je doelgroep zelf en je houdt het kanaal in eigen beheer. Voor MKB is dit het meest onderschatte kanaal van 2026, vaak rendabel vanaf 100 tot 500 euro per maand."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Heeft een MKB-bedrijf social media nodig?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet automatisch. Voor B2C-bedrijven met visuele producten of diensten zoals interieur, beauty of horeca werkt Meta uitstekend. Voor B2B is LinkedIn vaak nuttiger dan Facebook of Instagram. Veel MKB-bedrijven verspillen tijd op kanalen waar hun klant niet zit. Kies op basis van waar jouw klant de aandacht heeft."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke kanalen kun je als MKB beter overslaan?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "TikTok werkt zelden voor klassiek MKB tenzij je doelgroep onder 30 zit en je content puur aan de start van de funnel inzet. X is voor de meeste MKB-bedrijven verloren tijd. Pinterest werkt alleen voor visuele B2C-producten. Begin liever met 2 sterke kanalen dan met 6 oppervlakkige."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe verdeel je tijd over kanalen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een werkbare verdeling voor MKB is 50 procent tijd op het kanaal dat al levert, 30 procent op een tweede kanaal in groei en 20 procent op test. Een MKB-eigenaar zonder marketingteam reken je op 4 tot 6 uur per week aan structurele marketing-uitvoering, of je besteedt het uit."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Online marketing voor MKB: 5 kanalen 2026",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/online-marketing-mkb-5-kanalen-werken-2026"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                            { "@type": "ListItem", "position": 4, "name": "Online marketing voor MKB: 5 kanalen 2026", "item": "https://www.empowers.nl/blogs/algemeen/online-marketing-mkb-5-kanalen-werken-2026" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

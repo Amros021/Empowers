@@ -29,81 +29,106 @@ export default function BlogPostOnlineMarketingUitbestedenFoutenMkb() {
                 <meta name="twitter:title" content="Online marketing uitbesteden: 5 fouten die MKB-bedrijven maken" />
                 <meta name="twitter:description" content="De vijf fouten die we structureel zien bij MKB-bedrijven die hun marketing uitbesteden, en hoe je ze voorkomt." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Online marketing uitbesteden: 5 fouten die MKB-bedrijven maken",
-                        "description": "MKB-ondernemers verbranden onnodig geld bij het uitbesteden van online marketing. Vijf fouten die we structureel terugzien en hoe je ze voorkomt.",
-                        "image": "https://www.empowers.nl/images/blogs/online-marketing-uitbesteden-fouten-mkb.jpg",
-                        "datePublished": "2026-05-26T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Online marketing uitbesteden: 5 fouten die MKB-bedrijven maken",
+                            "description": "MKB-ondernemers verbranden onnodig geld bij het uitbesteden van online marketing. Vijf fouten die we structureel terugzien en hoe je ze voorkomt.",
+                            "image": "https://www.empowers.nl/images/blogs/online-marketing-uitbesteden-fouten-mkb.jpg",
+                            "datePublished": "2026-05-26T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is de grootste fout bij online marketing uitbesteden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Tekenen voordat je tracking en accountstructuur op orde zijn. Een bureau dat begint zonder kloppende meting werkt blind. Zonder eigen accounts ben je later afhankelijk van wat je partner wil overdragen. Beide problemen kosten je maanden voordat ze opvallen en zijn vrij eenvoudig te voorkomen door vooraf een week in te bouwen voor de basis."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of mijn marketingbureau echt resultaat boekt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Kijk naar wat er per nieuwe klant aan marge overblijft, niet alleen naar ROAS of CTR. Vraag elke maand om een gesprek waarin het bureau uitlegt welke beslissingen ze hebben genomen en waarom. Goede partners brengen die context vanzelf mee. Wie blijft hangen in cijferslides zonder uitleg, stuurt op vanity metrics."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik kiezen voor een goedkoper bureau of betalen voor kwaliteit?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet de prijs maakt het verschil, maar wat je ervoor terugkrijgt. Een goedkoop bureau dat alleen knopjes draait kost je vaak meer dan een duurder bureau dat strategisch meedenkt. Vraag bij elk gesprek concreet welke uren waar aan worden besteed. Als dat antwoord vaag blijft, is dat een signaal."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voor uitbestede marketing resultaat oplevert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor advertentiekanalen zoals Google Ads en Meta Ads zie je doorgaans binnen zes weken signaal of de campagnes de goede kant op bewegen. SEO en GEO hebben drie tot zes maanden nodig voor structurele groei. Beloven dat je in maand twee al een verdubbeling ziet is verkooppraat. Een serieuze partner geeft een eerlijke tijdlijn vooraf."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik mijn marketing helemaal uit handen geven?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. De richting blijft jouw werk. Welke producten je wil verkopen, welke marges je nodig hebt, hoe je seizoenen aanpakt. Een goede partner stelt hier vragen over en voert vervolgens uit. Wie de strategie ook uitbesteedt zonder zelf betrokken te blijven, krijgt vaak generieke campagnes die niet aansluiten op de eigen positie."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is de grootste fout bij online marketing uitbesteden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Tekenen voordat je tracking en accountstructuur op orde zijn. Een bureau dat begint zonder kloppende meting werkt blind. Zonder eigen accounts ben je later afhankelijk van wat je partner wil overdragen. Beide problemen kosten je maanden voordat ze opvallen en zijn vrij eenvoudig te voorkomen door vooraf een week in te bouwen voor de basis."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe weet ik of mijn marketingbureau echt resultaat boekt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Kijk naar wat er per nieuwe klant aan marge overblijft, niet alleen naar ROAS of CTR. Vraag elke maand om een gesprek waarin het bureau uitlegt welke beslissingen ze hebben genomen en waarom. Goede partners brengen die context vanzelf mee. Wie blijft hangen in cijferslides zonder uitleg, stuurt op vanity metrics."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik kiezen voor een goedkoper bureau of betalen voor kwaliteit?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet de prijs maakt het verschil, maar wat je ervoor terugkrijgt. Een goedkoop bureau dat alleen knopjes draait kost je vaak meer dan een duurder bureau dat strategisch meedenkt. Vraag bij elk gesprek concreet welke uren waar aan worden besteed. Als dat antwoord vaag blijft, is dat een signaal."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voor uitbestede marketing resultaat oplevert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor advertentiekanalen zoals Google Ads en Meta Ads zie je doorgaans binnen zes weken signaal of de campagnes de goede kant op bewegen. SEO en GEO hebben drie tot zes maanden nodig voor structurele groei. Beloven dat je in maand twee al een verdubbeling ziet is verkooppraat. Een serieuze partner geeft een eerlijke tijdlijn vooraf."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik mijn marketing helemaal uit handen geven?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee. De richting blijft jouw werk. Welke producten je wil verkopen, welke marges je nodig hebt, hoe je seizoenen aanpakt. Een goede partner stelt hier vragen over en voert vervolgens uit. Wie de strategie ook uitbesteedt zonder zelf betrokken te blijven, krijgt vaak generieke campagnes die niet aansluiten op de eigen positie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Online marketing uitbesteden fouten MKB",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/online-marketing-uitbesteden-fouten-mkb"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                            { "@type": "ListItem", "position": 4, "name": "Online marketing uitbesteden fouten MKB", "item": "https://www.empowers.nl/blogs/algemeen/online-marketing-uitbesteden-fouten-mkb" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

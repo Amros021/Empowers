@@ -28,97 +28,122 @@ export default function BlogPostOnPageVsOffPageSeo() {
                 <meta name="twitter:title" content="On-page vs off-page SEO: wat heeft prioriteit?" />
                 <meta name="twitter:description" content="On-page of off-page SEO: wat levert sneller resultaat op en hoe combineer je beide voor maximaal effect?" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "On-page vs off-page SEO: wat heeft prioriteit voor jouw site? (2026)",
-                        "description": "On-page of off-page SEO: waar moet je beginnen en wat levert sneller resultaat op? Lees welke aanpak past bij jouw fase en hoe je beide combineert.",
-                        "image": "https://www.empowers.nl/images/blogs/on-page-vs-off-page.jpg",
-                        "datePublished": "2026-05-03T14:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "On-page vs off-page SEO: wat heeft prioriteit voor jouw site? (2026)",
+                            "description": "On-page of off-page SEO: waar moet je beginnen en wat levert sneller resultaat op? Lees welke aanpak past bij jouw fase en hoe je beide combineert.",
+                            "image": "https://www.empowers.nl/images/blogs/on-page-vs-off-page.jpg",
+                            "datePublished": "2026-05-03T14:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen on-page en off-page SEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "On-page SEO is alles wat je op jouw eigen pagina aanpast: titels, content, koppen, interne links en techniek. Off-page SEO is alles wat buiten jouw site gebeurt en jouw autoriteit beïnvloedt: backlinks, vermeldingen, recensies en sociale signalen. On-page geeft Google de juiste boodschap, off-page geeft Google de bevestiging dat anderen jou ook serieus nemen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat heeft meer prioriteit: on-page of off-page SEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "On-page heeft bijna altijd eerste prioriteit. Een sterke off-page strategie verspilt budget als jouw pagina's traag laden, dunne content hebben of de verkeerde zoekwoorden missen. Pas als de basis op orde is, levert investeren in autoriteit echt rendement op."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel tijd kost on-page SEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een complete on-page audit en optimalisatie van een MKB-website van 30 pagina's kost gemiddeld 20 tot 40 uur. Daarna heb je per kwartaal nog 5 tot 10 uur nodig voor onderhoud, content updates en nieuwe pagina's. Off-page is een doorlopend proces zonder vast eindpunt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik on-page SEO zelf doen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, de basis van on-page SEO leer je in een paar weken. Titels, meta descriptions, koppen, alt-teksten en interne linking zijn goed te doen zonder specialist. Voor technische SEO en grote content-projecten loont een specialist sneller, omdat fouten in de basis je rankings maandenlang kunnen blokkeren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat off-page SEO werkt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op 3 tot 6 maanden voordat nieuwe backlinks effect hebben in de zoekresultaten. Google moet de links indexeren, het signaal wegen en jouw autoriteitsscore bijwerken. Snelle stijgingen door 'link kopen' werken in 2026 averechts en leveren penalty's op."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is technische SEO en hoort dat bij on-page?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Technische SEO is een onderdeel van on-page SEO. Het gaat over alles wat Google nodig heeft om jouw site te crawlen en indexeren: laadsnelheid, mobile-vriendelijkheid, schema markup, sitemap, interne linkstructuur en HTTPS. Zonder solide techniek werken content-optimalisaties maar half."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke fout maken ondernemers het vaakst?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ze kopen backlinks of besteden alles uit aan link-bureaus terwijl hun site technisch faalt of hun content te dun is. Resultaat: links naar pagina's die toch niet ranken. De volgorde is altijd content op orde, techniek op orde, dan pas autoriteit opbouwen."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen on-page en off-page SEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "On-page SEO is alles wat je op jouw eigen pagina aanpast: titels, content, koppen, interne links en techniek. Off-page SEO is alles wat buiten jouw site gebeurt en jouw autoriteit beïnvloedt: backlinks, vermeldingen, recensies en sociale signalen. On-page geeft Google de juiste boodschap, off-page geeft Google de bevestiging dat anderen jou ook serieus nemen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat heeft meer prioriteit: on-page of off-page SEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "On-page heeft bijna altijd eerste prioriteit. Een sterke off-page strategie verspilt budget als jouw pagina's traag laden, dunne content hebben of de verkeerde zoekwoorden missen. Pas als de basis op orde is, levert investeren in autoriteit echt rendement op."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel tijd kost on-page SEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een complete on-page audit en optimalisatie van een MKB-website van 30 pagina's kost gemiddeld 20 tot 40 uur. Daarna heb je per kwartaal nog 5 tot 10 uur nodig voor onderhoud, content updates en nieuwe pagina's. Off-page is een doorlopend proces zonder vast eindpunt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Kan ik on-page SEO zelf doen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, de basis van on-page SEO leer je in een paar weken. Titels, meta descriptions, koppen, alt-teksten en interne linking zijn goed te doen zonder specialist. Voor technische SEO en grote content-projecten loont een specialist sneller, omdat fouten in de basis je rankings maandenlang kunnen blokkeren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat off-page SEO werkt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op 3 tot 6 maanden voordat nieuwe backlinks effect hebben in de zoekresultaten. Google moet de links indexeren, het signaal wegen en jouw autoriteitsscore bijwerken. Snelle stijgingen door 'link kopen' werken in 2026 averechts en leveren penalty's op."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is technische SEO en hoort dat bij on-page?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Technische SEO is een onderdeel van on-page SEO. Het gaat over alles wat Google nodig heeft om jouw site te crawlen en indexeren: laadsnelheid, mobile-vriendelijkheid, schema markup, sitemap, interne linkstructuur en HTTPS. Zonder solide techniek werken content-optimalisaties maar half."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke fout maken ondernemers het vaakst?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ze kopen backlinks of besteden alles uit aan link-bureaus terwijl hun site technisch faalt of hun content te dun is. Resultaat: links naar pagina's die toch niet ranken. De volgorde is altijd content op orde, techniek op orde, dan pas autoriteit opbouwen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "On-page vs off-page SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo/on-page-vs-off-page"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "SEO", "item": "https://www.empowers.nl/blogs/seo" },
-                            { "@type": "ListItem", "position": 4, "name": "On-page vs off-page SEO", "item": "https://www.empowers.nl/blogs/seo/on-page-vs-off-page" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

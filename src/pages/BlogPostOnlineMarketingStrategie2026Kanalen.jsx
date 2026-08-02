@@ -28,81 +28,106 @@ export default function BlogPostOnlineMarketingStrategie2026Kanalen() {
                 <meta name="twitter:title" content="Online marketing strategie 2026: de 5 kanalen die nu werken" />
                 <meta name="twitter:description" content="Welke 5 marketingkanalen werken nu echt? De Empowers-gids voor jouw online marketing strategie in 2026." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Online marketing strategie 2026: de 5 kanalen die nu werken",
-                        "description": "Welke kanalen zet je in voor jouw online marketing strategie in 2026? Leer welke 5 kanalen echt resultaat leveren, hoe je de mix bepaalt en waarom één kanaal nooit genoeg is.",
-                        "image": "https://www.empowers.nl/images/blogs/online-marketing-strategie-2026-kanalen.jpg",
-                        "datePublished": "2026-05-29T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Online marketing strategie 2026: de 5 kanalen die nu werken",
+                            "description": "Welke kanalen zet je in voor jouw online marketing strategie in 2026? Leer welke 5 kanalen echt resultaat leveren, hoe je de mix bepaalt en waarom één kanaal nooit genoeg is.",
+                            "image": "https://www.empowers.nl/images/blogs/online-marketing-strategie-2026-kanalen.jpg",
+                            "datePublished": "2026-05-29T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke marketingkanalen werken het best in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De vijf kanalen die in 2026 consistent resultaat leveren voor MKB en webshops zijn: Google Ads (Search en Performance Max), Meta Ads, SEO gecombineerd met GEO, e-mailmarketing en LinkedIn Ads voor B2B. Welk kanaal prioriteit krijgt, hangt af van jouw doelgroep, marges en groeifase."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel kanalen moet je gelijktijdig inzetten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin met twee kanalen die direct resultaat meten: betaald verkeer voor snelheid en e-mail voor retentie. Voeg daarna organische kanalen toe zodra je winstgevend bent op de betaalde mix. Te weinig kanalen maakt je kwetsbaar voor algoritmewisselingen; te veel tegelijk versnippert je aandacht en budget."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is SEO nog relevant nu AI-zoekmachines opkomen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, maar SEO alleen is niet meer genoeg. In 2026 is GEO (Generative Engine Optimization) een aanvulling geworden die niet te negeren valt. Zoekmachines zoals ChatGPT en Perplexity trekken een groeiend deel van het informatieverkeer aan. Wie zowel Google als AI-tools bedient, bouwt een duurzamere zichtbaarheidspositie op."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een realistisch marketingbudget voor MKB in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Er is geen universeel antwoord, maar als vuistregel geldt: besteed minimaal genoeg om per kanaal statistisch significante data te verzamelen. Voor Google Ads betekent dat doorgaans een maandbudget dat minstens 50 conversies per maand toelaat. Onder dat volume leert het algoritme te langzaam om goed te presteren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is LinkedIn Ads een slimme keuze?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "LinkedIn Ads lonen wanneer jouw klant een zakelijke beslisser is met een functietitel of branche als onderscheidend kenmerk, en wanneer de orderwaarde hoog genoeg is om de hogere klikkosten te rechtvaardigen. Voor B2C of lage margeproducten is Meta Ads vrijwel altijd kostenefficiënter."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke marketingkanalen werken het best in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De vijf kanalen die in 2026 consistent resultaat leveren voor MKB en webshops zijn: Google Ads (Search en Performance Max), Meta Ads, SEO gecombineerd met GEO, e-mailmarketing en LinkedIn Ads voor B2B. Welk kanaal prioriteit krijgt, hangt af van jouw doelgroep, marges en groeifase."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel kanalen moet je gelijktijdig inzetten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin met twee kanalen die direct resultaat meten: betaald verkeer voor snelheid en e-mail voor retentie. Voeg daarna organische kanalen toe zodra je winstgevend bent op de betaalde mix. Te weinig kanalen maakt je kwetsbaar voor algoritmewisselingen; te veel tegelijk versnippert je aandacht en budget."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Is SEO nog relevant nu AI-zoekmachines opkomen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, maar SEO alleen is niet meer genoeg. In 2026 is GEO (Generative Engine Optimization) een aanvulling geworden die niet te negeren valt. Zoekmachines zoals ChatGPT en Perplexity trekken een groeiend deel van het informatieverkeer aan. Wie zowel Google als AI-tools bedient, bouwt een duurzamere zichtbaarheidspositie op."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een realistisch marketingbudget voor MKB in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Er is geen universeel antwoord, maar als vuistregel geldt: besteed minimaal genoeg om per kanaal statistisch significante data te verzamelen. Voor Google Ads betekent dat doorgaans een maandbudget dat minstens 50 conversies per maand toelaat. Onder dat volume leert het algoritme te langzaam om goed te presteren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wanneer is LinkedIn Ads een slimme keuze?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "LinkedIn Ads lonen wanneer jouw klant een zakelijke beslisser is met een functietitel of branche als onderscheidend kenmerk, en wanneer de orderwaarde hoog genoeg is om de hogere klikkosten te rechtvaardigen. Voor B2C of lage margeproducten is Meta Ads vrijwel altijd kostenefficiënter."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Online marketing strategie 2026",
+                                    "item": "https://www.empowers.nl/blogs/strategie/online-marketing-strategie-2026-kanalen"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                            { "@type": "ListItem", "position": 4, "name": "Online marketing strategie 2026", "item": "https://www.empowers.nl/blogs/strategie/online-marketing-strategie-2026-kanalen" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

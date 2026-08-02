@@ -28,97 +28,122 @@ export default function BlogPostLinkedinAdsOptimaliserenStapStap() {
                 <meta name="twitter:title" content="LinkedIn Ads optimaliseren stap voor stap" />
                 <meta name="twitter:description" content="Welke knoppen je wel en niet moet draaien om je LinkedIn-rendement te verhogen." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "LinkedIn Ads optimaliseren stap voor stap",
-                        "description": "Een gestructureerde optimalisatie-aanpak voor LinkedIn Ads die werkelijk rendement oplevert.",
-                        "image": "https://www.empowers.nl/images/blogs/linkedin-ads-optimaliseren-stap-stap.jpg",
-                        "datePublished": "2026-05-07T13:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "LinkedIn Ads optimaliseren stap voor stap",
+                            "description": "Een gestructureerde optimalisatie-aanpak voor LinkedIn Ads die werkelijk rendement oplevert.",
+                            "image": "https://www.empowers.nl/images/blogs/linkedin-ads-optimaliseren-stap-stap.jpg",
+                            "datePublished": "2026-05-07T13:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang moet je een LinkedIn-campagne laten draaien voordat je optimaliseert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Geef een nieuwe campagne minimaal twee tot drie weken zonder ingrijpende wijzigingen. LinkedIn's algoritme heeft tijd nodig om uit te zoeken welk type gebruiker reageert op jouw advertenties. Bij conversiecampagnes is een learning phase van minimaal vijftig conversies per week aanbevolen voordat je serieuze conclusies kunt trekken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke metrics tellen het zwaarst bij LinkedIn-optimalisatie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor brand awareness kijk je naar CTR en kosten per impressie. Voor lead generation telt vooral de conversiekost per lead en de leadkwaliteit (sales-feedback). Engagement-cijfers (likes, reacties, deel-acties) geven een indicatie van creative-fit, maar mogen nooit het hoofddoel worden bij betaalde campagnes."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat doe je als je CPL te hoog blijft?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een hoge CPL ligt zelden aan de bidding zelf. Kijk eerst naar drie zaken: is je doelgroep te smal of te breed, klopt je creative bij de aangeboden waarde, en converteert je landingspagina goed genoeg. In negen van de tien gevallen zit het probleem in de creative of het aanbod, niet in de techniek van de campagne."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe snel mag je het budget van een LinkedIn-campagne verhogen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Verhoog het dagbudget per stap met maximaal 20 procent en wacht daarna minstens vier dagen voordat je opnieuw verhoogt. Sneller dan dat verstoort de leerfase en kun je tijdelijk stijgende kosten zien zonder evenredige toename in resultaat. Bij geleidelijk schalen blijven CPL's stabieler."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke biedstrategie kies je het beste op LinkedIn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin met Maximum Delivery (geautomatiseerd bieden) zodat het algoritme zelf optimaliseert binnen je budget. Stap pas over op Manual Bidding of Target Cost als je voldoende conversiedata hebt om een realistische streefkost te bepalen. Manual bieden zonder data leidt vaak tot te lage biedingen waardoor advertenties te weinig vertoningen krijgen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet je nieuwe creative testen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Wissel creatives elke vier tot zes weken, eerder als je CTR ziet dalen of frequency boven de zes komt. LinkedIn-doelgroepen zijn relatief klein, dus advertentiemoeheid treedt sneller op dan op Meta of Google. Houd minimaal twee variaties per campagne actief en vervang de underperformer wanneer je voldoende data hebt om te oordelen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer pauzeer je een LinkedIn-campagne?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Pauzeer pas als je na drie weken structureel ondermaatse resultaten ziet en geen verbeterhefbomen meer hebt. Pauzeren is geen optimalisatie maar een laatste stap. Probeer eerst targeting, creative of biedstrategie aan te passen voordat je geld weghaalt uit een campagne die misschien net de leerfase nadert."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang moet je een LinkedIn-campagne laten draaien voordat je optimaliseert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Geef een nieuwe campagne minimaal twee tot drie weken zonder ingrijpende wijzigingen. LinkedIn's algoritme heeft tijd nodig om uit te zoeken welk type gebruiker reageert op jouw advertenties. Bij conversiecampagnes is een learning phase van minimaal vijftig conversies per week aanbevolen voordat je serieuze conclusies kunt trekken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke metrics tellen het zwaarst bij LinkedIn-optimalisatie?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor brand awareness kijk je naar CTR en kosten per impressie. Voor lead generation telt vooral de conversiekost per lead en de leadkwaliteit (sales-feedback). Engagement-cijfers (likes, reacties, deel-acties) geven een indicatie van creative-fit, maar mogen nooit het hoofddoel worden bij betaalde campagnes."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat doe je als je CPL te hoog blijft?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een hoge CPL ligt zelden aan de bidding zelf. Kijk eerst naar drie zaken: is je doelgroep te smal of te breed, klopt je creative bij de aangeboden waarde, en converteert je landingspagina goed genoeg. In negen van de tien gevallen zit het probleem in de creative of het aanbod, niet in de techniek van de campagne."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe snel mag je het budget van een LinkedIn-campagne verhogen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Verhoog het dagbudget per stap met maximaal 20 procent en wacht daarna minstens vier dagen voordat je opnieuw verhoogt. Sneller dan dat verstoort de leerfase en kun je tijdelijk stijgende kosten zien zonder evenredige toename in resultaat. Bij geleidelijk schalen blijven CPL's stabieler."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke biedstrategie kies je het beste op LinkedIn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin met Maximum Delivery (geautomatiseerd bieden) zodat het algoritme zelf optimaliseert binnen je budget. Stap pas over op Manual Bidding of Target Cost als je voldoende conversiedata hebt om een realistische streefkost te bepalen. Manual bieden zonder data leidt vaak tot te lage biedingen waardoor advertenties te weinig vertoningen krijgen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak moet je nieuwe creative testen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Wissel creatives elke vier tot zes weken, eerder als je CTR ziet dalen of frequency boven de zes komt. LinkedIn-doelgroepen zijn relatief klein, dus advertentiemoeheid treedt sneller op dan op Meta of Google. Houd minimaal twee variaties per campagne actief en vervang de underperformer wanneer je voldoende data hebt om te oordelen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wanneer pauzeer je een LinkedIn-campagne?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Pauzeer pas als je na drie weken structureel ondermaatse resultaten ziet en geen verbeterhefbomen meer hebt. Pauzeren is geen optimalisatie maar een laatste stap. Probeer eerst targeting, creative of biedstrategie aan te passen voordat je geld weghaalt uit een campagne die misschien net de leerfase nadert."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "LinkedIn Ads optimaliseren",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/linkedin-ads-optimaliseren-stap-stap"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "LinkedIn Ads optimaliseren", "item": "https://www.empowers.nl/blogs/social-ads/linkedin-ads-optimaliseren-stap-stap" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

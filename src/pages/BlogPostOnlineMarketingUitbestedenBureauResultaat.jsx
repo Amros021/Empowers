@@ -24,44 +24,114 @@ export default function BlogPostOnlineMarketingUitbestedenBureauResultaat() {
                 <meta property="article:published_time" content="2026-05-13T13:00:00+02:00" />
                 <meta property="article:section" content="Algemeen" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org", "@type": "Article",
-                        "headline": "Online marketing uitbesteden: hoe herken je een bureau dat resultaat levert?",
-                        "description": "Wat een echt resultaatgericht marketingbureau onderscheidt van een mooie pitch.",
-                        "image": "https://www.empowers.nl/images/blogs/online-marketing-uitbesteden-bureau-resultaat.jpg",
-                        "datePublished": "2026-05-13T13:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                        "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                            { "@type": "Question", "name": "Hoe herken je een goed marketingbureau in een eerste gesprek?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Een goed bureau stelt vooral vragen voordat het beloftes doet. Ze willen weten wat een lead voor jou waard is, wat je marge per klant is en welke conversiestappen je momenteel meet. Een bureau dat in het eerste gesprek al concrete groeicijfers belooft zonder die context te kennen, baseert zijn pitch op standaard verkooppraat, niet op jouw business." } },
-                            { "@type": "Question", "name": "Welke KPI's spreek je af met een bureau?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Stel altijd KPI's vast die zo dicht mogelijk bij omzet of marge zitten. CPL (kosten per lead) als je product een verkoopgesprek vereist, ROAS (return on ad spend) voor webshops, CAC (klantacquisitiekosten) als je SaaS draait. Vermijd KPI's als impressies, clicks of CTR als hoofddoel: die zeggen niets over wat je echt verdient." } },
-                            { "@type": "Question", "name": "Wat zijn rode vlaggen bij een marketingbureau?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Geen of weinig referenties uit jouw branche. Geen toegang willen geven tot je eigen accounts. Reporting waarin alleen positieve metrics worden uitgelicht. Een vast contract van meer dan zes maanden zonder evaluatiemoment. Het ontbreken van een duidelijke escalatieprocedure als het slechter loopt. Bij twee of meer van deze signalen: bedank ze." } },
-                            { "@type": "Question", "name": "Wat moet er in een marketingcontract staan?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Heldere afspraken over eigendom van accounts (jij bent eigenaar), opzegtermijn (maximaal één maand na de proefperiode), wat het bureau levert per maand, rapportagecadans, en wat er gebeurt als afgesproken KPI's twee maanden achterelkaar niet gehaald worden. Schriftelijk vastgelegd, niet alleen in een mail." } },
-                            { "@type": "Question", "name": "Hoeveel kost online marketing uitbesteden?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Voor MKB-pakketten ligt de management fee meestal tussen 1.500 en 4.500 euro per maand, afhankelijk van het aantal kanalen en de complexiteit. Daar bovenop komt je advertentiebudget. Lage prijzen onder de 1.000 euro per maand betekenen vrijwel altijd dat je een junior of een sjabloon-aanpak krijgt zonder echte strategie." } },
-                            { "@type": "Question", "name": "Hoe lang voordat je resultaten ziet?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Voor Google Ads zie je binnen 2 tot 4 weken eerste resultaten en optimalisatieruimte. Voor Meta Ads ongeveer hetzelfde. Voor SEO en content marketing is 3 tot 6 maanden de realistische verwachting voordat organisch verkeer significant beweegt. Een bureau dat onmiddellijke resultaten op SEO belooft is niet eerlijk." } }
-                        ] }
-                    })}
-                </script>
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Online marketing uitbesteden: hoe herken je een bureau dat resultaat levert?",
+                            "description": "Wat een echt resultaatgericht marketingbureau onderscheidt van een mooie pitch.",
+                            "image": "https://www.empowers.nl/images/blogs/online-marketing-uitbesteden-bureau-resultaat.jpg",
+                            "datePublished": "2026-05-13T13:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe herken je een goed marketingbureau in een eerste gesprek?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een goed bureau stelt vooral vragen voordat het beloftes doet. Ze willen weten wat een lead voor jou waard is, wat je marge per klant is en welke conversiestappen je momenteel meet. Een bureau dat in het eerste gesprek al concrete groeicijfers belooft zonder die context te kennen, baseert zijn pitch op standaard verkooppraat, niet op jouw business."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke KPI's spreek je af met een bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Stel altijd KPI's vast die zo dicht mogelijk bij omzet of marge zitten. CPL (kosten per lead) als je product een verkoopgesprek vereist, ROAS (return on ad spend) voor webshops, CAC (klantacquisitiekosten) als je SaaS draait. Vermijd KPI's als impressies, clicks of CTR als hoofddoel: die zeggen niets over wat je echt verdient."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn rode vlaggen bij een marketingbureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Geen of weinig referenties uit jouw branche. Geen toegang willen geven tot je eigen accounts. Reporting waarin alleen positieve metrics worden uitgelicht. Een vast contract van meer dan zes maanden zonder evaluatiemoment. Het ontbreken van een duidelijke escalatieprocedure als het slechter loopt. Bij twee of meer van deze signalen: bedank ze."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat moet er in een marketingcontract staan?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Heldere afspraken over eigendom van accounts (jij bent eigenaar), opzegtermijn (maximaal één maand na de proefperiode), wat het bureau levert per maand, rapportagecadans, en wat er gebeurt als afgesproken KPI's twee maanden achterelkaar niet gehaald worden. Schriftelijk vastgelegd, niet alleen in een mail."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel kost online marketing uitbesteden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor MKB-pakketten ligt de management fee meestal tussen 1.500 en 4.500 euro per maand, afhankelijk van het aantal kanalen en de complexiteit. Daar bovenop komt je advertentiebudget. Lage prijzen onder de 1.000 euro per maand betekenen vrijwel altijd dat je een junior of een sjabloon-aanpak krijgt zonder echte strategie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang voordat je resultaten ziet?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor Google Ads zie je binnen 2 tot 4 weken eerste resultaten en optimalisatieruimte. Voor Meta Ads ongeveer hetzelfde. Voor SEO en content marketing is 3 tot 6 maanden de realistische verwachting voordat organisch verkeer significant beweegt. Een bureau dat onmiddellijke resultaten op SEO belooft is niet eerlijk."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Marketingbureau dat resultaat levert",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/online-marketing-uitbesteden-bureau-resultaat"
+                                }
+                            ]
+                        }
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org", "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                            { "@type": "ListItem", "position": 4, "name": "Marketingbureau dat resultaat levert", "item": "https://www.empowers.nl/blogs/algemeen/online-marketing-uitbesteden-bureau-resultaat" }
-                        ]
-                    })}
-                </script>
                     <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Online marketing uitbesteden: hoe herken je een bureau dat resultaat levert?" />
         <meta name="twitter:description" content="Een marketingbureau kiezen dat écht resultaat oplevert? De vragen om vooraf te stellen, de rode vlaggen en de afspraken " />

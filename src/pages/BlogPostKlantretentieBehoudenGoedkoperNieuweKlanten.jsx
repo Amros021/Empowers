@@ -28,89 +28,114 @@ export default function BlogPostKlantretentieBehoudenGoedkoperNieuweKlanten() {
                 <meta name="twitter:title" content="Klantretentie: behouden is goedkoper dan nieuwe klanten werven" />
                 <meta name="twitter:description" content="Slim sturen op herhaalomzet zonder dure tools." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Klantretentie: behouden is goedkoper dan nieuwe klanten werven",
-                        "description": "Bestaande klanten houden kost minder en levert vaker meer op dan nieuwe klanten werven. Welke retentie-hefbomen werken, en hoe bouw je ze in zonder gedoe.",
-                        "image": "https://www.empowers.nl/images/blogs/klantretentie-behouden-goedkoper-nieuwe-klanten.jpg",
-                        "datePublished": "2026-05-13T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Klantretentie: behouden is goedkoper dan nieuwe klanten werven",
+                            "description": "Bestaande klanten houden kost minder en levert vaker meer op dan nieuwe klanten werven. Welke retentie-hefbomen werken, en hoe bouw je ze in zonder gedoe.",
+                            "image": "https://www.empowers.nl/images/blogs/klantretentie-behouden-goedkoper-nieuwe-klanten.jpg",
+                            "datePublished": "2026-05-13T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom is klantretentie goedkoper dan nieuwe klanten werven?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een bestaande klant kent je merk, vertrouwt je en heeft al door je salesfunnel bewogen. Een nieuwe klant moet je via dure kanalen vinden, overtuigen en converteren. Daarnaast geven herhaalkopers in de praktijk vaak meer per order en bevelen ze je aan bij anderen. Een gemiddelde MKB-onderneming bespaart met goed retentiebeleid soms meer dan met agressieve acquisitiecampagnes."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik mijn klantretentie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor webshops: het percentage klanten dat binnen 12 maanden opnieuw bestelt. Voor dienstverleners en abonnementen: de churn rate, oftewel het percentage klanten dat per maand of jaar opzegt. Beide zijn eenvoudig uit je administratie of CRM te halen. Begin met meten voor je optimaliseert, anders weet je niet of wat je doet werkt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke tools heb ik nodig voor klantretentie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Minder dan je denkt. Een eenvoudig CRM zoals HubSpot Free of Pipedrive, een mailtool zoals Mailchimp of Klaviyo voor segmentatie, en een proces om reviews en feedback te verzamelen. Voor webshops zijn Klaviyo of Mailchimp populair omdat ze gedrag uit je shop koppelen aan automatische mailflows. Begin klein, schaal op als het werkt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet ik bestaande klanten benaderen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Afhankelijk van je product. Een softwareleverancier mag maandelijks waarde-mails sturen, een webshop kan na elke aankoop een serie van drie tot vijf mails plannen, een dienstverlener zoekt een kwartaalritme. Belangrijk: lever waarde, geen aanbiedingen. Geef tips, deel cases, vraag feedback. Een klant die zich gezien voelt blijft langer."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede churn rate voor MKB?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Het verschilt per branche. SaaS-bedrijven mikken vaak op een maandelijkse churn onder de 5 procent. Webshops in fashion zitten doorgaans hoger dan webshops in voeding, omdat herhaalaankopen in voeding natuurlijker zijn. Vergelijk niet met een ander branche, maar met je eigen historische cijfers en branchebenchmarks."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe red ik klanten die op het punt staan op te zeggen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Signalen herkennen is de eerste stap. Verminderd gebruik, geen reactie op mails, achteruitgaande tevredenheid in surveys. Reageer voordat ze opzeggen: een persoonlijk gesprek, een aanbod om mee te denken, of een tijdelijke korting bij bewezen problemen. Pas op met paniekkortingen, daarmee train je klanten op afwachten."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom is klantretentie goedkoper dan nieuwe klanten werven?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een bestaande klant kent je merk, vertrouwt je en heeft al door je salesfunnel bewogen. Een nieuwe klant moet je via dure kanalen vinden, overtuigen en converteren. Daarnaast geven herhaalkopers in de praktijk vaak meer per order en bevelen ze je aan bij anderen. Een gemiddelde MKB-onderneming bespaart met goed retentiebeleid soms meer dan met agressieve acquisitiecampagnes."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe meet ik mijn klantretentie?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor webshops: het percentage klanten dat binnen 12 maanden opnieuw bestelt. Voor dienstverleners en abonnementen: de churn rate, oftewel het percentage klanten dat per maand of jaar opzegt. Beide zijn eenvoudig uit je administratie of CRM te halen. Begin met meten voor je optimaliseert, anders weet je niet of wat je doet werkt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke tools heb ik nodig voor klantretentie?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Minder dan je denkt. Een eenvoudig CRM zoals HubSpot Free of Pipedrive, een mailtool zoals Mailchimp of Klaviyo voor segmentatie, en een proces om reviews en feedback te verzamelen. Voor webshops zijn Klaviyo of Mailchimp populair omdat ze gedrag uit je shop koppelen aan automatische mailflows. Begin klein, schaal op als het werkt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak moet ik bestaande klanten benaderen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Afhankelijk van je product. Een softwareleverancier mag maandelijks waarde-mails sturen, een webshop kan na elke aankoop een serie van drie tot vijf mails plannen, een dienstverlener zoekt een kwartaalritme. Belangrijk: lever waarde, geen aanbiedingen. Geef tips, deel cases, vraag feedback. Een klant die zich gezien voelt blijft langer."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede churn rate voor MKB?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Het verschilt per branche. SaaS-bedrijven mikken vaak op een maandelijkse churn onder de 5 procent. Webshops in fashion zitten doorgaans hoger dan webshops in voeding, omdat herhaalaankopen in voeding natuurlijker zijn. Vergelijk niet met een ander branche, maar met je eigen historische cijfers en branchebenchmarks."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe red ik klanten die op het punt staan op te zeggen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Signalen herkennen is de eerste stap. Verminderd gebruik, geen reactie op mails, achteruitgaande tevredenheid in surveys. Reageer voordat ze opzeggen: een persoonlijk gesprek, een aanbod om mee te denken, of een tijdelijke korting bij bewezen problemen. Pas op met paniekkortingen, daarmee train je klanten op afwachten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Klantretentie",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/klantretentie-behouden-goedkoper-nieuwe-klanten"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                            { "@type": "ListItem", "position": 4, "name": "Klantretentie", "item": "https://www.empowers.nl/blogs/algemeen/klantretentie-behouden-goedkoper-nieuwe-klanten" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

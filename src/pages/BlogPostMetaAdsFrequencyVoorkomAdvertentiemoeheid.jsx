@@ -25,44 +25,114 @@ export default function BlogPostMetaAdsFrequencyVoorkomAdvertentiemoeheid() {
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Social Ads" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org", "@type": "Article",
-                        "headline": "Meta Ads frequency: zo voorkom je advertentiemoeheid",
-                        "description": "Hoe frequency werkt in Meta Ads, vanaf welke drempel ad fatigue begint en welke ingrepen je rendement redden.",
-                        "image": "https://www.empowers.nl/images/blogs/meta-ads-frequency-voorkom-advertentiemoeheid.jpg",
-                        "datePublished": "2026-05-13T12:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                        "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                            { "@type": "Question", "name": "Wat is frequency in Meta Ads?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Frequency meet hoe vaak een gemiddelde unieke gebruiker je advertentie heeft gezien binnen de geselecteerde periode. Bij een frequency van 3 heeft je doelgroep je advertentie gemiddeld drie keer voorbij zien komen. Het is geen target, het is een waarschuwingsmeter voor advertentiemoeheid." } },
-                            { "@type": "Question", "name": "Vanaf welke frequency moet ik ingrijpen?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Voor cold prospecting-campagnes is een frequency boven de 3 per week vaak een signaal om iets te doen. Voor retargeting kan een frequency van 5 tot 7 nog werken omdat warme bezoekers meer touchpoints verdragen. Belangrijker dan het absolute getal: kijk wanneer je CTR daalt en je CPM stijgt. Dat zijn de echte signalen." } },
-                            { "@type": "Question", "name": "Wat zijn de symptomen van ad fatigue?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Dalende click-through rate, stijgende CPM, dalende conversie-rate per click en oplopende negatieve feedback (verberg advertentie, mark als irrelevant). Als drie van deze vier signalen tegelijk omhoog of omlaag gaan, is ad fatigue vrijwel zeker de oorzaak. Het algoritme straft saaie creatives in de auction." } },
-                            { "@type": "Question", "name": "Hoe vaak moet ik creatives verversen?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Voor cold prospecting-campagnes met flink budget: minstens elke twee weken een nieuwe creative-variant. Voor kleinere budgetten kan een maandelijkse refresh werken. Het doel is niet altijd vernieuwen, maar varianten in roulatie houden zodat één creative niet 100 procent van de impressies oppakt en daarmee snel oververhit raakt." } },
-                            { "@type": "Question", "name": "Werkt frequency capping in Meta Ads?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Meta heeft frequency capping voor reach-campagnes maar niet voor de meest gebruikte conversion-campagnes. Daar bepaalt het algoritme zelf wat het optimale toon-ritme is. Je beste hefboom blijft creative-rotatie en doelgroep-segmentatie, niet een handmatige cap." } },
-                            { "@type": "Question", "name": "Wat is doelgroep-vermoeidheid en hoe meet je dat?",
-                              "acceptedAnswer": { "@type": "Answer", "text": "Doelgroep-vermoeidheid is wanneer je publiek te klein is voor het budget dat je erin pompt. Reach stijgt nauwelijks nog, maar frequency loopt omhoog. Bekijk in Ads Manager het First Time Impression Ratio: zakt dat onder de 30 procent, dan zie je dezelfde mensen voortdurend opnieuw. Dat is het moment om je doelgroep te verbreden of een lookalike toe te voegen." } }
-                        ] }
-                    })}
-                </script>
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Meta Ads frequency: zo voorkom je advertentiemoeheid",
+                            "description": "Hoe frequency werkt in Meta Ads, vanaf welke drempel ad fatigue begint en welke ingrepen je rendement redden.",
+                            "image": "https://www.empowers.nl/images/blogs/meta-ads-frequency-voorkom-advertentiemoeheid.jpg",
+                            "datePublished": "2026-05-13T12:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is frequency in Meta Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Frequency meet hoe vaak een gemiddelde unieke gebruiker je advertentie heeft gezien binnen de geselecteerde periode. Bij een frequency van 3 heeft je doelgroep je advertentie gemiddeld drie keer voorbij zien komen. Het is geen target, het is een waarschuwingsmeter voor advertentiemoeheid."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Vanaf welke frequency moet ik ingrijpen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor cold prospecting-campagnes is een frequency boven de 3 per week vaak een signaal om iets te doen. Voor retargeting kan een frequency van 5 tot 7 nog werken omdat warme bezoekers meer touchpoints verdragen. Belangrijker dan het absolute getal: kijk wanneer je CTR daalt en je CPM stijgt. Dat zijn de echte signalen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn de symptomen van ad fatigue?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dalende click-through rate, stijgende CPM, dalende conversie-rate per click en oplopende negatieve feedback (verberg advertentie, mark als irrelevant). Als drie van deze vier signalen tegelijk omhoog of omlaag gaan, is ad fatigue vrijwel zeker de oorzaak. Het algoritme straft saaie creatives in de auction."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet ik creatives verversen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor cold prospecting-campagnes met flink budget: minstens elke twee weken een nieuwe creative-variant. Voor kleinere budgetten kan een maandelijkse refresh werken. Het doel is niet altijd vernieuwen, maar varianten in roulatie houden zodat één creative niet 100 procent van de impressies oppakt en daarmee snel oververhit raakt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt frequency capping in Meta Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Meta heeft frequency capping voor reach-campagnes maar niet voor de meest gebruikte conversion-campagnes. Daar bepaalt het algoritme zelf wat het optimale toon-ritme is. Je beste hefboom blijft creative-rotatie en doelgroep-segmentatie, niet een handmatige cap."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is doelgroep-vermoeidheid en hoe meet je dat?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Doelgroep-vermoeidheid is wanneer je publiek te klein is voor het budget dat je erin pompt. Reach stijgt nauwelijks nog, maar frequency loopt omhoog. Bekijk in Ads Manager het First Time Impression Ratio: zakt dat onder de 30 procent, dan zie je dezelfde mensen voortdurend opnieuw. Dat is het moment om je doelgroep te verbreden of een lookalike toe te voegen."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Meta Ads frequency",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-frequency-voorkom-advertentiemoeheid"
+                                }
+                            ]
+                        }
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org", "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Meta Ads frequency", "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-frequency-voorkom-advertentiemoeheid" }
-                        ]
-                    })}
-                </script>
                     <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Meta Ads frequency: zo voorkom je advertentiemoeheid" />
         <meta name="twitter:description" content="Ad fatigue verbrandt rendement in Meta Ads. Wat frequency precies meet, vanaf welke drempel je moet ingrijpen en hoe je " />

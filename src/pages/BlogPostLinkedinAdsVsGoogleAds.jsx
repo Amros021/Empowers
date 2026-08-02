@@ -28,97 +28,122 @@ export default function BlogPostLinkedinAdsVsGoogleAds() {
                 <meta name="twitter:title" content="LinkedIn Ads vs Google Ads voor B2B: een eerlijke vergelijking" />
                 <meta name="twitter:description" content="Welk kanaal werkt het beste voor B2B-leads? Lees de eerlijke vergelijking tussen LinkedIn en Google." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "LinkedIn Ads vs Google Ads voor B2B: een eerlijke vergelijking",
-                        "description": "LinkedIn Ads of Google Ads voor B2B? Lees welk kanaal jouw beste leads oplevert, wat het kost en hoe je beide combineert voor maximaal rendement.",
-                        "image": "https://www.empowers.nl/images/blogs/linkedin-ads-vs-google-ads.jpg",
-                        "datePublished": "2026-05-02T15:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "LinkedIn Ads vs Google Ads voor B2B: een eerlijke vergelijking",
+                            "description": "LinkedIn Ads of Google Ads voor B2B? Lees welk kanaal jouw beste leads oplevert, wat het kost en hoe je beide combineert voor maximaal rendement.",
+                            "image": "https://www.empowers.nl/images/blogs/linkedin-ads-vs-google-ads.jpg",
+                            "datePublished": "2026-05-02T15:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen LinkedIn Ads en Google Ads voor B2B?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google Ads vangt actieve vraag. Mensen zoeken op een term als 'CRM software MKB' en zien jouw advertentie. LinkedIn Ads creëert vraag bij beslissers die nog niet zoeken. Je kunt op functietitel, bedrijfsgrootte en branche targeten. Google werkt op intentie, LinkedIn op profiel."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk kanaal levert betere B2B-leads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google Ads levert vaak een hogere conversieratio omdat de bezoeker actief zocht. LinkedIn Ads levert vaker hogere lead-kwaliteit gemeten op functietitel en bedrijfsgrootte. Voor pure leadgeneratie wint Google in volume, voor account-based marketing en enterprise-deals wint LinkedIn in kwaliteit."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost LinkedIn Ads vergeleken met Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "LinkedIn Ads is duurder per klik. CPC's tussen 6 en 15 euro zijn normaal voor B2B-targeting. Google Ads CPC's voor B2B-zoekwoorden liggen tussen 2 en 8 euro. Per gekwalificeerde lead is het verschil kleiner: LinkedIn 80 tot 200 euro, Google 50 tot 150 euro voor vergelijkbare aanbiedingen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk minimumbudget heb je nodig voor B2B?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "LinkedIn vraagt minimaal 25 euro per dag per campagne, dus 750 euro per maand. Voor een eerlijke test reken je 3.000 tot 5.000 euro over 8 tot 12 weken. Google Ads kan al vanaf 1.000 euro per maand testen, mits je goed kiest in zoekwoorden. Een eerlijke vergelijking vraagt op beide platformen minstens 3 maanden draaitijd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt Google Ads voor B2B met een lange salescyclus?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, mits je niet alleen op leadformulieren stuurt. Voor B2B met salescycli van 3 tot 12 maanden werkt Google Ads het sterkst als je micro-conversies meet zoals demo-aanvragen, gids-downloads en webinar-registraties. Combineer met LinkedIn-remarketing om beslissers later opnieuw te raken na het eerste Google-bezoek."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk kanaal kies je als je 1 platform moet kiezen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Heb je producten of diensten die mensen al actief zoeken, kies Google Ads. Verkoop je iets nieuws of complex waar mensen nog niet op zoeken, kies LinkedIn Ads. Voor enterprise-deals boven de 50.000 euro per jaar wint LinkedIn vaak. Voor MKB-aanbod onder 25.000 euro per jaar wint Google meestal."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe combineer je beide kanalen het slimst?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De krachtigste opzet is Google voor de actieve vraag en LinkedIn voor account-based remarketing. Mensen die via Google op jouw site komen, retarget je op LinkedIn met content gericht op hun functie en branche. Andersom warm je via LinkedIn beslissers op zodat ze later jouw merknaam in Google intypen, wat jouw branded zoekvolume verhoogt."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen LinkedIn Ads en Google Ads voor B2B?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google Ads vangt actieve vraag. Mensen zoeken op een term als 'CRM software MKB' en zien jouw advertentie. LinkedIn Ads creëert vraag bij beslissers die nog niet zoeken. Je kunt op functietitel, bedrijfsgrootte en branche targeten. Google werkt op intentie, LinkedIn op profiel."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welk kanaal levert betere B2B-leads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google Ads levert vaak een hogere conversieratio omdat de bezoeker actief zocht. LinkedIn Ads levert vaker hogere lead-kwaliteit gemeten op functietitel en bedrijfsgrootte. Voor pure leadgeneratie wint Google in volume, voor account-based marketing en enterprise-deals wint LinkedIn in kwaliteit."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost LinkedIn Ads vergeleken met Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "LinkedIn Ads is duurder per klik. CPC's tussen 6 en 15 euro zijn normaal voor B2B-targeting. Google Ads CPC's voor B2B-zoekwoorden liggen tussen 2 en 8 euro. Per gekwalificeerde lead is het verschil kleiner: LinkedIn 80 tot 200 euro, Google 50 tot 150 euro voor vergelijkbare aanbiedingen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welk minimumbudget heb je nodig voor B2B?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "LinkedIn vraagt minimaal 25 euro per dag per campagne, dus 750 euro per maand. Voor een eerlijke test reken je 3.000 tot 5.000 euro over 8 tot 12 weken. Google Ads kan al vanaf 1.000 euro per maand testen, mits je goed kiest in zoekwoorden. Een eerlijke vergelijking vraagt op beide platformen minstens 3 maanden draaitijd."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt Google Ads voor B2B met een lange salescyclus?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, mits je niet alleen op leadformulieren stuurt. Voor B2B met salescycli van 3 tot 12 maanden werkt Google Ads het sterkst als je micro-conversies meet zoals demo-aanvragen, gids-downloads en webinar-registraties. Combineer met LinkedIn-remarketing om beslissers later opnieuw te raken na het eerste Google-bezoek."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welk kanaal kies je als je 1 platform moet kiezen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Heb je producten of diensten die mensen al actief zoeken, kies Google Ads. Verkoop je iets nieuws of complex waar mensen nog niet op zoeken, kies LinkedIn Ads. Voor enterprise-deals boven de 50.000 euro per jaar wint LinkedIn vaak. Voor MKB-aanbod onder 25.000 euro per jaar wint Google meestal."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe combineer je beide kanalen het slimst?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De krachtigste opzet is Google voor de actieve vraag en LinkedIn voor account-based remarketing. Mensen die via Google op jouw site komen, retarget je op LinkedIn met content gericht op hun functie en branche. Andersom warm je via LinkedIn beslissers op zodat ze later jouw merknaam in Google intypen, wat jouw branded zoekvolume verhoogt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "LinkedIn Ads vs Google Ads voor B2B",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/linkedin-ads-vs-google-ads"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "LinkedIn Ads vs Google Ads voor B2B", "item": "https://www.empowers.nl/blogs/social-ads/linkedin-ads-vs-google-ads" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

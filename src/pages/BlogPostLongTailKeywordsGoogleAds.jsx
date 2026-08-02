@@ -28,120 +28,122 @@ export default function BlogPostLongTailKeywordsGoogleAds() {
                 <meta name="twitter:title" content="Long-tail keywords in Google Ads: waarom ze zo waardevol zijn" />
                 <meta name="twitter:description" content="Long-tail keywords leveren goedkopere klikken en hogere conversies. Lees waarom ze werken." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Long-tail keywords in Google Ads: waarom ze zo waardevol zijn",
-                        "description": "Long-tail keywords in Google Ads leveren goedkopere klikken en hogere conversies. Lees waarom ze werken en hoe je ze vindt voor jouw campagnes.",
-                        "image": "https://www.empowers.nl/images/blogs/long-tail-keywords-google-ads.jpg",
-                        "datePublished": "2026-04-07T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Long-tail keywords in Google Ads: waarom ze zo waardevol zijn",
+                            "description": "Long-tail keywords in Google Ads leveren goedkopere klikken en hogere conversies. Lees waarom ze werken en hoe je ze vindt voor jouw campagnes.",
+                            "image": "https://www.empowers.nl/images/blogs/long-tail-keywords-google-ads.jpg",
+                            "datePublished": "2026-04-07T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn long-tail keywords in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Long-tail keywords zijn specifieke zoektermen van drie of meer woorden die een duidelijke intentie tonen. Bijvoorbeeld 'rode dameslaarzen maat 39 waterdicht' in plaats van 'laarzen'. Ze hebben minder zoekvolume, maar de kans op conversie ligt veel hoger."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom zijn long-tail keywords goedkoper?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Er is minder concurrentie op specifieke zoektermen. Adverteerders bieden vaak op brede woorden, waardoor de cost-per-click op generieke termen hoog ligt. Op long-tail keywords liggen de klikprijzen vaak 30 tot 70% lager."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vind je long-tail keywords voor jouw campagne?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Gebruik de Google Ads Keyword Planner, het zoekterm-rapport van bestaande campagnes, Google Suggest en gratis tools zoals AnswerThePublic. Combineer dit met data uit Search Console om termen te vinden waarop je al organisch wordt gevonden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel long-tail keywords moet ik in een campagne stoppen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Liever 30 sterke long-tail keywords dan 300 zwakke. Groepeer ze per intentie in aparte advertentiegroepen en schrijf voor elke groep een advertentietekst die exact aansluit op de zoekvraag. Kwaliteit boven kwantiteit."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werken long-tail keywords ook bij Smart Bidding?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, en vaak nog beter. Smart Bidding heeft conversiedata nodig om te leren. Long-tail keywords leveren relatief meer conversies per klik, waardoor het algoritme sneller patronen herkent en je biedingen efficienter inzet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen short-tail en long-tail keywords?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Short-tail keywords zijn brede zoekwoorden van een of twee woorden met veel zoekvolume en lage conversieratio's. Long-tail keywords zijn lange, specifieke termen met minder volume maar veel hogere koopintentie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Zijn long-tail keywords ook nuttig voor kleine budgetten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Juist voor kleine budgetten zijn ze ideaal. Goedkopere klikken en hogere conversieratio's betekent dat je met 200 euro per maand al meetbare leads kunt halen, in plaats van je budget verbranden op brede zoekwoorden waar grote spelers tegen je opbieden."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat zijn long-tail keywords in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Long-tail keywords zijn specifieke zoektermen van drie of meer woorden die een duidelijke intentie tonen. Bijvoorbeeld 'rode dameslaarzen maat 39 waterdicht' in plaats van 'laarzen'. Ze hebben minder zoekvolume, maar de kans op conversie ligt veel hoger."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom zijn long-tail keywords goedkoper?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Er is minder concurrentie op specifieke zoektermen. Adverteerders bieden vaak op brede woorden, waardoor de cost-per-click op generieke termen hoog ligt. Op long-tail keywords liggen de klikprijzen vaak 30 tot 70% lager."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe vind je long-tail keywords voor jouw campagne?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Gebruik de Google Ads Keyword Planner, het zoekterm-rapport van bestaande campagnes, Google Suggest en gratis tools zoals AnswerThePublic. Combineer dit met data uit Search Console om termen te vinden waarop je al organisch wordt gevonden."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel long-tail keywords moet ik in een campagne stoppen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Liever 30 sterke long-tail keywords dan 300 zwakke. Groepeer ze per intentie in aparte advertentiegroepen en schrijf voor elke groep een advertentietekst die exact aansluit op de zoekvraag. Kwaliteit boven kwantiteit."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werken long-tail keywords ook bij Smart Bidding?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, en vaak nog beter. Smart Bidding heeft conversiedata nodig om te leren. Long-tail keywords leveren relatief meer conversies per klik, waardoor het algoritme sneller patronen herkent en je biedingen efficienter inzet."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen short-tail en long-tail keywords?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Short-tail keywords zijn brede zoekwoorden van een of twee woorden met veel zoekvolume en lage conversieratio's. Long-tail keywords zijn lange, specifieke termen met minder volume maar veel hogere koopintentie."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Zijn long-tail keywords ook nuttig voor kleine budgetten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Juist voor kleine budgetten zijn ze ideaal. Goedkopere klikken en hogere conversieratio's betekent dat je met 200 euro per maand al meetbare leads kunt halen, in plaats van je budget verbranden op brede zoekwoorden waar grote spelers tegen je opbieden."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Long-tail keywords in Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/long-tail-keywords-google-ads"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Long-tail keywords in Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads/long-tail-keywords-google-ads"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -28,97 +28,122 @@ export default function BlogPostMetaAdsB2bWerkt() {
                 <meta name="twitter:title" content="Meta Ads voor B2B: werkt het en hoe pak je het aan?" />
                 <meta name="twitter:description" content="Meta Ads voor B2B werkt anders dan LinkedIn. Lees hoe je zakelijke leads haalt uit Facebook en Instagram." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Meta Ads voor B2B: werkt het en hoe pak je het aan?",
-                        "description": "Meta Ads voor B2B werkt, mits je het anders aanpakt dan LinkedIn. Lees wanneer Facebook en Instagram zakelijke leads opleveren en welke creatives werken.",
-                        "image": "https://www.empowers.nl/images/blogs/meta-ads-b2b-werkt.jpg",
-                        "datePublished": "2026-05-02T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Meta Ads voor B2B: werkt het en hoe pak je het aan?",
+                            "description": "Meta Ads voor B2B werkt, mits je het anders aanpakt dan LinkedIn. Lees wanneer Facebook en Instagram zakelijke leads opleveren en welke creatives werken.",
+                            "image": "https://www.empowers.nl/images/blogs/meta-ads-b2b-werkt.jpg",
+                            "datePublished": "2026-05-02T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt Meta Ads echt voor B2B?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, Meta Ads werkt voor B2B als je doelen, doelgroep en creatives aanpast aan een zakelijke koper. Voor diensten met een prijs tot ongeveer 25.000 euro per jaar en een korte tot middellange salescyclus halen Facebook en Instagram vaak betaalbaardere leads dan LinkedIn. Je raakt beslissers in privé-tijd, niet alleen op zaterdagochtend op LinkedIn."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer werkt Meta Ads niet voor B2B?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Meta Ads is minder geschikt voor B2B-trajecten boven de 50.000 euro per jaar of voor branches waarin je heel specifiek op functietitel of bedrijfsgrootte moet kunnen targeten. Voor zware enterprise-deals met inkoopcommissies van 6 tot 10 mensen blijft LinkedIn meestal betere resultaten leveren, ondanks de hogere kosten per klik."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel kost Meta Ads voor B2B?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken voor B2B Meta Ads op een minimumbudget van 1.000 tot 2.500 euro per maand. De kosten per lead liggen meestal tussen 15 en 50 euro, afhankelijk van branche en aanbod. Dat is doorgaans 40 tot 70 procent goedkoper dan LinkedIn Ads, waar B2B-leads tussen 60 en 200 euro kosten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke doelgroep stel je in voor B2B op Meta?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Begin met custom audiences op basis van jouw klantenlijst en bezoekers van zakelijke pagina's. Bouw daaroverheen lookalikes van 1 tot 3 procent van je beste klanten. Vul aan met interesses zoals branche-tijdschriften, software, beurzen en gedragingen zoals 'kleine bedrijfseigenaar' of 'beslissers'. Vermijd de fout om alleen op functietitel te targeten, want dat veld is op Meta minder betrouwbaar dan op LinkedIn."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke creatives werken voor B2B op Meta Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Korte verticale video's van 15 tot 30 seconden waarin een herkenbaar zakelijk probleem benoemd wordt en in 1 zin opgelost. Klantcases met een naam, functie en bedrijfsnaam erboven werken sterk. Vermijd corporate stockbeelden en glanzende reclamevideo's. Maak het persoonlijk: een founder die voor zijn whiteboard staat scoort beter dan een gepolijste explainer."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt Meta Ads beter dan LinkedIn voor B2B?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor MKB-aanbiedingen en SaaS-tools tot ongeveer 25.000 euro per jaar haalt Meta vaak een 2 tot 4 keer lagere kosten per gekwalificeerde lead dan LinkedIn. Voor enterprise B2B blijft LinkedIn ondanks de hogere kosten meestal de beste keuze door de exacte targeting op functie en bedrijfsgrootte. Veel bedrijven combineren beide kanalen: LinkedIn voor doelgerichte awareness, Meta voor schaalbare leadgeneratie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke campagnedoelen kies je voor B2B Meta Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor leadgeneratie gebruik je het doel Leads met Lead Forms binnen Meta of het doel Verkopen wanneer je een waardevol formulier op je eigen site hebt staan. Het doel Verkeer kies je alleen om publiek op te bouwen voor latere remarketing. Vermijd Bereik en Betrokkenheid bij B2B want die geven goedkope vanity metrics maar weinig leads."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Werkt Meta Ads echt voor B2B?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, Meta Ads werkt voor B2B als je doelen, doelgroep en creatives aanpast aan een zakelijke koper. Voor diensten met een prijs tot ongeveer 25.000 euro per jaar en een korte tot middellange salescyclus halen Facebook en Instagram vaak betaalbaardere leads dan LinkedIn. Je raakt beslissers in privé-tijd, niet alleen op zaterdagochtend op LinkedIn."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer werkt Meta Ads niet voor B2B?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Meta Ads is minder geschikt voor B2B-trajecten boven de 50.000 euro per jaar of voor branches waarin je heel specifiek op functietitel of bedrijfsgrootte moet kunnen targeten. Voor zware enterprise-deals met inkoopcommissies van 6 tot 10 mensen blijft LinkedIn meestal betere resultaten leveren, ondanks de hogere kosten per klik."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel kost Meta Ads voor B2B?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken voor B2B Meta Ads op een minimumbudget van 1.000 tot 2.500 euro per maand. De kosten per lead liggen meestal tussen 15 en 50 euro, afhankelijk van branche en aanbod. Dat is doorgaans 40 tot 70 procent goedkoper dan LinkedIn Ads, waar B2B-leads tussen 60 en 200 euro kosten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke doelgroep stel je in voor B2B op Meta?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Begin met custom audiences op basis van jouw klantenlijst en bezoekers van zakelijke pagina's. Bouw daaroverheen lookalikes van 1 tot 3 procent van je beste klanten. Vul aan met interesses zoals branche-tijdschriften, software, beurzen en gedragingen zoals 'kleine bedrijfseigenaar' of 'beslissers'. Vermijd de fout om alleen op functietitel te targeten, want dat veld is op Meta minder betrouwbaar dan op LinkedIn."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke creatives werken voor B2B op Meta Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Korte verticale video's van 15 tot 30 seconden waarin een herkenbaar zakelijk probleem benoemd wordt en in 1 zin opgelost. Klantcases met een naam, functie en bedrijfsnaam erboven werken sterk. Vermijd corporate stockbeelden en glanzende reclamevideo's. Maak het persoonlijk: een founder die voor zijn whiteboard staat scoort beter dan een gepolijste explainer."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt Meta Ads beter dan LinkedIn voor B2B?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor MKB-aanbiedingen en SaaS-tools tot ongeveer 25.000 euro per jaar haalt Meta vaak een 2 tot 4 keer lagere kosten per gekwalificeerde lead dan LinkedIn. Voor enterprise B2B blijft LinkedIn ondanks de hogere kosten meestal de beste keuze door de exacte targeting op functie en bedrijfsgrootte. Veel bedrijven combineren beide kanalen: LinkedIn voor doelgerichte awareness, Meta voor schaalbare leadgeneratie."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke campagnedoelen kies je voor B2B Meta Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor leadgeneratie gebruik je het doel Leads met Lead Forms binnen Meta of het doel Verkopen wanneer je een waardevol formulier op je eigen site hebt staan. Het doel Verkeer kies je alleen om publiek op te bouwen voor latere remarketing. Vermijd Bereik en Betrokkenheid bij B2B want die geven goedkope vanity metrics maar weinig leads."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Meta Ads voor B2B",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-b2b-werkt"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Meta Ads voor B2B", "item": "https://www.empowers.nl/blogs/social-ads/meta-ads-b2b-werkt" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />
