@@ -174,29 +174,62 @@ export default function GeoPage() {
     return (
         <main ref={mainRef} className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>GEO – Generative Engine Optimization | Empowers</title>
-                <meta name="description" content="Zorg dat AI-tools zoals ChatGPT, Google Gemini en Claude jouw bedrijf aanbevelen. Empowers helpt je zichtbaar worden in de nieuwe manier van zoeken." />
+                <title>GEO-bureau: zichtbaar in ChatGPT en AI-zoekmachines | Empowers</title>
+                <meta name="description" content="GEO uitbesteden aan een gespecialiseerd bureau? Empowers zorgt dat ChatGPT, Gemini en Perplexity jouw bedrijf aanbevelen. Bekijk de aanpak en start vandaag." />
                 <link rel="canonical" href="https://www.empowers.nl/geo" />
-                <meta property="og:title" content="GEO – Generative Engine Optimization | Empowers" />
-                <meta property="og:description" content="Zorg dat AI-tools zoals ChatGPT, Google Gemini en Claude jouw bedrijf aanbevelen. Empowers helpt je zichtbaar worden in de nieuwe manier van zoeken." />
+                <meta property="og:title" content="GEO-bureau: zichtbaar in ChatGPT en AI-zoekmachines | Empowers" />
+                <meta property="og:description" content="Steeds meer klanten vragen advies aan AI in plaats van Google. Empowers zorgt als GEO-bureau dat jouw bedrijf daar als antwoord verschijnt." />
                 <meta property="og:url" content="https://www.empowers.nl/geo" />
                 <meta property="og:type" content="website" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "Service",
-                    "name": "GEO – Generative Engine Optimization",
-                    "serviceType": "Generative Engine Optimization",
-                    "description": "Empowers zorgt dat AI-tools zoals ChatGPT, Google Gemini en Claude jouw bedrijf aanbevelen aan potentiële klanten.",
-                    "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "url": "https://www.empowers.nl/geo"
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://www.empowers.nl/diensten" },
-                        { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/geo" }
+                    "@graph": [
+                        {
+                            "@type": "Service",
+                            "name": "GEO-bureau: Generative Engine Optimization",
+                            "serviceType": "Generative Engine Optimization",
+                            "description": "Empowers is een GEO-bureau dat zorgt dat AI-tools zoals ChatGPT, Google Gemini, Claude en Perplexity jouw bedrijf aanbevelen aan potentiële klanten.",
+                            "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "url": "https://www.empowers.nl/geo"
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
+                                { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://www.empowers.nl/diensten" },
+                                { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/geo" }
+                            ]
+                        },
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is een GEO-bureau?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Een GEO-bureau zorgt dat AI-tools zoals ChatGPT, Gemini en Perplexity jouw bedrijf noemen en aanbevelen als mensen om advies vragen. Dat doen we met content die AI-modellen kunnen citeren, technische structuur zoals schema markup en llms.txt, en autoriteit via vermeldingen." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Waarom zou ik nu al in GEO investeren?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Omdat het speelveld nog open ligt. In Google vecht je tegen partijen met jaren voorsprong; in AI-zoekmachines is die voorsprong er nog nauwelijks. Wie nu zichtbaar wordt in AI-antwoorden, pakt een positie die straks veel moeilijker te veroveren is." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe meet je of GEO werkt?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "We monitoren of en hoe vaak AI-tools jouw bedrijf noemen bij relevante vragen, volgen het verkeer dat vanuit AI-platforms naar je site komt en zien merkzoekopdrachten groeien. Je krijgt elke maand een helder overzicht van je AI-zichtbaarheid." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat kost GEO uitbesteden?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Je betaalt een vast maandbedrag dat afhangt van je ambitie en je markt. GEO combineert vrijwel altijd met SEO, dus we kijken in een gratis gesprek naar wat er al staat en wat er nodig is. Daarna weet je exact waar je aan toe bent." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Heb ik GEO nodig naast SEO?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Ze versterken elkaar. SEO maakt je vindbaar in Google, GEO zorgt dat AI-tools je aanbevelen. De basis overlapt flink: sterke content en autoriteit voeden allebei. Wie SEO al op orde heeft, zet met GEO relatief kleine stappen voor een nieuwe verkeersbron." }
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
             </Helmet>
@@ -209,7 +242,7 @@ export default function GeoPage() {
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Generative Engine Optimization</span>
                         <h1 className="font-sans font-bold text-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[0.9] tracking-tight mb-6">
-                            Aanbevolen worden<br />door AI.
+                            Het GEO-bureau dat je<br />aanbevolen maakt door AI.
                         </h1>
                         <p className="font-sans text-primary/70 text-lg md:text-xl max-w-lg leading-relaxed font-medium mb-8">
                             ChatGPT, Gemini, Perplexity. Mensen stellen hun vragen steeds vaker aan AI in plaats van aan Google. GEO zorgt dat jij daar als antwoord naar voren komt.
@@ -346,6 +379,31 @@ export default function GeoPage() {
                     </div>
                     <div className="flex-1 w-full h-[300px] sm:h-[340px] lg:h-[380px]">
                         <FasenAnim />
+                    </div>
+                </div>
+            </section>
+
+            {/* GEO uitbesteden FAQ */}
+            <section className="w-full py-24 px-6 bg-primary/[0.03] geo-section">
+                <div className="max-w-4xl mx-auto">
+                    <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block text-center">GEO uitbesteden</span>
+                    <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-4 text-center">Veelgestelde vragen over GEO</h2>
+                    <p className="font-sans text-primary/70 text-lg leading-relaxed mb-10 text-center max-w-2xl mx-auto">
+                        GEO is nieuw terrein voor de meeste ondernemers. Dit zijn de vragen die we het vaakst krijgen.
+                    </p>
+                    <div className="space-y-4">
+                        {[
+                            { q: 'Wat is een GEO-bureau?', a: 'Een GEO-bureau zorgt dat AI-tools zoals ChatGPT, Gemini en Perplexity jouw bedrijf noemen en aanbevelen als mensen om advies vragen. Dat doen we met content die AI-modellen kunnen citeren, technische structuur zoals schema markup en llms.txt, en autoriteit via vermeldingen.' },
+                            { q: 'Waarom zou ik nu al in GEO investeren?', a: 'Omdat het speelveld nog open ligt. In Google vecht je tegen partijen met jaren voorsprong; in AI-zoekmachines is die voorsprong er nog nauwelijks. Wie nu zichtbaar wordt in AI-antwoorden, pakt een positie die straks veel moeilijker te veroveren is.' },
+                            { q: 'Hoe meet je of GEO werkt?', a: 'We monitoren of en hoe vaak AI-tools jouw bedrijf noemen bij relevante vragen, volgen het verkeer dat vanuit AI-platforms naar je site komt en zien merkzoekopdrachten groeien. Je krijgt elke maand een helder overzicht van je AI-zichtbaarheid.' },
+                            { q: 'Wat kost GEO uitbesteden?', a: 'Je betaalt een vast maandbedrag dat afhangt van je ambitie en je markt. GEO combineert vrijwel altijd met SEO, dus we kijken in een gratis gesprek naar wat er al staat en wat er nodig is. Daarna weet je exact waar je aan toe bent.' },
+                            { q: 'Heb ik GEO nodig naast SEO?', a: 'Ze versterken elkaar. SEO maakt je vindbaar in Google, GEO zorgt dat AI-tools je aanbevelen. De basis overlapt flink: sterke content en autoriteit voeden allebei. Wie SEO al op orde heeft, zet met GEO relatief kleine stappen voor een nieuwe verkeersbron.' },
+                        ].map((f, i) => (
+                            <div key={i} className="border border-primary/10 rounded-xl p-6 bg-white">
+                                <h3 className="font-sans font-semibold text-primary mb-2">{f.q}</h3>
+                                <p className="font-sans text-primary/70 text-sm leading-relaxed">{f.a}</p>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>

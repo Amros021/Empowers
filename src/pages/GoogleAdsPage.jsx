@@ -183,29 +183,62 @@ export default function GoogleAdsPage() {
     return (
         <main ref={mainRef} className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>Google Ads – Campagnebeheer & Optimalisatie | Empowers</title>
-                <meta name="description" content="Jouw bedrijf bovenaan Google, precies op het moment dat iemand zoekt wat jij aanbiedt. Empowers beheert jouw Google Ads campagnes van A tot Z." />
+                <title>Google Ads uitbesteden aan een bureau dat levert | Empowers</title>
+                <meta name="description" content="Google Ads uitbesteden? Empowers beheert je campagnes op basis van omzet, niet op klikken. Jij blijft eigenaar van je account. Bekijk aanpak en kosten." />
                 <link rel="canonical" href="https://www.empowers.nl/google-ads" />
-                <meta property="og:title" content="Google Ads – Campagnebeheer & Optimalisatie | Empowers" />
-                <meta property="og:description" content="Jouw bedrijf bovenaan Google, precies op het moment dat iemand zoekt wat jij aanbiedt. Empowers beheert jouw Google Ads campagnes van A tot Z." />
+                <meta property="og:title" content="Google Ads uitbesteden aan een bureau dat levert | Empowers" />
+                <meta property="og:description" content="Google Ads beheer door specialisten die sturen op omzet. Jij blijft eigenaar van je account en ziet elke maand wat je budget oplevert." />
                 <meta property="og:url" content="https://www.empowers.nl/google-ads" />
                 <meta property="og:type" content="website" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "Service",
-                    "name": "Google Ads Campagnebeheer",
-                    "serviceType": "Google Ads beheer",
-                    "description": "Empowers beheert Google Ads campagnes voor bedrijven in Nederland. Gevonden worden op het moment dat iemand klaar is om te kopen, zodat jouw advertentiebudget maximaal rendeert.",
-                    "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "url": "https://www.empowers.nl/google-ads"
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://www.empowers.nl/diensten" },
-                        { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/google-ads" }
+                    "@graph": [
+                        {
+                            "@type": "Service",
+                            "name": "Google Ads uitbesteden en campagnebeheer",
+                            "serviceType": "Google Ads beheer",
+                            "description": "Empowers is een Google Ads bureau voor mkb en webshops in Nederland. Campagnes gebouwd en beheerd op basis van omzet, met volledige transparantie en eigenaarschap voor de klant.",
+                            "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "url": "https://www.empowers.nl/google-ads"
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
+                                { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://www.empowers.nl/diensten" },
+                                { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/google-ads" }
+                            ]
+                        },
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat kost Google Ads uitbesteden?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Je betaalt twee dingen: je advertentiebudget aan Google en een vast maandbedrag voor het beheer. Dat beheerbedrag hangt af van de omvang en complexiteit van je campagnes. In een gratis gesprek rekenen we door wat realistisch is en wat het naar verwachting oplevert." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Blijf ik eigenaar van mijn Google Ads account?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Altijd. Het account staat op jouw naam, de data en de historie zijn van jou. Stopt de samenwerking, dan neem je alles mee. Bureaus die het account op eigen naam zetten, houden je gegijzeld en dat vinden wij not done." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat doet een Google Ads bureau elke maand?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Zoekwoorden en biedingen bijsturen, slecht presterende advertenties vervangen, nieuwe advertentieteksten testen, budget verschuiven naar wat rendeert en rapporteren op omzet. Niet één keer instellen en laten draaien, maar wekelijks onderhoud." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe snel zie ik resultaat met Google Ads?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "De eerste klikken komen binnen op dag één. Reken op vier tot acht weken voordat campagnes goed zijn ingeregeld en het algoritme voldoende data heeft om te sturen op conversies. Daarna wordt het elke maand scherper." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Is Google Ads geschikt voor mijn budget?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Google Ads werkt vanaf bescheiden budgetten, mits je markt niet extreem competitief is. Belangrijker dan de hoogte van je budget is of de cijfers kloppen: wat een klant je oplevert bepaalt wat een klik mag kosten. Dat rekenen we vooraf samen door." }
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
             </Helmet>
@@ -218,10 +251,10 @@ export default function GoogleAdsPage() {
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Google Ads</span>
                         <h1 className="font-sans font-bold text-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[0.9] tracking-tight mb-6">
-                            Gevonden worden<br />als iemand klaar is om te kopen.
+                            Google Ads uitbesteden<br />aan een bureau dat levert.
                         </h1>
                         <p className="font-sans text-primary/70 text-lg md:text-xl max-w-lg leading-relaxed font-medium mb-8">
-                            Iemand zoekt precies wat jij aanbiedt. Jij staat bovenaan. Klik. Wij bouwen en beheren jouw campagnes zodat dat elke dag klopt.
+                            Iemand zoekt precies wat jij aanbiedt. Jij staat bovenaan. Klik. Wij bouwen en beheren jouw campagnes zodat dat elke dag klopt, en jij blijft eigenaar van je account.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/contact" className="btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
@@ -322,6 +355,31 @@ export default function GoogleAdsPage() {
                     </div>
                     <div className="flex-1 w-full h-[340px] sm:h-[380px] lg:h-[400px]">
                         <FasenAnim />
+                    </div>
+                </div>
+            </section>
+
+            {/* Google Ads uitbesteden FAQ */}
+            <section className="w-full py-24 px-6 bg-primary/[0.03] gads-section">
+                <div className="max-w-4xl mx-auto">
+                    <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block text-center">04 — Google Ads uitbesteden</span>
+                    <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-4 text-center">Veelgestelde vragen over Google Ads uitbesteden</h2>
+                    <p className="font-sans text-primary/70 text-lg leading-relaxed mb-10 text-center max-w-2xl mx-auto">
+                        Dit zijn de vragen die ondernemers ons stellen voordat ze hun campagnebeheer aan ons toevertrouwen.
+                    </p>
+                    <div className="space-y-4">
+                        {[
+                            { q: 'Wat kost Google Ads uitbesteden?', a: 'Je betaalt twee dingen: je advertentiebudget aan Google en een vast maandbedrag voor het beheer. Dat beheerbedrag hangt af van de omvang en complexiteit van je campagnes. In een gratis gesprek rekenen we door wat realistisch is en wat het naar verwachting oplevert.' },
+                            { q: 'Blijf ik eigenaar van mijn Google Ads account?', a: 'Altijd. Het account staat op jouw naam, de data en de historie zijn van jou. Stopt de samenwerking, dan neem je alles mee. Bureaus die het account op eigen naam zetten, houden je gegijzeld en dat vinden wij not done.' },
+                            { q: 'Wat doet een Google Ads bureau elke maand?', a: 'Zoekwoorden en biedingen bijsturen, slecht presterende advertenties vervangen, nieuwe advertentieteksten testen, budget verschuiven naar wat rendeert en rapporteren op omzet. Niet één keer instellen en laten draaien, maar wekelijks onderhoud.' },
+                            { q: 'Hoe snel zie ik resultaat met Google Ads?', a: 'De eerste klikken komen binnen op dag één. Reken op vier tot acht weken voordat campagnes goed zijn ingeregeld en het algoritme voldoende data heeft om te sturen op conversies. Daarna wordt het elke maand scherper.' },
+                            { q: 'Is Google Ads geschikt voor mijn budget?', a: 'Google Ads werkt vanaf bescheiden budgetten, mits je markt niet extreem competitief is. Belangrijker dan de hoogte van je budget is of de cijfers kloppen: wat een klant je oplevert bepaalt wat een klik mag kosten. Dat rekenen we vooraf samen door.' },
+                        ].map((f, i) => (
+                            <div key={i} className="border border-primary/10 rounded-xl p-6 bg-white">
+                                <h3 className="font-sans font-semibold text-primary mb-2">{f.q}</h3>
+                                <p className="font-sans text-primary/70 text-sm leading-relaxed">{f.a}</p>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>

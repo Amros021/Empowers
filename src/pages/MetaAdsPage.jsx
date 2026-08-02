@@ -203,29 +203,62 @@ export default function MetaAdsPage() {
     return (
         <main ref={mainRef} className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>Meta Ads – Facebook & Instagram Adverteren | Empowers</title>
-                <meta name="description" content="Facebook en Instagram zijn de krachtigste platformen om jouw ideale klant te bereiken. Empowers bouwt Meta Ads campagnes die niet alleen gezien worden, maar ook converteren." />
+                <title>Facebook en Instagram Ads uitbesteden | Empowers</title>
+                <meta name="description" content="Facebook Ads uitbesteden aan een bureau dat stuurt op omzet? Empowers bouwt en beheert Meta Ads campagnes die converteren. Bekijk de aanpak en kosten." />
                 <link rel="canonical" href="https://www.empowers.nl/meta-ads" />
-                <meta property="og:title" content="Meta Ads – Facebook & Instagram Adverteren | Empowers" />
-                <meta property="og:description" content="Facebook en Instagram zijn de krachtigste platformen om jouw ideale klant te bereiken. Empowers bouwt Meta Ads campagnes die niet alleen gezien worden, maar ook converteren." />
+                <meta property="og:title" content="Facebook en Instagram Ads uitbesteden | Empowers" />
+                <meta property="og:description" content="Meta Ads uitbesteden aan specialisten die sturen op omzet in plaats van likes. Bekijk hoe Empowers jouw campagnes op Facebook en Instagram laat renderen." />
                 <meta property="og:url" content="https://www.empowers.nl/meta-ads" />
                 <meta property="og:type" content="website" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "Service",
-                    "name": "Meta Ads – Facebook & Instagram Adverteren",
-                    "serviceType": "Meta Ads beheer",
-                    "description": "Empowers beheert Meta Ads campagnes op Facebook en Instagram voor bedrijven in Nederland. Gericht op bereik, leads en conversies die tellen.",
-                    "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "url": "https://www.empowers.nl/meta-ads"
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://www.empowers.nl/diensten" },
-                        { "@type": "ListItem", "position": 3, "name": "Meta Ads", "item": "https://www.empowers.nl/meta-ads" }
+                    "@graph": [
+                        {
+                            "@type": "Service",
+                            "name": "Facebook en Instagram Ads uitbesteden (Meta Ads)",
+                            "serviceType": "Meta Ads beheer",
+                            "description": "Empowers is een Meta Ads bureau voor mkb en webshops in Nederland. Facebook en Instagram campagnes gebouwd en beheerd op omzet, met volledige transparantie.",
+                            "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "url": "https://www.empowers.nl/meta-ads"
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
+                                { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://www.empowers.nl/diensten" },
+                                { "@type": "ListItem", "position": 3, "name": "Meta Ads", "item": "https://www.empowers.nl/meta-ads" }
+                            ]
+                        },
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat kost Facebook Ads uitbesteden?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Je betaalt je advertentiebudget aan Meta plus een vast maandbedrag voor strategie, beheer en creatie. Wat dat beheer kost, hangt af van je doelen en het aantal campagnes. In een gratis gesprek rekenen we door wat realistisch is voor jouw situatie." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is het verschil tussen Meta Ads en Facebook Ads?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Geen verschil in de praktijk. Meta Ads is de officiële naam voor adverteren via Facebook, Instagram, Messenger en het Audience Network, allemaal vanuit één advertentieplatform. Wie Facebook Ads zegt, bedoelt vrijwel altijd hetzelfde." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat doet een Meta Ads bureau elke maand?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Nieuwe advertenties en video's testen, doelgroepen en budgetten bijsturen, verzadigde creatives vervangen en rapporteren op omzet. Meta Ads draait op verse creatie: campagnes die stil blijven staan, zakken weg. Daarom is doorlopend onderhoud het halve werk." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Werken Facebook en Instagram advertenties nog wel?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Ja, mits je meet en creatie serieus neemt. Sinds de privacywijzigingen wint wie zijn tracking op orde heeft met de pixel en Conversie API, en wie content maakt die niet als reclame voelt. Precies daar zit onze focus." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Voor welke bedrijven werken Meta Ads het best?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Webshops en bedrijven met een product of dienst die je visueel kunt laten zien, presteren doorgaans het sterkst. Voor B2B werkt Meta vooral als bekendheidsmotor naast LinkedIn. Twijfel je of het bij jouw bedrijf past, dan zeggen we dat eerlijk in het eerste gesprek." }
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
             </Helmet>
@@ -238,10 +271,10 @@ export default function MetaAdsPage() {
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Meta Ads</span>
                         <h1 className="font-sans font-bold text-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[0.9] tracking-tight mb-6">
-                            Ze scrollen voorbij.<br />Wij zorgen dat ze stoppen.
+                            Facebook en Instagram Ads<br />uitbesteden die renderen.
                         </h1>
                         <p className="font-sans text-primary/70 text-lg md:text-xl max-w-lg leading-relaxed font-medium mb-8">
-                            3,7 miljard mensen op Facebook en Instagram. Jouw klant zit ertussen. Wij vinden hem, spreken hem aan en zetten hem in beweging.
+                            Miljarden mensen op Facebook en Instagram. Jouw klant zit ertussen. Wij vinden hem, spreken hem aan en zetten hem in beweging.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/contact" className="btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
@@ -342,6 +375,31 @@ export default function MetaAdsPage() {
                     </div>
                     <div className="flex-1 w-full h-[340px] sm:h-[380px] lg:h-[400px]">
                         <FasenAnim />
+                    </div>
+                </div>
+            </section>
+
+            {/* Meta Ads uitbesteden FAQ */}
+            <section className="w-full py-24 px-6 bg-primary/[0.03] meta-section">
+                <div className="max-w-4xl mx-auto">
+                    <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block text-center">Meta Ads uitbesteden</span>
+                    <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-4 text-center">Veelgestelde vragen over Facebook Ads uitbesteden</h2>
+                    <p className="font-sans text-primary/70 text-lg leading-relaxed mb-10 text-center max-w-2xl mx-auto">
+                        Dit vragen ondernemers ons het vaakst voordat ze hun campagnes aan ons toevertrouwen.
+                    </p>
+                    <div className="space-y-4">
+                        {[
+                            { q: 'Wat kost Facebook Ads uitbesteden?', a: 'Je betaalt je advertentiebudget aan Meta plus een vast maandbedrag voor strategie, beheer en creatie. Wat dat beheer kost, hangt af van je doelen en het aantal campagnes. In een gratis gesprek rekenen we door wat realistisch is voor jouw situatie.' },
+                            { q: 'Wat is het verschil tussen Meta Ads en Facebook Ads?', a: 'Geen verschil in de praktijk. Meta Ads is de officiële naam voor adverteren via Facebook, Instagram, Messenger en het Audience Network, allemaal vanuit één advertentieplatform. Wie Facebook Ads zegt, bedoelt vrijwel altijd hetzelfde.' },
+                            { q: 'Wat doet een Meta Ads bureau elke maand?', a: 'Nieuwe advertenties en video\'s testen, doelgroepen en budgetten bijsturen, verzadigde creatives vervangen en rapporteren op omzet. Meta Ads draait op verse creatie: campagnes die stil blijven staan, zakken weg. Daarom is doorlopend onderhoud het halve werk.' },
+                            { q: 'Werken Facebook en Instagram advertenties nog wel?', a: 'Ja, mits je meet en creatie serieus neemt. Sinds de privacywijzigingen wint wie zijn tracking op orde heeft met de pixel en Conversie API, en wie content maakt die niet als reclame voelt. Precies daar zit onze focus.' },
+                            { q: 'Voor welke bedrijven werken Meta Ads het best?', a: 'Webshops en bedrijven met een product of dienst die je visueel kunt laten zien, presteren doorgaans het sterkst. Voor B2B werkt Meta vooral als bekendheidsmotor naast LinkedIn. Twijfel je of het bij jouw bedrijf past, dan zeggen we dat eerlijk in het eerste gesprek.' },
+                        ].map((f, i) => (
+                            <div key={i} className="border border-primary/10 rounded-xl p-6 bg-white">
+                                <h3 className="font-sans font-semibold text-primary mb-2">{f.q}</h3>
+                                <p className="font-sans text-primary/70 text-sm leading-relaxed">{f.a}</p>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>

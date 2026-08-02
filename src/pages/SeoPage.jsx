@@ -177,29 +177,62 @@ export default function SeoPage() {
     return (
         <main ref={mainRef} className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>SEO – Search Engine Optimization | Empowers</title>
-                <meta name="description" content="Gevonden worden zonder te betalen per klik. Wij zorgen dat Google jou ziet als het meest relevante bedrijf in jouw markt. Elke maand meer bezoekers, zonder advertentiebudget." />
+                <title>SEO-bureau voor mkb en webshops | Empowers</title>
+                <meta name="description" content="Op zoek naar een SEO-bureau dat levert? Empowers helpt mkb en webshops hoger in Google met techniek, content en autoriteit. Bekijk aanpak en resultaten." />
                 <link rel="canonical" href="https://www.empowers.nl/seo" />
-                <meta property="og:title" content="SEO – Search Engine Optimization | Empowers" />
-                <meta property="og:description" content="Gevonden worden zonder te betalen per klik. Wij zorgen dat Google jou ziet als het meest relevante bedrijf in jouw markt. Elke maand meer bezoekers, zonder advertentiebudget." />
+                <meta property="og:title" content="SEO-bureau voor mkb en webshops | Empowers" />
+                <meta property="og:description" content="SEO uitbesteden aan een bureau dat rapporteert op omzet in plaats van alleen op posities. Bekijk hoe Empowers jouw bedrijf hoger in Google krijgt." />
                 <meta property="og:url" content="https://www.empowers.nl/seo" />
                 <meta property="og:type" content="website" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "Service",
-                    "name": "SEO – Search Engine Optimization",
-                    "serviceType": "Search Engine Optimization",
-                    "description": "Empowers verzorgt SEO voor bedrijven in heel Nederland. Organisch hoger ranken in Google door technische aanpak, content en linkbuilding.",
-                    "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "url": "https://www.empowers.nl/seo"
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://www.empowers.nl/diensten" },
-                        { "@type": "ListItem", "position": 3, "name": "SEO", "item": "https://www.empowers.nl/seo" }
+                    "@graph": [
+                        {
+                            "@type": "Service",
+                            "name": "SEO-bureau voor mkb en webshops",
+                            "serviceType": "Search Engine Optimization",
+                            "description": "Empowers is een SEO-bureau voor mkb en webshops in heel Nederland. Organisch hoger ranken in Google door technische aanpak, content en autoriteit.",
+                            "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "url": "https://www.empowers.nl/seo"
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
+                                { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://www.empowers.nl/diensten" },
+                                { "@type": "ListItem", "position": 3, "name": "SEO", "item": "https://www.empowers.nl/seo" }
+                            ]
+                        },
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat kost SEO uitbesteden bij Empowers?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Je betaalt een vast maandbedrag dat afhangt van je markt, je concurrentie en hoe snel je wilt groeien. Geen verrassingen achteraf. In een gratis kennismakingsgesprek rekenen we door wat realistisch is voor jouw situatie en wat het je naar verwachting oplevert." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wanneer zie ik resultaat van SEO?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "De eerste beweging zie je meestal na twee tot drie maanden, duidelijke groei in verkeer en aanvragen volgt doorgaans tussen maand vier en negen. SEO is een investering die zich opstapelt: wat je opbouwt, blijft werken zonder dat je per klik betaalt." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat doet een SEO-bureau elke maand voor mijn website?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Techniek bewaken, content maken en verbeteren, autoriteit opbouwen en rapporteren op wat het oplevert. Je ziet elke maand welke posities zijn gestegen, wat dat aan bezoekers bracht en wat de volgende stappen zijn." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Kan ik SEO niet beter zelf doen?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "De basis kun je zelf leggen en daar helpen onze blogs je gratis bij. Het verschil zit in consistentie en ervaring: elke week de juiste dingen doen, jaar in jaar uit. Precies daar gaat het bij zelf doen meestal mis, niet bij de kennis." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Werkt SEO ook voor webshops?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Juist voor webshops. Sterke categoriepagina's, unieke productcontent en schone techniek leveren verkeer op dat elke maand terugkomt zonder advertentiekosten. Wij combineren SEO waar zinvol met Google Ads zodat je op korte en lange termijn omzet pakt." }
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
             </Helmet>
@@ -212,10 +245,10 @@ export default function SeoPage() {
                     <div className="flex-1">
                         <span className="font-mono text-sm tracking-widest uppercase text-accent mb-6 block">Search Engine Optimization</span>
                         <h1 className="font-sans font-bold text-primary text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[0.9] tracking-tight mb-6">
-                            Organisch zichtbaar.
+                            Het SEO-bureau dat levert.
                         </h1>
                         <p className="font-sans text-primary/70 text-lg md:text-xl max-w-lg leading-relaxed font-medium mb-8">
-                            SEO is de fundering van alles wat online werkt. Wij zorgen dat Google jou ziet als de meest relevante speler in jouw markt. Zonder te betalen voor elke klik.
+                            SEO uitbesteden doe je maar aan één partij, dus die keuze moet kloppen. Wij zorgen dat Google jou ziet als de meest relevante speler in jouw markt. Zonder te betalen voor elke klik.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/contact" className="btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
@@ -359,6 +392,52 @@ export default function SeoPage() {
                             Meer over GEO
                             <ArrowRight className="w-4 h-4" />
                         </Link>
+                    </div>
+                </div>
+            </section>
+
+            {/* SEO uitbesteden */}
+            <section className="w-full py-24 px-6 seo-section">
+                <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-start gap-12 lg:gap-24">
+                    <div className="flex-1">
+                        <span className="font-mono text-sm tracking-widest uppercase text-accent mb-4 block">05 — SEO uitbesteden</span>
+                        <h2 className="font-sans font-bold text-3xl md:text-4xl text-primary tracking-tight mb-6">SEO uitbesteden zonder gedoe.</h2>
+                        <p className="font-sans text-primary/70 text-lg leading-relaxed mb-6">
+                            Je wilt geen rapport vol vaktermen. Je wilt meer aanvragen uit Google. Zo werken we: jij blijft eigenaar van alles wat we bouwen, we rapporteren op omzet in plaats van alleen op posities, en je hoort ook eerlijk wat er nog niet goed gaat.
+                        </p>
+                        <div className="flex flex-col gap-3 mb-8">
+                            {[
+                                'Jij blijft eigenaar van je website, content en data',
+                                'Rapportage op aanvragen en omzet, niet alleen op rankings',
+                                'Eén vast aanspreekpunt dat jouw site door en door kent',
+                                'Onze eigen aanpak bewijst zichzelf: 400+ artikelen die ranken',
+                            ].map((item, i) => (
+                                <div key={i} className="flex items-center gap-3">
+                                    <CheckCircle className="w-5 h-5 text-primary shrink-0" />
+                                    <span className="font-sans text-primary/80 text-sm">{item}</span>
+                                </div>
+                            ))}
+                        </div>
+                        <Link to="/contact" className="btn-magnetic inline-flex items-center justify-center bg-accent text-background font-sans font-bold text-base px-8 py-4 rounded-[2rem] hover:bg-accent/90 transition-colors">
+                            Vraag een gratis SEO-check aan
+                        </Link>
+                    </div>
+                    <div className="flex-1 w-full">
+                        <h3 className="font-sans font-bold text-xl text-primary mb-6">Veelgestelde vragen over SEO uitbesteden</h3>
+                        <div className="space-y-4">
+                            {[
+                                { q: 'Wat kost SEO uitbesteden bij Empowers?', a: 'Je betaalt een vast maandbedrag dat afhangt van je markt, je concurrentie en hoe snel je wilt groeien. Geen verrassingen achteraf. In een gratis kennismakingsgesprek rekenen we door wat realistisch is voor jouw situatie en wat het je naar verwachting oplevert.' },
+                                { q: 'Wanneer zie ik resultaat van SEO?', a: 'De eerste beweging zie je meestal na twee tot drie maanden, duidelijke groei in verkeer en aanvragen volgt doorgaans tussen maand vier en negen. SEO is een investering die zich opstapelt: wat je opbouwt, blijft werken zonder dat je per klik betaalt.' },
+                                { q: 'Wat doet een SEO-bureau elke maand voor mijn website?', a: 'Techniek bewaken, content maken en verbeteren, autoriteit opbouwen en rapporteren op wat het oplevert. Je ziet elke maand welke posities zijn gestegen, wat dat aan bezoekers bracht en wat de volgende stappen zijn.' },
+                                { q: 'Kan ik SEO niet beter zelf doen?', a: 'De basis kun je zelf leggen en daar helpen onze blogs je gratis bij. Het verschil zit in consistentie en ervaring: elke week de juiste dingen doen, jaar in jaar uit. Precies daar gaat het bij zelf doen meestal mis, niet bij de kennis.' },
+                                { q: 'Werkt SEO ook voor webshops?', a: 'Juist voor webshops. Sterke categoriepagina\'s, unieke productcontent en schone techniek leveren verkeer op dat elke maand terugkomt zonder advertentiekosten. Wij combineren SEO waar zinvol met Google Ads zodat je op korte en lange termijn omzet pakt.' },
+                            ].map((f, i) => (
+                                <div key={i} className="border border-primary/10 rounded-xl p-5 bg-white">
+                                    <h4 className="font-sans font-semibold text-primary mb-2">{f.q}</h4>
+                                    <p className="font-sans text-primary/70 text-sm leading-relaxed">{f.a}</p>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </section>
