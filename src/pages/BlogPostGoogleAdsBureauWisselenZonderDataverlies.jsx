@@ -223,6 +223,9 @@ export default function BlogPostGoogleAdsBureauWisselenZonderDataverlies() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Van Google Ads bureau wisselen is geen sprong in het diepe, het is een nette sleuteloverdracht. Zorg dat je account en je tracking van jou zijn, laat het nieuwe bureau rustig instappen en behoud wat werkt. Wil je sparren over een overstap zonder dataverlies? Plan een gratis gesprek via <Link to="/contact" className="text-accent hover:underline">empowers.nl/contact</Link>.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je zien hoe wij dit aanpakken? Bekijk wat <Link to="/google-ads" className="text-accent hover:underline">Google Ads uitbesteden</Link> bij Empowers inhoudt.
+                        </p>
                     </div>
 
                     <section className="mt-16 pt-12 border-t border-primary/10">

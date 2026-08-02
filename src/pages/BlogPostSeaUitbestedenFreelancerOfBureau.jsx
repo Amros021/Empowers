@@ -214,6 +214,9 @@ export default function BlogPostSeaUitbestedenFreelancerOfBureau() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Daarna beoordeel je de persoon en het werk, niet het etiket. Een sterke freelancer verslaat een zwak bureau, en andersom. Twijfel je nog tussen een specialist, een bureau en een freelancer in bredere zin, kijk dan in onze blog over <Link to="/blogs/google-ads/google-ads-specialist-vs-bureau-freelancer" className="text-accent hover:underline">het verschil tussen een Google Ads-specialist, bureau en freelancer</Link>.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je zien hoe wij dit aanpakken? Bekijk wat <Link to="/google-ads" className="text-accent hover:underline">Google Ads uitbesteden</Link> bij Empowers inhoudt.
+                        </p>
                     </div>
 
                     <section className="mt-16 pt-12 border-t border-primary/10">

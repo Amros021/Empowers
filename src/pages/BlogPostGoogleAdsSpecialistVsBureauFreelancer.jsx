@@ -163,6 +163,9 @@ export default function BlogPostGoogleAdsSpecialistVsBureauFreelancer() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             En niet kiezen alleen op pitch. De mooiste pitch komt soms van de zwakste uitvoerders. Vraag in beide gevallen om een live klantcase met data over een vol jaar. Hoe je dat aanpakt staat verder uitgewerkt in onze gids over <Link to="/blogs/google-ads/sea-uitbesteden-vragen-voordat-je-tekent" className="text-accent hover:underline">vragen voor je tekent</Link>.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Benieuwd hoe dit er bij ons uitziet? Zo werkt ons <Link to="/google-ads" className="text-accent hover:underline">Google Ads bureau</Link>.
+                        </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen</h2>
                     </div>

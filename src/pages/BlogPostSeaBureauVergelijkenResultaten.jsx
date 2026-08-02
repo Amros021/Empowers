@@ -218,6 +218,9 @@ export default function BlogPostSeaBureauVergelijkenResultaten() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Plan een overlap van 2 tot 4 weken tussen oud en nieuw bureau. Het nieuwe bureau analyseert zonder iets aan te passen, zodat je de uitgangspositie kent. In week 3 starten de eerste experimenten. Verwacht in maand 1 stabilisatie, in maand 2 kleine winsten en pas in maand 3 of 4 echte groei. Wie binnen 4 weken wonderen verwacht, jaagt zichzelf opnieuw in een teleurstelling.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je zien hoe wij dit aanpakken? Bekijk wat <Link to="/google-ads" className="text-accent hover:underline">Google Ads uitbesteden</Link> bij Empowers inhoudt.
+                        </p>
                     </div>
 
                     {/* FAQ Section */}

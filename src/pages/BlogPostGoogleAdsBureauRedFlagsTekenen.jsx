@@ -173,6 +173,9 @@ export default function BlogPostGoogleAdsBureauRedFlagsTekenen() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Gebeurt er niets meetbaars binnen die termijn, dan is overstappen redelijk. Een second opinion van een ander bureau is meestal voor weinig of geen kosten beschikbaar als losse audit. Wat je in zo'n intake-gesprek vraagt staat in onze blog over de <Link to="/blogs/google-ads/google-ads-bureau-vragen-eerste-gesprek" className="text-accent hover:underline">5 vragen voor het eerste gesprek</Link>. En als je twijfelt tussen bureau of zelf doen, helpt onze gids over <Link to="/blogs/google-ads/google-ads-uitbesteden-wanneer-zelf" className="text-accent hover:underline">Google Ads uitbesteden of zelf doen</Link>.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je zien hoe wij dit aanpakken? Bekijk wat <Link to="/google-ads" className="text-accent hover:underline">Google Ads uitbesteden</Link> bij Empowers inhoudt.
+                        </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen</h2>
                     </div>

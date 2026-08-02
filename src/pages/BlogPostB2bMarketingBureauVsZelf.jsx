@@ -387,6 +387,9 @@ export default function BlogPostB2bMarketingBureauVsZelf() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             We helpen je bepalen of zelf doen of uitbesteding beter is, welke kanalen het meest effectief zijn en hoe je snel groei bereikt. Laat ons van je horen.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Benieuwd hoe dat er bij ons uitziet? Bekijk <Link to="/diensten" className="text-accent hover:underline">wat wij als bureau voor je doen</Link>.
+                        </p>
                     </div>
 
                     {/* FAQ Section */}

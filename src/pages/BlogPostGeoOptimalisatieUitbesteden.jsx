@@ -217,6 +217,9 @@ export default function BlogPostGeoOptimalisatieUitbesteden() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             In account-data van klanten die al een jaar actief met GEO bezig zijn, valt op dat bezoekers via AI-kanalen gemiddeld al verder in hun beslissing zijn dan wie via een generiek zoekwoord binnenkomt. Ze kennen de aanpak, weten ruwweg wat het kost en hebben al nagedacht over wat ze willen bereiken. Dat maakt het eerste gesprek een stuk concreter. Wie benieuwd is naar de concrete stappen, vindt die in ons <Link to="/blogs/geo/geo-optimalisatie-mkb-stappenplan" className="text-accent hover:underline">GEO optimalisatie stappenplan voor MKB</Link>.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je zien hoe wij dit aanpakken? Bekijk hoe ons <Link to="/geo" className="text-accent hover:underline">GEO-bureau</Link> werkt.
+                        </p>
                     </div>
 
                     <section className="mt-16 pt-12 border-t border-primary/10">

@@ -182,6 +182,9 @@ export default function BlogPostOnlineMarketingUitbestedenBureauResultaat() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Derde fout: niet vragen om concrete cases met cijfers. Een bureau dat geen case kan laten zien waar het effect aantoonbaar was, heeft het effect waarschijnlijk niet bewerkstelligd. Hoe je daar tussen jouw eigen mogelijkheden afweegt staat in onze blog over <Link to="/blogs/algemeen/zelf-adverteren-of-uitbesteden" className="text-accent hover:underline">zelf adverteren versus uitbesteden</Link>.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Benieuwd hoe dat er bij ons uitziet? Bekijk <Link to="/diensten" className="text-accent hover:underline">wat wij als bureau voor je doen</Link>.
+                        </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen</h2>
                     </div>

@@ -180,6 +180,9 @@ export default function BlogPostZoekmachineOptimalisatieBureauKiezenGids() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Derde fout: alleen op SEO leunen en geen aandacht aan andere kanalen geven. SEO is een lange-termijn-investering die in de tussentijd elders verkeer moet komen. Een gezonde marketingmix zorgt dat je niet failliet gaat terwijl je wacht op SEO-resultaten. Hoe je die mix bouwt staat in onze blog over <Link to="/blogs/strategie/online-marketing-strategie-mkb" className="text-accent hover:underline">online marketingstrategie voor MKB</Link>.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Benieuwd hoe dit er bij ons uitziet? Zo werkt <Link to="/seo" className="text-accent hover:underline">SEO uitbesteden</Link> bij Empowers.
+                        </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen</h2>
                     </div>

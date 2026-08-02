@@ -207,6 +207,9 @@ export default function BlogPostLinkedinAdsUitbestedenB2bResultaten() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             LinkedIn Ads uitbesteden draait niet om het werk uit handen geven, maar om meer omzet halen uit een kanaal dat geen ruimte voor fouten laat. Met de juiste targeting, scherpe advertenties en focus op leadkwaliteit werkt elke euro harder. Benieuwd wat LinkedIn voor jouw B2B-groei kan betekenen? Plan een gesprek via empowers.nl/contact.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Benieuwd hoe dit er bij ons uitziet? Zo werkt ons <Link to="/linkedin-ads" className="text-accent hover:underline">LinkedIn Ads bureau</Link>.
+                        </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen</h2>
                     </div>

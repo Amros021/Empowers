@@ -154,6 +154,9 @@ export default function BlogPostGoogleAdsBureauVragenEersteGesprek() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Vergelijk dat met de aantekeningen van andere intake-gesprekken in dezelfde week. De verschillen worden dan meestal helder. Voor de bredere context over de keuze tussen bureau en freelancer, lees onze blog over <Link to="/blogs/google-ads/google-ads-specialist-vs-bureau-freelancer" className="text-accent hover:underline">specialist vs bureau</Link>. Wat je in de eerste 90 dagen moet zien staat in onze gids over <Link to="/blogs/google-ads/google-ads-specialist-resultaten-90-dagen" className="text-accent hover:underline">90 dagen resultaten</Link>.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Kijk gerust hoe wij het doen: dit houdt <Link to="/google-ads" className="text-accent hover:underline">Google Ads beheer</Link> bij Empowers in.
+                        </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen</h2>
                     </div>

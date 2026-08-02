@@ -240,6 +240,9 @@ export default function BlogPostOnlineMarketingUitbestedenWebshop() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Uitbesteden werkt als je de basis op orde hebt, als je weet welk type partner je zoekt en als je bereid bent maandelijks scherp te blijven op de richting. Wie alleen de pijn wil wegtikken zonder zelf betrokken te blijven, levert vaak geld in. Wie het ziet als een serieuze samenwerking met een externe specialist, koopt zichzelf groei.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Benieuwd hoe dat er bij ons uitziet? Bekijk <Link to="/diensten" className="text-accent hover:underline">wat wij als bureau voor je doen</Link>.
+                        </p>
                     </div>
 
                     <section className="mt-16 pt-12 border-t border-primary/10">

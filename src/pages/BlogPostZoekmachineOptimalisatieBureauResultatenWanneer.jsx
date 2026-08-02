@@ -214,6 +214,9 @@ export default function BlogPostZoekmachineOptimalisatieBureauResultatenWanneer(
                         <p className="text-primary/80 leading-relaxed mb-6">
                             En heb je snel resultaat nodig? Dek de aanloopperiode dan af met advertenties. Geduld bij SEO betaalt zich uit, maar je hoeft die maanden niet stil te zitten.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je zien hoe wij dit aanpakken? Bekijk hoe ons <Link to="/seo" className="text-accent hover:underline">SEO-bureau</Link> werkt.
+                        </p>
                     </div>
 
                     <section className="mt-16 pt-12 border-t border-primary/10">

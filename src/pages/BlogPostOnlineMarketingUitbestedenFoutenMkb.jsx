@@ -206,6 +206,9 @@ export default function BlogPostOnlineMarketingUitbestedenFoutenMkb() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Dit is geen lijstje voor de zaterdagochtend met koffie. Het zijn beslissingen die je marketing voor de komende jaren beter maken. Wie het zelf even op poten zet wint daar maanden mee. Wie merkt dat de basis te wankel is, weet in elk geval waar te beginnen voor het tweede gesprek met een mogelijke nieuwe partner.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je weten of het klikt? Bekijk eerst rustig <Link to="/diensten" className="text-accent hover:underline">onze diensten</Link>.
+                        </p>
                     </div>
 
                     <section className="mt-16 pt-12 border-t border-primary/10">

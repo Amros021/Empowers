@@ -242,6 +242,9 @@ export default function BlogPostMarketingUitbestedenMkbZelfDoen() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Wil je weten welke vorm past bij jouw schaalfase, jouw aanbod en jouw budget? Plan een gratis gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>. We vertellen eerlijk of uitbesteden voor jou de slimste keuze is, of dat zelf doen op dit moment beter past.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Eerst een beeld krijgen? Bekijk <Link to="/diensten" className="text-accent hover:underline">onze aanpak per dienst</Link>.
+                        </p>
                     </div>
 
                     <section className="mt-16 pt-12 border-t border-primary/10">

@@ -206,6 +206,9 @@ export default function BlogPostFullServiceMarketingBureauNederlandKeuze() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Een bureau kiezen is uiteindelijk een kwestie van vertrouwen op basis van bewijs, niet van beloftes. Kies op resultaat, eerlijkheid en direct contact, dan kies je bijna altijd goed. Wil je weten of wij bij jouw bedrijf passen? Plan een gratis gesprek via <Link to="/contact" className="text-accent hover:underline">empowers.nl/contact</Link>.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Eerst een beeld krijgen? Bekijk <Link to="/diensten" className="text-accent hover:underline">onze aanpak per dienst</Link>.
+                        </p>
                     </div>
 
                     <section className="mt-16 pt-12 border-t border-primary/10">

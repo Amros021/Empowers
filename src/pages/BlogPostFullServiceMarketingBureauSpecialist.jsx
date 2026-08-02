@@ -273,6 +273,9 @@ export default function BlogPostFullServiceMarketingBureauSpecialist() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Twijfel je welke aanpak past bij jouw bedrijf? Plan een kort gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>. We denken eerlijk mee, ook als dat betekent dat een specialist beter past dan wij.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Benieuwd hoe dat er bij ons uitziet? Bekijk <Link to="/diensten" className="text-accent hover:underline">wat wij als bureau voor je doen</Link>.
+                        </p>
                     </div>
 
                     {/* FAQ Section */}

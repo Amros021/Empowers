@@ -160,6 +160,9 @@ export default function BlogPostSeaUitbestedenWebshopEcommerceBureau() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Derde fout: de productfeed als een eenmalig project zien. Een feed moet maandelijks worden gemonitord op afgekeurde producten en prijsfouten, en bij elke categoriewijziging in de shop opnieuw worden geijkt. Een bureau dat hier kwartaalbeheer op zet, levert geen serieus werk.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je zien hoe wij dit aanpakken? Bekijk wat <Link to="/google-ads" className="text-accent hover:underline">Google Ads uitbesteden</Link> bij Empowers inhoudt.
+                        </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen</h2>
                     </div>

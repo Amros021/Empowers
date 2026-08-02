@@ -206,6 +206,9 @@ export default function BlogPostFullServiceMarketingBureauWebshops() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Kies daarna op bewezen e-commerce kennis, rapportage op omzet en heldere afspraken over eigenaarschap. Een full service bureau dat jouw webshop echt begrijpt, is meer waard dan een goedkoper bureau dat je behandelt als een gewone website. Wil je sparren over wat bij jouw webshop past? Plan een gratis gesprek via <Link to="/contact" className="text-accent hover:underline">empowers.nl/contact</Link>.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je weten of het klikt? Bekijk eerst rustig <Link to="/diensten" className="text-accent hover:underline">onze diensten</Link>.
+                        </p>
                     </div>
 
                     <section className="mt-16 pt-12 border-t border-primary/10">

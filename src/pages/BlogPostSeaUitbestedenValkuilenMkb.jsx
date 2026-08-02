@@ -160,6 +160,9 @@ export default function BlogPostSeaUitbestedenValkuilenMkb() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Vanaf circa 3.000 euro mediabudget per maand wordt full-service uitbesteden interessant. Het bureau heeft dan voldoende budget om strategisch te werken, en jij ziet rendement dat je zelf zelden behaalt zonder de specialistische kennis.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Benieuwd hoe dit er bij ons uitziet? Zo werkt ons <Link to="/google-ads" className="text-accent hover:underline">Google Ads bureau</Link>.
+                        </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen</h2>
                     </div>

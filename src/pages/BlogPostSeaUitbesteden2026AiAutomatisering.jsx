@@ -155,6 +155,9 @@ export default function BlogPostSeaUitbesteden2026AiAutomatisering() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Voorspellen is moeilijk, maar drie ontwikkelingen lijken zeker. Verdere integratie van generatieve AI in Google's eigen Ads-platform, waardoor bureaus meer leunen op eigen workflows om verschil te maken. Strengere privacyregels, die het belang van eerstepartijdata en goede conversietracking verder vergroten. En strakkere koppeling tussen SEA en SEO/GEO, omdat AI-zoekmachines het zoeklandschap blijven verschuiven. Een bureau dat over al deze drie thema's kan praten zit op het juiste pad.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Kijk gerust hoe wij het doen: dit houdt <Link to="/google-ads" className="text-accent hover:underline">Google Ads beheer</Link> bij Empowers in.
+                        </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen</h2>
                     </div>

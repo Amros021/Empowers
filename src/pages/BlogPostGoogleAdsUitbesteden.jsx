@@ -354,6 +354,9 @@ export default function BlogPostGoogleAdsUitbesteden() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Voor meer Google Ads kennis, lees ook ons artikel over <a href="/blogs/google-ads/waarom-google-ads-klikken-converteren" className="text-accent underline hover:text-accent/80">waarom Google Ads kliks niet altijd converteren</a> en ons gids over <a href="/blogs/tracking/marketing-tracking-conversies-meten" className="text-accent underline hover:text-accent/80">tracking en analytics</a>.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Kijk gerust hoe wij het doen: dit houdt <Link to="/google-ads" className="text-accent hover:underline">Google Ads beheer</Link> bij Empowers in.
+                        </p>
                     </div>
 
                     {/* FAQ Section */}

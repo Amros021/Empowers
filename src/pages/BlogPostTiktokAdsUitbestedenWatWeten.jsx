@@ -199,6 +199,9 @@ export default function BlogPostTiktokAdsUitbestedenWatWeten() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             TikTok uitbesteden werkt als de afspraken kloppen: heldere kosten, goede content en jouw resultaat centraal. Met die basis haal je meer uit elke euro dan met blind zelf proberen. Benieuwd wat TikTok voor jouw bedrijf kan opleveren? Plan een gesprek via empowers.nl/contact.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Benieuwd hoe dit er bij ons uitziet? Zo werkt ons <Link to="/tiktok-ads" className="text-accent hover:underline">TikTok Ads bureau</Link>.
+                        </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen</h2>
                     </div>

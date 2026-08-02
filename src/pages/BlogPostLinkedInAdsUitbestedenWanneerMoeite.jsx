@@ -232,6 +232,9 @@ export default function BlogPostLinkedInAdsUitbestedenWanneerMoeite() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Vraag het bureau altijd om een realistische forecast na dertig en negentig dagen. Kwaliteit van die forecast zegt veel over de kwaliteit van het bureau.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je zien hoe wij dit aanpakken? Bekijk wat <Link to="/linkedin-ads" className="text-accent hover:underline">LinkedIn Ads uitbesteden</Link> bij Empowers inhoudt.
+                        </p>
 
                     </div>
 

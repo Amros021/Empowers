@@ -160,6 +160,9 @@ export default function BlogPostZoekmachineOptimalisatieBureauGeenResultaatMis()
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Voor de bredere vraag of een bureau überhaupt past bij jouw fase, lees ook onze blog over <Link to="/blogs/seo/seo-uitbesteden-zelf-eerlijk-antwoord" className="text-accent hover:underline">SEO uitbesteden of zelf doen</Link>. Soms ligt het probleem niet bij het bureau, maar bij de keuze om überhaupt uit te besteden op een moment dat de basis intern nog ontbreekt.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je zien hoe wij dit aanpakken? Bekijk hoe ons <Link to="/seo" className="text-accent hover:underline">SEO-bureau</Link> werkt.
+                        </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen</h2>
                     </div>

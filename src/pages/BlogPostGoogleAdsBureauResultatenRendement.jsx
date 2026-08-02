@@ -226,6 +226,9 @@ export default function BlogPostGoogleAdsBureauResultatenRendement() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Google Ads is geen knop die je omzet, het is een motor die op temperatuur moet komen. Geef hem die tijd en stuur op de juiste cijfers, dan komt het rendement vanzelf in beeld. Wil je weten wat Google Ads voor jouw bedrijf kan opleveren? Plan een gratis gesprek via <Link to="/contact" className="text-accent hover:underline">empowers.nl/contact</Link>.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Benieuwd hoe dit er bij ons uitziet? Zo werkt ons <Link to="/google-ads" className="text-accent hover:underline">Google Ads bureau</Link>.
+                        </p>
                     </div>
 
                     <section className="mt-16 pt-12 border-t border-primary/10">

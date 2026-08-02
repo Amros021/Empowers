@@ -149,6 +149,9 @@ export default function BlogPostConversieOptimalisatieBureauResultatenHerkennen(
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Het echte alarmsignaal is wanneer een bureau er ongemakkelijk van wordt of het gesprek ontwijkt naar pakketten en prijzen. Dat is een professional die zijn werk niet wil laten zien. Voor de bredere kontekst rond uitbesteden lees je onze blog over <Link to="/blogs/algemeen/online-marketing-uitbesteden-bureau-resultaat" className="text-accent hover:underline">marketingbureau resultaat</Link>. Voor de basisvraag of CRO sowieso bij jouw fase past kun je terecht in onze gids <Link to="/blogs/strategie/conversie-optimalisatie-bureau-nodig" className="text-accent hover:underline">CRO-bureau nodig of niet</Link>.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Meer halen uit de bezoekers die je al hebt? Bekijk onze aanpak voor <Link to="/landingspagina" className="text-accent hover:underline">landingspagina's die converteren</Link>.
+                        </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen</h2>
                     </div>

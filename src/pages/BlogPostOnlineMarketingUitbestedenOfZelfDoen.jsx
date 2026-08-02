@@ -163,6 +163,9 @@ export default function BlogPostOnlineMarketingUitbestedenOfZelfDoen() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Vraag drie: vind ik marketing leuk genoeg om er twaalf uur per maand in te steken voor de komende drie jaar? Want dat is de werkelijkheid van zelf doen. Eén keer iets opzetten en wachten op resultaten werkt niet. Marketing vraagt ritme. Lukt je dat niet vol te houden, dan blijft uitbesteden de slimmere optie ondanks de fee.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Eerst een beeld krijgen? Bekijk <Link to="/diensten" className="text-accent hover:underline">onze aanpak per dienst</Link>.
+                        </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen</h2>
                     </div>

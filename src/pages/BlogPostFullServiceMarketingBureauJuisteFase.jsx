@@ -175,6 +175,9 @@ export default function BlogPostFullServiceMarketingBureauJuisteFase() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             De keuze voor full service is uiteindelijk geen keuze voor een bepaald type bureau, maar voor een manier van werken. Eén aanspreekpunt, één strategie, één rapportage. Voor sommige fasen is dat precies wat je nodig hebt. Voor andere is het overhead die je beter ergens anders in stopt. Hoe je een bureau kiest dat daadwerkelijk levert lees je in onze <Link to="/blogs/algemeen/kies-juiste-online-marketing-bureau" className="text-accent hover:underline">gids voor het kiezen van een online marketingbureau</Link>.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je weten of het klikt? Bekijk eerst rustig <Link to="/diensten" className="text-accent hover:underline">onze diensten</Link>.
+                        </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen</h2>
                     </div>

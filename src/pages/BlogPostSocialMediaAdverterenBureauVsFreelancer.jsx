@@ -206,6 +206,9 @@ export default function BlogPostSocialMediaAdverterenBureauVsFreelancer() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Let bij beide op dezelfde drie dingen: blijft je advertentieaccount op naam van je eigen bedrijf, zijn de afspraken helder, en sturen ze op omzet in plaats van op bereik. Een partij die je account van jou laat en op resultaat stuurt, is meer waard dan een lager tarief. Wil je sparren over wat bij jouw bedrijf past? Plan een gratis gesprek via <Link to="/contact" className="text-accent hover:underline">empowers.nl/contact</Link>.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je zien hoe wij dit aanpakken? Bekijk wat <Link to="/meta-ads" className="text-accent hover:underline">Meta Ads uitbesteden</Link> bij Empowers inhoudt.
+                        </p>
                     </div>
 
                     <section className="mt-16 pt-12 border-t border-primary/10">

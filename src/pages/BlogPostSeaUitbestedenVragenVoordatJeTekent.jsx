@@ -165,6 +165,9 @@ export default function BlogPostSeaUitbestedenVragenVoordatJeTekent() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Hoe duidelijker je antwoord op deze drie vragen, hoe beter je gesprek met het bureau verloopt. Je weet immers wat je zoekt: geen vage beloftes, wel een concrete partner die past bij hoe jij samenwerkt.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Kijk gerust hoe wij het doen: dit houdt <Link to="/google-ads" className="text-accent hover:underline">Google Ads beheer</Link> bij Empowers in.
+                        </p>
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Veelgestelde vragen</h2>
                     </div>

@@ -220,6 +220,9 @@ export default function BlogPostTiktokAdsUitbestedenBureau() {
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Een veelgemaakte fout die we tegenkomen is dat klanten creative rechten vergeten vast te leggen. Bij UGC-creators moet rechtenoverdracht duidelijk zijn, met tijdsbepaling en gebied. Zonder dat staat je content na zes maanden in de prullenbak.
                         </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je zien hoe wij dit aanpakken? Bekijk wat <Link to="/tiktok-ads" className="text-accent hover:underline">TikTok Ads uitbesteden</Link> bij Empowers inhoudt.
+                        </p>
 
                     </div>
 

@@ -169,6 +169,9 @@ function BlogPostSeaBureauWisselen() {
             <p className="text-primary/80 leading-relaxed mb-6">
               Daarom: behoud altijd hetzelfde account als het kan. Een nieuw bureau dat met je meedenkt, bouwt voort op wat er staat in plaats van alles om te gooien. Verbeteren mag, maar je geschiedenis weggooien zelden.
             </p>
+            <p className="text-primary/80 leading-relaxed mb-6">
+                Benieuwd hoe dit er bij ons uitziet? Zo werkt ons <Link to="/google-ads" className="text-accent hover:underline">Google Ads bureau</Link>.
+            </p>
 
             <div className="bg-accent/5 border border-accent/20 rounded-2xl p-8 my-12">
               <h3 className="font-sans font-bold text-primary text-xl mb-4 flex items-center gap-2">
