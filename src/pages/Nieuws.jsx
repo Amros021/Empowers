@@ -173,18 +173,35 @@ export default function Nieuws() {
                 <meta property="og:type" content="website" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "CollectionPage",
-                    "name": "Marketing Nieuws, Tips & Insights",
-                    "description": "Blijf vooroplopen met de nieuwste inzichten over Meta Ads, TikTok Ads, SEO, GEO en conversietracking. Praktische tips van de marketeers van Empowers.",
-                    "url": "https://www.empowers.nl/nieuws",
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" }
+                    "@graph": [
+                        {
+                            "@type": "CollectionPage",
+                            "name": "Marketing Nieuws, Tips & Insights",
+                            "description": "Blijf vooroplopen met de nieuwste inzichten over Meta Ads, TikTok Ads, SEO, GEO en conversietracking. Praktische tips van de marketeers van Empowers.",
+                            "url": "https://www.empowers.nl/nieuws",
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
             </Helmet>

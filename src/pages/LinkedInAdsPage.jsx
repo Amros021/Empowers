@@ -173,20 +173,42 @@ export default function LinkedInAdsPage() {
                 <meta property="og:type" content="website" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "Service",
-                    "name": "LinkedIn Ads – B2B Adverteren",
-                    "serviceType": "LinkedIn Ads beheer",
-                    "description": "Empowers beheert LinkedIn Ads campagnes voor B2B bedrijven in Nederland. Gericht op beslissers, directeuren en managers met bewezen resultaten.",
-                    "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "url": "https://www.empowers.nl/linkedin-ads"
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://www.empowers.nl/diensten" },
-                        { "@type": "ListItem", "position": 3, "name": "LinkedIn Ads", "item": "https://www.empowers.nl/linkedin-ads" }
+                    "@graph": [
+                        {
+                            "@type": "Service",
+                            "name": "LinkedIn Ads – B2B Adverteren",
+                            "serviceType": "LinkedIn Ads beheer",
+                            "description": "Empowers beheert LinkedIn Ads campagnes voor B2B bedrijven in Nederland. Gericht op beslissers, directeuren en managers met bewezen resultaten.",
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "url": "https://www.empowers.nl/linkedin-ads"
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Diensten",
+                                    "item": "https://www.empowers.nl/diensten"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "LinkedIn Ads",
+                                    "item": "https://www.empowers.nl/linkedin-ads"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
             </Helmet>

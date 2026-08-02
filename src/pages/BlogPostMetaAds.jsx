@@ -23,27 +23,122 @@ export default function BlogPostMetaAds() {
                 <meta property="og:image" content="https://www.empowers.nl/images/blogs/meta-ads-converteren.jpg" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "Article",
-                    "headline": "Waarom jouw Meta Ads niet converteren (en hoe je dat oplost)",
-                    "image": "https://www.empowers.nl/images/blogs/meta-ads-converteren.jpg",
-                    "description": "Slechte resultaten met Meta Ads? Ontdek de meest gemaakte fouten en hoe je ze direct oplost. Van doelgroepen en creatives tot budget en pixel-tracking.",
-                    "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "datePublished": "2026-02-15T00:00:00+01:00",
-                    "dateModified": "2026-02-15T00:00:00+01:00",
-                    "url": "https://www.empowers.nl/blogs/social-ads/waarom-meta-ads-niet-converteren"
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Waarom jouw Meta Ads niet converteren (en hoe je dat oplost)", "item": "https://www.empowers.nl/blogs/social-ads/waarom-meta-ads-niet-converteren" }
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Waarom jouw Meta Ads niet converteren (en hoe je dat oplost)",
+                            "image": "https://www.empowers.nl/images/blogs/meta-ads-converteren.jpg",
+                            "description": "Slechte resultaten met Meta Ads? Ontdek de meest gemaakte fouten en hoe je ze direct oplost. Van doelgroepen en creatives tot budget en pixel-tracking.",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "datePublished": "2026-02-15T00:00:00+01:00",
+                            "dateModified": "2026-02-15T00:00:00+01:00",
+                            "url": "https://www.empowers.nl/blogs/social-ads/waarom-meta-ads-niet-converteren"
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Waarom jouw Meta Ads niet converteren (en hoe je dat oplost)",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/waarom-meta-ads-niet-converteren"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "Waarom krijg ik wel klikken maar geen aankopen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Dit komt het vaakst door een mismatch tussen de advertentie en de landingspagina, een te brede doelgroep of een landingspagina die te langzaam laadt. Controleer deze drie dingen als eerste. Het is dezelfde reden waarom veel adverteerders problemen hebben met Google Ads klikken die niet converteren."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is een normale conversieratio voor Meta Ads?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Voor een webshop is 1,5% tot 3,5% een gezonde norm. Voor leadgeneratie is alles boven de 2% sterk. Zit je structureel onder de 1%? Dan is er iets in de keten dat bijstelling nodig heeft."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoeveel budget heb ik nodig om Meta Ads te laten werken?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Meta heeft data nodig om te leren. Reken op minimaal 300 tot 500 euro per maand per campagne om het algoritme voldoende ruimte te geven. Met minder budget duurt het leerproces veel langer of lukt het niet goed."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe vaak moet ik mijn advertenties vervangen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Controleer de frequentie. Zit die boven de 3 binnen twee weken? Wissel dan je creatieven af. Voor de meeste campagnes geldt: elke 3 tot 4 weken nieuwe beelden en teksten testen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Moet ik retargeting gebruiken?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja. Retargeting, het opnieuw bereiken van mensen die al op je website waren, levert gemiddeld twee tot drie keer hogere conversiepercentages op dan cold audiences. Het is een van de makkelijkste manieren om meer te halen uit je bestaande verkeer."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Werkt broad targeting echt beter dan gedetailleerde targeting?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Vaak wel, maar het hangt af van hoe lang je pixel al actief is. Heeft je pixel minder dan 50 conversies in de afgelopen 30 dagen? Begin dan iets smaller. Heb je meer data? Geef Meta de ruimte en kijk wat het algoritme doet."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is Meta Conversions API en heb ik het nodig?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Meta Conversions API is een server-to-server verbinding die conversiedata doorstuurt, onafhankelijk van browsercookies. Na de iOS 14-update is dit sterk aan te raden voor iedereen die nauwkeurige data wil. Zonder CAPI mis je waarschijnlijk 30 tot 50% van je conversies."
+                                    }
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Waarom Je Meta Ads Niet Converteren" />
+        <meta name="twitter:description" content="Slechte resultaten met Meta Ads? Ontdek de meest gemaakte fouten en hoe je ze direct oplost. Van doelgroepen en creative" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

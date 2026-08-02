@@ -555,10 +555,10 @@ export default function Diensten() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <script type="application/ld+json">
-                    {JSON.stringify([
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
                         {
-                            "@context": "https://schema.org",
                             "@type": "Service",
                             "name": "Google Ads",
                             "serviceType": "Google Ads beheer",
@@ -575,7 +575,6 @@ export default function Diensten() {
                             "url": "https://www.empowers.nl/diensten"
                         },
                         {
-                            "@context": "https://schema.org",
                             "@type": "Service",
                             "name": "Meta Ads",
                             "serviceType": "Meta Ads beheer",
@@ -592,7 +591,6 @@ export default function Diensten() {
                             "url": "https://www.empowers.nl/diensten"
                         },
                         {
-                            "@context": "https://schema.org",
                             "@type": "Service",
                             "name": "SEO",
                             "serviceType": "Zoekmachineoptimalisatie",
@@ -609,7 +607,6 @@ export default function Diensten() {
                             "url": "https://www.empowers.nl/diensten"
                         },
                         {
-                            "@context": "https://schema.org",
                             "@type": "Service",
                             "name": "GEO – Generative Engine Optimization",
                             "serviceType": "Generative Engine Optimization",
@@ -624,9 +621,26 @@ export default function Diensten() {
                                 "name": "Nederland"
                             },
                             "url": "https://www.empowers.nl/diensten"
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Diensten",
+                                    "item": "https://www.empowers.nl/diensten"
+                                }
+                            ]
                         }
-                    ])}
-                </script>
+                    ]
+                })}</script>
                 <title>Diensten – Meta Ads, LinkedIn Ads, TikTok Ads, GEO & SEO | Empowers</title>
                 <meta name="description" content="Van Meta Ads en LinkedIn Ads tot TikTok Ads, SEO en GEO. Ontdek hoe Empowers jouw bedrijf laat groeien met performance marketing." />
                 <link rel="canonical" href="https://www.empowers.nl/diensten" />
@@ -634,14 +648,6 @@ export default function Diensten() {
                 <meta property="og:description" content="Van Meta Ads en LinkedIn Ads tot TikTok Ads, SEO en GEO. Ontdek hoe Empowers jouw bedrijf laat groeien met performance marketing." />
                 <meta property="og:url" content="https://www.empowers.nl/diensten" />
                 <meta property="og:type" content="website" />
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://www.empowers.nl/diensten" }
-                    ]
-                })}</script>
             </Helmet>
             <Navbar />
 

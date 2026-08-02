@@ -98,6 +98,8 @@ export default function BlogCategory() {
                 <meta property="og:type" content="website" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
+                    "@graph": [
+{
                     "@type": "CollectionPage",
                     "name": config.title,
                     "description": config.metaDescription,
@@ -107,14 +109,15 @@ export default function BlogCategory() {
                         "name": "Empowers",
                         "url": "https://www.empowers.nl"
                     }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
+                },
+{
                     "@type": "BreadcrumbList",
                     "itemListElement": [
                         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
                         { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
                         { "@type": "ListItem", "position": 3, "name": config.name, "item": canonicalUrl }
+                    ]
+                }
                     ]
                 })}</script>
             </Helmet>

@@ -68,9 +68,10 @@ export default function BlogPostTechnischeSeoChecklist() {
                 <meta name="twitter:image" content="https://www.empowers.nl/images/blogs/technische-seo-checklist-2025-website.jpg" />
 
                 {/* Article Schema */}
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+{
                         "@type": "Article",
                         "headline": "Technische SEO checklist 2026: alles wat je website nodig heeft",
                         "description": "Volledige technische SEO checklist. Ontdek wat je website nodig heeft voor betere rankings.",
@@ -78,13 +79,8 @@ export default function BlogPostTechnischeSeoChecklist() {
                         "datePublished": "2026-03-11T00:00:00+01:00",
                         "author": { "@type": "Organization", "name": "Empowers" },
                         "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" }
-                    })}
-                </script>
-
-                {/* FAQ Schema */}
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                    },
+{
                         "@type": "FAQPage",
                         "mainEntity": faqs.map(faq => ({
                             "@type": "Question",
@@ -94,13 +90,8 @@ export default function BlogPostTechnischeSeoChecklist() {
                                 "text": faq.answer
                             }
                         }))
-                    })}
-                </script>
-
-                {/* Breadcrumb Schema */}
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                    },
+{
                         "@type": "BreadcrumbList",
                         "itemListElement": breadcrumbs.map((crumb, idx) => ({
                             "@type": "ListItem",
@@ -108,8 +99,13 @@ export default function BlogPostTechnischeSeoChecklist() {
                             "name": crumb.name,
                             "item": `https://www.empowers.nl${crumb.href}`
                         }))
-                    })}
-                </script>
+                    }
+                    ]
+                })}</script>
+
+                {/* FAQ Schema */}
+
+                {/* Breadcrumb Schema */}
             </Helmet>
 
             <Navbar />

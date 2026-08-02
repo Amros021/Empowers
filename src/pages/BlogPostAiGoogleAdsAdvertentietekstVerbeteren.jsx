@@ -53,9 +53,10 @@ export default function BlogPostAiGoogleAdsAdvertentietekstVerbeteren() {
                 <meta name="article:published_time" content="2026-04-06T00:00:00+02:00" />
                 <meta name="article:author" content="Empowers" />
                 <meta name="article:section" content="Google Ads" />
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+{
                         "@type": "Article",
                         "headline": "Hoe AI jouw Google Ads advertentietekst kan verbeteren",
                         "description": "AI helpt je sneller betere Google Ads teksten te schrijven. Lees hoe je AI-tools inzet voor koppen, beschrijvingen en A/B-testen zonder je merkstem te verliezen.",
@@ -67,11 +68,8 @@ export default function BlogPostAiGoogleAdsAdvertentietekstVerbeteren() {
                         "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                         "datePublished": "2026-04-06T00:00:00+02:00",
                         "keywords": "google ads advertentietekst verbeteren, google ads teksten schrijven, ai google ads, advertentietekst google ads, google ads koppen"
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                    },
+{
                         "@type": "BreadcrumbList",
                         "itemListElement": [
                             {
@@ -99,11 +97,8 @@ export default function BlogPostAiGoogleAdsAdvertentietekstVerbeteren() {
                                 "item": "https://www.empowers.nl/blogs/google-ads/ai-google-ads-advertentietekst-verbeteren"
                             }
                         ]
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                    },
+{
                         "@type": "FAQPage",
                         "mainEntity": faqItems.map(item => ({
                             "@type": "Question",
@@ -113,8 +108,9 @@ export default function BlogPostAiGoogleAdsAdvertentietekstVerbeteren() {
                                 "text": item.answer
                             }
                         }))
-                    })}
-                </script>
+                    }
+                    ]
+                })}</script>
                     <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Hoe AI jouw Google Ads advertentietekst kan verbeteren" />
         <meta name="twitter:description" content="AI helpt je sneller betere Google Ads teksten te schrijven. Lees hoe je AI-tools inzet voor koppen, beschrijvingen en A/" />

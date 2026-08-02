@@ -40,18 +40,35 @@ export default function Contact() {
                 <meta property="og:type" content="website" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "ContactPage",
-                    "name": "Contact – Empowers",
-                    "url": "https://www.empowers.nl/contact",
-                    "description": "Neem contact op met Empowers en plan een gratis kennismakingsgesprek over jouw online marketing.",
-                    "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://www.empowers.nl/contact" }
+                    "@graph": [
+                        {
+                            "@type": "ContactPage",
+                            "name": "Contact – Empowers",
+                            "url": "https://www.empowers.nl/contact",
+                            "description": "Neem contact op met Empowers en plan een gratis kennismakingsgesprek over jouw online marketing.",
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Contact",
+                                    "item": "https://www.empowers.nl/contact"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
             </Helmet>

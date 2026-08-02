@@ -40,8 +40,10 @@ export default function BlogPostAiSeo2025() {
         <meta name="twitter:image" content="https://www.empowers.nl/images/blogs/ai-seo-2025-verandert-kunstmatige.jpg" />
 
         {/* Article Schema */}
-        <script type="application/ld+json">
-          {JSON.stringify({
+        <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+{
             '@context': 'https://schema.org',
             '@type': 'Article',
             headline: 'AI en SEO in 2026: hoe verandert kunstmatige intelligentie de zoekresultaten?',
@@ -59,12 +61,8 @@ export default function BlogPostAiSeo2025() {
                 url: 'https://www.empowers.nl/empowers-logo-color.svg'
               }
             }
-          })}
-        </script>
-
-        {/* FAQ Schema */}
-        <script type="application/ld+json">
-          {JSON.stringify({
+          },
+{
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: [
@@ -125,12 +123,8 @@ export default function BlogPostAiSeo2025() {
                 }
               }
             ]
-          })}
-        </script>
-
-        {/* BreadcrumbList Schema */}
-        <script type="application/ld+json">
-          {JSON.stringify({
+          },
+{
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
@@ -159,8 +153,13 @@ export default function BlogPostAiSeo2025() {
                 item: 'https://www.empowers.nl/blogs/seo/ai-seo-2025-verandert-kunstmatige'
               }
             ]
-          })}
-        </script>
+          }
+                    ]
+                })}</script>
+
+        {/* FAQ Schema */}
+
+        {/* BreadcrumbList Schema */}
       </Helmet>
 
       <Navbar />

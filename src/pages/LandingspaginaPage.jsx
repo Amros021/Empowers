@@ -186,20 +186,42 @@ export default function LandingspaginaPage() {
                 <meta property="og:type" content="website" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "Service",
-                    "name": "Landingspagina's die Converteren",
-                    "serviceType": "Landingspagina bouw en conversie",
-                    "description": "Empowers bouwt en verbetert landingspagina's voor bedrijven in Nederland. Meer bezoekers die ook echt iets doen, van eerste analyse tot conversiegericht resultaat.",
-                    "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "url": "https://www.empowers.nl/landingspagina"
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://www.empowers.nl/diensten" },
-                        { "@type": "ListItem", "position": 3, "name": "Landingspagina", "item": "https://www.empowers.nl/landingspagina" }
+                    "@graph": [
+                        {
+                            "@type": "Service",
+                            "name": "Landingspagina's die Converteren",
+                            "serviceType": "Landingspagina bouw en conversie",
+                            "description": "Empowers bouwt en verbetert landingspagina's voor bedrijven in Nederland. Meer bezoekers die ook echt iets doen, van eerste analyse tot conversiegericht resultaat.",
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "url": "https://www.empowers.nl/landingspagina"
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Diensten",
+                                    "item": "https://www.empowers.nl/diensten"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Landingspagina",
+                                    "item": "https://www.empowers.nl/landingspagina"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
             </Helmet>

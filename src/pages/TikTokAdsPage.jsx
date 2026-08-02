@@ -189,20 +189,42 @@ export default function TikTokAdsPage() {
                 <meta property="og:type" content="website" />
                 <script type="application/ld+json">{JSON.stringify({
                     "@context": "https://schema.org",
-                    "@type": "Service",
-                    "name": "TikTok Ads Campagnebeheer",
-                    "serviceType": "TikTok Ads beheer",
-                    "description": "Empowers beheert TikTok Ads campagnes voor bedrijven in Nederland. Lage kosten per klik, enorm bereik en creatieve campagnes die converteren.",
-                    "provider": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                    "url": "https://www.empowers.nl/tiktok-ads"
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Diensten", "item": "https://www.empowers.nl/diensten" },
-                        { "@type": "ListItem", "position": 3, "name": "TikTok Ads", "item": "https://www.empowers.nl/tiktok-ads" }
+                    "@graph": [
+                        {
+                            "@type": "Service",
+                            "name": "TikTok Ads Campagnebeheer",
+                            "serviceType": "TikTok Ads beheer",
+                            "description": "Empowers beheert TikTok Ads campagnes voor bedrijven in Nederland. Lage kosten per klik, enorm bereik en creatieve campagnes die converteren.",
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "url": "https://www.empowers.nl/tiktok-ads"
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Diensten",
+                                    "item": "https://www.empowers.nl/diensten"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "TikTok Ads",
+                                    "item": "https://www.empowers.nl/tiktok-ads"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
             </Helmet>

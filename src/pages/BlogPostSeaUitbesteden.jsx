@@ -69,9 +69,10 @@ const BlogPostSeaUitbesteden = () => {
         <meta name="twitter:description" content="Wil je SEA-campagnes uitbesteden? Lees wat je moet weten over kosten, bureaus en het keuzeproces." />
 
         {/* Article Schema */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
+        <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+{
             "@type": "Article",
             "headline": "SEA uitbesteden: alles wat je moet weten voordat je kiest",
             "description": "Wil je SEA-campagnes uitbesteden? Lees wat je moet weten over kosten, bureaus en het keuzeproces.",
@@ -79,13 +80,8 @@ const BlogPostSeaUitbesteden = () => {
             "datePublished": "2026-03-17T00:00:00+01:00",
             "author": { "@type": "Organization", "name": "Empowers" },
             "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" }
-          })}
-        </script>
-
-        {/* FAQ Schema */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
+          },
+{
             "@type": "FAQPage",
             "mainEntity": faqs.map(faq => ({
               "@type": "Question",
@@ -95,13 +91,8 @@ const BlogPostSeaUitbesteden = () => {
                 "text": faq.answer
               }
             }))
-          })}
-        </script>
-
-        {/* Breadcrumb Schema */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
+          },
+{
             "@type": "BreadcrumbList",
             "itemListElement": [
               {
@@ -129,8 +120,13 @@ const BlogPostSeaUitbesteden = () => {
                 "item": "https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-weten-voordat-kiest"
               }
             ]
-          })}
-        </script>
+          }
+                    ]
+                })}</script>
+
+        {/* FAQ Schema */}
+
+        {/* Breadcrumb Schema */}
       </Helmet>
 
       <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">

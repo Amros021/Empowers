@@ -64,9 +64,10 @@ export default function BlogPostGeoVsSeo() {
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="GEO" />
                 <meta name="author" content="Empowers" />
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+{
                         "@type": "Article",
                         "headline": "GEO vs SEO: wat is het verschil en heb je allebei nodig?",
                         "description": "GEO vs SEO: ontdek het verschil, wanneer je elk nodig hebt, en hoe je beide inzet voor lokale groei. Praktische gids voor servicebedrijven en shops.",
@@ -82,11 +83,8 @@ export default function BlogPostGeoVsSeo() {
                             "name": "Empowers",
                             "url": "https://www.empowers.nl"
                         }
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                    },
+{
                         "@type": "FAQPage",
                         "mainEntity": faqItems.map(item => ({
                             "@type": "Question",
@@ -96,11 +94,8 @@ export default function BlogPostGeoVsSeo() {
                                 "text": item.answer
                             }
                         }))
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                    },
+{
                         "@type": "BreadcrumbList",
                         "itemListElement": breadcrumbs.map((crumb, index) => ({
                             "@type": "ListItem",
@@ -108,8 +103,9 @@ export default function BlogPostGeoVsSeo() {
                             "name": crumb.label,
                             "item": `https://www.empowers.nl${crumb.href}`
                         }))
-                    })}
-                </script>
+                    }
+                    ]
+                })}</script>
                     <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="GEO vs SEO: wat is het verschil en heb je allebei nodig?" />
         <meta name="twitter:description" content="GEO vs SEO: ontdek het verschil, wanneer je elk nodig hebt, en hoe je beide inzet voor lokale groei. Praktische gids voo" />

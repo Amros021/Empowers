@@ -50,9 +50,10 @@ export default function BlogPostConversieratioBenchmarksPerBranche() {
                 <meta name="article:published_time" content="2026-03-27T00:00:00+01:00" />
                 <meta name="article:author" content="Empowers" />
                 <meta name="article:section" content="Strategie" />
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+{
                         "@type": "Article",
                         "headline": "Wat is een goede conversieratio? Benchmarks per branche",
                         "description": "Wat is een goede conversieratio? Bekijk benchmarks per branche en leer hoe je jouw conversiepercentage verbetert met concrete tips.",
@@ -64,11 +65,8 @@ export default function BlogPostConversieratioBenchmarksPerBranche() {
                         "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                         "datePublished": "2026-03-27T00:00:00+01:00",
                         "keywords": "conversieratio verbeteren, benchmarks, e-commerce, conversion rate optimization"
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                    },
+{
                         "@type": "BreadcrumbList",
                         "itemListElement": [
                             {
@@ -96,11 +94,8 @@ export default function BlogPostConversieratioBenchmarksPerBranche() {
                                 "item": "https://www.empowers.nl/blogs/strategie/goede-conversieratio-benchmarks-per-branche"
                             }
                         ]
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                    },
+{
                         "@type": "FAQPage",
                         "mainEntity": faqItems.map(item => ({
                             "@type": "Question",
@@ -110,8 +105,9 @@ export default function BlogPostConversieratioBenchmarksPerBranche() {
                                 "text": item.answer
                             }
                         }))
-                    })}
-                </script>
+                    }
+                    ]
+                })}</script>
                     <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Wat is een goede conversieratio? Benchmarks per branche" />
         <meta name="twitter:description" content="Wat is een goede conversieratio? Bekijk benchmarks per branche en leer hoe je jouw conversiepercentage verbetert met con" />

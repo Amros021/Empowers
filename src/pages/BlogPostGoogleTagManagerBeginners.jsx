@@ -60,9 +60,10 @@ export default function BlogPostGoogleTagManagerBeginners() {
                 <meta property="article:author" content="Empowers" />
                 <meta property="article:section" content="Tracking" />
                 <meta name="author" content="Empowers" />
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+{
                         "@type": "Article",
                         "headline": "Google Tag Manager voor beginners: zo start je",
                         "description": "Google Tag Manager maakt tracking makkelijk zonder code. Leer stap voor stap hoe je GTM instelt voor Google Ads, Meta Ads en Analytics.",
@@ -78,11 +79,8 @@ export default function BlogPostGoogleTagManagerBeginners() {
                             "name": "Empowers",
                             "url": "https://www.empowers.nl"
                         }
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                    },
+{
                         "@type": "FAQPage",
                         "mainEntity": faqItems.map(item => ({
                             "@type": "Question",
@@ -92,11 +90,8 @@ export default function BlogPostGoogleTagManagerBeginners() {
                                 "text": item.answer
                             }
                         }))
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                    },
+{
                         "@type": "BreadcrumbList",
                         "itemListElement": breadcrumbs.map((crumb, index) => ({
                             "@type": "ListItem",
@@ -104,8 +99,9 @@ export default function BlogPostGoogleTagManagerBeginners() {
                             "name": crumb.label,
                             "item": `https://www.empowers.nl${crumb.href}`
                         }))
-                    })}
-                </script>
+                    }
+                    ]
+                })}</script>
                     <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Google Tag Manager voor beginners: zo start je" />
         <meta name="twitter:description" content="Google Tag Manager maakt tracking makkelijk zonder code. Leer stap voor stap hoe je GTM instelt voor Google Ads, Meta Ad" />

@@ -53,9 +53,10 @@ export default function BlogPostLandingspaginaWaaromAnders() {
                 <meta name="article:published_time" content="2026-04-04T00:00:00+02:00" />
                 <meta name="article:author" content="Empowers" />
                 <meta name="article:section" content="Strategie" />
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+{
                         "@type": "Article",
                         "headline": "Wat is een landingspagina en waarom is hij anders dan je homepage?",
                         "description": "Een landingspagina is een pagina met maar een doel: conversie. Lees waarom hij anders werkt dan je homepage en hoe je er meer klanten mee binnenhaalt.",
@@ -67,11 +68,8 @@ export default function BlogPostLandingspaginaWaaromAnders() {
                         "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                         "datePublished": "2026-04-04T00:00:00+02:00",
                         "keywords": "wat is een landingspagina, landingspagina vs homepage, landingspagina maken, conversie verbeteren"
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                    },
+{
                         "@type": "BreadcrumbList",
                         "itemListElement": [
                             {
@@ -99,11 +97,8 @@ export default function BlogPostLandingspaginaWaaromAnders() {
                                 "item": "https://www.empowers.nl/blogs/strategie/landingspagina-waarom-hij-anders-homepage"
                             }
                         ]
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                    },
+{
                         "@type": "FAQPage",
                         "mainEntity": faqItems.map(item => ({
                             "@type": "Question",
@@ -113,8 +108,9 @@ export default function BlogPostLandingspaginaWaaromAnders() {
                                 "text": item.answer
                             }
                         }))
-                    })}
-                </script>
+                    }
+                    ]
+                })}</script>
                     <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Wat is een landingspagina en waarom is hij anders dan je homepage?" />
         <meta name="twitter:description" content="Een landingspagina is een pagina met maar een doel: conversie. Lees waarom hij anders werkt dan je homepage en hoe je er" />

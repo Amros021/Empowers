@@ -28,81 +28,106 @@ export default function BlogPostZoekwoordenonderzoek2026() {
                 <meta name="twitter:title" content="Zoekwoordenonderzoek doen in 2026: de complete gids" />
                 <meta name="twitter:description" content="De complete gids voor zoekwoordenonderzoek in 2026: intentie, long-tail en AI-optimalisatie." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Zoekwoordenonderzoek doen in 2026: de complete gids",
-                        "description": "Zoekwoordenonderzoek in 2026 is meer dan zoekvolume checken. Lees hoe je zoekintentie analyseert, long-tail keywords vindt en jouw content aanpast voor zowel Google als AI-zoekmachines.",
-                        "image": "https://www.empowers.nl/images/blogs/zoekwoordenonderzoek-2026.jpg",
-                        "datePublished": "2026-04-15T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Zoekwoordenonderzoek doen in 2026: de complete gids",
+                            "description": "Zoekwoordenonderzoek in 2026 is meer dan zoekvolume checken. Lees hoe je zoekintentie analyseert, long-tail keywords vindt en jouw content aanpast voor zowel Google als AI-zoekmachines.",
+                            "image": "https://www.empowers.nl/images/blogs/zoekwoordenonderzoek-2026.jpg",
+                            "datePublished": "2026-04-15T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke tools gebruik je voor zoekwoordenonderzoek in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De meest gebruikte tools zijn Google Keyword Planner (gratis, maar beperkt), Ahrefs, Semrush en Moz. Voor long-tail inspiratie zijn Google Autocomplete, 'People Also Ask' en Answer the Public waardevol. Voor AI-zichtbaarheid helpt het ook om populaire vragen in ChatGPT en Perplexity te analyseren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is zoekintentie en waarom is het belangrijker dan zoekvolume?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Zoekintentie is de reden waarom iemand een bepaalde zoekopdracht intypt. Er zijn vier soorten: informatief (leren), navigerend (een specifieke website vinden), commercieel (vergelijken) en transactioneel (kopen). Een pagina die de verkeerde intentie bedient, rankt niet goed, ook al heeft het zoekwoord veel volume."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel zoekvolume heeft een zoekwoord nodig om de moeite waard te zijn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Er is geen universeel minimum. Een zoekwoord met 50 zoekopdrachten per maand en hoge koopintentie kan meer opleveren dan een zoekwoord met 5.000 zoekopdrachten en informatieve intentie. Kijk altijd naar de combinatie van volume, intentie, moeilijkheidsgraad en commerciële waarde."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verandert zoekwoordenonderzoek door AI-zoekmachines?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "AI-zoekmachines zoals Perplexity en ChatGPT verwerken langere, conversationele vragen. Dat betekent dat long-tail keywords en vraagformaten nog waardevoller worden. Content die specifieke vragen direct beantwoordt, scoort goed in zowel Google als AI-tools."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet ik mijn zoekwoordenonderzoek herhalen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Doe elk kwartaal een update voor je kernonderwerpen. Markten, trends en zoekgedrag veranderen. Nieuwe producten, wetgeving of nieuwsgebeurtenissen creëren nieuwe zoekwoorden die je kunt claimen vóórdat concurrenten dat doen."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke tools gebruik je voor zoekwoordenonderzoek in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De meest gebruikte tools zijn Google Keyword Planner (gratis, maar beperkt), Ahrefs, Semrush en Moz. Voor long-tail inspiratie zijn Google Autocomplete, 'People Also Ask' en Answer the Public waardevol. Voor AI-zichtbaarheid helpt het ook om populaire vragen in ChatGPT en Perplexity te analyseren."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is zoekintentie en waarom is het belangrijker dan zoekvolume?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Zoekintentie is de reden waarom iemand een bepaalde zoekopdracht intypt. Er zijn vier soorten: informatief (leren), navigerend (een specifieke website vinden), commercieel (vergelijken) en transactioneel (kopen). Een pagina die de verkeerde intentie bedient, rankt niet goed, ook al heeft het zoekwoord veel volume."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel zoekvolume heeft een zoekwoord nodig om de moeite waard te zijn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Er is geen universeel minimum. Een zoekwoord met 50 zoekopdrachten per maand en hoge koopintentie kan meer opleveren dan een zoekwoord met 5.000 zoekopdrachten en informatieve intentie. Kijk altijd naar de combinatie van volume, intentie, moeilijkheidsgraad en commerciële waarde."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe verandert zoekwoordenonderzoek door AI-zoekmachines?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "AI-zoekmachines zoals Perplexity en ChatGPT verwerken langere, conversationele vragen. Dat betekent dat long-tail keywords en vraagformaten nog waardevoller worden. Content die specifieke vragen direct beantwoordt, scoort goed in zowel Google als AI-tools."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak moet ik mijn zoekwoordenonderzoek herhalen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Doe elk kwartaal een update voor je kernonderwerpen. Markten, trends en zoekgedrag veranderen. Nieuwe producten, wetgeving of nieuwsgebeurtenissen creëren nieuwe zoekwoorden die je kunt claimen vóórdat concurrenten dat doen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Zoekwoordenonderzoek 2026",
+                                    "item": "https://www.empowers.nl/blogs/seo/zoekwoordenonderzoek-2026-complete-gids"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "SEO", "item": "https://www.empowers.nl/blogs/seo" },
-                            { "@type": "ListItem", "position": 4, "name": "Zoekwoordenonderzoek 2026", "item": "https://www.empowers.nl/blogs/seo/zoekwoordenonderzoek-2026-complete-gids" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -104,9 +104,14 @@ export default function BlogPostMetaAds2025Privacywijzigingen() {
                 <meta name="twitter:description" content="Ontdek welke Meta Ads-strategieën werken in 2026 na privacyveranderingen. Lees hoe je succesvol adverteert met Advantage+ en eerste-partijdata." />
                 <meta name="twitter:image" content="/images/blogs/meta-ads-2025-werkt-na.jpg" />
 
-                <script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
-                <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
-                <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+schemaMarkup,
+breadcrumbSchema,
+faqSchema
+                    ]
+                })}</script>
             </Helmet>
 
             <Navbar />

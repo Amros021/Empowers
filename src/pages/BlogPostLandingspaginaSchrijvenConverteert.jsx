@@ -53,9 +53,10 @@ export default function BlogPostLandingspaginaSchrijvenConverteert() {
                 <meta name="article:published_time" content="2026-04-05T00:00:00+02:00" />
                 <meta name="article:author" content="Empowers" />
                 <meta name="article:section" content="Strategie" />
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+{
                         "@type": "Article",
                         "headline": "Landingspagina schrijven die converteert: zo pak je het aan",
                         "description": "Een goede landingspagina schrijven begint bij de juiste structuur. Lees hoe je koppen, tekst en CTA's inzet zodat bezoekers actie ondernemen.",
@@ -67,11 +68,8 @@ export default function BlogPostLandingspaginaSchrijvenConverteert() {
                         "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
                         "datePublished": "2026-04-05T00:00:00+02:00",
                         "keywords": "landingspagina maken, landingspagina schrijven, landingspagina converteert, conversie verbeteren, landingspagina tekst"
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                    },
+{
                         "@type": "BreadcrumbList",
                         "itemListElement": [
                             {
@@ -99,11 +97,8 @@ export default function BlogPostLandingspaginaSchrijvenConverteert() {
                                 "item": "https://www.empowers.nl/blogs/strategie/landingspagina-schrijven-converteert"
                             }
                         ]
-                    })}
-                </script>
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
+                    },
+{
                         "@type": "FAQPage",
                         "mainEntity": faqItems.map(item => ({
                             "@type": "Question",
@@ -113,8 +108,9 @@ export default function BlogPostLandingspaginaSchrijvenConverteert() {
                                 "text": item.answer
                             }
                         }))
-                    })}
-                </script>
+                    }
+                    ]
+                })}</script>
                     <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Landingspagina schrijven die converteert: zo pak je het aan" />
         <meta name="twitter:description" content="Een goede landingspagina schrijven begint bij de juiste structuur. Lees hoe je koppen, tekst en CTA's inzet zodat bezoek" />
