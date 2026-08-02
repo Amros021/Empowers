@@ -240,6 +240,9 @@ export default function BlogPostGenerativeEngineOptimizationCompleteGids2026() {
                             Veel hiervan kun je zelf. Een meting opzetten kost geen geld, alleen tijd. Twee pijlerpagina's herschrijven is werk van een paar dagen. Maar er komt een punt waar je sneller wilt dan een paar uur per maand toelaat, of waar je meer wilt sturen op meerdere platforms tegelijk. Dan helpt het om iemand mee te laten kijken die elke week met deze materie bezig is, en die kan bepalen waar jouw inzet het hardst rendeert.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
+                            Liever uitbesteden? Ontdek hoe wij bedrijven <Link to="/geo" className="text-accent hover:underline">zichtbaar maken in AI-zoekmachines</Link>.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Als je benieuwd bent waar je staat en wat je eerste vier maanden zouden moeten opleveren, plan een vrijblijvend gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>. We doen een gratis nulmeting voor jouw merk in de grote AI-engines en bespreken wat dat betekent voor jouw branche.
                         </p>
                     </div>

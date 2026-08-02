@@ -93,6 +93,11 @@ export default function BlogPostConversieOptimalisatieBureauNodig() {
                         <p className="text-xl leading-relaxed text-primary/80 font-medium mb-6">
                             "Conversie optimalisatie" is een term die wordt gebruikt voor een hele waaier aan diensten, van een eenvoudig nieuwsbrief-knop-aanpassing tot meerjarige experimentation-programma's met eigen development capaciteit. Wat zit er nu echt achter, wanneer is een bureau de investering waard, en wanneer is het slimmer om zelf aan de slag te gaan? Hier het eerlijke antwoord, zonder verkoopverhaal.
                         </p>
+                        <div className="border-l-4 border-accent bg-accent/5 rounded-r-2xl p-6 my-10 not-prose">
+                            <p className="font-sans font-semibold text-primary mb-2">Op zoek naar een bureau dat dit voor je regelt?</p>
+                            <p className="font-sans text-primary/70 leading-relaxed">Bekijk wat ons <Link to="/landingspagina" className="text-accent font-semibold hover:underline">team voor conversiegerichte landingspagina's</Link> voor jouw website kan betekenen, of <Link to="/contact" className="text-accent hover:underline">plan een gratis gesprek</Link>.</p>
+                        </div>
+
 
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat een CRO-bureau eigenlijk doet</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">

@@ -13,8 +13,8 @@ export default function BlogPostInstagramAdverterenKostenCpmBudget2026() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>Instagram Adverteren: Kosten per Klik, CPM en Budget Berekenen 2026 | Empowers</title>
-                <meta name="description" content="Wat kost adverteren op Instagram in 2026? Concrete CPC, CPM en budget benchmarks per branche, plus hoe je een budget berekent dat rendement levert." />
+                <title>Wat kost Instagram adverteren in 2026? CPC, CPM en budget | Empowers</title>
+                <meta name="description" content="Instagram adverteren kost minder dan je denkt, als je het slim aanpakt. Bekijk de actuele klikprijzen, CPM-tarieven en welk budget realistisch is." />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/social-ads/instagram-adverteren-kosten-cpm-budget-2026" />
                 <meta property="og:title" content="Instagram Adverteren: Kosten per Klik, CPM en Budget Berekenen 2026" />
                 <meta property="og:description" content="Concrete CPC en CPM benchmarks plus een budget calculator voor Instagram adverteren in 2026." />
@@ -210,6 +210,9 @@ export default function BlogPostInstagramAdverterenKostenCpmBudget2026() {
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wanneer is een specialist het waard?</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Voor budgetten onder 1.000 euro per maand kun je het zelf draaien als je tijd hebt om wekelijks te optimaliseren. Vanaf 2.000 euro betaalt een specialist zichzelf bijna altijd terug door betere creative-strategie, structuur en biedoptimalisatie. We zien wekelijks dat een paar concrete aanpassingen (pixel verbeteren, audiences breder trekken, creative-ratio's per plaatsing) 30 tot 50 procent meer rendement opleveren zonder budgetverhoging.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Liever uitbesteden? Ontdek wat <Link to="/meta-ads" className="text-accent hover:underline">Meta Ads uitbesteden</Link> bij Empowers oplevert.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Wat je zelf altijd kunt doen: pixel goed installeren, brede doelgroep met Advantage+, drie ratio's per creative. Wil je dat we mét je meekijken naar wat jouw Instagram-budget echt zou kunnen opleveren? Plan een gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>. We laten zien waar de winst zit, voor je een euro extra uitgeeft.

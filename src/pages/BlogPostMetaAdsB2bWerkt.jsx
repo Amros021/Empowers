@@ -248,6 +248,9 @@ export default function BlogPostMetaAdsB2bWerkt() {
                             Zelf draaien kan in de eerste 1 tot 3 maanden, vooral als je het kanaal eerst wilt aftasten met een klein budget. Zodra je structureel meer dan 1.500 euro per maand in B2B Meta Ads zet, of zodra je meer dan 1 doelgroep en meer dan 1 aanbieding tegelijk wilt aansturen, gaat het werk inhoudelijk lopen. Een fout in custom audiences, een verkeerd ingestelde Lead Form of een verkeerde campagnestructuur vermenigvuldigt je verspilling sneller dan je denkt.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
+                            Zelf geen tijd om te blijven testen? Bekijk ons <Link to="/meta-ads" className="text-accent hover:underline">Meta Ads bureau</Link>.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Een specialist verdient zichzelf meestal binnen 2 tot 4 maanden terug door slimmere targeting, betere creatives en strakkere meting. Twijfel je of jouw huidige B2B Meta Ads-aanpak het maximale haalt? We doen kosteloos een scan van jouw account en laten zien waar voor jouw aanbod de eerste winst zit. Plan een gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>. Geen verplichtingen, wel duidelijkheid over wat haalbaar is.
                         </p>
                     </div>

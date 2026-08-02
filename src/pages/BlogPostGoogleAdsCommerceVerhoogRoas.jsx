@@ -210,6 +210,9 @@ export default function BlogPostGoogleAdsCommerceVerhoogRoas() {
                             Drie fouten zien we bij bijna elke webshop: verspild budget aan producten met te lage marge, te brede doelgroepen in PMax en geen aandacht voor mobiele snelheid. Verspilling herken je in je Search Terms en in je product report. Te brede PMax herken je aan hoge Display-uitgaven zonder conversies. Snelheid fix je door lazy loading, goede hosting en een slimmer thema.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je hier hulp bij? Zo werkt <Link to="/google-ads" className="text-accent hover:underline">Google Ads beheer</Link> bij Empowers.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Wil je weten waar in jouw account de grootste hefbomen liggen? We maken graag een gratis audit met concrete verbeterpunten. Plan een gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>.
                         </p>
                     </div>

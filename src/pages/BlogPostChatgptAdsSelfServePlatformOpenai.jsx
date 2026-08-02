@@ -13,8 +13,8 @@ export default function BlogPostChatgptAdsSelfServePlatformOpenai() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>ChatGPT Ads gaat live: wat het self-serve platform van OpenAI betekent | Empowers</title>
-                <meta name="description" content="OpenAI opende op 5 mei 2026 de ChatGPT Ads Manager voor Amerikaanse adverteerders. Lees wat dat betekent en hoe je je in Nederland alvast voorbereidt." />
+                <title>ChatGPT Ads is live: dit betekent het voor adverteerders | Empowers</title>
+                <meta name="description" content="OpenAI opent zijn advertentieplatform voor iedereen. Lees hoe ChatGPT Ads werkt, wat het kost en of vroeg instappen slim is voor jouw bedrijf." />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/ai-ads/chatgpt-ads-self-serve-platform-openai" />
                 <meta property="og:title" content="ChatGPT Ads gaat live: wat het self-serve platform van OpenAI betekent" />
                 <meta property="og:description" content="Wat OpenAI's nieuwe Ads Manager betekent voor Nederlandse adverteerders en hoe je je voorbereidt." />

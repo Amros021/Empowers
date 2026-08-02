@@ -88,8 +88,8 @@ export default function BlogPostMetaAds2025Privacywijzigingen() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>Meta Ads in 2026: wat werkt na privacywijzigingen? | Empowers</title>
-                <meta name="description" content="Ontdek welke Meta Ads-strategieën werken in 2026 na privacyveranderingen. Lees hoe je succesvol adverteert met Advantage+ en eerste-partijdata." />
+                <title>Meta Ads in 2026: dit werkt nog na de privacywijzigingen | Empowers</title>
+                <meta name="description" content="Tracking wordt lastiger, maar Meta Ads werkt nog steeds. Lees wat er veranderd is en welke aanpak in 2026 wel resultaat oplevert voor adverteerders." />
                 <meta name="keywords" content="meta ads 2026, facebook ads privacywijzigingen, meta advertising, social media marketing" />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/social-ads/meta-ads-2025-werkt-na" />
 

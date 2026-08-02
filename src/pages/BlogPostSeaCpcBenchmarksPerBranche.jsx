@@ -258,6 +258,9 @@ export default function BlogPostSeaCpcBenchmarksPerBranche() {
                             Begin met een budgetcheck op basis van branche-CPC en gewenst conversievolume. Test 60 tot 90 dagen op het werkelijke minimumbudget voor jouw branche, niet op een fantasie-bedrag dat te laag is om te leren. Stuur niet op CPC, maar op kosten per geconverteerde klant. Lage CPC's zonder conversies zijn waardeloos. Hoge CPC's met sterke conversies zijn winstgevend.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
+                            Zelf geen tijd voor dagelijks campagnebeheer? Bekijk ons <Link to="/google-ads" className="text-accent hover:underline">Google Ads bureau</Link>.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Wil je weten welk budget realistisch is voor jouw aanbod en welke CPC je kunt verwachten? Plan een gratis gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>. We rekenen vrijblijvend uit wat jouw aanbod zou kosten op basis van actuele biedlandschappen.
                         </p>
                     </div>

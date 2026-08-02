@@ -148,6 +148,11 @@ function BlogPostSeaBureauNederland() {
             <p className="text-primary/80 leading-relaxed mb-6 text-lg">
               Een SEA bureau kiezen in Nederland draait in 2026 om vier dingen: word jij eigenaar van je eigen Google Ads-account, rapporteert het bureau op omzet in plaats van op klikken, kent het jouw branche, en gaat het slim om met de automatisering van Google. Wie daarop let, zit zelden naast. Wie alleen op prijs kiest, betaalt het verschil later terug.
             </p>
+                        <div className="border-l-4 border-accent bg-accent/5 rounded-r-2xl p-6 my-10 not-prose">
+                            <p className="font-sans font-semibold text-primary mb-2">Op zoek naar een bureau dat dit voor je regelt?</p>
+                            <p className="font-sans text-primary/70 leading-relaxed">Bekijk wat ons <Link to="/google-ads" className="text-accent font-semibold hover:underline">Google Ads bureau</Link> voor jouw campagnes kan betekenen, of <Link to="/contact" className="text-accent hover:underline">plan een gratis gesprek</Link>.</p>
+                        </div>
+
             <p className="text-primary/80 leading-relaxed mb-6">
               De markt zit vol bureaus die mooie beloftes doen. Het echte verschil zit onder de motorkap: wie de controle houdt, hoe er gemeten wordt en of iemand jouw cijfers durft te laten zien. Hieronder lopen we de criteria langs die er echt toe doen.
             </p>

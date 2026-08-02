@@ -210,6 +210,9 @@ export default function BlogPostGeoOptimalisatieChecklist() {
                             Kijk daarnaast in je serverlogboeken of analytics of AI-crawlers je pagina's ophalen en of er verkeer binnenkomt via AI-bronnen. Met die twee gewoontes, zelf testen en je data volgen, weet je of je werk landt. En dat is de laatste van de twaalf: meten, zodat je weet wat je moet bijsturen in plaats van te gokken.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
+                            Liever uitbesteden? Ontdek hoe wij bedrijven <Link to="/geo" className="text-accent hover:underline">zichtbaar maken in AI-zoekmachines</Link>.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Loop de twaalf punten gerust gefaseerd af. Begin bij je content en je FAQ, zet daarna je techniek en je betrouwbaarheid op orde en houd het meten erbij. Wil je weten waar jouw site nu staat in AI-zoekmachines? Plan een gratis gesprek via <Link to="/contact" className="text-accent hover:underline">empowers.nl/contact</Link>.
                         </p>
                     </div>

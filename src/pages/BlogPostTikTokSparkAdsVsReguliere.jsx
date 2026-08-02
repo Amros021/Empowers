@@ -13,8 +13,8 @@ export default function BlogPostTikTokSparkAdsVsReguliere() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>TikTok Spark Ads vs reguliere TikTok Ads: wat is het verschil? | Empowers</title>
-                <meta name="description" content="TikTok Spark Ads gebruiken bestaande content van creators of je eigen account. Reguliere ads maak je zelf. Lees de verschillen in kosten, resultaten en wanneer je welk format kiest." />
+                <title>Spark Ads vs gewone TikTok Ads: dit is het verschil | Empowers</title>
+                <meta name="description" content="Spark Ads gebruiken echte posts en presteren daardoor vaak beter dan reguliere TikTok Ads. Lees wanneer je welke vorm kiest en wat het verschil doet." />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/social-ads/tiktok-spark-ads-vs-reguliere" />
                 <meta property="og:title" content="TikTok Spark Ads vs reguliere TikTok Ads: wat is het verschil?" />
                 <meta property="og:description" content="Spark Ads vs reguliere TikTok Ads: kosten, resultaten en wanneer je welk format kiest." />

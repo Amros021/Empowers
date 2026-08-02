@@ -183,6 +183,11 @@ const BlogPostSeaUitbesteden = () => {
             <p className="text-lg text-primary/90 mb-8 leading-relaxed">
               SEA-campagnes kosten veel tijd en expertise. Veel bedrijven kiezen ervoor dit uit te besteden aan een gespecialiseerd bureau. Maar hoe weet je of dit slim is? En welk bureau kies je? In dit artikel antwoorden we op jouw belangrijkste vragen.
             </p>
+                        <div className="border-l-4 border-accent bg-accent/5 rounded-r-2xl p-6 my-10 not-prose">
+                            <p className="font-sans font-semibold text-primary mb-2">Op zoek naar een bureau dat dit voor je regelt?</p>
+                            <p className="font-sans text-primary/70 leading-relaxed">Bekijk wat ons <Link to="/google-ads" className="text-accent font-semibold hover:underline">Google Ads bureau</Link> dagelijks voor klanten doet, of <Link to="/contact" className="text-accent hover:underline">plan een gratis gesprek</Link>.</p>
+                        </div>
+
 
             <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat is SEA precies?</h2>
             <p className="text-primary/80 leading-relaxed mb-6">

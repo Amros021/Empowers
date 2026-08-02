@@ -10,8 +10,8 @@ export default function BlogPostMetaPixelInstellen() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>Meta Pixel instellen: stap-voor-stap handleiding 2026 | Empowers</title>
-                <meta name="description" content="Leer hoe je de Meta Pixel stap voor stap installeert op je website. Meet conversies, bouw doelgroepen en verbeter je Facebook en Instagram Ads." />
+                <title>Meta Pixel instellen: compleet stappenplan voor 2026 | Empowers</title>
+                <meta name="description" content="Zonder goed werkende pixel gooi je advertentiebudget weg. Volg het stappenplan om de Meta Pixel foutloos te installeren en te testen, inclusief checks." />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/social-ads/meta-pixel-instellen-stap-stap" />
                 <meta property="og:title" content="Meta Pixel instellen: stap-voor-stap handleiding 2026" />
                 <meta property="og:description" content="Leer hoe je de Meta Pixel stap voor stap installeert op je website. Meet conversies, bouw doelgroepen en verbeter je Facebook en Instagram Ads." />
@@ -105,7 +105,10 @@ export default function BlogPostMetaPixelInstellen() {
                         { "@type": "ListItem", "position": 4, "name": "Meta Pixel instellen", "item": "https://www.empowers.nl/blogs/social-ads/meta-pixel-instellen-stap-stap" }
                     ]
                 })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Meta Pixel instellen: stap-voor-stap handleiding 2026" />
+        <meta name="twitter:description" content="Leer hoe je de Meta Pixel stap voor stap installeert op je website. Meet conversies, bouw doelgroepen en verbeter je Fac" />
+      </Helmet>
             <Navbar />
             <article className="w-full pt-40 pb-24 px-6 relative">
                 <div className="max-w-4xl mx-auto">

@@ -254,6 +254,9 @@ export default function BlogPostInstagramAdverteren2026CompleteGids() {
                             Als je merkt dat je elke maand hetzelfde budget uitgeeft zonder betere resultaten, als jouw ROAS stagneert ondanks meer creatives, of als je geen tijd meer hebt om wekelijks bij te sturen, dan is een specialist een logische volgende stap. Een goede social ads-strateeg ziet vaak in een uur waar de structurele winst zit en welke verschuiving direct effect heeft.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
+                            Liever uitbesteden? Ontdek wat <Link to="/meta-ads" className="text-accent hover:underline">Meta Ads uitbesteden</Link> bij Empowers oplevert.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Wat je zelf altijd kunt doen: pixel goed installeren, brede doelgroep met Advantage+, drie creative-varianten naast elkaar, 7 tot 14 dagen leerfase respecteren. Wil je dat we mét je meekijken naar jouw Instagram-campagnes en waar de winst zit? Plan een gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>. We laten zien waar de winst zit, voor je een euro extra uitgeeft.
                         </p>
                     </div>

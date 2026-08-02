@@ -13,8 +13,8 @@ export default function BlogPostGoogleAdsDemandGen() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>Google Ads Demand Gen: wat is het en wanneer gebruik je het? | Empowers</title>
-                <meta name="description" content="Demand Gen-campagnes bedienen YouTube, Discover en Gmail in één campagne. Wat het is, hoe het verschilt van Performance Max en wanneer het past in jouw mediamix." />
+                <title>Google Ads Demand Gen: wanneer wel en wanneer niet | Empowers</title>
+                <meta name="description" content="Demand Gen campagnes beloven bereik over YouTube, Discover en Gmail. Lees wanneer dit campagnetype werkt en wanneer je budget beter elders zit." />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/google-ads/google-ads-demand-gen" />
                 <meta property="og:title" content="Google Ads Demand Gen: wat is het en wanneer gebruik je het?" />
                 <meta property="og:description" content="Het complete beeld van Google's Demand Gen-format en wanneer het werkt." />

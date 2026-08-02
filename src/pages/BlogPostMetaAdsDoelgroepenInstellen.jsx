@@ -13,8 +13,8 @@ export default function BlogPostMetaAdsDoelgroepenInstellen() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>Meta Ads doelgroepen instellen: zo bereik je de juiste mensen | Empowers</title>
-                <meta name="description" content="Meta Ads doelgroepen instellen bepaalt of je advertenties presteren of geld verbranden. Lees hoe je interesses, custom audiences en lookalikes inzet voor meer omzet." />
+                <title>Meta Ads doelgroepen: zo bereik je wie echt koopt | Empowers</title>
+                <meta name="description" content="De juiste doelgroep bepaalt of je Meta Ads renderen. Lees hoe je doelgroepen instelt die converteren, van broad targeting tot custom audiences." />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/social-ads/meta-ads-doelgroepen" />
                 <meta property="og:title" content="Meta Ads doelgroepen instellen: zo bereik je de juiste mensen" />
                 <meta property="og:description" content="Meta Ads doelgroepen instellen bepaalt of je advertenties presteren of geld verbranden. Lees welke aanpak in 2026 echt werkt." />
@@ -295,6 +295,9 @@ export default function BlogPostMetaAdsDoelgroepenInstellen() {
                             Doelgroepen instellen is geen eenmalige actie. Het is een doorlopend proces van testen, leren en bijsturen. Je doelgroep van vandaag is over zes maanden anders. Klanten veranderen, het platform verandert, het algoritme verandert. Wie zijn doelgroepen actief beheert, houdt het verschil met de concurrent.
                         </p>
 
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je hier hulp bij? Zo pakken wij <Link to="/meta-ads" className="text-accent hover:underline">Facebook en Instagram adverteren</Link> aan.
+                        </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Wil je weten of jouw Meta Ads doelgroepen presteren wat ze zouden moeten? We analyseren je huidige campagnes en laten zien waar de winst zit. Plan een gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>.
                         </p>

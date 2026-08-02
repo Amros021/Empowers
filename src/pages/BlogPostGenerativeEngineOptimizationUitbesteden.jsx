@@ -227,6 +227,9 @@ export default function BlogPostGenerativeEngineOptimizationUitbesteden() {
                             Voordat je uitbesteedt, doe één ding. Open ChatGPT en stel acht vragen die jouw doelgroep stelt voordat ze kopen. Welke concurrenten verschijnen, welke niet, op welke positie sta jij? Dat geeft je twee dingen tegelijk: een nulmeting waar elk bureau mee aan de slag kan, en een ijkpunt waarmee je over zes maanden ziet of de investering loont. Het kost je een uur en het is de beste briefing die je kunt geven aan iemand die met jouw GEO-traject begint.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je dat AI-tools jouw bedrijf gaan noemen? Bekijk onze aanpak als <Link to="/geo" className="text-accent hover:underline">GEO-bureau</Link>.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Wil je deze nulmeting niet zelf draaien, dan doen wij hem gratis. Plan een gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>. We meten jouw merk in de grote AI-engines, vergelijken met de sterkste concurrenten in jouw sector en sturen je een rapport. Daar heb je sowieso iets aan, of je daarna met ons of met iemand anders verder gaat.
                         </p>
                     </div>

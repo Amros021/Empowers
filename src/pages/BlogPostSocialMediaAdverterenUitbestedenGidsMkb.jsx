@@ -375,6 +375,9 @@ export default function BlogPostSocialMediaAdverterenUitbestedenGidsMkb() {
                         </p>
 
                         <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je hier hulp bij? Zo pakken wij <Link to="/meta-ads" className="text-accent hover:underline">Facebook en Instagram adverteren</Link> aan.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Wil je weten of jouw situatie aan dat kantelpunt zit? <Link to="/contact" className="text-accent underline hover:text-accent/80">Plan een gesprek</Link> in. We kijken samen naar je huidige cijfers, je tijdsbesteding en je doelen, en zeggen eerlijk of uitbesteden bij Empowers zin heeft of dat je beter eerst een paar dingen zelf op orde brengt.
                         </p>
                     </div>

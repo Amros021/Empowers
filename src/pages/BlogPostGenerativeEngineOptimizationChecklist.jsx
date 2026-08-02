@@ -198,6 +198,9 @@ export default function BlogPostGenerativeEngineOptimizationChecklist() {
                             Begin bij de content, niet bij de techniek. Pak je drie belangrijkste pagina's en zet er een direct antwoord bovenaan. Maak de tussenkoppen tot vragen en zorg dat elke sectie los te lezen is. Dat kost geen ontwikkelaar en levert het snelst resultaat op.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je dat AI-tools jouw bedrijf gaan noemen? Bekijk onze aanpak als <Link to="/geo" className="text-accent hover:underline">GEO-bureau</Link>.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Werk daarna de technische en structured-data-punten af en zet je meting op. Een checklist is pas waardevol als je hem afmaakt. Wil je dat iemand met je meekijkt welke punten voor jouw site het meest opleveren? Plan een gratis gesprek via <Link to="/contact" className="text-accent hover:underline">empowers.nl/contact</Link>.
                         </p>
                     </div>

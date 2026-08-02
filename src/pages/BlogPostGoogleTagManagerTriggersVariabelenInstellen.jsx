@@ -192,6 +192,9 @@ export default function BlogPostGoogleTagManagerTriggersVariabelenInstellen() {
                         </p>
 
                         <p className="text-primary/80 leading-relaxed mb-6">
+                            Liever uitbesteden? Ontdek wat <Link to="/google-ads" className="text-accent hover:underline">Google Ads uitbesteden</Link> bij Empowers inhoudt.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Triggers en variabelen zijn geen losse instellingen, ze zijn de bouwstenen waarmee elke tag in GTM zijn werk doet. Begin klein met een paar kliktriggers, activeer de ingebouwde variabelen die je nodig hebt, en test alles in preview voordat je publiceert. Loop je vast bij een specifieke tag of wil je hulp bij het opzetten van complete conversietracking? Plan een gratis gesprek via <Link to="/contact" className="text-accent hover:underline">empowers.nl/contact</Link>.
                         </p>
 

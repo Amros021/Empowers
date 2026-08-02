@@ -207,6 +207,9 @@ export default function BlogPostSocialMediaAdverterenUitbestedenWebshop() {
                             Controleer of je pixel en Conversie API werken en of je catalogus aan je advertentieaccount is gekoppeld. Reken daarna je break-even ROAS uit, zodat je weet vanaf welk punt een advertentie winst maakt. Met die twee dingen op orde voer je een veel scherper gesprek met elke partij die je overweegt.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
+                            Zelf geen tijd om te blijven testen? Bekijk ons <Link to="/meta-ads" className="text-accent hover:underline">Meta Ads bureau</Link>.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Social ads uitbesteden werkt als webshop alleen als de meting klopt en de partij op omzet stuurt. Regel je eigenaarschap, eis kloppende tracking en laat je op ROAS rapporteren. Wil je weten wat jouw webshop uit social ads kan halen? Plan een gratis gesprek via <Link to="/contact" className="text-accent hover:underline">empowers.nl/contact</Link>.
                         </p>
                     </div>

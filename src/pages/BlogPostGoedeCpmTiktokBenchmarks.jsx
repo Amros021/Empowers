@@ -13,8 +13,8 @@ export default function BlogPostGoedeCpmTiktokBenchmarks() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>Wat is een goede CPM op TikTok? Benchmarks per branche en doel | Empowers</title>
-                <meta name="description" content="Wat is een goede CPM op TikTok? Lees realistische benchmarks per branche, per campagnetype en per doel, plus hoe je je eigen CPM verlaagt." />
+                <title>Goede CPM op TikTok? Benchmarks per branche en doel | Empowers</title>
+                <meta name="description" content="Betaal jij te veel per 1000 vertoningen? Bekijk de TikTok CPM-benchmarks per branche en campagnedoel, en wat je kunt doen als je CPM te hoog is." />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/social-ads/goede-cpm-tiktok-benchmarks" />
                 <meta property="og:title" content="Goede CPM op TikTok: benchmarks per branche en doel" />
                 <meta property="og:description" content="Realistische TikTok CPM-benchmarks voor 2026 en hoe je jouw eigen CPM omlaag krijgt." />
@@ -216,6 +216,9 @@ export default function BlogPostGoedeCpmTiktokBenchmarks() {
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wanneer is een specialist nodig?</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Als je CPM al een paar weken structureel boven het verwachte branche-venster zit en je hebt de drie standaard-hefbomen al geprobeerd, dan zit het probleem dieper. Vaak in de combinatie van event-design, biedstrategie en creatieve mix. Op zo'n moment kost zelf doorworstelen meestal meer dan een gerichte review.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Liever uitbesteden? Ontdek wat <Link to="/tiktok-ads" className="text-accent hover:underline">TikTok Ads uitbesteden</Link> bij Empowers inhoudt.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Een goede TikTok-strateeg ziet binnen een uur waar de echte CPM-druk vandaan komt: te smal getarget, een conversie-event dat te schaars is om het algoritme te trainen, of creatives waarvan de hookrate stelselmatig onder de benchmark hangt. Wil je dat we daar samen naar kijken? Plan een vrijblijvend gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>.

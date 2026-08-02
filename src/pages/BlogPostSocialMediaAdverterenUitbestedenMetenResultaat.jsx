@@ -335,6 +335,9 @@ export default function BlogPostSocialMediaAdverterenUitbestedenMetenResultaat()
                         </p>
 
                         <p className="text-primary/80 leading-relaxed mb-6">
+                            Liever uitbesteden? Ontdek wat <Link to="/meta-ads" className="text-accent hover:underline">Meta Ads uitbesteden</Link> bij Empowers oplevert.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Wil je een second opinion op je huidige social ads setup? <Link to="/contact" className="text-accent underline hover:text-accent/80">Plan een gesprek</Link> in. We kijken eerlijk mee naar je cijfers, je rapportages en je samenwerking, en zeggen recht voor zijn raap of het ergens vastloopt of dat je gewoon nog even geduld nodig hebt.
                         </p>
                     </div>

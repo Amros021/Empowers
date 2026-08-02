@@ -13,8 +13,8 @@ export default function BlogPostGoedeCtrGoogleAdsBenchmarks() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>Wat is een goede CTR in Google Ads: benchmarks per branche | Empowers</title>
-                <meta name="description" content="Een goede CTR in Google Ads ligt tussen de 3 en 8 procent, afhankelijk van je branche. Bekijk de benchmarks per sector en leer hoe je jouw klikratio verbetert." />
+                <title>Goede CTR in Google Ads? Benchmarks per branche | Empowers</title>
+                <meta name="description" content="Zit jouw CTR boven of onder het gemiddelde? Bekijk de Google Ads benchmarks per branche en leer wat een lage CTR je kost aan kwaliteitsscore en klikprijs." />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/google-ads/goede-ctr-google-ads-benchmarks" />
                 <meta property="og:title" content="Wat is een goede CTR in Google Ads: benchmarks per branche" />
                 <meta property="og:description" content="Bekijk de CTR benchmarks per branche voor Google Ads en ontdek hoe je jouw klikratio verbetert." />
@@ -256,6 +256,9 @@ export default function BlogPostGoedeCtrGoogleAdsBenchmarks() {
                             Kijk altijd naar CTR in combinatie met conversieratio en kosten per conversie. De beste campagnes hebben een gezonde CTR en een sterke conversie erachter. Dat is waar het verschil wordt gemaakt.
                         </p>
 
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Liever uitbesteden? Ontdek wat <Link to="/google-ads" className="text-accent hover:underline">Google Ads uitbesteden</Link> bij Empowers inhoudt.
+                        </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Wil je weten hoe jouw CTR zich verhoudt tot de benchmark in jouw branche? We kijken er graag naar. Plan een gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>.
                         </p>

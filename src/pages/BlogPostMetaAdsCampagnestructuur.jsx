@@ -13,8 +13,8 @@ export default function BlogPostMetaAdsCampagnestructuur() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>Meta Ads campagnestructuur: zo bouw je het goed op | Empowers</title>
-                <meta name="description" content="Een goede Meta Ads campagnestructuur bepaalt of je budget rendeert. Lees hoe je campagnes, ad sets en ads logisch indeelt en welke fouten je voorkomt." />
+                <title>Meta Ads campagnestructuur: het model dat in 2026 werkt | Empowers</title>
+                <meta name="description" content="Een rommelige campagnestructuur kost je rendement. Zo bouw je een Meta Ads structuur die het algoritme helpt en je resultaten voorspelbaar maakt." />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/social-ads/meta-ads-campagnestructuur-bouw-goed" />
                 <meta property="og:title" content="Meta Ads campagnestructuur: zo bouw je het goed op" />
                 <meta property="og:description" content="Hoe deel je campagnes, ad sets en ads in zodat het algoritme leert en jouw budget rendeert? Lees de complete aanpak." />
@@ -220,6 +220,9 @@ export default function BlogPostMetaAdsCampagnestructuur() {
                             Start dan met een simpele opzet: één campagne met cold audience, twee ad sets (een lookalike en een brede interesse) en drie tot vier ads per ad set. Geef het minimaal twee weken de tijd. Pas daarna voeg je een retargeting campagne toe en eventueel een derde laag voor terugkerende klanten. Bouw geleidelijk uit, niet vanaf dag één met tien campagnes en dertig ad sets.
                         </p>
 
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Zelf geen tijd om te blijven testen? Bekijk ons <Link to="/meta-ads" className="text-accent hover:underline">Meta Ads bureau</Link>.
+                        </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Wil je weten of jouw Meta Ads structuur nog rendement laat liggen? We doen een gratis accountscan en geven concrete aanbevelingen. Plan een gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>.
                         </p>

@@ -13,8 +13,8 @@ export default function BlogPostTiktokAdverteren2026CompleteGidsBeginners() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>TikTok Adverteren in 2026: Complete Gids voor Beginners (Formats, Kosten en Tips) | Empowers</title>
-                <meta name="description" content="Complete gids over TikTok adverteren in 2026. Lees welke formats werken, wat het kost, hoe je een campagne opzet en wanneer TikTok adverteren uitbesteden zin heeft." />
+                <title>TikTok adverteren in 2026: kosten, formats en startgids | Empowers</title>
+                <meta name="description" content="Alles om te starten met TikTok Ads: wat het kost, welke advertentievormen er zijn en hoe je je eerste campagne opzet zonder budget te verspillen." />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/social-ads/tiktok-adverteren-2026-complete-gids-beginners" />
                 <meta property="og:title" content="TikTok Adverteren in 2026: Complete Gids voor Beginners" />
                 <meta property="og:description" content="Alles over TikTok adverteren in 2026: formats, kosten, Smart+ campaigns en wanneer uitbesteden zin heeft." />
@@ -242,6 +242,9 @@ export default function BlogPostTiktokAdverteren2026CompleteGidsBeginners() {
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat is jouw eerste stap?</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Begin klein en concreet. Maak een TikTok Business-account, installeer de TikTok Pixel via Google Tag Manager, maak 3 tot 5 verticale 9:16 video's met telefoon, en draai een eerste test van 500 euro over 2 weken op een breed publiek met Smart+. Dat geeft je genoeg data om te zien of TikTok bij jouw markt past, zonder grote risico's te nemen.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Wil je hier hulp bij? Bekijk ons <Link to="/tiktok-ads" className="text-accent hover:underline">TikTok Ads bureau</Link>.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Wil je dat we mét je meekijken naar TikTok adverteren voor jouw bedrijf, en welke aanpak realistisch is binnen jouw budget? Plan een gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>. We laten zien waar de winst zit, voor je een euro extra uitgeeft.

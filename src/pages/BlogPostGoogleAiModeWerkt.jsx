@@ -198,6 +198,9 @@ export default function BlogPostGoogleAiModeWerkt() {
                             Geef in de eerste zinnen van elke pagina een direct antwoord op de vraag die de bezoeker stelt. Gebruik koppen die echte vragen zijn en zorg dat elke sectie op zichzelf te begrijpen is, want AI-systemen halen losse stukken uit je pagina. Onderbouw je content met echte ervaring en houd hem actueel.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
+                            Liever uitbesteden? Ontdek wat ons <Link to="/seo" className="text-accent hover:underline">SEO-bureau</Link> voor jouw rankings kan betekenen.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Dit is precies waar GEO over gaat: je content zo opbouwen dat AI-zoekmachines jou als bron kiezen. Wat GEO inhoudt en hoe je eraan begint, lees je in onze blog over <Link to="/blogs/geo/wat-is-geo-generative-engine-optimization" className="text-accent hover:underline">wat GEO is</Link>. Wil je weten hoe vindbaar jouw site is voor AI? Plan een gratis gesprek via <Link to="/contact" className="text-accent hover:underline">empowers.nl/contact</Link>.
                         </p>
                     </div>

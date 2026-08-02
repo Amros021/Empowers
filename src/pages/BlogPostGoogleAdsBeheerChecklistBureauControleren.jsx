@@ -244,6 +244,9 @@ export default function BlogPostGoogleAdsBeheerChecklistBureauControleren() {
                             Een onafhankelijke audit is waardevol als je structureel twijfelt over de prestaties, als de cijfers stagneren ondanks meer budget, of als je geen duidelijk antwoord krijgt op de zeven checks hierboven. Een goede audit (1 tot 3 uur door een externe specialist) wijst in een ochtend aan waar de structurele winst zit en welke aanpassingen direct effect hebben.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
+                            Zelf geen tijd voor dagelijks campagnebeheer? Bekijk ons <Link to="/google-ads" className="text-accent hover:underline">Google Ads bureau</Link>.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
                             Wat je zelf altijd kunt doen: maandelijks 30 minuten deze checklist doorlopen, jouw bureau kritisch bevragen op rode vlaggen, en jaarlijks een audit door een onafhankelijke specialist laten uitvoeren. Wil je dat we mét je meekijken naar jouw Google Ads beheer en wat het écht oplevert? Plan een gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>. We laten zien waar de winst zit, voor je een euro extra uitgeeft.
                         </p>
                     </div>

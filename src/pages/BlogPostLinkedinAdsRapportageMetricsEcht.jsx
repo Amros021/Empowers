@@ -13,8 +13,8 @@ export default function BlogPostLinkedinAdsRapportageMetricsEcht() {
     return (
         <main className="min-h-screen selection:bg-accent/30 selection:text-dark flex flex-col bg-background">
             <Helmet>
-                <title>LinkedIn Ads rapportage: welke metrics zijn echt belangrijk? | Empowers</title>
-                <meta name="description" content="Niet elke metric in LinkedIn Campaign Manager telt even zwaar. Lees welke cijfers je rapportage moet aansturen en welke je beter negeert." />
+                <title>LinkedIn Ads rapportage: deze metrics tellen echt | Empowers</title>
+                <meta name="description" content="Klikken en vertoningen zeggen weinig op LinkedIn. Lees welke metrics wel voorspellen of je campagne leads oplevert en hoe je erop rapporteert." />
                 <link rel="canonical" href="https://www.empowers.nl/blogs/social-ads/linkedin-ads-rapportage-metrics-echt" />
                 <meta property="og:title" content="LinkedIn Ads rapportage: welke metrics zijn echt belangrijk?" />
                 <meta property="og:description" content="Een praktische gids om door de cijferbrij in Campaign Manager te navigeren naar wat er werkelijk toe doet." />
@@ -229,6 +229,9 @@ export default function BlogPostLinkedinAdsRapportageMetricsEcht() {
                         <h2 className="text-3xl font-bold text-primary mt-16 mb-6">Wat een goede LinkedIn-rapportage oplevert</h2>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             Bedrijven die hun LinkedIn-rapportage goed inrichten hebben drie voordelen. Beslissingen worden sneller genomen omdat de cijfers helder zijn. Investeringen in LinkedIn worden makkelijker verdedigd richting MT omdat de impact zichtbaar is. En optimalisaties zijn doelgerichter omdat je weet welke knop je moet draaien.
+                        </p>
+                        <p className="text-primary/80 leading-relaxed mb-6">
+                            Liever uitbesteden? Ontdek wat ons <Link to="/linkedin-ads" className="text-accent hover:underline">LinkedIn Ads bureau</Link> voor je kan betekenen.
                         </p>
                         <p className="text-primary/80 leading-relaxed mb-6">
                             De winst zit in selectie. Wat je niet rapporteert is net zo belangrijk als wat je wel rapporteert. Wil je dat we mét je meekijken naar je huidige rapportage en aanwijzen waar de blinde vlekken zitten? Plan een gesprek via onze <Link to="/contact" className="text-accent hover:underline">contactpagina</Link>. We doorlopen je dashboards, je CRM-koppeling en je MT-rapport, en wijzen aan waar de winst voor jou zit.
