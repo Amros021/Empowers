@@ -16,8 +16,12 @@ const faqCategories = [
                 a: 'Bij Empowers werk je rechtstreeks met de specialist die aan jouw campagnes werkt. Geen account managers die je verhaal doorspelen, geen junior medewerkers op de achtergrond. Je hebt één vast aanspreekpunt dat jouw business kent en op elk moment bereikbaar is via WhatsApp of e-mail. Daarnaast combineren we betaalde advertenties met SEO en GEO, een combinatie die weinig bureaus aanbieden.'
             },
             {
-                q: 'Voor welke bedrijven werken jullie?',
-                a: 'We werken voor MKB-bedrijven, webshops en grotere ondernemingen die serieus willen groeien via online marketing. Of je nu net begint met adverteren of al duizenden euro’s per maand uitgeeft, we kijken wat de slimste aanpak is voor jouw situatie en budget.'
+                q: 'Met wat voor bedrijven werken jullie?',
+                a: 'We werken met MKB-bedrijven, webshops en grotere ondernemingen die serieus willen groeien via online marketing. Of je nu net begint met adverteren of al duizenden euro’s per maand uitgeeft, we kijken wat de slimste aanpak is voor jouw situatie en budget.'
+            },
+            {
+                q: 'Werken jullie alleen met bedrijven in Nederland?',
+                a: 'Onze klanten zitten vooral in Nederland en België, maar we kijken niet op van een grens. We hebben internationale ervaring met campagnes in onder meer Duitsland, het Verenigd Koninkrijk en de Verenigde Staten. Ook Engelstalige of meertalige campagnes zijn dus in goede handen.'
             },
             {
                 q: 'Op welke platformen zijn jullie actief?',
@@ -33,7 +37,7 @@ const faqCategories = [
             },
             {
                 q: 'Werken jullie met vaste contracten?',
-                a: 'Nee. We werken met maandelijks opzegbare overeenkomsten. Geen langlopende contracten, geen kleine lettertjes. Als we goed werk leveren, blijf je vanzelf. Dat is hoe het hoort.'
+                a: 'Nee. We werken met maandelijks opzegbare overeenkomsten. Geen langlopende contracten, geen kleine lettertjes. Wel zijn we eerlijk over de termijn: online marketing heeft aanlooptijd nodig en de eerste echte resultaten zie je meestal na zo’n drie maanden. Gun jezelf die periode. Daarna blijf je omdat het werkt, niet omdat het moet.'
             },
             {
                 q: 'Hoe ziet de samenwerking er in de praktijk uit?',

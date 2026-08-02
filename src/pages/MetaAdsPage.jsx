@@ -256,6 +256,11 @@ export default function MetaAdsPage() {
                                     "@type": "Question",
                                     "name": "Voor welke bedrijven werken Meta Ads het best?",
                                     "acceptedAnswer": { "@type": "Answer", "text": "Webshops en bedrijven met een product of dienst die je visueel kunt laten zien, presteren doorgaans het sterkst. Voor B2B werkt Meta vooral als bekendheidsmotor naast LinkedIn. Twijfel je of het bij jouw bedrijf past, dan zeggen we dat eerlijk in het eerste gesprek." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoeveel budget heb ik nodig voor Facebook Ads?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Meta kent geen verplicht minimum en je kunt klein starten. De echte vraag is of je budget genoeg data oplevert: het algoritme leert van conversies, dus met te weinig budget leert het traag en blijven resultaten wisselvallig. In een gratis gesprek rekenen we uit wat voor jouw doel realistisch is." }
                                 }
                             ]
                         }
@@ -394,6 +399,7 @@ export default function MetaAdsPage() {
                             { q: 'Wat doet een Meta Ads bureau elke maand?', a: 'Nieuwe advertenties en video\'s testen, doelgroepen en budgetten bijsturen, verzadigde creatives vervangen en rapporteren op omzet. Meta Ads draait op verse creatie: campagnes die stil blijven staan, zakken weg. Daarom is doorlopend onderhoud het halve werk.' },
                             { q: 'Werken Facebook en Instagram advertenties nog wel?', a: 'Ja, mits je meet en creatie serieus neemt. Sinds de privacywijzigingen wint wie zijn tracking op orde heeft met de pixel en Conversie API, en wie content maakt die niet als reclame voelt. Precies daar zit onze focus.' },
                             { q: 'Voor welke bedrijven werken Meta Ads het best?', a: 'Webshops en bedrijven met een product of dienst die je visueel kunt laten zien, presteren doorgaans het sterkst. Voor B2B werkt Meta vooral als bekendheidsmotor naast LinkedIn. Twijfel je of het bij jouw bedrijf past, dan zeggen we dat eerlijk in het eerste gesprek.' },
+                            { q: 'Hoeveel budget heb ik nodig voor Facebook Ads?', a: 'Meta kent geen verplicht minimum en je kunt klein starten. De echte vraag is of je budget genoeg data oplevert: het algoritme leert van conversies, dus met te weinig budget leert het traag en blijven resultaten wisselvallig. In een gratis gesprek rekenen we uit wat voor jouw doel realistisch is.' },
                         ].map((f, i) => (
                             <div key={i} className="border border-primary/10 rounded-xl p-6 bg-white">
                                 <h3 className="font-sans font-semibold text-primary mb-2">{f.q}</h3>

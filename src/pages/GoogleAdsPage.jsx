@@ -236,6 +236,11 @@ export default function GoogleAdsPage() {
                                     "@type": "Question",
                                     "name": "Is Google Ads geschikt voor mijn budget?",
                                     "acceptedAnswer": { "@type": "Answer", "text": "Google Ads werkt vanaf bescheiden budgetten, mits je markt niet extreem competitief is. Belangrijker dan de hoogte van je budget is of de cijfers kloppen: wat een klant je oplevert bepaalt wat een klik mag kosten. Dat rekenen we vooraf samen door." }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is beter: Google Ads of SEO?",
+                                    "acceptedAnswer": { "@type": "Answer", "text": "Ze doen verschillende dingen. Google Ads levert direct verkeer zolang je betaalt, SEO bouwt langzaam een positie op die blijft. Wil je snel omzet, dan start je met Ads. Wil je duurzame groei, dan bouw je tegelijk aan SEO. De meeste van onze klanten combineren beide en laten ze elkaar versterken." }
                                 }
                             ]
                         }
@@ -374,6 +379,7 @@ export default function GoogleAdsPage() {
                             { q: 'Wat doet een Google Ads bureau elke maand?', a: 'Zoekwoorden en biedingen bijsturen, slecht presterende advertenties vervangen, nieuwe advertentieteksten testen, budget verschuiven naar wat rendeert en rapporteren op omzet. Niet één keer instellen en laten draaien, maar wekelijks onderhoud.' },
                             { q: 'Hoe snel zie ik resultaat met Google Ads?', a: 'De eerste klikken komen binnen op dag één. Reken op vier tot acht weken voordat campagnes goed zijn ingeregeld en het algoritme voldoende data heeft om te sturen op conversies. Daarna wordt het elke maand scherper.' },
                             { q: 'Is Google Ads geschikt voor mijn budget?', a: 'Google Ads werkt vanaf bescheiden budgetten, mits je markt niet extreem competitief is. Belangrijker dan de hoogte van je budget is of de cijfers kloppen: wat een klant je oplevert bepaalt wat een klik mag kosten. Dat rekenen we vooraf samen door.' },
+                            { q: 'Wat is beter: Google Ads of SEO?', a: 'Ze doen verschillende dingen. Google Ads levert direct verkeer zolang je betaalt, SEO bouwt langzaam een positie op die blijft. Wil je snel omzet, dan start je met Ads. Wil je duurzame groei, dan bouw je tegelijk aan SEO. De meeste van onze klanten combineren beide en laten ze elkaar versterken.' },
                         ].map((f, i) => (
                             <div key={i} className="border border-primary/10 rounded-xl p-6 bg-white">
                                 <h3 className="font-sans font-semibold text-primary mb-2">{f.q}</h3>
