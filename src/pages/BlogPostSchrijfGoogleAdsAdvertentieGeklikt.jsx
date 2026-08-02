@@ -28,112 +28,114 @@ export default function BlogPostSchrijfGoogleAdsAdvertentieGeklikt() {
                 <meta name="twitter:title" content="Hoe schrijf je een Google Ads advertentie die geklikt wordt" />
                 <meta name="twitter:description" content="Praktische tips voor het schrijven van Google Ads advertenties die echt geklikt worden." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe schrijf je een Google Ads advertentie die geklikt wordt",
-                        "description": "Een Google Ads advertentie schrijven die geklikt wordt? Lees hoe je koppen, beschrijvingen en extensies opstelt die klikken en conversies opleveren.",
-                        "image": "https://www.empowers.nl/images/blogs/schrijf-google-ads-advertentie-geklikt.jpg",
-                        "datePublished": "2026-04-12T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe schrijf je een Google Ads advertentie die geklikt wordt",
+                            "description": "Een Google Ads advertentie schrijven die geklikt wordt? Lees hoe je koppen, beschrijvingen en extensies opstelt die klikken en conversies opleveren.",
+                            "image": "https://www.empowers.nl/images/blogs/schrijf-google-ads-advertentie-geklikt.jpg",
+                            "datePublished": "2026-04-12T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel koppen mag je invullen bij een Google Ads advertentie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij een responsieve zoekadvertentie vul je maximaal 15 koppen in van elk 30 tekens. Google test automatisch welke combinaties het beste presteren. Vul er minimaal 10 in voor genoeg variatie. Gebruik in minstens 3 koppen je zoekwoord."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang mag een Google Ads beschrijving zijn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Elke beschrijving mag maximaal 90 tekens zijn. Je kunt tot 4 beschrijvingen invullen. Google toont er meestal 2. Schrijf elke beschrijving alsof hij alleen staat, want je weet niet welke combinatie Google kiest."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede CTR voor Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een goede CTR voor zoekadvertenties ligt tussen de 3 en 8 procent, afhankelijk van je branche. Advocaten en financiele diensten zitten vaak rond 3 procent. E-commerce en lokale diensten halen regelmatig 5 tot 8 procent. Alles onder de 2 procent verdient aandacht."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet je het zoekwoord altijd in de kop zetten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "In minstens 2 tot 3 van je 15 koppen moet het zoekwoord terugkomen. Google maakt de kop vetgedrukt als het matcht met de zoekopdracht. Dat valt op en verhoogt je klikratio. Maar vul niet elke kop met hetzelfde woord, dat levert saaie advertenties op."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe test je welke advertentietekst het beste werkt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Gebruik advertentievariaties of experimenten in Google Ads. Vergelijk twee versies van je advertentie op CTR en conversieratio over minimaal 2 weken en 100 klikken per versie. Kijk niet alleen naar klikken maar ook naar wat er na de klik gebeurt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke extensies zijn het belangrijkst voor een goede advertentie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Sitelinks, oproepextensies en highlight-extensies zijn de drie die je altijd moet instellen. Sitelinks vergroten je advertentie visueel en geven extra klikopties. Oproepextensies zijn belangrijk voor dienstverleners. Highlight-extensies laten je USPs zien zonder extra klikkosten."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel koppen mag je invullen bij een Google Ads advertentie?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij een responsieve zoekadvertentie vul je maximaal 15 koppen in van elk 30 tekens. Google test automatisch welke combinaties het beste presteren. Vul er minimaal 10 in voor genoeg variatie. Gebruik in minstens 3 koppen je zoekwoord."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang mag een Google Ads beschrijving zijn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Elke beschrijving mag maximaal 90 tekens zijn. Je kunt tot 4 beschrijvingen invullen. Google toont er meestal 2. Schrijf elke beschrijving alsof hij alleen staat, want je weet niet welke combinatie Google kiest."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede CTR voor Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een goede CTR voor zoekadvertenties ligt tussen de 3 en 8 procent, afhankelijk van je branche. Advocaten en financiele diensten zitten vaak rond 3 procent. E-commerce en lokale diensten halen regelmatig 5 tot 8 procent. Alles onder de 2 procent verdient aandacht."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet je het zoekwoord altijd in de kop zetten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "In minstens 2 tot 3 van je 15 koppen moet het zoekwoord terugkomen. Google maakt de kop vetgedrukt als het matcht met de zoekopdracht. Dat valt op en verhoogt je klikratio. Maar vul niet elke kop met hetzelfde woord, dat levert saaie advertenties op."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe test je welke advertentietekst het beste werkt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Gebruik advertentievariaties of experimenten in Google Ads. Vergelijk twee versies van je advertentie op CTR en conversieratio over minimaal 2 weken en 100 klikken per versie. Kijk niet alleen naar klikken maar ook naar wat er na de klik gebeurt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke extensies zijn het belangrijkst voor een goede advertentie?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Sitelinks, oproepextensies en highlight-extensies zijn de drie die je altijd moet instellen. Sitelinks vergroten je advertentie visueel en geven extra klikopties. Oproepextensies zijn belangrijk voor dienstverleners. Highlight-extensies laten je USPs zien zonder extra klikkosten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads advertentie schrijven",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/schrijf-google-ads-advertentie-geklikt"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Google Ads advertentie schrijven",
-                                "item": "https://www.empowers.nl/blogs/google-ads/schrijf-google-ads-advertentie-geklikt"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

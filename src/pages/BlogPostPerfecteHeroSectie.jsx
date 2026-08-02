@@ -29,97 +29,122 @@ export default function BlogPostPerfecteHeroSectie() {
                 <meta name="twitter:title" content="De perfecte hero-sectie" />
                 <meta name="twitter:description" content="Wat in de eerste schermhoogte moet staan om bezoekers vast te houden." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "De perfecte hero-sectie: zo maak je de beste eerste indruk",
-                        "description": "Een hero-sectie bouwen die overtuigt: structuur, koptekst, CTA en visuele basis.",
-                        "image": "https://www.empowers.nl/images/blogs/perfecte-hero-sectie-beste-eerste.jpg",
-                        "datePublished": "2026-05-10T19:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "De perfecte hero-sectie: zo maak je de beste eerste indruk",
+                            "description": "Een hero-sectie bouwen die overtuigt: structuur, koptekst, CTA en visuele basis.",
+                            "image": "https://www.empowers.nl/images/blogs/perfecte-hero-sectie-beste-eerste.jpg",
+                            "datePublished": "2026-05-10T19:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een hero-sectie precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Het bovenste deel van een webpagina dat een bezoeker ziet zonder te scrollen. Op desktop is dat doorgaans het eerste schermhoogte, op mobiel een vergelijkbaar deel maar smaller. De hero-sectie bepaalt of een bezoeker blijft of wegklikt. Hij heeft drie functies: communiceren wat je doet, voor wie je het doet en waarom iemand verder moet kijken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel tekst moet er in de hero staan?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet veel. Een hoofd-koptekst van een korte zin, een ondertekst van twee tot drie zinnen, en een duidelijke knop. Zoek niet naar woordrijkdom. Wel naar woordkracht. Een lange hero-tekst van vijf alinea's pleegt zelfmoord, want bezoekers scannen en geen ervan gaat de lange tekst lezen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik een afbeelding of een video in de hero zetten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een goede afbeelding bijna altijd ja. Een autoplay video met geluid bijna nooit, want het stoort en kost laadtijd. Een kort visuel achtergrond zonder geluid kan werken voor merken waar emotie telt. Voor de meeste MKB-sites is een sterke statische afbeelding sneller, simpeler en effectiever dan video."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is de belangrijkste fout in een hero?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een vage koptekst die niet vertelt wat je doet. 'Wij zijn jouw partner in groei' zegt niets. 'Wij helpen webshops om met Google Ads meer klanten te krijgen' zegt iets. Specifiek werkt. Vaag verkoopt nooit. De tweede grote fout: geen duidelijke knop, of een knop met de tekst 'meer informatie' die geen actie suggereert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik mijn hero op mobiel anders inrichten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vrijwel altijd ja. Wat op desktop naast elkaar staat, moet op mobiel onder elkaar. De koptekst blijft, maar wordt vaak iets korter. De ondertekst kort je in. De knop staat groot en duidelijk. Een hero die op desktop perfect werkt maar op mobiel een wirwar van overlappende elementen is, kost je het deel van het verkeer dat van een telefoon komt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Helpt social proof in de hero?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Heel vaak ja. Een rij klantlogo's onder de CTA-knop, een Trustpilot-score, of een klein citaat van een tevreden klant geeft direct vertrouwen. Het is een van de snelste manieren om twijfel weg te nemen. Wel: kies authentieke proof, geen fake of nietszeggende awards die niemand kent."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik of mijn hero werkt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie metingen samen geven een beeld. Bouncepercentage: hoeveel mensen klikken weg zonder iets te doen. Scrolldiepte: hoeveel scrollen verder dan de hero. Conversies op de hero-CTA versus elders op de pagina. Daalt de bounce, stijgt de scrolldiepte en converteren bezoekers via de hoofdknop, dan werkt de hero. Eén meting alleen is misleidend."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een hero-sectie precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Het bovenste deel van een webpagina dat een bezoeker ziet zonder te scrollen. Op desktop is dat doorgaans het eerste schermhoogte, op mobiel een vergelijkbaar deel maar smaller. De hero-sectie bepaalt of een bezoeker blijft of wegklikt. Hij heeft drie functies: communiceren wat je doet, voor wie je het doet en waarom iemand verder moet kijken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel tekst moet er in de hero staan?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet veel. Een hoofd-koptekst van een korte zin, een ondertekst van twee tot drie zinnen, en een duidelijke knop. Zoek niet naar woordrijkdom. Wel naar woordkracht. Een lange hero-tekst van vijf alinea's pleegt zelfmoord, want bezoekers scannen en geen ervan gaat de lange tekst lezen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik een afbeelding of een video in de hero zetten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een goede afbeelding bijna altijd ja. Een autoplay video met geluid bijna nooit, want het stoort en kost laadtijd. Een kort visuel achtergrond zonder geluid kan werken voor merken waar emotie telt. Voor de meeste MKB-sites is een sterke statische afbeelding sneller, simpeler en effectiever dan video."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is de belangrijkste fout in een hero?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een vage koptekst die niet vertelt wat je doet. 'Wij zijn jouw partner in groei' zegt niets. 'Wij helpen webshops om met Google Ads meer klanten te krijgen' zegt iets. Specifiek werkt. Vaag verkoopt nooit. De tweede grote fout: geen duidelijke knop, of een knop met de tekst 'meer informatie' die geen actie suggereert."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik mijn hero op mobiel anders inrichten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vrijwel altijd ja. Wat op desktop naast elkaar staat, moet op mobiel onder elkaar. De koptekst blijft, maar wordt vaak iets korter. De ondertekst kort je in. De knop staat groot en duidelijk. Een hero die op desktop perfect werkt maar op mobiel een wirwar van overlappende elementen is, kost je het deel van het verkeer dat van een telefoon komt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Helpt social proof in de hero?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Heel vaak ja. Een rij klantlogo's onder de CTA-knop, een Trustpilot-score, of een klein citaat van een tevreden klant geeft direct vertrouwen. Het is een van de snelste manieren om twijfel weg te nemen. Wel: kies authentieke proof, geen fake of nietszeggende awards die niemand kent."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe meet ik of mijn hero werkt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie metingen samen geven een beeld. Bouncepercentage: hoeveel mensen klikken weg zonder iets te doen. Scrolldiepte: hoeveel scrollen verder dan de hero. Conversies op de hero-CTA versus elders op de pagina. Daalt de bounce, stijgt de scrolldiepte en converteren bezoekers via de hoofdknop, dan werkt de hero. Eén meting alleen is misleidend."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Perfecte hero-sectie",
+                                    "item": "https://www.empowers.nl/blogs/strategie/perfecte-hero-sectie-beste-eerste"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                            { "@type": "ListItem", "position": 4, "name": "Perfecte hero-sectie", "item": "https://www.empowers.nl/blogs/strategie/perfecte-hero-sectie-beste-eerste" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

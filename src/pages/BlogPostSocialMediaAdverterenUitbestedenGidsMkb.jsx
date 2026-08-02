@@ -38,96 +38,115 @@ export default function BlogPostSocialMediaAdverterenUitbestedenGidsMkb() {
                 />
                 <meta name="twitter:image" content="https://www.empowers.nl/images/blogs/social-media-adverteren-uitbesteden-gids-mkb.jpg" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Social media adverteren uitbesteden: de complete gids voor MKB",
-                        "description": "Wanneer is social media adverteren uitbesteden de slimme keus voor MKB? Welke kosten verwacht je, welke bureaus passen bij jouw situatie en hoe houd je grip op het resultaat.",
-                        "image": "https://www.empowers.nl/images/blogs/social-media-adverteren-uitbesteden-gids-mkb.jpg",
-                        "datePublished": "2026-05-19T09:00:00+02:00",
-                        "dateModified": "2026-05-19T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Social media adverteren uitbesteden: de complete gids voor MKB",
+                            "description": "Wanneer is social media adverteren uitbesteden de slimme keus voor MKB? Welke kosten verwacht je, welke bureaus passen bij jouw situatie en hoe houd je grip op het resultaat.",
+                            "image": "https://www.empowers.nl/images/blogs/social-media-adverteren-uitbesteden-gids-mkb.jpg",
+                            "datePublished": "2026-05-19T09:00:00+02:00",
+                            "dateModified": "2026-05-19T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
                             }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Social media adverteren uitbesteden",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/social-media-adverteren-uitbesteden-gids-mkb"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "Wanneer wordt social media adverteren uitbesteden interessant voor het MKB?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Vanaf een advertentiebudget van ongeveer 1.500 euro per maand begint uitbesteden zichzelf vaak terug te verdienen. Dan wegen de kosten van een specialist op tegen de extra resultaten. Onder dat bedrag is zelf doen of een freelancer-uurtje per week meestal verstandiger."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat kost een social ads bureau voor MKB?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Reken voor MKB-pakketten op een vaste fee tussen 750 en 2.500 euro per maand, of 15 tot 20 procent van het mediabudget. Plus eenmalige setup-kosten van rond de 1.000 euro voor pixel, conversie-API en doelgroepenstructuur."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Welk platform moet ik kiezen: Meta, TikTok of LinkedIn?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Verkoop je aan consumenten of webshop-bezoekers, dan begint het bij Meta (Facebook en Instagram). Werk je in B2B met hogere ordergroottes, dan is LinkedIn vaak slimmer. TikTok loont vooral als je een visueel product hebt en een jonger publiek aanspreekt."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe snel zie ik resultaat na het uitbesteden?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "De eerste twee weken zijn opbouw en data verzamelen. Vanaf week drie of vier komen de eerste conversies binnen. Stabiele leerfase-prestaties zie je doorgaans na zes tot acht weken. Wie eerder grote uitspraken doet, verkoopt lucht."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Moet ik mijn creatives zelf aanleveren?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Goede social ads bureaus produceren of begeleiden de creatives. Aanleveren mag, maar reken op extra advies over hooks, video-snijwerk en aanpassingen per platform. Wie je alleen geld laat doorzetten zonder ook over de creatie te praten, mist de helft van het rendement."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat moet er minimaal in de maandelijkse rapportage staan?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Besteed budget, conversies, kosten per conversie, ROAS, creative-prestaties en wat er de komende maand verandert. Geen vanity-metrics zoals bereik of impressies zonder context. Een rapport zonder concrete vervolgstappen is feitelijk een excuus."
+                                    }
+                                }
+                            ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Social media adverteren uitbesteden", "item": "https://www.empowers.nl/blogs/social-ads/social-media-adverteren-uitbesteden-gids-mkb" }
-                        ]
-                    })}
-                </script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": [
-                            {
-                                "@type": "Question",
-                                "name": "Wanneer wordt social media adverteren uitbesteden interessant voor het MKB?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Vanaf een advertentiebudget van ongeveer 1.500 euro per maand begint uitbesteden zichzelf vaak terug te verdienen. Dan wegen de kosten van een specialist op tegen de extra resultaten. Onder dat bedrag is zelf doen of een freelancer-uurtje per week meestal verstandiger."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Wat kost een social ads bureau voor MKB?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Reken voor MKB-pakketten op een vaste fee tussen 750 en 2.500 euro per maand, of 15 tot 20 procent van het mediabudget. Plus eenmalige setup-kosten van rond de 1.000 euro voor pixel, conversie-API en doelgroepenstructuur."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Welk platform moet ik kiezen: Meta, TikTok of LinkedIn?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Verkoop je aan consumenten of webshop-bezoekers, dan begint het bij Meta (Facebook en Instagram). Werk je in B2B met hogere ordergroottes, dan is LinkedIn vaak slimmer. TikTok loont vooral als je een visueel product hebt en een jonger publiek aanspreekt."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Hoe snel zie ik resultaat na het uitbesteden?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "De eerste twee weken zijn opbouw en data verzamelen. Vanaf week drie of vier komen de eerste conversies binnen. Stabiele leerfase-prestaties zie je doorgaans na zes tot acht weken. Wie eerder grote uitspraken doet, verkoopt lucht."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Moet ik mijn creatives zelf aanleveren?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Goede social ads bureaus produceren of begeleiden de creatives. Aanleveren mag, maar reken op extra advies over hooks, video-snijwerk en aanpassingen per platform. Wie je alleen geld laat doorzetten zonder ook over de creatie te praten, mist de helft van het rendement."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Wat moet er minimaal in de maandelijkse rapportage staan?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Besteed budget, conversies, kosten per conversie, ROAS, creative-prestaties en wat er de komende maand verandert. Geen vanity-metrics zoals bereik of impressies zonder context. Een rapport zonder concrete vervolgstappen is feitelijk een excuus."
-                                }
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

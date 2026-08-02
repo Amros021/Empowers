@@ -28,112 +28,114 @@ export default function BlogPostRetargetingMetaAdsHaalVerloren() {
                 <meta name="twitter:title" content="Retargeting via Meta Ads: zo haal je verloren bezoekers terug" />
                 <meta name="twitter:description" content="Zo haal je met Meta Ads retargeting verloren websitebezoekers terug en zet je ze om in klanten." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Retargeting via Meta Ads: zo haal je verloren bezoekers terug",
-                        "description": "Retargeting via Meta Ads haalt bezoekers terug die je website al kennen. Lees hoe je het instelt, welke doelgroepen werken en welke fouten je voorkomt.",
-                        "image": "https://www.empowers.nl/images/blogs/retargeting-meta-ads-haal-verloren.jpg",
-                        "datePublished": "2026-04-08T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Retargeting via Meta Ads: zo haal je verloren bezoekers terug",
+                            "description": "Retargeting via Meta Ads haalt bezoekers terug die je website al kennen. Lees hoe je het instelt, welke doelgroepen werken en welke fouten je voorkomt.",
+                            "image": "https://www.empowers.nl/images/blogs/retargeting-meta-ads-haal-verloren.jpg",
+                            "datePublished": "2026-04-08T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is retargeting in Meta Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Retargeting is het tonen van advertenties aan mensen die je website, app of Instagram-profiel eerder hebben bezocht. Meta herkent ze via de Meta Pixel of Conversions API en laat je advertenties specifiek aan die groep zien op Facebook en Instagram."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang mag een retargeting-doelgroep meegaan?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste webshops werkt een window van 30 dagen het beste. Heb je een langere aankoopcyclus, zoals in B2B of dienstverlening, dan is 60 tot 180 dagen realistisch. Bezoekers van meer dan zes maanden geleden zijn meestal niet meer de moeite waard."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb ik de Meta Pixel nodig voor retargeting?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Zonder Pixel of Conversions API weet Meta niet wie er op je site is geweest. We raden aan om beide te combineren: Pixel voor browsergedrag en Conversions API voor betrouwbare server-side data, vooral sinds iOS 14.5."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goed budget voor retargeting campagnes?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op 10 tot 20% van je totale Meta Ads budget. De doelgroep is klein en warm, dus je hoeft er niet veel geld tegenaan te gooien. Begin met 10 euro per dag en schaal op zodra je frequentie boven de 2,5 komt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe voorkom ik dat mensen mijn advertentie te vaak zien?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Houd je advertentiefrequentie onder de 3 per week. Gebruik frequentie capping, ververs je creatives elke twee weken en sluit converters direct uit van de doelgroep. Zo voorkom je advertentiemoeheid en irritatie bij je doelgroep."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt retargeting ook zonder webshop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Ook dienstverleners en B2B-bedrijven kunnen retargeten op bezoekers van hun website, videokijkers op Facebook of mensen die met hun Instagram-profiel hebben geïnterageerd. Retargeting gaat niet alleen over winkelwagens, het werkt voor elke vorm van interesse."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is retargeting in Meta Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Retargeting is het tonen van advertenties aan mensen die je website, app of Instagram-profiel eerder hebben bezocht. Meta herkent ze via de Meta Pixel of Conversions API en laat je advertenties specifiek aan die groep zien op Facebook en Instagram."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang mag een retargeting-doelgroep meegaan?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de meeste webshops werkt een window van 30 dagen het beste. Heb je een langere aankoopcyclus, zoals in B2B of dienstverlening, dan is 60 tot 180 dagen realistisch. Bezoekers van meer dan zes maanden geleden zijn meestal niet meer de moeite waard."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Heb ik de Meta Pixel nodig voor retargeting?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Zonder Pixel of Conversions API weet Meta niet wie er op je site is geweest. We raden aan om beide te combineren: Pixel voor browsergedrag en Conversions API voor betrouwbare server-side data, vooral sinds iOS 14.5."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goed budget voor retargeting campagnes?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op 10 tot 20% van je totale Meta Ads budget. De doelgroep is klein en warm, dus je hoeft er niet veel geld tegenaan te gooien. Begin met 10 euro per dag en schaal op zodra je frequentie boven de 2,5 komt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe voorkom ik dat mensen mijn advertentie te vaak zien?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Houd je advertentiefrequentie onder de 3 per week. Gebruik frequentie capping, ververs je creatives elke twee weken en sluit converters direct uit van de doelgroep. Zo voorkom je advertentiemoeheid en irritatie bij je doelgroep."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt retargeting ook zonder webshop?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Ook dienstverleners en B2B-bedrijven kunnen retargeten op bezoekers van hun website, videokijkers op Facebook of mensen die met hun Instagram-profiel hebben geïnterageerd. Retargeting gaat niet alleen over winkelwagens, het werkt voor elke vorm van interesse."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Retargeting via Meta Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/retargeting-meta-ads-haal-verloren"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Social Ads",
-                                "item": "https://www.empowers.nl/blogs/social-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Retargeting via Meta Ads",
-                                "item": "https://www.empowers.nl/blogs/social-ads/retargeting-meta-ads-haal-verloren"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

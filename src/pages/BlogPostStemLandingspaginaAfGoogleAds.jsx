@@ -28,92 +28,114 @@ export default function BlogPostStemLandingspaginaAfGoogleAds() {
                 <meta name="twitter:title" content="Landingspagina afstemmen op Google Ads" />
                 <meta name="twitter:description" content="Zo laat je advertentie en landingspagina samenwerken in plaats van langs elkaar werken." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Landingspagina afstemmen op Google Ads: zo doe je het goed",
-                        "description": "Een Google Ads klik kost geld, maar de pagina erachter beslist of dat geld terugkomt. Lees hoe je landingspagina en advertentie 1-op-1 op elkaar afstemt.",
-                        "image": "https://www.empowers.nl/images/blogs/stem-landingspagina-af-google-ads.jpg",
-                        "datePublished": "2026-05-11T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Landingspagina afstemmen op Google Ads: zo doe je het goed",
+                            "description": "Een Google Ads klik kost geld, maar de pagina erachter beslist of dat geld terugkomt. Lees hoe je landingspagina en advertentie 1-op-1 op elkaar afstemt.",
+                            "image": "https://www.empowers.nl/images/blogs/stem-landingspagina-af-google-ads.jpg",
+                            "datePublished": "2026-05-11T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom moet mijn landingspagina afgestemd zijn op mijn Google Ads advertentie?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Omdat de bezoeker met een verwachting klikt. Belooft je advertentie 'gratis offerte in 24 uur' en zien ze daarna een algemene homepage, dan klikt een groot deel weg. Aansluiting tussen advertentie en pagina (message match) verhoogt je conversie en je Quality Score, waardoor je vaak ook minder per klik betaalt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is message match precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Message match betekent dat de tekst, belofte, toon en stijl van je advertentie ononderbroken doorlopen op je landingspagina. De headline van je pagina herhaalt of bevestigt de belofte uit de advertentie, het beeld sluit aan, en de CTA past bij de zoekintentie waarmee iemand op de advertentie klikte."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik per advertentie een aparte landingspagina maken?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet per se per advertentie, wel per zoekintentie. Een bezoeker die zocht op 'boekhouder ZZP' wil iets anders zien dan iemand die zocht op 'jaarrekening laten maken'. Als beide groepen op dezelfde pagina landen, verliest minstens één van hen de aansluiting. In de praktijk werkt vaak: één landingspagina per dienst of per cluster van verwante zoekwoorden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Helpt afstemmen ook bij mijn Quality Score?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Landing page experience is een van de drie pijlers van Quality Score, naast verwachte CTR en advertentierelevantie. Google kijkt of de pagina relevant en bruikbaar is voor de zoekopdracht, en of hij snel laadt. Een goed afgestemde pagina verhoogt je Quality Score, wat zich vertaalt in een lagere CPC en betere posities."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik of mijn landingspagina goed afgestemd is?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Kijk naar conversieratio per zoekwoord, bounce rate en tijd op de pagina in GA4. Een bounce rate boven 75 procent in combinatie met een lage conversieratio is meestal een afstemmingsprobleem. Vergelijk ook de Quality Score per zoekwoord in Google Ads: scoort jouw best converterende zoekwoord een 4 of 5 op landing page experience, dan is er werk te doen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een dynamische landingspagina en heb ik die nodig?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Met dynamic keyword insertion of dynamic landing pages pas je tekst op de pagina aan op het zoekwoord waarmee iemand binnenkwam. Handig als je met veel zoekwoordvarianten werkt, bijvoorbeeld per stad of per dienst. Voor MKB-accounts met tien tot dertig zoekwoorden is een set van vier of vijf goed geschreven statische landingspagina's vaak effectiever en simpeler te beheren."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom moet mijn landingspagina afgestemd zijn op mijn Google Ads advertentie?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Omdat de bezoeker met een verwachting klikt. Belooft je advertentie 'gratis offerte in 24 uur' en zien ze daarna een algemene homepage, dan klikt een groot deel weg. Aansluiting tussen advertentie en pagina (message match) verhoogt je conversie en je Quality Score, waardoor je vaak ook minder per klik betaalt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is message match precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Message match betekent dat de tekst, belofte, toon en stijl van je advertentie ononderbroken doorlopen op je landingspagina. De headline van je pagina herhaalt of bevestigt de belofte uit de advertentie, het beeld sluit aan, en de CTA past bij de zoekintentie waarmee iemand op de advertentie klikte."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik per advertentie een aparte landingspagina maken?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet per se per advertentie, wel per zoekintentie. Een bezoeker die zocht op 'boekhouder ZZP' wil iets anders zien dan iemand die zocht op 'jaarrekening laten maken'. Als beide groepen op dezelfde pagina landen, verliest minstens één van hen de aansluiting. In de praktijk werkt vaak: één landingspagina per dienst of per cluster van verwante zoekwoorden."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Helpt afstemmen ook bij mijn Quality Score?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Landing page experience is een van de drie pijlers van Quality Score, naast verwachte CTR en advertentierelevantie. Google kijkt of de pagina relevant en bruikbaar is voor de zoekopdracht, en of hij snel laadt. Een goed afgestemde pagina verhoogt je Quality Score, wat zich vertaalt in een lagere CPC en betere posities."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe meet ik of mijn landingspagina goed afgestemd is?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Kijk naar conversieratio per zoekwoord, bounce rate en tijd op de pagina in GA4. Een bounce rate boven 75 procent in combinatie met een lage conversieratio is meestal een afstemmingsprobleem. Vergelijk ook de Quality Score per zoekwoord in Google Ads: scoort jouw best converterende zoekwoord een 4 of 5 op landing page experience, dan is er werk te doen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is een dynamische landingspagina en heb ik die nodig?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Met dynamic keyword insertion of dynamic landing pages pas je tekst op de pagina aan op het zoekwoord waarmee iemand binnenkwam. Handig als je met veel zoekwoordvarianten werkt, bijvoorbeeld per stad of per dienst. Voor MKB-accounts met tien tot dertig zoekwoorden is een set van vier of vijf goed geschreven statische landingspagina's vaak effectiever en simpeler te beheren."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Landingspagina afstemmen op Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/strategie/stem-landingspagina-af-google-ads"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                            { "@type": "ListItem", "position": 4, "name": "Landingspagina afstemmen op Google Ads", "item": "https://www.empowers.nl/blogs/strategie/stem-landingspagina-af-google-ads" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -29,8 +29,16 @@ export default function BlogPostSchrijfBetereGoogleAdsAi() {
                             "headline": "Hoe schrijf je betere Google Ads met AI tools?",
                             "image": "https://www.empowers.nl/images/blogs/schrijf-betere-google-ads-ai.jpg",
                             "description": "Leer hoe je Google Ads-kopijen en advertenties schrijft met AI tools. Concrete stappen, strategieën en fouten om te voorkomen voor betere CTR en conversies.",
-                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-03-26T00:00:00+01:00",
                             "dateModified": "2026-03-26T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/google-ads/schrijf-betere-google-ads-ai"
@@ -38,28 +46,99 @@ export default function BlogPostSchrijfBetereGoogleAdsAi() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Welke AI tools zijn het beste voor Google Ads schrijven?", "acceptedAnswer": { "@type": "Answer", "text": "ChatGPT, Claude en Gemini zijn het geschiktst voor het schrijven van Google Ads-kopijen. Ze begrijpen nuances in taal, target audience en doelstellingen goed. Specialistische tools zoals Copy.ai en Jasper zijn ook populair, maar het verschil wordt kleiner. De beste tool is degene waar jij mee kunt omgaan en waar je de outputs goed kunt evalueren." } },
-                                { "@type": "Question", "name": "Kun je Google Ads volledig automatiseren met AI?", "acceptedAnswer": { "@type": "Answer", "text": "Nee, dat kun je niet en dat zou je ook niet willen. AI helpt bij het genereren van ideeën en eerste drafts, maar Google Ads vereist specifieke kennis van jouw product, jouw markt en jouw klantgedrag. Jij moet controleren, testen en aanpassen. De beste campagnes ontstaan door AI als hulpmiddel in te zetten, niet als vervanger van menselijk denken." } },
-                                { "@type": "Question", "name": "Hoeveel tijd bespaar je door AI in te zetten voor Google Ads?", "acceptedAnswer": { "@type": "Answer", "text": "Bij onze klanten zien we tijdbesparing van 40 tot 60% voor het schrijven van kopijen en headlines. Waar je normaal twee uur kwijt bent aan brainstormen en concepten, ben je nu 45 minuten bezig. Maar de tijd die je wint, moet je besteden aan het testen, analyseren en verfijnen van de gegevens." } },
-                                { "@type": "Question", "name": "Verbetert AI echt je conversiegraad?", "acceptedAnswer": { "@type": "Answer", "text": "Ja, maar niet automatisch. AI helpt je betere, meer relevante kopijen en meer variaties sneller schrijven. Dat leidt tot meer testen, en meer testen leidt tot betere prestaties. We merken in de praktijk dat campagnes met AI-gegenereerde kopijen, goed gescript met context, 15 tot 25% hogere conversiegrades halen dan standaard kopijen." } },
-                                { "@type": "Question", "name": "Ziet Google het verschil tussen AI-geschreven en menselijke kopijen?", "acceptedAnswer": { "@type": "Answer", "text": "Google ziet het niet en het boeit Google niet. Google beoordeelt kopijen op relevantie, kwaliteit en of ze de advertentiebeleid volgen. AI-geschreven kopijen die relevant en kwalitatief goed zijn, worden hetzelfde behandeld als menselijke kopijen. Het gaat om het eindresultaat, niet hoe het is gemaakt." } },
-                                { "@type": "Question", "name": "Kan ik mijn bestaande Google Ads verbeterd met AI?", "acceptedAnswer": { "@type": "Answer", "text": "Zeker. Pak je bestaande headlines en beschrijvingen, gooi ze in een AI-tool met context over je doelgroep en doelstellingen, en laat de tool variaties genereren. Test deze tegen je bestaande versies. Veel van onze klanten zien al beter resultaat door hun bestaande teksten aan te passen op basis van AI-suggesties." } },
-                                { "@type": "Question", "name": "Welke AI-prompts werken het beste voor Google Ads?", "acceptedAnswer": { "@type": "Answer", "text": "De beste prompts zijn specifiek en geven context. Zeg niet alleen 'schrijf een Google Ad headline'. Zeg: 'Schrijf 5 Google Ad headlines voor een SEO-dienst gericht op MKB in Nederland. De voornaamste voordelen zijn meer leads en betere posities. Zorg dat ze geen jargon gebruiken en maximaal 30 tekens.' Hoe beter de prompt, hoe beter de output." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Welke AI tools zijn het beste voor Google Ads schrijven?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "ChatGPT, Claude en Gemini zijn het geschiktst voor het schrijven van Google Ads-kopijen. Ze begrijpen nuances in taal, target audience en doelstellingen goed. Specialistische tools zoals Copy.ai en Jasper zijn ook populair, maar het verschil wordt kleiner. De beste tool is degene waar jij mee kunt omgaan en waar je de outputs goed kunt evalueren."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Kun je Google Ads volledig automatiseren met AI?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Nee, dat kun je niet en dat zou je ook niet willen. AI helpt bij het genereren van ideeën en eerste drafts, maar Google Ads vereist specifieke kennis van jouw product, jouw markt en jouw klantgedrag. Jij moet controleren, testen en aanpassen. De beste campagnes ontstaan door AI als hulpmiddel in te zetten, niet als vervanger van menselijk denken."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoeveel tijd bespaar je door AI in te zetten voor Google Ads?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Bij onze klanten zien we tijdbesparing van 40 tot 60% voor het schrijven van kopijen en headlines. Waar je normaal twee uur kwijt bent aan brainstormen en concepten, ben je nu 45 minuten bezig. Maar de tijd die je wint, moet je besteden aan het testen, analyseren en verfijnen van de gegevens."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Verbetert AI echt je conversiegraad?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Ja, maar niet automatisch. AI helpt je betere, meer relevante kopijen en meer variaties sneller schrijven. Dat leidt tot meer testen, en meer testen leidt tot betere prestaties. We merken in de praktijk dat campagnes met AI-gegenereerde kopijen, goed gescript met context, 15 tot 25% hogere conversiegrades halen dan standaard kopijen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Ziet Google het verschil tussen AI-geschreven en menselijke kopijen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Google ziet het niet en het boeit Google niet. Google beoordeelt kopijen op relevantie, kwaliteit en of ze de advertentiebeleid volgen. AI-geschreven kopijen die relevant en kwalitatief goed zijn, worden hetzelfde behandeld als menselijke kopijen. Het gaat om het eindresultaat, niet hoe het is gemaakt."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Kan ik mijn bestaande Google Ads verbeterd met AI?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Zeker. Pak je bestaande headlines en beschrijvingen, gooi ze in een AI-tool met context over je doelgroep en doelstellingen, en laat de tool variaties genereren. Test deze tegen je bestaande versies. Veel van onze klanten zien al beter resultaat door hun bestaande teksten aan te passen op basis van AI-suggesties."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Welke AI-prompts werken het beste voor Google Ads?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "De beste prompts zijn specifiek en geven context. Zeg niet alleen 'schrijf een Google Ad headline'. Zeg: 'Schrijf 5 Google Ad headlines voor een SEO-dienst gericht op MKB in Nederland. De voornaamste voordelen zijn meer leads en betere posities. Zorg dat ze geen jargon gebruiken en maximaal 30 tekens.' Hoe beter de prompt, hoe beter de output."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Hoe schrijf je betere Google Ads met AI tools?",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/schrijf-betere-google-ads-ai"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Hoe schrijf je betere Google Ads met AI tools?", "item": "https://www.empowers.nl/blogs/google-ads/schrijf-betere-google-ads-ai" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Hoe schrijf je betere Google Ads met AI tools?" />
+        <meta name="twitter:description" content="Leer hoe je Google Ads-kopijen en advertenties schrijft met AI tools. Concrete stappen, strategieën en fouten om te voor" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

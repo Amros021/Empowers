@@ -29,8 +29,15 @@ export default function BlogPostSeo() {
                             "headline": "SEO voor MKB: zo verbeter je je Google-positie",
                             "image": "/images/blogs/seo-voor-mkb-google-positie-verbeteren.jpg",
                             "description": "SEO voor MKB loont als je het goed aanpakt. Lees wat het kost, hoe lang het duurt en welke stappen je zet om hoger te ranken in Google.",
-                            "author": { "@type": "Organization", "name": "Empowers" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-03-24T00:00:00+01:00",
                             "dateModified": "2026-03-24T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/seo/seo-voor-mkb-google-positie-verbeteren"
@@ -38,28 +45,99 @@ export default function BlogPostSeo() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Hoe lang duurt SEO voordat het resultaat geeft?", "acceptedAnswer": { "@type": "Answer", "text": "De eerste resultaten zijn zichtbaar na 3 tot 6 maanden, afhankelijk van hoe competitief je markt is en hoe goed je website er nu voor staat. Voor nieuwe domeinen duurt het soms wat langer. Hoe eerder je begint, hoe eerder je resultaat boekt." } },
-                                { "@type": "Question", "name": "Wat kost SEO voor een MKB-bedrijf?", "acceptedAnswer": { "@type": "Answer", "text": "Een serieuze SEO-aanpak kost bij de meeste bureaus tussen de 500 en 2000 euro per maand. Goedkopere diensten leveren vaak weinig op of beschadigen je website via slechte linkbuilding. Vraag altijd naar een concrete aanpak en meetbare doelen." } },
-                                { "@type": "Question", "name": "Wat is het verschil tussen SEO en Google Ads?", "acceptedAnswer": { "@type": "Answer", "text": "Google Ads geeft direct resultaat maar stopt zodra je budget op is. SEO kost meer tijd maar levert duurzame zichtbaarheid op zonder dat je per klik betaalt. De slimste strategie combineert beide: Ads voor direct verkeer, SEO voor de lange termijn." } },
-                                { "@type": "Question", "name": "Wat is lokale SEO en heb ik dat nodig?", "acceptedAnswer": { "@type": "Answer", "text": "Lokale SEO zorgt ervoor dat je gevonden wordt door mensen in jouw regio. Denk aan een Google Bedrijfsprofiel (voorheen Google Mijn Bedrijf), lokale zoekwoorden op je website en reviews. Voor fysieke winkels, restaurants en lokale dienstverleners is dit vaak het meest waardevolle onderdeel van SEO." } },
-                                { "@type": "Question", "name": "Kan ik SEO zelf doen?", "acceptedAnswer": { "@type": "Answer", "text": "Basis-SEO kun je deels zelf doen: een goed Google Bedrijfsprofiel aanmaken, je paginatitels verbeteren en content schrijven over vragen die klanten stellen. Technische SEO en serieuze linkbuilding vragen expertise. Fouten in de technische basis kosten je al je andere inspanningen." } },
-                                { "@type": "Question", "name": "Wat zijn de belangrijkste rankingfactoren van Google?", "acceptedAnswer": { "@type": "Answer", "text": "Google gebruikt meer dan 200 factoren. De zwaarste zijn: de kwaliteit en relevantie van je content, het aantal en de kwaliteit van websites die naar jou linken, de laadsnelheid van je pagina's en of je website goed werkt op mobiel. Een goede technische basis is de eerste stap." } },
-                                { "@type": "Question", "name": "Hoe meet ik of mijn SEO werkt?", "acceptedAnswer": { "@type": "Answer", "text": "Via Google Search Console zie je hoeveel mensen je website vinden via Google en op welke zoekwoorden. Koppel dit aan Google Analytics om te zien of dat verkeer ook leads of aankopen oplevert. Kijk niet alleen naar posities, maar naar conversies vanuit organisch zoekverkeer." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe lang duurt SEO voordat het resultaat geeft?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "De eerste resultaten zijn zichtbaar na 3 tot 6 maanden, afhankelijk van hoe competitief je markt is en hoe goed je website er nu voor staat. Voor nieuwe domeinen duurt het soms wat langer. Hoe eerder je begint, hoe eerder je resultaat boekt."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat kost SEO voor een MKB-bedrijf?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Een serieuze SEO-aanpak kost bij de meeste bureaus tussen de 500 en 2000 euro per maand. Goedkopere diensten leveren vaak weinig op of beschadigen je website via slechte linkbuilding. Vraag altijd naar een concrete aanpak en meetbare doelen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is het verschil tussen SEO en Google Ads?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Google Ads geeft direct resultaat maar stopt zodra je budget op is. SEO kost meer tijd maar levert duurzame zichtbaarheid op zonder dat je per klik betaalt. De slimste strategie combineert beide: Ads voor direct verkeer, SEO voor de lange termijn."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is lokale SEO en heb ik dat nodig?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Lokale SEO zorgt ervoor dat je gevonden wordt door mensen in jouw regio. Denk aan een Google Bedrijfsprofiel (voorheen Google Mijn Bedrijf), lokale zoekwoorden op je website en reviews. Voor fysieke winkels, restaurants en lokale dienstverleners is dit vaak het meest waardevolle onderdeel van SEO."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Kan ik SEO zelf doen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Basis-SEO kun je deels zelf doen: een goed Google Bedrijfsprofiel aanmaken, je paginatitels verbeteren en content schrijven over vragen die klanten stellen. Technische SEO en serieuze linkbuilding vragen expertise. Fouten in de technische basis kosten je al je andere inspanningen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat zijn de belangrijkste rankingfactoren van Google?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Google gebruikt meer dan 200 factoren. De zwaarste zijn: de kwaliteit en relevantie van je content, het aantal en de kwaliteit van websites die naar jou linken, de laadsnelheid van je pagina's en of je website goed werkt op mobiel. Een goede technische basis is de eerste stap."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe meet ik of mijn SEO werkt?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Via Google Search Console zie je hoeveel mensen je website vinden via Google en op welke zoekwoorden. Koppel dit aan Google Analytics om te zien of dat verkeer ook leads of aankopen oplevert. Kijk niet alleen naar posities, maar naar conversies vanuit organisch zoekverkeer."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "SEO voor MKB: zo verbeter je je Google-positie",
+                                    "item": "https://www.empowers.nl/blogs/seo/seo-voor-mkb-google-positie-verbeteren"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "SEO", "item": "https://www.empowers.nl/blogs/seo" },
-                        { "@type": "ListItem", "position": 4, "name": "SEO voor MKB: zo verbeter je je Google-positie", "item": "https://www.empowers.nl/blogs/seo/seo-voor-mkb-google-positie-verbeteren" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SEO voor MKB: zo verbeter je je Google-positie" />
+        <meta name="twitter:description" content="SEO voor MKB loont als je het goed aanpakt. Lees wat het kost, hoe lang het duurt en welke stappen je zet om hoger te ra" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

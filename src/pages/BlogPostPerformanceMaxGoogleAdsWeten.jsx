@@ -28,92 +28,114 @@ export default function BlogPostPerformanceMaxGoogleAdsWeten() {
                 <meta name="twitter:title" content="Performance Max in Google Ads: wat je moet weten" />
                 <meta name="twitter:description" content="Hoe werkt PMax en hoe houd je grip op de resultaten?" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Performance Max in Google Ads: wat je moet weten in 2026",
-                        "description": "Performance Max is de krachtigste campagne in Google Ads, maar ook de meest ondoorzichtige. Lees hoe PMax werkt, wanneer je het inzet en hoe je grip houdt op resultaten.",
-                        "image": "https://www.empowers.nl/images/blogs/performance-max-google-ads-weten.jpg",
-                        "datePublished": "2026-04-14T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Performance Max in Google Ads: wat je moet weten in 2026",
+                            "description": "Performance Max is de krachtigste campagne in Google Ads, maar ook de meest ondoorzichtige. Lees hoe PMax werkt, wanneer je het inzet en hoe je grip houdt op resultaten.",
+                            "image": "https://www.empowers.nl/images/blogs/performance-max-google-ads-weten.jpg",
+                            "datePublished": "2026-04-14T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is Performance Max precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Performance Max is een campagnetype waarin Google jouw advertenties automatisch verspreidt over alle kanalen: Search, Shopping, Display, YouTube, Gmail en Maps. Je levert assets en signalen aan, Google kiest plaatsing, doelgroep en biedingen op basis van AI."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer moet ik Performance Max inzetten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "PMax werkt het beste als je al een volwassen account hebt met bewezen conversiedata. Nieuwe accounts of accounts onder 30 conversies per maand leren te langzaam. Voor webshops is PMax vaak een booster naast bestaande Shopping- en Search-campagnes."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe hou ik controle over wat PMax doet?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Gebruik asset groups per thema of productgroep, voeg negatieve zoekwoorden toe op accountniveau, sluit brand traffic uit via scripts en monitor de insights tab wekelijks. Zonder deze controles wordt PMax een zwarte doos met willekeurig budget."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan PMax mijn bestaande campagnes kannibaliseren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. PMax biedt mee in dezelfde veilingen als je Search en Shopping. Zonder configuratie trekt PMax traffic weg bij campagnes die je zelf stuurt. Voorkom dit door Search-campagnes met exacte zoekwoorden naast PMax te laten draaien en brand-termen uit te sluiten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke assets heb ik nodig voor een sterke PMax?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Minimaal 5 headlines, 5 descriptions, 5 afbeeldingen in verschillende formaten, 1 logo, 1 video van 10 seconden of langer en een duidelijke final URL per asset group. Video's maken het verschil. PMax maakt er automatisch ook een, maar die presteert slechter dan een echte."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is Performance Max hetzelfde als Smart Shopping?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee, maar PMax heeft Smart Shopping wel vervangen in 2022. PMax is breder, het biedt ook op Search, Display, YouTube en Gmail. Smart Shopping zat alleen op Shopping en Display. Voor webshops is PMax een logische doorontwikkeling."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is Performance Max precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Performance Max is een campagnetype waarin Google jouw advertenties automatisch verspreidt over alle kanalen: Search, Shopping, Display, YouTube, Gmail en Maps. Je levert assets en signalen aan, Google kiest plaatsing, doelgroep en biedingen op basis van AI."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer moet ik Performance Max inzetten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "PMax werkt het beste als je al een volwassen account hebt met bewezen conversiedata. Nieuwe accounts of accounts onder 30 conversies per maand leren te langzaam. Voor webshops is PMax vaak een booster naast bestaande Shopping- en Search-campagnes."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe hou ik controle over wat PMax doet?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Gebruik asset groups per thema of productgroep, voeg negatieve zoekwoorden toe op accountniveau, sluit brand traffic uit via scripts en monitor de insights tab wekelijks. Zonder deze controles wordt PMax een zwarte doos met willekeurig budget."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Kan PMax mijn bestaande campagnes kannibaliseren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. PMax biedt mee in dezelfde veilingen als je Search en Shopping. Zonder configuratie trekt PMax traffic weg bij campagnes die je zelf stuurt. Voorkom dit door Search-campagnes met exacte zoekwoorden naast PMax te laten draaien en brand-termen uit te sluiten."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke assets heb ik nodig voor een sterke PMax?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Minimaal 5 headlines, 5 descriptions, 5 afbeeldingen in verschillende formaten, 1 logo, 1 video van 10 seconden of langer en een duidelijke final URL per asset group. Video's maken het verschil. PMax maakt er automatisch ook een, maar die presteert slechter dan een echte."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Is Performance Max hetzelfde als Smart Shopping?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee, maar PMax heeft Smart Shopping wel vervangen in 2022. PMax is breder, het biedt ook op Search, Display, YouTube en Gmail. Smart Shopping zat alleen op Shopping en Display. Voor webshops is PMax een logische doorontwikkeling."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Performance Max",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/performance-max-google-ads-weten"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Performance Max", "item": "https://www.empowers.nl/blogs/google-ads/performance-max-google-ads-weten" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

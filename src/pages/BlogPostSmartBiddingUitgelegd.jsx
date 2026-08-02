@@ -28,120 +28,122 @@ export default function BlogPostSmartBiddingUitgelegd() {
                 <meta name="twitter:title" content="Smart Bidding uitgelegd: wanneer gebruik je het en wanneer niet?" />
                 <meta name="twitter:description" content="Smart Bidding automatiseert je Google Ads biedingen. Lees wanneer het werkt en wanneer niet." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Smart Bidding uitgelegd: wanneer gebruik je het en wanneer niet?",
-                        "description": "Smart Bidding in Google Ads automatiseert je biedingen met AI. Lees wanneer het werkt, wanneer je het beter uit kunt laten en hoe je het goed instelt.",
-                        "image": "https://www.empowers.nl/images/blogs/smart-bidding-uitgelegd-wanneer-wanneer.jpg",
-                        "datePublished": "2026-03-30T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Smart Bidding uitgelegd: wanneer gebruik je het en wanneer niet?",
+                            "description": "Smart Bidding in Google Ads automatiseert je biedingen met AI. Lees wanneer het werkt, wanneer je het beter uit kunt laten en hoe je het goed instelt.",
+                            "image": "https://www.empowers.nl/images/blogs/smart-bidding-uitgelegd-wanneer-wanneer.jpg",
+                            "datePublished": "2026-03-30T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is Smart Bidding in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Smart Bidding is een verzameling geautomatiseerde biedstrategieen in Google Ads die machine learning gebruiken om je biedingen per veiling aan te passen. Google kijkt naar signalen zoals apparaat, locatie, tijdstip en zoekgedrag om de kans op een conversie in te schatten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel conversies heb ik nodig voor Smart Bidding?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google adviseert minimaal 30 conversies in de afgelopen 30 dagen per campagne. In de praktijk werkt Smart Bidding het best vanaf 50 conversies per maand. Met minder data maakt het algoritme te veel inschattingsfouten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke Smart Bidding strategie moet ik kiezen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat hangt af van je doel. Wil je zoveel mogelijk conversies? Kies Maximize Conversions. Wil je een bepaalde ROAS halen? Kies Target ROAS. Wil je elke lead onder een bepaald bedrag houden? Kies Target CPA. Begin altijd met Maximize Conversions als je nog geen historische data hebt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan Smart Bidding mijn budget verspillen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, als je het verkeerd instelt. Zonder genoeg conversiedata biedt het algoritme te hoog of op de verkeerde zoekopdrachten. Stel altijd een realistisch doel-CPA of doel-ROAS in en monitor de eerste twee weken dagelijks."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen handmatig bieden en Smart Bidding?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij handmatig bieden stel je zelf een maximaal bod per klik in. Bij Smart Bidding past Google het bod per veiling automatisch aan op basis van honderden signalen. Handmatig bieden geeft meer controle maar mist de snelheid en schaal van machine learning."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat Smart Bidding goed werkt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op een leerfase van 1 tot 2 weken. In die periode schommelen je resultaten. Het algoritme verzamelt data en past zijn model aan. Pas na twee weken kun je beoordelen of de strategie werkt. Wijzig in die periode niets aan je campagne."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt Smart Bidding ook voor kleine budgetten?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Beperkt. Met een dagbudget onder de 20 euro genereert je campagne te weinig klikken en conversies om het algoritme goed te laten leren. In dat geval is handmatig bieden of Enhanced CPC vaak een betere keuze tot je meer volume hebt."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is Smart Bidding in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Smart Bidding is een verzameling geautomatiseerde biedstrategieen in Google Ads die machine learning gebruiken om je biedingen per veiling aan te passen. Google kijkt naar signalen zoals apparaat, locatie, tijdstip en zoekgedrag om de kans op een conversie in te schatten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel conversies heb ik nodig voor Smart Bidding?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google adviseert minimaal 30 conversies in de afgelopen 30 dagen per campagne. In de praktijk werkt Smart Bidding het best vanaf 50 conversies per maand. Met minder data maakt het algoritme te veel inschattingsfouten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke Smart Bidding strategie moet ik kiezen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dat hangt af van je doel. Wil je zoveel mogelijk conversies? Kies Maximize Conversions. Wil je een bepaalde ROAS halen? Kies Target ROAS. Wil je elke lead onder een bepaald bedrag houden? Kies Target CPA. Begin altijd met Maximize Conversions als je nog geen historische data hebt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Kan Smart Bidding mijn budget verspillen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, als je het verkeerd instelt. Zonder genoeg conversiedata biedt het algoritme te hoog of op de verkeerde zoekopdrachten. Stel altijd een realistisch doel-CPA of doel-ROAS in en monitor de eerste twee weken dagelijks."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen handmatig bieden en Smart Bidding?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij handmatig bieden stel je zelf een maximaal bod per klik in. Bij Smart Bidding past Google het bod per veiling automatisch aan op basis van honderden signalen. Handmatig bieden geeft meer controle maar mist de snelheid en schaal van machine learning."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat Smart Bidding goed werkt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op een leerfase van 1 tot 2 weken. In die periode schommelen je resultaten. Het algoritme verzamelt data en past zijn model aan. Pas na twee weken kun je beoordelen of de strategie werkt. Wijzig in die periode niets aan je campagne."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt Smart Bidding ook voor kleine budgetten?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Beperkt. Met een dagbudget onder de 20 euro genereert je campagne te weinig klikken en conversies om het algoritme goed te laten leren. In dat geval is handmatig bieden of Enhanced CPC vaak een betere keuze tot je meer volume hebt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Smart Bidding uitgelegd",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/smart-bidding-uitgelegd-wanneer-wanneer"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Google Ads",
-                                "item": "https://www.empowers.nl/blogs/google-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Smart Bidding uitgelegd",
-                                "item": "https://www.empowers.nl/blogs/google-ads/smart-bidding-uitgelegd-wanneer-wanneer"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -28,97 +28,122 @@ export default function BlogPostSeaCpcBenchmarksPerBranche() {
                 <meta name="twitter:title" content="Wat kost SEA per klik in 2026? CPC benchmarks per branche in Nederland" />
                 <meta name="twitter:description" content="CPC-benchmarks per branche, budgetformules en waarom een bureau jouw klikkosten verlaagt." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Wat kost SEA per klik in 2026? CPC benchmarks per branche in Nederland",
-                        "description": "Concrete CPC-data per branche in Nederland 2026: e-commerce, B2B, dienstverlening en lokaal. Lees hoe je jouw budget berekent en waarom een bureau dit efficiënter doet.",
-                        "image": "https://www.empowers.nl/images/blogs/sea-cpc-benchmarks-per-branche-nederland.jpg",
-                        "datePublished": "2026-05-03T13:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Wat kost SEA per klik in 2026? CPC benchmarks per branche in Nederland",
+                            "description": "Concrete CPC-data per branche in Nederland 2026: e-commerce, B2B, dienstverlening en lokaal. Lees hoe je jouw budget berekent en waarom een bureau dit efficiënter doet.",
+                            "image": "https://www.empowers.nl/images/blogs/sea-cpc-benchmarks-per-branche-nederland.jpg",
+                            "datePublished": "2026-05-03T13:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een gemiddelde CPC in Nederland in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De gemiddelde CPC in Nederland ligt in 2026 tussen 0,80 en 2,50 euro voor zoekcampagnes. E-commerce zit gemiddeld op 0,60 tot 1,80 euro, dienstverlening op 1,50 tot 4 euro en B2B op 3 tot 12 euro voor competitieve termen. Lokale zoekopdrachten zitten meestal onder 1 euro."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom verschillen CPC's zo per branche?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "CPC's worden bepaald door biedingsstrijd. Hoe meer concurrenten op hetzelfde zoekwoord bieden, hoe hoger de prijs. Branches met hoge klantwaarde en lange salescycli zoals juridisch advies, financieel advies en B2B SaaS hebben de hoogste CPC's omdat 1 klant veel waard is en concurrenten bereid zijn flink te bieden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe bereken je een realistisch SEA budget?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vermenigvuldig jouw gemiddelde CPC met de gewenste klikken per maand. Reken vervolgens met een conversieratio tussen 2 en 8 procent om uit te rekenen hoeveel leads of bestellingen je krijgt. Voor een eerlijke test reken je op minimaal 30 conversies per maand zodat het algoritme genoeg signalen krijgt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Verlaagt een SEA bureau jouw CPC?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een goed bureau verlaagt jouw effectieve CPC vaak met 15 tot 30 procent door betere kwaliteitsscores, slimmere zoekwoordstructuur en gerichtere advertenties. Niet je nominale klikprijs, maar je kosten per geconverteerde klik. Slecht bureau-werk verhoogt CPC juist door luie campagnestructuur."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede kwaliteitsscore in Google Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een kwaliteitsscore tussen 7 en 10 op een schaal van 10 is goed en levert lagere CPC's op. Onder de 5 betaal je premium voor zwakke advertenties. Kwaliteitsscore wordt bepaald door verwachte CTR, advertentie-relevantie en landingspagina-ervaring. Verbeteringen aan landingspagina's leveren vaak het snelst CPC-verlaging op."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke CPC moet je verwachten voor B2B in Nederland?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor B2B-zoekwoorden in Nederland reken je op 3 tot 12 euro per klik, afhankelijk van branche en concurrentie. SaaS, juridische diensten en financieel advies zitten aan de bovenkant. Specialistische B2B-diensten zoals technisch advies of niche-software zitten meer op 4 tot 8 euro."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel budget heb je minimaal nodig om SEA te testen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor e-commerce reken je op minimaal 1.000 euro mediabudget per maand om binnen 60 dagen iets te leren. Voor dienstverlening op 1.500 euro per maand. Voor competitieve B2B op minimaal 2.500 euro per maand. Daaronder krijg je niet genoeg klikken voor betrouwbare conclusies over wat werkt."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een gemiddelde CPC in Nederland in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De gemiddelde CPC in Nederland ligt in 2026 tussen 0,80 en 2,50 euro voor zoekcampagnes. E-commerce zit gemiddeld op 0,60 tot 1,80 euro, dienstverlening op 1,50 tot 4 euro en B2B op 3 tot 12 euro voor competitieve termen. Lokale zoekopdrachten zitten meestal onder 1 euro."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom verschillen CPC's zo per branche?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "CPC's worden bepaald door biedingsstrijd. Hoe meer concurrenten op hetzelfde zoekwoord bieden, hoe hoger de prijs. Branches met hoge klantwaarde en lange salescycli zoals juridisch advies, financieel advies en B2B SaaS hebben de hoogste CPC's omdat 1 klant veel waard is en concurrenten bereid zijn flink te bieden."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe bereken je een realistisch SEA budget?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vermenigvuldig jouw gemiddelde CPC met de gewenste klikken per maand. Reken vervolgens met een conversieratio tussen 2 en 8 procent om uit te rekenen hoeveel leads of bestellingen je krijgt. Voor een eerlijke test reken je op minimaal 30 conversies per maand zodat het algoritme genoeg signalen krijgt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Verlaagt een SEA bureau jouw CPC?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een goed bureau verlaagt jouw effectieve CPC vaak met 15 tot 30 procent door betere kwaliteitsscores, slimmere zoekwoordstructuur en gerichtere advertenties. Niet je nominale klikprijs, maar je kosten per geconverteerde klik. Slecht bureau-werk verhoogt CPC juist door luie campagnestructuur."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede kwaliteitsscore in Google Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een kwaliteitsscore tussen 7 en 10 op een schaal van 10 is goed en levert lagere CPC's op. Onder de 5 betaal je premium voor zwakke advertenties. Kwaliteitsscore wordt bepaald door verwachte CTR, advertentie-relevantie en landingspagina-ervaring. Verbeteringen aan landingspagina's leveren vaak het snelst CPC-verlaging op."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke CPC moet je verwachten voor B2B in Nederland?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor B2B-zoekwoorden in Nederland reken je op 3 tot 12 euro per klik, afhankelijk van branche en concurrentie. SaaS, juridische diensten en financieel advies zitten aan de bovenkant. Specialistische B2B-diensten zoals technisch advies of niche-software zitten meer op 4 tot 8 euro."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel budget heb je minimaal nodig om SEA te testen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor e-commerce reken je op minimaal 1.000 euro mediabudget per maand om binnen 60 dagen iets te leren. Voor dienstverlening op 1.500 euro per maand. Voor competitieve B2B op minimaal 2.500 euro per maand. Daaronder krijg je niet genoeg klikken voor betrouwbare conclusies over wat werkt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "CPC benchmarks Nederland 2026",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/sea-cpc-benchmarks-per-branche-nederland"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "CPC benchmarks Nederland 2026", "item": "https://www.empowers.nl/blogs/google-ads/sea-cpc-benchmarks-per-branche-nederland" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -28,97 +28,122 @@ export default function BlogPostRankGoogleAiMode() {
                 <meta name="twitter:title" content="Ranken in Google AI Mode: zo doe je het" />
                 <meta name="twitter:description" content="Stappenplan voor zichtbaarheid in Google's AI-antwoorden." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe rank je in Google AI Mode? Stappenplan voor 2026",
-                        "description": "Praktisch stappenplan om geciteerd te worden in Google AI Mode en AI Overviews.",
-                        "image": "https://www.empowers.nl/images/blogs/rank-google-ai-mode.jpg",
-                        "datePublished": "2026-05-08T15:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe rank je in Google AI Mode? Stappenplan voor 2026",
+                            "description": "Praktisch stappenplan om geciteerd te worden in Google AI Mode en AI Overviews.",
+                            "image": "https://www.empowers.nl/images/blogs/rank-google-ai-mode.jpg",
+                            "datePublished": "2026-05-08T15:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is Google AI Mode?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google AI Mode is de AI-aangedreven zoekervaring waarbij Google een direct antwoord genereert in plaats van enkel een lijst blauwe links. Het systeem gebruikt content van het web als bron voor zijn antwoord en linkt door naar de gebruikte pagina's. Voor adverteerders en SEO-specialisten betekent dit een nieuw zichtbaarheidskanaal naast traditionele rankings."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verschilt AI Mode van AI Overviews?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "AI Overviews zijn samenvattende blokken bovenaan reguliere zoekresultaten. AI Mode is een aparte interface waar je een conversatie kunt voeren met Google's AI. Beide gebruiken vergelijkbare bronnenselectie. Wie zichtbaar is in AI Overviews, heeft doorgaans ook een grotere kans om in AI Mode geciteerd te worden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke content krijgt voorrang in AI Mode?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Content die direct antwoord geeft op concrete vragen, met heldere structuur en duidelijke autoriteit. Korte definities aan het begin van een paragraaf, FAQ-secties met schema markup, en pagina's met sterke topical authority worden vaker als bron gepakt. Lange inleidingen die het antwoord pas op alinea drie geven, doen het minder."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Maakt schema markup verschil voor AI Mode?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, en niet zomaar een beetje. FAQPage, HowTo, Article en Organization-schema helpen Google de structuur van je pagina te begrijpen. Een vraag in FAQPage-formaat is voor het AI-systeem direct herkenbaar als citeerbaar antwoord. Ontbreekt de schema, dan moet het systeem zelf raden waar de antwoorden staan en zijn de keuzekansen kleiner."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt klassieke SEO nog voor AI Mode?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, want AI Mode kiest zijn bronnen uit de Google-index. Pagina's die niet ranken in de top 20 organische resultaten worden zelden geciteerd. Het verschil zit in welke optimalisatie binnen die top-rankings de citatie binnenhaalt: directe antwoord-formats, schema, autoriteit plus E-E-A-T-signalen wegen zwaarder dan voorheen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet je zichtbaarheid in Google AI Mode?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Lastiger dan klassieke rank-tracking. Tools zoals AthenaHQ en Profound monitoren AI-citaties per zoekopdracht. Daarnaast: kijk in Google Search Console naar verkeer met specifieke 'AI Mode'-referrers (waar beschikbaar), en monitor je branded-search-volume tijdens AI-launches. Last-click attributie ondervangt dit kanaal vrijwel niet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het om resultaat te zien?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Onze ervaring: tussen 8 en 16 weken zien we de eerste citaties verschijnen voor klanten die hun content systematisch optimaliseren met AI Mode in gedachten. Snelheid hangt af van bestaande domain authority. Sites die al sterk ranken, schakelen sneller. Nieuwe sites moeten eerst voldoende organische ranking opbouwen voordat AI Mode hen overweegt."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is Google AI Mode?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google AI Mode is de AI-aangedreven zoekervaring waarbij Google een direct antwoord genereert in plaats van enkel een lijst blauwe links. Het systeem gebruikt content van het web als bron voor zijn antwoord en linkt door naar de gebruikte pagina's. Voor adverteerders en SEO-specialisten betekent dit een nieuw zichtbaarheidskanaal naast traditionele rankings."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe verschilt AI Mode van AI Overviews?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "AI Overviews zijn samenvattende blokken bovenaan reguliere zoekresultaten. AI Mode is een aparte interface waar je een conversatie kunt voeren met Google's AI. Beide gebruiken vergelijkbare bronnenselectie. Wie zichtbaar is in AI Overviews, heeft doorgaans ook een grotere kans om in AI Mode geciteerd te worden."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke content krijgt voorrang in AI Mode?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Content die direct antwoord geeft op concrete vragen, met heldere structuur en duidelijke autoriteit. Korte definities aan het begin van een paragraaf, FAQ-secties met schema markup, en pagina's met sterke topical authority worden vaker als bron gepakt. Lange inleidingen die het antwoord pas op alinea drie geven, doen het minder."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Maakt schema markup verschil voor AI Mode?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, en niet zomaar een beetje. FAQPage, HowTo, Article en Organization-schema helpen Google de structuur van je pagina te begrijpen. Een vraag in FAQPage-formaat is voor het AI-systeem direct herkenbaar als citeerbaar antwoord. Ontbreekt de schema, dan moet het systeem zelf raden waar de antwoorden staan en zijn de keuzekansen kleiner."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt klassieke SEO nog voor AI Mode?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, want AI Mode kiest zijn bronnen uit de Google-index. Pagina's die niet ranken in de top 20 organische resultaten worden zelden geciteerd. Het verschil zit in welke optimalisatie binnen die top-rankings de citatie binnenhaalt: directe antwoord-formats, schema, autoriteit plus E-E-A-T-signalen wegen zwaarder dan voorheen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe meet je zichtbaarheid in Google AI Mode?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Lastiger dan klassieke rank-tracking. Tools zoals AthenaHQ en Profound monitoren AI-citaties per zoekopdracht. Daarnaast: kijk in Google Search Console naar verkeer met specifieke 'AI Mode'-referrers (waar beschikbaar), en monitor je branded-search-volume tijdens AI-launches. Last-click attributie ondervangt dit kanaal vrijwel niet."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het om resultaat te zien?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Onze ervaring: tussen 8 en 16 weken zien we de eerste citaties verschijnen voor klanten die hun content systematisch optimaliseren met AI Mode in gedachten. Snelheid hangt af van bestaande domain authority. Sites die al sterk ranken, schakelen sneller. Nieuwe sites moeten eerst voldoende organische ranking opbouwen voordat AI Mode hen overweegt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Ranken in Google AI Mode",
+                                    "item": "https://www.empowers.nl/blogs/geo/rank-google-ai-mode"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "Ranken in Google AI Mode", "item": "https://www.empowers.nl/blogs/geo/rank-google-ai-mode" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

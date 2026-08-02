@@ -28,97 +28,122 @@ export default function BlogPostSeoDoodEvolueert2026() {
                 <meta name="twitter:title" content="Is SEO dood of evolueert het in 2026?" />
                 <meta name="twitter:description" content="Een eerlijk antwoord op de vraag of SEO nog werkt in 2026. Plus de nieuwe regels die je vandaag moet kennen." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Is SEO dood of evolueert het in 2026?",
-                        "description": "Is SEO dood in 2026 of evolueert het juist? Lees waarom SEO niet verdwijnt maar verandert door AI Overviews, GEO en zero-click searches en wat dit voor jou betekent.",
-                        "image": "https://www.empowers.nl/images/blogs/seo-dood-evolueert-2026.jpg",
-                        "datePublished": "2026-04-30T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Is SEO dood of evolueert het in 2026?",
+                            "description": "Is SEO dood in 2026 of evolueert het juist? Lees waarom SEO niet verdwijnt maar verandert door AI Overviews, GEO en zero-click searches en wat dit voor jou betekent.",
+                            "image": "https://www.empowers.nl/images/blogs/seo-dood-evolueert-2026.jpg",
+                            "datePublished": "2026-04-30T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is SEO dood in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee, SEO is niet dood in 2026. SEO evolueert. Google verwerkt nog steeds miljarden zoekopdrachten per dag en organisch verkeer blijft voor de meeste MKB-bedrijven het goedkoopste kanaal. Wat wel verandert is hoe SEO werkt: AI Overviews, zero-click searches en GEO veranderen welke content wint. Wie blijft schrijven zoals in 2018 verliest. Wie evolueert wint juist marktaandeel."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen SEO en GEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "SEO is gericht op organische resultaten in zoekmachines zoals Google. GEO (Generative Engine Optimization) is gericht op AI-systemen zoals ChatGPT, Perplexity en Google AI Overviews. Beide bouwen op vergelijkbare fundamenten zoals heldere structuur, autoriteit en relevante content, maar GEO vraagt extra aandacht voor citatiewaardige zinnen, schema markup en bronvermelding."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Verlies ik verkeer door AI Overviews van Google?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor informatieve zoekopdrachten daalt de click-through-rate met 15 tot 35 procent doordat Google direct een antwoord toont. Voor transactionele en commerciele zoekopdrachten blijft het verkeer grotendeels intact en kan het zelfs stijgen door betere kwalificatie. Wie als bron geciteerd wordt in een AI Overview krijgt wel verkeer, alleen anders verdeeld over de funnel."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke SEO-technieken werken niet meer in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Pure keyword stuffing, dunne AI-content zonder eigen invalshoek, gekochte backlinks van linkfarms en zoekwoord-doorgewinterde maar oppervlakkige pagina's werken niet meer. Google's spam-updates en E-E-A-T criteria filteren dit eruit. Wat wel blijft werken: diepgaande content vanuit eigen ervaring, technisch sterke websites en oprechte autoriteitsopbouw via partnerschappen en pers."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik nu starten met GEO als ik al SEO doe?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, bouw GEO uit als logisch verlengstuk van jouw bestaande SEO. Je hoeft niet alles los te bouwen. Begin met content die heldere antwoorden geeft, structureer met schema markup en zorg dat jouw expertise zichtbaar is via auteurspagina's en bronnen. Zo vergroot je tegelijk jouw kans om geciteerd te worden door zowel Google als ChatGPT, Perplexity en Claude."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel tijd kost moderne SEO per maand?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor een MKB-website ben je realistisch 8 tot 20 uur per maand kwijt aan moderne SEO. Dat omvat content schrijven, technische monitoring, linkbuilding, GEO-aanpassingen en analyse. Doe je het zelf, reken op 6 tot 12 maanden voor zichtbaar resultaat. Besteed je het uit, dan vergt het overleg en aanlevering van content nog steeds 2 tot 4 uur per maand."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik beter Google Ads draaien dan SEO doen in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Het is geen of-of keuze. Google Ads geeft directe resultaten maar stopt zodra je het budget afsluit. SEO is een investering die 6 tot 12 maanden duurt om te renderen, maar bouwt vervolgens een asset op die jaren werkt. De slimste MKB-strategie combineert beide: ads voor directe leads en SEO voor structurele groei en onafhankelijkheid van advertentiekosten."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Is SEO dood in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee, SEO is niet dood in 2026. SEO evolueert. Google verwerkt nog steeds miljarden zoekopdrachten per dag en organisch verkeer blijft voor de meeste MKB-bedrijven het goedkoopste kanaal. Wat wel verandert is hoe SEO werkt: AI Overviews, zero-click searches en GEO veranderen welke content wint. Wie blijft schrijven zoals in 2018 verliest. Wie evolueert wint juist marktaandeel."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen SEO en GEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "SEO is gericht op organische resultaten in zoekmachines zoals Google. GEO (Generative Engine Optimization) is gericht op AI-systemen zoals ChatGPT, Perplexity en Google AI Overviews. Beide bouwen op vergelijkbare fundamenten zoals heldere structuur, autoriteit en relevante content, maar GEO vraagt extra aandacht voor citatiewaardige zinnen, schema markup en bronvermelding."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Verlies ik verkeer door AI Overviews van Google?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor informatieve zoekopdrachten daalt de click-through-rate met 15 tot 35 procent doordat Google direct een antwoord toont. Voor transactionele en commerciele zoekopdrachten blijft het verkeer grotendeels intact en kan het zelfs stijgen door betere kwalificatie. Wie als bron geciteerd wordt in een AI Overview krijgt wel verkeer, alleen anders verdeeld over de funnel."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke SEO-technieken werken niet meer in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Pure keyword stuffing, dunne AI-content zonder eigen invalshoek, gekochte backlinks van linkfarms en zoekwoord-doorgewinterde maar oppervlakkige pagina's werken niet meer. Google's spam-updates en E-E-A-T criteria filteren dit eruit. Wat wel blijft werken: diepgaande content vanuit eigen ervaring, technisch sterke websites en oprechte autoriteitsopbouw via partnerschappen en pers."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik nu starten met GEO als ik al SEO doe?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, bouw GEO uit als logisch verlengstuk van jouw bestaande SEO. Je hoeft niet alles los te bouwen. Begin met content die heldere antwoorden geeft, structureer met schema markup en zorg dat jouw expertise zichtbaar is via auteurspagina's en bronnen. Zo vergroot je tegelijk jouw kans om geciteerd te worden door zowel Google als ChatGPT, Perplexity en Claude."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel tijd kost moderne SEO per maand?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor een MKB-website ben je realistisch 8 tot 20 uur per maand kwijt aan moderne SEO. Dat omvat content schrijven, technische monitoring, linkbuilding, GEO-aanpassingen en analyse. Doe je het zelf, reken op 6 tot 12 maanden voor zichtbaar resultaat. Besteed je het uit, dan vergt het overleg en aanlevering van content nog steeds 2 tot 4 uur per maand."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik beter Google Ads draaien dan SEO doen in 2026?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Het is geen of-of keuze. Google Ads geeft directe resultaten maar stopt zodra je het budget afsluit. SEO is een investering die 6 tot 12 maanden duurt om te renderen, maar bouwt vervolgens een asset op die jaren werkt. De slimste MKB-strategie combineert beide: ads voor directe leads en SEO voor structurele groei en onafhankelijkheid van advertentiekosten."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Is SEO dood of evolueert het in 2026?",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/seo-dood-evolueert-2026"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                            { "@type": "ListItem", "position": 4, "name": "Is SEO dood of evolueert het in 2026?", "item": "https://www.empowers.nl/blogs/algemeen/seo-dood-evolueert-2026" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

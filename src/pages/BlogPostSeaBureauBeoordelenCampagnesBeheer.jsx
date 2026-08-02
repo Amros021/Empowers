@@ -23,36 +23,110 @@ export default function BlogPostSeaBureauBeoordelenCampagnesBeheer() {
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "Article",
-                    "headline": "SEA bureau: zo beoordeel je of jouw campagnes goed worden beheerd",
-                    "description": "De zes checks die jij als opdrachtgever zelf kunt doen om te beoordelen of je SEA-bureau goed werk levert.",
-                    "image": "https://www.empowers.nl/images/blogs/sea-bureau-beoordelen-campagnes-beheer.jpg",
-                    "datePublished": "2026-05-14T13:00:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                    "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                        { "@type": "Question", "name": "Wat moet ik minimaal kunnen zien in mijn Google Ads account?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Je hoort eigenaar te zijn van je Google Ads account, niet enkel gast. Je moet zelf in Search Terms kunnen kijken, in Wijzigingsgeschiedenis (Change History), in alle conversie-acties en in de geïmporteerde Analytics-conversies. Als jij die toegang niet hebt heeft het bureau structureel meer controle dan jij over je eigen marketing." } },
-                        { "@type": "Question", "name": "Hoe vaak hoort er aan mijn campagnes gesleuteld te worden?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor een actief beheerd account: minimaal wekelijkse aanpassingen. Niet honderden, maar wel een handvol gerichte wijzigingen per week op zoekwoorden, biedingen, advertentieteksten of doelgroep-signalen. Maandelijks alleen aanraken is in 2026 te weinig, omdat Smart Bidding en Performance Max wekelijks input nodig hebben om scherp te blijven." } },
-                        { "@type": "Question", "name": "Wat is een gezond aandeel wasted spend?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Onder de 10 procent wasted spend per maand is goed. Tussen 10 en 20 procent acceptabel en bijstuurbaar. Boven 20 procent is een rood signaal: er wordt geld uitgegeven aan irrelevante zoektermen of doelgroepen. Je vindt het door in Search Terms onbruikbare termen te tellen en hun kosten op te tellen." } },
-                        { "@type": "Question", "name": "Hoe zie ik of het bureau echt strategisch werkt?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Aan twee dingen. Het maandrapport heeft een actielijst voor de volgende periode, gebaseerd op de cijfers van afgelopen maand. En in de Wijzigingsgeschiedenis zie je dat die actielijst de maand erna is uitgevoerd, niet pas afgesproken. Een bureau dat steeds dezelfde acties belooft zonder ze uit te voeren werkt niet strategisch." } },
-                        { "@type": "Question", "name": "Wat als ik tijdens de check rode vlaggen vind?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Plan een open gesprek waarin je concreet de bevindingen voorlegt. Niet als verwijt, maar als vraag: ik zag X, kun je me uitleggen waarom dat zo is? Een professioneel bureau geeft per bevinding een gegrond antwoord en een verbeterplan. Een vaag antwoord is op zichzelf het antwoord en geeft je richting voor de volgende stap." } },
-                        { "@type": "Question", "name": "Kan ik deze checks zelf doen of heb ik hulp nodig?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "De zes checks in dit artikel kun je zelf doen in een uur, ook zonder diepe Google Ads-kennis. Voor een diepere audit (Quality Score-analyse, attributie-modellen, feed-kwaliteit voor Performance Max) is een onafhankelijke specialist nuttig. Reken op een paar honderd euro voor zo'n quick scan, een investering die zichzelf vaak in een maand terugverdient." } }
-                    ] }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "SEA bureau beoordelen", "item": "https://www.empowers.nl/blogs/google-ads/sea-bureau-beoordelen-campagnes-beheer" }
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "SEA bureau: zo beoordeel je of jouw campagnes goed worden beheerd",
+                            "description": "De zes checks die jij als opdrachtgever zelf kunt doen om te beoordelen of je SEA-bureau goed werk levert.",
+                            "image": "https://www.empowers.nl/images/blogs/sea-bureau-beoordelen-campagnes-beheer.jpg",
+                            "datePublished": "2026-05-14T13:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat moet ik minimaal kunnen zien in mijn Google Ads account?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Je hoort eigenaar te zijn van je Google Ads account, niet enkel gast. Je moet zelf in Search Terms kunnen kijken, in Wijzigingsgeschiedenis (Change History), in alle conversie-acties en in de geïmporteerde Analytics-conversies. Als jij die toegang niet hebt heeft het bureau structureel meer controle dan jij over je eigen marketing."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak hoort er aan mijn campagnes gesleuteld te worden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor een actief beheerd account: minimaal wekelijkse aanpassingen. Niet honderden, maar wel een handvol gerichte wijzigingen per week op zoekwoorden, biedingen, advertentieteksten of doelgroep-signalen. Maandelijks alleen aanraken is in 2026 te weinig, omdat Smart Bidding en Performance Max wekelijks input nodig hebben om scherp te blijven."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een gezond aandeel wasted spend?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Onder de 10 procent wasted spend per maand is goed. Tussen 10 en 20 procent acceptabel en bijstuurbaar. Boven 20 procent is een rood signaal: er wordt geld uitgegeven aan irrelevante zoektermen of doelgroepen. Je vindt het door in Search Terms onbruikbare termen te tellen en hun kosten op te tellen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe zie ik of het bureau echt strategisch werkt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Aan twee dingen. Het maandrapport heeft een actielijst voor de volgende periode, gebaseerd op de cijfers van afgelopen maand. En in de Wijzigingsgeschiedenis zie je dat die actielijst de maand erna is uitgevoerd, niet pas afgesproken. Een bureau dat steeds dezelfde acties belooft zonder ze uit te voeren werkt niet strategisch."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat als ik tijdens de check rode vlaggen vind?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Plan een open gesprek waarin je concreet de bevindingen voorlegt. Niet als verwijt, maar als vraag: ik zag X, kun je me uitleggen waarom dat zo is? Een professioneel bureau geeft per bevinding een gegrond antwoord en een verbeterplan. Een vaag antwoord is op zichzelf het antwoord en geeft je richting voor de volgende stap."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik deze checks zelf doen of heb ik hulp nodig?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De zes checks in dit artikel kun je zelf doen in een uur, ook zonder diepe Google Ads-kennis. Voor een diepere audit (Quality Score-analyse, attributie-modellen, feed-kwaliteit voor Performance Max) is een onafhankelijke specialist nuttig. Reken op een paar honderd euro voor zo'n quick scan, een investering die zichzelf vaak in een maand terugverdient."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "SEA bureau beoordelen",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/sea-bureau-beoordelen-campagnes-beheer"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />

@@ -23,36 +23,110 @@ export default function BlogPostSeaUitbestedenVragenVoordatJeTekent() {
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "Article",
-                    "headline": "SEA uitbesteden: 7 vragen die je moet stellen voordat je tekent",
-                    "description": "Een concrete vragenset om SEA-bureaus te testen voor je tekent.",
-                    "image": "https://www.empowers.nl/images/blogs/sea-uitbesteden-vragen-voordat-je-tekent.jpg",
-                    "datePublished": "2026-05-13T16:30:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                    "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                        { "@type": "Question", "name": "Wat is de belangrijkste vraag aan een SEA-bureau?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Wie zit er dagelijks aan mijn account, hoeveel jaar ervaring heeft die en hoeveel andere accounts beheert hij of zij parallel? Het antwoord vertelt je of je senior expertise krijgt of een trainee. Specialisten die meer dan 15 actieve accounts parallel beheren hebben per definitie weinig tijd voor jouw groei. Een ratio van 6 tot 10 actieve accounts per consultant is gangbaar bij professionele bureaus." } },
-                        { "@type": "Question", "name": "Welke KPI's moet ik vragen?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Vraag specifiek naar de primaire KPI die het bureau wil hanteren, en hoe die zich verhoudt tot jouw werkelijke omzet of marge. Voor dienstverleners is dat CPL of CPA, voor webshops ROAS of CAC. Een bureau dat als hoofd-KPI clicks, impressies of CTR voorstelt is bezig met vanity metrics. Een professioneel bureau praat over conversies en omzet vanaf het eerste gesprek." } },
-                        { "@type": "Question", "name": "Hoe weet ik of een bureau echte ervaring heeft in mijn branche?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Vraag om twee referenties uit je eigen branche, met telefoonnummer of email. Een bureau dat dit niet kan leveren heeft die ervaring niet. Bonus: vraag of je een live Google Ads-account mag inkijken van een vergelijkbare klant na ondertekening van een NDA. Bureaus met diepe branchekennis delen dat zonder probleem." } },
-                        { "@type": "Question", "name": "Wat zijn de drie meest verbazende rode vlaggen?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Eén: een vast contract van 12 maanden zonder evaluatiemoment. Twee: het bureau wil eigenaar zijn van je Google Ads-account in plaats van toegang via MCC. Drie: groeibeloftes in het eerste gesprek zonder dat ze je marges of conversiedata kennen. Elk van deze signalen is zwaarwegender dan een mooi rapportage-template." } },
-                        { "@type": "Question", "name": "Wat moet er in de contract-discussie aan bod komen?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Account-eigendom op jouw naam. Een proefperiode van 1 tot 3 maanden waarin je zonder opzegtermijn kunt vertrekken. Een opzegtermijn na de proefperiode van maximaal één maand. Heldere lijst werkzaamheden per maand. Een prestatie-clausule: wat gebeurt er als KPI's twee maanden niet gehaald worden? Geen vage paragraaf, wel specifieke acties." } },
-                        { "@type": "Question", "name": "Hoeveel kost een gemiddelde SEA-uitbesteding?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor MKB-pakketten op één kanaal: tussen 1.500 en 3.500 euro management fee per maand. Voor multi-channel-pakketten: tot 4.500 euro of meer. Daarnaast je advertentiebudget. Lage prijzen onder de 1.000 euro betekenen meestal junior-werk of sjabloon-aanpakken. Vraag altijd: wat krijgt het bureau in totaal alles bij elkaar per maand?" } }
-                    ] }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "Vragen voordat je tekent", "item": "https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-vragen-voordat-je-tekent" }
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "SEA uitbesteden: 7 vragen die je moet stellen voordat je tekent",
+                            "description": "Een concrete vragenset om SEA-bureaus te testen voor je tekent.",
+                            "image": "https://www.empowers.nl/images/blogs/sea-uitbesteden-vragen-voordat-je-tekent.jpg",
+                            "datePublished": "2026-05-13T16:30:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is de belangrijkste vraag aan een SEA-bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Wie zit er dagelijks aan mijn account, hoeveel jaar ervaring heeft die en hoeveel andere accounts beheert hij of zij parallel? Het antwoord vertelt je of je senior expertise krijgt of een trainee. Specialisten die meer dan 15 actieve accounts parallel beheren hebben per definitie weinig tijd voor jouw groei. Een ratio van 6 tot 10 actieve accounts per consultant is gangbaar bij professionele bureaus."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke KPI's moet ik vragen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vraag specifiek naar de primaire KPI die het bureau wil hanteren, en hoe die zich verhoudt tot jouw werkelijke omzet of marge. Voor dienstverleners is dat CPL of CPA, voor webshops ROAS of CAC. Een bureau dat als hoofd-KPI clicks, impressies of CTR voorstelt is bezig met vanity metrics. Een professioneel bureau praat over conversies en omzet vanaf het eerste gesprek."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of een bureau echte ervaring heeft in mijn branche?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vraag om twee referenties uit je eigen branche, met telefoonnummer of email. Een bureau dat dit niet kan leveren heeft die ervaring niet. Bonus: vraag of je een live Google Ads-account mag inkijken van een vergelijkbare klant na ondertekening van een NDA. Bureaus met diepe branchekennis delen dat zonder probleem."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn de drie meest verbazende rode vlaggen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Eén: een vast contract van 12 maanden zonder evaluatiemoment. Twee: het bureau wil eigenaar zijn van je Google Ads-account in plaats van toegang via MCC. Drie: groeibeloftes in het eerste gesprek zonder dat ze je marges of conversiedata kennen. Elk van deze signalen is zwaarwegender dan een mooi rapportage-template."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat moet er in de contract-discussie aan bod komen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Account-eigendom op jouw naam. Een proefperiode van 1 tot 3 maanden waarin je zonder opzegtermijn kunt vertrekken. Een opzegtermijn na de proefperiode van maximaal één maand. Heldere lijst werkzaamheden per maand. Een prestatie-clausule: wat gebeurt er als KPI's twee maanden niet gehaald worden? Geen vage paragraaf, wel specifieke acties."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel kost een gemiddelde SEA-uitbesteding?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor MKB-pakketten op één kanaal: tussen 1.500 en 3.500 euro management fee per maand. Voor multi-channel-pakketten: tot 4.500 euro of meer. Daarnaast je advertentiebudget. Lage prijzen onder de 1.000 euro betekenen meestal junior-werk of sjabloon-aanpakken. Vraag altijd: wat krijgt het bureau in totaal alles bij elkaar per maand?"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Vragen voordat je tekent",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-vragen-voordat-je-tekent"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />

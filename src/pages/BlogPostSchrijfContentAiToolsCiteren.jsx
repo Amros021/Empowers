@@ -28,112 +28,114 @@ export default function BlogPostSchrijfContentAiToolsCiteren() {
                 <meta name="twitter:title" content="Hoe schrijf je content die AI-tools citeren?" />
                 <meta name="twitter:description" content="AI-tools citeren niet zomaar elke website. Lees hoe je content schrijft die ChatGPT, Claude en Perplexity aanhalen." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe schrijf je content die AI-tools citeren?",
-                        "description": "AI-tools zoals ChatGPT en Perplexity citeren niet zomaar elke website. Lees welke contentstructuur, schrijfstijl en technische stappen ervoor zorgen dat jouw pagina wordt aangehaald.",
-                        "image": "https://www.empowers.nl/images/blogs/schrijf-content-ai-tools-citeren.jpg",
-                        "datePublished": "2026-04-11T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe schrijf je content die AI-tools citeren?",
+                            "description": "AI-tools zoals ChatGPT en Perplexity citeren niet zomaar elke website. Lees welke contentstructuur, schrijfstijl en technische stappen ervoor zorgen dat jouw pagina wordt aangehaald.",
+                            "image": "https://www.empowers.nl/images/blogs/schrijf-content-ai-tools-citeren.jpg",
+                            "datePublished": "2026-04-11T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen SEO en GEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "SEO richt zich op hoge posities in zoekmachines zoals Google. GEO richt zich op zichtbaarheid in AI-tools zoals ChatGPT, Claude en Perplexity. Bij SEO draait het om klikken en rankings. Bij GEO draait het om geciteerd worden als betrouwbare bron in AI-antwoorden."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe bepalen AI-tools welke bronnen ze citeren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "AI-tools selecteren bronnen op basis van autoriteit, helderheid en structuur. Pagina's die directe antwoorden geven op specifieke vragen, feiten onderbouwen met cijfers en logisch zijn opgebouwd, worden vaker geciteerd. Daarnaast speelt de crawlbaarheid van je site een rol: als een AI-tool je pagina niet kan bereiken, kan hij je ook niet citeren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik mijn bestaande content aanpassen voor AI-tools?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, maar je hoeft niet alles opnieuw te schrijven. Begin met je best presterende pagina's. Voeg directe antwoorden toe aan het begin van elke sectie, gebruik duidelijke koppen die vragen beantwoorden en onderbouw claims met concrete cijfers. Dat zijn kleine aanpassingen met groot effect."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een llms.txt bestand?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een llms.txt bestand is vergelijkbaar met robots.txt maar dan voor AI-modellen. Het vertelt AI-crawlers welke pagina's belangrijk zijn, hoe je site is gestructureerd en welke content prioriteit heeft. Het is een eenvoudig tekstbestand dat je in de root van je website plaatst."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat AI-tools mijn content citeren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat verschilt per tool. Perplexity doorzoekt het web in real-time en kan je content direct citeren. ChatGPT met browsing-functie vindt je pagina's binnen dagen. Voor modellen zonder browsing hangt het af van wanneer je content in hun trainingsdata terechtkomt. Dat kan weken tot maanden duren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik meten of AI-tools mijn site citeren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Deels. Je kunt handmatig relevante vragen stellen aan ChatGPT, Claude en Perplexity en checken of jouw site wordt genoemd. Tools zoals Otterly.AI en GEO-monitoring dashboards automatiseren dit proces. Daarnaast kun je in je serverlogboeken zoeken naar crawlers van OpenAI, Anthropic en andere AI-bedrijven."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen SEO en GEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "SEO richt zich op hoge posities in zoekmachines zoals Google. GEO richt zich op zichtbaarheid in AI-tools zoals ChatGPT, Claude en Perplexity. Bij SEO draait het om klikken en rankings. Bij GEO draait het om geciteerd worden als betrouwbare bron in AI-antwoorden."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe bepalen AI-tools welke bronnen ze citeren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "AI-tools selecteren bronnen op basis van autoriteit, helderheid en structuur. Pagina's die directe antwoorden geven op specifieke vragen, feiten onderbouwen met cijfers en logisch zijn opgebouwd, worden vaker geciteerd. Daarnaast speelt de crawlbaarheid van je site een rol: als een AI-tool je pagina niet kan bereiken, kan hij je ook niet citeren."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik mijn bestaande content aanpassen voor AI-tools?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, maar je hoeft niet alles opnieuw te schrijven. Begin met je best presterende pagina's. Voeg directe antwoorden toe aan het begin van elke sectie, gebruik duidelijke koppen die vragen beantwoorden en onderbouw claims met concrete cijfers. Dat zijn kleine aanpassingen met groot effect."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een llms.txt bestand?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een llms.txt bestand is vergelijkbaar met robots.txt maar dan voor AI-modellen. Het vertelt AI-crawlers welke pagina's belangrijk zijn, hoe je site is gestructureerd en welke content prioriteit heeft. Het is een eenvoudig tekstbestand dat je in de root van je website plaatst."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat AI-tools mijn content citeren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dat verschilt per tool. Perplexity doorzoekt het web in real-time en kan je content direct citeren. ChatGPT met browsing-functie vindt je pagina's binnen dagen. Voor modellen zonder browsing hangt het af van wanneer je content in hun trainingsdata terechtkomt. Dat kan weken tot maanden duren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik meten of AI-tools mijn site citeren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Deels. Je kunt handmatig relevante vragen stellen aan ChatGPT, Claude en Perplexity en checken of jouw site wordt genoemd. Tools zoals Otterly.AI en GEO-monitoring dashboards automatiseren dit proces. Daarnaast kun je in je serverlogboeken zoeken naar crawlers van OpenAI, Anthropic en andere AI-bedrijven."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Content die AI-tools citeren",
+                                    "item": "https://www.empowers.nl/blogs/geo/schrijf-content-ai-tools-citeren"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "GEO",
-                                "item": "https://www.empowers.nl/blogs/geo"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "Content die AI-tools citeren",
-                                "item": "https://www.empowers.nl/blogs/geo/schrijf-content-ai-tools-citeren"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

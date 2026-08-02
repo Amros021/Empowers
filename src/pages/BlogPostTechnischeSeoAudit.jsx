@@ -28,92 +28,114 @@ export default function BlogPostTechnischeSeoAudit() {
                 <meta name="twitter:title" content="Technische SEO audit in 2026: de complete checklist" />
                 <meta name="twitter:description" content="Welke technische SEO fouten remmen jouw rankings af? De complete audit checklist voor 2026." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Technische SEO audit in 2026: de complete checklist",
-                        "description": "Een technische SEO audit legt bloot wat jouw rankings stiekem afremt. Lees de complete checklist 2026: van crawlability en Core Web Vitals tot indexatie, schema en logbestanden.",
-                        "image": "https://www.empowers.nl/images/blogs/technische-seo-audit.jpg",
-                        "datePublished": "2026-04-22T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Technische SEO audit in 2026: de complete checklist",
+                            "description": "Een technische SEO audit legt bloot wat jouw rankings stiekem afremt. Lees de complete checklist 2026: van crawlability en Core Web Vitals tot indexatie, schema en logbestanden.",
+                            "image": "https://www.empowers.nl/images/blogs/technische-seo-audit.jpg",
+                            "datePublished": "2026-04-22T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een technische SEO audit precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een technische SEO audit is een gestructureerd onderzoek van alle niet-content factoren die bepalen of Google jouw website goed kan lezen, begrijpen en indexeren. Denk aan crawlability, sitestructuur, indexatie, laadsnelheid, Core Web Vitals, interne links, schema markup, redirects, canonicals en HTTPS. Het resultaat is een lijst concrete fouten en de prioriteit per fix."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vaak moet je een technische SEO audit uitvoeren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste bedrijven volstaat één grondige audit per jaar, aangevuld met een kwartaalcheck op crawlfouten, indexatie en Core Web Vitals. Na een migratie, re-design of grote contentwissel doe je altijd direct een verkorte audit om te voorkomen dat rankings stilletjes wegzakken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke tools heb je nodig voor een technische SEO audit?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Je komt een heel eind met een combinatie van gratis en betaalde tools: Google Search Console voor indexatie en prestaties, PageSpeed Insights voor Core Web Vitals, Screaming Frog of Sitebulb voor een volledige site crawl, Ahrefs of Semrush voor links en rankings, en Google Analytics 4 voor gebruikersgedrag. Voor grote sites zijn logfile-analyzers zoals Screaming Frog Log Analyzer of JetOctopus nuttig."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt een technische SEO audit gemiddeld?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor een MKB-website met 100 tot 500 pagina's kost een grondige audit één tot twee volle werkdagen. Voor webshops en grotere sites met duizenden pagina's reken je drie tot vijf dagen, plus extra tijd voor logfile-analyse. De audit zelf is maar het begin — het doorvoeren van de fixes kost meestal het tienvoudige."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn de meest voorkomende problemen die een technische SEO audit oplevert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De top vijf in 2026: dubbele content door onjuiste canonicals, trage Core Web Vitals op mobiel, belangrijke pagina's die per ongeluk op noindex staan, gebroken interne links na een migratie, en een sitemap die niet matcht met de daadwerkelijk geïndexeerde pagina's. Deze vijf los je op en je ziet vaak binnen zes weken betere rankings."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is een technische SEO audit zelf te doen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een basis-audit met Search Console en PageSpeed Insights kun je zelf doen — dat vangt de grootste fouten af. Voor een complete audit met logfile-analyse, JavaScript rendering checks en een gestructureerd fix-plan is technische ervaring nodig. De meeste MKB-bedrijven kiezen voor een hybride aanpak: zelf de basis, een specialist voor de diepte."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een technische SEO audit precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een technische SEO audit is een gestructureerd onderzoek van alle niet-content factoren die bepalen of Google jouw website goed kan lezen, begrijpen en indexeren. Denk aan crawlability, sitestructuur, indexatie, laadsnelheid, Core Web Vitals, interne links, schema markup, redirects, canonicals en HTTPS. Het resultaat is een lijst concrete fouten en de prioriteit per fix."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe vaak moet je een technische SEO audit uitvoeren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de meeste bedrijven volstaat één grondige audit per jaar, aangevuld met een kwartaalcheck op crawlfouten, indexatie en Core Web Vitals. Na een migratie, re-design of grote contentwissel doe je altijd direct een verkorte audit om te voorkomen dat rankings stilletjes wegzakken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke tools heb je nodig voor een technische SEO audit?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Je komt een heel eind met een combinatie van gratis en betaalde tools: Google Search Console voor indexatie en prestaties, PageSpeed Insights voor Core Web Vitals, Screaming Frog of Sitebulb voor een volledige site crawl, Ahrefs of Semrush voor links en rankings, en Google Analytics 4 voor gebruikersgedrag. Voor grote sites zijn logfile-analyzers zoals Screaming Frog Log Analyzer of JetOctopus nuttig."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt een technische SEO audit gemiddeld?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor een MKB-website met 100 tot 500 pagina's kost een grondige audit één tot twee volle werkdagen. Voor webshops en grotere sites met duizenden pagina's reken je drie tot vijf dagen, plus extra tijd voor logfile-analyse. De audit zelf is maar het begin — het doorvoeren van de fixes kost meestal het tienvoudige."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat zijn de meest voorkomende problemen die een technische SEO audit oplevert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De top vijf in 2026: dubbele content door onjuiste canonicals, trage Core Web Vitals op mobiel, belangrijke pagina's die per ongeluk op noindex staan, gebroken interne links na een migratie, en een sitemap die niet matcht met de daadwerkelijk geïndexeerde pagina's. Deze vijf los je op en je ziet vaak binnen zes weken betere rankings."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Is een technische SEO audit zelf te doen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een basis-audit met Search Console en PageSpeed Insights kun je zelf doen — dat vangt de grootste fouten af. Voor een complete audit met logfile-analyse, JavaScript rendering checks en een gestructureerd fix-plan is technische ervaring nodig. De meeste MKB-bedrijven kiezen voor een hybride aanpak: zelf de basis, een specialist voor de diepte."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Technische SEO audit 2026",
+                                    "item": "https://www.empowers.nl/blogs/seo/technische-seo-audit"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "SEO", "item": "https://www.empowers.nl/blogs/seo" },
-                            { "@type": "ListItem", "position": 4, "name": "Technische SEO audit 2026", "item": "https://www.empowers.nl/blogs/seo/technische-seo-audit" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

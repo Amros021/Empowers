@@ -29,8 +29,16 @@ export default function BlogPostSeoStrategieVervangenDoorGeo() {
                             "headline": "Moet je jouw SEO-strategie vervangen door GEO?",
                             "image": "https://www.empowers.nl/images/blogs/seo-strategie-vervangen-door-geo.jpg",
                             "description": "Nee, vervang SEO niet door GEO. Beide werken samen. Leer waarom bedrijven SEO + GEO combineren, en hoe je dit voor jouw MKB inzet voor maximale online groei.",
-                            "author": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-03-26T00:00:00+01:00",
                             "dateModified": "2026-03-26T00:00:00+01:00",
                             "url": "https://www.empowers.nl/blogs/geo/seo-strategie-vervangen-door-geo"
@@ -38,28 +46,99 @@ export default function BlogPostSeoStrategieVervangenDoorGeo() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Moet ik SEO loslaten en vol op GEO gaan?", "acceptedAnswer": { "@type": "Answer", "text": "Absoluut niet. SEO blijft een van de meest waardevol kanalen voor online groei. Google-zoekopdrachten groeien nog steeds. Veel van wat je voor GEO doet, sterkt ook je SEO. Het zijn geen tegenstanders. Ze werken samen. Een sterke SEO-basis maakt je GEO-inzet veel effectiever." } },
-                                { "@type": "Question", "name": "Welke krijgt prioriteit: SEO of GEO?", "acceptedAnswer": { "@type": "Answer", "text": "Voor het merendeel van de bedrijven geldt: eerst SEO goed afschoten, dan GEO erbovenop. SEO brengt betrouwbare, voorspelbare traffic. GEO groeien met de jaren. Start met betere content, technische basis en backlinks. Zodra die stabiel zijn, scherp je GEO aan door schema-markup, diepere content en meer mentions te bouwen." } },
-                                { "@type": "Question", "name": "Hoeveel budget moet ik splitsen?", "acceptedAnswer": { "@type": "Answer", "text": "Hang af van je huidge positie. Geen sterke SEO? 70% SEO, 30% GEO. Stabiele SEO-ranking? 50% SEO, 50% GEO. Met GEO bouw je menselijke autoriteit op die zoekmachines ook waarderen. Veel van je investeringen tellen voor beide kanalen mee. Het is geen of-of keuze." } },
-                                { "@type": "Question", "name": "Gaat GEO SEO vervangen in de toekomst?", "acceptedAnswer": { "@type": "Answer", "text": "Experts denken dat AI-search en Google-search langdurig samen bestaan. Hoewel AI groeit, zal Google niet verdwijnen. Mensen gebruiken beide tools voor verschillende vragen. Een artikel schrijven? Google. Snel een antwoord? ChatGPT. De bedrijven die nu beide kanalen bedienen, verdienen het meest." } },
-                                { "@type": "Question", "name": "Welke kant wint uiteindelijk?", "acceptedAnswer": { "@type": "Answer", "text": "Beide. Als je op dit moment kiest voor SEO of GEO, kies je verkeerd. De winnaars zijn bedrijven die een geïntegreerde strategie hanteren: goede content, authoriteit opbouwen, technische basis schoon, schema-markup, mentions. Dit helpt overal. Google, ChatGPT, Gemini, allemaal." } },
-                                { "@type": "Question", "name": "Wat doen mijn concurrenten?", "acceptedAnswer": { "@type": "Answer", "text": "De meeste bedrijven hebben nog niet eens hun basis op SEO goed voor elkaar. GEO is nog niche. Dit geeft jou voordeel. Wie nu beide doet, loopt miljoenenmijlen vooruit. Bij onze klanten zien we dat gecombineerde SEO+GEO-inzet in 6 maanden leidt tot 40-60% meer kwaliteitslead." } },
-                                { "@type": "Question", "name": "Hoe begin ik als ik nu geen SEO heb?", "acceptedAnswer": { "@type": "Answer", "text": "Stap 1: Content-audit. Welke vragen stellen jouw klanten? Schrijf daar antwoorden voor. Stap 2: Technische basis. Zorg dat je website snel is, mobiel werkt en schema-markup heeft. Stap 3: Extern groeien. Zorg dat branchedirectories, Google Mijn Bedrijf en relevante partners jou vermelden. Dit geeft SEO en GEO tegelijk een boost. We helpen je dit in te zetten." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Moet ik SEO loslaten en vol op GEO gaan?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Absoluut niet. SEO blijft een van de meest waardevol kanalen voor online groei. Google-zoekopdrachten groeien nog steeds. Veel van wat je voor GEO doet, sterkt ook je SEO. Het zijn geen tegenstanders. Ze werken samen. Een sterke SEO-basis maakt je GEO-inzet veel effectiever."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Welke krijgt prioriteit: SEO of GEO?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Voor het merendeel van de bedrijven geldt: eerst SEO goed afschoten, dan GEO erbovenop. SEO brengt betrouwbare, voorspelbare traffic. GEO groeien met de jaren. Start met betere content, technische basis en backlinks. Zodra die stabiel zijn, scherp je GEO aan door schema-markup, diepere content en meer mentions te bouwen."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoeveel budget moet ik splitsen?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Hang af van je huidge positie. Geen sterke SEO? 70% SEO, 30% GEO. Stabiele SEO-ranking? 50% SEO, 50% GEO. Met GEO bouw je menselijke autoriteit op die zoekmachines ook waarderen. Veel van je investeringen tellen voor beide kanalen mee. Het is geen of-of keuze."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Gaat GEO SEO vervangen in de toekomst?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Experts denken dat AI-search en Google-search langdurig samen bestaan. Hoewel AI groeit, zal Google niet verdwijnen. Mensen gebruiken beide tools voor verschillende vragen. Een artikel schrijven? Google. Snel een antwoord? ChatGPT. De bedrijven die nu beide kanalen bedienen, verdienen het meest."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Welke kant wint uiteindelijk?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Beide. Als je op dit moment kiest voor SEO of GEO, kies je verkeerd. De winnaars zijn bedrijven die een geïntegreerde strategie hanteren: goede content, authoriteit opbouwen, technische basis schoon, schema-markup, mentions. Dit helpt overal. Google, ChatGPT, Gemini, allemaal."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat doen mijn concurrenten?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "De meeste bedrijven hebben nog niet eens hun basis op SEO goed voor elkaar. GEO is nog niche. Dit geeft jou voordeel. Wie nu beide doet, loopt miljoenenmijlen vooruit. Bij onze klanten zien we dat gecombineerde SEO+GEO-inzet in 6 maanden leidt tot 40-60% meer kwaliteitslead."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe begin ik als ik nu geen SEO heb?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Stap 1: Content-audit. Welke vragen stellen jouw klanten? Schrijf daar antwoorden voor. Stap 2: Technische basis. Zorg dat je website snel is, mobiel werkt en schema-markup heeft. Stap 3: Extern groeien. Zorg dat branchedirectories, Google Mijn Bedrijf en relevante partners jou vermelden. Dit geeft SEO en GEO tegelijk een boost. We helpen je dit in te zetten."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Moet je jouw SEO-strategie vervangen door GEO?",
+                                    "item": "https://www.empowers.nl/blogs/geo/seo-strategie-vervangen-door-geo"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                        { "@type": "ListItem", "position": 4, "name": "Moet je jouw SEO-strategie vervangen door GEO?", "item": "https://www.empowers.nl/blogs/geo/seo-strategie-vervangen-door-geo" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Moet je jouw SEO-strategie vervangen door GEO?" />
+        <meta name="twitter:description" content="Nee, vervang SEO niet door GEO. Beide werken samen. Leer waarom bedrijven SEO + GEO combineren, en hoe je dit voor jouw " />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

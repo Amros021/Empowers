@@ -38,96 +38,115 @@ export default function BlogPostSocialMediaAdverterenUitbestedenMetenResultaat()
                 />
                 <meta name="twitter:image" content="https://www.empowers.nl/images/blogs/social-media-adverteren-uitbesteden-meten-resultaat.jpg" />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Social media adverteren uitbesteden: zo meet je of het werkt",
-                        "description": "Heb je social media adverteren uitbesteed? Dit is hoe je in 30 minuten per maand vaststelt of het bureau resultaat levert of alleen knopjes draait.",
-                        "image": "https://www.empowers.nl/images/blogs/social-media-adverteren-uitbesteden-meten-resultaat.jpg",
-                        "datePublished": "2026-05-21T09:00:00+02:00",
-                        "dateModified": "2026-05-21T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Social media adverteren uitbesteden: zo meet je of het werkt",
+                            "description": "Heb je social media adverteren uitbesteed? Dit is hoe je in 30 minuten per maand vaststelt of het bureau resultaat levert of alleen knopjes draait.",
+                            "image": "https://www.empowers.nl/images/blogs/social-media-adverteren-uitbesteden-meten-resultaat.jpg",
+                            "datePublished": "2026-05-21T09:00:00+02:00",
+                            "dateModified": "2026-05-21T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
                             }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Social media adverteren uitbesteden meten",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/social-media-adverteren-uitbesteden-meten-resultaat"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                {
+                                    "@type": "Question",
+                                    "name": "Welke metrics laat ik mijn social ads bureau elke maand rapporteren?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Houd het kort en hard: besteed budget, aantal conversies, kosten per conversie, ROAS, omzet uit ads, gemiddelde orderwaarde en de top drie creatives op rendement. Daarbij hoort altijd een korte schriftelijke duiding van wat er volgende maand verandert. Bereik en impressies horen op de tweede pagina, niet op de eerste."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe weet ik of het bureau ROAS opklopt met merknaam-clicks?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Vraag om een uitsplitsing tussen warme en koude doelgroepen. Retargeting en branded audiences scoren altijd een mooie ROAS omdat die mensen je al kennen. Het echte werk gebeurt op koude prospecting. Als je bureau alleen het totaal laat zien, mis je 80 procent van het verhaal."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is een realistische ROAS na drie maanden uitbesteden?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Dat verschilt per branche en marge. Een webshop met 50 procent marge mag mikken op een blended ROAS van 3 tot 4. Een dienstverlener stuurt liever op kosten per gekwalificeerde lead. Belangrijker dan een absoluut getal: zie je elke maand verbetering op dezelfde meetmethode? Dan zit het goed."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Welke tools heb ik nodig om mee te kunnen kijken?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Een gedeelde Google Analytics 4 view, leestoegang tot Meta Ads Manager, leestoegang tot Google Ads als ook daar wordt geadverteerd, en een gedeeld dashboard in Looker Studio of een vergelijkbare tool. Vraag bij start van de samenwerking om alle accounts op jouw naam te zetten. Niet op die van het bureau."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe weet ik of een rapportage eerlijk is?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Eerlijke rapporten benoemen wat er niet werkte. Drie maanden achter elkaar alleen groene cijfers is verdacht. Vraag actief naar mislukte tests, gestopte campagnes en wat de leerpunten waren. Een bureau dat geen verliezen kan laten zien, heeft ze ofwel niet gedraaid, ofwel verstopt onder het tapijt."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wanneer is het tijd om afscheid te nemen van mijn social ads bureau?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Twee signalen zijn helder. Eerst: de kosten per conversie stijgen al vier maanden zonder uitleg of plan om dat om te buigen. Daarnaast: rapportages worden dunner, gesprekken vager en je krijgt steeds vaker de junior aan de lijn in plaats van de specialist. Dan is wisselen meestal goedkoper dan blijven zitten."
+                                    }
+                                }
+                            ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Social media adverteren uitbesteden meten", "item": "https://www.empowers.nl/blogs/social-ads/social-media-adverteren-uitbesteden-meten-resultaat" }
-                        ]
-                    })}
-                </script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": [
-                            {
-                                "@type": "Question",
-                                "name": "Welke metrics laat ik mijn social ads bureau elke maand rapporteren?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Houd het kort en hard: besteed budget, aantal conversies, kosten per conversie, ROAS, omzet uit ads, gemiddelde orderwaarde en de top drie creatives op rendement. Daarbij hoort altijd een korte schriftelijke duiding van wat er volgende maand verandert. Bereik en impressies horen op de tweede pagina, niet op de eerste."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Hoe weet ik of het bureau ROAS opklopt met merknaam-clicks?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Vraag om een uitsplitsing tussen warme en koude doelgroepen. Retargeting en branded audiences scoren altijd een mooie ROAS omdat die mensen je al kennen. Het echte werk gebeurt op koude prospecting. Als je bureau alleen het totaal laat zien, mis je 80 procent van het verhaal."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Wat is een realistische ROAS na drie maanden uitbesteden?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Dat verschilt per branche en marge. Een webshop met 50 procent marge mag mikken op een blended ROAS van 3 tot 4. Een dienstverlener stuurt liever op kosten per gekwalificeerde lead. Belangrijker dan een absoluut getal: zie je elke maand verbetering op dezelfde meetmethode? Dan zit het goed."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Welke tools heb ik nodig om mee te kunnen kijken?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Een gedeelde Google Analytics 4 view, leestoegang tot Meta Ads Manager, leestoegang tot Google Ads als ook daar wordt geadverteerd, en een gedeeld dashboard in Looker Studio of een vergelijkbare tool. Vraag bij start van de samenwerking om alle accounts op jouw naam te zetten. Niet op die van het bureau."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Hoe weet ik of een rapportage eerlijk is?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Eerlijke rapporten benoemen wat er niet werkte. Drie maanden achter elkaar alleen groene cijfers is verdacht. Vraag actief naar mislukte tests, gestopte campagnes en wat de leerpunten waren. Een bureau dat geen verliezen kan laten zien, heeft ze ofwel niet gedraaid, ofwel verstopt onder het tapijt."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Wanneer is het tijd om afscheid te nemen van mijn social ads bureau?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Twee signalen zijn helder. Eerst: de kosten per conversie stijgen al vier maanden zonder uitleg of plan om dat om te buigen. Daarnaast: rapportages worden dunner, gesprekken vager en je krijgt steeds vaker de junior aan de lijn in plaats van de specialist. Dan is wisselen meestal goedkoper dan blijven zitten."
-                                }
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

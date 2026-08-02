@@ -28,97 +28,122 @@ export default function BlogPostSeaBureauVergelijkenResultaten() {
                 <meta name="twitter:title" content="SEA Bureau vergelijken: zo beoordeel je resultaten en rapportages" />
                 <meta name="twitter:description" content="KPI's die echt tellen, rode vlaggen in rapportages en wanneer je moet switchen van SEA bureau." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "SEA Bureau vergelijken: zo beoordeel je resultaten en rapportages (2026)",
-                        "description": "Hoe beoordeel je of jouw huidige SEA bureau goed presteert? Lees welke KPI's je controleert, hoe je rapportages leest en wanneer je moet switchen.",
-                        "image": "https://www.empowers.nl/images/blogs/sea-bureau-vergelijken-resultaten-rapportages.jpg",
-                        "datePublished": "2026-05-03T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "SEA Bureau vergelijken: zo beoordeel je resultaten en rapportages (2026)",
+                            "description": "Hoe beoordeel je of jouw huidige SEA bureau goed presteert? Lees welke KPI's je controleert, hoe je rapportages leest en wanneer je moet switchen.",
+                            "image": "https://www.empowers.nl/images/blogs/sea-bureau-vergelijken-resultaten-rapportages.jpg",
+                            "datePublished": "2026-05-03T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke KPI's tellen het zwaarst bij een SEA bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "ROAS of CPA telt het zwaarst, niet CTR of impressies. Een bureau dat alleen klikgroei rapporteert maar geen omzetgroei, levert geen bewijs van rendement. Vraag altijd om kosten per geconverteerde klik gekoppeld aan jouw eigen omzetdata uit de webshop of CRM."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een normale frequentie voor SEA rapportages?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een maandelijkse rapportage met telefonische of online toelichting is standaard. Daarbovenop hoort een live dashboard waar je elk moment de actuele cijfers ziet. Bureaus die alleen 1 PDF per maand sturen zonder live inzicht zijn niet meer van deze tijd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is het tijd om van SEA bureau te switchen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Als ROAS of CPA 3 maanden achter elkaar verslechtert zonder uitleg, als rapportages oppervlakkig blijven of als jouw vragen niet binnen 24 uur beantwoord worden. Ook als jouw bureau geen toegang geeft tot het Google Ads account, is dat een rode vlag."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen ROAS en CPA?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "ROAS is omzet gedeeld door advertentiekosten en past bij e-commerce. CPA is kosten per actie en past bij dienstverleners die met leads werken. Goede bureaus rapporteren op de KPI die past bij jouw verdienmodel, niet op een algemene maatstaf."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Krijg je eigenaarschap over jouw Google Ads account bij een bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, dat hoort. Het account staat op jouw bedrijfsnaam, jouw bureau heeft beheerderstoegang. Als je wilt switchen, neem je het account mee inclusief alle data en historiek. Bureaus die hun eigen account aanmaken en daar jouw campagnes in draaien, doen het verkeerd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet je of jouw bureau te veel campagnes draait?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Veel campagnes met klein budget per stuk halen minder uit machine learning. Een vuistregel: minstens 30 conversies per campagne per maand. Heb je 6 campagnes met elk 5 conversies, dan zit het algoritme in een leerfase en presteert geen enkele goed."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe vergelijk je twee SEA bureaus eerlijk?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vraag beide bureaus om dezelfde 30 dagen data uit hetzelfde account aan te leveren met ROAS, CPA, conversievolume en wijzigingen. Vraag wat ze in maand 1, 2 en 3 zouden veranderen en waarom. Het bureau met de meest concrete plannen en eerlijke aannames wint, niet het bureau met de mooiste presentatie."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke KPI's tellen het zwaarst bij een SEA bureau?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "ROAS of CPA telt het zwaarst, niet CTR of impressies. Een bureau dat alleen klikgroei rapporteert maar geen omzetgroei, levert geen bewijs van rendement. Vraag altijd om kosten per geconverteerde klik gekoppeld aan jouw eigen omzetdata uit de webshop of CRM."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een normale frequentie voor SEA rapportages?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een maandelijkse rapportage met telefonische of online toelichting is standaard. Daarbovenop hoort een live dashboard waar je elk moment de actuele cijfers ziet. Bureaus die alleen 1 PDF per maand sturen zonder live inzicht zijn niet meer van deze tijd."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer is het tijd om van SEA bureau te switchen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Als ROAS of CPA 3 maanden achter elkaar verslechtert zonder uitleg, als rapportages oppervlakkig blijven of als jouw vragen niet binnen 24 uur beantwoord worden. Ook als jouw bureau geen toegang geeft tot het Google Ads account, is dat een rode vlag."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen ROAS en CPA?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "ROAS is omzet gedeeld door advertentiekosten en past bij e-commerce. CPA is kosten per actie en past bij dienstverleners die met leads werken. Goede bureaus rapporteren op de KPI die past bij jouw verdienmodel, niet op een algemene maatstaf."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Krijg je eigenaarschap over jouw Google Ads account bij een bureau?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, dat hoort. Het account staat op jouw bedrijfsnaam, jouw bureau heeft beheerderstoegang. Als je wilt switchen, neem je het account mee inclusief alle data en historiek. Bureaus die hun eigen account aanmaken en daar jouw campagnes in draaien, doen het verkeerd."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe weet je of jouw bureau te veel campagnes draait?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Veel campagnes met klein budget per stuk halen minder uit machine learning. Een vuistregel: minstens 30 conversies per campagne per maand. Heb je 6 campagnes met elk 5 conversies, dan zit het algoritme in een leerfase en presteert geen enkele goed."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe vergelijk je twee SEA bureaus eerlijk?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vraag beide bureaus om dezelfde 30 dagen data uit hetzelfde account aan te leveren met ROAS, CPA, conversievolume en wijzigingen. Vraag wat ze in maand 1, 2 en 3 zouden veranderen en waarom. Het bureau met de meest concrete plannen en eerlijke aannames wint, niet het bureau met de mooiste presentatie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "SEA bureau vergelijken",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/sea-bureau-vergelijken-resultaten-rapportages"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "SEA bureau vergelijken", "item": "https://www.empowers.nl/blogs/google-ads/sea-bureau-vergelijken-resultaten-rapportages" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -28,92 +28,114 @@ export default function BlogPostStraftGoogleAiGegenereerdeContent() {
                 <meta name="twitter:title" content="Straft Google AI-gegenereerde content af?" />
                 <meta name="twitter:description" content="Wat Google echt doet met AI-content." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Straft Google AI-gegenereerde content af?",
-                        "description": "Wordt AI-content door Google bestraft? Lees wat Google echt detecteert, welke richtlijnen gelden en hoe je AI veilig inzet zonder je rankings te slopen.",
-                        "image": "https://www.empowers.nl/images/blogs/straft-google-ai-gegenereerde-content.jpg",
-                        "datePublished": "2026-05-12T13:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Straft Google AI-gegenereerde content af?",
+                            "description": "Wordt AI-content door Google bestraft? Lees wat Google echt detecteert, welke richtlijnen gelden en hoe je AI veilig inzet zonder je rankings te slopen.",
+                            "image": "https://www.empowers.nl/images/blogs/straft-google-ai-gegenereerde-content.jpg",
+                            "datePublished": "2026-05-12T13:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Straft Google AI-content af?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google straft AI-content niet automatisch af. Sinds het Helpful Content System uit 2022 en de updates van 2024 kijkt Google naar de kwaliteit van de content, niet naar wie of wat het geschreven heeft. Schaalbare, lage-kwaliteit content wordt wel afgestraft, ongeacht of die door een mens of AI is gemaakt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan Google AI-content herkennen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google heeft geen officiële AI-detector aangekondigd, maar werkt met kwaliteitssignalen die toevallig samenvallen met AI-patronen. Denk aan herhaling, generieke formuleringen, gebrek aan originele inzichten of bronnen. Of het nu mens of AI is, content zonder waarde scoort niet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Mag ik AI gebruiken om mijn blogs te schrijven?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, mits je de output behandelt als een eerste concept. Google verwacht dat je eigen expertise, voorbeelden, data of klantcases toevoegt. Een blog die letterlijk ChatGPT-output is, zonder bewerking, raakt zelden de top 10. Hetzelfde stuk met jouw inzichten erin verwerkt, kan prima ranken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het Helpful Content System?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Het Helpful Content System is een Google-algoritme dat sinds 2022 actief is en bepaalt of een pagina als nuttig wordt gezien voor een echte gebruiker. Sinds maart 2024 is het geen losse update meer maar onderdeel van het kernalgoritme. Sites die te veel niet-nuttige content publiceren, dalen ook voor goede pagina's."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe gebruik ik AI veilig voor SEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Gebruik AI voor structuur, eerste concepten en saaie elementen zoals meta-omschrijvingen. Voeg daarna handmatig eigen voorbeelden, ervaring, citaten of data toe. Laat een mens redigeren op feiten, toon en herkenbaarheid. Hoe meer eigen waarde, hoe veiliger de content."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Worden websites met AI-content uit Google gegooid?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet vanwege het feit dat het AI is, wel als de hele site bestaat uit massa-geproduceerde, generieke content zonder unieke waarde. De grote afstraffingen in 2024 raakten sites die honderden AI-pagina's per maand publiceerden zonder enige menselijke check of meerwaarde."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Straft Google AI-content af?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google straft AI-content niet automatisch af. Sinds het Helpful Content System uit 2022 en de updates van 2024 kijkt Google naar de kwaliteit van de content, niet naar wie of wat het geschreven heeft. Schaalbare, lage-kwaliteit content wordt wel afgestraft, ongeacht of die door een mens of AI is gemaakt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Kan Google AI-content herkennen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google heeft geen officiële AI-detector aangekondigd, maar werkt met kwaliteitssignalen die toevallig samenvallen met AI-patronen. Denk aan herhaling, generieke formuleringen, gebrek aan originele inzichten of bronnen. Of het nu mens of AI is, content zonder waarde scoort niet."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Mag ik AI gebruiken om mijn blogs te schrijven?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, mits je de output behandelt als een eerste concept. Google verwacht dat je eigen expertise, voorbeelden, data of klantcases toevoegt. Een blog die letterlijk ChatGPT-output is, zonder bewerking, raakt zelden de top 10. Hetzelfde stuk met jouw inzichten erin verwerkt, kan prima ranken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het Helpful Content System?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Het Helpful Content System is een Google-algoritme dat sinds 2022 actief is en bepaalt of een pagina als nuttig wordt gezien voor een echte gebruiker. Sinds maart 2024 is het geen losse update meer maar onderdeel van het kernalgoritme. Sites die te veel niet-nuttige content publiceren, dalen ook voor goede pagina's."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe gebruik ik AI veilig voor SEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Gebruik AI voor structuur, eerste concepten en saaie elementen zoals meta-omschrijvingen. Voeg daarna handmatig eigen voorbeelden, ervaring, citaten of data toe. Laat een mens redigeren op feiten, toon en herkenbaarheid. Hoe meer eigen waarde, hoe veiliger de content."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Worden websites met AI-content uit Google gegooid?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet vanwege het feit dat het AI is, wel als de hele site bestaat uit massa-geproduceerde, generieke content zonder unieke waarde. De grote afstraffingen in 2024 raakten sites die honderden AI-pagina's per maand publiceerden zonder enige menselijke check of meerwaarde."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google en AI-content",
+                                    "item": "https://www.empowers.nl/blogs/strategie/straft-google-ai-gegenereerde-content"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                            { "@type": "ListItem", "position": 4, "name": "Google en AI-content", "item": "https://www.empowers.nl/blogs/strategie/straft-google-ai-gegenereerde-content" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

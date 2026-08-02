@@ -28,112 +28,114 @@ export default function BlogPostTikTokAdverterenViralTeHoeven() {
                 <meta name="twitter:title" content="TikTok adverteren zonder viral te hoeven gaan: zo doe je het" />
                 <meta name="twitter:description" content="TikTok adverteren werkt ook zonder viral te gaan. Zo bereik je klanten met betaalde ads." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "TikTok adverteren zonder viral te hoeven gaan: zo doe je het",
-                        "description": "TikTok adverteren werkt ook zonder virale video's. Lees hoe je met gerichte ads op TikTok klanten bereikt, wat het kost en welke formats het beste presteren.",
-                        "image": "https://www.empowers.nl/images/blogs/tiktok-adverteren-viral-te-hoeven.jpg",
-                        "datePublished": "2026-04-10T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "TikTok adverteren zonder viral te hoeven gaan: zo doe je het",
+                            "description": "TikTok adverteren werkt ook zonder virale video's. Lees hoe je met gerichte ads op TikTok klanten bereikt, wat het kost en welke formats het beste presteren.",
+                            "image": "https://www.empowers.nl/images/blogs/tiktok-adverteren-viral-te-hoeven.jpg",
+                            "datePublished": "2026-04-10T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik viral gaan om resultaat te halen met TikTok Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. Betaalde TikTok Ads worden vertoond aan jouw doelgroep ongeacht het aantal organische views. Je betaalt voor bereik en hoeft niet afhankelijk te zijn van het algoritme. Veel succesvolle TikTok advertenties hebben organisch weinig views maar converteren uitstekend als betaalde ad."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost adverteren op TikTok?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Het minimale dagbudget is 20 euro per advertentiegroep. De gemiddelde CPM in Nederland ligt tussen 3 en 8 euro, afhankelijk van je doelgroep en branche. Per klik betaal je gemiddeld 0,30 tot 1,50 euro. Dat maakt TikTok vaak goedkoper dan Meta Ads of LinkedIn Ads voor hetzelfde bereik."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke doelgroep bereik je op TikTok?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "TikTok is allang niet meer alleen voor tieners. In Nederland is ruim 40 procent van de gebruikers tussen de 25 en 44 jaar. Vooral in e-commerce, horeca, beauty, fitness en dienstverlening zit er veel koopkracht op het platform."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang moet een TikTok advertentie zijn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Tussen de 15 en 30 seconden werkt het beste. De eerste 2 seconden bepalen of iemand stopt met scrollen. Begin daarom altijd met een hook: een vraag, een opvallend beeld of een herkenbare situatie. Na de hook heb je 10 tot 20 seconden om je boodschap over te brengen en af te sluiten met een call-to-action."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik TikTok Ads draaien met een klein budget?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Met 500 tot 1000 euro per maand kun je al testen welke doelgroepen en video's het beste werken. Start met twee tot drie video's en twee doelgroepen. Na twee weken heb je genoeg data om te bepalen wat werkt en wat niet. Schaal daarna op wat resultaat oplevert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb ik een professionele videograaf nodig voor TikTok Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. TikTok gebruikers scrollen langs gepolijste content. Wat werkt is authentiek, rauw en herkenbaar. Een video gefilmd met je telefoon in je winkel of werkplaats presteert vaak beter dan een studioproductie. Zorg wel voor goed licht, helder geluid en ondertiteling."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik viral gaan om resultaat te halen met TikTok Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee. Betaalde TikTok Ads worden vertoond aan jouw doelgroep ongeacht het aantal organische views. Je betaalt voor bereik en hoeft niet afhankelijk te zijn van het algoritme. Veel succesvolle TikTok advertenties hebben organisch weinig views maar converteren uitstekend als betaalde ad."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost adverteren op TikTok?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Het minimale dagbudget is 20 euro per advertentiegroep. De gemiddelde CPM in Nederland ligt tussen 3 en 8 euro, afhankelijk van je doelgroep en branche. Per klik betaal je gemiddeld 0,30 tot 1,50 euro. Dat maakt TikTok vaak goedkoper dan Meta Ads of LinkedIn Ads voor hetzelfde bereik."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke doelgroep bereik je op TikTok?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "TikTok is allang niet meer alleen voor tieners. In Nederland is ruim 40 procent van de gebruikers tussen de 25 en 44 jaar. Vooral in e-commerce, horeca, beauty, fitness en dienstverlening zit er veel koopkracht op het platform."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang moet een TikTok advertentie zijn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Tussen de 15 en 30 seconden werkt het beste. De eerste 2 seconden bepalen of iemand stopt met scrollen. Begin daarom altijd met een hook: een vraag, een opvallend beeld of een herkenbare situatie. Na de hook heb je 10 tot 20 seconden om je boodschap over te brengen en af te sluiten met een call-to-action."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik TikTok Ads draaien met een klein budget?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Met 500 tot 1000 euro per maand kun je al testen welke doelgroepen en video's het beste werken. Start met twee tot drie video's en twee doelgroepen. Na twee weken heb je genoeg data om te bepalen wat werkt en wat niet. Schaal daarna op wat resultaat oplevert."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Heb ik een professionele videograaf nodig voor TikTok Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee. TikTok gebruikers scrollen langs gepolijste content. Wat werkt is authentiek, rauw en herkenbaar. Een video gefilmd met je telefoon in je winkel of werkplaats presteert vaak beter dan een studioproductie. Zorg wel voor goed licht, helder geluid en ondertiteling."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "TikTok adverteren",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/tiktok-adverteren-viral-te-hoeven"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Social Ads",
-                                "item": "https://www.empowers.nl/blogs/social-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "TikTok adverteren",
-                                "item": "https://www.empowers.nl/blogs/social-ads/tiktok-adverteren-viral-te-hoeven"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

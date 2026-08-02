@@ -29,89 +29,114 @@ export default function BlogPostSeaUitbestedenFreelancerOfBureau() {
                 <meta name="twitter:title" content="SEA uitbesteden: freelancer of bureau? Zo maak je de juiste keuze" />
                 <meta name="twitter:description" content="Wat een SEA-freelancer en een bureau echt van elkaar onderscheidt, en voor welk bedrijf welke keuze logisch is." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "SEA uitbesteden: freelancer of bureau? Zo maak je de juiste keuze",
-                        "description": "SEA uitbesteden aan een freelancer of bureau? Wat elk je kost, wat het oplevert en voor welk type bedrijf de keuze logisch is voordat je tekent.",
-                        "image": "https://www.empowers.nl/images/blogs/sea-uitbesteden-freelancer-of-bureau.jpg",
-                        "datePublished": "2026-05-30T09:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "SEA uitbesteden: freelancer of bureau? Zo maak je de juiste keuze",
+                            "description": "SEA uitbesteden aan een freelancer of bureau? Wat elk je kost, wat het oplevert en voor welk type bedrijf de keuze logisch is voordat je tekent.",
+                            "image": "https://www.empowers.nl/images/blogs/sea-uitbesteden-freelancer-of-bureau.jpg",
+                            "datePublished": "2026-05-30T09:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is een SEA-freelancer goedkoper dan een bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Meestal wel, omdat een freelancer geen kantoor, accountmanagers of overhead hoeft door te rekenen. Een freelancer rekent vaak rond de 60 tot 90 euro per uur of een vast maandbedrag vanaf ongeveer 750 euro. Een bureau zit doorgaans hoger. De vraag is niet wie goedkoper is, maar wat je per bestede euro terugkrijgt aan omzet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat gebeurt er met mijn campagnes als een freelancer ziek wordt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij een freelancer ligt het werk stil zolang die persoon weg is. Dat is het grootste nadeel van een eenpitter. Een bureau vangt uitval op met collega's die je account overnemen. Wil je toch met een freelancer werken, leg dan vooraf vast wie er invalt bij langdurige uitval en zorg dat je accounts op je eigen naam staan."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is een bureau de betere keuze voor SEA?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Als je naast Google Ads ook Meta Ads, SEO of feedmanagement nodig hebt, of als je advertentiebudget zo groot is dat uitval direct geld kost. Een bureau brengt meerdere specialisten en continuïteit. Voor een puur Google Ads-account met een overzichtelijk budget is dat vaak meer dan je nodig hebt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel budget heb je nodig om SEA uit te besteden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op het beheerfee plus je advertentiebudget. Beheer begint bij een freelancer rond 750 euro per maand, bij een bureau vaak vanaf 1000 euro. Daarbovenop komt je mediabudget. Onder de 1000 euro advertentiebudget per maand is professioneel beheer zelden rendabel, omdat de beheerkosten dan een te grote hap uit je resultaat nemen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik later wisselen van freelancer naar bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, mits je accounts op je eigen naam staan en je toegang houdt tot je Google Ads en GA4. Dan draag je simpel het beheer over zonder historische data te verliezen. Staat het account onder de freelancer zelf, dan kan een overstap je weken kosten. Regel het eigenaarschap daarom voordat je begint."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt een freelancer net zo goed als een bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor het draaien van een Google Ads-account zit het verschil niet in vakmanschap maar in capaciteit en continuïteit. Een sterke freelancer levert hetzelfde of beter werk dan een gemiddeld bureau. Het bureau wint zodra je vervanging en meerdere kanalen tegelijk nodig hebt. Beoordeel dus de persoon en het werk, niet alleen het type aanbieder."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Is een SEA-freelancer goedkoper dan een bureau?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Meestal wel, omdat een freelancer geen kantoor, accountmanagers of overhead hoeft door te rekenen. Een freelancer rekent vaak rond de 60 tot 90 euro per uur of een vast maandbedrag vanaf ongeveer 750 euro. Een bureau zit doorgaans hoger. De vraag is niet wie goedkoper is, maar wat je per bestede euro terugkrijgt aan omzet."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat gebeurt er met mijn campagnes als een freelancer ziek wordt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij een freelancer ligt het werk stil zolang die persoon weg is. Dat is het grootste nadeel van een eenpitter. Een bureau vangt uitval op met collega's die je account overnemen. Wil je toch met een freelancer werken, leg dan vooraf vast wie er invalt bij langdurige uitval en zorg dat je accounts op je eigen naam staan."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer is een bureau de betere keuze voor SEA?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Als je naast Google Ads ook Meta Ads, SEO of feedmanagement nodig hebt, of als je advertentiebudget zo groot is dat uitval direct geld kost. Een bureau brengt meerdere specialisten en continuïteit. Voor een puur Google Ads-account met een overzichtelijk budget is dat vaak meer dan je nodig hebt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel budget heb je nodig om SEA uit te besteden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op het beheerfee plus je advertentiebudget. Beheer begint bij een freelancer rond 750 euro per maand, bij een bureau vaak vanaf 1000 euro. Daarbovenop komt je mediabudget. Onder de 1000 euro advertentiebudget per maand is professioneel beheer zelden rendabel, omdat de beheerkosten dan een te grote hap uit je resultaat nemen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik later wisselen van freelancer naar bureau?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, mits je accounts op je eigen naam staan en je toegang houdt tot je Google Ads en GA4. Dan draag je simpel het beheer over zonder historische data te verliezen. Staat het account onder de freelancer zelf, dan kan een overstap je weken kosten. Regel het eigenaarschap daarom voordat je begint."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt een freelancer net zo goed als een bureau?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor het draaien van een Google Ads-account zit het verschil niet in vakmanschap maar in capaciteit en continuïteit. Een sterke freelancer levert hetzelfde of beter werk dan een gemiddeld bureau. Het bureau wint zodra je vervanging en meerdere kanalen tegelijk nodig hebt. Beoordeel dus de persoon en het werk, niet alleen het type aanbieder."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "SEA uitbesteden freelancer of bureau",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-freelancer-of-bureau"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "SEA uitbesteden freelancer of bureau", "item": "https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-freelancer-of-bureau" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

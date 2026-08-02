@@ -28,89 +28,114 @@ export default function BlogPostRankChatgptKomAiAntwoorden() {
                 <meta name="twitter:title" content="Hoe rank je in ChatGPT: zo kom je in AI-antwoorden" />
                 <meta name="twitter:description" content="Welke factoren bepalen of ChatGPT jouw bedrijf citeert en hoe je dat in gang zet." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe rank je in ChatGPT: zo kom je in AI-antwoorden (2026)",
-                        "description": "Ranken in ChatGPT begint bij content die AI kan citeren. Lees welke factoren bepalen of jouw bedrijf wordt genoemd en hoe je het zelf in gang zet.",
-                        "image": "https://www.empowers.nl/images/blogs/rank-chatgpt-kom-ai-antwoorden.jpg",
-                        "datePublished": "2026-05-04T10:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe rank je in ChatGPT: zo kom je in AI-antwoorden (2026)",
+                            "description": "Ranken in ChatGPT begint bij content die AI kan citeren. Lees welke factoren bepalen of jouw bedrijf wordt genoemd en hoe je het zelf in gang zet.",
+                            "image": "https://www.empowers.nl/images/blogs/rank-chatgpt-kom-ai-antwoorden.jpg",
+                            "datePublished": "2026-05-04T10:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe rank je in ChatGPT?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "ChatGPT citeert content die direct, feitelijk en goed gestructureerd is. Zorg dat jouw belangrijkste pagina's de zoekvraag in de eerste 60 woorden beantwoorden, gebruik FAQ-secties met schema markup, en bouw vermeldingen op autoriteitsbronnen op. ChatGPT haalt informatie steeds vaker uit live web-resultaten, dus klassieke SEO blijft onder de motorkap belangrijk."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt SEO ook voor ChatGPT?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, deels. ChatGPT gebruikt Bing-zoekresultaten als bron voor recente vragen. Een goede SEO-basis (snelle pagina's, schema markup, autoriteit) helpt direct. Daarbovenop heb je GEO nodig: content structureren zoals AI dat leest. Beide samen is de winnende combinatie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat je in ChatGPT verschijnt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor verse content via web search ziet ChatGPT jouw pagina vaak binnen 1 tot 4 weken na publicatie en indexering. Voor opname in de basistraining van het model duurt het 6 maanden tot een jaar, omdat OpenAI periodiek hertraint. Live web-search is daarom de snelste route naar zichtbaarheid."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke content werkt het beste voor ChatGPT?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Lijsten, vergelijkingen, FAQ-secties en gestructureerde stappenplannen werken het beste. ChatGPT geeft graag concrete antwoorden in een herkenbare vorm. Content met genummerde stappen, duidelijke koppen en zelfstandig leesbare paragrafen wordt vaker geciteerd dan lopende verhalende tekst."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet je of je in ChatGPT verschijnt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Stel zelf 20 tot 30 zoekvragen die jouw doelgroep zou stellen en noteer of jouw bedrijf wordt genoemd. Doe dit elke maand opnieuw. Tools zoals Profound (MKB) of AthenaHQ (enterprise) meten dit automatisch en laten ook zien welke concurrenten wel worden geciteerd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke fout maken bedrijven het vaakst?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ze schrijven content vanuit verkoopperspectief in plaats van vanuit antwoordperspectief. ChatGPT pakt geen reclamefolders, maar wel concrete uitleg met cijfers. Wie content schrijft alsof hij een vraag van een klant beantwoordt, wint. Wie schrijft alsof hij iets verkoopt, verliest."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe rank je in ChatGPT?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "ChatGPT citeert content die direct, feitelijk en goed gestructureerd is. Zorg dat jouw belangrijkste pagina's de zoekvraag in de eerste 60 woorden beantwoorden, gebruik FAQ-secties met schema markup, en bouw vermeldingen op autoriteitsbronnen op. ChatGPT haalt informatie steeds vaker uit live web-resultaten, dus klassieke SEO blijft onder de motorkap belangrijk."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Werkt SEO ook voor ChatGPT?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, deels. ChatGPT gebruikt Bing-zoekresultaten als bron voor recente vragen. Een goede SEO-basis (snelle pagina's, schema markup, autoriteit) helpt direct. Daarbovenop heb je GEO nodig: content structureren zoals AI dat leest. Beide samen is de winnende combinatie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat je in ChatGPT verschijnt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor verse content via web search ziet ChatGPT jouw pagina vaak binnen 1 tot 4 weken na publicatie en indexering. Voor opname in de basistraining van het model duurt het 6 maanden tot een jaar, omdat OpenAI periodiek hertraint. Live web-search is daarom de snelste route naar zichtbaarheid."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke content werkt het beste voor ChatGPT?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Lijsten, vergelijkingen, FAQ-secties en gestructureerde stappenplannen werken het beste. ChatGPT geeft graag concrete antwoorden in een herkenbare vorm. Content met genummerde stappen, duidelijke koppen en zelfstandig leesbare paragrafen wordt vaker geciteerd dan lopende verhalende tekst."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe meet je of je in ChatGPT verschijnt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Stel zelf 20 tot 30 zoekvragen die jouw doelgroep zou stellen en noteer of jouw bedrijf wordt genoemd. Doe dit elke maand opnieuw. Tools zoals Profound (MKB) of AthenaHQ (enterprise) meten dit automatisch en laten ook zien welke concurrenten wel worden geciteerd."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke fout maken bedrijven het vaakst?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ze schrijven content vanuit verkoopperspectief in plaats van vanuit antwoordperspectief. ChatGPT pakt geen reclamefolders, maar wel concrete uitleg met cijfers. Wie content schrijft alsof hij een vraag van een klant beantwoordt, wint. Wie schrijft alsof hij iets verkoopt, verliest."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Hoe rank je in ChatGPT",
+                                    "item": "https://www.empowers.nl/blogs/geo/rank-chatgpt-kom-ai-antwoorden"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "Hoe rank je in ChatGPT", "item": "https://www.empowers.nl/blogs/geo/rank-chatgpt-kom-ai-antwoorden" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

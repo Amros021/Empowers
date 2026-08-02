@@ -23,36 +23,110 @@ export default function BlogPostSeaUitbestedenWebshopEcommerceBureau() {
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "Article",
-                    "headline": "SEA uitbesteden als webshop: waar een e-commerce bureau aan moet voldoen",
-                    "description": "Een gids voor webshops die SEA willen uitbesteden, met focus op e-commerce-specifieke expertise.",
-                    "image": "https://www.empowers.nl/images/blogs/sea-uitbesteden-webshop-ecommerce-bureau.jpg",
-                    "datePublished": "2026-05-13T14:00:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                    "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                        { "@type": "Question", "name": "Wat maakt SEA voor webshops anders dan voor dienstverleners?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor webshops zit het rendement in productfeeds, Shopping-campagnes, Performance Max met retail-focus en dynamische remarketing. De KPI is bijna altijd ROAS in plaats van CPL. Dienstverleners draaien op Search met long-tail keywords en lead-formulieren. Een SEA-specialist die alleen Search-ervaring heeft, mist in een webshop-account vaak het grootste deel van de hefbomen." } },
-                        { "@type": "Question", "name": "Welke ervaring moet een e-commerce bureau hebben?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Aantoonbare ervaring met Google Merchant Center, productfeed-optimalisatie, Shopping-campagnes en Performance Max voor retail. Idealiter ook ervaring met je platform (Shopify, WooCommerce, Magento) zodat ze begrijpen hoe je productdata uit je shop in Merchant Center komt. Vraag om twee referenties uit je eigen branche met een vergelijkbare ordergrootte." } },
-                        { "@type": "Question", "name": "Wat is een redelijke ROAS-belofte?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Geen bureau kan vooraf een exacte ROAS beloven, omdat die afhangt van je marge, AOV en concurrentie. Wel kunnen ze realistische bandbreedtes geven op basis van vergelijkbare klanten. Bandbreedtes tussen 4 en 8 ROAS zijn gangbaar voor MKB-webshops, maar variëren sterk per branche. Een bureau dat ROAS 12 belooft zonder context is niet eerlijk." } },
-                        { "@type": "Question", "name": "Hoe belangrijk is productfeed-management?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor webshops is een schone productfeed misschien wel het belangrijkste fundament. Goede producttitels, correcte categorieën, GTINs waar mogelijk en up-to-date voorraadstatussen bepalen wie je advertentie te zien krijgt. Bureaus die feed-optimalisatie als bijzaak behandelen, laten daarmee vaak 30 procent of meer rendement liggen." } },
-                        { "@type": "Question", "name": "Werkt Performance Max altijd voor webshops?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor de meeste webshops is Performance Max een sterke campagne-type, mits goed ingericht. Het werkt het beste bij voldoende conversievolume (minimaal 30 conversies per maand) en met goede productfeeds. Voor zeer kleine webshops of niche-producten kan een klassieke Shopping-campagne met handmatigere controle soms beter renderen." } },
-                        { "@type": "Question", "name": "Hoeveel kost SEA-beheer voor een webshop?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor MKB-webshops ligt de management fee meestal tussen 1.500 en 3.500 euro per maand, plus advertentiebudget. Grotere webshops met internationale campagnes komen al snel op 4.000 euro en hoger. Belangrijker dan de exacte fee is de verhouding tot het budget: voor effectief beheer moet je bureau minimaal 12 tot 15 procent van het mediabudget kunnen besteden aan strategisch werk." } }
-                    ] }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "SEA uitbesteden als webshop", "item": "https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-webshop-ecommerce-bureau" }
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "SEA uitbesteden als webshop: waar een e-commerce bureau aan moet voldoen",
+                            "description": "Een gids voor webshops die SEA willen uitbesteden, met focus op e-commerce-specifieke expertise.",
+                            "image": "https://www.empowers.nl/images/blogs/sea-uitbesteden-webshop-ecommerce-bureau.jpg",
+                            "datePublished": "2026-05-13T14:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat maakt SEA voor webshops anders dan voor dienstverleners?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor webshops zit het rendement in productfeeds, Shopping-campagnes, Performance Max met retail-focus en dynamische remarketing. De KPI is bijna altijd ROAS in plaats van CPL. Dienstverleners draaien op Search met long-tail keywords en lead-formulieren. Een SEA-specialist die alleen Search-ervaring heeft, mist in een webshop-account vaak het grootste deel van de hefbomen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke ervaring moet een e-commerce bureau hebben?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Aantoonbare ervaring met Google Merchant Center, productfeed-optimalisatie, Shopping-campagnes en Performance Max voor retail. Idealiter ook ervaring met je platform (Shopify, WooCommerce, Magento) zodat ze begrijpen hoe je productdata uit je shop in Merchant Center komt. Vraag om twee referenties uit je eigen branche met een vergelijkbare ordergrootte."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een redelijke ROAS-belofte?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Geen bureau kan vooraf een exacte ROAS beloven, omdat die afhangt van je marge, AOV en concurrentie. Wel kunnen ze realistische bandbreedtes geven op basis van vergelijkbare klanten. Bandbreedtes tussen 4 en 8 ROAS zijn gangbaar voor MKB-webshops, maar variëren sterk per branche. Een bureau dat ROAS 12 belooft zonder context is niet eerlijk."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe belangrijk is productfeed-management?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor webshops is een schone productfeed misschien wel het belangrijkste fundament. Goede producttitels, correcte categorieën, GTINs waar mogelijk en up-to-date voorraadstatussen bepalen wie je advertentie te zien krijgt. Bureaus die feed-optimalisatie als bijzaak behandelen, laten daarmee vaak 30 procent of meer rendement liggen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt Performance Max altijd voor webshops?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste webshops is Performance Max een sterke campagne-type, mits goed ingericht. Het werkt het beste bij voldoende conversievolume (minimaal 30 conversies per maand) en met goede productfeeds. Voor zeer kleine webshops of niche-producten kan een klassieke Shopping-campagne met handmatigere controle soms beter renderen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel kost SEA-beheer voor een webshop?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor MKB-webshops ligt de management fee meestal tussen 1.500 en 3.500 euro per maand, plus advertentiebudget. Grotere webshops met internationale campagnes komen al snel op 4.000 euro en hoger. Belangrijker dan de exacte fee is de verhouding tot het budget: voor effectief beheer moet je bureau minimaal 12 tot 15 procent van het mediabudget kunnen besteden aan strategisch werk."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "SEA uitbesteden als webshop",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-webshop-ecommerce-bureau"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />

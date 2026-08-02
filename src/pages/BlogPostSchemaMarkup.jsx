@@ -28,89 +28,114 @@ export default function BlogPostSchemaMarkup() {
                 <meta name="twitter:title" content="Schema markup: wat het is en hoe je het instelt" />
                 <meta name="twitter:description" content="Praktische schema markup gids: types, implementatie en testen." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Schema markup: wat het is en hoe je het instelt",
-                        "description": "Schema markup vertelt zoekmachines wat je content betekent. Lees hoe je schema kiest, instelt en test, en welke types het meeste impact hebben op jouw zichtbaarheid.",
-                        "image": "https://www.empowers.nl/images/blogs/schema-markup-instelt.jpg",
-                        "datePublished": "2026-04-23T11:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Schema markup: wat het is en hoe je het instelt",
+                            "description": "Schema markup vertelt zoekmachines wat je content betekent. Lees hoe je schema kiest, instelt en test, en welke types het meeste impact hebben op jouw zichtbaarheid.",
+                            "image": "https://www.empowers.nl/images/blogs/schema-markup-instelt.jpg",
+                            "datePublished": "2026-04-23T11:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is schema markup precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Schema markup is gestructureerde code die je aan een pagina toevoegt om zoekmachines uit te leggen wat je content betekent. Een prijs is dan letterlijk een prijs, een review is een review en een product is een product. Daardoor kan Google jouw content beter begrijpen en in rijke zoekresultaten tonen, zoals sterren, prijzen of FAQ-blokken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke schema types zijn het belangrijkst?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste MKB-websites zijn Organization, LocalBusiness, Product, Article, FAQPage en BreadcrumbList de meest waardevolle. Webshops kiezen daarnaast voor Offer en AggregateRating. Lokale dienstverleners voegen vaak Service en OpeningHoursSpecification toe."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Verbetert schema markup mijn ranking direct?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Schema is geen directe rankingfactor, maar de gevolgen zijn merkbaar. Pagina's met schema krijgen vaker rich snippets en die snippets trekken meer kliks. Meer kliks bij gelijke positie betekent betere CTR, en betere CTR helpt indirect aan een hogere positie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe test ik of mijn schema werkt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Gebruik de Schema Markup Validator van Schema.org en de Rich Results Test van Google. Plak je URL of de code, en je ziet meteen of de markup geldig is en welke rich result types in aanmerking komen. Houd daarnaast de Search Console in de gaten voor het tabblad 'Verbeteringen'."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb ik een ontwikkelaar nodig om schema toe te voegen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet altijd. WordPress sites kunnen plug-ins als Rank Math of Yoast gebruiken die de basis automatisch regelen. Custom-built websites vragen wel om een ontwikkelaar of iemand die JSON-LD kan schrijven. Voor één enkele pagina kun je vaak zelf met een schema generator aan de slag."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat gebeurt er als mijn schema fouten bevat?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij kleine fouten negeert Google de markup en gebeurt er niets. Bij grotere fouten verschijnen waarschuwingen in Search Console. Bij zware overtredingen, zoals schema die niet matcht met wat de pagina toont, kan Google een handmatige actie geven. Hou de markup daarom altijd eerlijk en in lijn met de zichtbare content."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is schema markup precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Schema markup is gestructureerde code die je aan een pagina toevoegt om zoekmachines uit te leggen wat je content betekent. Een prijs is dan letterlijk een prijs, een review is een review en een product is een product. Daardoor kan Google jouw content beter begrijpen en in rijke zoekresultaten tonen, zoals sterren, prijzen of FAQ-blokken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke schema types zijn het belangrijkst?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de meeste MKB-websites zijn Organization, LocalBusiness, Product, Article, FAQPage en BreadcrumbList de meest waardevolle. Webshops kiezen daarnaast voor Offer en AggregateRating. Lokale dienstverleners voegen vaak Service en OpeningHoursSpecification toe."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Verbetert schema markup mijn ranking direct?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Schema is geen directe rankingfactor, maar de gevolgen zijn merkbaar. Pagina's met schema krijgen vaker rich snippets en die snippets trekken meer kliks. Meer kliks bij gelijke positie betekent betere CTR, en betere CTR helpt indirect aan een hogere positie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe test ik of mijn schema werkt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Gebruik de Schema Markup Validator van Schema.org en de Rich Results Test van Google. Plak je URL of de code, en je ziet meteen of de markup geldig is en welke rich result types in aanmerking komen. Houd daarnaast de Search Console in de gaten voor het tabblad 'Verbeteringen'."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Heb ik een ontwikkelaar nodig om schema toe te voegen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet altijd. WordPress sites kunnen plug-ins als Rank Math of Yoast gebruiken die de basis automatisch regelen. Custom-built websites vragen wel om een ontwikkelaar of iemand die JSON-LD kan schrijven. Voor één enkele pagina kun je vaak zelf met een schema generator aan de slag."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat gebeurt er als mijn schema fouten bevat?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij kleine fouten negeert Google de markup en gebeurt er niets. Bij grotere fouten verschijnen waarschuwingen in Search Console. Bij zware overtredingen, zoals schema die niet matcht met wat de pagina toont, kan Google een handmatige actie geven. Hou de markup daarom altijd eerlijk en in lijn met de zichtbare content."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Schema markup instellen",
+                                    "item": "https://www.empowers.nl/blogs/seo/schema-markup-instelt"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "SEO", "item": "https://www.empowers.nl/blogs/seo" },
-                            { "@type": "ListItem", "position": 4, "name": "Schema markup instellen", "item": "https://www.empowers.nl/blogs/seo/schema-markup-instelt" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

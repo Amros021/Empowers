@@ -28,97 +28,122 @@ export default function BlogPostTiktokAdsDoelgroepenBereikPrecies() {
                 <meta name="twitter:title" content="TikTok Ads doelgroepen instellen: praktische gids" />
                 <meta name="twitter:description" content="Interest, behavior, custom en lookalike audiences in TikTok Ads. Wat werkt wanneer." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "TikTok Ads doelgroepen instellen: zo bereik je precies de juiste mensen",
-                        "description": "Hoe stel je doelgroepen in TikTok Ads in zodat je advertenties bij de juiste mensen terechtkomen?",
-                        "image": "https://www.empowers.nl/images/blogs/tiktok-ads-doelgroepen-bereik-precies.jpg",
-                        "datePublished": "2026-05-08T10:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "TikTok Ads doelgroepen instellen: zo bereik je precies de juiste mensen",
+                            "description": "Hoe stel je doelgroepen in TikTok Ads in zodat je advertenties bij de juiste mensen terechtkomen?",
+                            "image": "https://www.empowers.nl/images/blogs/tiktok-ads-doelgroepen-bereik-precies.jpg",
+                            "datePublished": "2026-05-08T10:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke doelgroep-types heeft TikTok Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "TikTok kent vier hoofdtypes: demografisch (leeftijd, locatie, taal), interesse (categorieen waarin iemand actief is), gedrag (recente acties zoals video's bekijken of kopen), en custom audiences (eigen klantdata, websitebezoekers, retargeting). Daarnaast zijn er lookalikes op basis van een seed-audience."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt brede targeting beter dan gedetailleerde targeting?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Op TikTok wel. Het algoritme is sterker in matching dan menselijke segmentatie. Bij Smart+ campagnes adviseert TikTok zelfs om bijna geen targeting in te stellen, op de basis-demografie na. Voor reguliere campagnes geldt: geef het algoritme minimaal een maand om te leren en stuur niet te snel bij."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer gebruik je een custom audience?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Custom audiences zijn ideaal voor retargeting (mensen die je site bezochten) en voor uitsluiting (bestaande klanten niet opnieuw werven). Een lookalike op basis van je beste klanten kan een snelle weg zijn naar nieuwe doelgroep-segmenten die op je huidige klanten lijken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe groot moet een seed-audience zijn voor een lookalike?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "TikTok adviseert minimaal duizend mensen in je seed. Onder die drempel mist het algoritme genoeg signaal om een betrouwbare lookalike te bouwen. Tien- tot twintigduizend is beter. Kwaliteit van de seed weegt zwaarder dan de omvang: een seed van 1.500 echte kopers werkt beter dan 10.000 random websitebezoekers."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke fout maken bedrijven het vaakst?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Te smal targeten. Adverteerders die net van Meta of LinkedIn komen, willen vaak op zes interesses tegelijk filteren. Op TikTok knijpt dat het algoritme dicht en stuwt het je CPM omhoog. Begin breed, laat het algoritme leren en versmal pas wanneer je data hebt om de keuze op te baseren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is geo-targeting in Nederland precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Op land- en stadsniveau ja. Op postcode-niveau is TikTok minder fijnmazig dan Google Ads. Voor lokale campagnes (een fysieke winkel, een evenement) werkt een radius van vijftien tot twintig kilometer rond een locatie meestal beter dan een stad selecteren. Hou er rekening mee dat TikTok-gebruikers vaak buiten woonplaats actief zijn."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is exclusion targeting en wanneer gebruik je het?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Met exclusion targeting sluit je groepen uit. Bestaande klanten uitsluiten van een prospecting-campagne is de standaard-toepassing. Ook handig: medewerkers, leveranciers of regio's waar je geen levering hebt. Een goede exclusion-strategie houdt je budget weg bij verkeer dat toch niet converteert."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke doelgroep-types heeft TikTok Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "TikTok kent vier hoofdtypes: demografisch (leeftijd, locatie, taal), interesse (categorieen waarin iemand actief is), gedrag (recente acties zoals video's bekijken of kopen), en custom audiences (eigen klantdata, websitebezoekers, retargeting). Daarnaast zijn er lookalikes op basis van een seed-audience."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Werkt brede targeting beter dan gedetailleerde targeting?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Op TikTok wel. Het algoritme is sterker in matching dan menselijke segmentatie. Bij Smart+ campagnes adviseert TikTok zelfs om bijna geen targeting in te stellen, op de basis-demografie na. Voor reguliere campagnes geldt: geef het algoritme minimaal een maand om te leren en stuur niet te snel bij."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer gebruik je een custom audience?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Custom audiences zijn ideaal voor retargeting (mensen die je site bezochten) en voor uitsluiting (bestaande klanten niet opnieuw werven). Een lookalike op basis van je beste klanten kan een snelle weg zijn naar nieuwe doelgroep-segmenten die op je huidige klanten lijken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe groot moet een seed-audience zijn voor een lookalike?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "TikTok adviseert minimaal duizend mensen in je seed. Onder die drempel mist het algoritme genoeg signaal om een betrouwbare lookalike te bouwen. Tien- tot twintigduizend is beter. Kwaliteit van de seed weegt zwaarder dan de omvang: een seed van 1.500 echte kopers werkt beter dan 10.000 random websitebezoekers."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke fout maken bedrijven het vaakst?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Te smal targeten. Adverteerders die net van Meta of LinkedIn komen, willen vaak op zes interesses tegelijk filteren. Op TikTok knijpt dat het algoritme dicht en stuwt het je CPM omhoog. Begin breed, laat het algoritme leren en versmal pas wanneer je data hebt om de keuze op te baseren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Is geo-targeting in Nederland precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Op land- en stadsniveau ja. Op postcode-niveau is TikTok minder fijnmazig dan Google Ads. Voor lokale campagnes (een fysieke winkel, een evenement) werkt een radius van vijftien tot twintig kilometer rond een locatie meestal beter dan een stad selecteren. Hou er rekening mee dat TikTok-gebruikers vaak buiten woonplaats actief zijn."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is exclusion targeting en wanneer gebruik je het?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Met exclusion targeting sluit je groepen uit. Bestaande klanten uitsluiten van een prospecting-campagne is de standaard-toepassing. Ook handig: medewerkers, leveranciers of regio's waar je geen levering hebt. Een goede exclusion-strategie houdt je budget weg bij verkeer dat toch niet converteert."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "TikTok Ads doelgroepen",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-doelgroepen-bereik-precies"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "TikTok Ads doelgroepen", "item": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-doelgroepen-bereik-precies" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -28,120 +28,122 @@ export default function BlogPostSeoMarketingBureauKiezen() {
                 <meta name="twitter:title" content="SEO marketing bureau kiezen: waar moet je op letten?" />
                 <meta name="twitter:description" content="Een goed SEO bureau herken je aan transparantie, meetbare resultaten en eerlijke verwachtingen. Lees waar je op let." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "SEO marketing bureau kiezen: waar moet je op letten?",
-                        "description": "Een goed SEO marketing bureau herken je aan transparantie, meetbare resultaten en eerlijke verwachtingen. Lees de 7 punten waar je op let voordat je kiest.",
-                        "image": "https://www.empowers.nl/images/blogs/seo-marketing-bureau-kiezen-waar.jpg",
-                        "datePublished": "2026-03-31T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "SEO marketing bureau kiezen: waar moet je op letten?",
+                            "description": "Een goed SEO marketing bureau herken je aan transparantie, meetbare resultaten en eerlijke verwachtingen. Lees de 7 punten waar je op let voordat je kiest.",
+                            "image": "https://www.empowers.nl/images/blogs/seo-marketing-bureau-kiezen-waar.jpg",
+                            "datePublished": "2026-03-31T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost een SEO marketing bureau per maand?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een SEO bureau kost gemiddeld 500 tot 2500 euro per maand. Lokale SEO projecten beginnen rond 500 euro. Landelijke campagnes met contentcreatie en linkbuilding zitten tussen 1000 en 2500 euro. Bureaus onder 300 euro leveren zelden serieus werk."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe herken je een slecht SEO bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Rode vlaggen zijn: garanties op nummer 1 posities, geen transparante rapportages, langlopende contracten zonder opzegmogelijkheid en geen direct contact met de specialist. Als een bureau zelf niet vindbaar is in Google, is dat het duidelijkste signaal."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat een SEO bureau resultaat levert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op 3 tot 6 maanden voor de eerste verbeteringen in rankings en verkeer. Serieuze groei zie je na 6 tot 12 maanden. Een goed bureau is hier eerlijk over en belooft geen resultaten binnen een paar weken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik kiezen voor een groot of klein SEO bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Dat hangt af van je budget en je verwachtingen. Een klein bureau biedt vaak meer persoonlijke aandacht en direct contact met de specialist. Een groot bureau heeft meer capaciteit maar werkt vaak met account managers die zelf geen SEO uitvoeren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat moet een SEO bureau minimaal rapporteren?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Rankings op je target keywords, organisch verkeer per maand, technische verbeteringen die zijn uitgevoerd en de contentstrategie voor de komende periode. Zonder maandelijkse rapportage heb je geen zicht op wat het bureau doet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik SEO deels zelf doen en deels uitbesteden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, dat is een slimme aanpak voor MKB. Je schrijft zelf blogs op basis van het zoekwoordenonderzoek van het bureau. Het bureau doet de technische SEO, linkbuilding en strategie. Zo houd je de kosten lager en de resultaten hoog."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is een gespecialiseerd SEO bureau beter dan een full-service bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een gespecialiseerd bureau heeft vaak diepere kennis van SEO. Een full-service bureau kan SEO combineren met advertenties en social media. Kies op basis van je doelen: als je alleen SEO nodig hebt, kies een specialist. Wil je een complete aanpak, kies een bureau dat meerdere kanalen beheerst."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost een SEO marketing bureau per maand?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een SEO bureau kost gemiddeld 500 tot 2500 euro per maand. Lokale SEO projecten beginnen rond 500 euro. Landelijke campagnes met contentcreatie en linkbuilding zitten tussen 1000 en 2500 euro. Bureaus onder 300 euro leveren zelden serieus werk."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe herken je een slecht SEO bureau?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Rode vlaggen zijn: garanties op nummer 1 posities, geen transparante rapportages, langlopende contracten zonder opzegmogelijkheid en geen direct contact met de specialist. Als een bureau zelf niet vindbaar is in Google, is dat het duidelijkste signaal."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat een SEO bureau resultaat levert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op 3 tot 6 maanden voor de eerste verbeteringen in rankings en verkeer. Serieuze groei zie je na 6 tot 12 maanden. Een goed bureau is hier eerlijk over en belooft geen resultaten binnen een paar weken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Moet ik kiezen voor een groot of klein SEO bureau?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Dat hangt af van je budget en je verwachtingen. Een klein bureau biedt vaak meer persoonlijke aandacht en direct contact met de specialist. Een groot bureau heeft meer capaciteit maar werkt vaak met account managers die zelf geen SEO uitvoeren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat moet een SEO bureau minimaal rapporteren?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Rankings op je target keywords, organisch verkeer per maand, technische verbeteringen die zijn uitgevoerd en de contentstrategie voor de komende periode. Zonder maandelijkse rapportage heb je geen zicht op wat het bureau doet."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kan ik SEO deels zelf doen en deels uitbesteden?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, dat is een slimme aanpak voor MKB. Je schrijft zelf blogs op basis van het zoekwoordenonderzoek van het bureau. Het bureau doet de technische SEO, linkbuilding en strategie. Zo houd je de kosten lager en de resultaten hoog."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Is een gespecialiseerd SEO bureau beter dan een full-service bureau?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een gespecialiseerd bureau heeft vaak diepere kennis van SEO. Een full-service bureau kan SEO combineren met advertenties en social media. Kies op basis van je doelen: als je alleen SEO nodig hebt, kies een specialist. Wil je een complete aanpak, kies een bureau dat meerdere kanalen beheerst."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "SEO marketing bureau kiezen",
+                                    "item": "https://www.empowers.nl/blogs/seo/seo-marketing-bureau-kiezen-waar"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "SEO",
-                                "item": "https://www.empowers.nl/blogs/seo"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "SEO marketing bureau kiezen",
-                                "item": "https://www.empowers.nl/blogs/seo/seo-marketing-bureau-kiezen-waar"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

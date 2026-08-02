@@ -28,97 +28,122 @@ export default function BlogPostSeaVsSeoStrategieBudgetDoel() {
                 <meta name="twitter:title" content="SEA vs SEO: welke strategie past bij jouw budget en doel?" />
                 <meta name="twitter:description" content="Een eerlijke vergelijking van SEA en SEO op kosten, snelheid en rendement." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "SEA vs SEO: welke strategie past bij jouw budget en doel?",
-                        "description": "SEA of SEO? Lees hoe ze verschillen in kosten, snelheid en ROI, welke strategie past bij jouw budget en wanneer de combinatie het meest oplevert.",
-                        "image": "https://www.empowers.nl/images/blogs/sea-vs-seo-strategie-budget-doel.jpg",
-                        "datePublished": "2026-05-03T12:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "SEA vs SEO: welke strategie past bij jouw budget en doel?",
+                            "description": "SEA of SEO? Lees hoe ze verschillen in kosten, snelheid en ROI, welke strategie past bij jouw budget en wanneer de combinatie het meest oplevert.",
+                            "image": "https://www.empowers.nl/images/blogs/sea-vs-seo-strategie-budget-doel.jpg",
+                            "datePublished": "2026-05-03T12:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen SEA en SEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "SEA staat voor Search Engine Advertising en betekent dat je betaalt voor advertenties in zoekresultaten, vrijwel altijd via Google Ads. SEO staat voor Search Engine Optimization en betekent dat je organisch hoger probeert te ranken zonder per klik te betalen. SEA kost direct geld per klik, SEO kost tijd en content."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is goedkoper, SEA of SEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Op de korte termijn is SEA goedkoper omdat je geen voorinvestering hebt en direct verkeer krijgt. Op de lange termijn is SEO goedkoper, want elke organische klik is gratis. Reken voor een serieuze SEO-strategie op 3 tot 12 maanden voorinvestering voordat het rendement zichtbaar wordt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe snel werkt SEA versus SEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "SEA levert binnen 24 uur na het live zetten van een campagne het eerste verkeer en de eerste conversies. SEO heeft 3 tot 6 maanden nodig voor de eerste merkbare ranking-stijgingen en 9 tot 18 maanden voor structurele groei. Wie snel resultaat wil, begint met SEA. Wie duurzaam wil bouwen, investeert in SEO."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke strategie past bij een klein budget?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij een budget onder 1.500 euro per maand kies je 1 strategie. Heb je een nieuw bedrijf en wil je snel klanten, kies SEA op 5 tot 10 zoekwoorden met hoge intentie. Heb je 6 tot 12 maanden geduld en een sterk product, kies SEO en focus op 3 tot 5 long-tail content-onderwerpen per maand."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer combineer je SEA en SEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vanaf een totaalbudget van 2.500 euro per maand werkt de combinatie het beste. SEA dekt zoekwoorden waar SEO maanden over zou doen, SEO bouwt langzaam aan organisch verkeer dat jouw SEA-kosten verlaagt. Branded zoekwoorden dek je via beide kanalen om concurrenten te blokkeren."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke strategie heeft betere ROI op de lange termijn?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "SEO heeft op 24 maanden gezien doorgaans een betere ROI omdat de marginale kosten dalen naarmate je meer rankings opbouwt. Een blog die jaar na jaar verkeer levert, hoeft niet opnieuw betaald te worden. SEA blijft elke klik kosten. Wel is SEA voorspelbaarder per maand, terwijl SEO meer schommelt door algoritme-updates."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kun je met alleen SEO een bedrijf opbouwen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Theoretisch ja, in de praktijk zelden binnen het eerste jaar. SEO levert pas na 6 tot 12 maanden voldoende verkeer voor een bedrijfskern. Wie alleen op SEO inzet, riskeert maanden zonder klanten. Combineer in de opbouwfase met SEA en bouw daarna SEA langzaam af zodra SEO levert."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen SEA en SEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "SEA staat voor Search Engine Advertising en betekent dat je betaalt voor advertenties in zoekresultaten, vrijwel altijd via Google Ads. SEO staat voor Search Engine Optimization en betekent dat je organisch hoger probeert te ranken zonder per klik te betalen. SEA kost direct geld per klik, SEO kost tijd en content."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is goedkoper, SEA of SEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Op de korte termijn is SEA goedkoper omdat je geen voorinvestering hebt en direct verkeer krijgt. Op de lange termijn is SEO goedkoper, want elke organische klik is gratis. Reken voor een serieuze SEO-strategie op 3 tot 12 maanden voorinvestering voordat het rendement zichtbaar wordt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe snel werkt SEA versus SEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "SEA levert binnen 24 uur na het live zetten van een campagne het eerste verkeer en de eerste conversies. SEO heeft 3 tot 6 maanden nodig voor de eerste merkbare ranking-stijgingen en 9 tot 18 maanden voor structurele groei. Wie snel resultaat wil, begint met SEA. Wie duurzaam wil bouwen, investeert in SEO."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Algemeen",
+                                    "item": "https://www.empowers.nl/blogs/algemeen"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke strategie past bij een klein budget?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Bij een budget onder 1.500 euro per maand kies je 1 strategie. Heb je een nieuw bedrijf en wil je snel klanten, kies SEA op 5 tot 10 zoekwoorden met hoge intentie. Heb je 6 tot 12 maanden geduld en een sterk product, kies SEO en focus op 3 tot 5 long-tail content-onderwerpen per maand."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wanneer combineer je SEA en SEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vanaf een totaalbudget van 2.500 euro per maand werkt de combinatie het beste. SEA dekt zoekwoorden waar SEO maanden over zou doen, SEO bouwt langzaam aan organisch verkeer dat jouw SEA-kosten verlaagt. Branded zoekwoorden dek je via beide kanalen om concurrenten te blokkeren."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke strategie heeft betere ROI op de lange termijn?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "SEO heeft op 24 maanden gezien doorgaans een betere ROI omdat de marginale kosten dalen naarmate je meer rankings opbouwt. Een blog die jaar na jaar verkeer levert, hoeft niet opnieuw betaald te worden. SEA blijft elke klik kosten. Wel is SEA voorspelbaarder per maand, terwijl SEO meer schommelt door algoritme-updates."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Kun je met alleen SEO een bedrijf opbouwen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Theoretisch ja, in de praktijk zelden binnen het eerste jaar. SEO levert pas na 6 tot 12 maanden voldoende verkeer voor een bedrijfskern. Wie alleen op SEO inzet, riskeert maanden zonder klanten. Combineer in de opbouwfase met SEA en bouw daarna SEA langzaam af zodra SEO levert."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "SEA vs SEO",
+                                    "item": "https://www.empowers.nl/blogs/algemeen/sea-vs-seo-strategie-budget-doel"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Algemeen", "item": "https://www.empowers.nl/blogs/algemeen" },
-                            { "@type": "ListItem", "position": 4, "name": "SEA vs SEO", "item": "https://www.empowers.nl/blogs/algemeen/sea-vs-seo-strategie-budget-doel" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

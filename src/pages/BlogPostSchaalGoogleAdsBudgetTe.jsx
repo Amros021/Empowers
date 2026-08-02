@@ -28,89 +28,114 @@ export default function BlogPostSchaalGoogleAdsBudgetTe() {
                 <meta name="twitter:title" content="Hoe schaal je Google Ads zonder je budget te verdubbelen" />
                 <meta name="twitter:description" content="Welke 6 hefbomen Google Ads laten groeien zonder dat je ROAS instort." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe schaal je Google Ads zonder je budget te verdubbelen (2026)",
-                        "description": "Google Ads schalen zonder dat je ROAS instort? Lees welke 6 hefbomen werken, welke fouten budget kosten en hoe je gecontroleerd opschaalt.",
-                        "image": "https://www.empowers.nl/images/blogs/schaal-google-ads-budget-te.jpg",
-                        "datePublished": "2026-05-04T12:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe schaal je Google Ads zonder je budget te verdubbelen (2026)",
+                            "description": "Google Ads schalen zonder dat je ROAS instort? Lees welke 6 hefbomen werken, welke fouten budget kosten en hoe je gecontroleerd opschaalt.",
+                            "image": "https://www.empowers.nl/images/blogs/schaal-google-ads-budget-te.jpg",
+                            "datePublished": "2026-05-04T12:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe schaal je Google Ads campagnes?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Schaal in stappen van maximaal 20 procent budget per week. Sneller scalen verstoort de smart bidding en zorgt vaak voor 30 tot 40 procent ROAS-verlies. Begin met de campagnes die al rendement leveren en breid uit met nieuwe zoekwoorden, doelgroepen en advertentievarianten naast budget alleen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Waarom werkt budget verdubbelen meestal niet?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Smart bidding leert per dag op het budget waarmee een campagne draait. Bij een verdubbeling moet het algoritme opnieuw leren en bovendien duurdere veilingen betreden. ROAS daalt dan vaak 30 tot 50 procent in de eerste weken. Stapsgewijs schalen voorkomt dat je budget verbrandt aan een leerfase."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is een campagne klaar om op te schalen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een campagne is klaar om op te schalen als hij minimaal 30 conversies per maand draait, een ROAS boven jouw doel haalt en de leerfase voorbij is. Onder die drempel is het algoritme nog niet stabiel en kost extra budget vaak meer dan het oplevert. Wacht tot je 4 tot 8 weken consistente prestatie ziet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke hefbomen werken naast budget?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Zes hefbomen leveren groei zonder budgetverdubbeling: nieuwe zoekwoorden toevoegen, advertentieteksten testen, landingspagina's optimaliseren, doelgroepen verbreden, biedstrategie aanpassen en negatieve zoekwoorden bijwerken. Elke hefboom levert 5 tot 20 procent extra omzet zonder dat je meer hoeft uit te geven."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel groei is realistisch in 90 dagen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een goed opgezet schaalplan levert in 90 dagen vaak 40 tot 70 procent omzetgroei zonder dat het budget verdubbelt. Het verschil komt uit hogere kwaliteitsscores, betere conversieratio's en bredere targeting. Wie alleen budget verhoogt en de rest laat liggen, ziet meestal 10 tot 20 procent groei voor 50 tot 100 procent meer kosten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke fout maken ondernemers het vaakst?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ze verhogen het budget op de winnende campagne in één keer met 50 tot 100 procent. ROAS instort in de eerste 14 dagen, paniek toeslaat en het budget weer wordt teruggedraaid. Het algoritme heeft net niet kunnen leren. Stapsgewijze verhogingen van 15 tot 20 procent per week voorkomen dit hele probleem."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe schaal je Google Ads campagnes?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Schaal in stappen van maximaal 20 procent budget per week. Sneller scalen verstoort de smart bidding en zorgt vaak voor 30 tot 40 procent ROAS-verlies. Begin met de campagnes die al rendement leveren en breid uit met nieuwe zoekwoorden, doelgroepen en advertentievarianten naast budget alleen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Waarom werkt budget verdubbelen meestal niet?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Smart bidding leert per dag op het budget waarmee een campagne draait. Bij een verdubbeling moet het algoritme opnieuw leren en bovendien duurdere veilingen betreden. ROAS daalt dan vaak 30 tot 50 procent in de eerste weken. Stapsgewijs schalen voorkomt dat je budget verbrandt aan een leerfase."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wanneer is een campagne klaar om op te schalen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een campagne is klaar om op te schalen als hij minimaal 30 conversies per maand draait, een ROAS boven jouw doel haalt en de leerfase voorbij is. Onder die drempel is het algoritme nog niet stabiel en kost extra budget vaak meer dan het oplevert. Wacht tot je 4 tot 8 weken consistente prestatie ziet."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke hefbomen werken naast budget?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Zes hefbomen leveren groei zonder budgetverdubbeling: nieuwe zoekwoorden toevoegen, advertentieteksten testen, landingspagina's optimaliseren, doelgroepen verbreden, biedstrategie aanpassen en negatieve zoekwoorden bijwerken. Elke hefboom levert 5 tot 20 procent extra omzet zonder dat je meer hoeft uit te geven."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoeveel groei is realistisch in 90 dagen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Een goed opgezet schaalplan levert in 90 dagen vaak 40 tot 70 procent omzetgroei zonder dat het budget verdubbelt. Het verschil komt uit hogere kwaliteitsscores, betere conversieratio's en bredere targeting. Wie alleen budget verhoogt en de rest laat liggen, ziet meestal 10 tot 20 procent groei voor 50 tot 100 procent meer kosten."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Welke fout maken ondernemers het vaakst?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ze verhogen het budget op de winnende campagne in één keer met 50 tot 100 procent. ROAS instort in de eerste 14 dagen, paniek toeslaat en het budget weer wordt teruggedraaid. Het algoritme heeft net niet kunnen leren. Stapsgewijze verhogingen van 15 tot 20 procent per week voorkomen dit hele probleem."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Google Ads schalen",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/google-ads-schalen-zonder-budget-verdubbelen"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "Google Ads schalen", "item": "https://www.empowers.nl/blogs/google-ads/google-ads-schalen-zonder-budget-verdubbelen" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -28,112 +28,114 @@ export default function BlogPostTikTokSparkAdsVsReguliere() {
                 <meta name="twitter:title" content="TikTok Spark Ads vs reguliere TikTok Ads: wat is het verschil?" />
                 <meta name="twitter:description" content="Spark Ads gebruiken echte content, reguliere ads maak je zelf. Lees welk format wanneer het beste werkt." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "TikTok Spark Ads vs reguliere TikTok Ads: wat is het verschil?",
-                        "description": "TikTok Spark Ads gebruiken bestaande content van creators of je eigen account. Reguliere ads maak je zelf. Lees de verschillen in kosten, resultaten en wanneer je welk format kiest.",
-                        "image": "https://www.empowers.nl/images/blogs/tiktok-spark-ads-vs-reguliere.jpg",
-                        "datePublished": "2026-04-12T00:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "TikTok Spark Ads vs reguliere TikTok Ads: wat is het verschil?",
+                            "description": "TikTok Spark Ads gebruiken bestaande content van creators of je eigen account. Reguliere ads maak je zelf. Lees de verschillen in kosten, resultaten en wanneer je welk format kiest.",
+                            "image": "https://www.empowers.nl/images/blogs/tiktok-spark-ads-vs-reguliere.jpg",
+                            "datePublished": "2026-04-12T00:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn TikTok Spark Ads precies?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Spark Ads zijn advertenties op TikTok die gebruikmaken van bestaande organische content. Je promoot een video die al op TikTok staat, van je eigen account of van een creator die toestemming geeft. De advertentie linkt direct naar het profiel van de oorspronkelijke maker, wat zorgt voor meer authenticiteit en betrokkenheid."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Zijn Spark Ads duurder dan reguliere TikTok Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Spark Ads hebben gemiddeld een lagere CPC dan reguliere ads omdat ze meer betrokkenheid genereren. De kosten per klik liggen vaak 20 tot 40 procent lager. Daar staat tegenover dat je bij creator-samenwerkingen mogelijk een vergoeding betaalt voor het gebruik van de content. De totale kosten hangen af van je strategie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik Spark Ads gebruiken met content van andere creators?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, maar alleen met toestemming. De creator genereert een autorisatiecode in de TikTok-app en deelt die met jou. Met die code koppel je hun video aan je advertentieaccount. De video blijft op het profiel van de creator staan, maar jij kunt hem als advertentie inzetten met jouw budget en doelgroep."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welk format werkt beter voor webshops: Spark Ads of reguliere ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor webshops werken beide formats goed, maar voor verschillende doelen. Spark Ads zijn sterker voor merkbekendheid en vertrouwen opbouwen. Reguliere ads met directe productlinks converteren vaker naar aankopen. De beste strategie combineert beide: Spark Ads bovenin de funnel, reguliere ads voor retargeting."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang moet een Spark Ad zijn voor het beste resultaat?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De ideale lengte is 15 tot 30 seconden. Korter dan 10 seconden geeft te weinig ruimte om een boodschap over te brengen. Langer dan 45 seconden haakt het grootste deel van de kijkers af. De eerste 2 seconden zijn het belangrijkst: die bepalen of iemand blijft kijken of doorscrolt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het minimale budget voor TikTok Spark Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "TikTok hanteert een minimaal campagnebudget van 50 euro en een minimaal dagbudget van 20 euro per advertentiegroep. Voor betrouwbare resultaten adviseren we minimaal 500 euro per maand. Daarmee test je twee tot drie Spark Ads en twee reguliere ads en verzamel je genoeg data om te zien wat werkt."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat zijn TikTok Spark Ads precies?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Spark Ads zijn advertenties op TikTok die gebruikmaken van bestaande organische content. Je promoot een video die al op TikTok staat, van je eigen account of van een creator die toestemming geeft. De advertentie linkt direct naar het profiel van de oorspronkelijke maker, wat zorgt voor meer authenticiteit en betrokkenheid."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Zijn Spark Ads duurder dan reguliere TikTok Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Spark Ads hebben gemiddeld een lagere CPC dan reguliere ads omdat ze meer betrokkenheid genereren. De kosten per klik liggen vaak 20 tot 40 procent lager. Daar staat tegenover dat je bij creator-samenwerkingen mogelijk een vergoeding betaalt voor het gebruik van de content. De totale kosten hangen af van je strategie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Kan ik Spark Ads gebruiken met content van andere creators?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, maar alleen met toestemming. De creator genereert een autorisatiecode in de TikTok-app en deelt die met jou. Met die code koppel je hun video aan je advertentieaccount. De video blijft op het profiel van de creator staan, maar jij kunt hem als advertentie inzetten met jouw budget en doelgroep."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welk format werkt beter voor webshops: Spark Ads of reguliere ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor webshops werken beide formats goed, maar voor verschillende doelen. Spark Ads zijn sterker voor merkbekendheid en vertrouwen opbouwen. Reguliere ads met directe productlinks converteren vaker naar aankopen. De beste strategie combineert beide: Spark Ads bovenin de funnel, reguliere ads voor retargeting."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe lang moet een Spark Ad zijn voor het beste resultaat?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "De ideale lengte is 15 tot 30 seconden. Korter dan 10 seconden geeft te weinig ruimte om een boodschap over te brengen. Langer dan 45 seconden haakt het grootste deel van de kijkers af. De eerste 2 seconden zijn het belangrijkst: die bepalen of iemand blijft kijken of doorscrolt."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is het minimale budget voor TikTok Spark Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "TikTok hanteert een minimaal campagnebudget van 50 euro en een minimaal dagbudget van 20 euro per advertentiegroep. Voor betrouwbare resultaten adviseren we minimaal 500 euro per maand. Daarmee test je twee tot drie Spark Ads en twee reguliere ads en verzamel je genoeg data om te zien wat werkt."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "TikTok Spark Ads vs reguliere",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/tiktok-spark-ads-vs-reguliere"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "Social Ads",
-                                "item": "https://www.empowers.nl/blogs/social-ads"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "TikTok Spark Ads vs reguliere",
-                                "item": "https://www.empowers.nl/blogs/social-ads/tiktok-spark-ads-vs-reguliere"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

@@ -29,8 +29,15 @@ export default function BlogPostStrategie() {
                             "headline": "Online marketingstrategie voor MKB: waar begin je?",
                             "image": "https://www.empowers.nl/images/blogs/marketing-strategie.jpg",
                             "description": "Een online marketingstrategie voor MKB hoeft niet ingewikkeld te zijn. Leer welke kanalen werken, hoe je budget verdeelt en hoe je meetbaar groeit.",
-                            "author": { "@type": "Organization", "name": "Empowers" },
-                            "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl" },
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl"
+                            },
                             "datePublished": "2026-03-24T00:00:00+01:00",
                             "dateModified": "2026-05-09T00:00:00+02:00",
                             "url": "https://www.empowers.nl/blogs/strategie/online-marketing-strategie-mkb"
@@ -38,27 +45,91 @@ export default function BlogPostStrategie() {
                         {
                             "@type": "FAQPage",
                             "mainEntity": [
-                                { "@type": "Question", "name": "Wat is een online marketingstrategie?", "acceptedAnswer": { "@type": "Answer", "text": "Een online marketingstrategie is een plan dat beschrijft via welke kanalen je klanten bereikt, welk budget je daarvoor inzet en hoe je meet of het werkt. Een goede strategie kiest bewust voor een beperkt aantal kanalen en zet die goed in, in plaats van overal een beetje aanwezig te zijn." } },
-                                { "@type": "Question", "name": "Hoeveel budget heb je nodig voor online marketing als MKB?", "acceptedAnswer": { "@type": "Answer", "text": "Als vuistregel geldt dat MKB-bedrijven 5 tot 10% van hun omzet aan marketing besteden. Voor een bedrijf met 500.000 euro omzet is dat 25.000 tot 50.000 euro per jaar. Hoe je dat verdeelt over kanalen hangt af van je doelen: snel groeien vraagt om advertentiebudget, duurzame groei vraagt ook om SEO en content." } },
-                                { "@type": "Question", "name": "Welk marketingkanaal levert het meeste op voor MKB?", "acceptedAnswer": { "@type": "Answer", "text": "Dat verschilt per bedrijf en branche. Google Ads scoort goed voor bedrijven waarbij mensen actief zoeken naar een product of dienst. Meta Ads werkt goed voor visuele producten en impulsaankopen. SEO loont het meest op de lange termijn. De combinatie van betaald en organisch geeft het beste resultaat." } },
-                                { "@type": "Question", "name": "Hoe meet je het succes van online marketing?", "acceptedAnswer": { "@type": "Answer", "text": "Kijk naar conversies, niet naar bereik of klikken. Een conversie is een actie die waarde heeft voor jouw bedrijf: een aankoop, een aanvraag of een telefoontje. Via Google Analytics en de advertentieplatformen koppel je die conversies aan de kanalen die ze genereren." } },
-                                { "@type": "Question", "name": "Wat is het verschil tussen een landingspagina en een gewone webpagina?", "acceptedAnswer": { "@type": "Answer", "text": "Een landingspagina is ontworpen met één doel: de bezoeker aanzetten tot een specifieke actie. Er zijn geen afleiding-links naar andere pagina's en de boodschap sluit nauw aan bij de advertentie of zoekopdracht die de bezoeker heeft gebracht. Een goede landingspagina verhoogt je conversieratio aanzienlijk." } },
-                                { "@type": "Question", "name": "Wanneer heeft een MKB-bedrijf een marketingbureau nodig?", "acceptedAnswer": { "@type": "Answer", "text": "Als je merkt dat je zelf niet de tijd of kennis hebt om campagnes structureel bij te sturen, loont het om een bureau in te schakelen. Een goed bureau bespaart je niet alleen tijd, maar haalt ook meer rendement uit je budget via betere instellingen, betere copy en betere tracking." } }
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is een online marketingstrategie?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Een online marketingstrategie is een plan dat beschrijft via welke kanalen je klanten bereikt, welk budget je daarvoor inzet en hoe je meet of het werkt. Een goede strategie kiest bewust voor een beperkt aantal kanalen en zet die goed in, in plaats van overal een beetje aanwezig te zijn."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoeveel budget heb je nodig voor online marketing als MKB?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Als vuistregel geldt dat MKB-bedrijven 5 tot 10% van hun omzet aan marketing besteden. Voor een bedrijf met 500.000 euro omzet is dat 25.000 tot 50.000 euro per jaar. Hoe je dat verdeelt over kanalen hangt af van je doelen: snel groeien vraagt om advertentiebudget, duurzame groei vraagt ook om SEO en content."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Welk marketingkanaal levert het meeste op voor MKB?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Dat verschilt per bedrijf en branche. Google Ads scoort goed voor bedrijven waarbij mensen actief zoeken naar een product of dienst. Meta Ads werkt goed voor visuele producten en impulsaankopen. SEO loont het meest op de lange termijn. De combinatie van betaald en organisch geeft het beste resultaat."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Hoe meet je het succes van online marketing?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Kijk naar conversies, niet naar bereik of klikken. Een conversie is een actie die waarde heeft voor jouw bedrijf: een aankoop, een aanvraag of een telefoontje. Via Google Analytics en de advertentieplatformen koppel je die conversies aan de kanalen die ze genereren."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wat is het verschil tussen een landingspagina en een gewone webpagina?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Een landingspagina is ontworpen met één doel: de bezoeker aanzetten tot een specifieke actie. Er zijn geen afleiding-links naar andere pagina's en de boodschap sluit nauw aan bij de advertentie of zoekopdracht die de bezoeker heeft gebracht. Een goede landingspagina verhoogt je conversieratio aanzienlijk."
+                                    }
+                                },
+                                {
+                                    "@type": "Question",
+                                    "name": "Wanneer heeft een MKB-bedrijf een marketingbureau nodig?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "Als je merkt dat je zelf niet de tijd of kennis hebt om campagnes structureel bij te sturen, loont het om een bureau in te schakelen. Een goed bureau bespaart je niet alleen tijd, maar haalt ook meer rendement uit je budget via betere instellingen, betere copy en betere tracking."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Nieuws",
+                                    "item": "https://www.empowers.nl/nieuws"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Online marketingstrategie voor MKB: waar begin je?",
+                                    "item": "https://www.empowers.nl/blogs/strategie/online-marketing-strategie-mkb"
+                                }
                             ]
                         }
                     ]
                 })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Nieuws", "item": "https://www.empowers.nl/nieuws" },
-                        { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                        { "@type": "ListItem", "position": 4, "name": "Online marketingstrategie voor MKB: waar begin je?", "item": "https://www.empowers.nl/blogs/strategie/online-marketing-strategie-mkb" }
-                    ]
-                })}</script>
-            </Helmet>
+                    <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Online marketingstrategie voor MKB: waar begin je?" />
+        <meta name="twitter:description" content="Een online marketingstrategie voor MKB hoeft niet ingewikkeld te zijn. Leer welke kanalen werken, hoe je budget verdeelt" />
+      </Helmet>
             <Navbar />
 
             <article className="w-full pt-40 pb-24 px-6 relative">

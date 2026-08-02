@@ -29,97 +29,122 @@ export default function BlogPostSnellereWebsiteMeerKlanten() {
                 <meta name="twitter:title" content="Snellere website, meer klanten" />
                 <meta name="twitter:description" content="Paginasnelheid en conversie: wat de cijfers laten zien en welke ingrepen je deze week doet." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Snellere website, meer klanten: zo werkt dat in de praktijk",
-                        "description": "Hoe paginasnelheid je conversie raakt, welke ingrepen het meeste verschil maken en hoe je test.",
-                        "image": "https://www.empowers.nl/images/blogs/snellere-website-meer-klanten.jpg",
-                        "datePublished": "2026-05-10T17:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Snellere website, meer klanten: zo werkt dat in de praktijk",
+                            "description": "Hoe paginasnelheid je conversie raakt, welke ingrepen het meeste verschil maken en hoe je test.",
+                            "image": "https://www.empowers.nl/images/blogs/snellere-website-meer-klanten.jpg",
+                            "datePublished": "2026-05-10T17:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoeveel klanten verlies ik per seconde tragere laadtijd?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Google publiceerde dat de kans op een bouncen toeneemt naarmate de laadtijd oploopt. Voor mobiel geldt: gaat de laadtijd van één naar drie seconden, dan stijgt de bounce-kans aanzienlijk. De precieze impact verschilt per branche en doelgroep, maar de richting is duidelijk. Trage sites verliezen klanten voordat de homepage ooit getoond is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is een goede laadtijd voor mijn site?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Onder de 2,5 seconden voor Largest Contentful Paint, onder de 200 milliseconden voor Interaction to Next Paint en onder 0,1 voor Cumulative Layout Shift. Dat zijn de drempels die Google in Core Web Vitals hanteert. Komt je site daarboven, dan zit je in het oranje of rode segment van de meting. Een audit via PageSpeed Insights laat dit direct zien."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke ingreep levert het meeste verschil op?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor de meeste sites is het comprimeren en moderniseren van afbeeldingen de snelste winst. Een homepage met ongedoseerde JPG's van enkele MB's is doorgaans de zwaarste post. Daarna komt het verwijderen van overbodige tracking-scripts en het uitstellen van niet-essentiële JavaScript. Voor WordPress-sites is dat vaak een caching-plugin combineren met een afbeeldingsplugin."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe groot is het conversie-effect echt?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Cases verschillen. Voor e-commerce zijn meerdere studies gepubliceerd waarin een verbetering van één seconde tot tientallen procenten meer conversie leidde, afhankelijk van het uitgangspunt. Voor leadgen-sites is het effect doorgaans kleiner maar nog steeds merkbaar. Hoe trager de uitgangspositie, hoe groter de winst per ingreep."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Helpt een snellere site ook voor SEO?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja. Core Web Vitals zijn sinds 2021 een rankingfactor in Google. Bij gelijke kwaliteit van content rankt een snellere pagina hoger dan een tragere. Het effect is geen wondermiddel maar wel structureel. Voor concurrerende zoekwoorden waar de top tien dicht bij elkaar ligt, kan paginasnelheid de doorslag geven."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik mijn hele site overbouwen voor snelheid?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vrijwel nooit. De meeste snelheidsproblemen zijn op te lossen binnen het bestaande CMS. Een nieuwe site bouwen voor snelheid alleen is overkill. Pas wanneer je een sterk verouderde stack hebt of een onderhoudsschuld die ook andere dingen blokkeert, is een herbouw een redelijke overweging. Begin altijd met optimaliseren wat er staat."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet ik snelheid het betrouwbaarst?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie tools naast elkaar. PageSpeed Insights voor Core Web Vitals en lab-metingen. Chrome User Experience Report voor data uit echte gebruikersbezoeken. WebPageTest voor diepere waterfall-analyses. Vertrouw nooit op één meting, maar pak het gemiddelde over een week. Tijdens marketingcampagnes kun je de snelheid ook in GA4 koppelen aan conversie."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoeveel klanten verlies ik per seconde tragere laadtijd?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Google publiceerde dat de kans op een bouncen toeneemt naarmate de laadtijd oploopt. Voor mobiel geldt: gaat de laadtijd van één naar drie seconden, dan stijgt de bounce-kans aanzienlijk. De precieze impact verschilt per branche en doelgroep, maar de richting is duidelijk. Trage sites verliezen klanten voordat de homepage ooit getoond is."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is een goede laadtijd voor mijn site?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Onder de 2,5 seconden voor Largest Contentful Paint, onder de 200 milliseconden voor Interaction to Next Paint en onder 0,1 voor Cumulative Layout Shift. Dat zijn de drempels die Google in Core Web Vitals hanteert. Komt je site daarboven, dan zit je in het oranje of rode segment van de meting. Een audit via PageSpeed Insights laat dit direct zien."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke ingreep levert het meeste verschil op?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Voor de meeste sites is het comprimeren en moderniseren van afbeeldingen de snelste winst. Een homepage met ongedoseerde JPG's van enkele MB's is doorgaans de zwaarste post. Daarna komt het verwijderen van overbodige tracking-scripts en het uitstellen van niet-essentiële JavaScript. Voor WordPress-sites is dat vaak een caching-plugin combineren met een afbeeldingsplugin."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Strategie",
+                                    "item": "https://www.empowers.nl/blogs/strategie"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe groot is het conversie-effect echt?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Cases verschillen. Voor e-commerce zijn meerdere studies gepubliceerd waarin een verbetering van één seconde tot tientallen procenten meer conversie leidde, afhankelijk van het uitgangspunt. Voor leadgen-sites is het effect doorgaans kleiner maar nog steeds merkbaar. Hoe trager de uitgangspositie, hoe groter de winst per ingreep."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Helpt een snellere site ook voor SEO?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja. Core Web Vitals zijn sinds 2021 een rankingfactor in Google. Bij gelijke kwaliteit van content rankt een snellere pagina hoger dan een tragere. Het effect is geen wondermiddel maar wel structureel. Voor concurrerende zoekwoorden waar de top tien dicht bij elkaar ligt, kan paginasnelheid de doorslag geven."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik mijn hele site overbouwen voor snelheid?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Vrijwel nooit. De meeste snelheidsproblemen zijn op te lossen binnen het bestaande CMS. Een nieuwe site bouwen voor snelheid alleen is overkill. Pas wanneer je een sterk verouderde stack hebt of een onderhoudsschuld die ook andere dingen blokkeert, is een herbouw een redelijke overweging. Begin altijd met optimaliseren wat er staat."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe meet ik snelheid het betrouwbaarst?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie tools naast elkaar. PageSpeed Insights voor Core Web Vitals en lab-metingen. Chrome User Experience Report voor data uit echte gebruikersbezoeken. WebPageTest voor diepere waterfall-analyses. Vertrouw nooit op één meting, maar pak het gemiddelde over een week. Tijdens marketingcampagnes kun je de snelheid ook in GA4 koppelen aan conversie."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Snellere website meer klanten",
+                                    "item": "https://www.empowers.nl/blogs/strategie/snellere-website-meer-klanten"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Strategie", "item": "https://www.empowers.nl/blogs/strategie" },
-                            { "@type": "ListItem", "position": 4, "name": "Snellere website meer klanten", "item": "https://www.empowers.nl/blogs/strategie/snellere-website-meer-klanten" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

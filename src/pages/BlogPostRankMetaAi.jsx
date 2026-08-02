@@ -28,97 +28,122 @@ export default function BlogPostRankMetaAi() {
                 <meta name="twitter:title" content="Ranken in Meta AI: zo doe je het" />
                 <meta name="twitter:description" content="Wat Meta AI is en hoe je zichtbaarheid bouwt." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "Hoe rank je in Meta AI? Praktisch stappenplan voor 2026",
-                        "description": "Meta AI is de assistent in WhatsApp, Instagram en Facebook. Lees hoe je je merk zichtbaar maakt in Meta AI antwoorden.",
-                        "image": "https://www.empowers.nl/images/blogs/rank-meta-ai.jpg",
-                        "datePublished": "2026-05-08T16:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "Hoe rank je in Meta AI? Praktisch stappenplan voor 2026",
+                            "description": "Meta AI is de assistent in WhatsApp, Instagram en Facebook. Lees hoe je je merk zichtbaar maakt in Meta AI antwoorden.",
+                            "image": "https://www.empowers.nl/images/blogs/rank-meta-ai.jpg",
+                            "datePublished": "2026-05-08T16:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is Meta AI?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Meta AI is de AI-assistent van Meta, geintegreerd in WhatsApp en Instagram, plus in Facebook en Messenger. Gebruikers kunnen vragen stellen en krijgen direct antwoord, vergelijkbaar met ChatGPT of Gemini. Het systeem haalt informatie zowel uit Meta's eigen data als uit het bredere web. Voor bedrijven is het een groeiend zichtbaarheidskanaal."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe verschilt Meta AI van ChatGPT en Google AI Mode?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Meta AI heeft een unieke positie omdat het direct in chat-apps draait waar gebruikers al zitten. ChatGPT vraagt om een aparte app of website, Google AI Mode draait binnen Google Search. Meta AI verschijnt in een gesprek dat al bezig is. Daarnaast leunt Meta AI sterker op Instagram- en Facebook-content als bron, wat voor merken met sterke aanwezigheid op die platforms een voordeel geeft."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke content gebruikt Meta AI als bron?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Meta AI combineert drie soorten bronnen. Publieke content op Instagram en Facebook, je website (als die crawlbaar is), en data van zoekpartners. Voor zichtbaarheid betekent dit dat je niet alleen op je website moet investeren, maar ook in de kwaliteit van je social-content op Meta-platforms. Bedrijven die alleen reclame draaien zonder organische content laten kansen liggen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe optimaliseer je je Instagram en Facebook voor Meta AI?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie pijlers werken. Een complete bedrijfspagina met heldere bedrijfsinformatie. Locatie en openingstijden plus de juiste categorisering. Sterke organische content die regelmatig verschijnt en interactie genereert. En geverifieerde merkstatus waar mogelijk. Meta AI weegt geverifieerde accounts zwaarder in zijn aanbevelingen. Lege of inactieve pagina's worden zelden geciteerd."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Maakt schema markup verschil voor Meta AI?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Op je website wel. Voor Meta-platforms zelf gebruikt het systeem ingebouwde meta-data zoals Open Graph tags, productgegevens uit Instagram Shopping en LocalBusiness-data. Een product met complete catalogus-informatie wordt door Meta AI sneller herkend en aanbevolen. Schema op je website helpt voor de cross-referenties die Meta AI maakt naar externe bronnen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet je zichtbaarheid in Meta AI?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Lastig omdat Meta nog geen eigen rapportage geeft over wanneer je merk in een Meta AI-antwoord verschijnt. Indirect kun je sturen op stijging in branded mentions in Meta-zoekfuncties, profile-views op je Instagram en Facebook business-pagina, en directe bericht-aanvragen via de chat-platforms. Stijgen die metrics zonder dat je advertentiebudget omhoog gaat, dan heb je waarschijnlijk een organische Meta AI-citatie te pakken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt het ook voor B2B?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, mits je B2B-doelgroep WhatsApp Business of Instagram gebruikt. Voor sectoren zoals professional services, training en coaching plus B2B-software waar mensen via DM contact zoeken, is Meta AI een groeiend kanaal. Voor klassieke industriele B2B met enkel formele inkoopprocessen is de impact beperkt. Test het voor je sector voordat je groot investeert."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat is Meta AI?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Meta AI is de AI-assistent van Meta, geintegreerd in WhatsApp en Instagram, plus in Facebook en Messenger. Gebruikers kunnen vragen stellen en krijgen direct antwoord, vergelijkbaar met ChatGPT of Gemini. Het systeem haalt informatie zowel uit Meta's eigen data als uit het bredere web. Voor bedrijven is het een groeiend zichtbaarheidskanaal."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe verschilt Meta AI van ChatGPT en Google AI Mode?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Meta AI heeft een unieke positie omdat het direct in chat-apps draait waar gebruikers al zitten. ChatGPT vraagt om een aparte app of website, Google AI Mode draait binnen Google Search. Meta AI verschijnt in een gesprek dat al bezig is. Daarnaast leunt Meta AI sterker op Instagram- en Facebook-content als bron, wat voor merken met sterke aanwezigheid op die platforms een voordeel geeft."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke content gebruikt Meta AI als bron?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Meta AI combineert drie soorten bronnen. Publieke content op Instagram en Facebook, je website (als die crawlbaar is), en data van zoekpartners. Voor zichtbaarheid betekent dit dat je niet alleen op je website moet investeren, maar ook in de kwaliteit van je social-content op Meta-platforms. Bedrijven die alleen reclame draaien zonder organische content laten kansen liggen."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "GEO",
+                                    "item": "https://www.empowers.nl/blogs/geo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe optimaliseer je je Instagram en Facebook voor Meta AI?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Drie pijlers werken. Een complete bedrijfspagina met heldere bedrijfsinformatie. Locatie en openingstijden plus de juiste categorisering. Sterke organische content die regelmatig verschijnt en interactie genereert. En geverifieerde merkstatus waar mogelijk. Meta AI weegt geverifieerde accounts zwaarder in zijn aanbevelingen. Lege of inactieve pagina's worden zelden geciteerd."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Maakt schema markup verschil voor Meta AI?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Op je website wel. Voor Meta-platforms zelf gebruikt het systeem ingebouwde meta-data zoals Open Graph tags, productgegevens uit Instagram Shopping en LocalBusiness-data. Een product met complete catalogus-informatie wordt door Meta AI sneller herkend en aanbevolen. Schema op je website helpt voor de cross-referenties die Meta AI maakt naar externe bronnen."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe meet je zichtbaarheid in Meta AI?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Lastig omdat Meta nog geen eigen rapportage geeft over wanneer je merk in een Meta AI-antwoord verschijnt. Indirect kun je sturen op stijging in branded mentions in Meta-zoekfuncties, profile-views op je Instagram en Facebook business-pagina, en directe bericht-aanvragen via de chat-platforms. Stijgen die metrics zonder dat je advertentiebudget omhoog gaat, dan heb je waarschijnlijk een organische Meta AI-citatie te pakken."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Werkt het ook voor B2B?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, mits je B2B-doelgroep WhatsApp Business of Instagram gebruikt. Voor sectoren zoals professional services, training en coaching plus B2B-software waar mensen via DM contact zoeken, is Meta AI een groeiend kanaal. Voor klassieke industriele B2B met enkel formele inkoopprocessen is de impact beperkt. Test het voor je sector voordat je groot investeert."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "Ranken in Meta AI",
+                                    "item": "https://www.empowers.nl/blogs/geo/rank-meta-ai"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "GEO", "item": "https://www.empowers.nl/blogs/geo" },
-                            { "@type": "ListItem", "position": 4, "name": "Ranken in Meta AI", "item": "https://www.empowers.nl/blogs/geo/rank-meta-ai" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

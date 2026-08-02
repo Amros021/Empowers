@@ -23,36 +23,110 @@ export default function BlogPostSeaUitbestedenValkuilenMkb() {
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "Article",
-                    "headline": "SEA uitbesteden: 5 valkuilen die MKB-bedrijven geld kosten",
-                    "description": "De vijf meest voorkomende fouten bij het uitbesteden van SEA, en hoe je ze voorkomt.",
-                    "image": "https://www.empowers.nl/images/blogs/sea-uitbesteden-valkuilen-mkb.jpg",
-                    "datePublished": "2026-05-13T14:30:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                    "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                        { "@type": "Question", "name": "Wat is de duurste fout bij SEA uitbesteden?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Een Google Ads-account laten opzetten op naam van het bureau in plaats van op je eigen bedrijf. Bij beëindiging van de samenwerking ben je dan al je historische data, je quality scores en je leerfase-credits kwijt. Eis altijd dat het account op naam van jouw bedrijf staat, met het bureau als gebruiker met admin-rechten." } },
-                        { "@type": "Question", "name": "Hoe weet ik of mijn bureau goed werk levert?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Niet aan rapportages alleen. Vraag elk kwartaal toegang tot het Google Ads-platform zelf en bekijk drie zaken: zijn er negatieve zoekwoorden toegevoegd, draaien er actieve A/B-tests op advertentieteksten, en is de campagnestructuur logisch opgezet? Een statisch account zonder zichtbare optimalisaties is een teken dat er weinig werk wordt verricht." } },
-                        { "@type": "Question", "name": "Wat zijn de meest voorkomende valkuilen?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "De vijf grootste: 1) accounts op naam van het bureau in plaats van jouw bedrijf, 2) verkeerde KPI's afspreken (impressies of clicks in plaats van CPL of ROAS), 3) geen heldere afspraken over wat het bureau maandelijks levert, 4) verborgen marges bovenop het advertentiebudget, 5) onmogelijk lange contracten zonder evaluatiemomenten." } },
-                        { "@type": "Question", "name": "Hoe bouw je een goede contractafspraak?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Drie essentiële clausules. Eigendom van accounts op jouw naam. Een opzegtermijn van maximaal één maand na een proefperiode van 1 tot 3 maanden. Een prestatie-clausule: wat gebeurt er als afgesproken KPI's twee maanden achtereen niet worden gehaald? Een evaluatiemoment met de senior strateeg, mogelijk een korting op de fee, of de optie om tussentijds te stoppen." } },
-                        { "@type": "Question", "name": "Wanneer is het tijd om van bureau te wisselen?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Bij twee of meer signalen: KPI's worden drie maanden achtereen niet gehaald zonder duidelijke uitleg, communicatie verloopt eenzijdig (jij moet steeds aan de bel trekken), rapportages bevatten alleen positieve metrics, of het bureau weigert volledige toegang te geven tot je account. Een gesprek met de senior strateeg over verbetering geeft je antwoord op de vraag of er nog wat te repareren valt." } },
-                        { "@type": "Question", "name": "Kan een MKB met klein budget SEA uitbesteden?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Onder de 2.000 euro advertentiebudget per maand wordt SEA uitbesteden lastig: het bureau kan niet voldoende uren in optimalisatie steken om zijn fee terug te verdienen, en je campagne haalt zelden genoeg conversies voor stabiele leerdata. Voor kleinere budgetten kan zelf doen met training of een coaching-traject vaak meer opleveren dan volledig uitbesteden." } }
-                    ] }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "SEA uitbesteden valkuilen", "item": "https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-valkuilen-mkb" }
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "SEA uitbesteden: 5 valkuilen die MKB-bedrijven geld kosten",
+                            "description": "De vijf meest voorkomende fouten bij het uitbesteden van SEA, en hoe je ze voorkomt.",
+                            "image": "https://www.empowers.nl/images/blogs/sea-uitbesteden-valkuilen-mkb.jpg",
+                            "datePublished": "2026-05-13T14:30:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is de duurste fout bij SEA uitbesteden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Een Google Ads-account laten opzetten op naam van het bureau in plaats van op je eigen bedrijf. Bij beëindiging van de samenwerking ben je dan al je historische data, je quality scores en je leerfase-credits kwijt. Eis altijd dat het account op naam van jouw bedrijf staat, met het bureau als gebruiker met admin-rechten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe weet ik of mijn bureau goed werk levert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet aan rapportages alleen. Vraag elk kwartaal toegang tot het Google Ads-platform zelf en bekijk drie zaken: zijn er negatieve zoekwoorden toegevoegd, draaien er actieve A/B-tests op advertentieteksten, en is de campagnestructuur logisch opgezet? Een statisch account zonder zichtbare optimalisaties is een teken dat er weinig werk wordt verricht."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat zijn de meest voorkomende valkuilen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "De vijf grootste: 1) accounts op naam van het bureau in plaats van jouw bedrijf, 2) verkeerde KPI's afspreken (impressies of clicks in plaats van CPL of ROAS), 3) geen heldere afspraken over wat het bureau maandelijks levert, 4) verborgen marges bovenop het advertentiebudget, 5) onmogelijk lange contracten zonder evaluatiemomenten."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe bouw je een goede contractafspraak?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Drie essentiële clausules. Eigendom van accounts op jouw naam. Een opzegtermijn van maximaal één maand na een proefperiode van 1 tot 3 maanden. Een prestatie-clausule: wat gebeurt er als afgesproken KPI's twee maanden achtereen niet worden gehaald? Een evaluatiemoment met de senior strateeg, mogelijk een korting op de fee, of de optie om tussentijds te stoppen."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wanneer is het tijd om van bureau te wisselen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Bij twee of meer signalen: KPI's worden drie maanden achtereen niet gehaald zonder duidelijke uitleg, communicatie verloopt eenzijdig (jij moet steeds aan de bel trekken), rapportages bevatten alleen positieve metrics, of het bureau weigert volledige toegang te geven tot je account. Een gesprek met de senior strateeg over verbetering geeft je antwoord op de vraag of er nog wat te repareren valt."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan een MKB met klein budget SEA uitbesteden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Onder de 2.000 euro advertentiebudget per maand wordt SEA uitbesteden lastig: het bureau kan niet voldoende uren in optimalisatie steken om zijn fee terug te verdienen, en je campagne haalt zelden genoeg conversies voor stabiele leerdata. Voor kleinere budgetten kan zelf doen met training of een coaching-traject vaak meer opleveren dan volledig uitbesteden."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "SEA uitbesteden valkuilen",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-valkuilen-mkb"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />

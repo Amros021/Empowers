@@ -28,112 +28,114 @@ export default function BlogPostSeoUitbestedenZelfEerlijkAntwoord() {
                 <meta name="twitter:title" content="SEO uitbesteden of zelf doen? Een eerlijk antwoord" />
                 <meta name="twitter:description" content="SEO uitbesteden kost 500 tot 2500 euro per maand. Zelf doen bespaart geld maar kost veel tijd. Lees wanneer uitbesteden slim is." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "SEO uitbesteden of zelf doen? Een eerlijk antwoord",
-                        "description": "SEO uitbesteden kost 500 tot 2500 euro per maand. Zelf doen bespaart geld maar kost veel tijd. Lees wanneer uitbesteden slim is en wanneer je het beter zelf doet.",
-                        "image": "https://www.empowers.nl/images/blogs/seo-uitbesteden-zelf-eerlijk-antwoord.jpg",
-                        "datePublished": "2026-03-27T00:00:00+01:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": {
-                                "@type": "ImageObject",
-                                "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "SEO uitbesteden of zelf doen? Een eerlijk antwoord",
+                            "description": "SEO uitbesteden kost 500 tot 2500 euro per maand. Zelf doen bespaart geld maar kost veel tijd. Lees wanneer uitbesteden slim is en wanneer je het beter zelf doet.",
+                            "image": "https://www.empowers.nl/images/blogs/seo-uitbesteden-zelf-eerlijk-antwoord.jpg",
+                            "datePublished": "2026-03-27T00:00:00+01:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost SEO uitbesteden per maand?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "SEO uitbesteden kost gemiddeld 500 tot 2500 euro per maand. Kleine lokale projecten beginnen rond 500 euro. Landelijke campagnes met linkbuilding en contentcreatie zitten sneller richting 1500 tot 2500 euro. Let op bureaus die onder de 300 euro aanbieden, daar zit zelden serieus werk achter."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik SEO zelf leren en doen?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, de basis van SEO is te leren. Google zelf biedt gratis cursussen aan. Maar SEO goed uitvoeren kost 10 tot 20 uur per week. De meeste ondernemers hebben die tijd niet naast hun bedrijf. Technische SEO en linkbuilding vragen bovendien specialistische kennis."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe kies ik een goed SEO bureau?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Let op transparantie, meetbare rapportages en eerlijke verwachtingen. Een goed bureau belooft geen nummer 1 posities. Vraag naar referenties, bekijk hun eigen rankings en check of je direct contact hebt met de specialist die jouw project uitvoert."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe lang duurt het voordat SEO resultaat oplevert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Reken op 3 tot 6 maanden voor eerste resultaten. Serieuze groei in traffic en rankings zie je meestal na 6 tot 12 maanden. Lokale SEO kan sneller werken, soms al na 4 tot 8 weken bij weinig concurrentie."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Is SEO uitbesteden het waard voor een klein bedrijf?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, als je de juiste partner kiest. Een klein bedrijf met een budget van 750 euro per maand kan binnen 6 tot 12 maanden structureel organisch verkeer opbouwen. Dat verkeer kost daarna niets per klik, in tegenstelling tot advertenties."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat is het verschil tussen SEO en SEA?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "SEO is organische zichtbaarheid waar je niet per klik betaalt. SEA is betaald adverteren in Google, waar je betaalt per klik. SEO is langzamer maar duurzamer. SEA levert direct verkeer maar stopt zodra je budget op is. De beste strategie combineert beide."
+                                        }
+                                    }
+                                ]
                             }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Wat kost SEO uitbesteden per maand?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "SEO uitbesteden kost gemiddeld 500 tot 2500 euro per maand. Kleine lokale projecten beginnen rond 500 euro. Landelijke campagnes met linkbuilding en contentcreatie zitten sneller richting 1500 tot 2500 euro. Let op bureaus die onder de 300 euro aanbieden, daar zit zelden serieus werk achter."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Kan ik SEO zelf leren en doen?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, de basis van SEO is te leren. Google zelf biedt gratis cursussen aan. Maar SEO goed uitvoeren kost 10 tot 20 uur per week. De meeste ondernemers hebben die tijd niet naast hun bedrijf. Technische SEO en linkbuilding vragen bovendien specialistische kennis."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe kies ik een goed SEO bureau?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Let op transparantie, meetbare rapportages en eerlijke verwachtingen. Een goed bureau belooft geen nummer 1 posities. Vraag naar referenties, bekijk hun eigen rankings en check of je direct contact hebt met de specialist die jouw project uitvoert."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "SEO",
+                                    "item": "https://www.empowers.nl/blogs/seo"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe lang duurt het voordat SEO resultaat oplevert?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Reken op 3 tot 6 maanden voor eerste resultaten. Serieuze groei in traffic en rankings zie je meestal na 6 tot 12 maanden. Lokale SEO kan sneller werken, soms al na 4 tot 8 weken bij weinig concurrentie."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Is SEO uitbesteden het waard voor een klein bedrijf?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, als je de juiste partner kiest. Een klein bedrijf met een budget van 750 euro per maand kan binnen 6 tot 12 maanden structureel organisch verkeer opbouwen. Dat verkeer kost daarna niets per klik, in tegenstelling tot advertenties."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat is het verschil tussen SEO en SEA?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "SEO is organische zichtbaarheid waar je niet per klik betaalt. SEA is betaald adverteren in Google, waar je betaalt per klik. SEO is langzamer maar duurzamer. SEA levert direct verkeer maar stopt zodra je budget op is. De beste strategie combineert beide."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "SEO uitbesteden of zelf doen?",
+                                    "item": "https://www.empowers.nl/blogs/seo/seo-uitbesteden-zelf-eerlijk-antwoord"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            {
-                                "@type": "ListItem",
-                                "position": 1,
-                                "name": "Home",
-                                "item": "https://www.empowers.nl"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 2,
-                                "name": "Blogs",
-                                "item": "https://www.empowers.nl/blogs"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 3,
-                                "name": "SEO",
-                                "item": "https://www.empowers.nl/blogs/seo"
-                            },
-                            {
-                                "@type": "ListItem",
-                                "position": 4,
-                                "name": "SEO uitbesteden of zelf doen?",
-                                "item": "https://www.empowers.nl/blogs/seo/seo-uitbesteden-zelf-eerlijk-antwoord"
-                            }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

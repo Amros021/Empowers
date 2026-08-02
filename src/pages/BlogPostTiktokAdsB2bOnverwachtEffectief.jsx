@@ -28,97 +28,122 @@ export default function BlogPostTiktokAdsB2bOnverwachtEffectief() {
                 <meta name="twitter:title" content="TikTok Ads voor B2B: zo werkt het echt" />
                 <meta name="twitter:description" content="Decision makers, brand-recall en leadgen op TikTok in 2026." />
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Article",
-                        "headline": "TikTok Ads voor B2B: onverwacht effectief",
-                        "description": "Waarom B2B-decision-makers op TikTok zitten en hoe je B2B-campagnes opzet die leads opleveren.",
-                        "image": "https://www.empowers.nl/images/blogs/tiktok-ads-b2b-onverwacht-effectief.jpg",
-                        "datePublished": "2026-05-08T12:00:00+02:00",
-                        "author": { "@type": "Organization", "name": "Empowers" },
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "Empowers",
-                            "url": "https://www.empowers.nl",
-                            "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" }
+                <script type="application/ld+json">{JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "TikTok Ads voor B2B: onverwacht effectief",
+                            "description": "Waarom B2B-decision-makers op TikTok zitten en hoe je B2B-campagnes opzet die leads opleveren.",
+                            "image": "https://www.empowers.nl/images/blogs/tiktok-ads-b2b-onverwacht-effectief.jpg",
+                            "datePublished": "2026-05-08T12:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Werkt TikTok echt voor B2B?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Ja, voor het juiste type B2B. Vooral voor SaaS, professional services en producten waar emotionele branding telt. Het werkt minder voor heel niche-industrial of complexe enterprise-software waar de besluitvorming volledig binnen ingekochte buyer groups loopt. Maar de groep B2B-bedrijven die wel kan landen op TikTok is groter dan de meeste marketeers denken."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke B2B-doelen passen bij TikTok Ads?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Brand-awareness, demand generation en thought leadership werken het sterkst. Pure leadgeneratie kan, maar wordt vaak duurder dan via LinkedIn. De magie van TikTok zit in de fase voordat iemand actief gaat zoeken: je merk zaaien op het moment dat decision makers ontspannen scrollen, zodat ze maanden later jouw naam herkennen tijdens een Google Ads-zoektocht."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe target je decision makers op TikTok?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet via beroepstargeting (zoals LinkedIn). Wel via interesses (business, productivity, finance) gecombineerd met leeftijd en device-niveau. Aangevuld met custom audiences uit je CRM en lookalikes op je beste klanten. Vergeet de directe job-title-filter en richt je op gedragspatronen die decision makers vertonen op het platform."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke creatieve hoek werkt het best voor B2B?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Educatieve content. Niet polished, niet sales-y. Korte uitlegvideo's, 'this is what nobody tells you about'-hoeken, achter-de-schermen-momenten van een founder, klantverhalen in 30 seconden. Authenticiteit weegt zwaar. Een CEO die in zijn auto opneemt presteert vaak beter dan een gepolishte studio-productie van duizend euro."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wat kost TikTok B2B?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "CPM's voor B2B-content op TikTok lopen doorgaans tussen drie en zeven euro per duizend vertoningen. Dat is fors lager dan LinkedIn waar dezelfde duizend impressies twee tot vijf keer meer kosten. CPL ligt hoger dan een directe LinkedIn-leadcampagne, maar je betaalt voor brand-impact die op LinkedIn nooit zo goedkoop binnen te halen is."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Moet ik LinkedIn vervangen door TikTok?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Nee. Combineer ze. LinkedIn voor lower-funnel leadgeneratie en account-based werk waar je precies wie je wilt aanspreken. TikTok voor de fase ervoor: brand-recall opbouwen en in-market komen voordat de buyer aanvankelijk actief gaat zoeken. De ene kanalen versterkt de andere."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe meet je impact van TikTok B2B-campagnes?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Niet alleen via last-click. B2B-funnels lopen weken tot maanden, dus directe attributie onderschat de waarde stelselmatig. Werk met view-through-windows van 7 of 28 dagen, kijk naar branded-search-volume tijdens campagne-vlagen, en hou je lead-quality-score per kanaal bij. Een goed dashboard combineert TikTok-impressies met je CRM-data."
+                                        }
+                                    }
+                                ]
+                            }
                         },
-                        "mainEntity": {
-                            "@type": "FAQPage",
-                            "mainEntity": [
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
                                 {
-                                    "@type": "Question",
-                                    "name": "Werkt TikTok echt voor B2B?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Ja, voor het juiste type B2B. Vooral voor SaaS, professional services en producten waar emotionele branding telt. Het werkt minder voor heel niche-industrial of complexe enterprise-software waar de besluitvorming volledig binnen ingekochte buyer groups loopt. Maar de groep B2B-bedrijven die wel kan landen op TikTok is groter dan de meeste marketeers denken."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke B2B-doelen passen bij TikTok Ads?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Brand-awareness, demand generation en thought leadership werken het sterkst. Pure leadgeneratie kan, maar wordt vaak duurder dan via LinkedIn. De magie van TikTok zit in de fase voordat iemand actief gaat zoeken: je merk zaaien op het moment dat decision makers ontspannen scrollen, zodat ze maanden later jouw naam herkennen tijdens een Google Ads-zoektocht."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Hoe target je decision makers op TikTok?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet via beroepstargeting (zoals LinkedIn). Wel via interesses (business, productivity, finance) gecombineerd met leeftijd en device-niveau. Aangevuld met custom audiences uit je CRM en lookalikes op je beste klanten. Vergeet de directe job-title-filter en richt je op gedragspatronen die decision makers vertonen op het platform."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Social Ads",
+                                    "item": "https://www.empowers.nl/blogs/social-ads"
                                 },
                                 {
-                                    "@type": "Question",
-                                    "name": "Welke creatieve hoek werkt het best voor B2B?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Educatieve content. Niet polished, niet sales-y. Korte uitlegvideo's, 'this is what nobody tells you about'-hoeken, achter-de-schermen-momenten van een founder, klantverhalen in 30 seconden. Authenticiteit weegt zwaar. Een CEO die in zijn auto opneemt presteert vaak beter dan een gepolishte studio-productie van duizend euro."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Wat kost TikTok B2B?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "CPM's voor B2B-content op TikTok lopen doorgaans tussen drie en zeven euro per duizend vertoningen. Dat is fors lager dan LinkedIn waar dezelfde duizend impressies twee tot vijf keer meer kosten. CPL ligt hoger dan een directe LinkedIn-leadcampagne, maar je betaalt voor brand-impact die op LinkedIn nooit zo goedkoop binnen te halen is."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Moet ik LinkedIn vervangen door TikTok?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Nee. Combineer ze. LinkedIn voor lower-funnel leadgeneratie en account-based werk waar je precies wie je wilt aanspreken. TikTok voor de fase ervoor: brand-recall opbouwen en in-market komen voordat de buyer aanvankelijk actief gaat zoeken. De ene kanalen versterkt de andere."
-                                    }
-                                },
-                                {
-                                    "@type": "Question",
-                                    "name": "Hoe meet je impact van TikTok B2B-campagnes?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "Niet alleen via last-click. B2B-funnels lopen weken tot maanden, dus directe attributie onderschat de waarde stelselmatig. Werk met view-through-windows van 7 of 28 dagen, kijk naar branded-search-volume tijdens campagne-vlagen, en hou je lead-quality-score per kanaal bij. Een goed dashboard combineert TikTok-impressies met je CRM-data."
-                                    }
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "TikTok Ads voor B2B",
+                                    "item": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-b2b-onverwacht-effectief"
                                 }
                             ]
                         }
-                    })}
-                </script>
+                    ]
+                })}</script>
 
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "BreadcrumbList",
-                        "itemListElement": [
-                            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                            { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                            { "@type": "ListItem", "position": 3, "name": "Social Ads", "item": "https://www.empowers.nl/blogs/social-ads" },
-                            { "@type": "ListItem", "position": 4, "name": "TikTok Ads voor B2B", "item": "https://www.empowers.nl/blogs/social-ads/tiktok-ads-b2b-onverwacht-effectief" }
-                        ]
-                    })}
-                </script>
             </Helmet>
 
             <Navbar />

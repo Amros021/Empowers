@@ -23,36 +23,110 @@ export default function BlogPostSeaUitbesteden2026AiAutomatisering() {
                 <meta property="article:section" content="Google Ads" />
 
                 <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "Article",
-                    "headline": "SEA uitbesteden in 2026: wat verandert er door AI en automatisering?",
-                    "description": "Hoe AI de rol van een SEA-bureau heeft veranderd en wat dat betekent voor MKB-bedrijven.",
-                    "image": "https://www.empowers.nl/images/blogs/sea-uitbesteden-2026-ai-automatisering.jpg",
-                    "datePublished": "2026-05-13T15:00:00+02:00",
-                    "author": { "@type": "Organization", "name": "Empowers" },
-                    "publisher": { "@type": "Organization", "name": "Empowers", "url": "https://www.empowers.nl",
-                        "logo": { "@type": "ImageObject", "url": "https://www.empowers.nl/empowers-logo-color.svg" } },
-                    "mainEntity": { "@type": "FAQPage", "mainEntity": [
-                        { "@type": "Question", "name": "Hoe heeft AI SEA veranderd?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "AI heeft het uitvoerende werk in SEA grotendeels overgenomen. Smart Bidding stuurt bodprijzen, Performance Max kiest creatives en placements, en generatieve AI schrijft advertentieteksten. Wat overblijft voor mensen is strategie, account-architectuur en conversietracking, plus het beoordelen van wat het algoritme oplevert. Het uitvoerende deel is minder werk geworden, het strategische deel waardevoller." } },
-                        { "@type": "Question", "name": "Heb ik nog een SEA-bureau nodig als AI alles automatiseert?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "AI automatiseert uitvoerend werk, geen strategie. De vragen waar AI geen antwoord op geeft: welke campagnes moet je überhaupt draaien, hoe richt je conversietracking goed in, welke audiences voer je als signaal en hoe verdeel je budget over kanalen? Voor die strategische beslissingen blijft menselijke expertise nodig. AI maakt SEA niet eenvoudiger, het maakt de verkeerde keuzes goedkoper en de juiste keuzes belangrijker." } },
-                        { "@type": "Question", "name": "Welke vragen stel ik aan een SEA-bureau in 2026?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Vraag specifiek hoe ze omgaan met Smart Bidding, Performance Max en generatieve assets. Welke AI-tools gebruiken ze zelf bovenop Google's eigen automatisering? Hoe valideren ze of het algoritme echt iets toevoegt of alleen omzet toe-eigent die toch al kwam? Antwoorden op deze vragen scheiden bureaus die AI begrijpen van bureaus die hem alleen ondergaan." } },
-                        { "@type": "Question", "name": "Wordt SEA goedkoper door AI?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor het bureau wel: minder handwerk per campagne. Voor jou doorgaans niet of nauwelijks. Het zwaartepunt van het werk verschuift van uitvoering naar strategie, conversiemeting en interpretatie van AI-output. Een bureau dat zijn fees verlaagt omdat AI uitvoering doet, levert in 2026 meestal te weinig strategisch werk." } },
-                        { "@type": "Question", "name": "Welke skills zijn belangrijker geworden?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Conversietracking en attributie, omdat AI alleen werkt als de signalen die je hem voert kloppen. Strategische account-architectuur, omdat een verkeerd opgebouwd account ook met AI niet rendabel wordt. Creative briefing en review, omdat generatieve AI veel maakt maar selectie wat werkt blijft mensenwerk. Het ambacht is verschoven naar de randen van wat AI doet." } },
-                        { "@type": "Question", "name": "Kan ik SEA helemaal zelf doen met AI-tools?",
-                          "acceptedAnswer": { "@type": "Answer", "text": "Voor zeer kleine campagnes met klein budget en eenvoudige doelen kan dat steeds beter, mits je tijd hebt om de strategische keuzes zelf te leren. Voor MKB met serieus budget (boven 3.000 euro mediabudget per maand) blijft uitbesteden of coaching meestal rendabeler omdat de strategische fouten die je zelf maakt vaak duurder zijn dan de fee van een goed bureau." } }
-                    ] }
-                })}</script>
-                <script type="application/ld+json">{JSON.stringify({
-                    "@context": "https://schema.org", "@type": "BreadcrumbList",
-                    "itemListElement": [
-                        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.empowers.nl" },
-                        { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.empowers.nl/blogs" },
-                        { "@type": "ListItem", "position": 3, "name": "Google Ads", "item": "https://www.empowers.nl/blogs/google-ads" },
-                        { "@type": "ListItem", "position": 4, "name": "SEA uitbesteden in 2026", "item": "https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-2026-ai-automatisering" }
+                    "@context": "https://schema.org",
+                    "@graph": [
+                        {
+                            "@type": "Article",
+                            "headline": "SEA uitbesteden in 2026: wat verandert er door AI en automatisering?",
+                            "description": "Hoe AI de rol van een SEA-bureau heeft veranderd en wat dat betekent voor MKB-bedrijven.",
+                            "image": "https://www.empowers.nl/images/blogs/sea-uitbesteden-2026-ai-automatisering.jpg",
+                            "datePublished": "2026-05-13T15:00:00+02:00",
+                            "author": {
+                                "@type": "Organization",
+                                "name": "Empowers"
+                            },
+                            "publisher": {
+                                "@type": "Organization",
+                                "name": "Empowers",
+                                "url": "https://www.empowers.nl",
+                                "logo": {
+                                    "@type": "ImageObject",
+                                    "url": "https://www.empowers.nl/empowers-logo-color.svg"
+                                }
+                            },
+                            "mainEntity": {
+                                "@type": "FAQPage",
+                                "mainEntity": [
+                                    {
+                                        "@type": "Question",
+                                        "name": "Hoe heeft AI SEA veranderd?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "AI heeft het uitvoerende werk in SEA grotendeels overgenomen. Smart Bidding stuurt bodprijzen, Performance Max kiest creatives en placements, en generatieve AI schrijft advertentieteksten. Wat overblijft voor mensen is strategie, account-architectuur en conversietracking, plus het beoordelen van wat het algoritme oplevert. Het uitvoerende deel is minder werk geworden, het strategische deel waardevoller."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Heb ik nog een SEA-bureau nodig als AI alles automatiseert?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "AI automatiseert uitvoerend werk, geen strategie. De vragen waar AI geen antwoord op geeft: welke campagnes moet je überhaupt draaien, hoe richt je conversietracking goed in, welke audiences voer je als signaal en hoe verdeel je budget over kanalen? Voor die strategische beslissingen blijft menselijke expertise nodig. AI maakt SEA niet eenvoudiger, het maakt de verkeerde keuzes goedkoper en de juiste keuzes belangrijker."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke vragen stel ik aan een SEA-bureau in 2026?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Vraag specifiek hoe ze omgaan met Smart Bidding, Performance Max en generatieve assets. Welke AI-tools gebruiken ze zelf bovenop Google's eigen automatisering? Hoe valideren ze of het algoritme echt iets toevoegt of alleen omzet toe-eigent die toch al kwam? Antwoorden op deze vragen scheiden bureaus die AI begrijpen van bureaus die hem alleen ondergaan."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Wordt SEA goedkoper door AI?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor het bureau wel: minder handwerk per campagne. Voor jou doorgaans niet of nauwelijks. Het zwaartepunt van het werk verschuift van uitvoering naar strategie, conversiemeting en interpretatie van AI-output. Een bureau dat zijn fees verlaagt omdat AI uitvoering doet, levert in 2026 meestal te weinig strategisch werk."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Welke skills zijn belangrijker geworden?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Conversietracking en attributie, omdat AI alleen werkt als de signalen die je hem voert kloppen. Strategische account-architectuur, omdat een verkeerd opgebouwd account ook met AI niet rendabel wordt. Creative briefing en review, omdat generatieve AI veel maakt maar selectie wat werkt blijft mensenwerk. Het ambacht is verschoven naar de randen van wat AI doet."
+                                        }
+                                    },
+                                    {
+                                        "@type": "Question",
+                                        "name": "Kan ik SEA helemaal zelf doen met AI-tools?",
+                                        "acceptedAnswer": {
+                                            "@type": "Answer",
+                                            "text": "Voor zeer kleine campagnes met klein budget en eenvoudige doelen kan dat steeds beter, mits je tijd hebt om de strategische keuzes zelf te leren. Voor MKB met serieus budget (boven 3.000 euro mediabudget per maand) blijft uitbesteden of coaching meestal rendabeler omdat de strategische fouten die je zelf maakt vaak duurder zijn dan de fee van een goed bureau."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https://www.empowers.nl"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blogs",
+                                    "item": "https://www.empowers.nl/blogs"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 3,
+                                    "name": "Google Ads",
+                                    "item": "https://www.empowers.nl/blogs/google-ads"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 4,
+                                    "name": "SEA uitbesteden in 2026",
+                                    "item": "https://www.empowers.nl/blogs/google-ads/sea-uitbesteden-2026-ai-automatisering"
+                                }
+                            ]
+                        }
                     ]
                 })}</script>
                     <meta name="twitter:card" content="summary_large_image" />
